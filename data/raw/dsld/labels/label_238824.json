@@ -1,0 +1,569 @@
+{
+  "src": "01-raw/2024-12-21/data/label_20.json",
+  "id": 238824,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Advanced Omega-3",
+  "brandName": "Cooper Complete",
+  "brandIpSymbol": "®",
+  "upcSku": "8 16899 00009 6",
+  "productVersionCode": "Formula #MNSG-222 V0719",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 23355
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 264684
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 82759
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 156890
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 303452
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9903,
+      "text": "Manufactured for:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9903,
+        "name": "Cooper Concepts, Inc.",
+        "streetAddress": "12330 Preston Road",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "",
+        "zipCode": "75230",
+        "phoneNumber": "888-393-2221",
+        "email": "",
+        "webAddress": "coopercomplete.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Softgel(s)",
+      "display": "60 Softgel(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0161",
+    "langualCodeDescription": "Softgel Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Softgel(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1310",
+    "langualCodeDescription": "Fat/Fatty Acid"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Usage: As a dietary supplement, take two (2) softgels daily with a meal or as directed by your health care professional."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "This product contains no yeast, wheat, gluten, milk/dairy, corn, sodium, sugar, starch, artificial coloring, preservatives or flavoring."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "This fish oil is in the superior triglyceride form of optimal absorption. Oil from wild ocean caught anchovy, sardine and mackerel is molecularly distilled to remove contaminants."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Storage",
+      "notes": "For optimal storage conditions, store in a cool, dry place.\n(59 degrees-77 degrees F/15 degrees-25 degrees C) (35-65% relative humidity)"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper resistant - Do not use if imprinted safety seal under cap is broken or missing."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Physician Formulated\nCooper Aerobics Health & Wellness"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Product of USA"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Physician formulated for optimal health"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "1,400 mg Omega-3\n720 mg EPA & 480 mg DHA"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-10-08",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-12-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": "Calories Note: energy ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 18586,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 2.5,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 3,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 3675,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Cholesterol",
+      "category": "fat",
+      "ingredientGroup": "Cholesterol",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 43084,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "<",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Protein",
+      "category": "protein",
+      "ingredientGroup": "Protein (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 5,
+      "ingredientId": 285566,
+      "description": "",
+      "notes": "Total Omega-3 Fatty Acids (Form: as TG) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1400,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 6,
+          "ingredientId": 285062,
+          "description": "",
+          "notes": "EPA (Form: as TG) (Alt. Name: Eicosapentaenoic Acid) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 720,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Eicosapentaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "EPA (Eicosapentaenoic Acid)",
+          "uniiCode": "AAN7QOV9EA",
+          "alternateNames": [
+            "C20:5n-3",
+            "EPA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 284949,
+          "description": "",
+          "notes": "DHA (Form: as TG) (Alt. Name: Docosahexaenoic Acid) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 480,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Docosahexaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "DHA (Docosahexaenoic Acid)",
+          "uniiCode": "ZAD9OKH9JC",
+          "alternateNames": [
+            "C22:6n-3",
+            "DHA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 285537,
+          "description": "",
+          "notes": "Additional Omega-3 Fatty Acids (Form: as TG) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 200,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Other Omega-3 Fatty Acids",
+          "category": "fatty acid",
+          "ingredientGroup": "Omega-3",
+          "uniiCode": "71M78END5S",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Omega-3 Fatty Acids",
+      "category": "fatty acid",
+      "ingredientGroup": "Omega-3",
+      "uniiCode": "71M78END5S",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 264034,
+        "name": "concentrated Triglyceride",
+        "category": "fat",
+        "ingredientGroup": "Triglycerides",
+        "uniiCode": null,
+        "alternateNames": [
+          "TG"
+        ],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 227730,
+        "name": "Fish Oil",
+        "category": "fat",
+        "ingredientGroup": "Fish Oil",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 199543,
+            "prefix": null,
+            "percent": null,
+            "name": "Anchovy",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 227731,
+            "prefix": null,
+            "percent": null,
+            "name": "Mackerel",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 4808,
+            "prefix": null,
+            "percent": null,
+            "name": "Sardine",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 53359,
+        "name": "Capsule shell",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 27352,
+            "prefix": null,
+            "percent": null,
+            "name": "Gelatin",
+            "category": "protein",
+            "ingredientGroup": "Gelatin",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 3985,
+            "prefix": null,
+            "percent": null,
+            "name": "Glycerin",
+            "category": "other",
+            "ingredientGroup": "Glycerol",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 12165,
+            "prefix": null,
+            "percent": null,
+            "name": "purified Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "ingredientId": 5920,
+        "name": "natural Lemon flavor",
+        "category": "botanical",
+        "ingredientGroup": "Lemon",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 131883,
+        "name": "Proprietary Antioxidant Blend",
+        "category": "blend",
+        "ingredientGroup": "Proprietary Blend (Combination)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 278748,
+            "prefix": "and",
+            "percent": null,
+            "name": "Ascorbyl Palmitate",
+            "category": "vitamin",
+            "ingredientGroup": "Vitamin C",
+            "uniiCode": "QN83US2B0N"
+          },
+          {
+            "order": 2,
+            "ingredientId": 52783,
+            "prefix": "consisting of",
+            "percent": null,
+            "name": "natural Tocopherols",
+            "category": "vitamin",
+            "ingredientGroup": "Vitamin E (mixed tocopherols)",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 4138,
+            "prefix": null,
+            "percent": null,
+            "name": "Rosemary extract",
+            "category": "botanical",
+            "ingredientGroup": "Rosemary ",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-12-26"
+}

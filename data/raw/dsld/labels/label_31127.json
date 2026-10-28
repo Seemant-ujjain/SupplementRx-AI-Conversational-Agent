@@ -1,0 +1,938 @@
+{
+  "src": "01-raw/2025-09-25/data/label_118.json",
+  "id": 31127,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Creatine Fruit Punch",
+  "brandName": "GNC Accelerator",
+  "brandIpSymbol": "™",
+  "upcSku": "0 48107 13600 0",
+  "productVersionCode": "CODE 370092 JOG",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "24",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Value based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Flavor difference",
+      "labelId": 31129
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 1193,
+      "text": "For More Information",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1193,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-888-462-2548",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 1249,
+      "text": "SHOP NOW @",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1249,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "GNC.COM"
+      }
+    },
+    {
+      "contactId": 2550,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2550,
+        "name": "General Nutrition Corporation",
+        "streetAddress": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "",
+        "zipCode": "15222",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 9.03,
+      "unit": "oz.",
+      "display": "9.03 oz."
+    },
+    {
+      "order": 2,
+      "quantity": 255.96,
+      "unit": "Gram(s)",
+      "display": "255.96 Gram(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0162",
+    "langualCodeDescription": "Powder"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 10.67,
+      "maxQuantity": 10.67,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Gram(s)",
+      "notes": "1 scoop",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Creatine MagnaPower is a registered trademark of Albion Laboratories, Inc. Covered by U.S. Patent 6,114,379."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "+ INCREASE Strength & Performance with Advanced Micro-Peptide Creatine Complex\n+ENHANCE Power & Nutrient Delivery to Fuel Lean Muscle & Endurance\nADD TO YOUR PROTEIN, AMINOS OR PRE-POST-WORKOUT SUPPLEMENTS TO AMPLIFY RESULTS"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Natural & Artificial Flavors"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "BANNED SUBSTANCE FREE"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "SUPPLEMENT SUPERCHARGER"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "GNC Accelerator Series(TM) is a completely new approach to customizing your supplement regimen."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: Consult your physician prior to using this product if you are pregnant, nursing, under the age of 18, taking medication, or have a medical condition."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "WARNING: Consult your physician prior to using this product if you are pregnant, nursing, under the age of 18, taking medication, or have a medical condition."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "NEW SUPPLEMENT SUPERCHARGER"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "MASS GAINER Supplement + {image} = IMPROVED STRENGTH GAINS\n"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "SERVING SUGGESTION"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "CREATINE MagnaPower"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: As a dietary supplement, add one scoop (10.67 g) to your protein, amino or pre/post-workout supplement^ to amplify your results. You may need to increase or decrease liquid to modify taste to your liking. You can mix with water or add to similarly flavored supplements."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not exceed more than one serving daily."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "CONTAINS: Milk."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "CONTAINS: Milk."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use two weeks prior to surgery."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "NOTICE: Significant product settling may occur."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Instantly Supercharge Your Supplements"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Product was tested for over 145 banned substances on the 2013 World Anti-Doping Agency (WADA) Prohibited List via HFL skip lot testing protocol #ICP0307. See gnc.com for more information."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "^This product is not intended to be stacked with other creatine-containing supplements."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "CODE 370092 JOG"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Simply add to any of the powder products you are currently using and amplify your results."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Each premium formula is equipped with advanced micro-peptide complexes to facilitate absorption and nutrient delivery plus accelerator blends selected to supercharge results and powerful antioxidants to protect against muscle cell damage that result from intense training. Combine GNC Accelerator Creatine to enhance performance and increase strength. Fully customize your recipe to best meet your specific goals."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-12-19",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-03-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "{Calories}",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 283702,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 293230,
+      "description": null,
+      "notes": "Calcium (Form: as Dicalcium Phosphate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 40,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 4,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": "SY7Q814VUP",
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 281031,
+          "prefix": null,
+          "percent": null,
+          "name": "Dicalcium Phosphate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "L11K75P92J"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "ingredientId": 100000,
+      "description": null,
+      "notes": "Phosphorus (Form: as Dicalcium {Phosphate}, & Dipotassium Phosphate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 70,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 7,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Phosphorus",
+      "category": "mineral",
+      "ingredientGroup": "Phosphorus",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 85824,
+          "prefix": "as",
+          "percent": null,
+          "name": "Dicalcium {Phosphate}",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 32206,
+          "prefix": "&",
+          "percent": null,
+          "name": "Dipotassium Phosphate",
+          "category": "mineral",
+          "ingredientGroup": "Potassium",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "ingredientId": 81199,
+      "description": null,
+      "notes": "Magnesium (Form: as Creatine MagnaPower (Alt. Name: Magnesium Creatine Chelate)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 120,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 30,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 9700,
+          "prefix": "as",
+          "percent": null,
+          "name": "Creatine MagnaPower",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium Creatine",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 292597,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 0,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Sodium",
+      "category": "mineral",
+      "ingredientGroup": "Sodium",
+      "uniiCode": "9NEZ333N27",
+      "alternateNames": [
+        "Na"
+      ],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 59878,
+      "description": null,
+      "notes": "Potassium (Form: as Dipotassium Phosphate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 60,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Potassium",
+      "category": "mineral",
+      "ingredientGroup": "Potassium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 32206,
+          "prefix": "as",
+          "percent": null,
+          "name": "Dipotassium Phosphate",
+          "category": "mineral",
+          "ingredientGroup": "Potassium",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "ingredientId": 100001,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 9,
+          "ingredientId": 100607,
+          "description": null,
+          "notes": "Creatine (Form: as Magnesium Creatine Chelate (Alt. Name: Creatine MagnaPower(R)), Creatine HCl, Creatine Anhydrous, Micronized Creatine Monohydrate) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 10.67,
+              "operator": "=",
+              "quantity": 5,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Creatine",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Creatine",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 68427,
+              "prefix": null,
+              "percent": null,
+              "name": "Creatine Anhydrous",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Creatine",
+              "uniiCode": null
+            },
+            {
+              "order": 2,
+              "ingredientId": 6225,
+              "prefix": null,
+              "percent": null,
+              "name": "Creatine HCl",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Creatine",
+              "uniiCode": null
+            },
+            {
+              "order": 3,
+              "ingredientId": 100003,
+              "prefix": "as",
+              "percent": null,
+              "name": "Magnesium Creatine Chelate",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Magnesium Creatine",
+              "uniiCode": null
+            },
+            {
+              "order": 4,
+              "ingredientId": 6300,
+              "prefix": null,
+              "percent": null,
+              "name": "micronized Creatine Monohydrate",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Creatine",
+              "uniiCode": null
+            }
+          ]
+        },
+        {
+          "order": 10,
+          "ingredientId": 100002,
+          "description": null,
+          "notes": "Creatine Precursor Peptide (Form: as Hydrolyzed Whey Peptides) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 10.67,
+              "operator": "=",
+              "quantity": 500,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Creatine Precursor Peptide",
+          "category": "protein",
+          "ingredientGroup": "Whey Protein",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 11495,
+              "prefix": "as",
+              "percent": null,
+              "name": "hydrolyzed Whey Peptides",
+              "category": "protein",
+              "ingredientGroup": "Whey Protein",
+              "uniiCode": null
+            }
+          ]
+        }
+      ],
+      "name": "Micro-Peptide Creatine Complex",
+      "category": "blend",
+      "ingredientGroup": "Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 11,
+      "ingredientId": 100004,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10.67,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 12,
+          "ingredientId": 288243,
+          "description": null,
+          "notes": "Arginine (Form: as L-Arginine, Micronized Arginine, and Hydrolyzed Whey Peptides) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 10.67,
+              "operator": "=",
+              "quantity": 1,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Arginine",
+          "category": "amino acid",
+          "ingredientGroup": "Arginine",
+          "uniiCode": "94ZLA3W45F",
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 285879,
+              "prefix": null,
+              "percent": null,
+              "name": "L-Arginine",
+              "category": "amino acid",
+              "ingredientGroup": "Arginine",
+              "uniiCode": "94ZLA3W45F"
+            },
+            {
+              "order": 2,
+              "ingredientId": 285876,
+              "prefix": null,
+              "percent": null,
+              "name": "L-Arginine, Micronized",
+              "category": "amino acid",
+              "ingredientGroup": "Arginine",
+              "uniiCode": "94ZLA3W45F"
+            },
+            {
+              "order": 3,
+              "ingredientId": 286531,
+              "prefix": null,
+              "percent": null,
+              "name": "Whey Peptides, Hydrolyzed",
+              "category": "protein",
+              "ingredientGroup": "Whey Protein",
+              "uniiCode": "0"
+            }
+          ]
+        },
+        {
+          "order": 13,
+          "ingredientId": 100006,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 10.67,
+              "operator": "=",
+              "quantity": 50,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Russian Tarragon",
+          "category": "botanical",
+          "ingredientGroup": "French Tarragon",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 14,
+          "ingredientId": 91761,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 10.67,
+              "operator": "=",
+              "quantity": 50,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sicilian Blood Orange fruit & peel extract",
+          "category": "botanical",
+          "ingredientGroup": "Sweet Orange",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 15,
+          "ingredientId": 6436,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 10.67,
+              "operator": "=",
+              "quantity": 25,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Beet root powder",
+          "category": "botanical",
+          "ingredientGroup": "Beet",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "N.O. Pump Charger",
+      "category": "other",
+      "ingredientGroup": "Header",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4071,
+        "name": "Natural & Artificial flavors",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3677,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 13630,
+        "name": "Malic Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Malic Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 3664,
+        "name": "Calcium Silicate",
+        "category": "other",
+        "ingredientGroup": "Calcium Silicate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 3794,
+        "name": "Sucralose",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Sucralose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 4728,
+        "name": "Acesulfame Potassium",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Acesulfame potassium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 100007,
+        "name": "Polysorbate",
+        "category": "other",
+        "ingredientGroup": "Polysorbate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 3966,
+        "name": "FD&C Red #40",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-03-25"
+}

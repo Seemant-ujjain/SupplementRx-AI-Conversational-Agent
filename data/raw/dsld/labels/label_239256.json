@@ -1,0 +1,861 @@
+{
+  "src": "01-raw/2024-12-21/data/label_358.json",
+  "id": 239256,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Omega-3 Pina Colada",
+  "brandName": "Barlean's Seriously Delicious",
+  "brandIpSymbol": "none",
+  "upcSku": "7 05875 60013 2",
+  "productVersionCode": "LA-00258-10",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "29",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values (DV) based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Flavor difference",
+      "labelId": 218732
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 314179
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 291834
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 239259
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 291836
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 291837
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 218746
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 314175
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 239255
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 218715
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 291836
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 314177
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7628,
+      "text": "Learn more about a pathway to a better life",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7628,
+        "name": "Barlean's",
+        "streetAddress": "",
+        "city": "Ferndale",
+        "state": "WA",
+        "country": "",
+        "zipCode": "98248",
+        "phoneNumber": "800-455-3529",
+        "email": "",
+        "webAddress": "barleans.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 16,
+      "unit": "Oz(s)",
+      "display": "16 Oz(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 1,
+      "unit": "lb(s)",
+      "display": "1 lb(s)"
+    },
+    {
+      "order": 3,
+      "quantity": 454,
+      "unit": "Gram(s)",
+      "display": "454 Gram(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 15,
+      "maxQuantity": 15,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "mL",
+      "notes": "1 Tbsp",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Children 4 or More Years of Age",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1310",
+    "langualCodeDescription": "Fat/Fatty Acid"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Hello!\nWe're Barlean's and we make premium foods and nutritional supplements here in the Pacific Northwest. Our family business has grown a lot in 25+ years, but we still do things our way:\nCreate seriously delicious ways for people to get essential nutrients"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Use only ultra-purified fish oils, free of mercury and other heavy metals"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Share our profits to help people locally and around the world\nWe're glad you're giving us a try & feel pretty good that you'll try us again!"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "3x better absorption\nOur special emulsified formula is absorbed better than traditional fish oil or softgels, so you get more of the Omega-3s your body needs."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Sweet taste & creamy texture"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No artificial flavors or colors"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: Adults & children ages 4 and up. 1 Tbsp daily. Great or in yogurt, oatmeal or smoothies.\nSpoon\nTop\nBlend"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children and never give to pets."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Keep out of reach of children and never give to pets."
+    },
+    {
+      "type": "Storage",
+      "notes": "Refrigerate after opening"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Shake well"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Estd 1989 Barlean's"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "From fish oil\nOmega-3\nEPA/DHA\n1,080 mg"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Natural fruit flavor"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "3x better absorption"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Taste the fruit, not the fish"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Dairy free\nSugar free\nGluten free\nNon-GMO\t\n"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Product of U.S.A."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-05-04",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-11-21",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 15,
+          "operator": "=",
+          "quantity": 60,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 43077,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 15,
+          "operator": "=",
+          "quantity": 4,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 5,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 18184,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 1,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": 5,
+                  "footnote": null
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Saturated Fat",
+          "category": "fat",
+          "ingredientGroup": "Saturated fat",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 17492,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 1.5,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Polyunsaturated Fat",
+          "category": "fat",
+          "ingredientGroup": "Polyunsaturated Fat",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 8154,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 1,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Monounsaturated Fat",
+          "category": "fat",
+          "ingredientGroup": "Monounsaturated Fat",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 6,
+      "ingredientId": 3675,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 15,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 9,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Cholesterol",
+      "category": "fat",
+      "ingredientGroup": "Cholesterol",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 283702,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 15,
+          "operator": "=",
+          "quantity": 6,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 8,
+          "ingredientId": 283759,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [
+            {
+              "order": 9,
+              "ingredientId": 283687,
+              "description": null,
+              "notes": null,
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 15,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "Gram(s)",
+                  "dailyValueTargetGroup": [
+                    {
+                      "name": "Adults and children 4 or more years of age",
+                      "operator": "=",
+                      "percent": 0,
+                      "footnote": null
+                    }
+                  ],
+                  "servingSizeUnit": "mL"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Added Sugars",
+              "category": "sugar",
+              "ingredientGroup": "Sugar",
+              "uniiCode": "0",
+              "alternateNames": [],
+              "forms": []
+            }
+          ],
+          "name": "Total Sugars",
+          "category": "sugar",
+          "ingredientGroup": "Sugar",
+          "uniiCode": "1",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 10,
+          "ingredientId": 4381,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 5,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sugar Alcohol",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Sugar Alcohol",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 11,
+      "ingredientId": 285292,
+      "description": null,
+      "notes": "Omega-3 Polyunsaturated Fat",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 15,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 12,
+          "ingredientId": 285062,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 660,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Eicosapentaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "EPA (Eicosapentaenoic Acid)",
+          "uniiCode": "AAN7QOV9EA",
+          "alternateNames": [
+            "C20:5n-3",
+            "EPA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 13,
+          "ingredientId": 284949,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 420,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Docosahexaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "DHA (Docosahexaenoic Acid)",
+          "uniiCode": "ZAD9OKH9JC",
+          "alternateNames": [
+            "C22:6n-3",
+            "DHA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 14,
+          "ingredientId": 285537,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 15,
+              "operator": "=",
+              "quantity": 270,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily value (DV) not established."
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Other Omega-3 Fatty Acids",
+          "category": "fatty acid",
+          "ingredientGroup": "Omega-3",
+          "uniiCode": "71M78END5S",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Omega-3 Fatty Acids",
+      "category": "fatty acid",
+      "ingredientGroup": "Omega-3",
+      "uniiCode": "71M78END5S",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 48942,
+        "name": "Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 127939,
+        "name": "Fish Oil",
+        "category": "fat",
+        "ingredientGroup": "Fish Oil",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 36682,
+            "prefix": null,
+            "percent": null,
+            "name": "Anchovy",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 36685,
+            "prefix": "and/or",
+            "percent": null,
+            "name": "Mackerel",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 36687,
+            "prefix": null,
+            "percent": null,
+            "name": "Sardine",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 34718,
+        "name": "Xylitol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Xylitol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 86880,
+        "name": "Glycerine",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 36252,
+        "name": "Gum Arabic",
+        "category": "botanical",
+        "ingredientGroup": "Acacia",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 46052,
+        "name": "Natural flavors",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 38261,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 283063,
+        "name": "Xanthan Gum",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Xanthan Gum",
+        "uniiCode": "TTV12P4NEE",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 9,
+        "ingredientId": 244271,
+        "name": "Antioxidant Blend",
+        "category": "blend",
+        "ingredientGroup": "Blend (Combination)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 278748,
+            "prefix": "and",
+            "percent": null,
+            "name": "Ascorbyl Palmitate",
+            "category": "vitamin",
+            "ingredientGroup": "Vitamin C",
+            "uniiCode": "QN83US2B0N"
+          },
+          {
+            "order": 2,
+            "ingredientId": 3994,
+            "prefix": null,
+            "percent": null,
+            "name": "Green Tea extract",
+            "category": "botanical",
+            "ingredientGroup": "Green Tea",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 22277,
+            "prefix": null,
+            "percent": null,
+            "name": "Rosemary extract",
+            "category": "botanical",
+            "ingredientGroup": "Rosemary ",
+            "uniiCode": null
+          },
+          {
+            "order": 4,
+            "ingredientId": 280729,
+            "prefix": "as",
+            "percent": null,
+            "name": "Vitamin E",
+            "category": "vitamin",
+            "ingredientGroup": "Vitamin E",
+            "uniiCode": "H4N855PNZ1"
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "ingredientId": 49888,
+        "name": "Guar Gum",
+        "category": "fiber",
+        "ingredientGroup": "Guar",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 11,
+        "ingredientId": 68843,
+        "name": "Sorbic Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Sorbic Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-11-21"
+}

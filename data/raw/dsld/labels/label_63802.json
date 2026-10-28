@@ -1,0 +1,343 @@
+{
+  "src": "01-raw/2025-08-22/data/label_216.json",
+  "id": 63802,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Iron Bisglycinate",
+  "brandName": "Thorne Research",
+  "brandIpSymbol": "none",
+  "upcSku": "6 93749 00345 8",
+  "productVersionCode": "M226 LM22604",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 204360
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 193321
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 74382
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 63940
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 204338
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 63567
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 35553
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 204236
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 181918
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 204338
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 63567
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 35553
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 204236
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 181918
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 28305
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 24228
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 307617
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 50539
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 35447
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 28305
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 298071
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 284228
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 50539
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 35447
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 321969
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2416,
+      "text": "Manufactured by:",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2416,
+        "name": "Thorne Research, Inc.",
+        "streetAddress": "P.O. Box 25",
+        "city": "Dover",
+        "state": "Idaho",
+        "country": "USA",
+        "zipCode": "83825",
+        "phoneNumber": "1-800-228-1966",
+        "email": null,
+        "webAddress": "www.thorne.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "60 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Take 1 capsule daily or as recommended by your health-care practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper Evident: Use only if bottle is sealed."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store tightly sealed in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant, consult your health-care practitioner before using this product."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "This product uses Albion's Ferrochel Ferrous Bisglycinate chelate."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Ferrochel is a registered trademark of Albion Laboratories International, Inc."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose, call a doctor or a poison control center immediately."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Certification of Conformity of the child-proof closure with the Poison Prevention Packaging Act is available at www.thorne.com/iron_certification.html"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "NSF\nCertified for sport"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "M226 LM22604"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-10-30",
+      "type": "Off Market"
+    },
+    {
+      "date": "2016-08-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 71875,
+      "description": null,
+      "notes": "Iron (Form: as Ferrochel (Alt. Name: Ferrous Bisglycinate Chelate)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 139,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "as",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 111312,
+        "name": "Hypromellose (derived from Cellulose) Capsule",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 9747,
+            "prefix": "derived from",
+            "percent": null,
+            "name": "Cellulose",
+            "category": "fiber",
+            "ingredientGroup": "Cellulose",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 28392,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 285978,
+        "name": "Leucine",
+        "category": "amino acid",
+        "ingredientGroup": "Leucine",
+        "uniiCode": "GMW67QNF9C",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2016-08-24"
+}

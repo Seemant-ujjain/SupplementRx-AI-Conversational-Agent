@@ -1,0 +1,314 @@
+{
+  "src": "01-raw/2025-08-22/data/label_251.json",
+  "id": 183121,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium 3",
+  "brandName": "InterPlexus",
+  "brandIpSymbol": "™",
+  "upcSku": "7 66897 25866 4",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 337406
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 306814
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15686,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15686,
+        "name": "InterPlexus, Inc",
+        "streetAddress": "",
+        "city": "Kent",
+        "state": "WA",
+        "country": "",
+        "zipCode": "98032",
+        "phoneNumber": "1-800-875-0511",
+        "email": "",
+        "webAddress": "interplexus.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Capsule(s)",
+      "display": "90 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 3,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Take 1 capsule three times a day with a meal or as directed by your physician."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: If pregnant or nursing, consult your physician before using this or any other product.\t"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children.\t\n"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place.\t"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Manufactured in the USA in a GMP compliant facility.\t"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2017 InterPlexus, Inc."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement\t"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Highly bioavailable Magnesium compounds\n(Magnesium Citrate, Bisglycinate & Ascorbate)"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non-GMO I No excipients"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Dairy, soy, egg & gluten free.\t"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-02-16",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-11-21",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 205076,
+      "description": "",
+      "notes": "Magnesium (Form: as Trimagnesium Dicitrate Anhydrous, Magnesium Bisglycinate, Magnesium L-Ascorbate 2-Hydrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 106,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 27,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 99135,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Bisglycinate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 205078,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium L-Ascorbate 2-Hydrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 3,
+          "ingredientId": 205077,
+          "prefix": "as",
+          "percent": null,
+          "name": "Trimagnesium Dicitrate Anhydrous",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 37038,
+        "name": "Magnesium Carbonate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3677,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 286072,
+        "name": "Glycine",
+        "category": "amino acid",
+        "ingredientGroup": "Glycine",
+        "uniiCode": "TE7660XO1C",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 4755,
+        "name": "Magnesium Hydroxide",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 278604,
+        "name": "Ascorbic Acid",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin C",
+        "uniiCode": "PQ6CK8PD0R",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 205074,
+        "name": "Vegetarian Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 3721,
+            "prefix": null,
+            "percent": null,
+            "name": "Hypromellose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 3777,
+            "prefix": null,
+            "percent": null,
+            "name": "purified Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-11-21"
+}

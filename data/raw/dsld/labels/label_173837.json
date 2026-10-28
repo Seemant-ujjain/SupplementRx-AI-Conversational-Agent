@@ -1,0 +1,276 @@
+{
+  "src": "01-raw/2025-08-22/data/label_357.json",
+  "id": 173837,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Reacted Iron",
+  "brandName": "Ortho Molecular Products",
+  "brandIpSymbol": "®",
+  "upcSku": "6 15033 01259 5",
+  "productVersionCode": "Product #259060 Label ID L-OMP100-259060-I V2",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 94243
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9314,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9314,
+        "name": "Ortho Molecular Products, Inc.",
+        "streetAddress": "1991 Duncan Place",
+        "city": "Woodstock",
+        "state": "IL",
+        "country": "",
+        "zipCode": "60098",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "OrthoMolecularProducts.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Professional Strength: Not for sale through Amazon.com"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: 1 capsule per day or as recommended by your health care professional."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Formulated To Be Free Of Allergens Derived From: Gluten, yeast, artificial colors and flavors."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are pregnant or nursing, consult your physician before taking this product."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "As with all dietary supplements, some individuals may not tolerate or may be allergic to the ingredients used. Please read the ingredient panel carefully prior to ingestion. Cease taking this product and consult your physician if you have negative reactions upon ingestion."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep container tightly closed. Store at room temperature."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "This product was sealed for your protection. Do not use if outer logoed neck seal or inner-seal is missing or damaged."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Product #259060 Label ID L-OMP100-259060-I V2\n"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Vcaps"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Learn more\n"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not accept if label shows signs of tampering"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "VitaSecure"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Because efficacy matters"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Essential minerals"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Albion Minerals"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Ferrochel and the Albion Medallion design are registered trademarks of Albion Laboratories, Inc."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of overdose, call a doctor or poison control center immediately."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-02-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 165811,
+      "description": "",
+      "notes": "Iron (Form: as Ferrochel Ferrous Bisglycinate Chelate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 29,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 161,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "as",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 48547,
+        "name": "natural Vegetable Capsules",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 30788,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 80899,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2018-02-23"
+}

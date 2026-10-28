@@ -1,0 +1,410 @@
+{
+  "src": "01-raw/2025-08-22/data/label_216.json",
+  "id": 278513,
+  "nhanesId": "19688",
+  "bundleName": "",
+  "fullName": "Iron Complex",
+  "brandName": "Advanced Nutrition by Zahler",
+  "brandIpSymbol": "®",
+  "upcSku": "8 48998 08078 5",
+  "productVersionCode": "08078 001",
+  "pdf": "278513_document.pdf",
+  "thumbnail": "278513_thumbnail.jpg",
+  "servingsPerContainer": "100",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Percent Daily Value is based on a 2,000 calorie diet.",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 15058,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15058,
+        "name": "Advanced Nutrition by Zahler",
+        "streetAddress": "",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "",
+        "zipCode": "11230",
+        "phoneNumber": "877-275-9245",
+        "email": "",
+        "webAddress": "www.zahlers.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 100,
+      "unit": "Capsule(s)",
+      "display": "100 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Kosher",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Gentle & non-constipating Iron\r\nZahler's Advanced Iron Complex is a highly bioavailable, non-constipating formula using the finest iron available. "
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warnings: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. In case of accidental overdose, call a doctor or poison control center immediately."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if either tamper-evident seal is broken or missing."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Note: If you are pregnant, may become pregnant, or breastfeeding, consult your health care professional before using this product."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "You may need additional supplements to support a healthy diet; consult your nutritionist for a formula that is right for you, or call us toll free at 877-ASKZAHLER (877-275-9245) "
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "OU (Kosher)\r\nThis product was manufactured in a GMP certified Facility"
+    },
+    {
+      "type": "Formula re: Kosher",
+      "notes": "Kosher Pareve\r\nUnder strict supervision of Rabbi SH. Stern & the orthodox union"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free\r\nSoy free\r\nDairy free\r\n"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store tightly closed in a cool, dry place."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Iron Ferrochel is a registered trademark of Albion Laboratories, Inc."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Manufactured in the USA"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Advanced Iron complex\r\nGentle & non-constipating iron formula"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "General health"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Take 1 capsule 1 time daily with food or as directed by a health care professional."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Feel better, everyday."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant, nursing or on medication, consult with your healthcare practitioner."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-12-13",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 278603,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 60,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin C",
+      "uniiCode": "PQ6CK8PD0R",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 278604,
+          "prefix": null,
+          "percent": null,
+          "name": "Ascorbic Acid",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin C",
+          "uniiCode": "PQ6CK8PD0R"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 281388,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 80,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1333,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280220,
+          "prefix": null,
+          "percent": null,
+          "name": "Methylcobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "BR1SN1JS2W"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 279040,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Folic Acid",
+      "category": "vitamin",
+      "ingredientGroup": "Folate",
+      "uniiCode": "935E97BOY8",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 301859,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 139,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ferrochel",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": "SFW1D987QV",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 295029,
+          "prefix": null,
+          "percent": null,
+          "name": "Iron",
+          "category": "mineral",
+          "ingredientGroup": "Iron",
+          "uniiCode": "E1UOL152H7"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "ingredientId": 286716,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "L-Histidine",
+      "category": "amino acid",
+      "ingredientGroup": "Histidine",
+      "uniiCode": "4QD397987E",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 286355,
+          "prefix": null,
+          "percent": null,
+          "name": "L-Histidine Hydrochloride",
+          "category": "amino acid",
+          "ingredientGroup": "Histidine",
+          "uniiCode": "1D5Q932XM6"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3782,
+        "name": "Rice Flour",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2022-12-13"
+}

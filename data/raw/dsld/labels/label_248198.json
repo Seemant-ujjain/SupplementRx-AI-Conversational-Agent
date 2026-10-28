@@ -1,0 +1,542 @@
+{
+  "src": "01-raw/2025-09-25/data/label_418.json",
+  "id": 248198,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Triple Strength Omega-3",
+  "brandName": "InnovixLabs",
+  "brandIpSymbol": "none",
+  "upcSku": "7 94504 48756 5",
+  "productVersionCode": "F2175B201 / TSO19-1-US",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "200",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Value based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 334989
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 276213
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 22656,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 22656,
+        "name": "InnovixLabs - A Division of Innovix Pharma Inc.",
+        "streetAddress": "",
+        "city": "Calabasas",
+        "state": "CA",
+        "country": "",
+        "zipCode": "91302",
+        "phoneNumber": "888-799-7627",
+        "email": "",
+        "webAddress": "www.innovixlabs.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 200,
+      "unit": "Capsule(s)",
+      "display": "200 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 3,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1310",
+    "langualCodeDescription": "Fat/Fatty Acid"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Other",
+      "notes": "Powerful beneftis with Fewer Pills\nRanked #1 Best Value out of 54 Top Omega-3 brands by Labdoor.com (2016, 2017, 2018)\nThird-party Quality Tested & Certified by IFOS and Labdoor.com\nEnteric Coated to reduce aftertase\nTriple strength - 900 mg Omega-3 per pill\nSupports healthy heart, joints, and brain."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Best if consumed with a meal. Take 1-2 capusles daily. Do not take more than 3 capsules per day unless recommended by a doctor."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "IFOS 5-star rated for purtiy & potency. \nSee results at ifosprogram.com"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Triple strength omega-3\n900 mg omega-3\nvs.\nRegular fish oil 100 mg\n900 mg omega-3"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "3x more omega-3 than regular fish oil\nConcentrated fish oil"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Ultra-purified and concentrated\nEnteric-coated"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "SourceA: Sustainably sourced fish oil form anchovy, sardine, mackerel (Peru/Chile), and may contain Pollock (USA)."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Concentrated and purified in Europe and/or USA. Encapsulated, tesed, and packaged in USA."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Allergy Information: If you are allergic to fish, you should not take this product or other fish oil supplements."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does Not Contain: Dairy, eggs, corn, shellfish, tree nuts, peanuts, wheat/gluten, soy protein, sugar, GMO, yeast, Chinese ingredients, artificial colors or flavors."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are pregnant, nursing or using a blood thinner, talk to your doctor before use."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2018 Innovix Pharma Inc. All rights reserved."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-03-03",
+      "type": "Off Market"
+    },
+    {
+      "date": "2021-06-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 284522,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories from Fat",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 4822,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1.5,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 3675,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 0,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Cholesterol",
+      "category": "fat",
+      "ingredientGroup": "Cholesterol",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 5,
+      "ingredientId": 279724,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1200,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Triple Strength Fish Oil",
+      "category": "fat",
+      "ingredientGroup": "Fish Oil",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 285292,
+          "prefix": null,
+          "percent": 75,
+          "name": "Omega-3 Fatty Acids",
+          "category": "fatty acid",
+          "ingredientGroup": "Omega-3",
+          "uniiCode": "71M78END5S"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 285566,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 900,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 7,
+          "ingredientId": 285062,
+          "description": "",
+          "notes": "EPA (Alt. Name: Eicosapentaenoic Acid) Note: Omega-3",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 552,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Eicosapentaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "EPA (Eicosapentaenoic Acid)",
+          "uniiCode": "AAN7QOV9EA",
+          "alternateNames": [
+            "C20:5n-3",
+            "EPA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 284949,
+          "description": "",
+          "notes": "DHA (Alt. Name: Docosahexaenoic Acid) Note: Omega-3",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 288,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Docosahexaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "DHA (Docosahexaenoic Acid)",
+          "uniiCode": "ZAD9OKH9JC",
+          "alternateNames": [
+            "C22:6n-3",
+            "DHA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 9,
+          "ingredientId": 285537,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 60,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Other Omega-3 Fatty Acids",
+          "category": "fatty acid",
+          "ingredientGroup": "Omega-3",
+          "uniiCode": "71M78END5S",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Omega-3 Fatty Acids",
+      "category": "fatty acid",
+      "ingredientGroup": "Omega-3",
+      "uniiCode": "71M78END5S",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 7420,
+        "name": "Gelatin Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3985,
+        "name": "Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3777,
+        "name": "purified Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 279725,
+        "name": "plant-based Enteric Coating",
+        "category": "other",
+        "ingredientGroup": "Coating",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 282526,
+            "prefix": null,
+            "percent": null,
+            "name": "Alginate",
+            "category": "complex carbohydrate",
+            "ingredientGroup": "Algin",
+            "uniiCode": "8C3Z4148WZ"
+          },
+          {
+            "order": 2,
+            "ingredientId": 285558,
+            "prefix": null,
+            "percent": null,
+            "name": "Stearic Acid",
+            "category": "fatty acid",
+            "ingredientGroup": "Stearic Acid",
+            "uniiCode": "4ELV7Z65AP"
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "ingredientId": 280625,
+        "name": "Mixed Tocopherols",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin E",
+        "uniiCode": "R0ZB2556P8",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2021-06-23"
+}

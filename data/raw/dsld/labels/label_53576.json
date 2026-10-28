@@ -1,0 +1,327 @@
+{
+  "src": "01-raw/2025-03-25/data/label_186.json",
+  "id": 53576,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Modern Creatine Unflavored",
+  "brandName": "USPlabs",
+  "brandIpSymbol": "®",
+  "upcSku": "0 94922 46298 5",
+  "productVersionCode": "L-298-02",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Flavor difference",
+      "labelId": 53575
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 53574
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2117,
+      "text": "Questions, comments or concerns can be directed to:",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2117,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.usplabsdirect.com"
+      }
+    },
+    {
+      "contactId": 2118,
+      "text": "or by phone at:",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2118,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-890-3067",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 2127,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2127,
+        "name": "USPlabs, LLC",
+        "streetAddress": "",
+        "city": "Dallas",
+        "state": "Texas",
+        "country": "",
+        "zipCode": "75220",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 6.6,
+      "unit": "Oz(s)",
+      "display": "6.6 Oz(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 186,
+      "unit": "Gram(s)",
+      "display": "186 Gram(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0162",
+    "langualCodeDescription": "Powder"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 6.2,
+      "maxQuantity": 6.2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Gram(s)",
+      "notes": "1 scoop",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions for use: Mix 1 scoop (6.2 g) with you pre-workout, post-workout drink, water, or favorite beverage once daily. Contents may settle after shipping. Shake container prior to use."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Percentage of Pure Creatine per Gram\nCreatine Anhydrous 99-100%\nCreatine Monohydrate 88%\nCreatine HCl 78%\nMagnesium Creatine Chelate 45%"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Warning: This product is only intended to be consumed by healthy adults 18 years of age or older."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing women should not use this product."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use 2 weeks prior to surgery. Discontinue use and immediately consult your health care professional if you experience any adverse reaction to this product."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not exceed recommended serving. Do not use is safety seal is broken or missing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Non-Instantized. BioCRE instantized creatine anhydrous (unflavored) contains greater than or equal to 96% creatine per gram."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "30 day supply"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Powered by BioCRE plus Betaine Anhydrous"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Highly Concentrated\nUltra Instantized Creatine"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "1-800-890-3067 (9-5 EST M-F)"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "BioCRE\ninstantized creatine anhydrous"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "L-298-02"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-12-19",
+      "type": "Off Market"
+    },
+    {
+      "date": "2015-11-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 138908,
+      "description": null,
+      "notes": "Creatine (Form: as Creatine Anhydrous) (Alt. Name: BioCRE) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6.2,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Creatine",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Creatine",
+      "uniiCode": null,
+      "alternateNames": [
+        "BioCRE"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 68427,
+          "prefix": "as",
+          "percent": null,
+          "name": "Creatine Anhydrous",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Creatine",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 24857,
+      "description": null,
+      "notes": "Betaine (Form: as Betaine Anhydrous) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6.2,
+          "operator": "=",
+          "quantity": 2.5,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Betaine",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Betaine",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 6193,
+          "prefix": "as",
+          "percent": null,
+          "name": "Betaine Anhydrous",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Betaine Anhydrous",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 37580,
+        "name": "Sunflower Lecithin",
+        "category": "fat",
+        "ingredientGroup": "lecithin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2015-11-24"
+}

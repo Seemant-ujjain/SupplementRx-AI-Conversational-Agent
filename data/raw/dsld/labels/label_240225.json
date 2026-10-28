@@ -1,0 +1,312 @@
+{
+  "src": "01-raw/2025-08-22/data/label_217.json",
+  "id": 240225,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Iron Glycinate",
+  "brandName": "XYMOGEN",
+  "brandIpSymbol": "®",
+  "upcSku": "8 71149 00122 3",
+  "productVersionCode": "ZLB-IRONG-03 REV. 022819",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "120",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 26594
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 27878
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 49558
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 303711
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2492,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2492,
+        "name": "XYMOGEN Exclusive Professional Formulas",
+        "streetAddress": "6900 Kingspointe Pkwy.",
+        "city": "Orlando",
+        "state": "FL",
+        "country": "",
+        "zipCode": "32819",
+        "phoneNumber": "800-647-6100",
+        "email": "",
+        "webAddress": "www.xymogen.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "120 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Professional use only\nNot for resale on third-party websites, including, but not limited to, Amazon and eBay."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Take one capsule daily, or as directed by your healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Consult your healthcare practitioner before use."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Individuals taking medication should discuss potential interactions with their healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if tamper seal is damaged."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Iron bis-glycinate is a  well-studied, 100% fully-reacted, patented form of iron exclusively from Albion(R) Laboratories. The amino acid glycine is actually one of the two starting materials they body uses to synthesize hemoglobin. Therefore, Iron Glycinate contributes two key factors. This form of iron has higher bioavailability, lower toxicity, less food reactivity, less food interactions and has a longer shelf life than any other common form of iron."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately."
+    },
+    {
+      "type": "Storage",
+      "notes": "Storage: Keep closed in a cool, dry place out of reach of children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Storage: Keep closed in a cool, dry place out of reach of children."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does not contain: Wheat, gluten, yeast, soy, animal or dairy products, fish, shellfish, peanuts, tree nuts, egg, ingredients derived from genetically modified organisms (GMOs), artificial colors, artificial sweeteners, or artificial preservatives."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Gentle and Highly Absorbable Iron Formula"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "ePV:"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "ePV"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Exclusive Professional Formulas"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "ALBION MINERALS"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Ferrochel and the Albion Medallion design are registered trademarks of Albion Laboratories, Inc."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Vegetarian Caps"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP Compliant Third-party verified"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Copyright 2019 XYMOGEN"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "This package is completely recyclable"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-09-08",
+      "type": "Off Market"
+    },
+    {
+      "date": "2021-01-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 165811,
+      "description": "",
+      "notes": "Iron (Form: as Ferrochel Ferrous Bisglycinate Chelate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 29,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 161,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "as",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 94271,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 30462,
+        "name": "HPMC",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 80899,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2021-01-22"
+}

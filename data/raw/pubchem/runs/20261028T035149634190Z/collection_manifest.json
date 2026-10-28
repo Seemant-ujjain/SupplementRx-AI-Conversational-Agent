@@ -1,0 +1,103 @@
+{
+  "source": "PubChem",
+  "saved_at_utc": "2026-10-28T03:51:49.681095+00:00",
+  "collection_file": "collection.json",
+  "bytes": 9442748,
+  "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+  "complete": true,
+  "report": {
+    "source_labels": 400,
+    "query_groups": 739,
+    "search_status": {
+      "ok": 228,
+      "not_found": 511
+    },
+    "ambiguous_queries": 7,
+    "unique_candidate_cids": 239,
+    "complete_compounds": 239,
+    "incomplete_cids": [],
+    "synonym_entries": 46426,
+    "missing_property_fields": {
+      "Title": 0,
+      "IUPACName": 3,
+      "MolecularFormula": 0,
+      "MolecularWeight": 0,
+      "ConnectivitySMILES": 0,
+      "InChI": 0,
+      "InChIKey": 0
+    },
+    "by_category": {
+      "Magnesium": {
+        "queries": 52,
+        "with_candidates": 30,
+        "no_match": 22,
+        "errors": 0,
+        "unique_candidate_cids": 32
+      },
+      "Vitamin D": {
+        "queries": 58,
+        "with_candidates": 41,
+        "no_match": 17,
+        "errors": 0,
+        "unique_candidate_cids": 42
+      },
+      "Ashwagandha": {
+        "queries": 40,
+        "with_candidates": 9,
+        "no_match": 31,
+        "errors": 0,
+        "unique_candidate_cids": 9
+      },
+      "Melatonin": {
+        "queries": 12,
+        "with_candidates": 3,
+        "no_match": 9,
+        "errors": 0,
+        "unique_candidate_cids": 2
+      },
+      "Omega-3": {
+        "queries": 92,
+        "with_candidates": 23,
+        "no_match": 69,
+        "errors": 0,
+        "unique_candidate_cids": 21
+      },
+      "Vitamin B12": {
+        "queries": 72,
+        "with_candidates": 31,
+        "no_match": 41,
+        "errors": 0,
+        "unique_candidate_cids": 61
+      },
+      "Iron": {
+        "queries": 157,
+        "with_candidates": 103,
+        "no_match": 54,
+        "errors": 0,
+        "unique_candidate_cids": 120
+      },
+      "Turmeric": {
+        "queries": 69,
+        "with_candidates": 13,
+        "no_match": 56,
+        "errors": 0,
+        "unique_candidate_cids": 9
+      },
+      "Probiotics": {
+        "queries": 260,
+        "with_candidates": 54,
+        "no_match": 206,
+        "errors": 0,
+        "unique_candidate_cids": 53
+      },
+      "Creatine": {
+        "queries": 121,
+        "with_candidates": 61,
+        "no_match": 60,
+        "errors": 0,
+        "unique_candidate_cids": 80
+      }
+    },
+    "payload_bytes_before_report": 6538714
+  }
+}

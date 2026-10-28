@@ -1,0 +1,433 @@
+{
+  "src": "01-raw/2025-08-22/data/label_124.json",
+  "id": 32019,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Creatine",
+  "brandName": "Shredz Supplements",
+  "brandIpSymbol": "none",
+  "upcSku": "8 11207 02137 4",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 175223
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 266181
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 5830,
+      "text": null,
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 5830,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "WWW.SHREDZ.COM"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Capsule(s)",
+      "display": "120 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 4,
+      "maxQuantity": 4,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "ALPHA"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "WARNING: NEVER EXCEED RECOMMENDED DOSAGE"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "THIS PRODUCT HAS NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE OR PREVENT ANY DISEASE."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENTS"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not for use by persons under age 18."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Do not use if pregnant or nursing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Do not consume synephrine or caffeine from other sources, including but not limited to, coffee, tea, soda and other dietary supplements or medications containing phenylephrine or caffeine."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Contains caffeine."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Do not use for more than 8 weeks. Consult your physician prior to use if you are taking medication,including but not limited to, MAOI inhibitors, antidepressants, aspirin, non-steroidal anti-inflammatory drugs or products containing phenylephrine, ephedrine, pseudoephedrine, or other stimulants."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Consult your physician prior to use if you have a medical condition, including but not limited to, heart, liver, kidney, or thyroid disease, psychiatric disorders, difficulty urinating, diabetes, high blood pressure, cardiac arrhythmia, recurrent headaches, enlarged prostate or glaucoma. Discontinue 2 weeks prior to surgery or if you experience rapid heart beat, dizziness, severe headaches or shortness of breath."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "As individuals vary so may results from using this product. This product contains ingredients of international & domestic origin."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "MADE IN THE USA"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Take two (2) capsulespre-workout followed by two (2) capsules ipost-workout"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Creatine Magna Power(R) is a registered trademark of Albion Laboratories and covered by U.S. Patent 6, 114,379 and patents pending."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "INSPECTED GOOD MANUFACTURING PRACTICES cGMP FACILITY"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-03-08",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-04-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 286056,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 4,
+          "operator": "=",
+          "quantity": 80,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 19.05,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": "I38ZP9992A",
+      "alternateNames": [
+        "Mg"
+      ],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 104247,
+      "description": null,
+      "notes": "Creatine Magna Power(R) (Alt. Name: Creatine-Magnesium Chelate) Note: US Patent # 6114379 ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 4,
+          "operator": "=",
+          "quantity": 1000,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Percentage Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Creatine Magna Power(R)",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Magnesium Creatine",
+      "uniiCode": null,
+      "alternateNames": [
+        "Creatine-Magnesium Chelate"
+      ],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 102506,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 4,
+          "operator": "=",
+          "quantity": 2210,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Percentage Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 4,
+          "ingredientId": 285926,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 4,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Beta-Alanine",
+          "category": "amino acid",
+          "ingredientGroup": "Beta-Alanine",
+          "uniiCode": "11P2JDE17B",
+          "alternateNames": [
+            "B-Alanine"
+          ],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 8934,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 4,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Arginine AKG",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Arginine Alpha Ketoglutarate",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 102507,
+          "description": null,
+          "notes": "Vanadyl Sulfate (Form: 20% Vanadium) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 4,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Vanadyl Sulfate",
+          "category": "mineral",
+          "ingredientGroup": "Vanadium",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 292577,
+              "prefix": null,
+              "percent": 20,
+              "name": "Vanadium",
+              "category": "mineral",
+              "ingredientGroup": "Vanadium",
+              "uniiCode": "00J9J9XKDE"
+            }
+          ]
+        }
+      ],
+      "name": "SHREDZ(R) Proprietary Pump & Vascularity Blend",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 282516,
+        "name": "Maltodextrin",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Maltodextrin",
+        "uniiCode": "7CVR7L4A2D",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 27348,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3715,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 4183,
+        "name": "Titanium Dioxide",
+        "category": "other",
+        "ingredientGroup": "Titanium Dioxide",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 7727,
+        "name": "Sodium Copper Chlorophyllin",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Chlorophyllin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 49139,
+        "name": "FD&C YELLOW #5",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 49136,
+        "name": "FD&C YELLOW #6",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-04-25"
+}

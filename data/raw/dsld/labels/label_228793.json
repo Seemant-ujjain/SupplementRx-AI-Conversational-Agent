@@ -1,0 +1,301 @@
+{
+  "src": "01-raw/2025-08-22/data/label_419.json",
+  "id": 228793,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Curcumin",
+  "brandName": "Natures Craft",
+  "brandIpSymbol": "none",
+  "upcSku": "X0026EQO2R",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 20313,
+      "text": "Manufactured Exclusively for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 20313,
+        "name": "Nature's Craft",
+        "streetAddress": "",
+        "city": "Monsey",
+        "state": "NY",
+        "country": "",
+        "zipCode": "10952",
+        "phoneNumber": "408-599-3841",
+        "email": "",
+        "webAddress": "shopnaturesdesign.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Vegetarian Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: As a dietary supplement, take one (1) capsule twice a day. For best results take 20-30 min before a meal or as directed by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed recommended dose."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool dry place."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "100% satisfaction guarantee"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Good Manufacturing Practice\nSourced from a GMP Certified Facility\nQuality Assured"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Formulated in the U.S.A."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric Curcumin with BioPerine"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Supports anti-aging\nPromotes heart health\nHealthy joint maintenance\nTotal 655 mg"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-06-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 17721,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 600,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 34340,
+      "description": "",
+      "notes": "Turmeric (Form: 95% Curcuminoids) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 41501,
+          "prefix": null,
+          "percent": 95,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoid",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 3872,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "BioPerine",
+      "category": "botanical",
+      "ingredientGroup": "Black Pepper",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 15293,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4734,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 53282,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-06-24"
+}

@@ -1,0 +1,337 @@
+{
+  "src": "01-raw/2025-09-25/data/label_82.json",
+  "id": 73905,
+  "nhanesId": "1-001-0570-00",
+  "bundleName": "",
+  "fullName": "Calcium Citrate Plus Magnesium & Vitamin D",
+  "brandName": "The Vitamin Shoppe",
+  "brandIpSymbol": "®",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "300",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 54642
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 217562
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 32079
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 55172
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 217575
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 32135
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 55238
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 55238
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 32075
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 217735
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 32135
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 217735
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9439,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9439,
+        "name": "The Vitamin Shoppe",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-866-293-3367",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 600,
+      "unit": "Capsule(s)",
+      "display": "600 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": null,
+      "maxDailyServings": null,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Bones\nTeeth\n"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Well absorbed form of calcium"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Calcium Citrate Plus Magnesium & Vitamin D"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    }
+  ],
+  "events": [
+    {
+      "date": "2014-04-01",
+      "type": "Off Market"
+    },
+    {
+      "date": "2017-05-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 280179,
+      "description": null,
+      "notes": "Vitamin D (Form: as Cholecalciferol) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": null,
+          "operator": "=",
+          "quantity": 204,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 51,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 292354,
+      "description": null,
+      "notes": "Calcium (Form: as Calcium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": null,
+          "operator": "=",
+          "quantity": 333,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 33,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": "SY7Q814VUP",
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 292351,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "MLM29U2X85"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 139969,
+      "description": null,
+      "notes": "Magnesium (Form: as Magnesium Oxide, Magnesium Aspartate, Magnesium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": null,
+          "operator": "=",
+          "quantity": 189,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 47,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4044,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Aspartate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 17081,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 3,
+          "ingredientId": 4046,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Oxide",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3715,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2017-05-24"
+}

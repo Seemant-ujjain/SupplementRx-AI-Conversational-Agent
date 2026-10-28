@@ -1,0 +1,279 @@
+{
+  "src": "01-raw/2025-08-22/data/label_252.json",
+  "id": 1452,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium Citrate",
+  "brandName": "Vitamin World",
+  "brandIpSymbol": "®",
+  "upcSku": "7 66443 15215 6",
+  "productVersionCode": "Prod. #15215 B15215 03D",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 21158
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 89931
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 1160,
+      "text": "TO REORDER PROD. # 15215",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1160,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-228-4533",
+        "email": "",
+        "webAddress": "www.vitaminworld.com"
+      }
+    },
+    {
+      "contactId": 1169,
+      "text": "Carefully Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1169,
+        "name": "Vitamin World, Inc.",
+        "streetAddress": "",
+        "city": "Ronkonkoma",
+        "state": "NY",
+        "country": "U.S.A.",
+        "zipCode": "11779",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 100,
+      "unit": "Rapid Release Capsule(s)",
+      "display": "100 Rapid Release Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 5,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "This product has been developed, manufactured and packaged by Vitamin World. Our world-class facilites allow us to control exactly what goes into each product. It is your assurance that you are getting the highest quality and freshest products. You have our guarantee!"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "QA QUALITY ASSURED"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Artificial Color, Flavor or Sweetener, No Preservatives, No Sugar, No Starch, No Milk, No Lactose, No Soy, No Gluten, No Wheat, No Yeast, No Fish. Sodium Free."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: If you are pregnant, nursing or taking any medications, consult your doctor\nbefore use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if seal under cap is broken or missing."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "(c)2008 Vitamin World, Inc."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "PROD. #15215 B15215 03D"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Get healthy."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Preferred Form for Absorption"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: For adults, take one (1) to five (5) capsules daily, preferably with a meal."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Promotes Bone and Muscle Health*\nSupports Sugar Metabolism*"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Magnesium plays an essential role in maintaining bone mineralization and sugar metabolism.*\nMagnesium is also involved in muscle contractions and nerve impulses.* Magnesium Citrate is a superior supplement for absorption and bioavailability, making it the preferred Magnesium dosage form."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*These statements have not been evaluated by the Food and Drug Administration. This\nproduct is not intended to diagnose, treat, cure or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2012-01-01",
+      "type": "Off Market"
+    },
+    {
+      "date": "2011-10-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 6520,
+      "description": null,
+      "notes": "Magnesium (Form: as Magnesium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 25,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4045,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3715,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3782,
+        "name": "Rice Flour",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3813,
+        "name": "Vegetable Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2011-10-26"
+}

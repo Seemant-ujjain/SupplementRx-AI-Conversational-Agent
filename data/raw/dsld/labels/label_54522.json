@@ -1,0 +1,288 @@
+{
+  "src": "01-raw/2025-09-25/data/label_43.json",
+  "id": 54522,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha Standardized",
+  "brandName": "Nature's Way",
+  "brandIpSymbol": "®",
+  "upcSku": "0 33674 15387 1",
+  "productVersionCode": "LN15387.A02 BLK8171A",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 213125
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 39970
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 17884
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 273380
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 79222
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 341395
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 327870
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 3049,
+      "text": "Questions? Call",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3049,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-962-8873",
+        "email": "",
+        "webAddress": "naturesway.com"
+      }
+    },
+    {
+      "contactId": 7321,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 7321,
+        "name": "Nature's Way Brands, LLC",
+        "streetAddress": "",
+        "city": "Green Bay",
+        "state": "WI",
+        "country": "USA",
+        "zipCode": "54311",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Premium Extract"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "vegetarian capsule Vitality Tonic"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "4% Withanolides"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommendation: Take 1 capsule two to three times daily with food or water."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: Not recommended for use by pregnant or lactating women. If you are using a sedative medication, consult a healthcare professional before using this product."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2015"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Health & longevity through the healing power of nature–that’s what it means to Trust the Leaf."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Ashwagandha Extract (Withania somnifera) is standardized to 4% withanolides. It has been traditionally used for its adaptogenic benefits.*"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Our Ashwagandha extract is carefully tested and produced to superior quality standards"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "SATISFACTION GUARANTEED."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Freshness & safety sealed with printed outer shrinkwrap and printed inner seal. Do not use if\neither seal is broken or missing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "LN15387.A02 BLK8171A"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*This statement has not been evaluated by the Food & Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-02-15",
+      "type": "Off Market"
+    },
+    {
+      "date": "2015-12-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 139722,
+      "description": null,
+      "notes": "Ashwagandha extract  (Form: 4% Withanolides Note: 20 mg) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 139723,
+          "prefix": null,
+          "percent": 4,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 48382,
+        "name": "plant-derived Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2015-12-23"
+}

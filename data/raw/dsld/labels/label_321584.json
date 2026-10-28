@@ -1,0 +1,446 @@
+{
+  "src": "01-raw/2025-09-25/data/label_315.json",
+  "id": 321584,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Omega-3 Lemon Flavored",
+  "brandName": "MuscleForce",
+  "brandIpSymbol": "none",
+  "upcSku": "475337051",
+  "productVersionCode": "Not Present",
+  "pdf": "321584_document.pdf",
+  "thumbnail": "321584_thumbnail.jpg",
+  "servingsPerContainer": "45",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Percent Daily Value (DV) are based on a 2,000 calorie diet.",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 27423,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_6.json",
+        "id": 27423,
+        "name": "MuscleForce",
+        "streetAddress": "950 N Pentecost",
+        "city": "Marion",
+        "state": "IL",
+        "country": "USA",
+        "zipCode": "62959",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "teammuscleforce.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Softgel(s)",
+      "display": "90 Softgel(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0161",
+    "langualCodeDescription": "Softgel Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 2,
+      "unit": "Softgel(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1310",
+    "langualCodeDescription": "Fat/Fatty Acid"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Other",
+      "notes": "High quality\r\nGuaranteed purity\r\nHeart & brain health\r\nBoosts immune function"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "1800mg Omega-3's"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Facebook, Instagram @teammuscleforce"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Iceland Premium Imported\r\nManufactured in the USA"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Highly concentrated fish oil"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: As a dietary supplement, take 2 softgels daily, or as recommended by your physician. For best results & absorption, take with meals. For ultimate support, take two softgels with food twice daily."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Allergen Warning: Contains fish."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: This product is only intended for healthy adults 18 years of age or older.\r\nKeep out of reach of children."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Before using this product, consult with a licensed professional if you are taking any medications or are under a physician's care for a medical condition."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "If you experience an adverse reaction to this product, discontinue use."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-02-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 52877,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 3666,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 24,
+              "unit": "Calorie(s)",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Calories from Fat",
+          "category": "other",
+          "ingredientGroup": "Header",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Header",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 4823,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 2.5,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 8,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 311378,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 2500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 5,
+          "ingredientId": 103299,
+          "description": "",
+          "notes": "Omega-3",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 860,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Eicosapentaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "EPA (Eicosapentaenoic Acid)",
+          "uniiCode": null,
+          "alternateNames": [
+            "EPA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 257137,
+          "description": "",
+          "notes": "Omega-3",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 630,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Docosahexanoic acid",
+          "category": "fatty acid",
+          "ingredientGroup": "DHA (Docosahexaenoic Acid)",
+          "uniiCode": null,
+          "alternateNames": [
+            "DHA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 11696,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 300,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Other Omega-3",
+          "category": "fatty acid",
+          "ingredientGroup": "Omega-3",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Fish Oil",
+      "category": "fat",
+      "ingredientGroup": "Fish Oil",
+      "uniiCode": "XGF7L72M0F",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 254501,
+        "name": "Fish Oil",
+        "category": "fat",
+        "ingredientGroup": "Fish Oil",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 11308,
+            "prefix": null,
+            "percent": null,
+            "name": "Anchovies",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 97032,
+            "prefix": null,
+            "percent": null,
+            "name": "Herring",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 36685,
+            "prefix": null,
+            "percent": null,
+            "name": "Mackerel",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          },
+          {
+            "order": 4,
+            "ingredientId": 11250,
+            "prefix": null,
+            "percent": null,
+            "name": "Sardines",
+            "category": "animal part or source",
+            "ingredientGroup": "Fish",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 108227,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 118633,
+        "name": "Vegetable Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 162238,
+        "name": "purified Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2025-02-23"
+}

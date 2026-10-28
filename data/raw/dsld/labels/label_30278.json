@@ -1,0 +1,268 @@
+{
+  "src": "01-raw/2025-07-24/data/label_371.json",
+  "id": 30278,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin D-3 5000 IU",
+  "brandName": "Healthy Choice Naturals",
+  "brandIpSymbol": "™",
+  "upcSku": "8 50004 00170 7",
+  "productVersionCode": "SKU: VITAMIND 4002-HS-VDO1-90 v5.0",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 72174
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 11337
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 11391
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 3743,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3743,
+        "name": "HealthyChoiceNaturals A Division of ACI, Inc.",
+        "streetAddress": "23322 Madero, Suite D",
+        "city": "Mission Viejo",
+        "state": "CA",
+        "country": "",
+        "zipCode": "92691",
+        "phoneNumber": "800-541-6779",
+        "email": "",
+        "webAddress": "www.hcnaturals.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegicap(s)",
+      "display": "60 Vegicap(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vegicap(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Seals/Symbols",
+      "notes": "{Flag} MADE IN USA"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "SKU: VITAMIND 4002-HS-VDO1-90 v5.0"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "SUPER POTENT D-3"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "- Advanced Strength\n- Supports Healthy Bones\n"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the FDA. This product is not intended to cure, prevent, treat or diagnose any disease."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "SUGGESTED USE: One (1) serving daily with a meal as a dietary supplement, or as directed by a health care professional."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "CAUTION: Do not exceed recommended dose."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "FIGHTS VITAMIN D DEFICIENCY"
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "WARNING: This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, fish and crustacean shellfish."
+    },
+    {
+      "type": "Storage",
+      "notes": "STORAGE: Store in a cool dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "NO ANIMAL TESTING"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-03-01",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-02-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 280374,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5000,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Vegicap(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D3",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "1C6V77QF41",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 6556,
+        "name": "Rice powder",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3813,
+        "name": "Vegetable Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-02-26"
+}

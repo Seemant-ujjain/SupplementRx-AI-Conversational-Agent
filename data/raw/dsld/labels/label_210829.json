@@ -1,0 +1,242 @@
+{
+  "src": "01-raw/2025-09-25/data/label_42.json",
+  "id": 210829,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha Extract",
+  "brandName": "Seeking Health",
+  "brandIpSymbol": "®",
+  "upcSku": "7 98295 54930 3",
+  "productVersionCode": "Rev. 072618 ASH-60-CAPS",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 322640
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 174353
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 233452
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15093,
+      "text": "Manufactured for and Distributed by:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15093,
+        "name": "Seeking Health",
+        "streetAddress": "3140 Mercer Ave",
+        "city": "Bellingham",
+        "state": "WA",
+        "country": "",
+        "zipCode": "98225",
+        "phoneNumber": "(800) 547-9812",
+        "email": "",
+        "webAddress": "www.seekinghealth.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsules",
+      "display": "60 Vegetarian Capsules"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Take 1 capsule daily with or without food or as directed by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Children and pregnant or lactating women should consult their healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Children and pregnant or lactating women should consult their healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if tamper seal is damaged."
+    },
+    {
+      "type": "Storage",
+      "notes": "Storage: Keep closed in a cool, dry place out of reach by children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Storage: Keep closed in a cool, dry place out of reach by children."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, or artificial colors."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Ashwagandha Extract Meets or Exceeds cGMP Standards.\nPhysician Formulated"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Find other effective health products at www.seekinghealth.com"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "This package is completely recyclable"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-01-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 233814,
+      "description": "",
+      "notes": "Ashwagandha extract (Form: 5% Withanolides) (Alt. Name: KSM-66) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 420,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [
+        "KSM-66"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 26370,
+          "prefix": null,
+          "percent": 5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 233668,
+        "name": "Vegetarian Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 3721,
+            "prefix": null,
+            "percent": null,
+            "name": "Hypromellose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 4737,
+            "prefix": "and",
+            "percent": null,
+            "name": "Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 278748,
+        "name": "Ascorbyl Palmitate",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin C",
+        "uniiCode": "QN83US2B0N",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-01-25"
+}

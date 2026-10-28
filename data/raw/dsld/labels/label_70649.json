@@ -1,0 +1,267 @@
+{
+  "src": "01-raw/2025-08-22/data/label_216.json",
+  "id": 70649,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Iron Chelate",
+  "brandName": "ProThera",
+  "brandIpSymbol": "®",
+  "upcSku": "8 28054 00190 9",
+  "productVersionCode": "IRN30 rev121211B",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "100",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 280461
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 322290
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 264605
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 4879,
+      "text": "Manufactured by:",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 4879,
+        "name": "ProThera, Inc.",
+        "streetAddress": "",
+        "city": "Reno",
+        "state": "NV",
+        "country": "",
+        "zipCode": "89521",
+        "phoneNumber": "888-488-2488",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 100,
+      "unit": "Capsule(s)",
+      "display": "100 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Iron Supplement"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Albion Laboratories"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under the age of 6. Keep out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of the following common allergens: Milk/casein, eggs, fish shellfish, tree nuts, peanuts, wheat/gluten, corn, yeast, and soybeans. Contains no artificial colors, flavors, or preservatives."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: 1 capsule daily with food."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Iron Chelate contains iron, an essential mineral, as a fully-reacted amino acid (bisglycinate) chelate produced through a special process by Albion Laboratories. This compound has been shown to be a well-tolerated, bioavailable form of iron."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if full -bottle shrinkwrap is broken or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place (59(0)F-85(0)F) away from direct light."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "This product was made in a GMP and ISO 9001:2008 registered facility."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "IRN30 rev121211B"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-10-08",
+      "type": "Off Market"
+    },
+    {
+      "date": "2017-03-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 71875,
+      "description": null,
+      "notes": "Iron (Form: as Ferrochel (Alt. Name: Ferrous Bisglycinate Chelate)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 30,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 167,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "as",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 77075,
+        "name": "Vegetarian Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 4526,
+            "prefix": null,
+            "percent": null,
+            "name": "Hydroxypropyl Methylcellulose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 4737,
+            "prefix": null,
+            "percent": null,
+            "name": "Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 24567,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium Stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2017-03-24"
+}

@@ -1,0 +1,269 @@
+{
+  "src": "01-raw/2025-07-24/data/label_370.json",
+  "id": 35562,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin D Complex",
+  "brandName": "Thorne FX",
+  "brandIpSymbol": "none",
+  "upcSku": "6 93749 00416 5",
+  "productVersionCode": "TFX500 LTFX50001",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "600",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 6296,
+      "text": "manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 6296,
+        "name": "THORNE FX",
+        "streetAddress": "P.O. BOX 25",
+        "city": "DOVER",
+        "state": "ID",
+        "country": "USA",
+        "zipCode": "83825",
+        "phoneNumber": "1-800-228-1966",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 1,
+      "unit": "fl. Oz.",
+      "display": "1 fl. Oz."
+    },
+    {
+      "order": 2,
+      "quantity": 30,
+      "unit": "mL",
+      "display": "30 mL"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Drop(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: All Other",
+      "notes": "TAMPER EVIDENT: Use only if bottle is sealed."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store tightly sealed in a cool, dry place."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "suggested use: Take 2 drops one to three times daily or as recommended by your fitness professional"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Precision Nutrition approved"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Pn"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "PURE VITAMIN D & K IN MCTs"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "D/K2 COMBINATION SHOWN TO INCREASE EFFECTIVENESS"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "CREATED FOR FITNESS EXPERTS\nTHORNE FX"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "recovery"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "TFX500 LTFX50001"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant, consult your health-care practitioner before using this product."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-12-18",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-07-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281607,
+      "description": null,
+      "notes": "Vitamin D (Form: as Vitamin D3) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1000,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Drop(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 279014,
+          "prefix": null,
+          "percent": null,
+          "name": "Vitamin D3",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 111353,
+      "description": null,
+      "notes": "Vitamin K (Form: as Vitamin K2 (Form: as Menatetrenone)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Drop(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin K",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin K (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 111354,
+          "prefix": "as",
+          "percent": null,
+          "name": "Vitamin K2",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin K (menaquinone)",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 34847,
+        "name": "Medium Chain Triglyceride Oil",
+        "category": "fat",
+        "ingredientGroup": "Medium chain triglycerides (MCT)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 280625,
+        "name": "Mixed Tocopherols",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin E",
+        "uniiCode": "R0ZB2556P8",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-07-25"
+}

@@ -1,0 +1,253 @@
+{
+  "src": "01-raw/2025-07-24/data/label_370.json",
+  "id": 175368,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin D Complex With Vitamins D-2 & D-3",
+  "brandName": "Swanson Premium Brand",
+  "brandIpSymbol": "®",
+  "upcSku": "0 87614 11588 7",
+  "productVersionCode": "SW1588 Rev 0 04 21 17",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 203158
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 308806
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9643,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9643,
+        "name": "Swanson Health Products",
+        "streetAddress": "",
+        "city": "Fargo",
+        "state": "ND",
+        "country": "USA",
+        "zipCode": "58104",
+        "phoneNumber": "1-800-437-4148",
+        "email": "",
+        "webAddress": "www.swansonvitamins.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Veggie Capsule(s)",
+      "display": "60 Veggie Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Veggie Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Bringing wellness to the world since 1969"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Vitamin D Complex With Vitamins D-2 & D-3"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Vitamin Supplement"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if seal is broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a dietary supplement, take one veggie capsule per day with food and water."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Consult your healthcare provider before use if you are pregnant or nursing, if you have a medical condition, or if you are taking any prescription medication."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not exceed recommended dose."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "To reorder, call toll free 1-800-437-4148 or visit our website at www.swansonvitamins.com"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "SW1588 Rev 0 04 21 17"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-02-09",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-04-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 280177,
+      "description": "",
+      "notes": "Vitamin D (Form: as 50% Ergocalciferol, as 50% Cholecalciferol)",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Veggie Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        },
+        {
+          "order": 2,
+          "ingredientId": 280175,
+          "prefix": null,
+          "percent": null,
+          "name": "Ergocalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "VS041H42XC"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 5056,
+        "name": "Rice Bran",
+        "category": "fiber",
+        "ingredientGroup": "Rice Bran",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 89856,
+        "name": "Hypromellose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 102293,
+        "name": "Rice concentrate",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 71308,
+        "name": "Rice Extract",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-04-25"
+}

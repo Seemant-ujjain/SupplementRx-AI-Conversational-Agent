@@ -1,0 +1,116 @@
+{
+  "source": "MeSH RDF",
+  "saved_at_utc": "2026-10-28T06:28:34.004204+00:00",
+  "collection_file": "collection.json",
+  "bytes": 38218702,
+  "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+  "complete": true,
+  "report": {
+    "source_labels": 400,
+    "query_groups": 739,
+    "search_status": {
+      "not_found": 469,
+      "matched": 270
+    },
+    "unique_matched_entry_terms": 270,
+    "unique_candidate_records": 247,
+    "record_types": {
+      "TopicalDescriptor": 195,
+      "SCR_Chemical": 49,
+      "SCR_Organism": 3
+    },
+    "queries_with_candidate_records": 270,
+    "ambiguous_queries": 6,
+    "possibly_truncated_queries": [],
+    "unresolved_term_uris": [],
+    "incomplete_resolution_batches": 0,
+    "incomplete_record_uris": [],
+    "unique_rdf_subjects": 2360,
+    "unique_rdf_statements": 24792,
+    "concepts_with_scope_notes": 206,
+    "available_years_metadata_unchanged": true,
+    "by_category": {
+      "Magnesium": {
+        "queries": 52,
+        "entry_term_matches": 29,
+        "queries_with_records": 29,
+        "no_match": 23,
+        "errors": 0,
+        "unique_records": 29
+      },
+      "Vitamin D": {
+        "queries": 58,
+        "entry_term_matches": 37,
+        "queries_with_records": 37,
+        "no_match": 21,
+        "errors": 0,
+        "unique_records": 35
+      },
+      "Ashwagandha": {
+        "queries": 40,
+        "entry_term_matches": 13,
+        "queries_with_records": 13,
+        "no_match": 27,
+        "errors": 0,
+        "unique_records": 14
+      },
+      "Melatonin": {
+        "queries": 12,
+        "entry_term_matches": 6,
+        "queries_with_records": 6,
+        "no_match": 6,
+        "errors": 0,
+        "unique_records": 6
+      },
+      "Omega-3": {
+        "queries": 92,
+        "entry_term_matches": 33,
+        "queries_with_records": 33,
+        "no_match": 59,
+        "errors": 0,
+        "unique_records": 31
+      },
+      "Vitamin B12": {
+        "queries": 72,
+        "entry_term_matches": 47,
+        "queries_with_records": 47,
+        "no_match": 25,
+        "errors": 0,
+        "unique_records": 40
+      },
+      "Iron": {
+        "queries": 157,
+        "entry_term_matches": 83,
+        "queries_with_records": 83,
+        "no_match": 74,
+        "errors": 0,
+        "unique_records": 73
+      },
+      "Turmeric": {
+        "queries": 69,
+        "entry_term_matches": 20,
+        "queries_with_records": 20,
+        "no_match": 49,
+        "errors": 0,
+        "unique_records": 18
+      },
+      "Probiotics": {
+        "queries": 260,
+        "entry_term_matches": 103,
+        "queries_with_records": 103,
+        "no_match": 157,
+        "errors": 0,
+        "unique_records": 98
+      },
+      "Creatine": {
+        "queries": 121,
+        "entry_term_matches": 49,
+        "queries_with_records": 49,
+        "no_match": 72,
+        "errors": 0,
+        "unique_records": 49
+      }
+    },
+    "payload_bytes_before_report": 17633489
+  }
+}

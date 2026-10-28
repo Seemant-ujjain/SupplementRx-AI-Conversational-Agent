@@ -1,0 +1,426 @@
+{
+  "src": "01-raw/2025-08-22/data/label_421.json",
+  "id": 40608,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Standardized",
+  "brandName": "Nature's Way",
+  "brandIpSymbol": "®",
+  "upcSku": "0 33674 63100 3",
+  "productVersionCode": "LN63100.02 (BLK8013)",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on 2,000 calorie diet",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 80045
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 251860
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 80045
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 251860
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 328068
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 332949
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 17865
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 54736
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 79193
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 54736
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 17865
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 86791
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 64553
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 328068
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 3085,
+      "text": "(C)2006 R/O",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3085,
+        "name": "Nature's Way Products, LLC",
+        "streetAddress": "",
+        "city": "Green Bay",
+        "state": "WI",
+        "country": "USA",
+        "zipCode": "54311",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 3953,
+      "text": "Questions? Call",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3953,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-962-8873",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 3954,
+      "text": "or visit",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3954,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "naturesway.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Tablet(s)",
+      "display": "60 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 3,
+      "maxDailyServings": 3,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Seals/Symbols",
+      "notes": "Nature's Way(R)"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "LN63100.02 (BLK8013)\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "{Tablet} Actual Tablet Size"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Health & longevity through the healing power of nature-that's what it means to Trust the Leaf.(R)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Turmeric Extract (Curcuma longa) is standardized to 95% curcuminoids, potent antioxidants. Turmeric is a popular spice used in curry dishes."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Our Turmeric extract is carefully tested and produced to certified quality standards."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "SATISFACTION GUARANTEED."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Freshness & safety sealed with printed outer shrinkwrap and printed inner seal. Do not use if either seal is broken or missing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "PREMIUM EXTRACT"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "95% Curcuminoids"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommendation: Take 1 tablet three times daily with food or water."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: If pregnant, nursing, taking blood thinning or other medications, consult a healthcare professional before use."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "(C)2014"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-11-09",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-12-29",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283702,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1,
+          "unit": "g",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "<",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 48528,
+      "description": null,
+      "notes": "Turmeric extract (Form: 95% curcuminoids) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 450,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric extract",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4476,
+          "prefix": null,
+          "percent": 95,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoid",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 19640,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 282516,
+        "name": "Maltodextrin",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Maltodextrin",
+        "uniiCode": "7CVR7L4A2D",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 9854,
+        "name": "Modified Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 3812,
+        "name": "Vegetable Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-12-29"
+}

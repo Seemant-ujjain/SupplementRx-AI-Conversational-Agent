@@ -1,0 +1,271 @@
+{
+  "src": "01-raw/2025-09-25/data/label_40.json",
+  "id": 74940,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha",
+  "brandName": "Herbal Hills",
+  "brandIpSymbol": "®",
+  "upcSku": "8 906068 411432",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 74939
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 323823
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 15529
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 202476
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9506,
+      "text": "Manufactured & Marketed by:",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9506,
+        "name": "Isha Agro Developers Pvt. Ltd.",
+        "streetAddress": "55-A/B, Lonavala Co-op. Indl. Est. Ltd.",
+        "city": "Nangargaon, Lonavala, Taluka-Maval, Dist. Pune,",
+        "state": "Maharashtra",
+        "country": "India",
+        "zipCode": "410401",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "0091 22 2868 6868"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 700,
+      "unit": "Vegi Capsule(s)",
+      "display": "700 Vegi Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Halal"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Mfg. Lic. No. : PD/AYU/002/10"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Product name: Ashwagandhahills"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "JAS-ANZ\nICS\nISO 22000:2005\nReg. No.: RH91/7301"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP Good Manufacturing Practice"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Halal India www.halalindia.com"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "(An ISO 22000:2005 Certified Company)"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool dry place away from direct sunlight."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if inner seal is broken or missing."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Back to nature"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Antistress & revitaliser"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Standardized extract / 0.5% Withanolides, 0.8% Alkaloids"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "~ Pure ~ Natural ~ Effective"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Ashwagandha is a herb that may help reduce anxiety and stress levels, increase vitality, vigor & control fatigue. It helps improve both physical and mental performance. Ashwagandha is also known as Indian Ginseng. Helps rejuvenate the nervous system. As an adaptogen, Ashwagandha helps in having a positive effect in supporting healthy immune system."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Contents based on standard raw material as per ayurvedic text"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Direction For Use: As a dietary supplement take 1 capsule twice daily, preferably after meals. For better results it should be taken with warm water."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: Pregnant or lactating women are advised to consume herbal products under the advice of the healthcare practitioner."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-06-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 59049,
+      "description": null,
+      "notes": "Ashwagandha root extract & Ashwagandha root powder Blend (Form: Standardized to contain 0.5% Withanolides Note: = 1.75mg, 0.8% Alkaloids Note: = 2.8 mg) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 350,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha root extract & Ashwagandha root powder Blend",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 59051,
+          "prefix": null,
+          "percent": 0.8,
+          "name": "Alkaloids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Alkaloid (unspecified)",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 59050,
+          "prefix": "Standardized to contain",
+          "percent": 0.5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 108697,
+        "name": "HPMC Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2017-06-23"
+}

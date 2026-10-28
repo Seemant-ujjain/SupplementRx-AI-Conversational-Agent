@@ -1,0 +1,1509 @@
+{
+  "src": "01-raw/2025-09-25/data/label_352.json",
+  "id": 295780,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Probiotics",
+  "brandName": "Dr. Ohhira's",
+  "brandIpSymbol": "none",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "295780_document.pdf",
+  "thumbnail": "295780_thumbnail.jpg",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 6451,
+      "text": "Manufactured for and Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 6451,
+        "name": "Essential Formulas Incorporated",
+        "streetAddress": "PO Box 166139",
+        "city": "Irving",
+        "state": "TX",
+        "country": "USA",
+        "zipCode": "75016-6139",
+        "phoneNumber": "972-255-3918",
+        "email": "",
+        "webAddress": "www.EssentialFormulas.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Original formula"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "The only 3 year fermented food supplement with \r\nProbiotics\r\nPrebiotics\r\nPostbiotics"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Live cultures"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Get more than just powder in a capsule-Dr. Ohhira’s Probiotics-The fermented food formula with all three elements listed below for positive probiotic health!\r\nFruits vegetables mushrooms seaweed\r\nLive probiotics\r\n12 select strains grown together never freeze-dried\r\nPost biotic metabolites\r\nHealth promoting nutrients from 3-year fermentation\r\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Over 30 years ago renown Japanese microbiologist Dr. Lichiroh Ohhira proved that optimal intestinal health is achieved through a wide range of probiotics from fiber-rich foods, multiple synergistic strains of probiotics and the beneficial postbiotic metabolites they produce. His research led him to create the premier product to support digestion, immune health and promote a healthy microbiome.\r\n"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does not contain milk, egg, fish, tree nuts, wheat (gluten), peanuts or soy allergens\r\nNon GMO"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "100% Vegetarian"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free\r\nNon-dairy\r\nNon-GMO"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: take one (1) capsule twice daily with or without food. Usage can be safely increased as needed or as recommended by a healthcare provider."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: as with all dietary supplements, keep out of reach of children. If pregnant or nursing, or for children under 12 years, consult a healthcare professional about product usage.\r\n"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: as with all dietary supplements, keep out of reach of children. If pregnant or nursing, or for children under 12 years, consult a healthcare professional about product usage."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper evident: Blister-packed to ensure product integrity. Do not use if foil blister pack is broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Refrigeration is not required.\r\n"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Dr. Ohhira’s Probiotics Is a registered trademark of Essential Formulas Incorporated."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Product of Japan"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Dr. Ohhira's\r\nRemodel Your Gut"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-06-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 325949,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 420,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 146255,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [
+            {
+              "order": 3,
+              "ingredientId": 221927,
+              "description": "",
+              "notes": "",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 4,
+                  "ingredientId": 12881,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Prune",
+                  "category": "botanical",
+                  "ingredientGroup": "Plum",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 5,
+                  "ingredientId": 201736,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Goji",
+                  "category": "botanical",
+                  "ingredientGroup": "Goji",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 6,
+                  "ingredientId": 325951,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Fig",
+                  "category": "botanical",
+                  "ingredientGroup": "FIG",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 7,
+                  "ingredientId": 325952,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Blueberry",
+                  "category": "botanical",
+                  "ingredientGroup": "Blueberry",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 8,
+                  "ingredientId": 325954,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Red Bayberry",
+                  "category": "botanical",
+                  "ingredientGroup": "Yumberry",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 9,
+                  "ingredientId": 325955,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Yuzu",
+                  "category": "botanical",
+                  "ingredientGroup": "Citrus junos",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                }
+              ],
+              "name": "Fruits",
+              "category": "other",
+              "ingredientGroup": "Header",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 10,
+              "ingredientId": 246098,
+              "description": "",
+              "notes": "Leaves and stalks",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 11,
+                  "ingredientId": 325956,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Japanese Mugwort",
+                  "category": "botanical",
+                  "ingredientGroup": "Mugwort",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": [
+                    {
+                      "order": 1,
+                      "ingredientId": 325958,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Japanese Mugwort",
+                      "category": "botanical",
+                      "ingredientGroup": "Mugwort",
+                      "uniiCode": null
+                    },
+                    {
+                      "order": 2,
+                      "ingredientId": 325959,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Japanese Mugwort",
+                      "category": "botanical",
+                      "ingredientGroup": "Mugwort",
+                      "uniiCode": null
+                    }
+                  ]
+                },
+                {
+                  "order": 12,
+                  "ingredientId": 325961,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Komatsuna",
+                  "category": "botanical",
+                  "ingredientGroup": "Brassica rapa (unspecified)",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": [
+                    {
+                      "order": 1,
+                      "ingredientId": 325960,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Brassica rapa",
+                      "category": "botanical",
+                      "ingredientGroup": "Brassica rapa (unspecified)",
+                      "uniiCode": null
+                    },
+                    {
+                      "order": 2,
+                      "ingredientId": 325962,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Brassica rapa",
+                      "category": "botanical",
+                      "ingredientGroup": "Brassica rapa (unspecified)",
+                      "uniiCode": null
+                    }
+                  ]
+                }
+              ],
+              "name": "Vegetables",
+              "category": "other",
+              "ingredientGroup": "Header",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 13,
+              "ingredientId": 194638,
+              "description": "",
+              "notes": "Fruiting bodies",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 14,
+                  "ingredientId": 259266,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Shiitake",
+                  "category": "botanical",
+                  "ingredientGroup": "Shiitake Mushroom",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 15,
+                  "ingredientId": 325963,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Agaricus",
+                  "category": "other",
+                  "ingredientGroup": "Agaricus mushroom",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                },
+                {
+                  "order": 16,
+                  "ingredientId": 259253,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Maitake",
+                  "category": "botanical",
+                  "ingredientGroup": "Maitake Mushroom",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": []
+                }
+              ],
+              "name": "Mushrooms",
+              "category": "other",
+              "ingredientGroup": "Header",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 17,
+              "ingredientId": 40739,
+              "description": "",
+              "notes": "Leaves and stalks  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 18,
+                  "ingredientId": 325965,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Hijiki",
+                  "category": "other",
+                  "ingredientGroup": "Hijiki",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": [
+                    {
+                      "order": 1,
+                      "ingredientId": 325964,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Hijiki",
+                      "category": "other",
+                      "ingredientGroup": "Hijiki",
+                      "uniiCode": null
+                    },
+                    {
+                      "order": 2,
+                      "ingredientId": 325966,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Hijiki",
+                      "category": "other",
+                      "ingredientGroup": "Hijiki",
+                      "uniiCode": null
+                    }
+                  ]
+                },
+                {
+                  "order": 19,
+                  "ingredientId": 325968,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Wakame",
+                  "category": "other",
+                  "ingredientGroup": "Wakame",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": [
+                    {
+                      "order": 1,
+                      "ingredientId": 325967,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Wakame",
+                      "category": "other",
+                      "ingredientGroup": "Wakame",
+                      "uniiCode": null
+                    },
+                    {
+                      "order": 2,
+                      "ingredientId": 325969,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Wakame",
+                      "category": "other",
+                      "ingredientGroup": "Wakame",
+                      "uniiCode": null
+                    }
+                  ]
+                },
+                {
+                  "order": 20,
+                  "ingredientId": 325971,
+                  "description": "",
+                  "notes": "",
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [],
+                      "servingSizeUnit": "Capsule(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Kombu Kelp",
+                  "category": "other",
+                  "ingredientGroup": "Laminara",
+                  "uniiCode": null,
+                  "alternateNames": [],
+                  "forms": [
+                    {
+                      "order": 1,
+                      "ingredientId": 325970,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Kombu",
+                      "category": "other",
+                      "ingredientGroup": "Laminara",
+                      "uniiCode": null
+                    },
+                    {
+                      "order": 2,
+                      "ingredientId": 325972,
+                      "prefix": null,
+                      "percent": null,
+                      "name": "Kombu",
+                      "category": "other",
+                      "ingredientGroup": "Laminara",
+                      "uniiCode": null
+                    }
+                  ]
+                }
+              ],
+              "name": "Seaweed",
+              "category": "other",
+              "ingredientGroup": "Seaweed (unspecified)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            }
+          ],
+          "name": "Prebiotics",
+          "category": "other",
+          "ingredientGroup": "Header",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 21,
+          "ingredientId": 224209,
+          "description": "",
+          "notes": "Lactic acid bacteria (used in fermentation)",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [
+            {
+              "order": 22,
+              "ingredientId": 294383,
+              "description": "",
+              "notes": "Bifidobacteria",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Bifidobacterium breve M16-V",
+              "category": "bacteria",
+              "ingredientGroup": "Bifidobacterium breve",
+              "uniiCode": "9FZ7JC6VPF",
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 23,
+              "ingredientId": 295254,
+              "description": "",
+              "notes": "Bifidobacteria  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Bifidobacterium longum infantis M-63",
+              "category": "bacteria",
+              "ingredientGroup": "Bifidobacterium infantis",
+              "uniiCode": "0",
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 24,
+              "ingredientId": 90641,
+              "description": "",
+              "notes": "Bifidobacteria  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Bifidobacterium longum BB536",
+              "category": "bacteria",
+              "ingredientGroup": "Bifidobacterium longum",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 25,
+              "ingredientId": 304080,
+              "description": "",
+              "notes": "",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Enterococcus faecalis TH-10",
+              "category": "bacteria",
+              "ingredientGroup": "Enterococcus faecium",
+              "uniiCode": "0",
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 26,
+              "ingredientId": 296575,
+              "description": "",
+              "notes": "Lactobacilli",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus acidophilus ATCC SD-5212",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus acidophilus",
+              "uniiCode": "0",
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 27,
+              "ingredientId": 326095,
+              "description": "",
+              "notes": "Lactobacilli  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus brevis NBRC 3345",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus brevis",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 28,
+              "ingredientId": 326098,
+              "description": "",
+              "notes": "Lactobacilli  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus bulgaricus NBRC 13953",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus delbrueckii bulgaricus",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 29,
+              "ingredientId": 326099,
+              "description": "",
+              "notes": "Lactobacilli  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus casei TO-A",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus casei",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 30,
+              "ingredientId": 326455,
+              "description": "",
+              "notes": "Lactobacilli  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus fermentum NBRC 3071",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus fermentum",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 31,
+              "ingredientId": 326456,
+              "description": "",
+              "notes": "Lactobacilli  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus helveticus ss. jugurti BBRC 3809",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus helveticus",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 32,
+              "ingredientId": 326100,
+              "description": "",
+              "notes": "Lactobacilli  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Lactobacillus plantarum TO-A",
+              "category": "bacteria",
+              "ingredientGroup": "Lactobacillus plantarum",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 33,
+              "ingredientId": 326106,
+              "description": "",
+              "notes": "",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Streptococcus thermophilus NBRC 13957",
+              "category": "bacteria",
+              "ingredientGroup": "Streptococcus Thermophilus",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            }
+          ],
+          "name": "Probiotics",
+          "category": "other",
+          "ingredientGroup": "Header",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 34,
+          "ingredientId": 326108,
+          "description": "",
+          "notes": "Nutrients developed in fermentation process",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [
+            {
+              "order": 35,
+              "ingredientId": 34940,
+              "description": "",
+              "notes": "Short-chain fatty acids and other organic acids",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Acetic Acid",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Acetic acid",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 36,
+              "ingredientId": 3677,
+              "description": "",
+              "notes": "Short-chain fatty acids and other organic acids ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Citric Acid",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Citric Acid",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 37,
+              "ingredientId": 10555,
+              "description": "",
+              "notes": "Short-chain fatty acids and other organic acids ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Fulvic Acid",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Fulvic Acid",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 38,
+              "ingredientId": 10611,
+              "description": "",
+              "notes": "Short-chain fatty acids and other organic acids  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Humic Acid",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Humic acid",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 39,
+              "ingredientId": 313150,
+              "description": "",
+              "notes": "Short-chain fatty acids and other organic acids ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "3-Phenyllactic Acid",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "3-Phenyllactic Acid",
+              "uniiCode": null,
+              "alternateNames": [
+                "Phenyllactic Acid"
+              ],
+              "forms": []
+            },
+            {
+              "order": 40,
+              "ingredientId": 177725,
+              "description": "",
+              "notes": "",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Oligosaccharides",
+              "category": "complex carbohydrate",
+              "ingredientGroup": "Oligosaccharide (unspecified)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 41,
+              "ingredientId": 4102,
+              "description": "",
+              "notes": "",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Polyphenols",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Polyphenol (unspecified)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 42,
+              "ingredientId": 326117,
+              "description": "",
+              "notes": "Anti-oxidant",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Melanoidin",
+              "category": "TBD",
+              "ingredientGroup": "Antioxidant (unspecified)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 43,
+              "ingredientId": 177376,
+              "description": "",
+              "notes": "Trace amounts",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Chelated Minerals",
+              "category": "blend",
+              "ingredientGroup": "Blend (non-nutrient/non-botanical)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 44,
+              "ingredientId": 9102,
+              "description": "",
+              "notes": "Trace amounts",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Vitamins",
+              "category": "blend",
+              "ingredientGroup": "Blend (Vitamin)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 45,
+              "ingredientId": 40645,
+              "description": "",
+              "notes": "Trace amounts  ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 0,
+                  "unit": "NP",
+                  "dailyValueTargetGroup": [],
+                  "servingSizeUnit": "Capsule(s)"
+                }
+              ],
+              "nestedRows": [],
+              "name": "Amino Acids",
+              "category": "blend",
+              "ingredientGroup": "Blend (Amino Acid/Protein)",
+              "uniiCode": null,
+              "alternateNames": [],
+              "forms": []
+            }
+          ],
+          "name": "Postbiotics",
+          "category": "TBD",
+          "ingredientGroup": "TBD",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Proprietary Fermented Food Concentrate",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4737,
+        "name": "Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4243,
+        "name": "Safflower Oil",
+        "category": "fat",
+        "ingredientGroup": "Safflower Oil",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 5771,
+        "name": "Starch",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Starch",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 284593,
+        "name": "Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": "PDC6A3C0OX",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 161670,
+        "name": "Carrageenan",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Carrageenan",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 73969,
+            "prefix": null,
+            "percent": null,
+            "name": "Red Seaweed",
+            "category": "other",
+            "ingredientGroup": "Red seaweed (unspecified)",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "ingredientId": 3743,
+        "name": "natural Caramel color",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 292621,
+        "name": "Calcium Carbonate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": "H0G9379FGK",
+        "alternateNames": [
+          "Ca Carbonate",
+          "CaCO3"
+        ],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 287191,
+        "name": "Glycerin Esters",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 9,
+        "ingredientId": 3826,
+        "name": "Vitamin E",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin E (unspecified)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 10,
+        "ingredientId": 3866,
+        "name": "Beeswax",
+        "category": "animal part or source",
+        "ingredientGroup": "Beeswax",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 11,
+        "ingredientId": 4025,
+        "name": "Lecithin",
+        "category": "fat",
+        "ingredientGroup": "lecithin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2023-06-22"
+}

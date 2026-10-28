@@ -1,0 +1,272 @@
+{
+  "src": "01-raw/2025-08-22/data/label_253.json",
+  "id": 78492,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium Citrate",
+  "brandName": "Allergy Research Group",
+  "brandIpSymbol": "®",
+  "upcSku": "7 13947 70240 0",
+  "productVersionCode": "Rev. 009",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 54244
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 54244
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 20453
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 182963
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 208093
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 233067
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 54431
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 184238
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 233300
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 20453
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 182963
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 208093
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 233067
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7580,
+      "text": "Formulated exclusively for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7580,
+        "name": "Allergy Research Group",
+        "streetAddress": "",
+        "city": "Alameda",
+        "state": "CA",
+        "country": "",
+        "zipCode": "94502",
+        "phoneNumber": "510-263-2000",
+        "email": "",
+        "webAddress": "www.allergyresearchgroup.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "90 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Magnesium in the citrate form."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use\nAs a dietary supplement, 1 capsule one to three times daily between meals, or as directed by a healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "High doses of magnesium can have a laxative effect."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Contraindicated with use of aluminum containing drugs."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place, tightly capped."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Hypoallergenic"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Rev. 009"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-07-19",
+      "type": "Off Market"
+    },
+    {
+      "date": "2017-09-21",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 7131,
+      "description": null,
+      "notes": "Magnesium (Form: as Magnesium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 170,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 43,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4045,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4526,
+        "name": "Hydroxypropyl Methylcellulose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4058,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2017-09-21"
+}

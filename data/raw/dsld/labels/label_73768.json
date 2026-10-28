@@ -1,0 +1,297 @@
+{
+  "src": "01-raw/2025-09-25/data/label_82.json",
+  "id": 73768,
+  "nhanesId": "1-001-0798-00",
+  "bundleName": "",
+  "fullName": "Calcium Citrate Plus Vitamin D",
+  "brandName": "The Vitamin Shoppe",
+  "brandIpSymbol": "®",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 208788
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 208788
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 208789
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9439,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9439,
+        "name": "The Vitamin Shoppe",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-866-293-3367",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Tablet(s)",
+      "display": "120 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 4,
+      "maxQuantity": 4,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1316",
+    "langualCodeDescription": "Single Vitamin and Mineral"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Calcium Citrate plus Vitamin D"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Product label\nMinerals\nMaintains healthy bones and teeth\n"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No yeast, wheat, sugar, salt, soy, dairy, citrus, fish, animal derivatives, preservatives, artificial colors or flavors added."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions\nAs a dietary supplement, take four (4) tablets daily, preferably with meals."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning\nKeep out of reach of children."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does Not Contain:\nYeast, wheat, sugar, salt, soy, dairy, citrus, fish, animal derivatives, preservatives, artificial colors or flavors added."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-05-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281609,
+      "description": null,
+      "notes": "Vitamin D (Form: as Ergocalciferol) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 4,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "VS041H42XC",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280175,
+          "prefix": null,
+          "percent": null,
+          "name": "Ergocalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "VS041H42XC"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 292354,
+      "description": null,
+      "notes": "Calcium (Form: as Calcium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 4,
+          "operator": "=",
+          "quantity": 1000,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": "SY7Q814VUP",
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 292351,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "MLM29U2X85"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 42819,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 60027,
+        "name": "Croscarmellose Sodium",
+        "category": "other",
+        "ingredientGroup": "Croscarmellose Sodium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 43210,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 71184,
+        "name": "Pharmaceutical Glaze",
+        "category": "other",
+        "ingredientGroup": "Coating",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2017-05-24"
+}

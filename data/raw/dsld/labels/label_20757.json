@@ -1,0 +1,299 @@
+{
+  "src": "01-raw/2025-08-22/data/label_266.json",
+  "id": 20757,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Mega Magnesium",
+  "brandName": "VSN Vital Strength Nutrition",
+  "brandIpSymbol": "none",
+  "upcSku": "7 19985 61034 9",
+  "productVersionCode": "VL 610-90N",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 2475,
+      "text": "To report a serious adverse event, call",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2475,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-888-710-0006",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "90 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 3,
+      "maxQuantity": 3,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Magnesium is an essential electrolyte mineral involved in maintaining proper cardiovascular, nerve, and muscle health. The primary function is to activate enzymes. More than half of the body's magnesium is stored in the bones, 27% in muscle and the remainder in soft body tissues, cells and fluids. Magnesium is critical in energy production."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Our Mega Magnesium(R) contains a combination of three different forms of magnesium."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "WE GUARANTEE OUR SUPPLEMENTS FOR POTENCY AND PURITY"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "YOU DESERVE VITALITY"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Promotes Optimal Muscle, Nerve, and Bone Health"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "DOUBLE VERIFIED GLUTEN FREE(TM)"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "SUGGESTED USE: Take three capsules daily, preferably with meals, in divided doses, or as directed by your healthcare practitioner."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "CONTAINS NO artificial colors, flavors or preservatives; no wheat, gluten, milk, eggs, peanuts, tree nuts, soy, crustacean shellfish or fish."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Suitable for vegans."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "VL 610-90N"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-11-20",
+      "type": "Off Market"
+    },
+    {
+      "date": "2013-04-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 69771,
+      "description": null,
+      "notes": "Magnesium (Form: from {Magnesium} Amino Acid Chelate, {Magnesium} Citrate, and {Magnesium} Malate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 55532,
+          "prefix": "from",
+          "percent": null,
+          "name": "Magnesium Amino Acid Chelate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 63832,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium Citrate",
+          "uniiCode": null
+        },
+        {
+          "order": 3,
+          "ingredientId": 62941,
+          "prefix": "and",
+          "percent": null,
+          "name": "Magnesium Malate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "TBD",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 38023,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 222,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Malic Acid",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Malic Acid",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 74466,
+        "name": "Vegetarian Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 15291,
+            "prefix": null,
+            "percent": null,
+            "name": "Cellulose",
+            "category": "fiber",
+            "ingredientGroup": "Cellulose",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 17087,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2013-04-25"
+}

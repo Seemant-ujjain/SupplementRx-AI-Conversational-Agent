@@ -1,0 +1,284 @@
+{
+  "src": "01-raw/2025-08-22/data/label_418.json",
+  "id": 211297,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric 450 mg",
+  "brandName": "Basic Vitamins",
+  "brandIpSymbol": "none",
+  "upcSku": "3 07610 54112 2",
+  "productVersionCode": "Product #541",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 250370
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 18022,
+      "text": "Caerfully Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 18022,
+        "name": "Basic Drugs, Inc.",
+        "streetAddress": "",
+        "city": "Vandalia",
+        "state": "OH",
+        "country": "USA",
+        "zipCode": "45377",
+        "phoneNumber": "937-898-4010",
+        "email": "",
+        "webAddress": "www.basicvitamins.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if inner seal is missing or broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry room."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of the reach of children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Herb's"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Turmeric may help bolster the immune system"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "High quality basics"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: For adults, take one (1) capsule daily preferably with a meal."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No artificial color, flavor, or sweetener, no preservatives, no sugar, no milk, no lactose, no soy, no gluten, no wheat, no yeast, no fish."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: If you are pregnant, nursing, or taking any medications, consult your doctor before use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-04-23",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-01-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 28557,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 450,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 6920,
+      "description": "",
+      "notes": "Turmeric (Curcuma longa) extract (Form: standardized to contain 95% Curcuminoids) PlantPart: root Genus: Curcuma Species: longa ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric (Curcuma longa) extract",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 41501,
+          "prefix": "standardized to contain",
+          "percent": 95,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoid",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3715,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 7140,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium Stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-01-25"
+}

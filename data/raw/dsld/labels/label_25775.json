@@ -1,0 +1,448 @@
+{
+  "src": "01-raw/2023-03-22/data/label_35.json",
+  "id": 25775,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha",
+  "brandName": "Himalaya",
+  "brandIpSymbol": "™",
+  "upcSku": "6 05069 40101 2",
+  "productVersionCode": "WFP HUS-PPLAB0010550",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 80192
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 240614
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282969
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282968
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282964
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 40304
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 40487
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 80197
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 240622
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 207207
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 282966
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 40304
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 40487
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 80197
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 240622
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282966
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282967
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 4959,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 4959,
+        "name": "The Himalaya Drug Company",
+        "streetAddress": "10440 Westoffice Drive",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "",
+        "zipCode": "77042",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 4960,
+      "text": "Manufactued by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 4960,
+        "name": "The Himalaya Drug Company",
+        "streetAddress": "",
+        "city": "Makali",
+        "state": "Bangalore",
+        "country": "India",
+        "zipCode": "562 123",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 4961,
+      "text": "Questions? Please call",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 4961,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-869-4640",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 4962,
+      "text": "or visit",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 4962,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.himalayausa.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Caplet(s)",
+      "display": "60 Caplet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0172",
+    "langualCodeDescription": "Other (e.g. tea bag)"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Caplet(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Organic",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Take 1 caplet per day before food."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Mfg. Lic. No. AUS-83\nLot No: E371007\nExp. Date: JUL 2013"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "India Organic"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Product of INDIA"
+    },
+    {
+      "type": "Storage",
+      "notes": "Caution: Keep out of direct light and out of the reach of children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Caution: Keep out of direct light and out of the reach of children."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "{recycle}"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Chromatographic Fingerprinting:\nThe most rigorous testing for herbal potency."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Ashwagandha {graph}"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE, OR PREVENT ANY DISEASE."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "HOW CAN ASHWAGANDHA HELP YOU?\n~Acts as a rejuvenative with anti-stress and adaptogenic actions, helping the body cope with life's daily challenges\n~Supports a healthy response to stress\n~Improves physical endurance and energy\nTHE HIMALAYA DIFFERENCE\n~Family owned since 1930\n~1,214 published clinical trials on Himalaya products\n~Seed-to-shelf - GMP Facility\n~Patents: 3 granted, 25 pending\n"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GLUTEN FREE"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "ANTI-STRESS & ENERGY"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "USDA ORGANIC"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Additive Free"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "HERBAL SUPPLEMENT"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "2.96 mg Withanolides"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "H worldwide since 1930"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "WFP HUS-PPLAB0010550"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Certified Organic by Control Union Certifications Control Union 806546"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "PURE HERBS"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2014-11-25",
+      "type": "Off Market"
+    },
+    {
+      "date": "2013-09-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 87262,
+      "description": null,
+      "notes": "organic ashwagandha root (Withania somnifera Dunal) standardized supercritical CO2 extract (Form: 0.8% Withanolides Note: 0.8 mg) PlantPart: root Genus: Withania Species: somnifera Classifier: Dunal ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Caplet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic ashwagandha root (Withania somnifera Dunal) standardized supercritical CO2 extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 87264,
+          "prefix": null,
+          "percent": 0.8,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 87265,
+      "description": null,
+      "notes": "organic ashwagandha root standardized extract (Form: 0.5% Withanolides Note: 1.4 mg) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 280,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Caplet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic ashwagandha root standardized extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 87267,
+          "prefix": null,
+          "percent": 0.5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 87268,
+      "description": null,
+      "notes": "organic ashwagandha root powder (Form: 0.2% Withanolides Note: 0.76 mg) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 380,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Caplet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic ashwagandha root powder",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 87269,
+          "prefix": null,
+          "percent": 0.2,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": null
+  },
+  "offMarket": 1,
+  "entryDate": "2013-09-25"
+}

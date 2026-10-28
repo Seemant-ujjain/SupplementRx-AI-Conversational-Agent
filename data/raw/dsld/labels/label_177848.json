@@ -1,0 +1,315 @@
+{
+  "src": "01-raw/2025-08-22/data/label_251.json",
+  "id": 177848,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium 300",
+  "brandName": "Innate Response Formulas",
+  "brandIpSymbol": "®",
+  "upcSku": "0 51494 43003 3",
+  "productVersionCode": "Product Code #43003 1264B Rev: 16 12/16",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 278918
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 268042
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 203575
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 309001
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15322,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15322,
+        "name": "Innate Response",
+        "streetAddress": "PO Box 5244",
+        "city": "Manchester",
+        "state": "NH",
+        "country": "",
+        "zipCode": "03108",
+        "phoneNumber": "800-634-6342",
+        "email": "",
+        "webAddress": "www.innateresponse.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Capsule(s)",
+      "display": "120 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1317",
+    "langualCodeDescription": "Botanical with Nutrients"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Please recycle"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Product #43003 1264B Rev: 16 12/16"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Vis medicatrix naturae"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "300 mg of Magnesium combined with organic Spinach\nMagnesium whole food blend"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "300 mg of Magnesium combined with organic Spinach"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: 2 capsules daily, or as directed by your healthcare practitioner."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Our Mission\nWe are improving lives every day as leaders in the movement from reactive to proactive natural health."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Purity Promise: Free of magnesium stearate, wheat, no artificial colors or preservatives."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-10-01",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-07-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 278747,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 17,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin C",
+      "uniiCode": "PQ6CK8PD0R",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 278748,
+          "prefix": null,
+          "percent": null,
+          "name": "Ascorbyl Palmitate",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin C",
+          "uniiCode": "QN83US2B0N"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 198179,
+      "description": "",
+      "notes": "Magnesium (Form: as Magnesium Citrate, Magnesium Malate Complex, Magnesium Glycinate Complex) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 300,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 75,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4045,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 198192,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Glycinate Complex",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 3,
+          "ingredientId": 198190,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Malate Complex",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium Malate",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 117145,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic Spinach",
+      "category": "botanical",
+      "ingredientGroup": "Spinach",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 198195,
+        "name": "Spirulina",
+        "category": "bacteria",
+        "ingredientGroup": "Blue-Green Algae",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-07-25"
+}

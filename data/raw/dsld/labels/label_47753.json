@@ -1,0 +1,254 @@
+{
+  "src": "01-raw/2025-08-22/data/label_252.json",
+  "id": 47753,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium Citrate",
+  "brandName": "Physio Vites",
+  "brandIpSymbol": "none",
+  "upcSku": "7 00175 85794 1",
+  "productVersionCode": "PHYSVI-128-1",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 7391,
+      "text": "Manufactured for:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 7391,
+        "name": "NewYouVitamins.com",
+        "streetAddress": "",
+        "city": "Orlando",
+        "state": "FL",
+        "country": "",
+        "zipCode": "32824",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "NewYouVitamins.com "
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Capsule(s)",
+      "display": "90 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Magnesium Citrate 400 mg"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Essential muscle, nerve and cardiovascular support*"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement, 1 capsule one to three times daily between meals or as directed by a healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Consult your doctor before use if you have, or have had, any health condition or if you are taking any medications or remedies including OTC medications, or are planning any medical procedure."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur, such as gastrointestinal discomfort or any allergic reaction."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GUARANTEE 100% \nSATISFACTION GUARANTEE"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "MADE WITH NATURAL INGREDIENT\n"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP GOOD MANUFACTURING PRACTICE\n"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "MADE IN USA"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "PHYSVI-128-1"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Physio Vites \nLifestyle Supplements"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "This product contains no dairy, egg, fish, peanuts, gluten, shellfish, wheat, yeast, sugars, flavors or preservatives."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-17",
+      "type": "Off Market"
+    },
+    {
+      "date": "2015-07-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 6520,
+      "description": null,
+      "notes": "Magnesium (Form: as Magnesium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4045,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 27352,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2015-07-24"
+}

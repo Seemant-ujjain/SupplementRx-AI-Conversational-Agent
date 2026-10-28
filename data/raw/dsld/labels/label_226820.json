@@ -1,0 +1,268 @@
+{
+  "src": "01-raw/2024-09-25/data/label_481.json",
+  "id": 226820,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin B12 2,000 mcg",
+  "brandName": "Nutricost",
+  "brandIpSymbol": "®",
+  "upcSku": "7 02669 93320 9",
+  "productVersionCode": "400755",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "240",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 269846
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 306402
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 19196,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 19196,
+        "name": "Nutricost",
+        "streetAddress": "351 E 1750 N",
+        "city": "Vineyard",
+        "state": "UT",
+        "country": "",
+        "zipCode": "84059",
+        "phoneNumber": "(866) 438-3694",
+        "email": "support@nutricost.com",
+        "webAddress": "www.nutricost.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 240,
+      "unit": "Capsule(s)",
+      "display": "240 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended Use: As a dietary supplement, take 1 capsule with 8-12 oz of water, or as directed by your physician."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Consult your physician prior to use it you are pregnant or nursing."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not exceed recommended use."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Notice: Store in a cool, dry place."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Vitamin B12 Methylcobalamin 2,000 mcg per serving"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Nutricost\nQuality guaranteed\n3rd party tested"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non GMO\nGluten free product"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-06-24",
+      "type": "Date entered into DSLD"
+    },
+    {
+      "date": "2021-12-20",
+      "type": "Off Market"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281388,
+      "description": "",
+      "notes": "Vitamin B12 (Form: as Methylcobalamin) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 2000,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 83330,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280220,
+          "prefix": null,
+          "percent": null,
+          "name": "Methylcobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "BR1SN1JS2W"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3782,
+        "name": "Rice Flour",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 233463,
+        "name": "Vegetable capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 282547,
+            "prefix": null,
+            "percent": null,
+            "name": "Carrageenan",
+            "category": "complex carbohydrate",
+            "ingredientGroup": "Carrageenan",
+            "uniiCode": "5C69YCD2YJ"
+          },
+          {
+            "order": 2,
+            "ingredientId": 59397,
+            "prefix": null,
+            "percent": null,
+            "name": "Hydroxypropyl Methylcellulose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 18423,
+            "prefix": null,
+            "percent": null,
+            "name": "Pectin",
+            "category": "fiber",
+            "ingredientGroup": "Pectin",
+            "uniiCode": null
+          },
+          {
+            "order": 4,
+            "ingredientId": 3777,
+            "prefix": null,
+            "percent": null,
+            "name": "purified Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-06-24"
+}

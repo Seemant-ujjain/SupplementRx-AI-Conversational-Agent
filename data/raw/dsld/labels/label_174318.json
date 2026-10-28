@@ -1,0 +1,248 @@
+{
+  "src": "01-raw/2024-09-25/data/label_13.json",
+  "id": 174318,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Adeno B12",
+  "brandName": "Seeking Health",
+  "brandIpSymbol": "®",
+  "upcSku": "7 00580 72358 9",
+  "productVersionCode": "REV. 011017 ZCL-SKGHEALTH-ADENO-01",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 210776
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15093,
+      "text": "Manufactured for and Distributed by:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15093,
+        "name": "Seeking Health",
+        "streetAddress": "3140 Mercer Ave",
+        "city": "Bellingham",
+        "state": "WA",
+        "country": "",
+        "zipCode": "98225",
+        "phoneNumber": "(800) 547-9812",
+        "email": "",
+        "webAddress": "www.seekinghealth.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Lozenge(s)",
+      "display": "60 Lozenge(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0174",
+    "langualCodeDescription": "Lozenge"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Lozenge(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Take 1 lozenge daily or as directed by your healthcare professional. Lozenge may be broken into smaller pieces if lower dosage is desired."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Children and pregnant or lactating women should consult their healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Children and pregnant or lactating women should consult their healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if tamper seal is damaged."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Adeno B12 provides 3,000 mcg of Adenosylcobalamin, the mitochondrial form of Vitamin B12, in an easy-to-deliver lozenge."
+    },
+    {
+      "type": "Storage",
+      "notes": "Storage: Keep closed in a cool, dry place out of reach by children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Storage: Keep closed in a cool, dry place out of reach by children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Adeno B12 meets or exceeds cGMP quality standards."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Physician formulated"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "REV. 011017 ZCL-SKGHEALTH-ADENO-01"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "This package is completely recyclable"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-03-04",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-03-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 83500,
+      "description": "",
+      "notes": "Vitamin B12 (Form: as Adenosylcobalamin) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 3000,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 125000,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Lozenge(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12 (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 284286,
+          "prefix": "as",
+          "percent": null,
+          "name": "Adenosylcobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "F0R1QK73KB"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4228,
+        "name": "Xylitol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Xylitol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 278748,
+        "name": "Ascorbyl Palmitate",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin C",
+        "uniiCode": "QN83US2B0N",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 5724,
+        "name": "natural Cherry flavor",
+        "category": "botanical",
+        "ingredientGroup": "cherry (unspecified)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-03-23"
+}

@@ -1,0 +1,381 @@
+{
+  "src": "01-raw/2022-10-25/data/label_704.json",
+  "id": 212953,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Complex",
+  "brandName": "Nature's Way",
+  "brandIpSymbol": "®",
+  "upcSku": "0 33674 12722 3",
+  "productVersionCode": "LG12722.01 BLK9182",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 7591,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7591,
+        "name": "Nature's Way Brands, LLC",
+        "streetAddress": "",
+        "city": "Green Bay",
+        "state": "WI",
+        "country": "USA",
+        "zipCode": "54311",
+        "phoneNumber": "1-800-962-8873",
+        "email": "",
+        "webAddress": "naturesway.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 30,
+      "unit": "Capsule(s)",
+      "display": "30 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Women (not pregnant or lactating)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Other",
+      "notes": "Specialized joint support"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric has been used in Ayurvedic culture for thousands of years. The root grows in tropical areas of Southern Asia."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "This complex includes Theracurmin, a unique form of curcumin, with superior absorption compared to standard turmeric extract. We then add UC-II collagen to support joint mobility and create this premium formula."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Nature’s Way Since 1969\nPremium blend"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric & UC-II\nUC-II  Collagen with undenatured type II collagen"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "100 mg Turmeric extract per serving"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommendation: Adults take 1 capsule daily with water in the evening."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Do not use this product if you are pregnant or nursing. If you are taking any medications, consult a healthcare professional before use."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Safety sealed with printed inner seal. Do not use if seal is broken or missing."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free. No sugar, salt, yeast, wheat, soy, dairy products, or artificial colors, or flavors."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Theracurmin is a registered trademark of Theravalues Corporation, used under license by Schwabe North America, Inc.\nUC-II  & logo are trademarks of Lonza or its affiliates. UC-II brand collagen with undenatured type II collagen.\n2019 Nature’s Way Brands, LLC"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Bottles made from 97% post-consumer recycled plastic"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Quality Global Sourcing Bottled & Tested In the USA"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-02-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 153119,
+      "description": "",
+      "notes": "Theracurmin (Form: enhanced bioavailability water-dispersible Turmeric (Curcuma longa) rhizome Complex PlantPart: rhizome Genus: Curcuma Species: longa, providing 30% Curcumin Note: 30 mg) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Theracurmin",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Curcumin",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 235888,
+          "prefix": "providing",
+          "percent": 30,
+          "name": "Curcumin",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcumin",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 153251,
+          "prefix": "enhanced bioavailability water-dispersible",
+          "percent": null,
+          "name": "Turmeric (Curcuma longa) rhizome Complex",
+          "category": "botanical",
+          "ingredientGroup": "Turmeric",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 235889,
+      "description": "",
+      "notes": "UC-II standardized Cartilage Note: providing ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 40,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 133140,
+          "description": "",
+          "notes": "Total Collagen (Form: including undenatured Type II Collagen) ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 10,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Total Collagen",
+          "category": "protein",
+          "ingredientGroup": "Collagen",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 123755,
+              "prefix": "including",
+              "percent": null,
+              "name": "undenatured Type II Collagen",
+              "category": "protein",
+              "ingredientGroup": "Collagen",
+              "uniiCode": null
+            }
+          ]
+        }
+      ],
+      "name": "UC-II standardized Cartilage",
+      "category": "animal part or source",
+      "ingredientGroup": "Cartilage",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 147550,
+        "name": "plant-derived Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 65554,
+            "prefix": null,
+            "percent": null,
+            "name": "Hypromellose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 282498,
+        "name": "Maltose",
+        "category": "sugar",
+        "ingredientGroup": "Maltose",
+        "uniiCode": "XJ6S9RV06F",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 18992,
+        "name": "Gum Ghatti",
+        "category": "botanical",
+        "ingredientGroup": "Ghatti",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 282710,
+        "name": "Dextrin",
+        "category": "sugar",
+        "ingredientGroup": "Dextrin",
+        "uniiCode": "2NX48Z0A9G",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 3677,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-02-26"
+}

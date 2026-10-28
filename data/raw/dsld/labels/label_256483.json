@@ -1,0 +1,308 @@
+{
+  "src": "01-raw/2025-09-25/data/label_264.json",
+  "id": 256483,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Melatonin 1 mg",
+  "brandName": "Health Star",
+  "brandIpSymbol": "®",
+  "upcSku": "3 57896 88418 5",
+  "productVersionCode": "REV 0418V",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "180",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 255319
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 255320
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 309720
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 309721
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15251,
+      "text": "Dist. By",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15251,
+        "name": "Geri-Care Pharmaceuticals Corp.",
+        "streetAddress": "1650 63rd Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "",
+        "zipCode": "11204",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 180,
+      "unit": "Tablet(s)",
+      "display": "180 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Women (not pregnant or lactating)"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: For adults, take one (1) tablet only at bedtime, as Melatonin may produce drowsiness."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Limit use to two months with a break of one week."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "The sensible choice for price and health"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warnings: Not intended for use by pregnant or nursing women."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Ask a doctor before use if you have an autoimmune condition, a depressive disorder, or are under a doctor’s care for any other condition."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Ask a doctor or pharmacist before use if you are taking any tranquilizers, sedatives or any other medication."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Stop use and contact your doctor if any adverse reactions occur. You may experience some residual drowsiness. Do not drive, operate machinery or consume alcohol when taking this product.\t\n"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper Evident: Do not use if imprinted seal under cap is missing or broken."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-08-18",
+      "type": "Off Market"
+    },
+    {
+      "date": "2021-10-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281043,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 75,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 6,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": "SY7Q814VUP",
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 283596,
+      "description": "",
+      "notes": "Melatonin (Form: as N-Acetyl-5-Methoxytryptamine)",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Melatonin",
+      "category": "hormone",
+      "ingredientGroup": "Melatonin",
+      "uniiCode": "JL5DK93RCL",
+      "alternateNames": [
+        "N-acetyl-5-methotryptamine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3700,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 4312,
+        "name": "Croscarmellose Sodium",
+        "category": "other",
+        "ingredientGroup": "Croscarmellose Sodium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 7140,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium Stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 6725,
+        "name": "Pharmaceutical Glaze",
+        "category": "other",
+        "ingredientGroup": "Coating",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2021-10-22"
+}

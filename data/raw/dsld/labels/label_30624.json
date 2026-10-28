@@ -1,0 +1,386 @@
+{
+  "src": "01-raw/2025-06-25/data/label_264.json",
+  "id": 30624,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Melatonin 3 mg",
+  "brandName": "Sundown Naturals",
+  "brandIpSymbol": "®",
+  "upcSku": "0 30768 04005 5",
+  "productVersionCode": "Prod. No. 48685 12H B52973 EAC",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 6010
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 64318
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 6010
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 212355
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 212175
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 30617
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 6019
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 56720
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 63389
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 64319
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 212175
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 56720
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 63389
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 64319
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 1360,
+      "text": "or visit us at",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1360,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.sundownnaturals.com"
+      }
+    },
+    {
+      "contactId": 1363,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1363,
+        "name": "Rexall Sundown, Inc.",
+        "streetAddress": "",
+        "city": "Boca Raton",
+        "state": "FL",
+        "country": "USA",
+        "zipCode": "33487",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 2312,
+      "text": "Questions? Call toll free",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2312,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-888-848-2435",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Tablet(s)",
+      "display": "60 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: All Other",
+      "notes": "TAMPER RESISTANT: DO NOT USE IF SEAL UNDER CAP IS BROKEN OR MISSING."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Clinically Studied Ingredient"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Drug Free Sleep Aid*"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "VEGETARIAN FORMULA"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Smart Facts\nInspired by the natural rhythm of life, Melatonin is an exceptional choice for people experiencing occasional sleeplessness, those with jet lag, or those seeking to improve their quality of rest.*"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: Not intended for use by pregnant or nursing women. If you are taking any medications or have any medical condition, consult your doctor before use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Limit use to two months with a break of one week."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "FREE OF Gluten & Wheat"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GUARANTEED\nLABORATORY\nTESTED\nQUALITY"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Prod. No. 48685 12H B52973 EAC"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "(C)2013"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: FOR ADULTS, TAKE ONE (1) TABLET AT BEDTIME AS MELATONIN MAY PRODUCE DROWSINESS."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "As a reminder, discuss the supplements and medications you take with your health care providers."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Artificial Color, Flavor or Sweetener, No Preservatives, No Sugar, No Starch, No Milk, No Lactose, No Soy, No Gluten, No Wheat, No Yeast, No Fish. Sodium Free."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "PLEASE RECYCLE"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Storage",
+      "notes": "STORE AT ROOM TEMPERATURE AND AVOID EXCESSIVE HEAT."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2016-01-23",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-02-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283596,
+      "description": null,
+      "notes": "Melatonin (Form: as N-Acetyl-5-Methoxytryptamine) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Melatonin",
+      "category": "hormone",
+      "ingredientGroup": "Melatonin",
+      "uniiCode": "JL5DK93RCL",
+      "alternateNames": [
+        "N-acetyl-5-methotryptamine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3700,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3810,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 43929,
+        "name": "Contains Less Than 2% of",
+        "category": "blend",
+        "ingredientGroup": "Blend",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 293311,
+            "prefix": null,
+            "percent": null,
+            "name": "Silica",
+            "category": "mineral",
+            "ingredientGroup": "Silicon",
+            "uniiCode": "ETJ7Z6XBU4"
+          },
+          {
+            "order": 2,
+            "ingredientId": 285558,
+            "prefix": null,
+            "percent": null,
+            "name": "Stearic Acid",
+            "category": "fatty acid",
+            "ingredientGroup": "Stearic Acid",
+            "uniiCode": "4ELV7Z65AP"
+          },
+          {
+            "order": 3,
+            "ingredientId": 3813,
+            "prefix": null,
+            "percent": null,
+            "name": "Vegetable Magnesium Stearate",
+            "category": "other",
+            "ingredientGroup": "Magnesium stearate",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-02-26"
+}

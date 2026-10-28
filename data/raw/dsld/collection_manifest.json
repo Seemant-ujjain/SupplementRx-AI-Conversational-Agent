@@ -1,0 +1,1223 @@
+{
+  "source": "NIH Dietary Supplement Label Database",
+  "api_version": "v9",
+  "downloaded_at_utc": "2026-10-27T21:33:53.355626+00:00",
+  "queries": [
+    "Magnesium",
+    "Vitamin D",
+    "Ashwagandha",
+    "Melatonin",
+    "Omega-3",
+    "Vitamin B12",
+    "Iron",
+    "Turmeric",
+    "Probiotics",
+    "Creatine"
+  ],
+  "requested_per_query": 40,
+  "unique_ids_found": 400,
+  "labels_downloaded": 400,
+  "failed_requests": [],
+  "category_matches": {
+    "19279": [
+      "Magnesium"
+    ],
+    "242165": [
+      "Magnesium"
+    ],
+    "183121": [
+      "Magnesium"
+    ],
+    "204235": [
+      "Magnesium"
+    ],
+    "203860": [
+      "Magnesium"
+    ],
+    "47753": [
+      "Magnesium"
+    ],
+    "21158": [
+      "Magnesium"
+    ],
+    "184238": [
+      "Magnesium"
+    ],
+    "7841": [
+      "Magnesium"
+    ],
+    "29547": [
+      "Magnesium"
+    ],
+    "235550": [
+      "Magnesium"
+    ],
+    "233300": [
+      "Magnesium"
+    ],
+    "208093": [
+      "Magnesium"
+    ],
+    "182963": [
+      "Magnesium"
+    ],
+    "33728": [
+      "Magnesium"
+    ],
+    "183861": [
+      "Magnesium"
+    ],
+    "234782": [
+      "Magnesium"
+    ],
+    "199602": [
+      "Magnesium"
+    ],
+    "233067": [
+      "Magnesium"
+    ],
+    "54244": [
+      "Magnesium"
+    ],
+    "78492": [
+      "Magnesium"
+    ],
+    "1452": [
+      "Magnesium"
+    ],
+    "246459": [
+      "Magnesium"
+    ],
+    "212304": [
+      "Magnesium"
+    ],
+    "37432": [
+      "Magnesium"
+    ],
+    "68831": [
+      "Magnesium"
+    ],
+    "33733": [
+      "Magnesium"
+    ],
+    "20453": [
+      "Magnesium"
+    ],
+    "177848": [
+      "Magnesium"
+    ],
+    "54431": [
+      "Magnesium"
+    ],
+    "15097": [
+      "Magnesium"
+    ],
+    "67421": [
+      "Magnesium"
+    ],
+    "185029": [
+      "Magnesium"
+    ],
+    "204983": [
+      "Magnesium"
+    ],
+    "246992": [
+      "Magnesium"
+    ],
+    "23668": [
+      "Magnesium"
+    ],
+    "53757": [
+      "Magnesium"
+    ],
+    "207617": [
+      "Magnesium"
+    ],
+    "20757": [
+      "Magnesium"
+    ],
+    "207582": [
+      "Magnesium"
+    ],
+    "20581": [
+      "Vitamin D"
+    ],
+    "35161": [
+      "Vitamin D"
+    ],
+    "55706": [
+      "Vitamin D"
+    ],
+    "55705": [
+      "Vitamin D"
+    ],
+    "35162": [
+      "Vitamin D"
+    ],
+    "208064": [
+      "Vitamin D"
+    ],
+    "246446": [
+      "Vitamin D"
+    ],
+    "177381": [
+      "Vitamin D"
+    ],
+    "35562": [
+      "Vitamin D"
+    ],
+    "74645": [
+      "Vitamin D"
+    ],
+    "229021": [
+      "Vitamin D"
+    ],
+    "246400": [
+      "Vitamin D"
+    ],
+    "180697": [
+      "Vitamin D"
+    ],
+    "180868": [
+      "Vitamin D"
+    ],
+    "57581": [
+      "Vitamin D"
+    ],
+    "229019": [
+      "Vitamin D"
+    ],
+    "73768": [
+      "Vitamin D"
+    ],
+    "239369": [
+      "Vitamin D"
+    ],
+    "57583": [
+      "Vitamin D"
+    ],
+    "65643": [
+      "Vitamin D"
+    ],
+    "239630": [
+      "Vitamin D"
+    ],
+    "184837": [
+      "Vitamin D"
+    ],
+    "175368": [
+      "Vitamin D"
+    ],
+    "203158": [
+      "Vitamin D"
+    ],
+    "16210": [
+      "Vitamin D"
+    ],
+    "201183": [
+      "Vitamin D"
+    ],
+    "22544": [
+      "Vitamin D"
+    ],
+    "55238": [
+      "Vitamin D"
+    ],
+    "73905": [
+      "Vitamin D"
+    ],
+    "34663": [
+      "Vitamin D"
+    ],
+    "32733": [
+      "Vitamin D"
+    ],
+    "54642": [
+      "Vitamin D"
+    ],
+    "66560": [
+      "Vitamin D"
+    ],
+    "32075": [
+      "Vitamin D"
+    ],
+    "32079": [
+      "Vitamin D"
+    ],
+    "32728": [
+      "Vitamin D"
+    ],
+    "180292": [
+      "Vitamin D"
+    ],
+    "30278": [
+      "Vitamin D"
+    ],
+    "180743": [
+      "Vitamin D"
+    ],
+    "180745": [
+      "Vitamin D"
+    ],
+    "323200": [
+      "Ashwagandha"
+    ],
+    "233452": [
+      "Ashwagandha"
+    ],
+    "210829": [
+      "Ashwagandha"
+    ],
+    "333451": [
+      "Ashwagandha"
+    ],
+    "180525": [
+      "Ashwagandha"
+    ],
+    "235687": [
+      "Ashwagandha"
+    ],
+    "250553": [
+      "Ashwagandha"
+    ],
+    "57002": [
+      "Ashwagandha"
+    ],
+    "74939": [
+      "Ashwagandha"
+    ],
+    "74940": [
+      "Ashwagandha"
+    ],
+    "229574": [
+      "Ashwagandha"
+    ],
+    "276907": [
+      "Ashwagandha"
+    ],
+    "221252": [
+      "Ashwagandha"
+    ],
+    "40304": [
+      "Ashwagandha"
+    ],
+    "13653": [
+      "Ashwagandha"
+    ],
+    "40487": [
+      "Ashwagandha"
+    ],
+    "44575": [
+      "Ashwagandha"
+    ],
+    "299143": [
+      "Ashwagandha"
+    ],
+    "80197": [
+      "Ashwagandha"
+    ],
+    "307986": [
+      "Ashwagandha"
+    ],
+    "328593": [
+      "Ashwagandha"
+    ],
+    "69019": [
+      "Ashwagandha"
+    ],
+    "25775": [
+      "Ashwagandha"
+    ],
+    "51520": [
+      "Ashwagandha"
+    ],
+    "207207": [
+      "Ashwagandha"
+    ],
+    "228392": [
+      "Ashwagandha"
+    ],
+    "80192": [
+      "Ashwagandha"
+    ],
+    "336144": [
+      "Ashwagandha"
+    ],
+    "199434": [
+      "Ashwagandha"
+    ],
+    "208717": [
+      "Ashwagandha"
+    ],
+    "174353": [
+      "Ashwagandha"
+    ],
+    "39970": [
+      "Ashwagandha"
+    ],
+    "79402": [
+      "Ashwagandha"
+    ],
+    "206077": [
+      "Ashwagandha"
+    ],
+    "80423": [
+      "Ashwagandha"
+    ],
+    "286869": [
+      "Ashwagandha"
+    ],
+    "229775": [
+      "Ashwagandha"
+    ],
+    "54522": [
+      "Ashwagandha"
+    ],
+    "212959": [
+      "Ashwagandha"
+    ],
+    "38701": [
+      "Ashwagandha"
+    ],
+    "216782": [
+      "Melatonin"
+    ],
+    "277770": [
+      "Melatonin"
+    ],
+    "185040": [
+      "Melatonin"
+    ],
+    "320628": [
+      "Melatonin"
+    ],
+    "299064": [
+      "Melatonin"
+    ],
+    "219624": [
+      "Melatonin"
+    ],
+    "332395": [
+      "Melatonin"
+    ],
+    "239571": [
+      "Melatonin"
+    ],
+    "3551": [
+      "Melatonin"
+    ],
+    "3478": [
+      "Melatonin"
+    ],
+    "4863": [
+      "Melatonin"
+    ],
+    "256483": [
+      "Melatonin"
+    ],
+    "63397": [
+      "Melatonin"
+    ],
+    "62015": [
+      "Melatonin"
+    ],
+    "13302": [
+      "Melatonin"
+    ],
+    "17141": [
+      "Melatonin"
+    ],
+    "30227": [
+      "Melatonin"
+    ],
+    "63389": [
+      "Melatonin"
+    ],
+    "73873": [
+      "Melatonin"
+    ],
+    "210467": [
+      "Melatonin"
+    ],
+    "242416": [
+      "Melatonin"
+    ],
+    "251811": [
+      "Melatonin"
+    ],
+    "10843": [
+      "Melatonin"
+    ],
+    "58513": [
+      "Melatonin"
+    ],
+    "3749": [
+      "Melatonin"
+    ],
+    "49277": [
+      "Melatonin"
+    ],
+    "10428": [
+      "Melatonin"
+    ],
+    "63045": [
+      "Melatonin"
+    ],
+    "56552": [
+      "Melatonin"
+    ],
+    "10842": [
+      "Melatonin"
+    ],
+    "58222": [
+      "Melatonin"
+    ],
+    "256090": [
+      "Melatonin"
+    ],
+    "71738": [
+      "Melatonin"
+    ],
+    "1741": [
+      "Melatonin"
+    ],
+    "10840": [
+      "Melatonin"
+    ],
+    "63422": [
+      "Melatonin"
+    ],
+    "58514": [
+      "Melatonin"
+    ],
+    "30624": [
+      "Melatonin"
+    ],
+    "30617": [
+      "Melatonin"
+    ],
+    "29168": [
+      "Melatonin"
+    ],
+    "322800": [
+      "Omega-3"
+    ],
+    "42106": [
+      "Omega-3"
+    ],
+    "42437": [
+      "Omega-3"
+    ],
+    "205111": [
+      "Omega-3"
+    ],
+    "310384": [
+      "Omega-3"
+    ],
+    "33371": [
+      "Omega-3"
+    ],
+    "223186": [
+      "Omega-3"
+    ],
+    "276213": [
+      "Omega-3"
+    ],
+    "313484": [
+      "Omega-3"
+    ],
+    "248198": [
+      "Omega-3"
+    ],
+    "321584": [
+      "Omega-3"
+    ],
+    "72669": [
+      "Omega-3"
+    ],
+    "80083": [
+      "Omega-3"
+    ],
+    "218715": [
+      "Omega-3"
+    ],
+    "334990": [
+      "Omega-3"
+    ],
+    "268232": [
+      "Omega-3"
+    ],
+    "47347": [
+      "Omega-3"
+    ],
+    "276214": [
+      "Omega-3"
+    ],
+    "218739": [
+      "Omega-3"
+    ],
+    "326405": [
+      "Omega-3"
+    ],
+    "239258": [
+      "Omega-3"
+    ],
+    "228209": [
+      "Omega-3"
+    ],
+    "305920": [
+      "Omega-3"
+    ],
+    "270770": [
+      "Omega-3"
+    ],
+    "238824": [
+      "Omega-3"
+    ],
+    "304637": [
+      "Omega-3"
+    ],
+    "239259": [
+      "Omega-3"
+    ],
+    "69537": [
+      "Omega-3"
+    ],
+    "54286": [
+      "Omega-3"
+    ],
+    "70486": [
+      "Omega-3"
+    ],
+    "239256": [
+      "Omega-3"
+    ],
+    "321717": [
+      "Omega-3"
+    ],
+    "206155": [
+      "Omega-3"
+    ],
+    "72731": [
+      "Omega-3"
+    ],
+    "178317": [
+      "Omega-3"
+    ],
+    "178792": [
+      "Omega-3"
+    ],
+    "218741": [
+      "Omega-3"
+    ],
+    "80094": [
+      "Omega-3"
+    ],
+    "291844": [
+      "Omega-3"
+    ],
+    "65671": [
+      "Omega-3"
+    ],
+    "10768": [
+      "Vitamin B12"
+    ],
+    "275294": [
+      "Vitamin B12"
+    ],
+    "179049": [
+      "Vitamin B12"
+    ],
+    "179055": [
+      "Vitamin B12"
+    ],
+    "69735": [
+      "Vitamin B12"
+    ],
+    "248598": [
+      "Vitamin B12"
+    ],
+    "248632": [
+      "Vitamin B12"
+    ],
+    "248631": [
+      "Vitamin B12"
+    ],
+    "220792": [
+      "Vitamin B12"
+    ],
+    "220773": [
+      "Vitamin B12"
+    ],
+    "220795": [
+      "Vitamin B12"
+    ],
+    "5083": [
+      "Vitamin B12"
+    ],
+    "294339": [
+      "Vitamin B12"
+    ],
+    "251652": [
+      "Vitamin B12"
+    ],
+    "56047": [
+      "Vitamin B12"
+    ],
+    "218992": [
+      "Vitamin B12"
+    ],
+    "37562": [
+      "Vitamin B12"
+    ],
+    "320976": [
+      "Vitamin B12"
+    ],
+    "302255": [
+      "Vitamin B12"
+    ],
+    "174318": [
+      "Vitamin B12"
+    ],
+    "210776": [
+      "Vitamin B12"
+    ],
+    "30599": [
+      "Vitamin B12"
+    ],
+    "30603": [
+      "Vitamin B12"
+    ],
+    "30249": [
+      "Vitamin B12"
+    ],
+    "69491": [
+      "Vitamin B12"
+    ],
+    "296933": [
+      "Vitamin B12"
+    ],
+    "226820": [
+      "Vitamin B12"
+    ],
+    "235544": [
+      "Vitamin B12"
+    ],
+    "30248": [
+      "Vitamin B12"
+    ],
+    "30426": [
+      "Vitamin B12"
+    ],
+    "228633": [
+      "Vitamin B12"
+    ],
+    "37232": [
+      "Vitamin B12"
+    ],
+    "37231": [
+      "Vitamin B12"
+    ],
+    "60206": [
+      "Vitamin B12"
+    ],
+    "60199": [
+      "Vitamin B12"
+    ],
+    "4701": [
+      "Vitamin B12"
+    ],
+    "4735": [
+      "Vitamin B12"
+    ],
+    "219663": [
+      "Vitamin B12"
+    ],
+    "309759": [
+      "Vitamin B12"
+    ],
+    "179549": [
+      "Vitamin B12"
+    ],
+    "232593": [
+      "Iron"
+    ],
+    "214846": [
+      "Iron"
+    ],
+    "70649": [
+      "Iron"
+    ],
+    "39172": [
+      "Iron"
+    ],
+    "215623": [
+      "Iron"
+    ],
+    "240225": [
+      "Iron"
+    ],
+    "27878": [
+      "Iron"
+    ],
+    "51697": [
+      "Iron"
+    ],
+    "26594": [
+      "Iron"
+    ],
+    "49558": [
+      "Iron"
+    ],
+    "39804": [
+      "Iron"
+    ],
+    "70032": [
+      "Iron"
+    ],
+    "232304": [
+      "Iron"
+    ],
+    "302461": [
+      "Iron"
+    ],
+    "204236": [
+      "Iron"
+    ],
+    "19850": [
+      "Iron"
+    ],
+    "5328": [
+      "Iron"
+    ],
+    "229239": [
+      "Iron"
+    ],
+    "204338": [
+      "Iron"
+    ],
+    "261147": [
+      "Iron"
+    ],
+    "247061": [
+      "Iron"
+    ],
+    "173837": [
+      "Iron"
+    ],
+    "57059": [
+      "Iron"
+    ],
+    "5128": [
+      "Iron"
+    ],
+    "228638": [
+      "Iron"
+    ],
+    "63802": [
+      "Iron"
+    ],
+    "50539": [
+      "Iron"
+    ],
+    "30584": [
+      "Iron"
+    ],
+    "181918": [
+      "Iron"
+    ],
+    "9329": [
+      "Iron"
+    ],
+    "77012": [
+      "Iron"
+    ],
+    "24384": [
+      "Iron"
+    ],
+    "78959": [
+      "Iron"
+    ],
+    "257287": [
+      "Iron"
+    ],
+    "8729": [
+      "Iron"
+    ],
+    "238439": [
+      "Iron"
+    ],
+    "278513": [
+      "Iron"
+    ],
+    "260089": [
+      "Iron"
+    ],
+    "26304": [
+      "Iron"
+    ],
+    "39169": [
+      "Iron"
+    ],
+    "261407": [
+      "Turmeric"
+    ],
+    "228793": [
+      "Turmeric"
+    ],
+    "215132": [
+      "Turmeric"
+    ],
+    "40608": [
+      "Turmeric"
+    ],
+    "17865": [
+      "Turmeric"
+    ],
+    "175180": [
+      "Turmeric"
+    ],
+    "228752": [
+      "Turmeric"
+    ],
+    "185095": [
+      "Turmeric"
+    ],
+    "214180": [
+      "Turmeric"
+    ],
+    "277825": [
+      "Turmeric"
+    ],
+    "242577": [
+      "Turmeric"
+    ],
+    "271117": [
+      "Turmeric"
+    ],
+    "240133": [
+      "Turmeric"
+    ],
+    "307399": [
+      "Turmeric"
+    ],
+    "67217": [
+      "Turmeric"
+    ],
+    "23009": [
+      "Turmeric"
+    ],
+    "178214": [
+      "Turmeric"
+    ],
+    "243892": [
+      "Turmeric"
+    ],
+    "178192": [
+      "Turmeric"
+    ],
+    "77826": [
+      "Turmeric"
+    ],
+    "211297": [
+      "Turmeric"
+    ],
+    "269605": [
+      "Turmeric"
+    ],
+    "214296": [
+      "Turmeric"
+    ],
+    "212953": [
+      "Turmeric"
+    ],
+    "10149": [
+      "Turmeric"
+    ],
+    "219999": [
+      "Turmeric"
+    ],
+    "239896": [
+      "Turmeric"
+    ],
+    "275176": [
+      "Turmeric"
+    ],
+    "287072": [
+      "Turmeric"
+    ],
+    "178208": [
+      "Turmeric"
+    ],
+    "64452": [
+      "Turmeric"
+    ],
+    "300184": [
+      "Turmeric"
+    ],
+    "217791": [
+      "Turmeric"
+    ],
+    "210474": [
+      "Turmeric"
+    ],
+    "228378": [
+      "Turmeric"
+    ],
+    "48065": [
+      "Turmeric"
+    ],
+    "218886": [
+      "Turmeric"
+    ],
+    "179934": [
+      "Turmeric"
+    ],
+    "315533": [
+      "Turmeric"
+    ],
+    "285511": [
+      "Turmeric"
+    ],
+    "240405": [
+      "Probiotics"
+    ],
+    "272254": [
+      "Probiotics"
+    ],
+    "308933": [
+      "Probiotics"
+    ],
+    "295780": [
+      "Probiotics"
+    ],
+    "249674": [
+      "Probiotics"
+    ],
+    "298552": [
+      "Probiotics"
+    ],
+    "260010": [
+      "Probiotics"
+    ],
+    "259959": [
+      "Probiotics"
+    ],
+    "54155": [
+      "Probiotics"
+    ],
+    "177509": [
+      "Probiotics"
+    ],
+    "259960": [
+      "Probiotics"
+    ],
+    "220373": [
+      "Probiotics"
+    ],
+    "11613": [
+      "Probiotics"
+    ],
+    "296523": [
+      "Probiotics"
+    ],
+    "328924": [
+      "Probiotics"
+    ],
+    "32500": [
+      "Probiotics"
+    ],
+    "32494": [
+      "Probiotics"
+    ],
+    "304450": [
+      "Probiotics"
+    ],
+    "296495": [
+      "Probiotics"
+    ],
+    "296494": [
+      "Probiotics"
+    ],
+    "32502": [
+      "Probiotics"
+    ],
+    "328918": [
+      "Probiotics"
+    ],
+    "70943": [
+      "Probiotics"
+    ],
+    "328923": [
+      "Probiotics"
+    ],
+    "260008": [
+      "Probiotics"
+    ],
+    "260011": [
+      "Probiotics"
+    ],
+    "328922": [
+      "Probiotics"
+    ],
+    "296522": [
+      "Probiotics"
+    ],
+    "295243": [
+      "Probiotics"
+    ],
+    "63275": [
+      "Probiotics"
+    ],
+    "305812": [
+      "Probiotics"
+    ],
+    "309193": [
+      "Probiotics"
+    ],
+    "213110": [
+      "Probiotics"
+    ],
+    "317835": [
+      "Probiotics"
+    ],
+    "296521": [
+      "Probiotics"
+    ],
+    "319418": [
+      "Probiotics"
+    ],
+    "258973": [
+      "Probiotics"
+    ],
+    "277284": [
+      "Probiotics"
+    ],
+    "71008": [
+      "Probiotics"
+    ],
+    "215449": [
+      "Probiotics"
+    ],
+    "43261": [
+      "Creatine"
+    ],
+    "25731": [
+      "Creatine"
+    ],
+    "31127": [
+      "Creatine"
+    ],
+    "31129": [
+      "Creatine"
+    ],
+    "244633": [
+      "Creatine"
+    ],
+    "174596": [
+      "Creatine"
+    ],
+    "210889": [
+      "Creatine"
+    ],
+    "231876": [
+      "Creatine"
+    ],
+    "53576": [
+      "Creatine"
+    ],
+    "32019": [
+      "Creatine"
+    ],
+    "76399": [
+      "Creatine"
+    ],
+    "53575": [
+      "Creatine"
+    ],
+    "241758": [
+      "Creatine"
+    ],
+    "215898": [
+      "Creatine"
+    ],
+    "53574": [
+      "Creatine"
+    ],
+    "210596": [
+      "Creatine"
+    ],
+    "245197": [
+      "Creatine"
+    ],
+    "27358": [
+      "Creatine"
+    ],
+    "229808": [
+      "Creatine"
+    ],
+    "229725": [
+      "Creatine"
+    ],
+    "229733": [
+      "Creatine"
+    ],
+    "3714": [
+      "Creatine"
+    ],
+    "74822": [
+      "Creatine"
+    ],
+    "178073": [
+      "Creatine"
+    ],
+    "31016": [
+      "Creatine"
+    ],
+    "38826": [
+      "Creatine"
+    ],
+    "51021": [
+      "Creatine"
+    ],
+    "74819": [
+      "Creatine"
+    ],
+    "31022": [
+      "Creatine"
+    ],
+    "31141": [
+      "Creatine"
+    ],
+    "51019": [
+      "Creatine"
+    ],
+    "19397": [
+      "Creatine"
+    ],
+    "51022": [
+      "Creatine"
+    ],
+    "51023": [
+      "Creatine"
+    ],
+    "25606": [
+      "Creatine"
+    ],
+    "332318": [
+      "Creatine"
+    ],
+    "24051": [
+      "Creatine"
+    ],
+    "177867": [
+      "Creatine"
+    ],
+    "265692": [
+      "Creatine"
+    ],
+    "182115": [
+      "Creatine"
+    ]
+  }
+}

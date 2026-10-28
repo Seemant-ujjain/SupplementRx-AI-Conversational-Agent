@@ -1,0 +1,325 @@
+{
+  "src": "01-raw/2024-04-23/data/label_300.json",
+  "id": 70943,
+  "nhanesId": "",
+  "bundleName": "Four Pillars Cognitive",
+  "fullName": "Probiotics",
+  "brandName": "Pharmax",
+  "brandIpSymbol": "none",
+  "upcSku": "883196 21710",
+  "productVersionCode": "Code FP04-30 V1.0",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Bundle set",
+      "labelId": 70942
+    },
+    {
+      "type": "Bundle set",
+      "labelId": 70941
+    },
+    {
+      "type": "Bundle set",
+      "labelId": 70940
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7600,
+      "text": "Made in the UK for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7600,
+        "name": "Seroyal USA",
+        "streetAddress": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "",
+        "zipCode": "15275",
+        "phoneNumber": "1-888-737-6925",
+        "email": "",
+        "webAddress": "seroyal.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 30,
+      "unit": "Vegetable Capsule(s)",
+      "display": "30 Vegetable Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "off-white powder-filled",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "To enjoy optimum health, nutritional science recognizes that alongside a well-balanced diet, it is beneficial to supplement with the following essential nutrients:\n4 Probiotics"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Pharmax Four Pillars is the most convenient way to create a solid nutritional foundation by providing the required daily levels of essential nutrients in four easy-to-take capsules or tablets."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "4 Probiotics\nLive “friendly” bacteria to help balance the intestinal tract."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "30 day supply"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended adult intake: Contents of one serrated blister pack strip: 1 tablet, 1 softgel, 1 capsule (brown), 1 capsule (off-white), all taken once daily with a meal, at least two to three hours before or after taking medications, or as professionally directed. Not to be taken immediately before bedtime."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Risk information: Do not use if you have an immune-compromised condition, bipolar disorder, bipolar spectrum disorder or high blood pressure."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Consult your healthcare practitioner prior to use if you are pregnant or breastfeeding, taking any prescription medication including blood thinners, antidepressants, birth control or hormone replacement therapy (HRT), have any type of acute infection or any health condition."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Consult your healthcare practitioner if you have benign prostate hypertrophy or prostate\ncancer. Consumption with alcohol, drugs or other supplements with sedative properties is not recommended. If symptoms of digestive upset occur, discontinue use and consult your healthcare practitioner. If you experience irritability or insomnia, discontinue use."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Complete daily nutritional supplement"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Safety-sealed for your protection and for product freshness. Do not use if the blister pack has been tampered with."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "V1.0 Code FP04-30"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Probiotics"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-02-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 160726,
+      "description": null,
+      "notes": "HLC Consortium Note: 10 billion CFU ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "% Daily Value (DV) not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 61758,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus acidophilus (CUL-60)",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 141679,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus acidophilus (CUL-21)",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 141116,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium animalis subsp. lactis (CUL-34)",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium animalis lactis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 141681,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium bifidum (CUL-20)",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium bifidum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "HLC Consortium",
+      "category": "blend",
+      "ingredientGroup": "Blend (non-nutrient/non-botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3721,
+        "name": "Hypromellose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2017-02-24"
+}

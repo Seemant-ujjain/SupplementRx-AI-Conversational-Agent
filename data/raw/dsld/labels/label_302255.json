@@ -1,0 +1,236 @@
+{
+  "src": "01-raw/2024-09-25/data/label_323.json",
+  "id": 302255,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Nutrisorb Vitamin B12",
+  "brandName": "BioCare",
+  "brandIpSymbol": "®",
+  "upcSku": "5 033290 256159",
+  "productVersionCode": "Code: 25615 v5.0",
+  "pdf": "302255_document.pdf",
+  "thumbnail": "302255_thumbnail.jpg",
+  "servingsPerContainer": null,
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 309759
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 26091,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_5.json",
+        "id": 26091,
+        "name": "BioCare Ltd.",
+        "streetAddress": "1 Hedera Road",
+        "city": "Redditch",
+        "state": "",
+        "country": "UK",
+        "zipCode": "B98 9EY",
+        "phoneNumber": "0121 433 3727",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 15,
+      "unit": "mL",
+      "display": "15 mL"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 10,
+      "maxQuantity": 10,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Drop(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Liquid vitamin B12 in a simple, purified water base"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Food Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: 10 drops taken daily in water with food, or under the tongue, or as professionally directed. Shake well before use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "This product should not be used as a substitute for a varied diet and healthy lifestyle.\r\nDo not exceed the stated recommended daily intake.\r\nDo not purchase if the seal is broken."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "If under medical supervision, please consult a doctor before use."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian & vegan"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "NRV = Nutrient Reference Value"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-01-24",
+      "type": "Date entered into DSLD"
+    },
+    {
+      "date": "2024-01-11",
+      "type": "Off Market"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 319564,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 10,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2000,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Drop(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "P6YC3EG204",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 286588,
+        "name": "Water, Purified",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": "059QF0KO0R",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 79751,
+        "name": "Vitamin B12",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin B12 (unspecified)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 281503,
+            "prefix": null,
+            "percent": null,
+            "name": "Hydroxycobalamin",
+            "category": "vitamin",
+            "ingredientGroup": "Vitamin B12",
+            "uniiCode": "Q40X8H422O"
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 278811,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": "2968PHW8QP",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 296808,
+        "name": "Potassium Sorbate",
+        "category": "mineral",
+        "ingredientGroup": "Potassium",
+        "uniiCode": "1VPU26JZZ4",
+        "alternateNames": [
+          "K Sorbate"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2024-01-24"
+}

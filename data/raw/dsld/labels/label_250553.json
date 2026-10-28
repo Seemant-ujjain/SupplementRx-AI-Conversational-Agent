@@ -1,0 +1,227 @@
+{
+  "src": "01-raw/2025-09-25/data/label_396.json",
+  "id": 250553,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Super Ashwagandha 600 mg",
+  "brandName": "SuperSmart",
+  "brandIpSymbol": "®",
+  "upcSku": "5 453003 825821",
+  "productVersionCode": "5663",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 223001
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 339900
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 332751
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 285345
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 315643
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 19194,
+      "text": "Manufactured in the EU and Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 19194,
+        "name": "SN Worldwide Unipessoal, Lda",
+        "streetAddress": "Avenida Do Infante 66, Edificio Quinta Avenida 1 C",
+        "city": "Funchal",
+        "state": "",
+        "country": "Portugal",
+        "zipCode": "9000-015",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "120 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Vegetarian Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Adaptogenic herb"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Super Ashwagandha 600 mg per day"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended use: Adults. Take one vegetarian capsule twice a day."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Each capsule contains 300 mg of KSM-66."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Precautions: Do not exceed the recommended daily dose. This product is a nutritional supplement and should not replace a varied, balanced diet."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of childrens' reach."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store away from direct light, heat and humidity."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "As with any nutritional supplement, you should consult a health professional before taking this product if you are pregnant, breastfeeding or have a health problem."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "KSM-66 - Ixoreal Biomed Private Limited."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-07-13",
+      "type": "Off Market"
+    },
+    {
+      "date": "2021-06-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 249083,
+      "description": "",
+      "notes": "KSM-66 (Form: extract of Ashwagandha (Form: standardized to 5% Withanolides) PlantPart: root Genus: Withania Species: somnifera) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 600,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Recommended Daily Allowance not established. "
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "KSM-66",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 249084,
+          "prefix": "extract of",
+          "percent": null,
+          "name": "Ashwagandha",
+          "category": "botanical",
+          "ingredientGroup": "Ashwagandha",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 25434,
+        "name": "Acacia Gum",
+        "category": "botanical",
+        "ingredientGroup": "Acacia",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 246921,
+        "name": "White Rice Bran",
+        "category": "fiber",
+        "ingredientGroup": "Rice Bran",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2021-06-23"
+}

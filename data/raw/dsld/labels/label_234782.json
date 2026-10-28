@@ -1,0 +1,256 @@
+{
+  "src": "01-raw/2025-08-22/data/label_253.json",
+  "id": 234782,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium Citrate",
+  "brandName": "NutriCology",
+  "brandIpSymbol": "®",
+  "upcSku": "7 13947 50240 6",
+  "productVersionCode": "Rev. 014",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Value are based on a 2,000 calorie diet",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 183861
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 183861
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 101482
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 101482
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 199602
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 235550
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 20663,
+      "text": "Formulated exclusively for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 20663,
+        "name": "NutriCology",
+        "streetAddress": "",
+        "city": "South Salt Lake",
+        "state": "UT",
+        "country": "",
+        "zipCode": "84115",
+        "phoneNumber": "800.545.9960",
+        "email": "",
+        "webAddress": "www.nutricology.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "90 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Magnesium in the citrate form."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use\nAs a dietary supplement, 1 capsule one to three times daily between meals, or as directed by a healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "High doses of magnesium can have a laxative effect."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Contraindicated with use of aluminum containing drugs."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place, tightly capped."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "NutriCology Innovative Nutrition"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Pure, well-absorbed Magnesium"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Hypoallergenic"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-09-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 6520,
+      "description": "",
+      "notes": "Magnesium (Form: as Magnesium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 170,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 40,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4045,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4526,
+        "name": "Hydroxypropyl Methylcellulose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 30788,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-09-25"
+}

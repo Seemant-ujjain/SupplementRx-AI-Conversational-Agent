@@ -1,0 +1,683 @@
+{
+  "src": "01-raw/2025-09-25/data/label_84.json",
+  "id": 33733,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Calcium Magnesium",
+  "brandName": "Floradix",
+  "brandIpSymbol": "none",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "8",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 73410
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 73395
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 73395
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 33728
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2951,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2951,
+        "name": "Flora Inc.",
+        "streetAddress": "",
+        "city": "Lynden",
+        "state": "WA",
+        "country": "",
+        "zipCode": "98264",
+        "phoneNumber": "1 800 446-2110",
+        "email": "",
+        "webAddress": "www.florahealth.com"
+      }
+    },
+    {
+      "contactId": 2952,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2952,
+        "name": "SALUS Haus GmbH & Co. KG",
+        "streetAddress": "",
+        "city": "Bruckmuhl",
+        "state": "",
+        "country": "Germany",
+        "zipCode": "83052",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 8.5,
+      "unit": "fl. Oz.",
+      "display": "8.5 fl. Oz."
+    },
+    {
+      "order": 2,
+      "quantity": 250,
+      "unit": "mL",
+      "display": "250 mL"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 30,
+      "maxQuantity": 30,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "mL",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Kosher"
+  ],
+  "productType": {
+    "langualCode": "A1317",
+    "langualCodeDescription": "Botanical with Nutrients"
+  },
+  "statements": [
+    {
+      "type": "Seals/Symbols",
+      "notes": "Salus(R)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Made in Germany"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian liquid formula"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No artificial preservatives, colors or flavors"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Parve"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "(R)"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Liquid herbal and mineral supplement"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Rich in magnesium, zinc and vitamin D"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "- A good source of calcium\n- Easy to assimilate"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Salus"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Important: This product contains no alcohol, artificial colors or flavors, parabens, sorbate or other antimicrobial agents."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not contaminate the formula by drinking directly from the bottle."
+    },
+    {
+      "type": "Storage",
+      "notes": "To preserve the product and prevent its fermentation, keep refrigerated at all times after opening and consume within 4 weeks."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep away from children."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: \nTake 1 cap 30 mL mark daily, preferably in the morning. \nMay be diluted with water. \nShake bottle before using."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "FLORA"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-04-06",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-05-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 60,
+          "unit": "{Calories}",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 283702,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 5,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 283681,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 30,
+              "operator": "=",
+              "quantity": 15,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sugar",
+          "category": "sugar",
+          "ingredientGroup": "Sugar",
+          "uniiCode": "C151H8M554",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 280179,
+      "description": null,
+      "notes": "Vitamin D (Form: as Cholecalciferol) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 184,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 45,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "ingredientId": 293309,
+      "description": null,
+      "notes": "Calcium (Form: as Calcium Gluconate, and Calcium Lactate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 155,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 15,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": "SY7Q814VUP",
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 292732,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Gluconate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "SQE6VB453K"
+        },
+        {
+          "order": 2,
+          "ingredientId": 292750,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Lactate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "2URQ2N32W3"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 106537,
+      "description": null,
+      "notes": "Magnesium (Form: as Magnesium Gluconate, and Magnesium Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 186,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 45,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 17081,
+          "prefix": "and",
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 27614,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Gluconate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "ingredientId": 292436,
+      "description": null,
+      "notes": "Zinc (Form: as Zinc Citrate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 3.5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 25,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Zinc",
+      "category": "mineral",
+      "ingredientGroup": "Zinc",
+      "uniiCode": "J41CSQ7QDS",
+      "alternateNames": [
+        "Zn"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 292437,
+          "prefix": null,
+          "percent": null,
+          "name": "Zinc Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Zinc",
+          "uniiCode": "K72I3DEX9B"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "ingredientId": 105865,
+      "description": null,
+      "notes": "Proprietary Blend {Herb/Botanical} Note: aqueous extract from ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 30,
+          "operator": "=",
+          "quantity": 17.49,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "mL"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 9,
+          "ingredientId": 105726,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 30,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Hibiscus",
+          "category": "botanical",
+          "ingredientGroup": "Hibiscus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 10,
+          "ingredientId": 105807,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 30,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Chamomile",
+          "category": "botanical",
+          "ingredientGroup": "Chamomile (unspecified)",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 11,
+          "ingredientId": 106539,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 30,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Fennel",
+          "category": "botanical",
+          "ingredientGroup": "Fennel ",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 12,
+          "ingredientId": 105723,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 30,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "mL"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Spinach",
+          "category": "botanical",
+          "ingredientGroup": "Spinach",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Proprietary Blend {Herb/Botanical}",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Herb/Botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 282545,
+        "name": "Fructose",
+        "category": "sugar",
+        "ingredientGroup": "Fructose",
+        "uniiCode": "6YSS42VSEV",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 12236,
+        "name": "Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 106584,
+        "name": "Mango juice concentrate",
+        "category": "botanical",
+        "ingredientGroup": "mango",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 54048,
+        "name": "Orange juice concentrate",
+        "category": "botanical",
+        "ingredientGroup": "Sweet Orange",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 106586,
+        "name": "Locust Bean Gum",
+        "category": "fiber",
+        "ingredientGroup": "Locust Bean Gum",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 9502,
+        "name": "Natural flavor",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-05-23"
+}

@@ -1,0 +1,293 @@
+{
+  "src": "01-raw/2025-06-25/data/label_264.json",
+  "id": 1741,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Melatonin 3 mg",
+  "brandName": "Vitamin World",
+  "brandIpSymbol": "®",
+  "upcSku": "0 74312 77903 9",
+  "productVersionCode": "Prod. #7903 B7901 13E",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 20695
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 90301
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 90301
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 1160,
+      "text": "TO REORDER PROD. # 7903",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1160,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-228-4533",
+        "email": "",
+        "webAddress": "www.vitaminworld.com"
+      }
+    },
+    {
+      "contactId": 1169,
+      "text": "Carefully Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1169,
+        "name": "Vitamin World, Inc.",
+        "streetAddress": "",
+        "city": "Ronkonkoma",
+        "state": "NY",
+        "country": "U.S.A.",
+        "zipCode": "11779",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Tablet(s)",
+      "display": "120 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 3,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "VEGETARIAN DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: For adults, take one (1)\nto three (3) tablets only at bedtime as\nMelatonin may produce drowsiness."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Limit use to two months with a break of one week."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of\nreach of children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*These statements have not been evaluated by the Food and Drug\nAdministration. This product is not intended to diagnose, treat, cure or\nprevent any disease."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "PROD. #7903 B7901 13E"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "For over 40 years, Vitamin World has pioneered the manufacture of premium nutritional supplements. Our commitment to quality is the highest in our industry. Every product undergoes rigorous analysis for purity, potency, safety and freshness. We guarantee it."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Melatonin works in harmony with your natural sleep cycle to give you the tranquil rest you deserve, so you can awaken feeling refreshed.* Inspired by the natural rhythm of life, Melatonin is an ideal choice for people experiencing occasional sleeplessness, those with jet lag, or those seeking to improve their quality of rest.*"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "SLEEP AID*"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are taking any medications, consult your doctor before use. Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: Not intended for use by pregnant or\nnursing women."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "©2011 Vitamin World, Inc."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Artificial Color, Flavor or Sweetener, No Preservatives,\nNo Sugar, No Starch, No Milk, No Lactose, No Soy,\nNo Gluten, No Wheat, No Yeast, No Fish. Sodium Free."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "QUALITY ASSURED"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if seal under cap is broken or missing."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Get healthy."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2011-11-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283596,
+      "description": null,
+      "notes": "Melatonin (Form: as N-Acetyl-5-Methoxytryptamine) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Melatonin",
+      "category": "hormone",
+      "ingredientGroup": "Melatonin",
+      "uniiCode": "JL5DK93RCL",
+      "alternateNames": [
+        "N-acetyl-5-methotryptamine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3700,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3810,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3683,
+        "name": "Contains Less Than 2% of",
+        "category": "blend",
+        "ingredientGroup": "Blend",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 293311,
+            "prefix": null,
+            "percent": null,
+            "name": "Silica",
+            "category": "mineral",
+            "ingredientGroup": "Silicon",
+            "uniiCode": "ETJ7Z6XBU4"
+          },
+          {
+            "order": 2,
+            "ingredientId": 3813,
+            "prefix": null,
+            "percent": null,
+            "name": "Vegetable Magnesium Stearate",
+            "category": "other",
+            "ingredientGroup": "Magnesium stearate",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2011-11-25"
+}

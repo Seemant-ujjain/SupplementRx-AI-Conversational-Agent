@@ -1,0 +1,288 @@
+{
+  "src": "01-raw/2025-09-25/data/label_41.json",
+  "id": 13653,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha 450 mg",
+  "brandName": "Nature's Plus Herbal Actives",
+  "brandIpSymbol": "®",
+  "upcSku": "0 97467 07108 7",
+  "productVersionCode": "PRODUCT NO. 7108 LBL. 1127896",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 228392
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 111878
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 49269
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 69019
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 319140
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7459,
+      "text": "Manufactured with LOVE by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7459,
+        "name": "Natural Organics Laboratories, Inc. makers of Nature's Plus",
+        "streetAddress": "9500 New Horizons Blvd.",
+        "city": "Amityville",
+        "state": "New York",
+        "country": "USA",
+        "zipCode": "11701",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.naturesplus.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "60 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "No Allergies",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement offering the consistent benefits of exact potency, one capsule daily or as recommended by your health care professional."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "THIS IS NOT A PRESCRIPTION PRODUCT. It is a dietary supplement made with the highest possible quality standards."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Printed HerbaShield inner seal and full bottle seal. Do not use if either seal is missing or broken."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "HerbaShield(R)"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "The Energy Supplements(R)"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "STANDARDIZED BOTANICAL SUPPLEMENT"
+    },
+    {
+      "type": "Formula re: Type",
+      "notes": "HYPO-ALLERGENIC"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "• VEGETARIAN"
+    },
+    {
+      "type": "Storage",
+      "notes": "KEEP TIGHTLY CLOSED IN A COOL, DRY PLACE."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "PRODUCT NO. 7108 LBL. 1127896"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "(C)NATURAL ORGANICS(R)"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Note: If you are pregnant or nursing, consult your health care professional before using any herbal product."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "MAXIMUM GUARANTEED POTENCY(R)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "PRESCRIPTION QUALITY"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GLUTEN Free"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free from artificial colors and preservatives. Free from the common allergens yeast, wheat, soy and milk."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Vcaps(TM) is a trademark of Capsugel(R), a division of Pfizer, Inc."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Nutritional Support for Healthy Adaptogenic Function.* \nEach Herbal Actives Ashwagandha capsule, providing the greatest concentration of active botanical principles, maximizes the synergistic benefits of this Ayurvedic root, a key component of the ancient Indian system of health and well-being. \nGuaranteed Maximum Potency: Each Herbal Actives formula is scientifically standardized to the highest level of active principles. \nHerbaShield: An exclusive purity and safety system including light-resistant bottle, airtight inner seal, moisture-absorbing packet, tamper-evident safety cap and tamper-proof full bottle seal."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Ashwagandha 450 mg/1.5% Withanolids"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-07-31",
+      "type": "Off Market"
+    },
+    {
+      "date": "2013-02-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 53101,
+      "description": null,
+      "notes": "Ashwagandha (Form: standardized 1.5% Withanolides Note: 6.75 mg) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 450,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 133180,
+          "prefix": "standardized",
+          "percent": 1.5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 49269,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 12165,
+        "name": "purified Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2013-02-25"
+}

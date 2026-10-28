@@ -1,0 +1,310 @@
+{
+  "src": "01-raw/2025-08-22/data/label_419.json",
+  "id": 275176,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Curcumin",
+  "brandName": "Ee Essential elements",
+  "brandIpSymbol": "™®",
+  "upcSku": "X0020DYQND",
+  "productVersionCode": "ELETC ELE-TC-LBL-R2",
+  "pdf": "275176_document.pdf",
+  "thumbnail": "275176_thumbnail.jpg",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 23243,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 23243,
+        "name": "Essential elements",
+        "streetAddress": "",
+        "city": "Lindon",
+        "state": "UT",
+        "country": "",
+        "zipCode": "84042",
+        "phoneNumber": "(888) 343-9888",
+        "email": "support@essentialelementsnutrition.com",
+        "webAddress": "essentialelementsnutrition.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Capsule(s)",
+      "display": "90 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 3,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Women (not pregnant or lactating)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric curcumin supplement "
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "New"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. "
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Bioperine is a registered trademark of Sabinsa Corporation. "
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non-GMO\r\nSoy-free\r\nGluten-free\r\nDairy-free\r\nShellfish-free"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "1950 mg\r\nTurmeric curcumin with Bioperine for increased absorption"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Powerful joint, heart & brain support\r\nAids joint relief\r\nBoosts brain function\r\nPromotes heart health"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: As a dietary supplement, adults take one (1) capsule three times daily with food, or as recommended by a healthcare professional."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Do not use if you are pregnant, attempting to become pregnant, or nursing. Consult a healthcare professional before using this or any other dietary supplement, especially if you have or suspect you may have any medical condition, or if you are taking any other dietary supplement, prescription or over-the-counter medications, as combining these products may cause side effects. "
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and immediately call a healthcare professional if you experience any adverse reactions. Do not exceed recommended serving. "
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Read entire label prior to use.\r\nDo not use if safety seal is damaged or missing. "
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of individuals under the age of 18."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place. "
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP Good Manufacturing Practice"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Made in the United States"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Preservative-free"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Follow us: \r\nFacebook @EssentialElementsNutrition\r\nInstagram @EssentialElementsNutrition"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-10-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 308591,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 1800,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric, Powder",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 305171,
+      "description": "",
+      "notes": "95% Curcuminoids",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 150,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": "856YO1Z64F",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298144,
+          "prefix": null,
+          "percent": null,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoids",
+          "uniiCode": "R7T2XCO5ZU"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 310602,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Bioperine",
+      "category": "botanical",
+      "ingredientGroup": "Black Pepper",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 320134,
+          "prefix": null,
+          "percent": null,
+          "name": "Black Pepper Extract",
+          "category": "botanical",
+          "ingredientGroup": "Black Pepper",
+          "uniiCode": "KM66971LVF"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 284496,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": "SMD1X3XO9M",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2022-10-24"
+}

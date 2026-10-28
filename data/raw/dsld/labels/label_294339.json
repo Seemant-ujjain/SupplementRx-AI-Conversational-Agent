@@ -1,0 +1,213 @@
+{
+  "src": "01-raw/2024-09-25/data/label_480.json",
+  "id": 294339,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin B12 1% (Methylcobalamin)",
+  "brandName": "BulkSupplements.com",
+  "brandIpSymbol": "®",
+  "upcSku": "X002KUP9UP",
+  "productVersionCode": "002",
+  "pdf": "294339_document.pdf",
+  "thumbnail": "294339_thumbnail.jpg",
+  "servingsPerContainer": "50000",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 23008,
+      "text": "Distributed exclusively by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 23008,
+        "name": "BulkSupplements.com",
+        "streetAddress": "7511 Eastgate Rd",
+        "city": "Henderson",
+        "state": "NV",
+        "country": "US",
+        "zipCode": "89011",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "bulksupplements.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 1,
+      "unit": "Kilogram(s)",
+      "display": "1 Kilogram(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 35.3,
+      "unit": "Ounce(s)",
+      "display": "35.3 Ounce(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0177",
+    "langualCodeDescription": "Unknown"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 20,
+      "maxQuantity": 20,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "mg",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "BulkSupplements.com\r\nClean & pure bulk supplements"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "Warning:\r\nThis product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Always consult a physician before taking any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of: Soy, dairy, yeast, gluten, sugars"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a dietary supplement, take 20 mg once daily, or as directed by a physician. Use an accurate milligram scale to measure."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a dry, cool, dark place."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "New"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan B12 Vitamin"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Energy Vitamins\r\nVegan B12 Vitamin\r\nVitamin B12 Supplements"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-07-18",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281388,
+      "description": "",
+      "notes": "vitamin b12 1%",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 20,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 8333,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "mg"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280220,
+          "prefix": null,
+          "percent": null,
+          "name": "Methylcobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "BR1SN1JS2W"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 281031,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": "L11K75P92J",
+        "alternateNames": [
+          "DCP"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2023-07-18"
+}

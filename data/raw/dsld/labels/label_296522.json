@@ -1,0 +1,894 @@
+{
+  "src": "01-raw/2024-06-20/data/label_91.json",
+  "id": 296522,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Digest Gold + Probiotics",
+  "brandName": "Enzymedica",
+  "brandIpSymbol": "®",
+  "upcSku": "6 70480 29090 3",
+  "productVersionCode": "Rev # 29090.3",
+  "pdf": "296522_document.pdf",
+  "thumbnail": "296522_thumbnail.jpg",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 32500
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 259959
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 32500
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 296521
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 32494
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 32502
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 259960
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 296523
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 8887,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 8887,
+        "name": "Enzymedica, Inc.",
+        "streetAddress": "771 Commerce Drive",
+        "city": "Venice",
+        "state": "FL",
+        "country": "",
+        "zipCode": "34292-1731",
+        "phoneNumber": "1-888-918-1118",
+        "email": "",
+        "webAddress": "www.enzymedica.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Capsule(s)",
+      "display": "90 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": null,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Other",
+      "notes": "Enzyme deficiencies may result from a combination of age, diet and lifestyle. These deficiencies can lead to a variety of digestive discomforts, including occasional gas, bloating, irregularity and indigestion.\r\nFortifying the digestive system with enzymes and probiotics may promote optimal digestion while maintaining the digestive system's natural balance to support overall digestive health."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Digest Gold +Probiotics contains an advanced enzyme formula that breaks down carbohydrates, fats, fiber and protein."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Probiotics provide additional digestive support by boosting enzyme production and promoting regularity."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended Use: 1 capsule with each meal. More may be taken as needed."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Thera-blend is an exclusive process that combines multiple strains of enzymes that work in various pH levels. Thera-blend enzymes have been shown to be three times stronger and work more than six times faster than leading digestive supplements."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "For more information, visit www.enzymedica.com"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "When taken three times daily."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Enzymedica Support\r\nAutism Hope Alliance\r\nVitamin Angels\r\nProud Supporter\r\nGreen Mountain Energy"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No fillers Added"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Made in USA"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non GMO"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Enzymedica\r\nThe Enzyme Experts"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Most Advanced\r\nDigestive\r\nMost Advanced Enzymes with Probiotics\r\nOptimal digestive Support"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "#1 Selling Enzyme Brand"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "1.5 billion active cultures per daily dose"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Contains no egg, dairy, preservatives, salt, sucrose, soy, wheat, yeast, nuts, corn, gluten, casein, potato, rice, artificial colors or flavors."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep closed in dry place; avoid excessive heat."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is broken or missing."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Enzymedica does not use ingredients produced using biotechnology."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-08-31",
+      "type": "Off Market"
+    },
+    {
+      "date": "2023-09-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 80000,
+      "description": "",
+      "notes": "23,000 DU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Amylase Thera-blend",
+      "category": "blend",
+      "ingredientGroup": "Blend (Metabolite, constituent, extract, isolate, or combination of these)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 79995,
+      "description": "",
+      "notes": "80,000 HUT",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Protease Thera-blend",
+      "category": "enzyme",
+      "ingredientGroup": "Blend (Metabolite, constituent, extract, isolate, or combination of these)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 5395,
+      "description": "",
+      "notes": "50 AGU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Glucoamylase",
+      "category": "enzyme",
+      "ingredientGroup": "Glucoamylase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 15404,
+      "description": "",
+      "notes": "450 GaIU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Alpha Galactosidase",
+      "category": "enzyme",
+      "ingredientGroup": "Alpha Galactosidase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 5,
+      "ingredientId": 79994,
+      "description": "",
+      "notes": "3,000 CU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Cellulase Thera-blend",
+      "category": "enzyme",
+      "ingredientGroup": "Blend (Metabolite, constituent, extract, isolate, or combination of these)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 6,
+      "ingredientId": 80004,
+      "description": "",
+      "notes": "4,000 FCCFIP",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Lipase Thera-blend",
+      "category": "enzyme",
+      "ingredientGroup": "Blend (Metabolite, constituent, extract, isolate, or combination of these)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 16904,
+      "description": "",
+      "notes": "900 ALU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Lactase",
+      "category": "enzyme",
+      "ingredientGroup": "Lactase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 8,
+      "ingredientId": 15545,
+      "description": "",
+      "notes": "25 BGU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Beta Glucanase",
+      "category": "enzyme",
+      "ingredientGroup": "Beta-Glucanase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 9,
+      "ingredientId": 16920,
+      "description": "",
+      "notes": "200 DPO",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Maltase",
+      "category": "enzyme",
+      "ingredientGroup": "Maltase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 10,
+      "ingredientId": 22069,
+      "description": "",
+      "notes": "550 XU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Xylanase",
+      "category": "enzyme",
+      "ingredientGroup": "Xylanase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 11,
+      "ingredientId": 300612,
+      "description": "",
+      "notes": "45 Endo-PGU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Pectinase",
+      "category": "enzyme",
+      "ingredientGroup": "Pectinase",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 288315,
+          "prefix": null,
+          "percent": null,
+          "name": "Phytase",
+          "category": "enzyme",
+          "ingredientGroup": "Phytase",
+          "uniiCode": "2I5T75YG19"
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "ingredientId": 16626,
+      "description": "",
+      "notes": "240 SU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Invertase",
+      "category": "enzyme",
+      "ingredientGroup": "Sucrase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 13,
+      "ingredientId": 9780,
+      "description": "",
+      "notes": "30 HCU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Hemicellulase",
+      "category": "enzyme",
+      "ingredientGroup": "Hemicellulase",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 14,
+      "ingredientId": 288938,
+      "description": "",
+      "notes": "500 million CFU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 15,
+          "ingredientId": 39809,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. acidophilus DDS-1",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 16,
+          "ingredientId": 296346,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. rhamnosus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus rhamnosus",
+          "uniiCode": "9601IVB87J",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 17,
+          "ingredientId": 295496,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. casei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus casei",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 18,
+          "ingredientId": 296212,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. gasseri",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus gasseri",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 19,
+          "ingredientId": 5173,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. plantarum",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus plantarum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 20,
+          "ingredientId": 96314,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. bulgaricus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus delbrueckii bulgaricus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 21,
+          "ingredientId": 5175,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. salivarius",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus salivarius",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 22,
+          "ingredientId": 45435,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. paracasei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus paracasei",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Probiotic Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4737,
+        "name": "Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2023-09-25"
+}

@@ -1,0 +1,369 @@
+{
+  "src": "01-raw/2025-09-25/data/label_313.json",
+  "id": 270770,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Omega-3",
+  "brandName": "Solgar",
+  "brandIpSymbol": "®",
+  "upcSku": "0 33984 02058 0",
+  "productVersionCode": "SXENB36761 00A",
+  "pdf": "270770_document.pdf",
+  "thumbnail": "270770_thumbnail.jpg",
+  "servingsPerContainer": "50",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 8872,
+      "text": " Carefully Manufactured in the U.S.A. for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 8872,
+        "name": "Solgar, Inc.",
+        "streetAddress": "",
+        "city": "Leonia",
+        "state": "NJ",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 24237,
+      "text": "Carefully Manufactured in the U.S.A. for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_5.json",
+        "id": 24237,
+        "name": "Solgar (U.K.) Ltd.",
+        "streetAddress": "",
+        "city": "",
+        "state": "Herts",
+        "country": "",
+        "zipCode": "HP23 5PT",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 100,
+      "unit": "Softgel(s)",
+      "display": "100 Softgel(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0161",
+    "langualCodeDescription": "Softgel Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Softgel(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1310",
+    "langualCodeDescription": "Fat/Fatty Acid"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "EPA and DHA from Cold Water Fish Oil Solgar Triple Strength Omega-3 is a synergistically balanced source of Omega-3 polyunsaturated fatty acids and includes oils from seasonally available cold water fish."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are pregnant, nursing, taking any medications, including blood thinners, planning any medical or surgical procedure or have any medical condition, please consult your healthcare practitioner before taking this product."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if outer bottle seal is missing or damaged."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Solgar\nSince 1947"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Triple Strength"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "From cold water fish oil concentrate"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Sugar, salt and starch free"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Food Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of: Gluten, wheat, dairy, yeast, preservatives, sweeteners, artificial flavours or colours."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions for use: As a food supplement for adults, two (2) softgels daily, preferably at mealtime, or as directed by a healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not exceed directions for use.\nFood supplements should not be used instead of a varied balanced diet and a healthy lifestyle."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Solgar is a registered trademark of Solgar."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "USA\n3004329138\nEEC"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-06-16",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 285114,
+      "description": "",
+      "notes": "cold water fish oil concentrate",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 2800,
+          "unit": "mg",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 285062,
+          "description": "",
+          "notes": "omega-3 polyunsatured fatty acids, as ethyl esters",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 1008,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Eicosapentaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "EPA (Eicosapentaenoic Acid)",
+          "uniiCode": "AAN7QOV9EA",
+          "alternateNames": [
+            "C20:5n-3",
+            "EPA"
+          ],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 284949,
+          "description": "",
+          "notes": "omega-3 polyunsatured fatty acids, as ethyl esters",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 756,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Docosahexaenoic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "DHA (Docosahexaenoic Acid)",
+          "uniiCode": "ZAD9OKH9JC",
+          "alternateNames": [
+            "C22:6n-3",
+            "DHA"
+          ],
+          "forms": []
+        }
+      ],
+      "name": "Fish Oil Concentrate",
+      "category": "fat",
+      "ingredientGroup": "Fish Oil",
+      "uniiCode": "XGF7L72M0F",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 299778,
+      "description": "",
+      "notes": "softgel capsule shell",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Gelatin",
+      "category": "protein",
+      "ingredientGroup": "Gelatin",
+      "uniiCode": "2G86QN327L",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 284901,
+          "prefix": null,
+          "percent": null,
+          "name": "Bovine",
+          "category": "animal part or source",
+          "ingredientGroup": "Bovine (not specified)",
+          "uniiCode": "0"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "ingredientId": 305330,
+      "description": "",
+      "notes": "softgel capsule shell: vegetable glycerin",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Glycerin",
+      "category": "other",
+      "ingredientGroup": "Glycerol",
+      "uniiCode": "PDC6A3C0OX",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 296128,
+          "prefix": null,
+          "percent": null,
+          "name": "Coconut Oil",
+          "category": "fat",
+          "ingredientGroup": "coconut oil",
+          "uniiCode": "Q9L0O73W7L"
+        },
+        {
+          "order": 2,
+          "ingredientId": 302041,
+          "prefix": null,
+          "percent": null,
+          "name": "Palm Kernel Oil",
+          "category": "fat",
+          "ingredientGroup": "Palm oil",
+          "uniiCode": "B0S90M0233"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 129973,
+      "description": "",
+      "notes": "antioxidant",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Mixed Natural Tocopherols",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin E (mixed tocopherols)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": null
+  },
+  "offMarket": 0,
+  "entryDate": "2022-06-16"
+}

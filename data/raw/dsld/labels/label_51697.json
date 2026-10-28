@@ -1,0 +1,489 @@
+{
+  "src": "01-raw/2025-08-22/data/label_107.json",
+  "id": 51697,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Clinical Iron",
+  "brandName": "Terry Naturally",
+  "brandIpSymbol": "®",
+  "upcSku": "3 67703 26606 6",
+  "productVersionCode": "JC 34 91 + 3(5,6)EP L26606.04",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 6666,
+      "text": "Manufactured exclusively for:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 6666,
+        "name": "EuroPharma, Inc.",
+        "streetAddress": "",
+        "city": "Green Bay",
+        "state": "WI",
+        "country": "",
+        "zipCode": "54311",
+        "phoneNumber": "(866) 807-2731",
+        "email": "",
+        "webAddress": "www.EuroPharmaUSA.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Tablet(s)",
+      "display": "60 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "UNCONDITIONALLY GUARANTEED"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Fatigued? Run Down?\nClinical Iron is the Answer!"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "- Iron plus synergistic minerals for oxygen rich blood cells"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "- Endurance and stamina\n- Easily absorbed, stomach-friendly formula*"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommendations: 1-2 tablets daily, or as recommended by your healthcare practitioner.\n"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant or nursing, consult a healthcare practitioner before using.\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Formerly Energy+Endurance"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "* THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE OR PREVENT ANY DISEASE."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "JC 34 91 + 3(5,6)EP L26606.04"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "GENTLE NON-CONSTIPATING"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Revitalizing Energy and Stamina*\nFor Your Good Health Terry"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "V\nVEGAN"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No sugar, salt, yeast, wheat, gluten, soy, dairy products, artificial coloring, artificial flavoring, or artificial preservatives."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Ferrochel and TRAACS are registered trademarks of Albion Laboratories, Inc."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Terry Naturally EuroPharma"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-10-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 136083,
+      "description": null,
+      "notes": "Iron (Form: from Ferrochel Ferrous Bisglycinate Chelate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 30,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 167,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "from",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 85508,
+      "description": null,
+      "notes": "Magnesium (Form: from Dimagnesium Malate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 300,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 75,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 21668,
+          "prefix": "from",
+          "percent": null,
+          "name": "DiMagnesium Malate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium Malate",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 136081,
+      "description": null,
+      "notes": "Zinc (Form: from TRAACS Zinc Bisglycinate Chelate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 67,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Zinc",
+      "category": "mineral",
+      "ingredientGroup": "Zinc",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 85890,
+          "prefix": "from",
+          "percent": null,
+          "name": "TRAACS Zinc Bisglycinate Chelate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Zinc",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "ingredientId": 136082,
+      "description": null,
+      "notes": "Copper (Form: from TRAACS Copper Bisglycinate Chelate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 2,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Copper",
+      "category": "mineral",
+      "ingredientGroup": "Copper",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 85892,
+          "prefix": "from",
+          "percent": null,
+          "name": "TRAACS Copper Bisglycinate Chelate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Copper",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 94271,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 136084,
+        "name": "Aqueous Film Coating",
+        "category": "other",
+        "ingredientGroup": "Coating",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 3985,
+            "prefix": null,
+            "percent": null,
+            "name": "Glycerin",
+            "category": "other",
+            "ingredientGroup": "Glycerol",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 3721,
+            "prefix": null,
+            "percent": null,
+            "name": "Hypromellose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 7502,
+            "prefix": null,
+            "percent": null,
+            "name": "Methylcellulose",
+            "category": "other",
+            "ingredientGroup": "Methyl cellulose",
+            "uniiCode": null
+          },
+          {
+            "order": 4,
+            "ingredientId": 9400,
+            "prefix": null,
+            "percent": null,
+            "name": "Polydextrose",
+            "category": "fiber",
+            "ingredientGroup": "Polydextrose",
+            "uniiCode": null
+          },
+          {
+            "order": 5,
+            "ingredientId": 279465,
+            "prefix": null,
+            "percent": null,
+            "name": "Riboflavin",
+            "category": "vitamin",
+            "ingredientGroup": "Riboflavin",
+            "uniiCode": "TLM2976OFR"
+          },
+          {
+            "order": 6,
+            "ingredientId": 4183,
+            "prefix": null,
+            "percent": null,
+            "name": "Titanium Dioxide",
+            "category": "other",
+            "ingredientGroup": "Titanium Dioxide",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 60027,
+        "name": "Croscarmellose Sodium",
+        "category": "other",
+        "ingredientGroup": "Croscarmellose Sodium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 65098,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 6505,
+        "name": "Hydroxypropyl Cellulose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 55244,
+        "name": "Vegetable Source Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2015-10-22"
+}

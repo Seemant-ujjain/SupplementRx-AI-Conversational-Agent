@@ -1,0 +1,745 @@
+{
+  "src": "01-raw/2025-01-23/data/label_317.json",
+  "id": 240405,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Probiotics",
+  "brandName": "NewRhythm",
+  "brandIpSymbol": "none",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 22069,
+      "text": "Formulated and Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-01-23/data/contact_4.json",
+        "id": 22069,
+        "name": "NewRhythm",
+        "streetAddress": "",
+        "city": "Hauppauge",
+        "state": "New York",
+        "country": "",
+        "zipCode": "11788",
+        "phoneNumber": "",
+        "email": "support@NewRhythmHealth.com",
+        "webAddress": "www.NewRhythmHealth.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "60 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 2,
+      "unit": "Veggie Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "NewRhythm Probiotics is formulated with the 20 most clinically studied human probiotic strains. It's scientifically proven to survive harsh stomach acids and reach your intestinal tract, where they exert their greatest benefits. Organic Prebiotic Fiber Blend is designed to aid in the maintenance of probiotic activity in the intestine."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "This superior probiotic has been professionally formulated, handled, and tested to ensure maximum stability and full labeled potency.\nTargeted release\nShelf stable\nAcid and bile resistant\nScientifically studied"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian"
+    },
+    {
+      "type": "Storage",
+      "notes": "No refrigeration required"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Quality, purity, potency and freshness guaranteed"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Made in USA\nGMP Good Manufacturing Practice\nLab Tested 3rd Party Certified for Purity & Potency"
+    },
+    {
+      "type": "Storage",
+      "notes": "Probiotics are sensitive to moisture and heat. Contact us for storage tips if necessary."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "100% satisfaction guaranteed"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Targeted release\nClinically studied"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "20 strains scientifically proven\n50 billion CFU active cultures"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Each high quality vegetable capsule ensures delivery right into the intestinal tract\nFormulated with prebiotics\nHelp maintain digestive health and immune health"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement, take two (2) veggie capsules daily or as directed by a healthcare professional.\nFor intensive use: take two (2) veggie capsules twice daily.\nIn rare cases, some people may experience stomach upset due to Probiotics Cleansing Effect. This is positive sign as high potency probiotics are removing waste or toxic substances from the body. To avoid reaction, it's recommended to start with a lower dosage and slowly increase."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Contains a minimum of 50 billion active live bacteria when manufactured, and provides an effective level until at least the \"best by\" date."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does Not Contain: Gluten, soy, corn, lactose, egg, fish, shellfish, milk, tree nuts, rice, sugar, wheat, yeast, starch, peanuts, fillers, binders, sulfates, sodium, artificial ingredients, colors, flavors, or magnesium stearate."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: If you are pregnant, nursing, taking any medications, including blood thinners, planning any medial or surgical procedure or have any medical condition, consult your doctor before use."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature or below, and avoid moisture."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Made in a GMP Compliant Facility in the USA"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Verified non-GMO"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-12-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 268486,
+      "description": "",
+      "notes": "Probiotics Blend Note: (50 billion CFU) (Contains a minimum of 50 billion live bacteria when manufactured, and provides an effective level until at least the \"best by\" date.) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Veggie Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 152193,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. acidophilus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 34125,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. rhamnosus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus rhamnosus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 253570,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. crispatus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus crispatus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 5173,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. plantarum",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus plantarum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 103472,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. paracasei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus paracasei",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 96314,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. bulgaricus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus delbrueckii bulgaricus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 78310,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. reuteri",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus reuteri",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 9,
+          "ingredientId": 13099,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. casei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus casei",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 10,
+          "ingredientId": 93298,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. salivarius",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus salivarius",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 11,
+          "ingredientId": 80766,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. helveticus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus helveticus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 12,
+          "ingredientId": 26848,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "L. gasseri",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus gasseri",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 13,
+          "ingredientId": 5226,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "B. lactis",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium animalis lactis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 14,
+          "ingredientId": 183588,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Pediococcus pentosaceus",
+          "category": "bacteria",
+          "ingredientGroup": "Pediococcus pentosaceus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 15,
+          "ingredientId": 13071,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "B. breve",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium breve",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 16,
+          "ingredientId": 253472,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "B. adolescentis",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium adolescentis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 17,
+          "ingredientId": 173187,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "B. infantis",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium infantis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 18,
+          "ingredientId": 5227,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "B. longum",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium longum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 19,
+          "ingredientId": 196820,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactococcus lactis",
+          "category": "bacteria",
+          "ingredientGroup": "Lactococcus lactis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 20,
+          "ingredientId": 36433,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Pediococcus acidilactici",
+          "category": "bacteria",
+          "ingredientGroup": "Pediococcus acidilactici ",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 21,
+          "ingredientId": 268489,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Veggie Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Streptococcus thermophiles",
+          "category": "bacteria",
+          "ingredientGroup": "Streptococcus Thermophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Probiotics Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend (non-nutrient/non-botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 22,
+      "ingredientId": 268491,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 150,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Veggie Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Premium Prebiotic Fiber Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend (Dietary substance used by man to supplement the diet by increasing the total dietary intake)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 7592,
+        "name": "Vegetable Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-12-26"
+}

@@ -1,0 +1,244 @@
+{
+  "src": "01-raw/2025-09-25/data/label_42.json",
+  "id": 336144,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha Roots",
+  "brandName": "Vedic Herbs",
+  "brandIpSymbol": "™",
+  "upcSku": "8 50049 51043 1",
+  "productVersionCode": "Not Present",
+  "pdf": "336144_document.pdf",
+  "thumbnail": "336144_thumbnail.jpg",
+  "servingsPerContainer": "33.33",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "The % Daily Value determines the nutrient value based on 2000 calories.",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 28553,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_6.json",
+        "id": 28553,
+        "name": "Sumitra Remedies LLC",
+        "streetAddress": "",
+        "city": "New Brunswick",
+        "state": "NJ",
+        "country": "USA",
+        "zipCode": "08901",
+        "phoneNumber": "1-612-888-3342",
+        "email": "orders@sumitraremedies.com",
+        "webAddress": "www.vedicjuices.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 100,
+      "unit": "Gram(s)",
+      "display": "100 Gram(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 3.52,
+      "unit": "Ounce(s)",
+      "display": "3.52 Ounce(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0162",
+    "langualCodeDescription": "Powder"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 3,
+      "maxQuantity": 3,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Gram(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Assisting the Indian Tribal Community."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "100% Natural\r\n100% Original"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Preservatives\r\nHeavy Metal Tested\r\nGluten Free\r\nNon GMO"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Vedic Herbs\r\nYour Health Matters"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Purity Guarantee Process\r\nSorted I Washed I Dried"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Withania somnifera / Winter Cherry"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Direction for use: As a Powder consume 3 grams mixed with honey/ warm water or milk. Twice daily after meal."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Artificial color, Flavor"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Authentic Premium Quality"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan\r\n100% Veg"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Scan with mobile camera\r\nFollow Us\r\nFacebook\r\nInstagram\r\nX\r\nYouTube"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Add healthy herbs to your daily routine, along with walking,  & yoga. Stay fit, Stay healthy.\r\nLet's try some Yoga\r\nSurya Namaskar\r\nMeditation\r\nMula Bandha\r\nNavasana"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Helps to Calm and Relax.\r\nAshwagandha supports a healthy immune system.\r\nPromotes a sense of rejuvenation and overall wellness.\r\nAshwagandha Supports sexual health and reproductive function."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Ashwagandha root can be used in various forms, including as a powder, tablet, capsule, extract, or even as a part of traditional Ayurvedic preparations as below -\r\nFor massage- infused with oil.\r\nCreate a decoction for making tea.\r\nCan be used as \"RASAYANAS\" to enhance its effects.\r\nAdd root powder to your favourite smoothie or protein shake."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Food Allergens: Does not contain-Fish, Meat or milk."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Color variation may occur batch to batch due to natural ingredient & climatic variations, but the nutritional values remain constant.\r\nWe source the finest quality from Indian farms & Forests."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Individual responses to Ashwagandha's potential benefits may vary.\r\nThe oxygen absorber and silica gel in this packaging preserve product quality by absorbing excess oxygen and moisture. They are not meant for consumption and should be removed before consuming the contents."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Prior to using Ashwagandha or any supplement, it is advisable to consult with a healthcare provider, particularly if you have underlying health conditions or are taking medications."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool & Dry place. Keep away from Humidity & direct sun light."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "For Comments/Feedback\r\norders@sumitraremedies.com\r\n1-612-88-VEDIC\r\nwww.vedicjuices.com\r\nAlso try our Superior - Quality Herbal Juices, Powders and Tablets"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "fssai MFG LIC NO. 1223999000032"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Ashwagandha is a widely recognized and ancient herb that holds a prominent place in traditional Ayurvedic system, originating in India."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-08-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 359593,
+      "description": "",
+      "notes": "Ashwagandha roots 100%",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Values not established."
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": null
+  },
+  "offMarket": 0,
+  "entryDate": "2025-08-22"
+}

@@ -1,0 +1,328 @@
+{
+  "src": "01-raw/2025-08-22/data/label_107.json",
+  "id": 53757,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Clinical Magnesium",
+  "brandName": "Anabolic Laboratories",
+  "brandIpSymbol": "none",
+  "upcSku": "3 51953 61001 4 ",
+  "productVersionCode": "610-90N 0513",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 67421
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2686,
+      "text": "To report a serious adverse event, call",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2686,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-888-710-0006",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 7566,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7566,
+        "name": "Anabolic Laboratories, LLC",
+        "streetAddress": "1835 E Cheyenne Rd",
+        "city": "Colorado Springs",
+        "state": "CO",
+        "country": "",
+        "zipCode": "80905",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.anaboliclabs.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "90 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 3,
+      "maxQuantity": 3,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Magnesium is an essential electrolyte mineral involved in maintaining proper cardiovascular, nerve, and muscle health. The primary function is to activate enzymes. More than half of the body's magnesium is stored in the bones, 27% in muscle and the remainder in soft body tissues, cells and fluids. Magnesium is critical in energy production."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Our Clinical Magnesium contains a combination of three different forms of magnesium."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "WE GUARANTEE OUR SUPPLEMENTS FOR POTENCY AND PURITY\n"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Essential Electrolyte"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Professional Formula"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Promotes Optimal Muscle, Nerve, and Bone Health"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "AL"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "SUGGESTED USE: Take three capsules daily, preferably with meals, in divided doses, or as directed by your healthcare practitioner."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "CONTAINS NO artificial colors, flavors or preservatives; no wheat, gluten, milk, eggs, peanuts, tree nuts, soy, crustacean shellfish or fish."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Suitable for vegans."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "610-90N 0513"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-30",
+      "type": "Off Market"
+    },
+    {
+      "date": "2015-11-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 69771,
+      "description": null,
+      "notes": "Magnesium (Form: from {Magnesium} Amino Acid Chelate, {Magnesium} Citrate, and {Magnesium} Malate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 55532,
+          "prefix": "from",
+          "percent": null,
+          "name": "Magnesium Amino Acid Chelate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 63832,
+          "prefix": null,
+          "percent": null,
+          "name": "Magnesium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium Citrate",
+          "uniiCode": null
+        },
+        {
+          "order": 3,
+          "ingredientId": 62941,
+          "prefix": "and",
+          "percent": null,
+          "name": "Magnesium Malate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "TBD",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 16918,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 222,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Malic Acid",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Malic Acid",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 39258,
+        "name": "Vegetarian Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 15291,
+            "prefix": null,
+            "percent": null,
+            "name": "Cellulose",
+            "category": "fiber",
+            "ingredientGroup": "Cellulose",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 104860,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2015-11-24"
+}

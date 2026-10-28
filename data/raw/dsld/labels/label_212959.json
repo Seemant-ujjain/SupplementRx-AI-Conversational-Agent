@@ -1,0 +1,247 @@
+{
+  "src": "01-raw/2025-09-25/data/label_42.json",
+  "id": 212959,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha KSM-66",
+  "brandName": "NutraBio",
+  "brandIpSymbol": "®",
+  "upcSku": "6 49908 26876 3",
+  "productVersionCode": "26876-000 B20798-000",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 248190
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 329337
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 248190
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 329339
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 329339
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9020,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9020,
+        "name": "NutraBio Labs, Inc.",
+        "streetAddress": "564 Lincoln Blvd.",
+        "city": "Middlesex",
+        "state": "NJ",
+        "country": "",
+        "zipCode": "08846",
+        "phoneNumber": "732-748-8606",
+        "email": "info@nutrabio.com",
+        "webAddress": "www.nutrabio.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "V-Cap(s)",
+      "display": "90 V-Cap(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vegetable Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a dietary supplement, take 1-2 capsules daily between meals, or as directed by your physician."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non-GMO\nGluten free"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Not intended for use by persons under the age of 18. Keep out of the reach of children."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are pregnant, breast feeding, have known medical conditions (including kidney or liver disease) or are taking prescription or OTC medication(s) consult with your health care practitioner before using this product."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use two weeks prior to surgery."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "World's best Ashwagandha\n"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Balances cortisol levels"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No fillers\nNo excipients"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Enhances energy & mood\nSupports stress management"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Made in our GMP & FDA inspected facility\n3rd-party tested"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool dry place."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Check.\nVerify.\nTrust.\nView independent lab results\ncheckmysupps.com\nMade in USA\nwith ingredients sourced worldwide"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Since 1996"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-03-24",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-02-26",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 236334,
+      "description": "",
+      "notes": "KSM-66 Ashwagandha (root extract) (Form: standardized to 5% Withanolides) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 600,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetable Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "KSM-66 Ashwagandha root extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 26370,
+          "prefix": "standardized to",
+          "percent": 5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 7592,
+        "name": "Vegetable Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-02-26"
+}

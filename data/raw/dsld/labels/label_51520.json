@@ -1,0 +1,278 @@
+{
+  "src": "01-raw/2025-09-25/data/label_40.json",
+  "id": 51520,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha",
+  "brandName": "Health Thru Nutrition Naturally",
+  "brandIpSymbol": "™",
+  "upcSku": "0 14654 98707 5",
+  "productVersionCode": "N1114 11574-C",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 268094
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 177553
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7253,
+      "text": "Distributed by:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 7253,
+        "name": "EPIC",
+        "streetAddress": "30 New York Ave",
+        "city": "Westbury",
+        "state": "NY",
+        "country": "",
+        "zipCode": "11590",
+        "phoneNumber": "1-800-866-0978",
+        "email": "",
+        "webAddress": "www.epic4health.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegecap(s)",
+      "display": "90 Vegecap(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vege Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: Do not take if you are pregnant or lactating."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Health Thru Nutrition is a trademark of EPIC."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Manufactured in a certified cGMP facility"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "KSM-66 is a registered trademark of Ixeorial Biomed Inc."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "The information on this label has not been evaluated by the food and drug administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep bottle tightly closed. Store between 15(0)-30(0)C (59(0)-86(0)F)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "To report a serious adverse event or to obtain product information contact 1-800-866-0978"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "N1114 11574-C"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Made in America"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP\nQUALITY ASSURED"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Clinically proven KSM-66"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Manage symptoms of daily stress\nPromote body & mind relaxation\nTrusted ayurvedic to balance mental & physical vitality"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "500mg"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Contains milk."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Contains milk."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Adults: Take one (1) to two (2) vege capsules daily with food as a dietary supplement or as recommended by your healthcare professional."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of: egg or egg by-products, fish or fish by-products, shellfish or shellfish by-products, tree nuts, peanuts or peanut by-products, soybeans and soy by-products."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-01-17",
+      "type": "Off Market"
+    },
+    {
+      "date": "2015-10-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 135771,
+      "description": null,
+      "notes": "organic Ashwagandha standardized extract (Form: 5% Withanolides Note: 25 mg, less than 0.1 Withaferin A) (Alt. Name: KSM-66) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Vege Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic Ashwagandha standardized extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [
+        "KSM-66"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 117141,
+          "prefix": "less than 0.1",
+          "percent": null,
+          "name": "Withaferin A",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 135772,
+          "prefix": null,
+          "percent": 5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3721,
+        "name": "Hypromellose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2015-10-22"
+}

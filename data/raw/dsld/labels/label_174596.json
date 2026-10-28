@@ -1,0 +1,278 @@
+{
+  "src": "01-raw/2025-08-22/data/label_310.json",
+  "id": 174596,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Opitmal Creatine",
+  "brandName": "Seeking Health",
+  "brandIpSymbol": "®",
+  "upcSku": "7 00580 72356 5",
+  "productVersionCode": "REV. 011017 ZCL-SKGHEALTH-OC500-01",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "225",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 210889
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15093,
+      "text": "Manufactured for and Distributed by:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15093,
+        "name": "Seeking Health",
+        "streetAddress": "3140 Mercer Ave",
+        "city": "Bellingham",
+        "state": "WA",
+        "country": "",
+        "zipCode": "98225",
+        "phoneNumber": "(800) 547-9812",
+        "email": "",
+        "webAddress": "www.seekinghealth.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 8.73,
+      "unit": "Oz(s)",
+      "display": "8.73 Oz(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 247.5,
+      "unit": "Gram(s)",
+      "display": "247.5 Gram(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0162",
+    "langualCodeDescription": "Powder"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1.1,
+      "maxQuantity": 1.1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Gram(s)",
+      "notes": "1 heaping scoop",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Mix 1 heaping scoop in a small amount of filtered water or juice, or as directed by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Children and pregnant or lactating women should consult their healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Children and pregnant or lactating women should consult their healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if tamper seal is damaged."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Avoid if allergic to any ingredient."
+    },
+    {
+      "type": "Storage",
+      "notes": "Storage: Keep tightly closed in a cool, dry place."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Optimal Creatine utilizes Creatine bound to Magnesium in order to facilitate and optimize absorption."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Physician formulated"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, artificial flavors, or artificial colors."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Optimal Creatine meets or exceeds cGMP quality standards."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "A Albion Minerals"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Creatine MagnaPower and the Albion Gold Medallion design are a registered trademarks of Albion Laboratories, Inc."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "REV. 011017 ZCL-SKGHEALTH-OC500-01"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "This package is completely recyclable"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-03-04",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-03-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 81199,
+      "description": "",
+      "notes": "Magnesium (Form: as Creatine MagnaPower (Alt. Name: Magnesium Creatine Chelate)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1.1,
+          "operator": "=",
+          "quantity": 88,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 21,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 9700,
+          "prefix": "as",
+          "percent": null,
+          "name": "Creatine MagnaPower",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium Creatine",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 159607,
+      "description": "",
+      "notes": "Creatine (Form: as Creatine MagnaPower (Alt. Name: Magnesium Creatine Chelate)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1.1,
+          "operator": "=",
+          "quantity": 500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "%DV (Daily Value) not established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Creatine",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Creatine",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 9700,
+          "prefix": "as",
+          "percent": null,
+          "name": "Creatine MagnaPower",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium Creatine",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 25620,
+        "name": "None",
+        "category": "other",
+        "ingredientGroup": "None",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-03-23"
+}

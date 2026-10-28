@@ -1,0 +1,551 @@
+{
+  "src": "01-raw/2024-04-23/data/label_374.json",
+  "id": 298552,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ultra Probiotics",
+  "brandName": "NaturesPlus",
+  "brandIpSymbol": "®",
+  "upcSku": "0 97467 04385 5",
+  "productVersionCode": "PRODUCT NO. 4385 LBL. 1140176",
+  "pdf": "298552_document.pdf",
+  "thumbnail": "298552_thumbnail.jpg",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 3330,
+      "text": "Manufactured with Love by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3330,
+        "name": "Natural Organics Laboratories, Inc. makers of Nature's Plus",
+        "streetAddress": "9500 New Horizons Blvd.",
+        "city": "Amityville",
+        "state": "New York",
+        "country": "USA",
+        "zipCode": "11701",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.naturesplus.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "60 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "NaturesPlus\r\nNutritionally supports healthy digestive function and overall well-being."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "With over 40 billion ViaShield-protected cells, guaranteed, NaturesPlus Ultra Probiotics is unmatched in sheer strength and effectiveness- more than 6 times that of the average probiotic supplement."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "And NaturesPlus Ultra Probiotics goes far beyond these unprecedented numbers with synergistic FOS and 300 mg of whole acai fruit prebiotic fiber for unrivaled activity. With 11 strains of friendly flora, Ultra Probiotics is also the most diverse probiotic supplement available."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Ultra Probiotics nutritionally supports total body health, for every tissue from head to toe!"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: As a dietary supplement for adults, take one capsule daily."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free from artificial colors and preservatives.\r\nGluten Free."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep tightly closed. Refrigerate after opening."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Maximum Strength\r\nTotal Body Probiotic Support for Overall Well-being"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Full Spectrum Probiotic Supplement"
+    },
+    {
+      "type": "Storage",
+      "notes": "ViaShield Guaranteed Shelf Viability At Time of Purchase"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "40 Billion Viable Cells"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Copyright Natural Organics"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 330436,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 300,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Acai Concentrate",
+      "category": "botanical",
+      "ingredientGroup": "TBD",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 51919,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 120,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 5157,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Fructooligosaccharides",
+          "category": "fiber",
+          "ingredientGroup": "Fructo-Oligosaccharides (FOS)",
+          "uniiCode": null,
+          "alternateNames": [
+            "FOS"
+          ],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 294146,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium animalis lactis",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium animalis lactis",
+          "uniiCode": "5307V7XW8I",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 4262,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus acidophilus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 31582,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactococcus lactis",
+          "category": "bacteria",
+          "ingredientGroup": "Lactococcus lactis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 7472,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus plantarum",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus plantarum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 5300,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus bulgaricus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus delbrueckii bulgaricus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 9,
+          "ingredientId": 7469,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus brevis",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus brevis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 10,
+          "ingredientId": 16914,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus rhamnosus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus rhamnosus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 11,
+          "ingredientId": 5258,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium bifidum",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium bifidum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 12,
+          "ingredientId": 330435,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus sporogenes",
+          "category": "bacteria",
+          "ingredientGroup": "Bacillus Coagulans",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 21552,
+              "prefix": null,
+              "percent": null,
+              "name": "Bacillus coagulans",
+              "category": "bacteria",
+              "ingredientGroup": "Bacillus Coagulans",
+              "uniiCode": null
+            }
+          ]
+        },
+        {
+          "order": 13,
+          "ingredientId": 12600,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Streptococcus thermophilus",
+          "category": "bacteria",
+          "ingredientGroup": "Streptococcus Thermophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Body Health Probiotic Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend (non-nutrient/non-botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4058,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 7866,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 286588,
+        "name": "Water, Purified",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": "059QF0KO0R",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2023-10-24"
+}

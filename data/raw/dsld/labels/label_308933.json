@@ -1,0 +1,441 @@
+{
+  "src": "01-raw/2024-05-23/data/label_231.json",
+  "id": 308933,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Probiotics",
+  "brandName": "Health Nurture",
+  "brandIpSymbol": "none",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "308933_document.pdf",
+  "thumbnail": "308933_thumbnail.jpg",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 26617,
+      "text": "Manufactured exclusively for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_5.json",
+        "id": 26617,
+        "name": "Health Nurture Labs",
+        "streetAddress": "8835 166th Ave NE",
+        "city": "",
+        "state": "WA",
+        "country": "USA",
+        "zipCode": "98052",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.Healthnurture.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Vegetable Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Health Probiotics Max is an all-natural, safe and effective Probiotic supplement which gives you the right amount of good bacteria that perform a very important role in your digestive, metabolic and immune systems."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: 1 capsule taken 1 to 3 times daily preferably with meals or as directed by a health care professional."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed recommended dose."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing mothers children under 18 and individuals with known medical condition should consult a physician before taking this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant or nursing mothers children under 18 and individuals with known medical condition should consult a physician before taking this or any dietary supplement.\r\nKeep out of the reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Made in USA\r\nGMP Good Manufacturing Practice Consistent Quality"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Best seller"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Probiotics Max\r\nOver 5 Billion CFUs"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Supports Metabolism & Digestion\r\nEnhances immune system function\r\nIncreases mental clarity"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Storage",
+      "notes": "Potency at time of manufacture. This product may be kept refrigerated to maximize shelf-life and potency."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-05-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 299040,
+      "description": "",
+      "notes": "5.75 Billion Organisms",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "% Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Vegetable Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 79206,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bacillus subtilus",
+          "category": "bacteria",
+          "ingredientGroup": "Bacillus Subtilis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 331358,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium breve",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium breve",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 313052,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium longum",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium longum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 146235,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus acidophilus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 224218,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus casei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus casei",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 279750,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus rhamnosus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus rhamnosus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 298691,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "% Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus plantarum",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus plantarum",
+          "uniiCode": "QFC21096ON",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Probiotic Bacteria",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 284496,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": "SMD1X3XO9M",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 282516,
+        "name": "Maltodextrin",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Maltodextrin",
+        "uniiCode": "7CVR7L4A2D",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 49790,
+        "name": "Medium Chain Triglycerides",
+        "category": "fat",
+        "ingredientGroup": "Medium chain triglycerides (MCT)",
+        "uniiCode": null,
+        "alternateNames": [
+          "MCT"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2024-05-23"
+}

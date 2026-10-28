@@ -1,0 +1,242 @@
+{
+  "src": "01-raw/2025-07-24/data/label_188.json",
+  "id": 74645,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Liposomal Vitamin D",
+  "brandName": "Dr. Mercola",
+  "brandIpSymbol": "®",
+  "upcSku": "8 13006 01699 5",
+  "productVersionCode": "10164-v101",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 76233
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 6276,
+      "text": "Formulated and Distributed by:",
+      "types": [
+        "Manufacturer",
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-08-22/data/contact_2.json",
+        "id": 6276,
+        "name": "Mercola Health Resources, LLC",
+        "streetAddress": "3200 West Higgins Road",
+        "city": "Hoffman Estates",
+        "state": "Illinois",
+        "country": "",
+        "zipCode": "60169",
+        "phoneNumber": "(847) 252-4355",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 30,
+      "unit": "Capsule(s)",
+      "display": "30 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Adults, as dietary supplement, take one (1) capsule daily before a meal."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is broken."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are nursing, pregnant, taking medication or have a medical condition, consult your physician before taking this product."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Dr. Mercola has been providing quality products since 2001."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "10164-v101"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Premium supplements"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Liposomal Vitamin D 5,000 IU per capsule"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-07-30",
+      "type": "Off Market"
+    },
+    {
+      "date": "2017-05-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 280180,
+      "description": null,
+      "notes": "Vitamin D (Form: as Cholecalciferol (Alt. Name: Vitamin D3)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5000,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        },
+        {
+          "order": 2,
+          "ingredientId": 279014,
+          "prefix": null,
+          "percent": null,
+          "name": "Vitamin D3",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 37580,
+        "name": "Sunflower Lecithin",
+        "category": "fat",
+        "ingredientGroup": "lecithin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 110671,
+        "name": "Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 24925,
+            "prefix": null,
+            "percent": null,
+            "name": "Hydroxypropyl Methylcellulose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 5004,
+        "name": "Medium Chain Triglycerides",
+        "category": "fat",
+        "ingredientGroup": "Medium chain triglycerides (MCT)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2017-05-24"
+}

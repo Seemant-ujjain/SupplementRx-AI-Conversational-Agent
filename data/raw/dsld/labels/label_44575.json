@@ -1,0 +1,368 @@
+{
+  "src": "01-raw/2025-09-25/data/label_42.json",
+  "id": 44575,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha Root",
+  "brandName": "Gaia Herbs Single Herbs",
+  "brandIpSymbol": "®",
+  "upcSku": "7 51063 99752 2",
+  "productVersionCode": "E12002 [003] 588-711-1012",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": true,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 79402
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2698,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2698,
+        "name": "Gaia Herbs, Inc.",
+        "streetAddress": "101 Gaia Herbs Dr.",
+        "city": "Brevard",
+        "state": "NC",
+        "country": "",
+        "zipCode": "28712",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "GaiaHerbs.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Liquid Phyto-Cap(s)(R)",
+      "display": "60 Vegetarian Liquid Phyto-Cap(s)(R)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "100% vegetarian, dairy free, no gluten-containing ingredients"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Plant-derived capsule"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Laboratory tested for purity"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of heavy-metal toxicity"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Ashwagandha"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Single Herbs"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "For a healthy immune & stress response*"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "meetyourherbs(R)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Enter ID # at GaiaHerbs.com\n"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Each 1 capsule contains 2,700 mg dry herb equivalent."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "E12002 [003] 588-711-1012"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Singe Herbs\nIndividual herbs in their vibrant, natural form support each person uniquely.* Gaia Herbs’ Single herbs contain concentrated extracts of an individual herb, to deliver nature’s vitality to you.*"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Ashwagandha Root\nWhen the body is stressed, the immune and nervous systems can be affected, leaving a person depleted. Adaptogenic herbs such as Ashwagandha help nourish and restore optimal nervous and immune system health by normalizing mood, energy levels, and overall immune function.* Gaia Herbs uses Ashwagandha root with guaranteed levels of active withanolides."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "plant intelligence(R)."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Promotes immune vitality* Revitalizing Ayurvedic herb*\nNormalizes energy & mood* Full spectrum potency"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "SEE BACK OF BOX TO LEARN HOW"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "GAIA FARM BREVARD, NC\nOver 40 crops are grown each year on our certified organic farm. 250 fragrant acres of Valerian, Echinacea, Holy Basil, Hawthorn, Nettles, and more grace our valley. Each plant thrives naturally here, in one of the most fertile bioregions in the world."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Track the life story of each herb in your bottle by entering its ID# at GaiaHerbs.com. \nPURITY: Trace the origin of each herb back to its source. \nINTEGRITY: See analytical results for this product. \nPOTENCY: Validate each herb’s full phytochemical complex."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use\nAdults take 1 capsule 2 times daily."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "100% vegetarian, dairy free, no gluten-containing ingredients"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Not to be used during pregnancy or lactation. If you have a medical condition or take medications please consult with your doctor before using this product."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep away from children."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Use only as directed on label."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Safety sealed for your protection."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep bottle capped at all times and store in a cool dry place."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Natural separation may occur. This does not affect product quality."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "The Gaia Difference\n"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Liquid potency, easy absorption Alcohol-free, Liquid Phyto-Caps(R) U.S. Patent No. 6,238,696 B1\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Gaia Herbs makes conscious choices to keep our planet healthy. This carton is made from 100% recycled paperboard, including at least 35% post consumer material. Our amber glass bottles contain at least 30% recycled content."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "{Recycle}"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-08-29",
+      "type": "Off Market"
+    },
+    {
+      "date": "2015-04-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 108602,
+      "description": null,
+      "notes": "Ashwagandha root extract PlantPart: root Genus: Withania Species: somnifera Note: certified organic ingredient ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 183,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha root extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 108603,
+      "description": null,
+      "notes": "Ashwagandha root extract PlantPart: root Genus: Withania Species: somnifera Note: ecologically harvested ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 167,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 126349,
+          "description": null,
+          "notes": "Withanolides Note: from total EtOH extract ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 2.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Ashwagandha root extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3812,
+        "name": "Vegetable Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 102266,
+        "name": "Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 3810,
+            "prefix": null,
+            "percent": null,
+            "name": "Vegetable Cellulose",
+            "category": "fiber",
+            "ingredientGroup": "Cellulose",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2015-04-24"
+}

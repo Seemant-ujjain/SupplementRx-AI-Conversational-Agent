@@ -1,0 +1,308 @@
+{
+  "src": "01-raw/2025-08-22/data/label_422.json",
+  "id": 185095,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric-3",
+  "brandName": "Nature's Answer",
+  "brandIpSymbol": "®",
+  "upcSku": "0 83000 16341 8",
+  "productVersionCode": "18341 Rev. 217",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 59219
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 295418
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15729,
+      "text": "Manufactured by:",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15729,
+        "name": "Nature's Answer",
+        "streetAddress": "85 Commerce Drive",
+        "city": "Hauppauge",
+        "state": "NY",
+        "country": "USA",
+        "zipCode": "11788",
+        "phoneNumber": "(800) 439-2324",
+        "email": "",
+        "webAddress": "www.naturesanswer.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "90 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 3,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Discover Turmeric's Critical 3 and trust the Difference..."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "The True Nature of Our Standards goes way beyond the herb..."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Non GMO Project Verified\nnongmoproject.org"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non-GMO"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Gluten Free"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2016 Nature's Answer"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Since 1972"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Advanced Botanical Fingerprint Technology"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Supports Healthy Joint Function"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Supplying 3 Active Turmeric Constituents\nStandardized for Curcuminoids\nCurcuma longa"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Herbal Equivalent 5,000 mg\nDiscover Turmeric's Critical 3"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten-Free"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a dietary supplement, take one (1) capsule three (3) times a day with food or water."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Curcuminoids: The active ingredients naturally present in authenticated Turmeric Rhizome."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If you are pregnant, nursing, taking any medications, planning any medical procedure or have a medical condition, consult with your healthcare practitioner before use."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Support Concentrated from 5,000 mg of Turmeric Rhizome."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "18341 Rev. 217"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-08-11",
+      "type": "Off Market"
+    },
+    {
+      "date": "2019-01-07",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 146011,
+      "description": "",
+      "notes": "Turmeric (Curcuma longa) rhizome extract (Form: standardized for 95% Curcuminoids) PlantPart: rhizome Genus: Curcuma  Species: longa ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 65500,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 5000,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Turmeric",
+          "category": "botanical",
+          "ingredientGroup": "Turmeric",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Turmeric (Curcuma longa) rhizome extract",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 41501,
+          "prefix": "standardized for",
+          "percent": 95,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoid",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4201,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3782,
+        "name": "Rice Flour",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3664,
+        "name": "Calcium Silicate",
+        "category": "other",
+        "ingredientGroup": "Calcium Silicate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2019-01-07"
+}

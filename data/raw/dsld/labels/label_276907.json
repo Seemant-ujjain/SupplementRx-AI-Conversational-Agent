@@ -1,0 +1,566 @@
+{
+  "src": "01-raw/2025-09-25/data/label_147.json",
+  "id": 276907,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Enhanced Ashwagandha Gummies",
+  "brandName": "Vela Nutrition",
+  "brandIpSymbol": "",
+  "upcSku": "8 10082 82031 7",
+  "productVersionCode": "Not Present",
+  "pdf": "276907_document.pdf",
+  "thumbnail": "276907_thumbnail.jpg",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 24970,
+      "text": "Mindfully crafted for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_5.json",
+        "id": 24970,
+        "name": "Vela Nutrition",
+        "streetAddress": "5152 N Edgewood Dr.",
+        "city": "Provo",
+        "state": "UT",
+        "country": "",
+        "zipCode": "84604",
+        "phoneNumber": "(385) 293-9610",
+        "email": "",
+        "webAddress": "Velanutrition.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Gummy(ies)",
+      "display": "60 Gummy(ies)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0176",
+    "langualCodeDescription": "Gummy or Jelly"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Gummie(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1317",
+    "langualCodeDescription": "Botanical with Nutrients"
+  },
+  "statements": [
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Vela Nutrition\r\nHealth. Passion. Progress."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free\r\nNo artificial colors, flavors, or sweeteners"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "1,500mg Ashwagandha"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: Chew 2 gummies daily as a dietary supplement."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed recommended daily intake."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Consult a health care professional prior to using this product especially if you have any diagnosed medical conditions, are pregnant, nursing, or are taking prescription medications."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children and pets."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Enhanced Ashwagandha Gummies +zinc +vitamin D"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Uplift\r\nUnwind\r\nSupport"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Produced In A GMP Compliant Facility"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Produced In A GMP Compliant Facility"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Made with non-GMO ingredients"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Lab tested third party tested"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "@zealnaturals\r\n#livewithzeal"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-12-13",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gummie(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 283702,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 4,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gummie(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 283687,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 4,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": 8,
+                  "footnote": null
+                }
+              ],
+              "servingSizeUnit": "Gummie(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Added Sugars",
+          "category": "sugar",
+          "ingredientGroup": "Sugar",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 18032,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1000,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gummie(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D (ergocalciferol)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280175,
+          "prefix": null,
+          "percent": null,
+          "name": "Ergocalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "VS041H42XC"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "ingredientId": 292436,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 4,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 36,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gummie(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Zinc",
+      "category": "mineral",
+      "ingredientGroup": "Zinc",
+      "uniiCode": "J41CSQ7QDS",
+      "alternateNames": [
+        "Zn"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 292437,
+          "prefix": null,
+          "percent": null,
+          "name": "Zinc Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Zinc",
+          "uniiCode": "K72I3DEX9B"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 293221,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "<",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gummie(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Sodium",
+      "category": "mineral",
+      "ingredientGroup": "Sodium",
+      "uniiCode": "9NEZ333N27",
+      "alternateNames": [
+        "Na"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 292609,
+          "prefix": null,
+          "percent": null,
+          "name": "Sodium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Sodium",
+          "uniiCode": "1Q73Q2JULR"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "ingredientId": 304396,
+      "description": "",
+      "notes": "from 50 mg of 30:1 extract",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Gummie(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 8,
+          "ingredientId": 298538,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 1.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Gummie(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Ashwagandha Root Extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": "V038D626IF",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298538,
+          "prefix": null,
+          "percent": null,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": "0"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 10576,
+        "name": "Glucose Syrup",
+        "category": "sugar",
+        "ingredientGroup": "Glucose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 283681,
+        "name": "Sugar",
+        "category": "sugar",
+        "ingredientGroup": "Sugar",
+        "uniiCode": "C151H8M554",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 10440,
+        "name": "Glucose",
+        "category": "sugar",
+        "ingredientGroup": "Glucose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 18423,
+        "name": "Pectin",
+        "category": "fiber",
+        "ingredientGroup": "Pectin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 278811,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": "2968PHW8QP",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 169635,
+        "name": "natural Tart Cherry flavor",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 4607,
+        "name": "Sodium Citrate",
+        "category": "other",
+        "ingredientGroup": "Sodium Citrate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 302249,
+        "name": "Spinach, Powder",
+        "category": "botanical",
+        "ingredientGroup": "Spinach",
+        "uniiCode": "6WO75C6WVB",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 9,
+        "ingredientId": 292250,
+        "name": "Vegetable Oil",
+        "category": "fat",
+        "ingredientGroup": "vegetable oil",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 11962,
+            "prefix": null,
+            "percent": null,
+            "name": "Carnauba Wax",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Carnauba wax",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2022-12-13"
+}

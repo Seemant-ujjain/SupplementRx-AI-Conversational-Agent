@@ -1,0 +1,215 @@
+{
+  "src": "01-raw/2024-09-25/data/label_480.json",
+  "id": 10768,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin B12",
+  "brandName": "Douglas Laboratories",
+  "brandIpSymbol": "®",
+  "upcSku": "7 45287 02011 1",
+  "productVersionCode": "B12",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 2609,
+      "text": "Manufactured in the USA by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2609,
+        "name": "Douglas Laboratories",
+        "streetAddress": "600 Boyce Road",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "USA",
+        "zipCode": "15205",
+        "phoneNumber": "1.800.245.4440",
+        "email": "",
+        "webAddress": "www.douglaslabs.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Tablet(s)",
+      "display": "60 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Vitamin B12 is a rapidly dissolving, sublingual formula specially designed to improve absorption and bioavailability of Vitamin B12."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Usage: As a dietary supplement, adults take 1 tablet daily, or as directed by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Storage",
+      "notes": "For optimal storage conditions, store in a cool, dry place. (59(0)-77(0)F/15(0)-25(0)C) (35-65% relative humidity)"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper resistant package, do not use if outer seal is missing."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "B12"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "A Dietary Supplement"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-12-15",
+      "type": "Off Market"
+    },
+    {
+      "date": "2012-07-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281279,
+      "description": null,
+      "notes": "Vitamin B12 (Form: as Cyanocobalamin) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 2500,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 41667,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280323,
+          "prefix": null,
+          "percent": null,
+          "name": "Cyanocobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "P6YC3EG204"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3740,
+        "name": "Mannitol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Mannitol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2012-07-25"
+}

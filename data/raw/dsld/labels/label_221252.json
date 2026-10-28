@@ -1,0 +1,373 @@
+{
+  "src": "01-raw/2025-09-25/data/label_41.json",
+  "id": 221252,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha",
+  "brandName": "Nature's Sunshine",
+  "brandIpSymbol": "™",
+  "upcSku": "0 99904 22385 1",
+  "productVersionCode": "Stock# 22385 011119",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 2508,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2508,
+        "name": "Nature's Sunshine Products, Inc.",
+        "streetAddress": "",
+        "city": "Spanish Fork",
+        "state": "UT",
+        "country": "",
+        "zipCode": "84660",
+        "phoneNumber": "1-800-223-8225",
+        "email": "",
+        "webAddress": "www.naturessunshine.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "VegCap(s)",
+      "display": "60 VegCap(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vegetarian Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Women (not pregnant or lactating)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Bottle made from 100% post consumer recycled material.\nWe are committed to you and our planet. Scan to learn more."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Think better, feel better. Develop a sustained approach to ongoing mental clarity, physical endurance and improved nervous & immune system health."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Features ashwagandha root extract, bacopa leaf and rhodiola fruit extracts, and schisandra fruit."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Do not take if pregnant or breastfeeding, or if you become pregnant."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if inner seal is missing or damaged."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "New look!\nSame great product"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Adaptogenic herbal blend\nHerbal extract"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Combat occasional stress & anxiety\nFor cognitive function, fatigue"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Herbal experts since 1972"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended use: Take 2 VegCaps daily."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-05-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 138470,
+      "description": "",
+      "notes": "Ashwagandha root extract (Form: standardized to  5% Withanolides) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 600,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha root extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 40102,
+          "prefix": "standardized to ",
+          "percent": 5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": null,
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 151256,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 395,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 247116,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetarian Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bacopa leaf extract",
+          "category": "botanical",
+          "ingredientGroup": "Bacopa",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 99108,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetarian Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Black Pepper fruit extract",
+          "category": "botanical",
+          "ingredientGroup": "Black Pepper",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 247117,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetarian Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Schisandra",
+          "category": "botanical",
+          "ingredientGroup": "Schisandra",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 247119,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetarian Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Rhodiola root extract",
+          "category": "botanical",
+          "ingredientGroup": "Rhodiola ",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Proprietary Blend",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Herb/Botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 11279,
+        "name": "Vegetable Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 65554,
+            "prefix": null,
+            "percent": null,
+            "name": "Hypromellose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 48942,
+            "prefix": null,
+            "percent": null,
+            "name": "Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 100506,
+        "name": "Rice concentrate",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-05-22"
+}

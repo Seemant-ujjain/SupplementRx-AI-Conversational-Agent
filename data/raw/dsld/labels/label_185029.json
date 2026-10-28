@@ -1,0 +1,275 @@
+{
+  "src": "01-raw/2025-08-22/data/label_256.json",
+  "id": 185029,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Magnesium Malate",
+  "brandName": "Integrative Therapeutics",
+  "brandIpSymbol": "®",
+  "upcSku": "8 71791 00158 9",
+  "productVersionCode": "LZ206013.E01 B010164E",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values (DV) are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 24170
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 98192
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 246459
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 78408
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 8934,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 8934,
+        "name": "Integrative Therapeutics, LLC",
+        "streetAddress": "",
+        "city": "Green Bay",
+        "state": "WI",
+        "country": "USA",
+        "zipCode": "54311",
+        "phoneNumber": "800.931.1709",
+        "email": "",
+        "webAddress": "integrativepro.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Veg Capsule(s)",
+      "display": "90 Veg Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 3,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Safety sealed with printed outer shrink-wrap and inner seal. Do not use if either is broken or missing.\n"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Contains no sugar, salt, yeast, wheat, gluten, corn, soy, dairy products, artificial colors, flavors, preservatives, or ingredients of animal origin.\n"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2018 Integrative Therapeutics, LLC"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "LZ206013.E01 B010164E"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "100 MG Magnesium"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommendation: Take 1 capsule three times daily, or as recommended by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant, nursing, or taking prescription drugs, consult your healthcare professional prior to use."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-02-02",
+      "type": "Off Market"
+    },
+    {
+      "date": "2019-01-07",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283702,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "<",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "<",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 31042,
+      "description": "",
+      "notes": "Magnesium (Form: as Dimagnesium Malate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 24,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 21668,
+          "prefix": "as",
+          "percent": null,
+          "name": "DiMagnesium Malate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Magnesium Malate",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 105692,
+        "name": "Hydroxypropyl Methylcellulose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 60907,
+        "name": "Calcium Laurate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2019-01-07"
+}

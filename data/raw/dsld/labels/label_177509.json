@@ -1,0 +1,407 @@
+{
+  "src": "01-raw/2024-04-23/data/label_300.json",
+  "id": 177509,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Probiotics Fortified With FOS",
+  "brandName": "Health Thru Nutrition Naturally",
+  "brandIpSymbol": "®",
+  "upcSku": "8 19193 02052 4",
+  "productVersionCode": "HTN0524 N0817",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 268087
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15305,
+      "text": "Manufactured for: ",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15305,
+        "name": "Health Thru Nutrition",
+        "streetAddress": "30 New York Avenue",
+        "city": "Westbury",
+        "state": "NY",
+        "country": "",
+        "zipCode": "11590",
+        "phoneNumber": "1-866-319-6299",
+        "email": "",
+        "webAddress": "www.healththrunutrition.org"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegecap(s)",
+      "display": "60 Vegecap(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vege Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "The special probiotic cultures in this product ensure viable cfu through the expiration date."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free Of: Milk or milk by-products, egg or egg by-products, fish or fish by-products, shellfish or shellfish by-products, tree nuts, wheat or wheat by-products, peanuts or peanut by-products and soybeans or soy by-products. Gluten free"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: Before using any dietary supplement, pregnant or lactating women should consult with a physician or health professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is broken or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep bottle tightly closed. Store between 15(0)-30(0)C (59(0)-86(0)F). Room temperature stable."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "The information on this label has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "To report a serious adverse event or to obtain product information contact 1-866-319-6299."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Health Thru Nutrition is a registered trademark of EPIC."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Manufactured in a cGMP Certified U.S.A. Facility."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "HTN0524 N0817"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Gluten free"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Probiotics Fortified With FOS"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "5 beneficial strains\nSurvives stomach acid\n10 billion viable cfu guaranteed"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "10b cfu"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Adults: Take one (1) vege capsule once daily with a meal, as a dietary supplement."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP Quality Assured"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-06-17",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-05-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 288938,
+      "description": "",
+      "notes": "Probiotic Blend: Note: 10 billion cfu ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vege Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 129206,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vege Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bi-04 Bifidobacterium lactis",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium animalis lactis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 129003,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vege Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "La-14 Lactobacillus acidophilus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 129004,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vege Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Ls-33 Lactobacillus salivarius",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus salivarius",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 129006,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vege Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lc-11 Lactobacillus casei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus casei",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 129005,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vege Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lp-115 Lactobacillus plantarum",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus plantarum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Probiotic Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 11903,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vege Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "FOS",
+      "category": "fiber",
+      "ingredientGroup": "Fructo-Oligosaccharides",
+      "uniiCode": null,
+      "alternateNames": [
+        "Fructooligosaccharides"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3721,
+        "name": "Hypromellose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3813,
+        "name": "Vegetable Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-05-24"
+}

@@ -1,0 +1,495 @@
+{
+  "src": "01-raw/2025-09-25/data/label_422.json",
+  "id": 178214,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Strength For Liver",
+  "brandName": "MegaFood",
+  "brandIpSymbol": "®",
+  "upcSku": "0 51494 10306 7",
+  "productVersionCode": "F1362B Rev: 4 03/17",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 43523
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 63376
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 43524
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 63378
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 265235
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 43523
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 63376
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 210629
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 210635
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 210629
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 327583
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15296,
+      "text": "Made with love by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15296,
+        "name": "MegaFood",
+        "streetAddress": "PO Box 5244",
+        "city": "Manchester",
+        "state": "NH",
+        "country": "",
+        "zipCode": "03108",
+        "phoneNumber": "800.848.2542",
+        "email": "",
+        "webAddress": "megafood.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Tablet(s)",
+      "display": "60 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Kosher",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Seals/Symbols",
+      "notes": "Non GMO project verified\nnongmoproject.org\nNSF Certified Gluten-free\nCertified vegan\nVegan.org\nTested free Pesticides & herbicides\nSoy free\nDairy free\nFarm fresh\nOK"
+    },
+    {
+      "type": "Formula re: Kosher",
+      "notes": "OK"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non GMO\nNSF Certified Gluten-free\nTested free Pesticides & herbicides\nSoy free\nDairy free"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Certified vegan\nVegan.org"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Fresh from farm to tablet"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Maintains a healthy inflammation response"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Kauai Organic Farms"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "30 servings"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "With turmeric, milk thistle & schisandra"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Herbal Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: 2 tablets daily. May be taken anytime throughout the day, even on an empty stomach."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "MegaFood is made with real food sourced from our trusted family farm partners, wholesome nutritional yeast, and added nutrients."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself. See how they're made at megafood.com/showme. Satisfaction guaranteed or your money back."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Kauai Organic Farms is a family owned and operated farm on the North Shore of Kauai. \"We farm organically because it's simply a better way to farm and we keep chemicals out of the groundwater. At the end of the day we have confidence we are using the best farming methods to preserve this beautiful island we call home,\" say Phil and Linda Green, owners of Kauai Organic Farms.\nMegaFood will donate a portion of the profit from the sale of this product to Hawaiian Islands Land Trust. To learn more visit megafood.com/supportskauai\nPhil Green, owner of Kauai Organic Farms"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: If you are pregnant or nursing, or are using any prescription medication, consult your healthcare practitioner before taking this product."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Kauai Organic Farms is a trademark of Green Enterprises, Inc.\nBioPerine is a trademark of the Sabinsa Corporation. U.S. Patents #5,536,506 #5,744,161, #5,972,382, & #6,054,585"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Please recycle"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "F1362B Rev: 4 03/17"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-12-19",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-06-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 198620,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 800,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "% Daily Value (DV) not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 90458,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 300,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Tablet(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Curcumin",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcumin",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 198622,
+          "description": null,
+          "notes": "Turmeric PlantPart: root Genus: Curcuma Species: longa Note: Includes certified organic Turmeric root from Kauai Organic Farms ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 500,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Tablet(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Turmeric",
+          "category": "botanical",
+          "ingredientGroup": "Turmeric",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 116446,
+          "description": null,
+          "notes": "Turmeric root extract (Form: 95% Curcuminoids) PlantPart: root Genus: Curcuma Species: longa ",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 300,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Tablet(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Turmeric root extract",
+          "category": "botanical",
+          "ingredientGroup": "Turmeric",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": [
+            {
+              "order": 1,
+              "ingredientId": 41501,
+              "prefix": null,
+              "percent": 95,
+              "name": "Curcuminoids",
+              "category": "non-nutrient/non-botanical",
+              "ingredientGroup": "Curcuminoid",
+              "uniiCode": null
+            }
+          ]
+        }
+      ],
+      "name": "Turmeric Strength Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 5,
+      "ingredientId": 198679,
+      "description": "",
+      "notes": "Milk Thistle seed extract (Form: 80% Silymarin) PlantPart: seed Genus: Silybum Species: marianum ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 225,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "% Daily Value (DV) not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Milk Thistle seed extract",
+      "category": "botanical",
+      "ingredientGroup": "Milk Thistle",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 10833,
+          "prefix": null,
+          "percent": 80,
+          "name": "Silymarin",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Silymarin",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 198677,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "% Daily Value (DV) not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Schisandra berry extract",
+      "category": "botanical",
+      "ingredientGroup": "Schisandra",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 198629,
+      "description": "",
+      "notes": "BioPerine Black Pepper extract (Form: 95% Piperine) Genus: Piper Species: nigrum ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "% Daily Value (DV) not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "BioPerine Black Pepper extract",
+      "category": "botanical",
+      "ingredientGroup": "Black Pepper",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 4570,
+          "prefix": null,
+          "percent": 95,
+          "name": "Piperine",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Piperine",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-06-25"
+}

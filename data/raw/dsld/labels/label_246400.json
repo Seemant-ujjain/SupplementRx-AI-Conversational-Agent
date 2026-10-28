@@ -1,0 +1,428 @@
+{
+  "src": "01-raw/2025-07-24/data/label_369.json",
+  "id": 246400,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin D",
+  "brandName": "Nutrilite",
+  "brandIpSymbol": "®",
+  "upcSku": "119346",
+  "productVersionCode": "9004176",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 13685
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 177381
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 239369
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 328230
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9834,
+      "text": "Dist. by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9834,
+        "name": "Amway Corp.",
+        "streetAddress": "",
+        "city": "Ada",
+        "state": "MI",
+        "country": "",
+        "zipCode": "49355",
+        "phoneNumber": "1-800-253-6500",
+        "email": "",
+        "webAddress": "Amway.com/Nutrilite"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Tablet(s)",
+      "display": "90 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Kosher",
+    "Halal"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Nutrilite Vitamin D is packed with 50 mcg of vitamin D - more than 16 cups fortified milk - which helps with calcium absorption into your bloodstream. It also includes vitamin K2 - which plays an important role in getting calcium from your bloodstream into your bones. It's made with mushrooms, one of nature's most potent botanical sources of vitamin D."
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep tightly closed. Store in a cool, dry place."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No artificial colors or preservatives added."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Children under 12 years of age, pregnant women or nursing mothers, or anyone with a medical condition should consult with a physician before taking this product. Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Children under 12 years of age, pregnant women or nursing mothers, or anyone with a medical condition should consult with a physician before taking this product. Patients on anticoagulant therapy should consult their physician before taking vitamin K2 supplements."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Quality you can trust since 1934"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Supports strong bones"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "1 tablet, 1x a day\nSuggested Use: Take one tablet a day, with or without a meal."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Alticor Inc."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Star-K (Kosher)\nCrescent M (Halal)\nNSF Contents Certified"
+    },
+    {
+      "type": "Formula re: Kosher",
+      "notes": "Star-K (Kosher)"
+    },
+    {
+      "type": "Formula re: Type",
+      "notes": "Crescent M (Halal)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Exclusively from Amway"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-12-13",
+      "type": "Off Market"
+    },
+    {
+      "date": "2021-04-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 281627,
+      "description": "",
+      "notes": "Vitamin D (Form: as Vitamin D3, and Vitamin D2) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 279015,
+          "prefix": null,
+          "percent": null,
+          "name": "Vitamin D2",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "VS041H42XC"
+        },
+        {
+          "order": 2,
+          "ingredientId": 279014,
+          "prefix": null,
+          "percent": null,
+          "name": "Vitamin D3",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 21820,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 20,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 17,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin K2",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin K (menaquinone)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 282516,
+        "name": "Maltodextrin",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Maltodextrin",
+        "uniiCode": "7CVR7L4A2D",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4058,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 276000,
+        "name": "Starch Sodium Octenyl Succinate",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "modified Starch",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 5874,
+        "name": "Glycerol Monostearate",
+        "category": "other",
+        "ingredientGroup": "Glycerol Monostearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 72509,
+        "name": "Mushroom powder",
+        "category": "other",
+        "ingredientGroup": "Mushroom (unspecified)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 6399,
+        "name": "Sodium Starch Glycolate",
+        "category": "other",
+        "ingredientGroup": "Sodium Starch Glycolate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 282497,
+        "name": "Sucrose",
+        "category": "sugar",
+        "ingredientGroup": "Sucrose",
+        "uniiCode": "C151H8M554",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 9,
+        "ingredientId": 4526,
+        "name": "Hydroxypropyl Methylcellulose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 10,
+        "ingredientId": 285558,
+        "name": "Stearic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Stearic Acid",
+        "uniiCode": "4ELV7Z65AP",
+        "alternateNames": [
+          "C18:0"
+        ],
+        "forms": []
+      },
+      {
+        "order": 11,
+        "ingredientId": 198863,
+        "name": "Sodium Ascorbate Crystalline",
+        "category": "vitamin",
+        "ingredientGroup": "Sodium Ascorbate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 12,
+        "ingredientId": 5004,
+        "name": "Medium Chain Triglycerides",
+        "category": "fat",
+        "ingredientGroup": "Medium chain triglycerides (MCT)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 13,
+        "ingredientId": 3985,
+        "name": "Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 14,
+        "ingredientId": 281779,
+        "name": "DL-Alpha-Tocopherol",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin E",
+        "uniiCode": "7QWA1RIO01",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 15,
+        "ingredientId": 4459,
+        "name": "Carnauba wax",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Carnauba wax",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2021-04-22"
+}

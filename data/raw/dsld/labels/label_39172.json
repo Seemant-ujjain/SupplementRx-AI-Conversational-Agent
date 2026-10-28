@@ -1,0 +1,488 @@
+{
+  "src": "01-raw/2025-08-22/data/label_148.json",
+  "id": 39172,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Energizing Iron",
+  "brandName": "Enzymatic Therapy",
+  "brandIpSymbol": "®",
+  "upcSku": "7 63948 05219 6",
+  "productVersionCode": "LC05219.E01  (BLK521D)",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "45",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values (DV) are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 25034
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 97237
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 53950
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 9550,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9550,
+        "name": "Enzymatic Therapy, LLC",
+        "streetAddress": "",
+        "city": "Green Bay",
+        "state": "WI",
+        "country": "USA",
+        "zipCode": "54311",
+        "phoneNumber": "1.800.783.2286 ",
+        "email": "",
+        "webAddress": "enzy.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Softgel(s)",
+      "display": "90 Softgel(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0161",
+    "langualCodeDescription": "Softgel Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 2,
+      "unit": "Softgel(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "~ Reduces gastric upset, nausea & occasional constipation"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant, nursing, or taking prescription drugs, consult your healthcare professional prior to use."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "GLUTEN FREE. Contains no yeast, wheat, corn, dairy products, artificial flavoring, or preservatives."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Ferrochel(R) is a registered trademark of Albion Laboratories, Inc. \nThe chelate in this product is covered by U.S. Patent Numbers: 7,838,042 and 6,716,814."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "LC05219.E01  (BLK521D)"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "THIS STATEMENT HAS NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE, OR PREVENT ANY DISEASE."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Dual Iron Formula"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Enzymatic Therapy What Better Feels Like(R)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "ENERGY & STAMINA"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommendations: Two softgels once or twice daily, or as recommended by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of the reach of children. In case of accidental overdose, call your physician or a Poison Control Center immediately."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "(c)2014"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "(part of Nature's Way Brands, LLC)"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Energizing Iron(TM) Iron Formula\n~ With Ferrochel(R) iron, a gentle non-heme iron\n~ And with easily-absorbed heme-iron from liquid liver fractions"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-11-17",
+      "type": "Off Market"
+    },
+    {
+      "date": "2014-11-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "{Calories}",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 284522,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "operator": "=",
+              "quantity": 10,
+              "unit": "{Calories}",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Calories from Fat",
+          "category": "other",
+          "ingredientGroup": "Calories",
+          "uniiCode": "1",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 12205,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 18344,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "<",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Protein",
+      "category": "protein",
+      "ingredientGroup": "Protein (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 5,
+      "ingredientId": 281279,
+      "description": null,
+      "notes": "Vitamin B12 (Form: as Cyanocobalamin) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 3333,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280323,
+          "prefix": null,
+          "percent": null,
+          "name": "Cyanocobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "P6YC3EG204"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 117941,
+      "description": null,
+      "notes": "Iron (Form: as Ferrochel Ferrous Bisglycinate Chelate, and Liquid Liver Fractions) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 8,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 44,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "as",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 117942,
+          "prefix": "and",
+          "percent": null,
+          "name": "Liquid Liver Fractions",
+          "category": "animal part or source",
+          "ingredientGroup": "Liver",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "ingredientId": 83205,
+      "description": null,
+      "notes": "Liquid Liver Fractions Note: predigested and concentrated ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Liquid Liver Fractions",
+      "category": "animal part or source",
+      "ingredientGroup": "Liver",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 27351,
+        "name": "Soybean Oil",
+        "category": "fat",
+        "ingredientGroup": "Soybean Oil",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 27352,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3812,
+        "name": "Vegetable Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 28876,
+        "name": "Beeswax",
+        "category": "animal part or source",
+        "ingredientGroup": "Beeswax",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 12165,
+        "name": "purified Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 18333,
+        "name": "Soy Lecithin",
+        "category": "fat",
+        "ingredientGroup": "lecithin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 51037,
+        "name": "Caramel color",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2014-11-25"
+}

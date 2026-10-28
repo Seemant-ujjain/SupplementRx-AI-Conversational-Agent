@@ -1,0 +1,339 @@
+{
+  "src": "01-raw/2025-08-22/data/label_419.json",
+  "id": 315533,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Curcumin",
+  "brandName": "Vimerson Health",
+  "brandIpSymbol": "®",
+  "upcSku": "X0015IFZKR",
+  "productVersionCode": "V2",
+  "pdf": "315533_document.pdf",
+  "thumbnail": "315533_thumbnail.jpg",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 174411
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 303372
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 220759
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 272316
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 22984,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 22984,
+        "name": "Vimerson Health",
+        "streetAddress": "205 N Michigan Ave #810",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA",
+        "zipCode": "60601",
+        "phoneNumber": "",
+        "email": "info@vimerson.com",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "60 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Women (not pregnant or lactating)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a dietary supplement, take two (2) capsules daily with a meal and a glass of water, or as directed by your healthcare professional. For those with a more sensitive constitution, we recommend taking one (1) capsule daily with a meal and a full glass of water. \nFor best results, Vimerson Health products should be used alongside a healthy diet and regular exercise."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Zero eggs, tree nuts or peanuts, gluten, dairy, and soy"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed the recommended dose. \r\n"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Always consult your healthcare professional before taking this or any dietary supplement, especially if you are under 18."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Do not take this product if you are pregnant or nursing, if you have a history of gallstones, bile duct obstruction, or if you are using anticoagulants (blood thinners). You should also consult a professional if you are taking medications or if you have an existing medical condition."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if adverse reaction occurs. Remember that you should not take supplements as a substitute for a varied balanced diet or healthy lifestyle."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety wrap is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "100% all natural"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "GMO free, gluten free, dairy free"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Made with organic turmeric powder\r\nBioPerine"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Helps to support body comfort\r\nHelps immune & digestive systems\r\nPromotes cardiovascular health\r\nSupports healthy joints & brain function"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "30 day supply"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Made in the USA with global ingredients\r\nManufactured in a GMP certified facility\r\nOrganic\r\nNFC Certified"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Certified Organic by: Organic Certifiers"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "100% happiness guarantee\r\nWe care about your health and your trust is important to us, that's why we offer a 100% money-back guarantee. If you're not entirely satisfied, simply email us for a full refund and replacement (no product return required).\r\n"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "BioPerine is a registered trademark of Sabinsa Corporation"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-08-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 310247,
+      "description": null,
+      "notes": "organic",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1400,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily value (DV) not established."
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": "856YO1Z64F",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 298145,
+      "description": null,
+      "notes": "Std. to 95% Curcuminoids",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily value (DV) not established."
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric Root Extract",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": "856YO1Z64F",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298144,
+          "prefix": null,
+          "percent": null,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoids",
+          "uniiCode": "R7T2XCO5ZU"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 311258,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily value (DV) not established."
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "BioPerine",
+      "category": "botanical",
+      "ingredientGroup": "Black Pepper",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298530,
+          "prefix": null,
+          "percent": null,
+          "name": "Black Pepper Fruit Extract",
+          "category": "botanical",
+          "ingredientGroup": "Black Pepper",
+          "uniiCode": "KM66971LVF"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 283139,
+        "name": "Pullulan",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Pullulan",
+        "uniiCode": "8ZQ0AYU1TT",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 238499,
+        "name": "Rice",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2024-08-22"
+}

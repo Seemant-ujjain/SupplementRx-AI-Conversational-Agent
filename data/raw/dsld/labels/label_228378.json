@@ -1,0 +1,307 @@
+{
+  "src": "01-raw/2025-08-22/data/label_418.json",
+  "id": 228378,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric 400 mg",
+  "brandName": "Natures Plus Herbal Actives",
+  "brandIpSymbol": "®",
+  "upcSku": "0 97467 07284 8",
+  "productVersionCode": "PRODUCT NO. 7284 LBL. 1139497",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 13861
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 69162
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 298725
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 112007
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 49425
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7459,
+      "text": "Manufactured with love by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7459,
+        "name": "Natural Organics Laboratories, Inc. makers of Nature's Plus",
+        "streetAddress": "9500 New Horizons Blvd.",
+        "city": "Amityville",
+        "state": "New York",
+        "country": "USA",
+        "zipCode": "11701",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.naturesplus.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "60 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Other",
+      "notes": "Nutritional support for general well-being."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Each Herbal Actives Turmeric capsule, providing the greatest concentration of active botanical principles, maximizes the synergistic benefits of the whole rhizome, which naturally contains turmerone and zingiberine."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Guaranteed Maximum Potency: Each Herbal Actives formula is scientifically standardized to the highest level of active principles."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "HerbaShield: An exclusive purity and safety system including light-resistant bottle, airtight inner seal, moisture-absorbing packet, tamper-evident safety cap and tamper-proof full bottle seal."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement offering the consistent benefits of exact potency, one capsule daily or as recommended by your health care professional."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Note: If you are pregnant or nursing, consult your health care professional before using any herbal product."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "This is not a prescription product. It is a dietary supplement made with the highest possible quality standards."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Herbal Actives is a registered trademark of Natural Organics, Inc. in the US and other countries."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "HerbaShield"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Printed HerbaShield inner seal and full bottle seal.\nDo not use if either seal is missing or broken.\n"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric 400 mg/95% Curcumin"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Standardized Botanical Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Maximum Guaranteed Potency"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Prescription quality"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free from artificial colors and preservatives. Free from all of the major allergens identified in the U.S. Food Allergen Labeling and Consumer Protection Act."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan"
+    },
+    {
+      "type": "Storage",
+      "notes": "Keep tightly closed in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Vcaps is a trademark of Capsugel\nNatural Organics"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-02-28",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-06-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 157792,
+      "description": null,
+      "notes": "Turmeric (Form: standardized [380 mg] 95% Curcumin) PlantPart: rhizome Genus: Curcuma Species: longa ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 16510,
+          "prefix": "standardized [380 mg]",
+          "percent": 95,
+          "name": "Curcumin",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcumin",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3810,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 4058,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 24567,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium Stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 12165,
+        "name": "purified Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-06-24"
+}

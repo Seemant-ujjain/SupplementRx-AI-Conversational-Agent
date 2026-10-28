@@ -1,0 +1,321 @@
+{
+  "src": "01-raw/2025-09-25/data/label_321.json",
+  "id": 229775,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Organic Ashwagandha",
+  "brandName": "True Veda",
+  "brandIpSymbol": "none",
+  "upcSku": "X000W3LA3H",
+  "productVersionCode": "ASH/US/6",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": true,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 20452,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 20452,
+        "name": "Simply by Nature Ltd. Kemp House",
+        "streetAddress": "152 City Road",
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom",
+        "zipCode": "EC1C 2NX",
+        "phoneNumber": "",
+        "email": "info@trueveda.com",
+        "webAddress": "www.trueveda.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 2,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Kosher",
+    "Women (not pregnant or lactating)",
+    "Organic",
+    "Halal",
+    "Gluten Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "True Veda Ashwagandha"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Relieves stress & promotes relaxation\nBoosts the immune system and healthy aging\nEnhances memory, concentration and mental clarity\nSupports cardiovascular health\nPromotes endurance and physical strength"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "100% of the agricultural ingredients are organic"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan, Vegetarian, Halal, Kosher, Gluten-free"
+    },
+    {
+      "type": "Formula re: Type",
+      "notes": "Vegan, Vegetarian, Halal, Kosher, Gluten-free"
+    },
+    {
+      "type": "Formula re: Kosher",
+      "notes": "Vegan, Vegetarian, Halal, Kosher, Gluten-free"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Vegan, Vegetarian, Halal, Kosher, Gluten-free"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Our world\nYour health"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Certified Organic by Soil Association Certification"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Organic Ashwagandha\nAshwagandha is an Ayurvedic herb commonly used in traditional Indian medicines. Through 14 years of careful research and development with our partners we have perfected the way to extract the full spectrum of nutrients from the Ashwagandha root to give you the most potent and effective version of Ashwagandha on the market today."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Does not contain any fillers, binders, rice flour, alcohol, synthetic solvents, silica, magnesium stearate or any other artificial ingredients or preservatives"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "What is Ayurveda?\nAyurveda, meaning 'Knowledge of Life' is a 5000 year old holistic healing system from India that promotes longevity, balance and happiness. Ayurveda helps sustain wellbeing by applying the inherent ethics of nature to bring the person back into equilibrium with their pure self. Ayurveda places great emphasis on prevention of illness and by rebalancing through appropriate nutrition, exercise, relaxation and lifestyle choices, we can help you live a much fuller life."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Herbal Dietary Supplement to support a natural and balanced response to Stress and promote a Healthy Immune System"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "USDA Organic"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "GB-ORG-05\nIndian Agriculture"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of egg, gluten, peanuts, shellfish and soy."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a food supplement, take one vegetable capsule one to two times per day, or as directed by your health care practitioner."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Do not take if you are pregnant or nursing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of the reach of children."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "KSM-66 is a registered trademark of Ixoreal Biomed Private Limited."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Our Story\nFor us, it's not just about a business, it's about a healthy lifestyle. We are a small, independent family run business whose aim is to transform the world by bringing a healthy revolution. By being conscientious of the effects we have on the world and how we can help, we do just that. By running our business in the most eco-friendly way as possible and with a short, safe list of products, we are able to ensure that we are a benefit to everyone we come into contact with. And that will never change! Get in touch with us today and start living a healthy lifestyle."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Our Promise\nYour satisfaction is our first priority. We promise to offer 100% natural products, which means what it says no artificial ingredients or preservatives go near our products. Our products are made from the purest ingredients, ensuring that everything we sell is of the very best quality. And as an added bonus, by supporting us you are supporting other worthy causes. We promise to donate a percentage of our profits to different charitable foundations. Let's make this world a better place to live and love!"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "For information, guides and discounts on our products...\nwww.TrueVeda.com\ninfo@trueveda.com"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non GMO"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP Good Manufacturing Practice"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "100% Money back guarantee\nMade in UK"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Certified organic by Soil Association Certification\nOrganic Ashwagandh...ed Organic by USDA"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "New"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-07-29",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-07-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 117137,
+      "description": "",
+      "notes": "organic KSM-66 Ashwagandha full-spectrum standardized extract (Form: standardized to 5% Withanolides Note: 15 mg, and less than 0.1% Withaferin A) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 300,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Values not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic KSM-66 Ashwagandha full-spectrum standardized extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 117141,
+          "prefix": "and less than",
+          "percent": 0.1,
+          "name": "Withaferin A",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 117140,
+          "prefix": "standardized to",
+          "percent": 5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 220688,
+        "name": "organic Ashwagandha extract",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 254678,
+        "name": "non-GMO Vegetarian capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 3721,
+            "prefix": "made from",
+            "percent": null,
+            "name": "Hypromellose",
+            "category": "other",
+            "ingredientGroup": "Hypromellose",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-07-23"
+}

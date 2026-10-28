@@ -1,0 +1,448 @@
+{
+  "src": "01-raw/2025-08-22/data/label_442.json",
+  "id": 219663,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin C | B12 | D3",
+  "brandName": "RapidCBD",
+  "brandIpSymbol": "®",
+  "upcSku": "8 56666 00715 6",
+  "productVersionCode": "Rev-A 101718",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values based on a 2,000 calorie diet.",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 19112,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 19112,
+        "name": "ISO International, LLC.",
+        "streetAddress": "",
+        "city": "Gilbert",
+        "state": "AZ",
+        "country": "",
+        "zipCode": "85233",
+        "phoneNumber": "+1 855-522-5348",
+        "email": "info@RapidCBD.com",
+        "webAddress": "RapidCBD.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 30,
+      "unit": "Capsule(s)",
+      "display": "30 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1317",
+    "langualCodeDescription": "Botanical with Nutrients"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "Vitamin C | B12 | D3 capsules deliver a unique blend of essential daily vitamins and botanical extracts that may help maintain optimum health and wellness."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Vitamin B12 helps boost energy levels while vitamin C and D3 help maintain optimal immune function."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Intended for persons age 18 and over."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Questions/Comments? +1 888-522-5348"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "THC free"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Powered by Isodiol"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Premium herbal complex\n25 mg CBD per capsule"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Balance daily wellness"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Vitamin C | Vitamin B12 | Vitamin D3"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: Adults take 1-2 capsules daily."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: Consult with a doctor before consuming any dietary supplement or if you are pregnant, nursing, or taking any other medication."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is broken or missing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-05-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 278603,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 167,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin C",
+      "uniiCode": "PQ6CK8PD0R",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 278604,
+          "prefix": null,
+          "percent": null,
+          "name": "Ascorbic Acid",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin C",
+          "uniiCode": "PQ6CK8PD0R"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 280374,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D3",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "1C6V77QF41",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 281388,
+      "description": "",
+      "notes": "Vitamin B12 (Form: as Methylcobalamine) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 6,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280220,
+          "prefix": null,
+          "percent": null,
+          "name": "Methylcobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "BR1SN1JS2W"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "ingredientId": 6161,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 70,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 5,
+          "ingredientId": 245601,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Chuan Xiong",
+          "category": "botanical",
+          "ingredientGroup": "Sichuan Lovage",
+          "uniiCode": null,
+          "alternateNames": [
+            "Szechuan Lovage"
+          ],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 245605,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bai Zui",
+          "category": "botanical",
+          "ingredientGroup": "Atractylodes",
+          "uniiCode": null,
+          "alternateNames": [
+            "Atractylodes"
+          ],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 245606,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Da Zao",
+          "category": "botanical",
+          "ingredientGroup": "Jujube ",
+          "uniiCode": null,
+          "alternateNames": [
+            "Jujube"
+          ],
+          "forms": []
+        }
+      ],
+      "name": "Proprietary Herbal Blend",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Herb/Botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 8,
+      "ingredientId": 245590,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "ISO99 Hemp extract",
+      "category": "botanical",
+      "ingredientGroup": "Hemp",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 15292,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2020-05-22"
+}

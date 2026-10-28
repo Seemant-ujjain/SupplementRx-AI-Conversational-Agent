@@ -1,0 +1,336 @@
+{
+  "src": "01-raw/2025-06-25/data/label_264.json",
+  "id": 56552,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Melatonin 3 mg",
+  "brandName": "PhysioLogics",
+  "brandIpSymbol": "®",
+  "upcSku": "7 16963 07915 0",
+  "productVersionCode": "PROD. NO. 7915 B52973 12G",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 29232
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 3476
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 88595
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2131,
+      "text": "Carefully Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2131,
+        "name": "PhysioLogics, LLC",
+        "streetAddress": "2100 Smithtown Ave",
+        "city": "Ronkonkoma",
+        "state": "NY",
+        "country": "U.S.A.",
+        "zipCode": "11779",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 2143,
+      "text": "Or visit",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2143,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.physiologics.com"
+      }
+    },
+    {
+      "contactId": 2149,
+      "text": "To refill please call",
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2149,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-800-765-6775",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Vegetarian Tablet(s)",
+      "display": "120 Vegetarian Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: All Other",
+      "notes": "As a reminder, discuss the supplements and medications you take with your health care providers."
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "PRODUCT BENEFITS: Melatonin is a natural lipophilic hormone secreted by the Pineal Gland in the brain, and is classified as an Indoleamine."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Closely involved in the natural sleep cycle, Melatonin can help support restful sleep patterns.*"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Melatonin may be appropriate for people experiencing occasional sleeplessness, those with jet lag or those wanting to promote sound, quality sleep.*"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "These positive effects are most likely mediated through Melatonin's involvement with membrane-bound receptors located in the Suprachiasmatic Nucleas, the Pars Tuberalis, and other brain regions.*"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: For adults, take one (1) tablet at bedtime as Melatonin may produce drowsiness, or follow the advice of your health care professional."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "PROD. NO. 7915 B52973 12G"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Nutritionally Supports Sound Sleep*"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "FREE OF: artificial color, artificial flavor, artificial sweetener, preservatives, sugar, starch, milk, lactose, soy, gluten, wheat, yeast, fish, sodium."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "TAMPER RESISTANT: Do not use if seal under cap is broken or missing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature and avoid excessive heat."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: Not intended for use by pregnant or nursing women. If you are taking any medications or have any medical condition, consult your doctor before use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product. Limit use to two months with a break of one week."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Laboratory Tested To Guarantee Quality For Health Care Professional Use Only"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2015 PhysioLogics, LLC"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2016-03-01",
+      "type": "Off Market"
+    },
+    {
+      "date": "2016-02-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283596,
+      "description": null,
+      "notes": "Melatonin (Form: as N-Acetyl-5-Methoxytryptamine) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Melatonin",
+      "category": "hormone",
+      "ingredientGroup": "Melatonin",
+      "uniiCode": "JL5DK93RCL",
+      "alternateNames": [
+        "N-acetyl-5-methotryptamine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 292621,
+        "name": "Calcium Carbonate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": "H0G9379FGK",
+        "alternateNames": [
+          "Ca Carbonate",
+          "CaCO3"
+        ],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 15292,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 40207,
+        "name": "Croscarmellose",
+        "category": "other",
+        "ingredientGroup": "Croscarmellose Sodium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 142727,
+        "name": "Contains Less Than 2% of",
+        "category": "blend",
+        "ingredientGroup": "Blend",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 293311,
+            "prefix": null,
+            "percent": null,
+            "name": "Silica",
+            "category": "mineral",
+            "ingredientGroup": "Silicon",
+            "uniiCode": "ETJ7Z6XBU4"
+          },
+          {
+            "order": 2,
+            "ingredientId": 3813,
+            "prefix": null,
+            "percent": null,
+            "name": "Vegetable Magnesium Stearate",
+            "category": "other",
+            "ingredientGroup": "Magnesium stearate",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2016-02-23"
+}

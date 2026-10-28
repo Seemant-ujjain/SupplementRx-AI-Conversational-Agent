@@ -1,0 +1,670 @@
+{
+  "src": "01-raw/2025-08-22/data/label_306.json",
+  "id": 65671,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Omega 3-6-9",
+  "brandName": "Sundown Naturals",
+  "brandIpSymbol": "®",
+  "upcSku": "0 30768 53634 3",
+  "productVersionCode": "Prod. No. 53634 03C B53634 Label No. 92422",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 56741
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 212173
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 7652,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 7652,
+        "name": "Rexall Sundown, Inc.",
+        "streetAddress": "",
+        "city": "Boca Raton",
+        "state": "FL",
+        "country": "USA",
+        "zipCode": "33487",
+        "phoneNumber": "1-888-848-2435",
+        "email": "",
+        "webAddress": "www.sundownnaturals.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 50,
+      "unit": "Softgel(s)",
+      "display": "50 Softgel(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0161",
+    "langualCodeDescription": "Softgel Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Softgel(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1310",
+    "langualCodeDescription": "Fat/Fatty Acid"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Smart Facts\n~ No Preservatives"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "~ Naturally Contains 495 mg of Omega-3\n~ Proprietary Blend of Flaxseed & Sunflower Seed Oil"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Gluten, No Wheat, No Milk, No Lactose, No Artificial Flavor, No Preservatives, No Sugar, No\nSoy, No Yeast, No Fish. Sodium Free."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children.\n"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature and avoid excessive heat.\n"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper resistant: Do not use if seal under cap is broken or missing.\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Made In The USA with select ingredients from around the world"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Prod. No. 53634 03C B53634 Label No. 92422"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2016"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian Formula"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Cold Pressed Flaxseed Oil & Sunflower Seed Oil"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "100% free of No dairy/lactose No artificial flavors Non-GMO No Gluten/Wheat"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "No dairy/lactose"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Non-GMO"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Supports Heart & Circulatory Health*"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "No Gluten/Wheat"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: FOR ADULTS, TAKE ONE (1) SOFTGEL DAILY, PREFERABLY WITH A MEAL."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "As a reminder, discuss the supplements and medications you take with your health care providers."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: If you are pregnant, nursing, taking any medications or have any medical condition, consult your doctor before use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-12-04",
+      "type": "Off Market"
+    },
+    {
+      "date": "2016-10-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 284522,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 10,
+              "unit": "Calorie(s)",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Calories from Fat",
+          "category": "other",
+          "ingredientGroup": "Calories",
+          "uniiCode": "1",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 12205,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 142924,
+      "description": null,
+      "notes": "vegetarian Omega 3-6-9 Proprietary Blend Note: 1 g ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1005,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Softgel(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 5,
+          "ingredientId": 142925,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "organic cold pressed Flaxseed Oil",
+          "category": "fat",
+          "ingredientGroup": "Flaxseed Oil",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 100689,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sunflower seed Oil",
+          "category": "fat",
+          "ingredientGroup": "Sunflower Oil",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 98467,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Softgel(s)"
+            }
+          ],
+          "nestedRows": [
+            {
+              "order": 8,
+              "ingredientId": 285566,
+              "description": null,
+              "notes": "Omega-3 Note: Total Omega-3 Fatty Acids comprising of: ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 495,
+                  "unit": "mg",
+                  "dailyValueTargetGroup": [
+                    {
+                      "name": "Adults and children 4 or more years of age",
+                      "operator": null,
+                      "percent": null,
+                      "footnote": "Daily Value not established"
+                    }
+                  ],
+                  "servingSizeUnit": "Softgel(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 9,
+                  "ingredientId": 284747,
+                  "description": null,
+                  "notes": null,
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [
+                        {
+                          "name": "Adults and children 4 or more years of age",
+                          "operator": null,
+                          "percent": null,
+                          "footnote": "Daily Value not established"
+                        }
+                      ],
+                      "servingSizeUnit": "Softgel(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Alpha-Linolenic Acid",
+                  "category": "fatty acid",
+                  "ingredientGroup": "Alpha-Linolenic Acid",
+                  "uniiCode": "0RBV727H71",
+                  "alternateNames": [
+                    "ALA",
+                    "C18:3n-3"
+                  ],
+                  "forms": []
+                }
+              ],
+              "name": "Total Omega-3 Fatty Acids",
+              "category": "fatty acid",
+              "ingredientGroup": "Omega-3",
+              "uniiCode": "71M78END5S",
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 10,
+              "ingredientId": 285635,
+              "description": null,
+              "notes": "Omega-6 Note: Total Omega-6 Fatty Acids comprising of: ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 197,
+                  "unit": "mg",
+                  "dailyValueTargetGroup": [
+                    {
+                      "name": "Adults and children 4 or more years of age",
+                      "operator": null,
+                      "percent": null,
+                      "footnote": "Daily Value not established"
+                    }
+                  ],
+                  "servingSizeUnit": "Softgel(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 11,
+                  "ingredientId": 285233,
+                  "description": null,
+                  "notes": null,
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [
+                        {
+                          "name": "Adults and children 4 or more years of age",
+                          "operator": null,
+                          "percent": null,
+                          "footnote": "Daily Value not established"
+                        }
+                      ],
+                      "servingSizeUnit": "Softgel(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Linoleic Acid",
+                  "category": "fatty acid",
+                  "ingredientGroup": "Linoleic Acid",
+                  "uniiCode": "9KJL21T0QJ",
+                  "alternateNames": [
+                    "C18:2n-6",
+                    "LA"
+                  ],
+                  "forms": []
+                }
+              ],
+              "name": "Total Omega-6 Fatty Acids",
+              "category": "fatty acid",
+              "ingredientGroup": "Omega-6",
+              "uniiCode": "116Z6MZN1M",
+              "alternateNames": [],
+              "forms": []
+            },
+            {
+              "order": 12,
+              "ingredientId": 285631,
+              "description": null,
+              "notes": "Omega-9 Note: Total Omega-9 Fatty Acids comprising of: ",
+              "quantity": [
+                {
+                  "servingSizeOrder": 1,
+                  "servingSizeQuantity": 1,
+                  "operator": "=",
+                  "quantity": 149,
+                  "unit": "mg",
+                  "dailyValueTargetGroup": [
+                    {
+                      "name": "Adults and children 4 or more years of age",
+                      "operator": null,
+                      "percent": null,
+                      "footnote": "Daily Value not established"
+                    }
+                  ],
+                  "servingSizeUnit": "Softgel(s)"
+                }
+              ],
+              "nestedRows": [
+                {
+                  "order": 13,
+                  "ingredientId": 285286,
+                  "description": null,
+                  "notes": null,
+                  "quantity": [
+                    {
+                      "servingSizeOrder": 1,
+                      "servingSizeQuantity": 1,
+                      "operator": "=",
+                      "quantity": 0,
+                      "unit": "NP",
+                      "dailyValueTargetGroup": [
+                        {
+                          "name": "Adults and children 4 or more years of age",
+                          "operator": null,
+                          "percent": null,
+                          "footnote": "Daily Value not established"
+                        }
+                      ],
+                      "servingSizeUnit": "Softgel(s)"
+                    }
+                  ],
+                  "nestedRows": [],
+                  "name": "Oleic Acid",
+                  "category": "fatty acid",
+                  "ingredientGroup": "Oleic Acid",
+                  "uniiCode": "2UMI9U37CP",
+                  "alternateNames": [
+                    "C18:1n-9",
+                    "OA"
+                  ],
+                  "forms": []
+                }
+              ],
+              "name": "Total Omega-9 Fatty Acids",
+              "category": "fatty acid",
+              "ingredientGroup": "Omega-9",
+              "uniiCode": "0",
+              "alternateNames": [],
+              "forms": []
+            }
+          ],
+          "name": "Typical Fatty Acid Profile",
+          "category": "blend",
+          "ingredientGroup": "Blend",
+          "uniiCode": "1",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "vegetarian Omega 3-6-9 Proprietary Blend",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Fatty Acid or Fat/Oil supplement)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 5412,
+        "name": "Modified Corn Starch",
+        "category": "other",
+        "ingredientGroup": "modified Starch",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3812,
+        "name": "Vegetable Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 282547,
+        "name": "Carrageenan",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Carrageenan",
+        "uniiCode": "5C69YCD2YJ",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 153657,
+        "name": "Contains <2% of:",
+        "category": "other",
+        "ingredientGroup": "Header",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 20693,
+            "prefix": null,
+            "percent": null,
+            "name": "natural Caramel color",
+            "category": "other",
+            "ingredientGroup": "Color",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 3789,
+            "prefix": null,
+            "percent": null,
+            "name": "Sorbitol",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Sorbitol",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2016-10-22"
+}

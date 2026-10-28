@@ -1,0 +1,227 @@
+{
+  "src": "01-raw/2025-09-25/data/label_40.json",
+  "id": 180525,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha",
+  "brandName": "Moringa Source",
+  "brandIpSymbol": "®",
+  "upcSku": "6 11138 64895 0",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "24",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 15482,
+      "text": "Manufactured in the USA by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15482,
+        "name": "Moringa Source LLC",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-877-774-8430",
+        "email": "",
+        "webAddress": "www.moringasource.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 1,
+      "unit": "Fluid Ounce(s)",
+      "display": "1 Fluid Ounce(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 30,
+      "unit": "mL",
+      "display": "30 mL"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 0.25,
+      "maxQuantity": 0.25,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "tsp",
+      "notes": "1.23 ml",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Organic"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Certified by Baystate Organic Certifiers"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: 1/4 teaspoon in water or juice 1 to 3 times a day, or as needed. Shake well."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper Evident Feature: Do not use if seal on cap is torn, broken or missing."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: If you are under a physician's care or taking medication, consult your health care professional before using this product. If you are pregnant or breast feeding, do not use without consulting a health care professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Ashwagandha Herbal Root Extract Concentrated"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Natural Stress Relief And Immune Support"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "USDA Organic"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-12-23",
+      "type": "Off Market"
+    },
+    {
+      "date": "2018-08-31",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 201381,
+      "description": "",
+      "notes": "Ashwagandha (Form: 1:5 in 50% Alcohol) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 0.25,
+          "operator": "=",
+          "quantity": 1.23,
+          "unit": "mL",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "tsp"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 38334,
+          "prefix": "1:5 in",
+          "percent": 50,
+          "name": "Alcohol",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Alcohol",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 201382,
+        "name": "organic Cane Sugar Alcohol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Alcohol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 111741,
+        "name": "purified Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 83631,
+        "name": "organic Ashwagandha",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2018-08-31"
+}

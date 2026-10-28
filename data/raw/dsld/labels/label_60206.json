@@ -1,0 +1,314 @@
+{
+  "src": "01-raw/2025-03-25/data/label_33.json",
+  "id": 60206,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "B12 With Folic Acid Raspberry",
+  "brandName": "The Vitamin Shoppe",
+  "brandIpSymbol": "®",
+  "upcSku": "7 66536 01815 4",
+  "productVersionCode": "Item No. VS-1815 1546134 CQ 28",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "118",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 60199
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 79812
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 37232
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 37231
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 80190
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 37232
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 80190
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 5692,
+      "text": "Distributed by:",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 5692,
+        "name": "Vitamin Shoppe, Inc.",
+        "streetAddress": "",
+        "city": "Secaucus",
+        "state": "NJ",
+        "country": "",
+        "zipCode": "07094",
+        "phoneNumber": "1-800-223-1216",
+        "email": "",
+        "webAddress": "www.vitaminshoppe.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 4,
+      "unit": "fl. Oz.",
+      "display": "4 fl. Oz."
+    },
+    {
+      "order": 2,
+      "quantity": 118,
+      "unit": "mL",
+      "display": "118 mL"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 0.2,
+      "maxQuantity": 0.2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "tsp",
+      "notes": "(1 mL) (One Full Dropper)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Vitamin"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Energy production"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free\nDairy free\nSoy free\nNut free"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement for adults, take one full dropper (1 mL) daily, preferably after a  meal. \nShake well before using."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Consult your healthcare provider prior to use if you are pregnant, nursing, taking any medication or have any medical conditions."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place.\n"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children.\n"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper evident Do not use if outer seal is broken or missing.\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Visit www.vitaminshoppe.com or call 1-800-223-1216 for more information and to reorder."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "B12 With Folic Acid"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Item No. VS-1815 1546134 CQ 28"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-08-30",
+      "type": "Off Market"
+    },
+    {
+      "date": "2016-05-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 279040,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 0.2,
+          "operator": "=",
+          "quantity": 400,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "tsp"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Folic Acid",
+      "category": "vitamin",
+      "ingredientGroup": "Folate",
+      "uniiCode": "935E97BOY8",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 281279,
+      "description": null,
+      "notes": "Vitamin B12 (Form: as Cyanocobalamin) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 0.2,
+          "operator": "=",
+          "quantity": 1000,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 16667,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "tsp"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280323,
+          "prefix": null,
+          "percent": null,
+          "name": "Cyanocobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "P6YC3EG204"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 118633,
+        "name": "Vegetable Glycerin",
+        "category": "other",
+        "ingredientGroup": "Glycerol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 6231,
+        "name": "deionized Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 35771,
+        "name": "Natural flavor",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 8648,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2016-05-22"
+}

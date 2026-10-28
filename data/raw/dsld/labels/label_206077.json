@@ -1,0 +1,249 @@
+{
+  "src": "01-raw/2025-09-25/data/label_42.json",
+  "id": 206077,
+  "nhanesId": "1-001-2061-00",
+  "bundleName": "",
+  "fullName": "Ashwagandha Extra Strength",
+  "brandName": "BRI Nutrition",
+  "brandIpSymbol": "none",
+  "upcSku": "X000RIEHM3",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "45",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 260274
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 326526
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 18162,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 18162,
+        "name": "BR International, LLC",
+        "streetAddress": "16192 Coastal HWY",
+        "city": "Lewes",
+        "state": "DE",
+        "country": "",
+        "zipCode": "19958",
+        "phoneNumber": "",
+        "email": "www.brinutrition.com",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Capsule(s)",
+      "display": "90 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vegetable Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Supports a healthy nervous system\nPowerful adaptogenic properties\nSupports adrenal health \n1000 mg per serving"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed the recommended dose."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of the reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or any prevent disease"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Good Manufacturing Practice\nSourced from a GMP Certified Facility\nQuality Assured"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Made In USA"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "100% satisfaction guaranteed"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: Two (2) vegetable capsules daily preferably with a meal or as directed by a healthcare professional."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Potent: 1000 mg Ashwagandha (Withania somnifera) per serving"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "What it is: Ashwagandha supports endurance, calm strength, and enduring vitality. Being one of the world's oldest Ayurveda holistic (whole-body) support systems, it is based on the belief that health and wellness depend on a delicate balance between the mind, body, and spirit."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Ashwagandha contains many useful compounds including alkaloids, choline, fatty acids, amino acids, and a variety of sugars."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Quality\nValue\nService\nPurity"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-09-14",
+      "type": "Off Market"
+    },
+    {
+      "date": "2019-08-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 227094,
+      "description": "",
+      "notes": "Ashwagandha Note: powder ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1000,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established."
+            }
+          ],
+          "servingSizeUnit": "Vegetable Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Ashwagandha",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3810,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3782,
+        "name": "Rice Flour",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3813,
+        "name": "Vegetable Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2019-08-23"
+}

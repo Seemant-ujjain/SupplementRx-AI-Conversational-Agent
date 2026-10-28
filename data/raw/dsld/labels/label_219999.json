@@ -1,0 +1,356 @@
+{
+  "src": "01-raw/2025-08-22/data/label_417.json",
+  "id": 219999,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric",
+  "brandName": "Nutrina",
+  "brandIpSymbol": "®",
+  "upcSku": "7 28838 12423 0",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 19130,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 19130,
+        "name": "Nutrina Co., Inc.",
+        "streetAddress": "",
+        "city": "Clearwater",
+        "state": "FL",
+        "country": "USA",
+        "zipCode": "33755",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.nutrina.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Veggie Cap(s)",
+      "display": "90 Veggie Cap(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 3,
+      "maxQuantity": 3,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Vegetarian Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Important Note: Pregnant or nursing mothers, or anyone with a medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "For adult use only."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is broken or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place out of the reach of children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Store in a cool, dry place out of the reach of children."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "100% all natural ingredients"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "GMO free"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "GMP certified\nGood Manufacturing Practice"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free\nNo preservatives\nNo artificial ingredients"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Nutrina Dietary Supplements"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Guaranteed 100% purity"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric Curcumin\n1,725 mg with BioPerine"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Supports anti-inflammatory response\n3X extra strength"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Superior absorption\nAll natural ingredients"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No fillers or binders\nGMO free"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan Gluten-free formula"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Vegan Gluten-free formula"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "30 day supply"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Made in USA"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use: As a dietary supplement, take three capsules with a meal 1 or 3 times per day, or as recommended by a health care professional."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Does not contain any of the major food allergens: Milk, fish, soy, egg, crustacean shell fish, tree nuts, wheat and peanuts. Gluten free."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "All natural"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "100% vegan"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "GMP certified"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is intended to diagnose, treat, cure or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-01-08",
+      "type": "Off Market"
+    },
+    {
+      "date": "2020-05-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 46103,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 1500,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric root powder",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 245598,
+      "description": "",
+      "notes": "Turmeric root extract (Form: standardized 95% Curcuminoids) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 225,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric root extract",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 41501,
+          "prefix": "standardized",
+          "percent": 95,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoid",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 84601,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 3,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Vegetarian Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Black Pepper fruit extract",
+      "category": "botanical",
+      "ingredientGroup": "Black Pepper",
+      "uniiCode": null,
+      "alternateNames": [
+        "BioPerine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 69485,
+        "name": "Vegetable Capsule",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 9747,
+            "prefix": null,
+            "percent": null,
+            "name": "Cellulose",
+            "category": "fiber",
+            "ingredientGroup": "Cellulose",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 48942,
+            "prefix": null,
+            "percent": null,
+            "name": "Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2020-05-22"
+}

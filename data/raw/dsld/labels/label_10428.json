@@ -1,0 +1,235 @@
+{
+  "src": "01-raw/2025-06-25/data/label_262.json",
+  "id": 10428,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Melatonin 1 mg",
+  "brandName": "Good 'N Natural",
+  "brandIpSymbol": "®",
+  "upcSku": "0 74312 42832 6",
+  "productVersionCode": "ITEM #2832 B2832 05F",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 2730,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2730,
+        "name": "Good 'N Natural",
+        "streetAddress": "",
+        "city": "Bohemia",
+        "state": "NY",
+        "country": "USA",
+        "zipCode": "11716",
+        "phoneNumber": "800.544.0095",
+        "email": "",
+        "webAddress": "www.goodnnatural.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Tablet(s)",
+      "display": "90 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "ACTUAL SIZE"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Sleep Aid*"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "VEGETARIAN VEGAN FORMULA\nGUARANTEED QUALITY\nLABORATORY TESTED\n"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: For adults, take one (1) tablet daily, at bedtime as Melatonin may produce drowsiness."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Melatonin works in harmony with your natural sleep cycle to give you the tranquil rest you deserve, so you can awaken feeling refreshed.* Melatonin is a terrific choice for people experiencing occasional sleeplessness, those with jet lag, or anyone seeking to improve their quality of rest.*"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: Not intended for use by pregnant or nursing women. If you are taking any medications, consult your doctor before use."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product. Limit use to two months with a break of one week."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18. Keep out of reach of children."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if seal under cap is broken or missing."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "© 2011 Good 'N Natural®"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "ITEM #2832 B2832 05F"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Gluten, No Yeast, No Wheat, No Milk or Milk Derivatives, No Lactose, No Soy, No Egg, No Corn, No Grapefruit, No Fish, No Sweetener, No Sugar, No Starch, No Preservatives, No Artificial Color, No Artificial Flavor, No Sodium."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2016-05-10",
+      "type": "Off Market"
+    },
+    {
+      "date": "2012-06-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283596,
+      "description": null,
+      "notes": "Melatonin (Form: as N-Acetyl-5-Methoxytryptamine) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 1,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Melatonin",
+      "category": "hormone",
+      "ingredientGroup": "Melatonin",
+      "uniiCode": "JL5DK93RCL",
+      "alternateNames": [
+        "N-acetyl-5-methotryptamine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3700,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3810,
+        "name": "Vegetable Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 3813,
+        "name": "Vegetable Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2012-06-25"
+}

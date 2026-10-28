@@ -1,0 +1,224 @@
+{
+  "src": "01-raw/2025-08-22/data/label_216.json",
+  "id": 247061,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Iron Chelate",
+  "brandName": "Adaptogen Research",
+  "brandIpSymbol": "®",
+  "upcSku": "688907 859749",
+  "productVersionCode": "FEC120-PL-4",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "120",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 22549,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 22549,
+        "name": "Adaptogen Research",
+        "streetAddress": "625 Barksdale Road, Suite 113",
+        "city": "Newark",
+        "state": "DE",
+        "country": "",
+        "zipCode": "19711",
+        "phoneNumber": "302-213-0030",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "120 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended Use: As a dietary supplement, take one capsule per day with a meal, or as directed by your health care practitioner."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Ferrochel is a registered trademark of Albion Laboratories, Inc."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning  in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Notice: Color, size or shape may appear different between lots."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Manufactured in a GMP Registered Facility in the USA"
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian Formula"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Made with Non-GMO ingredients\nDoes not contain guten"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Professional Use Only"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Guaranteed GMP Compliant Products"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Report any adverse reactions to 302-213-0030"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-04-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 165811,
+      "description": "",
+      "notes": "Iron (Form: as Ferrochel Ferrous Bisglycinate Chelate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 27,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 150,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 71876,
+          "prefix": "as",
+          "percent": null,
+          "name": "Ferrochel",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4058,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 27342,
+        "name": "Cellulose",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 6776,
+        "name": "Vegetable Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2021-04-22"
+}

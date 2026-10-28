@@ -1,0 +1,333 @@
+{
+  "src": "01-raw/2025-06-25/data/label_265.json",
+  "id": 63389,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Melatonin 3 mg",
+  "brandName": "Sundown Naturalist",
+  "brandIpSymbol": "®®",
+  "upcSku": "0 30768 040050 5",
+  "productVersionCode": "Prod. No. 7917 11E B52973",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 6010
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 30624
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 56720
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 64318
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 6010
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 30624
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 56720
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 212355
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 212175
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 30617
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 6019
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 64319
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 212175
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 64319
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2905,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2905,
+        "name": "Rexall Sundown, Inc.",
+        "streetAddress": "",
+        "city": "Boca Raton",
+        "state": "FL",
+        "country": "USA",
+        "zipCode": "33487",
+        "phoneNumber": "1-888-848-2435",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Tablet(s)",
+      "display": "60 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free",
+    "Sugar Free"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product. Limit use to two months with a break of one week."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Limit use to two months with a break of one week."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Supports Sound Sleep"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "100% Quality assurance\nLaboratory tested"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegetarian Formula"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No yeast, wheat, gluten, milk or milk derivatives, lactose, sugar, preservatives, soy, artificial color, artificial flavor, sodium."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "IMPORTANT FACTS YOU SHOULD KNOW\nMelatonin works in harmony with your natural sleep cycle to give you the tranquil rest you deserve, so you can awaken feeling refreshed.* Inspired by the natural rhythm of life, Melatonin is a wonderful supplement for people experiencing occasional sleeplessness, those with jet lag, or those seeking to improve their quality of rest."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: FOR ADULTS, TAKE ONE (1) TABLET AT BEDTIME AS MELATONIN MAY PRODUCE DROWSINESS."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "WARNING: Not intended for use by pregnant or nursing women. If you are taking any medications or have any medical condition, consult your doctor before use."
+    },
+    {
+      "type": "Storage",
+      "notes": "STORE AT ROOM TEMPERATURE AND AVOID EXCESSIVE HEAT."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "TAMPER RESISTANT: DO NOT USE IF SEAL UNDER CAP IS BROKEN OR MISSING."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under the age of 18. KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Quality Guaranteed Lab Tested\nLaboratory tested to meet strict quality control standards for potency, purity and disintegration. 100% Quality Guaranteed."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Prod. No. 7917 11E B52973"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "2016"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "ACTUAL SIZE"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2016-08-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 283596,
+      "description": null,
+      "notes": "Melatonin (Form: as N-Acetyl-5-Methoxytryptamine) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Melatonin",
+      "category": "hormone",
+      "ingredientGroup": "Melatonin",
+      "uniiCode": "JL5DK93RCL",
+      "alternateNames": [
+        "N-acetyl-5-methotryptamine"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 292621,
+        "name": "Calcium Carbonate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": "H0G9379FGK",
+        "alternateNames": [
+          "Ca Carbonate",
+          "CaCO3"
+        ],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 46467,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 40207,
+        "name": "Croscarmellose",
+        "category": "other",
+        "ingredientGroup": "Croscarmellose Sodium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 47656,
+        "name": "Contains Less Than 2% of",
+        "category": "blend",
+        "ingredientGroup": "Blend",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 293311,
+            "prefix": null,
+            "percent": null,
+            "name": "Silica",
+            "category": "mineral",
+            "ingredientGroup": "Silicon",
+            "uniiCode": "ETJ7Z6XBU4"
+          },
+          {
+            "order": 2,
+            "ingredientId": 3813,
+            "prefix": null,
+            "percent": null,
+            "name": "Vegetable Magnesium Stearate",
+            "category": "other",
+            "ingredientGroup": "Magnesium stearate",
+            "uniiCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2016-08-24"
+}

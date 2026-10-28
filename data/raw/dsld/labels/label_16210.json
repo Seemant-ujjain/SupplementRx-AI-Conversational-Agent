@@ -1,0 +1,346 @@
+{
+  "src": "01-raw/2025-07-24/data/label_369.json",
+  "id": 16210,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin D",
+  "brandName": "USANA",
+  "brandIpSymbol": "®",
+  "upcSku": "",
+  "productVersionCode": "109.010101 LB.000393",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 322336
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 201183
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 3674,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 3674,
+        "name": "USANA Health Sciences, Inc",
+        "streetAddress": "3838 W. Parkway Blvd.",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "USA",
+        "zipCode": "84120",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 84,
+      "unit": "Tablet(s)",
+      "display": "84 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Seals/Symbols",
+      "notes": "POTENCY (SIGNATURE) GUARANTEED"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "MADE IN USA\nUS"
+    },
+    {
+      "type": "Storage",
+      "notes": "STORE BELOW 25(0) C"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "LABORATORY TESTED, QUALITY GUARANTEED. MEETS USP SPECIFICATIONS FOR POTENCY, UNIFORMITY, AND DISINTEGRATION WHERE APPLICABLE."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "CONSULT YOUR PHYSICIAN IF YOU ARE PREGNANT, NURSING, TAKING A PRESCRIPTION DRUG, OR HAVE A MEDICAL CONDITION."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "IF YOU EXCEED THE ESTABLISHED UPPER LIMIT (UL) OF 4000 IU/D FOR VITAMIN D INTAKE, REGULAR BLOOD TESTS FOR VITAMIN D AND CALCIUM STATUS ARE SUGGESTED."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "THERE IS A SAFETY SEAL UNDER THE CAP. DO NOT USE IF THE SAFETY SEAL IS BROKEN OR MISSING."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "DIRECTIONS: TAKE ONE (1) TABLET DAILY, PREFERABLY WITH FOOD."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "CONTAINS SOY."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "109.010101 LB.000393\n"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-07-24",
+      "type": "Off Market"
+    },
+    {
+      "date": "2012-12-21",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 280374,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 2000,
+          "unit": "IU",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 500,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D3",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "1C6V77QF41",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 61350,
+      "description": null,
+      "notes": "VITAMIN K (Form: AS MENAQUINONE MK4, & (MENAQUINONE) MK7) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 30,
+          "unit": "ug",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 40,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "VITAMIN K",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin K (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 284283,
+          "prefix": "&",
+          "percent": null,
+          "name": "Menaquinone K7",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin K",
+          "uniiCode": "8427BML8NY"
+        },
+        {
+          "order": 2,
+          "ingredientId": 61351,
+          "prefix": "AS",
+          "percent": null,
+          "name": "MENAQUINONE MK4",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin K (menaquinone)",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 42819,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 50964,
+        "name": "pregelatinized Starch",
+        "category": "other",
+        "ingredientGroup": "Pregelatinized starch",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 42820,
+        "name": "Croscarmellose Sodium",
+        "category": "other",
+        "ingredientGroup": "Croscarmellose Sodium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 278748,
+        "name": "Ascorbyl Palmitate",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin C",
+        "uniiCode": "QN83US2B0N",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 280319,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [
+          "SiO2"
+        ],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 282710,
+        "name": "Dextrin",
+        "category": "sugar",
+        "ingredientGroup": "Dextrin",
+        "uniiCode": "2NX48Z0A9G",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 282674,
+        "name": "Dextrose",
+        "category": "sugar",
+        "ingredientGroup": "Glucose",
+        "uniiCode": "IY9XDZ35W2",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 43872,
+        "name": "Soy Lecithin",
+        "category": "fat",
+        "ingredientGroup": "lecithin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 9,
+        "ingredientId": 50351,
+        "name": "Sodium Citrate",
+        "category": "other",
+        "ingredientGroup": "Sodium Citrate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2012-12-21"
+}

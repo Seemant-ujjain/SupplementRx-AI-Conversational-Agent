@@ -1,0 +1,236 @@
+{
+  "src": "01-raw/2025-08-22/data/label_409.json",
+  "id": 5328,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Timed Release Iron",
+  "brandName": "Douglas Laboratories",
+  "brandIpSymbol": "®",
+  "upcSku": "3 10539 00915 4",
+  "productVersionCode": "Formula #7962",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "45",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 232304
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 9329
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 30584
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 302503
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2120,
+      "text": "Manufactured in the USA by:",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2120,
+        "name": "Douglas Laboratories",
+        "streetAddress": "600 Boyce Road",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "USA",
+        "zipCode": "15205",
+        "phoneNumber": null,
+        "email": null,
+        "webAddress": "www.douglaslabs.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Tablet(s)",
+      "display": "90 Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Tablet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1299",
+    "langualCodeDescription": "Mineral"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "A Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Usage: As a dietary supplement, adults take 2 tablets daily or as directed by your healthcare professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "In case of accidental overdose, call a doctor or poision control center immediately."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "KEEP THIS PRODUCT OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6."
+    },
+    {
+      "type": "Storage",
+      "notes": "For optimal storage conditions, store in a cool, dry place. (59(0) - 77(0)F/15(0) - 25(0)C) (35-65% relative humidity)"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "Formula #7962"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "In a base to provide prolonged activity over a 6 to 8 hour period. The release of iron will begin within 30 minutes of ingestion of the tablet and will take up to 8 hours."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "This product contains NO yeast, wheat gluten, soy protein, milk/dairy, corn, sodium, sugar, starch, artificial coloring, preservatives or flavoring."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Tamper resistant package, do not use if outer seal is missing."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2012-01-20",
+      "type": "Off Market"
+    },
+    {
+      "date": "2012-02-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 26987,
+      "description": null,
+      "notes": "Iron (Form: from Ferronyl(R) (as iron carbonyl)) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 54,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 300,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 26973,
+          "prefix": "from",
+          "percent": null,
+          "name": "Ferronyl",
+          "category": "mineral",
+          "ingredientGroup": "Iron",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 9747,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 17087,
+        "name": "Magnesium Stearate",
+        "category": "other",
+        "ingredientGroup": "Magnesium stearate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2012-02-23"
+}

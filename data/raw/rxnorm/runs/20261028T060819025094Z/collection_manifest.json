@@ -1,0 +1,119 @@
+{
+  "source": "RxNorm",
+  "saved_at_utc": "2026-10-28T06:08:19.265378+00:00",
+  "collection_file": "collection.json",
+  "bytes": 72476471,
+  "sha256": "61462e721fe7ce74fc594ba5c0750aa0700d2bad99db8658ee55b3f7932406cc",
+  "complete": true,
+  "report": {
+    "source_labels": 400,
+    "query_groups": 739,
+    "search_status": {
+      "matched": 313,
+      "not_found": 426
+    },
+    "match_methods": {
+      "exact": 282,
+      "normalized": 31
+    },
+    "ambiguous_queries": 31,
+    "unique_candidate_rxcuis": 287,
+    "complete_concepts": 287,
+    "incomplete_rxcuis": [],
+    "concept_term_types": {
+      "IN": 256,
+      "PIN": 30,
+      "MIN": 1
+    },
+    "property_entries_by_category": {
+      "ATTRIBUTES": 989,
+      "CODES": 177517,
+      "NAMES": 640,
+      "SOURCES": 1601
+    },
+    "source_version_stable": true,
+    "by_category": {
+      "Magnesium": {
+        "queries": 52,
+        "exact_matches": 34,
+        "normalized_matches": 0,
+        "no_match": 18,
+        "errors": 0,
+        "unique_candidate_rxcuis": 35
+      },
+      "Vitamin D": {
+        "queries": 58,
+        "exact_matches": 38,
+        "normalized_matches": 2,
+        "no_match": 18,
+        "errors": 0,
+        "unique_candidate_rxcuis": 38
+      },
+      "Ashwagandha": {
+        "queries": 40,
+        "exact_matches": 13,
+        "normalized_matches": 0,
+        "no_match": 27,
+        "errors": 0,
+        "unique_candidate_rxcuis": 12
+      },
+      "Melatonin": {
+        "queries": 12,
+        "exact_matches": 7,
+        "normalized_matches": 0,
+        "no_match": 5,
+        "errors": 0,
+        "unique_candidate_rxcuis": 7
+      },
+      "Omega-3": {
+        "queries": 92,
+        "exact_matches": 33,
+        "normalized_matches": 2,
+        "no_match": 57,
+        "errors": 0,
+        "unique_candidate_rxcuis": 31
+      },
+      "Vitamin B12": {
+        "queries": 72,
+        "exact_matches": 56,
+        "normalized_matches": 0,
+        "no_match": 16,
+        "errors": 0,
+        "unique_candidate_rxcuis": 68
+      },
+      "Iron": {
+        "queries": 157,
+        "exact_matches": 87,
+        "normalized_matches": 11,
+        "no_match": 59,
+        "errors": 0,
+        "unique_candidate_rxcuis": 96
+      },
+      "Turmeric": {
+        "queries": 69,
+        "exact_matches": 20,
+        "normalized_matches": 2,
+        "no_match": 47,
+        "errors": 0,
+        "unique_candidate_rxcuis": 17
+      },
+      "Probiotics": {
+        "queries": 260,
+        "exact_matches": 95,
+        "normalized_matches": 5,
+        "no_match": 160,
+        "errors": 0,
+        "unique_candidate_rxcuis": 92
+      },
+      "Creatine": {
+        "queries": 121,
+        "exact_matches": 48,
+        "normalized_matches": 9,
+        "no_match": 64,
+        "errors": 0,
+        "unique_candidate_rxcuis": 52
+      }
+    },
+    "payload_bytes_before_report": 39616030
+  }
+}

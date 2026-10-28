@@ -1,0 +1,642 @@
+{
+  "src": "01-raw/2025-09-25/data/label_442.json",
+  "id": 4735,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin B12-250",
+  "brandName": "ProCaps Laboratories",
+  "brandIpSymbol": "®",
+  "upcSku": "",
+  "productVersionCode": "602632 03.25.10 PC",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "360",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 179049
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 220792
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 248598
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 30248
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 331615
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 320298
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2298,
+      "text": "QUESTIONS? RE-ORDERS? CALL",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2298,
+        "name": "ProCaps(R)LABORATORIES",
+        "streetAddress": "430 Parkson Road",
+        "city": "Henderson",
+        "state": "NV",
+        "country": "",
+        "zipCode": "89011",
+        "phoneNumber": "800.800.1200",
+        "email": "",
+        "webAddress": "WWW.PROCAPSLABS.COM"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 360,
+      "unit": "Easy To Swallow Capsule(s)",
+      "display": "360 Easy To Swallow Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1315",
+    "langualCodeDescription": "Multi-Vitamin and Mineral (MVM)"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "SUGGESTED USE Consume one or more capsules daily or as recommended by a health care professional. For best results take this product with food, preferably a complete meal. This product is most effective when used in conjunction with one of Andrew Lessman’s Life Rx(TM) multi-vitamin-mineral formulas. For answers to questions about the use of this product call 800.800.1200."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "250 mcg Vitamin B12\nHigh Potency B-Complex"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Andrew Lessman’s VITAMIN B12-250 delivers 250 mcg of natural Vitamin B12, which is generally viewed as the most important of all the B-Complex vitamins to supplement. This importance stems from B12’s long list of critical functions and the fact that it is by far the most difficult of all vitamins to absorb. Vitamin B12 is essential for all energy production given its critical role in the creation of hemoglobin without which oxygen is not transported and no energy created. Vitamin B12’s role in energy production does not end there, since we also cannot metabolize carbohydrates or burn fat without Vitamin B12. Perhaps even more important is B12’s vital role in the synthesis of our genetic material and its requirement for normal cell growth and development. Vitamin B12 also supports heart health due to its ability to help metabolize homocysteine, and B12 is also essential to support healthy immune and nervous system function. Like all the B-Complex vitamins, B12 is easily depleted by stress, but its enormous molecular size makes it by far the most difficult of all vitamins to absorb. It is also well-established that stress, aging and digestive issues only further reduce Vitamin B12’s already poor absorption. Equally well-established are the failings of typical B12 supplements whose contents are easily destroyed by stomach acid. Our unique Vitamin B12 is protected from stomach acidity and its B12 is released in the small intestine where it can be absorbed. Given all the critical functions of Vitamin B12, along with its extremely poor absorption from food and ordinary supplements, we should all carefully consider a plan to intelligently supplement. Best of all, our Vitamin B12-250 is a pleasure to use, since it comes in a small, soft, easy-to-swallow capsule and is designed to be gentle even to the most sensitive stomachs."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "PROTECTED FOR OPTIMUM ABSORPTION"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "UNSURPASSED. Purity. Quality. Integrity. Effectiveness. Andrew Lessman Founder of ProCaps Labs"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "602632 03.25.10 PC"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "NO ADDITIVES."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "All-Solar Manufacturing"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "ProCaps(R)LABORATORIES"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "©2010 ProCaps Labs"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2012-01-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 279323,
+      "description": null,
+      "notes": "Vitamin C (Form: as Calcium Ascorbate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 90,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 150,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin C",
+      "uniiCode": "PQ6CK8PD0R",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 278826,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Ascorbate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "183E4W213W"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 279237,
+      "description": null,
+      "notes": "Vitamin B1 (Form: as Thiamin Hydrochloride) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 333,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B1",
+      "category": "vitamin",
+      "ingredientGroup": "Thiamin",
+      "uniiCode": "X66NSO3N35",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 279229,
+          "prefix": null,
+          "percent": null,
+          "name": "Thiamine Hydrochloride",
+          "category": "vitamin",
+          "ingredientGroup": "Thiamin",
+          "uniiCode": "M572600E5P"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 279467,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 294,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B2",
+      "category": "vitamin",
+      "ingredientGroup": "Riboflavin",
+      "uniiCode": "TLM2976OFR",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 279465,
+          "prefix": null,
+          "percent": null,
+          "name": "Riboflavin",
+          "category": "vitamin",
+          "ingredientGroup": "Riboflavin",
+          "uniiCode": "TLM2976OFR"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "ingredientId": 280746,
+      "description": null,
+      "notes": "Niacin (Form: as Niacinamide) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 25,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Niacin",
+      "category": "vitamin",
+      "ingredientGroup": "Niacin",
+      "uniiCode": "2679MF687A",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280445,
+          "prefix": null,
+          "percent": null,
+          "name": "Niacinamide",
+          "category": "vitamin",
+          "ingredientGroup": "Niacin",
+          "uniiCode": "25X51I8RD4"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "ingredientId": 280455,
+      "description": null,
+      "notes": "Vitamin B6 (Form: as Pyridoxine Hydrochloride) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 250,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B6",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B6",
+      "uniiCode": "KV2JZ1BI6Z",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280215,
+          "prefix": null,
+          "percent": null,
+          "name": "Pyridoxine Hydrochloride",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B6",
+          "uniiCode": "68Y4CF58BV"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "ingredientId": 279040,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 25,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 6,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Folic Acid",
+      "category": "vitamin",
+      "ingredientGroup": "Folate",
+      "uniiCode": "935E97BOY8",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 281279,
+      "description": null,
+      "notes": "Vitamin B12 (Form: as Cyanocobalamin Note: on ion exchange resin) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 250,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 4167,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280323,
+          "prefix": null,
+          "percent": null,
+          "name": "Cyanocobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "P6YC3EG204"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "ingredientId": 280218,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 50,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 17,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Biotin",
+      "category": "vitamin",
+      "ingredientGroup": "Biotin",
+      "uniiCode": "6SO6U10H04",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 9,
+      "ingredientId": 280941,
+      "description": null,
+      "notes": "Pantothenic Acid (Form: as Calcium Pantothenate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 50,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Pantothenic Acid",
+      "category": "vitamin",
+      "ingredientGroup": "Pantothenic Acid",
+      "uniiCode": "19F5HK2737",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280184,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Pantothenate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "568ET80C3D"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "ingredientId": 292875,
+      "description": null,
+      "notes": "Calcium (Form: as Calcium Carbonate, Calcium Ascorbate) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 10,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": "SY7Q814VUP",
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 278826,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Ascorbate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "183E4W213W"
+        },
+        {
+          "order": 2,
+          "ingredientId": 292621,
+          "prefix": null,
+          "percent": null,
+          "name": "Calcium Carbonate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "H0G9379FGK"
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "ingredientId": 22441,
+      "description": null,
+      "notes": "Magnesium (Form: as Magnesium Oxide) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 40,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 10,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 13625,
+          "prefix": "as",
+          "percent": null,
+          "name": "Magnesium Oxide",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 27345,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2012-01-25"
+}

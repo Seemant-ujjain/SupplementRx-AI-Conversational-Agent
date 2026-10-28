@@ -1,0 +1,299 @@
+{
+  "src": "01-raw/2025-07-24/data/label_369.json",
+  "id": 184837,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Vitamin D & Boron Complex",
+  "brandName": "Swanson Ultra",
+  "brandIpSymbol": "®",
+  "upcSku": "0 87614 02212 3",
+  "productVersionCode": "SWU212 Rev 0 09 28 17",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 160465
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15526,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15526,
+        "name": "Swanson Health Products",
+        "streetAddress": "",
+        "city": "Fargo",
+        "state": "ND",
+        "country": "USA",
+        "zipCode": "58104",
+        "phoneNumber": "1-800-437-4148",
+        "email": "",
+        "webAddress": "www.swansonvitamins.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1316",
+    "langualCodeDescription": "Single Vitamin and Mineral"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "The Most Advanced Nutrition Technology\nCapsules"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Vitamin D & Boron Complex"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Guaranteed purity & potency"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if seal is broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: As a dietary supplement, take one to two capsules per day with water."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "FutureCeuticals' Proprietary PhytoBoron compound FruiteX-B is the only natural form boron complex identical to naturally occurring boron complexes found in fruit, vegetables and nuts."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "SWU212 Rev 0 09 28 17"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "To reorder, call toll free 1-800-437-4148 or visit our website at www.swansonvitamins.com"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "FruiteX-B is a registered trademark of VDF\nFutureCeuticals, Inc., U.S. patent #5,962,049."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-12-05",
+      "type": "Off Market"
+    },
+    {
+      "date": "2019-04-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 280179,
+      "description": "",
+      "notes": "Vitamin D (Form: as Cholecalciferol) ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 50,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D",
+      "uniiCode": "9VU1KI44GP",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280176,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D",
+          "uniiCode": "1C6V77QF41"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 292539,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 6,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 207089,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 225,
+              "unit": "mg",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "FruiteX-B PhytoBoron",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Calcium Fructoborate",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Boron",
+      "category": "mineral",
+      "ingredientGroup": "Boron",
+      "uniiCode": "N9E3X5056Q",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3715,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 28393,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 35128,
+            "prefix": null,
+            "percent": null,
+            "name": "Plant Fiber",
+            "category": "fiber",
+            "ingredientGroup": "Fiber (unspecified)",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2019-04-25"
+}

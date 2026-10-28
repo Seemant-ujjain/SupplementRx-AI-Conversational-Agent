@@ -1,0 +1,528 @@
+{
+  "src": "01-raw/2025-01-23/data/label_317.json",
+  "id": 272254,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Probiotics",
+  "brandName": "Dr Tobias",
+  "brandIpSymbol": "™",
+  "upcSku": "8 42367 00122 7",
+  "productVersionCode": "66718",
+  "pdf": "272254_document.pdf",
+  "thumbnail": "272254_thumbnail.jpg",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 22811,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 22811,
+        "name": "Mimi's Rock",
+        "streetAddress": "",
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "CA",
+        "zipCode": "",
+        "phoneNumber": "877.959.5474",
+        "email": "support@drtobias.com",
+        "webAddress": "DrTobias.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 30,
+      "unit": "Delayed Release Capsule(s)",
+      "display": "30 Delayed Release Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Vegetable Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1309",
+    "langualCodeDescription": "Non-Nutrient/Non-Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested Use:\nTake 1 capsule daily, preferably with a meal, or as directed by a healthcare professional."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: \nDo not exceed recommended dose."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this product or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this product or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Sourced From FDA Registered & Inspected and GMP-certified facility."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "A Mimi's Rock Company"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Tested product Certified facility\nSourced from a GMP certified facility"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "30 billion\nSpore-forming strains patented DRcaps"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Spore-forming strains patented DRcaps"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Proven targeted release\nSupports normal proliferation of beneficial bacteria\nIdeal for post-antibiotic support"
+    },
+    {
+      "type": "Storage",
+      "notes": "No refrigeration needed"
+    },
+    {
+      "type": "Storage",
+      "notes": "This product may be kept refrigerated to maximize shelf-life and potency."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of the reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "DE111 is a registered trademark of Deerland Enzymes, Inc.\nDRcaps is a registered trademark of Capsugel."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "This formula contains no animal by-products."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "This formula contains no animal by-products."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Probiotics is made with patented technology (US Patent 2252631)."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-08-23",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 6338,
+      "description": "",
+      "notes": "30 Billion CFU Consisting of",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 120,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Vegetable Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 160138,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "DE111 (Bacillus subtillis)",
+          "category": "bacteria",
+          "ingredientGroup": "Bacillus Subtilis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 21552,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bacillus coagulans",
+          "category": "bacteria",
+          "ingredientGroup": "Bacillus Coagulans",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 226961,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus acidophillus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 111027,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium animalis lactis",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium animalis lactis",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 110238,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium longum",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium longum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 110237,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus rhamnosus",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus rhamnosus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 7474,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus salivarius",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus salivarius",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 9,
+          "ingredientId": 224218,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus casei",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus casei",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 10,
+          "ingredientId": 12712,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Bifidobacterium breve",
+          "category": "bacteria",
+          "ingredientGroup": "Bifidobacterium breve",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 11,
+          "ingredientId": 275532,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Vegetable Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus plantarum",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus plantarum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Probiotic Bacteria",
+      "category": "blend",
+      "ingredientGroup": "Blend (non-nutrient/non-botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 292646,
+        "name": "DRCaps Capsules",
+        "category": "other",
+        "ingredientGroup": "capsule",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 283045,
+            "prefix": null,
+            "percent": null,
+            "name": "Gellan Gum",
+            "category": "complex carbohydrate",
+            "ingredientGroup": "Gellan",
+            "uniiCode": "7593U09I4D"
+          },
+          {
+            "order": 2,
+            "ingredientId": 3777,
+            "prefix": null,
+            "percent": null,
+            "name": "purified Water",
+            "category": "other",
+            "ingredientGroup": "Water",
+            "uniiCode": null
+          },
+          {
+            "order": 3,
+            "ingredientId": 3810,
+            "prefix": null,
+            "percent": null,
+            "name": "Vegetable Cellulose",
+            "category": "fiber",
+            "ingredientGroup": "Cellulose",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "ingredientId": 160008,
+        "name": "low moisture Rice Dextrin",
+        "category": "sugar",
+        "ingredientGroup": "Dextrin (unspecified)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 46713,
+        "name": "Medium Chain Triglycerides",
+        "category": "fat",
+        "ingredientGroup": "Medium chain triglycerides (MCT)",
+        "uniiCode": null,
+        "alternateNames": [
+          "MCT"
+        ],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2022-08-23"
+}

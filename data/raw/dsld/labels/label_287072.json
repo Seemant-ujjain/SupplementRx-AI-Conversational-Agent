@@ -1,0 +1,319 @@
+{
+  "src": "01-raw/2025-08-22/data/label_420.json",
+  "id": 287072,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Turmeric Curcuminoids Complex C3",
+  "brandName": "HerbTonics",
+  "brandIpSymbol": "®",
+  "upcSku": "X001SORLEB",
+  "productVersionCode": "Not Present",
+  "pdf": "287072_document.pdf",
+  "thumbnail": "287072_thumbnail.jpg",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 22063,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_4.json",
+        "id": 22063,
+        "name": "Herbtonics",
+        "streetAddress": "",
+        "city": "Twinsburg",
+        "state": "OH",
+        "country": "",
+        "zipCode": "44087",
+        "phoneNumber": "1-800-706-2790",
+        "email": "info@herbtonics.com",
+        "webAddress": "www.herbtonics.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 120,
+      "unit": "Vegetarian Capsule(s)",
+      "display": "120 Vegetarian Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Other",
+      "notes": "100% natural"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non-GMO"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: As a dietary supplement, take two (2) capsules once daily or as directed by a healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed recommended dose."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\r\nKeep out of reach of children."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Bioperine is a registered trademark of Sabinsa Corporation."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "FDA Registered Facility\r\nGMP Good Manufacturing Practices\r\nMade in USA with global ingredients"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free \r\nDairy free"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Turmeric Curcuminoids Complex C3 with 450 mg of 95% curcuminoids"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "3rd Party Lab Tested"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Joint support\r\nImmune system support"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement "
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "HerbTonics\r\nFor a healthier you!"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No fillers\r\nNo additives"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No artificial colors or flavors, chemical preservatives, dairy, soy or gluten."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-07-18",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 323409,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1050,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 75402,
+          "prefix": null,
+          "percent": null,
+          "name": "Curcuma longa",
+          "category": "botanical",
+          "ingredientGroup": "Turmeric",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 306526,
+      "description": "",
+      "notes": "Organic Turmeric Extract, Std. to 95% Curcuminoids",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 450,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Turmeric Extract",
+      "category": "botanical",
+      "ingredientGroup": "Turmeric",
+      "uniiCode": "856YO1Z64F",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298144,
+          "prefix": null,
+          "percent": null,
+          "name": "Curcuminoids",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Curcuminoids",
+          "uniiCode": "R7T2XCO5ZU"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 322937,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 15,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "BioPerine",
+      "category": "botanical",
+      "ingredientGroup": "Black Pepper",
+      "uniiCode": "KM66971LVF",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298530,
+          "prefix": null,
+          "percent": null,
+          "name": "Black Pepper Fruit Extract",
+          "category": "botanical",
+          "ingredientGroup": "Black Pepper",
+          "uniiCode": "KM66971LVF"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 7502,
+        "name": "Methylcellulose",
+        "category": "other",
+        "ingredientGroup": "Methyl cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2023-07-18"
+}

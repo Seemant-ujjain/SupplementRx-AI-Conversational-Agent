@@ -1,0 +1,414 @@
+{
+  "src": "01-raw/2025-09-25/data/label_40.json",
+  "id": 207207,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Ashwagandha",
+  "brandName": "Himalaya",
+  "brandIpSymbol": "®",
+  "upcSku": "6 05069 06043 1",
+  "productVersionCode": "HUS-5036733",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 25775
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 40304
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 40487
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 80197
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 240622
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 240614
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282967
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282968
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282964
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282966
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 282967
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 282969
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 6732,
+      "text": "Manufactured by",
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 6732,
+        "name": "The Himalaya Drug Company",
+        "streetAddress": "",
+        "city": "Makali",
+        "state": "Bangalore",
+        "country": "India",
+        "zipCode": "562 162",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 9728,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9728,
+        "name": "The Himalaya Drug Company",
+        "streetAddress": "1101 Gillingham Lane",
+        "city": "Sugar Land",
+        "state": "Texas",
+        "country": "",
+        "zipCode": "77478",
+        "phoneNumber": "1-800-869-4640",
+        "email": "",
+        "webAddress": "www.himalayausa.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Caplet(s)",
+      "display": "90 Caplet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0172",
+    "langualCodeDescription": "Other (e.g. tea bag)"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Caplet(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Organic",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Our cartons are made from 100% recycled fibers, including 40% post-consumer material. Our glass bottles contain at least 48% recycled content."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Ashwagandha translates to scent of a horse, alluding to the power and strength it bestows. It was considered chief among the rasayana or rejuvenative herbs now called adaptogens."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Often referred to as indian ginseng, Ashwagandha is noted for its ability to fortify adrenal function, energy and stress levels and is not a cardiac stimulant."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Featured Herb on Front: Ashwagandha (aerial parts)"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "cGMP"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan friendly"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No Wheat \nNo Corn \nNo Soy \nNo Dairy"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No ingredients of animal origin"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Happiness through wellness\nCrafting traditional medicines based on Ayurveda, a 5,000 year old science that believes the journey back to wholeness begins with nurturing the capacity for joy.\t\nTrusting the gifts of nature and the irreplaceable relationship between the plant and its native soil for consistent healing properties.\nContributing to the wellness of the earth by teaching our family of farmers to grow native plants sustainably on their land and reduce the demand on the local environment.\nBuilding communities by advocating women in farming, protecting fair prices, providing maternal health, sponsoring clinical services and offering school wellness programs.\t\nBelieving that if wellness is the path to happiness, we must contribute to the wellness of all things. Wellness of people, wellness of the environment, wellness of our communities.\nFamily owned for more than 85 years"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Since 1930"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Releases stress & boosts energy\nRejuvenates adrenal function"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non GMO"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Non GMO Project Verified\nNongmoproject.org\nUSDA Organic"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Herbal Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Recommended Use: Adults take 1 caplet per day before food."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "3 month supply"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Mfg. Lic. No. AUS-83"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "India Organic"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Product of India"
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Certified Organic by Control Union Certifications Control Union 835047"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Control Union Certified"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "NPOP/NAB/0010"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: As with any supplement, consult a healthcare practitioner before use if you are pregnant, nursing, taking medication, have a medical condition or are planning any medical procedure."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Discontinue use and consult a healthcare practitioner if any adverse reactions occur."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-04-07",
+      "type": "Off Market"
+    },
+    {
+      "date": "2019-09-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 172738,
+      "description": null,
+      "notes": "organic Ashwagandha powder (Form: 0.2% Withanolides Note: 0.76 mg) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 380,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Caplet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic Ashwagandha powder",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 87269,
+          "prefix": null,
+          "percent": 0.2,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 172739,
+      "description": null,
+      "notes": "organic Ashwagandha extract (Form: 0.5% Withanolides Note: 1.4 mg) PlantPart: root ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 280,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Caplet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic Ashwagandha extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 87267,
+          "prefix": null,
+          "percent": 0.5,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "ingredientId": 172740,
+      "description": null,
+      "notes": "organic Ashwagandha supercritical CO2 extract (Form: 8% Withanolides Note: 0.8 mg) PlantPart: root Genus: Withania Species: somnifera ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Caplet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "organic Ashwagandha supercritical CO2 extract",
+      "category": "botanical",
+      "ingredientGroup": "Ashwagandha",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 87264,
+          "prefix": null,
+          "percent": 8,
+          "name": "Withanolides",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Withanolide",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": null
+  },
+  "offMarket": 1,
+  "entryDate": "2019-09-24"
+}
