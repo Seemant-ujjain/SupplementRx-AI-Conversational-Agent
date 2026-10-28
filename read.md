@@ -18,7 +18,7 @@ Ten supplement search categories
             ├── RxNorm candidate concepts
             └── MeSH candidate records and RDF statements
 
-NatMed Pro and Reddit exports — imported separately from ARYN26/CSE573
+NatMed Pro and Reddit exports — imported separately
 ```
 
 The DSLD collection contains 40 labels per search category, totaling 400 unique labels. Recursive ingredient discovery produces 753 distinct names, grouped into 739 queries by case and whitespace to avoid repeated requests. All original names and their source occurrences are retained.
@@ -64,14 +64,14 @@ The query inventory includes co-ingredients in the selected products, not only t
 └── merged_supplements.csv
 ```
 
-`merged_supplements.csv` is an old file and is excluded from the current work. The small UMLS files are sample material and are not inputs to the current terminology collectors. The original two PubChem compound files outside `runs/` belong to the earlier pilot.
+
 
 ## Notebooks
 
 | Notebook | Purpose |
 |---|---|
 | [DSLD collection](notebooks/DSLD_Data_collection.ipynb) | Search the ten categories and download complete label JSON and collection metadata. |
-| [DSLD exploration](notebooks/DSLD_Data_exploration.ipynb) | Existing exploratory notebook. |
+| [DSLD exploration](notebooks/DSLD_Data_exploration.ipynb) | exploratory notebook. |
 | [PubChem collection](notebooks/PubChem_Data_Collection.ipynb) | Search ingredient names and collect chemical properties, structures, identifiers, and synonyms. |
 | [RxNorm collection](notebooks/RxNorm_Data_Collection.ipynb) | Search exact names, then normalized names on no match; collect names, term types, attributes, and source codes. |
 | [MeSH collection](notebooks/MeSH_Data_Collection.ipynb) | Search exact entry terms and collect linked descriptors, supplementary records, concepts, terms, and RDF statements. |
@@ -80,27 +80,37 @@ Each terminology notebook builds its inventory directly from DSLD. None requires
 
 ## Saved collection snapshot
 
-The following figures describe the saved runs dated October 28, 2026 UTC. Sizes refer to the formatted `collection.json` files, excluding manifests and notebook outputs.
+The following figures describe the local collections and imports saved on October 28, 2026 UTC. NatMed Pro and Reddit were collected upstream on October 27. Sizes refer to each source's main data file: `collection.json` for DSLD and the terminology sources, or `records.jsonl` for NatMed Pro and Reddit. They exclude manifests, individual DSLD label copies, archived originals, and upstream-derived passages and graphs.
 
-| Source | Queries with candidates | No-match queries | Unique downloaded records | Saved size |
+| Source | Queries with candidates | No-match queries | Collected records | Main data file size |
 |---|---:|---:|---:|---:|
+| DSLD | Not applicable | Not applicable | 400 product labels | 6.94 MiB |
 | PubChem | 228 / 739 | 511 | 239 compounds | 9.01 MiB |
 | RxNorm | 313 / 739 | 426 | 287 concepts | 69.12 MiB |
 | MeSH | 270 / 739 | 469 | 247 records | 36.45 MiB |
+| NatMed Pro | Not applicable | Not applicable | 10 monographs | 2.21 MiB |
+| Reddit | Not applicable | Not applicable | 4,880 records: 287 posts and 4,593 comments | 5.79 MiB |
 
-All three runs completed without failed requests. Their manifests report completeness for the selected collection policy, not comprehensive coverage of supplements or clinical evidence. Different sources and search policies make these counts unsuitable as direct measures of source quality.
+The three terminology runs completed without failed requests. Their manifests report completeness for the selected collection policy, not comprehensive coverage of supplements or clinical evidence. NatMed Pro and Reddit were imported from verified upstream archives rather than queried through those terminology APIs. Different sources and search policies make these counts unsuitable as direct measures of source quality.
 
 - **PubChem:** 46,426 synonym entries; seven queries returned multiple candidate CIDs. Three compounds lack an IUPAC name, although property and synonym responses were retrieved for all 239 compounds.
 - **RxNorm:** 282 exact-match queries and 31 normalized-match queries. The 287 concepts comprise 256 ingredients (`IN`), 30 precise ingredients (`PIN`), and one multiple-ingredient concept (`MIN`). Separately, 31 queries returned multiple candidates. Most saved property entries are source-code references. The API reported release `05-Oct-2026` throughout the run.
 - **MeSH:** 195 topical descriptors, 49 supplementary chemical records, and three supplementary organism records. The collection contains 24,792 unique RDF statements across 2,360 resources, including scope notes on 206 concepts. Six queries link to multiple records. There were no unresolved matched terms, incomplete record batches, or lookup-limit warnings. MeSH uses a current endpoint; available-year metadata is not a fixed-release checksum.
+- **NatMed Pro:** 10 monographs and 467 upstream-generated passages. The supplied graph has 20 nodes and 10 `MENTIONS` edges. Capture-quality and clinical-review flags are preserved; these are imported reference records, not approved medical claims.
+- **Reddit:** 287 posts and 4,593 comments, with 5,071 upstream-generated passages. The supplied graph has 4,890 nodes and 7,982 `MENTIONS` edges. Records remain labeled as user reports, not clinical evidence.
 
-### Collection manifests
+### Collections and manifests
 
-- [Combined DSLD collection](data/raw/dsld/collection.json) and [individual label files](data/raw/dsld/labels/)
-- [DSLD manifest](data/raw/dsld/collection_manifest.json)
-- [PubChem run manifest](data/raw/pubchem/runs/20261028T035149634190Z/collection_manifest.json)
-- [RxNorm run manifest](data/raw/rxnorm/runs/20261028T060819025094Z/collection_manifest.json)
-- [MeSH run manifest](data/raw/mesh/runs/20261028T062833838481Z/collection_manifest.json)
+| Source | Main collection | Manifest |
+|---|---|---|
+| DSLD | [collection.json](data/raw/dsld/collection.json) · [Individual labels](data/raw/dsld/labels/) | [Collection manifest](data/raw/dsld/collection_manifest.json) |
+| PubChem | [collection.json](data/raw/pubchem/runs/20261028T035149634190Z/collection.json) | [Run manifest](data/raw/pubchem/runs/20261028T035149634190Z/collection_manifest.json) |
+| RxNorm | [collection.json](data/raw/rxnorm/runs/20261028T060819025094Z/collection.json) | [Run manifest](data/raw/rxnorm/runs/20261028T060819025094Z/collection_manifest.json) |
+| MeSH | [collection.json](data/raw/mesh/runs/20261028T062833838481Z/collection.json) | [Run manifest](data/raw/mesh/runs/20261028T062833838481Z/collection_manifest.json) |
+| NatMed Pro | [records.jsonl](data/raw/natmedpro/records.jsonl) | [Collection manifest](data/raw/natmedpro/collection_manifest.json) |
+| Reddit | [records.jsonl](data/raw/reddit/records.jsonl) | [Collection manifest](data/raw/reddit/collection_manifest.json) |
+
+NatMed Pro and Reddit use JSONL: each line is one complete source record. Their manifests include upstream repository and commit provenance, record counts, and file hashes. Supplied passages and graph files are kept separately in each source's `upstream_derived/` folder; the detailed source sections below link to those folders.
 
 Each terminology run contains:
 
@@ -123,11 +133,9 @@ MeSH record data is stored as raw SPARQL JSON bindings, preserving source litera
 
 Candidate matches are raw collection results, not approved equivalences. In particular, RxNorm normalized searches can return different salt or chemical forms. No-match results are distinct from request failures and do not establish that an ingredient is absent from a source under every possible search strategy.
 
-DSLD supplies label information; the three terminology sources supply identifiers, names, properties, and source relationships. These collections do not by themselves establish effectiveness, recommended dosage, or safety. NatMed Pro and Reddit exports have now been imported from a teammate's repository as described below; cross-source integration remains pending.
+DSLD supplies label information; the three terminology sources supply identifiers, names, properties, and source relationships. These collections do not by themselves establish effectiveness, recommended dosage, or safety.
 
 After all planned data has been collected, the next phase can review candidate identities, handle unresolved terms, normalize the schema, and prepare evidence and graph inputs. Those preprocessing tasks have not been performed in the current collection workflow.
-
-The [proposal](Proposal.pdf) describes the broader planned agent, retrieval, knowledge-graph, and evaluation work; those plans should not be read as already implemented features.
 
 ## Imported NatMed Pro and Reddit datasets
 
@@ -155,13 +163,8 @@ The upstream documentation describes a bounded sample from r/Supplements and r/h
 
 The [original import snapshot](data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7/) preserves every file from `datasets/`, including compressed source records, passages, sample records, the shared graph, coverage reports, and the SQLite snapshot. Repository documentation is also preserved. All eight archives and their decompressed payloads passed the upstream manifest's byte-size and SHA-256 checks before import.
 
-Each source's `upstream_derived/` directory contains an unchanged subset of the supplied passages and graph. Shared supplement nodes are copied into both source graphs where referenced, so each subset has complete edge endpoints. The supplied graph represents source/topic mentions, not validated medical relationships or our final knowledge graph.
+Each source's `upstream_derived/` directory contains an unchanged subset of the supplied passages and graph. 
 
-The [import script](scripts/import_cse573_datasets.py) verifies hashes and source partitioning without executing upstream code. It refuses to overwrite existing destinations:
-
-```bash
-python3 scripts/import_cse573_datasets.py /path/to/CSE573
-```
 
 ## Source documentation
 
