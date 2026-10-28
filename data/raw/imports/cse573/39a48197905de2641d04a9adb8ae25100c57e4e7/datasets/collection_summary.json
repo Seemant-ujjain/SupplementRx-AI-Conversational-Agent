@@ -1,0 +1,32 @@
+{
+  "status": "prototype_collection_complete",
+  "completed_at": "2026-10-27T12:56:39.978623+00:00",
+  "record_counts": {
+    "natmed": 10,
+    "reddit": 4880
+  },
+  "total_records": 4890,
+  "rag_passages": 5538,
+  "natmed_source_titles_by_topic": {
+    "Ashwagandha": "Ashwagandha",
+    "Vitamin B12": "Vitamin B12",
+    "Turmeric": "Turmeric",
+    "Creatine": "Creatine",
+    "Melatonin": "Melatonin",
+    "Magnesium": "Magnesium",
+    "Probiotics": "Lactobacillus acidophilus",
+    "Vitamin D": "Vitamin D",
+    "Omega-3": "Fish Oil",
+    "Iron": "Iron"
+  },
+  "reddit_record_types": {
+    "comment": 4593,
+    "post": 287
+  },
+  "scope_notes": [
+    "Bounded Reddit search sample; not a complete historical archive.",
+    "Omega-3 is represented by Fish Oil.",
+    "Probiotics is represented by Lactobacillus acidophilus; evidence is not generalized to other organisms or strains.",
+    "Clinical section presence and citations were checked; medical claim validation and UMLS mapping are later stages."
+  ]
+}

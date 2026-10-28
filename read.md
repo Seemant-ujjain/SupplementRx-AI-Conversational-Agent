@@ -18,7 +18,7 @@ Ten supplement search categories
             ├── RxNorm candidate concepts
             └── MeSH candidate records and RDF statements
 
-NatMed Pro evidence data — being collected separately by a teammate
+NatMed Pro and Reddit exports — imported separately from ARYN26/CSE573
 ```
 
 The DSLD collection contains 40 labels per search category, totaling 400 unique labels. Recursive ingredient discovery produces 753 distinct names, grouped into 739 queries by case and whitespace to avoid repeated requests. All original names and their source occurrences are retained.
@@ -49,7 +49,17 @@ The query inventory includes co-ingredients in the selected products, not only t
 │   │   └── runs/<UTC timestamp>/
 │   ├── mesh/
 │   │   └── runs/<UTC timestamp>/
+│   ├── natmedpro/
+│   │   ├── records.jsonl
+│   │   ├── collection_manifest.json
+│   │   └── upstream_derived/
+│   ├── reddit/
+│   │   ├── records.jsonl
+│   │   ├── collection_manifest.json
+│   │   └── upstream_derived/
+│   ├── imports/cse573/<source commit>/
 │   └── umls/
+├── scripts/import_cse573_datasets.py
 ├── supplementsrx_env/
 └── merged_supplements.csv
 ```
@@ -113,11 +123,45 @@ MeSH record data is stored as raw SPARQL JSON bindings, preserving source litera
 
 Candidate matches are raw collection results, not approved equivalences. In particular, RxNorm normalized searches can return different salt or chemical forms. No-match results are distinct from request failures and do not establish that an ingredient is absent from a source under every possible search strategy.
 
-DSLD supplies label information; the three terminology sources supply identifiers, names, properties, and source relationships. These collections do not by themselves establish effectiveness, recommended dosage, or safety. NatMed Pro data is being collected separately by a teammate and has not yet been supplied for integration.
+DSLD supplies label information; the three terminology sources supply identifiers, names, properties, and source relationships. These collections do not by themselves establish effectiveness, recommended dosage, or safety. NatMed Pro and Reddit exports have now been imported from a teammate's repository as described below; cross-source integration remains pending.
 
 After all planned data has been collected, the next phase can review candidate identities, handle unresolved terms, normalize the schema, and prepare evidence and graph inputs. Those preprocessing tasks have not been performed in the current collection workflow.
 
 The [proposal](Proposal.pdf) describes the broader planned agent, retrieval, knowledge-graph, and evaluation work; those plans should not be read as already implemented features.
+
+## Imported NatMed Pro and Reddit datasets
+
+Source: [ARYN26/CSE573](https://github.com/ARYN26/CSE573), commit `39a48197905de2641d04a9adb8ae25100c57e4e7`, imported from its `datasets/` directory. Exact import timestamps, file sizes, and SHA-256 checksums are recorded in the local manifests.
+
+The upstream repository combines both sources in compressed exports. Local import separates records using the existing `source` field, preserving each JSONL line byte-for-byte. These are **already normalized upstream exports**, not original browser captures. No additional text cleaning, entity resolution, or clinical relationship extraction was performed during import.
+
+### NatMed Pro
+
+- [Source records](data/raw/natmedpro/records.jsonl): **10 monographs** across the ten project topics.
+- [Manifest](data/raw/natmedpro/collection_manifest.json): origin, counts, integrity hashes, and import details.
+- [Upstream-derived files](data/raw/natmedpro/upstream_derived/): **467 passages**, **20 graph nodes**, and **10 `MENTIONS` edges**, supplied by the teammate.
+
+The Omega-3 monograph is **Fish Oil**; the Probiotics monograph is **Lactobacillus acidophilus**. Their evidence must retain those source limits. The upstream specification flags expandable-content markers and incomplete bibliography capture in all ten monographs; source comparison and clinical review remain pending. The source repository identifies NatMed material as licensed content to keep private.
+
+### Reddit
+
+- [Source records](data/raw/reddit/records.jsonl): **4,880 records**, comprising **287 posts** and **4,593 comments**.
+- [Manifest](data/raw/reddit/collection_manifest.json): origin, counts, integrity hashes, and import details.
+- [Upstream-derived files](data/raw/reddit/upstream_derived/): **5,071 passages**, **4,890 graph nodes**, and **7,982 `MENTIONS` edges**, supplied by the teammate.
+
+The upstream documentation describes a bounded sample from r/Supplements and r/herbalism. Reddit records retain their `user_report` evidence role and available thread/parent context. They are not clinical evidence.
+
+### Preserved upstream artifacts
+
+The [original import snapshot](data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7/) preserves every file from `datasets/`, including compressed source records, passages, sample records, the shared graph, coverage reports, and the SQLite snapshot. Repository documentation is also preserved. All eight archives and their decompressed payloads passed the upstream manifest's byte-size and SHA-256 checks before import.
+
+Each source's `upstream_derived/` directory contains an unchanged subset of the supplied passages and graph. Shared supplement nodes are copied into both source graphs where referenced, so each subset has complete edge endpoints. The supplied graph represents source/topic mentions, not validated medical relationships or our final knowledge graph.
+
+The [import script](scripts/import_cse573_datasets.py) verifies hashes and source partitioning without executing upstream code. It refuses to overwrite existing destinations:
+
+```bash
+python3 scripts/import_cse573_datasets.py /path/to/CSE573
+```
 
 ## Source documentation
 

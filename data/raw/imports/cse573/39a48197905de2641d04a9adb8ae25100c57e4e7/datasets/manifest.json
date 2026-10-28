@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "records": 4890,
+  "rag_passages": 5538,
+  "files": [
+    {
+      "archive": "records.jsonl.gz",
+      "restore_to": "exports/records.jsonl",
+      "bytes": 8390961,
+      "sha256": "b09f2b4c20db7d07ef63d1029fa3526160dcf07e36775705e02b0e178e96ee10",
+      "archive_bytes": 1536197,
+      "archive_sha256": "ebdf4026b1cbe6022819d9d15beadf69dd310f1a586d6916437b07be97c6179b"
+    },
+    {
+      "archive": "passages.jsonl.gz",
+      "restore_to": "exports/passages.jsonl",
+      "bytes": 56254940,
+      "sha256": "f7e0e6f0ddab4f1d2903c96f96c19b3f072162972a8990a3130f36c03840b140",
+      "archive_bytes": 3920939,
+      "archive_sha256": "3de070571f21908891e02f7a4db5117ec3d224a87eb4342a5f0e3892722b5ae8"
+    },
+    {
+      "archive": "kg_nodes.jsonl.gz",
+      "restore_to": "exports/kg_nodes.jsonl",
+      "bytes": 1078267,
+      "sha256": "90aae21455e15470facdb2e8f698e0a6d9b2aa9bbee4c8f9f2d75ac4fd09a26e",
+      "archive_bytes": 85846,
+      "archive_sha256": "48eb1c8c0b813d57d705ed1060035c28d0677101f148d6cb599854a052a7f50c"
+    },
+    {
+      "archive": "kg_edges.jsonl.gz",
+      "restore_to": "exports/kg_edges.jsonl",
+      "bytes": 752596,
+      "sha256": "1dfaee0aeb0c85e5944dee210b176cf4919a5cc7c84b7aba9085cc98149acb1a",
+      "archive_bytes": 47338,
+      "archive_sha256": "1d6cbb897d9f63573c0d669bcaf6e46ee522052cc5da3e7acd1d1a10f6d97cbf"
+    },
+    {
+      "archive": "sample_records.json.gz",
+      "restore_to": "exports/sample_records.json",
+      "bytes": 284132,
+      "sha256": "f9768d53d8f1f19de2ee29f413fe82a12b7b0841c56683cc87e8b9ecd42ce5bd",
+      "archive_bytes": 53315,
+      "archive_sha256": "d313071df421d6defcb7da1a2a9d5dc636bb4a3c1d684b2bd75a6191ee6d8e21"
+    },
+    {
+      "archive": "coverage.json.gz",
+      "restore_to": "exports/coverage.json",
+      "bytes": 1145,
+      "sha256": "32d0dd3f0f962ba2e28db041c02f031b7f432dcfa84c87f259d3a5c9b9d99826",
+      "archive_bytes": 479,
+      "archive_sha256": "aa23e92071a52b9fbc2239c63c7f0275206614b4778464093b1295e7771302ff"
+    },
+    {
+      "archive": "collection_summary.json.gz",
+      "restore_to": "data/collection_summary.json",
+      "bytes": 1013,
+      "sha256": "7439de6347ab83bbd662d533a593e94f22331ac7ca211909044d9aef9bd0efc1",
+      "archive_bytes": 537,
+      "archive_sha256": "dd11d2f248a4b121d10e888a9293a3e80055792730f16a3fa5932d57596d267b"
+    },
+    {
+      "archive": "pipeline.sqlite3.gz",
+      "restore_to": "data/pipeline.sqlite3",
+      "bytes": 10252288,
+      "sha256": "9c99391884f9d1ad8253911f5b4d9a3a1596733683c421144328c641fa316bd8",
+      "archive_bytes": 1796675,
+      "archive_sha256": "31ad02dd9acfc8abdab601e790c2aa505deabb89e79d9a7d02d418d505222f70"
+    }
+  ]
+}

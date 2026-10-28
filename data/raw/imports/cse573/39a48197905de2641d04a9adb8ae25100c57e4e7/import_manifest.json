@@ -1,0 +1,69 @@
+{
+  "source_repository": "https://github.com/ARYN26/CSE573.git",
+  "source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "imported_at_utc": "2026-10-28T07:01:27.651968+00:00",
+  "upstream_archives_verified": 8,
+  "preserved_files": {
+    "PROJECT_CONTEXT.md": {
+      "bytes": 24114,
+      "sha256": "11712b88e2af11077edb10fc7294f0cf39b3225e5584d68b68aeffc73eff9c97"
+    },
+    "DATASET_SPEC.md": {
+      "bytes": 6912,
+      "sha256": "934095045ca551325c9c747d96b87a07a37fdd73658fb38899f359f76ff9ef3f"
+    },
+    "README.md": {
+      "bytes": 15368,
+      "sha256": "8feb3a779cac3ab4f7e2e843716d01e283d0895c884c0de14ef9cd7e0d733ecd"
+    },
+    "datasets/coverage.json.gz": {
+      "bytes": 479,
+      "sha256": "aa23e92071a52b9fbc2239c63c7f0275206614b4778464093b1295e7771302ff"
+    },
+    "datasets/pipeline.sqlite3.gz": {
+      "bytes": 1796675,
+      "sha256": "31ad02dd9acfc8abdab601e790c2aa505deabb89e79d9a7d02d418d505222f70"
+    },
+    "datasets/sample_records.json.gz": {
+      "bytes": 53315,
+      "sha256": "d313071df421d6defcb7da1a2a9d5dc636bb4a3c1d684b2bd75a6191ee6d8e21"
+    },
+    "datasets/passages.jsonl.gz": {
+      "bytes": 3920939,
+      "sha256": "3de070571f21908891e02f7a4db5117ec3d224a87eb4342a5f0e3892722b5ae8"
+    },
+    "datasets/README.md": {
+      "bytes": 1965,
+      "sha256": "1ba976e457c1a2c1bca319e022e0df2cf1cb3d5a609315c98b94120fbd81aa8c"
+    },
+    "datasets/collection_summary.json.gz": {
+      "bytes": 537,
+      "sha256": "dd11d2f248a4b121d10e888a9293a3e80055792730f16a3fa5932d57596d267b"
+    },
+    "datasets/manifest.json": {
+      "bytes": 2716,
+      "sha256": "7afed70b4bc59e902040afedaed19d313a43e102c890473f9785b426f78003b1"
+    },
+    "datasets/kg_nodes.jsonl.gz": {
+      "bytes": 85846,
+      "sha256": "48eb1c8c0b813d57d705ed1060035c28d0677101f148d6cb599854a052a7f50c"
+    },
+    "datasets/coverage.json": {
+      "bytes": 1145,
+      "sha256": "32d0dd3f0f962ba2e28db041c02f031b7f432dcfa84c87f259d3a5c9b9d99826"
+    },
+    "datasets/kg_edges.jsonl.gz": {
+      "bytes": 47338,
+      "sha256": "1d6cbb897d9f63573c0d669bcaf6e46ee522052cc5da3e7acd1d1a10f6d97cbf"
+    },
+    "datasets/collection_summary.json": {
+      "bytes": 1013,
+      "sha256": "7439de6347ab83bbd662d533a593e94f22331ac7ca211909044d9aef9bd0efc1"
+    },
+    "datasets/records.jsonl.gz": {
+      "bytes": 1536197,
+      "sha256": "ebdf4026b1cbe6022819d9d15beadf69dd310f1a586d6916437b07be97c6179b"
+    }
+  },
+  "operation": "Archive preservation and source-based partition only; no additional content preprocessing."
+}
