@@ -80,7 +80,7 @@ Each terminology notebook builds its inventory directly from DSLD. None requires
 
 ## Saved collection snapshot
 
-The following figures describe the local collections and imports saved on October 28, 2026 UTC. NatMed Pro and Reddit were collected upstream on October 27. Sizes refer to each source's main data file: `collection.json` for DSLD and the terminology sources, or `records.jsonl` for NatMed Pro and Reddit. They exclude manifests, individual DSLD label copies, archived originals, and upstream-derived passages and graphs.
+The following figures describe the current local collections. The original collections were saved on October 28, 2026 UTC; the NatMed Pro and Reddit imports were refreshed on November 9, 2026. Reddit source records remain from October 27, while NatMed monographs were recaptured upstream on October 28. Sizes refer to each source's main data file: `collection.json` for DSLD and the terminology sources, or `records.jsonl` for NatMed Pro and Reddit. They exclude manifests, individual DSLD label copies, archived originals, and upstream-derived passages and graphs.
 
 | Source | Queries with candidates | No-match queries | Collected records | Main data file size |
 |---|---:|---:|---:|---:|
@@ -88,7 +88,7 @@ The following figures describe the local collections and imports saved on Octobe
 | PubChem | 228 / 739 | 511 | 239 compounds | 9.01 MiB |
 | RxNorm | 313 / 739 | 426 | 287 concepts | 69.12 MiB |
 | MeSH | 270 / 739 | 469 | 247 records | 36.45 MiB |
-| NatMed Pro | Not applicable | Not applicable | 10 monographs | 2.21 MiB |
+| NatMed Pro | Not applicable | Not applicable | 10 recaptured monographs | 6.20 MiB |
 | Reddit | Not applicable | Not applicable | 4,880 records: 287 posts and 4,593 comments | 5.79 MiB |
 
 The three terminology runs completed without failed requests. Their manifests report completeness for the selected collection policy, not comprehensive coverage of supplements or clinical evidence. NatMed Pro and Reddit were imported from verified upstream archives rather than queried through those terminology APIs. Different sources and search policies make these counts unsuitable as direct measures of source quality.
@@ -96,7 +96,7 @@ The three terminology runs completed without failed requests. Their manifests re
 - **PubChem:** 46,426 synonym entries; seven queries returned multiple candidate CIDs. Three compounds lack an IUPAC name, although property and synonym responses were retrieved for all 239 compounds.
 - **RxNorm:** 282 exact-match queries and 31 normalized-match queries. The 287 concepts comprise 256 ingredients (`IN`), 30 precise ingredients (`PIN`), and one multiple-ingredient concept (`MIN`). Separately, 31 queries returned multiple candidates. Most saved property entries are source-code references. The API reported release `05-Oct-2026` throughout the run.
 - **MeSH:** 195 topical descriptors, 49 supplementary chemical records, and three supplementary organism records. The collection contains 24,792 unique RDF statements across 2,360 resources, including scope notes on 206 concepts. Six queries link to multiple records. There were no unresolved matched terms, incomplete record batches, or lookup-limit warnings. MeSH uses a current endpoint; available-year metadata is not a fixed-release checksum.
-- **NatMed Pro:** 10 monographs and 467 upstream-generated passages. The supplied graph has 20 nodes and 10 `MENTIONS` edges. Capture-quality and clinical-review flags are preserved; these are imported reference records, not approved medical claims.
+- **NatMed Pro:** 10 recaptured monographs and 1,179 upstream-generated passages, plus captured bibliographies and HTML. The supplied graph remains at 20 nodes and 10 `MENTIONS` edges. An additional 1,269 clinical annotations are stored separately with pending status; none is approved. Capture-quality and clinical-review flags are preserved.
 - **Reddit:** 287 posts and 4,593 comments, with 5,071 upstream-generated passages. The supplied graph has 4,890 nodes and 7,982 `MENTIONS` edges. Records remain labeled as user reports, not clinical evidence.
 
 ### Collections and manifests
@@ -139,7 +139,7 @@ After all planned data has been collected, the next phase can review candidate i
 
 ## Imported NatMed Pro and Reddit datasets
 
-Source: [ARYN26/CSE573](https://github.com/ARYN26/CSE573), commit `39a48197905de2641d04a9adb8ae25100c57e4e7`, imported from its `datasets/` directory. Exact import timestamps, file sizes, and SHA-256 checksums are recorded in the local manifests.
+Source: [ARYN26/CSE573](https://github.com/ARYN26/CSE573), current imported commit `1f4a3bcea5f8768f95204e74fa452d4c30c296a6`, from its `datasets/` directory. This supersedes the October 28 local import of `39a48197905de2641d04a9adb8ae25100c57e4e7`. Exact import timestamps, file sizes, and SHA-256 checksums are recorded in the local manifests. The prior snapshot and prior local source folders are preserved.
 
 The upstream repository combines both sources in compressed exports. Local import separates records using the existing `source` field, preserving each JSONL line byte-for-byte. These are **already normalized upstream exports**, not original browser captures. No additional text cleaning, entity resolution, or clinical relationship extraction was performed during import.
 
@@ -147,9 +147,12 @@ The upstream repository combines both sources in compressed exports. Local impor
 
 - [Source records](data/raw/natmedpro/records.jsonl): **10 monographs** across the ten project topics.
 - [Manifest](data/raw/natmedpro/collection_manifest.json): origin, counts, integrity hashes, and import details.
-- [Upstream-derived files](data/raw/natmedpro/upstream_derived/): **467 passages**, **20 graph nodes**, and **10 `MENTIONS` edges**, supplied by the teammate.
+- [Upstream-derived files](data/raw/natmedpro/upstream_derived/): **1,179 passages**, **20 graph nodes**, and **10 `MENTIONS` edges**, supplied by the teammate.
+- [Captured HTML](data/raw/natmedpro/source_html.jsonl): ten source captures, hash-linked to their monographs. Bibliographies are retained in each record's `reference_documents` field.
+- [Pending clinical annotations](data/raw/natmedpro/upstream_derived/pending_clinical/): **1,269 pending annotations**, their upstream schema, sample, extraction report, and manifest. These have not been approved or added to our graph as clinical facts.
+- [PubMed metadata](data/raw/natmedpro/upstream_derived/pubmed_metadata.jsonl) and [report](data/raw/natmedpro/upstream_derived/pubmed_report.json): metadata for **5,990 PMIDs**, of which 5,988 were found upstream. This is study metadata, not validation that a citation supports a claim.
 
-The Omega-3 monograph is **Fish Oil**; the Probiotics monograph is **Lactobacillus acidophilus**. Their evidence must retain those source limits. The upstream specification flags expandable-content markers and incomplete bibliography capture in all ten monographs; source comparison and clinical review remain pending. The source repository identifies NatMed material as licensed content to keep private.
+The Omega-3 monograph is **Fish Oil**; the Probiotics monograph is **Lactobacillus acidophilus**. Their evidence must retain those source limits. The October 28 upstream recapture addressed the previously collapsed content and missing bibliography capture. Human source comparison and clinical review remain pending, and the upstream review flags remain unapproved. Upstream reports 55 inline reference numbers absent from the captured bibliographies; they are reported rather than corrected. The source repository identifies NatMed material as licensed content to keep private.
 
 ### Reddit
 
@@ -159,9 +162,17 @@ The Omega-3 monograph is **Fish Oil**; the Probiotics monograph is **Lactobacill
 
 The upstream documentation describes a bounded sample from r/Supplements and r/herbalism. Reddit records retain their `user_report` evidence role and available thread/parent context. They are not clinical evidence.
 
+The November 9 update verified all 4,880 Reddit source records were byte-for-byte unchanged. The 5,071 supplied passages retain their text and IDs but now include updated source hashes, section/word-window positions, and citation-scope metadata.
+
 ### Preserved upstream artifacts
 
 The [original import snapshot](data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7/) preserves every file from `datasets/`, including compressed source records, passages, sample records, the shared graph, coverage reports, and the SQLite snapshot. Repository documentation is also preserved. All eight archives and their decompressed payloads passed the upstream manifest's byte-size and SHA-256 checks before import.
+
+The [current import snapshot](data/raw/imports/cse573/1f4a3bcea5f8768f95204e74fa452d4c30c296a6/) preserves the updated exports, documentation, clinical schema, and upstream evaluation metadata. All **12 archives** covered by the source and clinical manifests passed compressed and decompressed hash checks. PubMed files are outside those upstream manifests and have locally recorded hashes. The upstream `collection_summary.json` is historical and still lists 5,538 passages; the current dataset manifest correctly reports **6,250**.
+
+The [previous local source folders](data/raw/imports/cse573/1f4a3bcea5f8768f95204e74fa452d4c30c296a6/previous_local/) preserve the exact pre-update NatMed Pro and Reddit files. The [update validation report](data/raw/imports/cse573/1f4a3bcea5f8768f95204e74fa452d4c30c296a6/update_validation.json) records checks on source hashes, all 6,250 passage-to-source bindings, clinical excerpt offsets, unchanged graph exports, and unchanged Reddit source records.
+
+The import script now supports `--update`: it checks existing file hashes, stages new files, preserves previous source folders, and then activates the new snapshot. Existing snapshots and locally modified imported files are protected. No upstream code is executed, and no further preprocessing or clinical approval is performed.
 
 Each source's `upstream_derived/` directory contains an unchanged subset of the supplied passages and graph. 
 

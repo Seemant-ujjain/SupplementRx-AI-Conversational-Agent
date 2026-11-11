@@ -1,0 +1,41 @@
+{
+  "source": "natmed",
+  "source_repository": "https://github.com/ARYN26/CSE573.git",
+  "source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "imported_at_utc": "2026-10-28T07:01:27.651968+00:00",
+  "upstream_archive_directory": "data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "upstream_source_field": "natmed",
+  "record_counts": {
+    "monograph": 10
+  },
+  "files": {
+    "records.jsonl": {
+      "records": 10,
+      "bytes": 2320765,
+      "sha256": "32245edcdaf980318b059d1badf05996a9166a805d13c09832a72b3b50166d57",
+      "original_jsonl_lines_preserved": true
+    },
+    "upstream_derived/passages.jsonl": {
+      "records": 467,
+      "bytes": 50390057,
+      "sha256": "dd8109f847c786cc459890b4a948fb6cfae004a4c8ac64657f68a1398df76970",
+      "original_jsonl_lines_preserved": true
+    },
+    "upstream_derived/kg_nodes.jsonl": {
+      "records": 20,
+      "bytes": 3112,
+      "sha256": "615ef775d88497fad12e2d46a98d36e531213b184fa136de9221d245e92b47b0",
+      "original_jsonl_lines_preserved": true
+    },
+    "upstream_derived/kg_edges.jsonl": {
+      "records": 10,
+      "bytes": 1066,
+      "sha256": "f4dba0d809fa741d253cdbcf133e1f37aa20ea30d7c79c0f9d7625400d13fcbe",
+      "original_jsonl_lines_preserved": true
+    }
+  },
+  "upstream_processing": "Source records were normalized and passages/MENTIONS graph derived by upstream authors.",
+  "local_operation": "Source partition only; original JSONL lines and metadata unchanged.",
+  "shared_nodes": "Referenced supplement nodes are copied unchanged into each source graph where needed.",
+  "clinical_review": "Upstream review and capture-quality flags are preserved; graph edges are not validated medical claims."
+}

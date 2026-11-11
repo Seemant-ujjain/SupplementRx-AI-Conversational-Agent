@@ -1,0 +1,121 @@
+{
+  "source_repository": "https://github.com/ARYN26/CSE573.git",
+  "source_commit": "1f4a3bcea5f8768f95204e74fa452d4c30c296a6",
+  "imported_at_utc": "2026-11-09T23:30:52.558472+00:00",
+  "upstream_archives_verified": 12,
+  "preserved_files": {
+    "PROJECT_CONTEXT.md": {
+      "bytes": 31893,
+      "sha256": "5cba69c1d756b2dbe66e5b120dcaa4aa4eba104ba7f200b1b468086fcff00751"
+    },
+    "READINESS_AUDIT.md": {
+      "bytes": 23127,
+      "sha256": "ce77bc294dc866613769c9077c80c2889c0482f396530cc0e7acaf3218e23e3a"
+    },
+    "DATASET_SPEC.md": {
+      "bytes": 13953,
+      "sha256": "3be2b2704ab9b485af6000b631fb618f3e95a5783d56ba697cd787cc82bb5d5d"
+    },
+    "README.md": {
+      "bytes": 33033,
+      "sha256": "ecbc87dc8df0fa0ee4c8162eb74230d2f932ae8f41c1724becf79a41536f309c"
+    },
+    "config/clinical_claim.schema.json": {
+      "bytes": 9697,
+      "sha256": "936bc717194818e29a65bbeb5eaa9c7afa147079c37b4bc0785c67e9f67e7c99"
+    },
+    "datasets/coverage.json.gz": {
+      "bytes": 478,
+      "sha256": "d4ebc980dcadc22908df95d3cd3d18b313bcc326a52804aa6d6da39ae0563ed7"
+    },
+    "datasets/pubmed_report.json": {
+      "bytes": 10593,
+      "sha256": "9a9cbdd2cdd57e9774bc5fda898ec3af0e53bc86761dfc80a6441f70cc434639"
+    },
+    "datasets/clinical_extraction_report.json": {
+      "bytes": 111564,
+      "sha256": "745ee1c48a5bfb82f28fe4e593c94a9173f506bdc231f0097e59ae739a366660"
+    },
+    "datasets/pubmed_metadata.jsonl.gz": {
+      "bytes": 433571,
+      "sha256": "5db9f00663c6322d69e752391779049fa9ca54151f70126740ae8e98ce5ce1c8"
+    },
+    "datasets/pipeline.sqlite3.gz": {
+      "bytes": 3076313,
+      "sha256": "bfc51985c0d57215991a44bf07ba167007ee57ffb22b23d7865be489858b5bee"
+    },
+    "datasets/sample_records.json.gz": {
+      "bytes": 205548,
+      "sha256": "644ca4c8c6818660ec02df43296f0d233f0a63509025c45af25eb07cc6a13601"
+    },
+    "datasets/passages.jsonl.gz": {
+      "bytes": 1721357,
+      "sha256": "4d96db18f4006d334eb68243dd0ddd7ad5978c9c6b9b051503a6c9802335355b"
+    },
+    "datasets/clinical_claims.sample.json": {
+      "bytes": 129138,
+      "sha256": "ebc56d7d5a29359ef4d48417826e9f7c3437e86ddd3a1d89f3b4898af5dbe598"
+    },
+    "datasets/clinical_claims.sample.json.gz": {
+      "bytes": 17975,
+      "sha256": "6ac7a20d99e9ad5515d96e3fdbe3a43dcfce9639274823779e3c52cc45da297a"
+    },
+    "datasets/README.md": {
+      "bytes": 7401,
+      "sha256": "6ff10ba413639a8df337be3c35ec81041ef5b3d9c98cb479d40a25e62079bfc4"
+    },
+    "datasets/collection_summary.json.gz": {
+      "bytes": 537,
+      "sha256": "dae7bcf85f2f2f5a2c99c2bb85524cbc561d3969aa41ea844266dd13d5b5c885"
+    },
+    "datasets/clinical_extraction_report.json.gz": {
+      "bytes": 8030,
+      "sha256": "7e9ef17a03fb5ac13ac2b2ce0fc79ac8723af98073ef367953a319004646024c"
+    },
+    "datasets/manifest.json": {
+      "bytes": 3062,
+      "sha256": "28edf94a5500f7f5abab443898a99e314a2bb61bb86c794423f7a5cfb5d0f1b0"
+    },
+    "datasets/kg_nodes.jsonl.gz": {
+      "bytes": 79071,
+      "sha256": "db1b2903bf3548e452cd0d424c9d390b9f6baaf55ff171bcf3fcfde861999ba9"
+    },
+    "datasets/coverage.json": {
+      "bytes": 1145,
+      "sha256": "a7fce0b4b70649733608467c87a55aa8124ce0b179592f6ae5def8a66a2a0f66"
+    },
+    "datasets/clinical_claims.jsonl.gz": {
+      "bytes": 439025,
+      "sha256": "85b8344050f034beec5b052af417c8a6d434474285273a3a5fa1a746b1324737"
+    },
+    "datasets/kg_edges.jsonl.gz": {
+      "bytes": 43198,
+      "sha256": "f89f4b86eac843eab661468f3e9c25d698db64e20d93c5dce3743e5ba5879ffa"
+    },
+    "datasets/collection_summary.json": {
+      "bytes": 1013,
+      "sha256": "7439de6347ab83bbd662d533a593e94f22331ac7ca211909044d9aef9bd0efc1"
+    },
+    "datasets/natmed_source_html.jsonl.gz": {
+      "bytes": 626295,
+      "sha256": "4c1a459be466e22a3f65545997e03d5681bf84580d839fc1c08ea361e7ae0d19"
+    },
+    "datasets/clinical_claims_manifest.json": {
+      "bytes": 2548,
+      "sha256": "158948402f471c20af5d4e2af722da72ab135f1fdd6469636fe844ba319d9285"
+    },
+    "datasets/records.jsonl.gz": {
+      "bytes": 2802921,
+      "sha256": "3e88d068345356012c7c65a6815d6451bb9363528117d05c896e8bda32bb55b9"
+    },
+    "evaluation/thread_split.json": {
+      "bytes": 157443,
+      "sha256": "9801238daea1c2fe91f6d53324e230f48cb1045090c12993d5355fa16fbe7574"
+    },
+    "evaluation/clinical_review.json": {
+      "bytes": 118268,
+      "sha256": "fcfff5be4cf1880988fd542ab9d9bf787e8ba618b5e5626d52b5caeceb3b2feb"
+    }
+  },
+  "operation": "Archive preservation and source-based partition only; no additional content preprocessing."
+}

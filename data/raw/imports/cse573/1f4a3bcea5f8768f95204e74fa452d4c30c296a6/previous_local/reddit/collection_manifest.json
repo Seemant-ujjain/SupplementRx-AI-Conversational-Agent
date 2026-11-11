@@ -1,0 +1,42 @@
+{
+  "source": "reddit",
+  "source_repository": "https://github.com/ARYN26/CSE573.git",
+  "source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "imported_at_utc": "2026-10-28T07:01:27.651968+00:00",
+  "upstream_archive_directory": "data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "upstream_source_field": "reddit",
+  "record_counts": {
+    "comment": 4593,
+    "post": 287
+  },
+  "files": {
+    "records.jsonl": {
+      "records": 4880,
+      "bytes": 6070196,
+      "sha256": "aa3e205512fd17f03f06c5196bdcbb62ce41ddcdb2b74a6a9b88fb051b86b170",
+      "original_jsonl_lines_preserved": true
+    },
+    "upstream_derived/passages.jsonl": {
+      "records": 5071,
+      "bytes": 5864883,
+      "sha256": "3dac9cebd4ad835edaf15cd70a3e1a45cbb4ef302f9cf1c2c208daf0d5d914f6",
+      "original_jsonl_lines_preserved": true
+    },
+    "upstream_derived/kg_nodes.jsonl": {
+      "records": 4890,
+      "bytes": 1075897,
+      "sha256": "ec64ff0b5040edc096f9d0e07ef93037523b7f5805677131a2dea15ba9af8d31",
+      "original_jsonl_lines_preserved": true
+    },
+    "upstream_derived/kg_edges.jsonl": {
+      "records": 7982,
+      "bytes": 751530,
+      "sha256": "fe4dd23061b36de1bab3a44340dfdfb3f4c363d63e032db58df8ff5915f71b49",
+      "original_jsonl_lines_preserved": true
+    }
+  },
+  "upstream_processing": "Source records were normalized and passages/MENTIONS graph derived by upstream authors.",
+  "local_operation": "Source partition only; original JSONL lines and metadata unchanged.",
+  "shared_nodes": "Referenced supplement nodes are copied unchanged into each source graph where needed.",
+  "clinical_review": "Upstream review and capture-quality flags are preserved; graph edges are not validated medical claims."
+}

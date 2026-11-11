@@ -1,9 +1,9 @@
 {
   "source": "reddit",
   "source_repository": "https://github.com/ARYN26/CSE573.git",
-  "source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7",
-  "imported_at_utc": "2026-10-28T07:01:27.651968+00:00",
-  "upstream_archive_directory": "data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "source_commit": "1f4a3bcea5f8768f95204e74fa452d4c30c296a6",
+  "imported_at_utc": "2026-11-09T23:30:52.558472+00:00",
+  "upstream_archive_directory": "data/raw/imports/cse573/1f4a3bcea5f8768f95204e74fa452d4c30c296a6",
   "upstream_source_field": "reddit",
   "record_counts": {
     "comment": 4593,
@@ -18,8 +18,8 @@
     },
     "upstream_derived/passages.jsonl": {
       "records": 5071,
-      "bytes": 5864883,
-      "sha256": "3dac9cebd4ad835edaf15cd70a3e1a45cbb4ef302f9cf1c2c208daf0d5d914f6",
+      "bytes": 7756617,
+      "sha256": "7272b5f7e58c7fec659d7320b6bb6cfe3c799f6943fb0dd106e4262c9f3222c5",
       "original_jsonl_lines_preserved": true
     },
     "upstream_derived/kg_nodes.jsonl": {
@@ -38,5 +38,6 @@
   "upstream_processing": "Source records were normalized and passages/MENTIONS graph derived by upstream authors.",
   "local_operation": "Source partition only; original JSONL lines and metadata unchanged.",
   "shared_nodes": "Referenced supplement nodes are copied unchanged into each source graph where needed.",
-  "clinical_review": "Upstream review and capture-quality flags are preserved; graph edges are not validated medical claims."
+  "clinical_review": "Upstream review and capture-quality flags are preserved; graph edges are not validated medical claims.",
+  "supersedes_source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7"
 }

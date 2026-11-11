@@ -1,0 +1,22 @@
+{
+  "natmedpro": {
+    "records": 10,
+    "passages": 1179,
+    "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+    "backup_verified": true,
+    "passage_source_bindings_verified": true,
+    "graph_unchanged": true
+  },
+  "reddit": {
+    "records": 4880,
+    "passages": 5071,
+    "source_sha256": "aa3e205512fd17f03f06c5196bdcbb62ce41ddcdb2b74a6a9b88fb051b86b170",
+    "backup_verified": true,
+    "passage_source_bindings_verified": true,
+    "graph_unchanged": true
+  },
+  "reddit_source_unchanged": true,
+  "upstream_archives_verified": 12,
+  "clinical_claims_pending": 1269,
+  "clinical_claim_source_excerpts_verified": true
+}

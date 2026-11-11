@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "method": "source_structured_html_v2",
+  "claim_contract": "1.1",
+  "claim_count": 1269,
+  "approved_count": 0,
+  "inputs": {
+    "source_records_sha256": "7165aab7909d7204e715c6452489efa212062bd14785d0acdec6b90449556442",
+    "source_html_sha256": {
+      "natmed:0d296c0daa1cccb456da568c": "34694eb1a0c79d813640bade62c2b0855bd0d5c19199631a52d39a0b6488b69a",
+      "natmed:0e9f2262886c394a16e6a7b6": "12414278fe95766eed196d1ceb3c5b5657bd0b68b711c22371ac317a2fead950",
+      "natmed:15e8a621cab69a1f3066f3e8": "1772a555fe1d00aba2b169ce90543a3b9d6712cf34b4500b178ff5cb6ca161b9",
+      "natmed:1dcdcb859542de37540c85e3": "63d49394dcb98aa1e6aa38a2325eb3c3c6eca3c17d562b47bc1fc4a457d37c61",
+      "natmed:3684a1a282d205d7021e1e8c": "14be8c2afbc20614504a4735d8010282f313eaf753c17e515e2a0b92564cffd5",
+      "natmed:649e1db8b72c315fd46a0008": "e9d948399ee3d1bd8ea76b505fc781eab5ffa410914a03c7157af38926a269ce",
+      "natmed:6d4216fa13c50b0c8a12b73b": "aaec5bc02576cffe80d7cfe78f6b0d598da5f4ea61f3024ad3a795bf8963922e",
+      "natmed:8dd04c27d96778422b37b7f1": "cd2114a1738e4f702d2baee259c2d6ea0c25fb9a11b99f7d4da9983de3861abf",
+      "natmed:9846bbe87087e6c66c605ff5": "6dd341f7b01bb533c6ac709ef48619ad9363c41ad90c3fa9a6337aa07328f796",
+      "natmed:fce9d033ff2ec6933e4775ba": "4399aeef867bc2e9682d103f7a88dbe8b4000edcfcd657580de10171fb6c8fba"
+    },
+    "clinical_schema_sha256": "60058df58c43f01d71908ae24d0b791b71cb9c9ce5060baf7468ef566bdac43a"
+  },
+  "files": [
+    {
+      "archive": "clinical_claims.jsonl.gz",
+      "restore_to": "exports/clinical_claims.jsonl",
+      "bytes": 3625532,
+      "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "archive_bytes": 439025,
+      "archive_sha256": "85b8344050f034beec5b052af417c8a6d434474285273a3a5fa1a746b1324737"
+    },
+    {
+      "archive": "clinical_extraction_report.json.gz",
+      "restore_to": "exports/clinical_extraction_report.json",
+      "bytes": 111564,
+      "sha256": "745ee1c48a5bfb82f28fe4e593c94a9173f506bdc231f0097e59ae739a366660",
+      "archive_bytes": 8030,
+      "archive_sha256": "7e9ef17a03fb5ac13ac2b2ce0fc79ac8723af98073ef367953a319004646024c"
+    },
+    {
+      "archive": "clinical_claims.sample.json.gz",
+      "restore_to": "exports/clinical_claims.sample.json",
+      "bytes": 129138,
+      "sha256": "ebc56d7d5a29359ef4d48417826e9f7c3437e86ddd3a1d89f3b4898af5dbe598",
+      "archive_bytes": 17975,
+      "archive_sha256": "6ac7a20d99e9ad5515d96e3fdbe3a43dcfce9639274823779e3c52cc45da297a"
+    }
+  ]
+}

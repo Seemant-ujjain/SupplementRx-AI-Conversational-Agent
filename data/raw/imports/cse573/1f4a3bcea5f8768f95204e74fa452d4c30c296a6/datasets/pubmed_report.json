@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-10-28T23:47:06.882940+00:00",
+  "source": "NCBI E-utilities esummary (public metadata only)",
+  "pmid_count": 5990,
+  "found": 5988,
+  "limitations": [
+    "Publication type and year describe the cited study, not whether it supports the claim.",
+    "Year mismatches flag possible wrong PubMed links in the publisher bibliography; nothing is corrected.",
+    "References without a PubMed link are not looked up."
+  ],
+  "sources": [
+    {
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "title": "Ashwagandha",
+      "bibliography_entries": 137,
+      "with_pmid": 127,
+      "pubmed_found": 127,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Review": 10,
+        "Randomized Controlled Trial": 31,
+        "Clinical Trial": 9,
+        "Case Reports": 11,
+        "Meta-Analysis": 7,
+        "Systematic Review": 7
+      },
+      "publication_year_range": [
+        1965,
+        2026
+      ],
+      "published_last_5_years": 63,
+      "year_mismatches": [
+        {
+          "ref_no": "114788",
+          "pmid": "38988644",
+          "citation_years": [
+            2024
+          ],
+          "pubmed_year": 2023
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "title": "Vitamin B12",
+      "bibliography_entries": 534,
+      "with_pmid": 507,
+      "pubmed_found": 507,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Randomized Controlled Trial": 156,
+        "Clinical Trial": 145,
+        "Case Reports": 35,
+        "Review": 34,
+        "Meta-Analysis": 35,
+        "Systematic Review": 36,
+        "Observational Study": 3
+      },
+      "publication_year_range": [
+        1961,
+        2024
+      ],
+      "published_last_5_years": 43,
+      "year_mismatches": [
+        {
+          "ref_no": "104947",
+          "pmid": "3063670",
+          "citation_years": [
+            2019
+          ],
+          "pubmed_year": 1988
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "title": "Turmeric",
+      "bibliography_entries": 586,
+      "with_pmid": 578,
+      "pubmed_found": 578,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Clinical Trial": 19,
+        "Review": 10,
+        "Randomized Controlled Trial": 144,
+        "Case Reports": 21,
+        "Systematic Review": 45,
+        "Observational Study": 4,
+        "Meta-Analysis": 47
+      },
+      "publication_year_range": [
+        1972,
+        2026
+      ],
+      "published_last_5_years": 155,
+      "year_mismatches": [
+        {
+          "ref_no": "96135",
+          "pmid": "29185808",
+          "citation_years": [
+            2017
+          ],
+          "pubmed_year": 2019
+        },
+        {
+          "ref_no": "118515",
+          "pmid": "41601662",
+          "citation_years": [
+            2026
+          ],
+          "pubmed_year": 2025
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "title": "Creatine",
+      "bibliography_entries": 544,
+      "with_pmid": 505,
+      "pubmed_found": 505,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Randomized Controlled Trial": 266,
+        "Clinical Trial": 197,
+        "Review": 25,
+        "Case Reports": 31,
+        "Meta-Analysis": 39,
+        "Systematic Review": 41
+      },
+      "publication_year_range": [
+        1975,
+        2026
+      ],
+      "published_last_5_years": 68,
+      "year_mismatches": [
+        {
+          "ref_no": "108330",
+          "pmid": "34859731",
+          "citation_years": [
+            2021
+          ],
+          "pubmed_year": 2023
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "title": "Melatonin",
+      "bibliography_entries": 1022,
+      "with_pmid": 991,
+      "pubmed_found": 991,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Review": 74,
+        "Randomized Controlled Trial": 327,
+        "Clinical Trial": 227,
+        "Case Reports": 23,
+        "Systematic Review": 62,
+        "Meta-Analysis": 60,
+        "Observational Study": 1
+      },
+      "publication_year_range": [
+        1972,
+        2026
+      ],
+      "published_last_5_years": 120,
+      "year_mismatches": [
+        {
+          "ref_no": "97434",
+          "pmid": "28966750",
+          "citation_years": [
+            2018
+          ],
+          "pubmed_year": 2017
+        },
+        {
+          "ref_no": "106299",
+          "pmid": "34560112",
+          "citation_years": [
+            2021
+          ],
+          "pubmed_year": 2023
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "title": "Magnesium",
+      "bibliography_entries": 965,
+      "with_pmid": 860,
+      "pubmed_found": 860,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Review": 86,
+        "Clinical Trial": 246,
+        "Randomized Controlled Trial": 358,
+        "Case Reports": 46,
+        "Meta-Analysis": 169,
+        "Systematic Review": 116,
+        "Observational Study": 6
+      },
+      "publication_year_range": [
+        1968,
+        2026
+      ],
+      "published_last_5_years": 97,
+      "year_mismatches": [
+        {
+          "ref_no": "14331",
+          "pmid": "10796143",
+          "citation_years": [
+            2002
+          ],
+          "pubmed_year": 2000
+        },
+        {
+          "ref_no": "61037",
+          "pmid": "23656743",
+          "citation_years": [
+            2013
+          ],
+          "pubmed_year": 2012
+        },
+        {
+          "ref_no": "104399",
+          "pmid": "33009349",
+          "citation_years": [
+            2020
+          ],
+          "pubmed_year": 2022
+        },
+        {
+          "ref_no": "105078",
+          "pmid": "33593869",
+          "citation_years": [
+            2021
+          ],
+          "pubmed_year": 2023
+        },
+        {
+          "ref_no": "105081",
+          "pmid": "33585581",
+          "citation_years": [
+            2021
+          ],
+          "pubmed_year": 2020
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "title": "Lactobacillus acidophilus",
+      "bibliography_entries": 291,
+      "with_pmid": 279,
+      "pubmed_found": 279,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Randomized Controlled Trial": 159,
+        "Clinical Trial": 53,
+        "Review": 20,
+        "Case Reports": 19,
+        "Meta-Analysis": 21,
+        "Systematic Review": 18,
+        "Observational Study": 2
+      },
+      "publication_year_range": [
+        1985,
+        2026
+      ],
+      "published_last_5_years": 63,
+      "year_mismatches": [
+        {
+          "ref_no": "17120",
+          "pmid": "20626584",
+          "citation_years": [
+            2010
+          ],
+          "pubmed_year": 2014
+        },
+        {
+          "ref_no": "107731",
+          "pmid": "34077686",
+          "citation_years": [
+            2021
+          ],
+          "pubmed_year": 2023
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "title": "Vitamin D",
+      "bibliography_entries": 628,
+      "with_pmid": 608,
+      "pubmed_found": 606,
+      "pubmed_not_found_ref_nos": [
+        "97299",
+        "97300"
+      ],
+      "evidence_publication_types": {
+        "Randomized Controlled Trial": 190,
+        "Clinical Trial": 40,
+        "Review": 60,
+        "Case Reports": 12,
+        "Meta-Analysis": 226,
+        "Systematic Review": 179,
+        "Observational Study": 7
+      },
+      "publication_year_range": [
+        1952,
+        2026
+      ],
+      "published_last_5_years": 225,
+      "year_mismatches": [
+        {
+          "ref_no": "11925",
+          "pmid": "10841179",
+          "citation_years": [
+            2002
+          ],
+          "pubmed_year": 2000
+        },
+        {
+          "ref_no": "84687",
+          "pmid": "23273989",
+          "citation_years": [
+            2012
+          ],
+          "pubmed_year": 2014
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "title": "Fish Oil",
+      "bibliography_entries": 1062,
+      "with_pmid": 1019,
+      "pubmed_found": 1019,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Clinical Trial": 282,
+        "Case Reports": 9,
+        "Randomized Controlled Trial": 520,
+        "Systematic Review": 91,
+        "Review": 66,
+        "Meta-Analysis": 110,
+        "Observational Study": 4
+      },
+      "publication_year_range": [
+        1966,
+        2026
+      ],
+      "published_last_5_years": 142,
+      "year_mismatches": [
+        {
+          "ref_no": "89340",
+          "pmid": "2425668",
+          "citation_years": [
+            2014
+          ],
+          "pubmed_year": 1986
+        },
+        {
+          "ref_no": "89344",
+          "pmid": "2120130",
+          "citation_years": [
+            2012
+          ],
+          "pubmed_year": 1990
+        },
+        {
+          "ref_no": "105215",
+          "pmid": "33356450",
+          "citation_years": [
+            2020
+          ],
+          "pubmed_year": 2022
+        },
+        {
+          "ref_no": "107182",
+          "pmid": "34927195",
+          "citation_years": [
+            2021
+          ],
+          "pubmed_year": 2023
+        },
+        {
+          "ref_no": "113214",
+          "pmid": "38348197",
+          "citation_years": [
+            2024
+          ],
+          "pubmed_year": 2023
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "title": "Iron",
+      "bibliography_entries": 666,
+      "with_pmid": 601,
+      "pubmed_found": 601,
+      "pubmed_not_found_ref_nos": [],
+      "evidence_publication_types": {
+        "Randomized Controlled Trial": 305,
+        "Clinical Trial": 292,
+        "Review": 24,
+        "Case Reports": 16,
+        "Systematic Review": 58,
+        "Meta-Analysis": 59
+      },
+      "publication_year_range": [
+        1955,
+        2025
+      ],
+      "published_last_5_years": 53,
+      "year_mismatches": [
+        {
+          "ref_no": "9550",
+          "pmid": "7993405",
+          "citation_years": [
+            1999
+          ],
+          "pubmed_year": 1994
+        },
+        {
+          "ref_no": "9578",
+          "pmid": "9692706",
+          "citation_years": [
+            1988
+          ],
+          "pubmed_year": 1998
+        }
+      ]
+    }
+  ]
+}

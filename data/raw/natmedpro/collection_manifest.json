@@ -1,9 +1,9 @@
 {
   "source": "natmed",
   "source_repository": "https://github.com/ARYN26/CSE573.git",
-  "source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7",
-  "imported_at_utc": "2026-10-28T07:01:27.651968+00:00",
-  "upstream_archive_directory": "data/raw/imports/cse573/39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "source_commit": "1f4a3bcea5f8768f95204e74fa452d4c30c296a6",
+  "imported_at_utc": "2026-11-09T23:30:52.558472+00:00",
+  "upstream_archive_directory": "data/raw/imports/cse573/1f4a3bcea5f8768f95204e74fa452d4c30c296a6",
   "upstream_source_field": "natmed",
   "record_counts": {
     "monograph": 10
@@ -11,14 +11,14 @@
   "files": {
     "records.jsonl": {
       "records": 10,
-      "bytes": 2320765,
-      "sha256": "32245edcdaf980318b059d1badf05996a9166a805d13c09832a72b3b50166d57",
+      "bytes": 6502063,
+      "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
       "original_jsonl_lines_preserved": true
     },
     "upstream_derived/passages.jsonl": {
-      "records": 467,
-      "bytes": 50390057,
-      "sha256": "dd8109f847c786cc459890b4a948fb6cfae004a4c8ac64657f68a1398df76970",
+      "records": 1179,
+      "bytes": 6992989,
+      "sha256": "d11167ede9e41c6c9e2683d136f9838e8f553b9c4233651055732b0696158996",
       "original_jsonl_lines_preserved": true
     },
     "upstream_derived/kg_nodes.jsonl": {
@@ -32,10 +32,53 @@
       "bytes": 1066,
       "sha256": "f4dba0d809fa741d253cdbcf133e1f37aa20ea30d7c79c0f9d7625400d13fcbe",
       "original_jsonl_lines_preserved": true
+    },
+    "source_html.jsonl": {
+      "bytes": 6821392,
+      "sha256": "e3888381859ea3168de3d2b1297192cdf24e28e079095f811fd42a9503d4c189",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pending_clinical/clinical_claims.jsonl": {
+      "bytes": 3625532,
+      "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pending_clinical/clinical_claims.sample.json": {
+      "bytes": 129138,
+      "sha256": "ebc56d7d5a29359ef4d48417826e9f7c3437e86ddd3a1d89f3b4898af5dbe598",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pending_clinical/clinical_extraction_report.json": {
+      "bytes": 111564,
+      "sha256": "745ee1c48a5bfb82f28fe4e593c94a9173f506bdc231f0097e59ae739a366660",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pending_clinical/clinical_claims_manifest.json": {
+      "bytes": 2548,
+      "sha256": "158948402f471c20af5d4e2af722da72ab135f1fdd6469636fe844ba319d9285",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pending_clinical/clinical_claim.schema.json": {
+      "bytes": 9697,
+      "sha256": "936bc717194818e29a65bbeb5eaa9c7afa147079c37b4bc0785c67e9f67e7c99",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pubmed_metadata.jsonl": {
+      "bytes": 2268649,
+      "sha256": "58fa37d7f9f9370ebe8d1455b2db7cb73d851638bc7e6f4b8bc3bbd114b14536",
+      "upstream_content_preserved": true
+    },
+    "upstream_derived/pubmed_report.json": {
+      "bytes": 10593,
+      "sha256": "9a9cbdd2cdd57e9774bc5fda898ec3af0e53bc86761dfc80a6441f70cc434639",
+      "upstream_content_preserved": true
     }
   },
   "upstream_processing": "Source records were normalized and passages/MENTIONS graph derived by upstream authors.",
   "local_operation": "Source partition only; original JSONL lines and metadata unchanged.",
   "shared_nodes": "Referenced supplement nodes are copied unchanged into each source graph where needed.",
-  "clinical_review": "Upstream review and capture-quality flags are preserved; graph edges are not validated medical claims."
+  "clinical_review": "Upstream review and capture-quality flags are preserved; graph edges are not validated medical claims.",
+  "supersedes_source_commit": "39a48197905de2641d04a9adb8ae25100c57e4e7",
+  "pending_clinical_claims": 1269,
+  "approved_clinical_claims": 0
 }

@@ -1,0 +1,3894 @@
+{
+  "schema_version": "1.0",
+  "claim_contract": "1.1",
+  "method": "source_structured_html_v2",
+  "source_record_count": 4890,
+  "clinical_source_count": 10,
+  "claim_count": 1269,
+  "pending_count": 1269,
+  "approved_count": 0,
+  "claims_by_type": {
+    "dose": 85,
+    "effectiveness": 809,
+    "safety": 107,
+    "adverse_effect": 120,
+    "interaction": 148
+  },
+  "duplicate_candidates_removed": 0,
+  "numeric_dose_claims": 71,
+  "field_coverage": {
+    "dose": {
+      "claim_count": 85,
+      "fields": {
+        "dose.text": {
+          "populated": 85,
+          "unknown": 0
+        },
+        "dose.value": {
+          "populated": 67,
+          "unknown": 18
+        },
+        "dose.minimum": {
+          "populated": 4,
+          "unknown": 81
+        },
+        "dose.maximum": {
+          "populated": 4,
+          "unknown": 81
+        },
+        "dose.unit": {
+          "populated": 71,
+          "unknown": 14
+        },
+        "dose.qualifier": {
+          "populated": 18,
+          "unknown": 67
+        },
+        "dose.regimen": {
+          "populated": 23,
+          "unknown": 62
+        },
+        "population": {
+          "populated": 77,
+          "unknown": 8
+        },
+        "indication": {
+          "populated": 0,
+          "unknown": 85
+        },
+        "dose.frequency": {
+          "populated": 34,
+          "unknown": 51
+        },
+        "dose.duration": {
+          "populated": 11,
+          "unknown": 74
+        },
+        "dose.route": {
+          "populated": 85,
+          "unknown": 0
+        },
+        "ingredient.formulation": {
+          "populated": 0,
+          "unknown": 85
+        },
+        "ingredient.strain": {
+          "populated": 0,
+          "unknown": 85
+        }
+      }
+    },
+    "effectiveness": {
+      "claim_count": 809,
+      "fields": {
+        "indication": {
+          "populated": 809,
+          "unknown": 0
+        },
+        "effectiveness_rating": {
+          "populated": 809,
+          "unknown": 0
+        },
+        "evidence_grade": {
+          "populated": 0,
+          "unknown": 809
+        }
+      }
+    },
+    "safety": {
+      "claim_count": 107,
+      "fields": {
+        "population": {
+          "populated": 89,
+          "unknown": 18
+        },
+        "safety_rating": {
+          "populated": 47,
+          "unknown": 60
+        }
+      }
+    },
+    "adverse_effect": {
+      "claim_count": 120,
+      "fields": {
+        "adverse_effect_category": {
+          "populated": 120,
+          "unknown": 0
+        }
+      }
+    },
+    "interaction": {
+      "claim_count": 148,
+      "fields": {
+        "interaction.partner": {
+          "populated": 148,
+          "unknown": 0
+        },
+        "interaction.rating": {
+          "populated": 100,
+          "unknown": 48
+        },
+        "interaction.severity": {
+          "populated": 100,
+          "unknown": 48
+        },
+        "interaction.occurrence": {
+          "populated": 100,
+          "unknown": 48
+        },
+        "evidence_grade": {
+          "populated": 100,
+          "unknown": 48
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "title": "Ashwagandha",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+      "source_content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+      "claim_count": 73,
+      "claims_by_type": {
+        "safety": 7,
+        "adverse_effect": 9,
+        "effectiveness": 43,
+        "dose": 1,
+        "interaction": 13
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 1,
+          "fields": {
+            "dose.text": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 1
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 1
+            },
+            "dose.unit": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "dose.qualifier": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "dose.regimen": {
+              "populated": 0,
+              "unknown": 1
+            },
+            "population": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 1
+            },
+            "dose.frequency": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "dose.duration": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "dose.route": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 1
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 1
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 43,
+          "fields": {
+            "indication": {
+              "populated": 43,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 43,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 43
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 7,
+          "fields": {
+            "population": {
+              "populated": 6,
+              "unknown": 1
+            },
+            "safety_rating": {
+              "populated": 1,
+              "unknown": 6
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 9,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 9,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 13,
+          "fields": {
+            "interaction.partner": {
+              "populated": 13,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 9,
+              "unknown": 4
+            },
+            "interaction.severity": {
+              "populated": 9,
+              "unknown": 4
+            },
+            "interaction.occurrence": {
+              "populated": 9,
+              "unknown": 4
+            },
+            "evidence_grade": {
+              "populated": 9,
+              "unknown": 4
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 3,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 9,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 43,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 9,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 3,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 4,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_index": 12,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable"
+      ],
+      "extraction_issue_counts": {
+        "section_not_in_html": 1,
+        "section_qualification": 1
+      },
+      "html": {
+        "sha256": "34694eb1a0c79d813640bade62c2b0855bd0d5c19199631a52d39a0b6488b69a",
+        "inline_citation_count": 117,
+        "bibliography_entry_count": 137,
+        "citations_missing_from_bibliography": [],
+        "panels": [
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 3
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 9
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 43,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 9
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 3
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 4
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "interaction": 1
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": false,
+          "present_in_record": false,
+          "entry_count": 0,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "title": "Vitamin B12",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=926",
+      "source_content_hash": "c35529f6d159152fd2c61f0b95e33e5ea31b33231b39e76ffeb4278006ebc98b",
+      "claim_count": 96,
+      "claims_by_type": {
+        "safety": 5,
+        "adverse_effect": 13,
+        "effectiveness": 62,
+        "dose": 9,
+        "interaction": 7
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 9,
+          "fields": {
+            "dose.text": {
+              "populated": 9,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 8,
+              "unknown": 1
+            },
+            "dose.minimum": {
+              "populated": 1,
+              "unknown": 8
+            },
+            "dose.maximum": {
+              "populated": 1,
+              "unknown": 8
+            },
+            "dose.unit": {
+              "populated": 9,
+              "unknown": 0
+            },
+            "dose.qualifier": {
+              "populated": 0,
+              "unknown": 9
+            },
+            "dose.regimen": {
+              "populated": 3,
+              "unknown": 6
+            },
+            "population": {
+              "populated": 9,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 9
+            },
+            "dose.frequency": {
+              "populated": 1,
+              "unknown": 8
+            },
+            "dose.duration": {
+              "populated": 0,
+              "unknown": 9
+            },
+            "dose.route": {
+              "populated": 9,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 9
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 9
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 62,
+          "fields": {
+            "indication": {
+              "populated": 62,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 62,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 62
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 5,
+          "fields": {
+            "population": {
+              "populated": 4,
+              "unknown": 1
+            },
+            "safety_rating": {
+              "populated": 3,
+              "unknown": 2
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 13,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 13,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 7,
+          "fields": {
+            "interaction.partner": {
+              "populated": 7,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 0,
+              "unknown": 7
+            },
+            "interaction.severity": {
+              "populated": 0,
+              "unknown": 7
+            },
+            "interaction.occurrence": {
+              "populated": 0,
+              "unknown": 7
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 7
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 3,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 3,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 4,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 13,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 5,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 62,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 6,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 9,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 8,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 9,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 3,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 10,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 2,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+          "section_index": 11,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 4,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "section_qualification": 1,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "12414278fe95766eed196d1ceb3c5b5657bd0b68b711c22371ac317a2fead950",
+        "inline_citation_count": 297,
+        "bibliography_entry_count": 534,
+        "citations_missing_from_bibliography": [
+          "50277"
+        ],
+        "panels": [
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 3
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 13
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 62,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 3
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 2
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "interaction": 4
+            }
+          },
+          {
+            "title": "Nutrient Depletions",
+            "category": "nutrient_depletions",
+            "entries": {
+              "depletion": 15
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": true,
+          "present_in_record": true,
+          "entry_count": 15,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "title": "Turmeric",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=662",
+      "source_content_hash": "349e70b2611f29aeb14144f86d9e41a0c72989345d7fd0a50767bac8ac74afbe",
+      "claim_count": 146,
+      "claims_by_type": {
+        "safety": 12,
+        "adverse_effect": 10,
+        "effectiveness": 92,
+        "dose": 3,
+        "interaction": 29
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 3,
+          "fields": {
+            "dose.text": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.unit": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.qualifier": {
+              "populated": 1,
+              "unknown": 2
+            },
+            "dose.regimen": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "population": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.frequency": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.duration": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.route": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 3
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 92,
+          "fields": {
+            "indication": {
+              "populated": 92,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 92,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 92
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 12,
+          "fields": {
+            "population": {
+              "populated": 10,
+              "unknown": 2
+            },
+            "safety_rating": {
+              "populated": 5,
+              "unknown": 7
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 10,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 10,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 29,
+          "fields": {
+            "interaction.partner": {
+              "populated": 29,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 25,
+              "unknown": 4
+            },
+            "interaction.severity": {
+              "populated": 25,
+              "unknown": 4
+            },
+            "interaction.occurrence": {
+              "populated": 25,
+              "unknown": 4
+            },
+            "evidence_grade": {
+              "populated": 25,
+              "unknown": 4
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 5,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 10,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 92,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 3,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 25,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 4,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 6,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+          "section_index": 12,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "section_qualification": 1,
+        "unquantified_dose_statement": 1,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "1772a555fe1d00aba2b169ce90543a3b9d6712cf34b4500b178ff5cb6ca161b9",
+        "inline_citation_count": 586,
+        "bibliography_entry_count": 586,
+        "citations_missing_from_bibliography": [
+          "79359",
+          "80451",
+          "80511",
+          "96128"
+        ],
+        "panels": [
+          {
+            "title": "Warnings",
+            "category": "warnings",
+            "entries": {
+              "statement": 1
+            }
+          },
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 5
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 10
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 92,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 25
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 4
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 6
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": false,
+          "present_in_record": false,
+          "entry_count": 0,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "title": "Creatine",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873",
+      "source_content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+      "claim_count": 76,
+      "claims_by_type": {
+        "safety": 7,
+        "adverse_effect": 15,
+        "effectiveness": 50,
+        "dose": 2,
+        "interaction": 2
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 2,
+          "fields": {
+            "dose.text": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 1,
+              "unknown": 1
+            },
+            "dose.minimum": {
+              "populated": 1,
+              "unknown": 1
+            },
+            "dose.maximum": {
+              "populated": 1,
+              "unknown": 1
+            },
+            "dose.unit": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "dose.qualifier": {
+              "populated": 1,
+              "unknown": 1
+            },
+            "dose.regimen": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "population": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 2
+            },
+            "dose.frequency": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "dose.duration": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "dose.route": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 2
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 2
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 50,
+          "fields": {
+            "indication": {
+              "populated": 50,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 50,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 50
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 7,
+          "fields": {
+            "population": {
+              "populated": 5,
+              "unknown": 2
+            },
+            "safety_rating": {
+              "populated": 3,
+              "unknown": 4
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 15,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 15,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 2,
+          "fields": {
+            "interaction.partner": {
+              "populated": 2,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 0,
+              "unknown": 2
+            },
+            "interaction.severity": {
+              "populated": 0,
+              "unknown": 2
+            },
+            "interaction.occurrence": {
+              "populated": 0,
+              "unknown": 2
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 2
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 4,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 15,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 50,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 2,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 3,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_index": 12,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "no_structured_fields": 2,
+        "section_qualification": 1,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "63d49394dcb98aa1e6aa38a2325eb3c3c6eca3c17d562b47bc1fc4a457d37c61",
+        "inline_citation_count": 393,
+        "bibliography_entry_count": 544,
+        "citations_missing_from_bibliography": [
+          "46712",
+          "46735",
+          "46749",
+          "46758",
+          "46779",
+          "46813"
+        ],
+        "panels": [
+          {
+            "title": "Warnings",
+            "category": "warnings",
+            "entries": {
+              "statement": 1
+            }
+          },
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 5
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 15
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 50,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 1
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 3
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "interaction": 1
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": false,
+          "present_in_record": false,
+          "entry_count": 0,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "title": "Melatonin",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=940",
+      "source_content_hash": "d4e546f1537a0bffa6d8d4d8b4d141fcd5ead3370510ff5edbdf487a4be057f5",
+      "claim_count": 159,
+      "claims_by_type": {
+        "safety": 12,
+        "adverse_effect": 15,
+        "effectiveness": 104,
+        "dose": 3,
+        "interaction": 25
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 3,
+          "fields": {
+            "dose.text": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.unit": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.qualifier": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.regimen": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "population": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.frequency": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.duration": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.route": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 3
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 104,
+          "fields": {
+            "indication": {
+              "populated": 104,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 104,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 104
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 12,
+          "fields": {
+            "population": {
+              "populated": 10,
+              "unknown": 2
+            },
+            "safety_rating": {
+              "populated": 4,
+              "unknown": 8
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 15,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 15,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 25,
+          "fields": {
+            "interaction.partner": {
+              "populated": 25,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 18,
+              "unknown": 7
+            },
+            "interaction.severity": {
+              "populated": 18,
+              "unknown": 7
+            },
+            "interaction.occurrence": {
+              "populated": 18,
+              "unknown": 7
+            },
+            "evidence_grade": {
+              "populated": 18,
+              "unknown": 7
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 7,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 15,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 104,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 3,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 18,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 7,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 5,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:3684a1a282d205d7021e1e8c",
+          "section_index": 12,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "no_structured_fields": 1,
+        "section_qualification": 1,
+        "unquantified_dose_statement": 1,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "14be8c2afbc20614504a4735d8010282f313eaf753c17e515e2a0b92564cffd5",
+        "inline_citation_count": 996,
+        "bibliography_entry_count": 1022,
+        "citations_missing_from_bibliography": [
+          "62565"
+        ],
+        "panels": [
+          {
+            "title": "Warnings",
+            "category": "warnings",
+            "entries": {
+              "statement": 1
+            }
+          },
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 7
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 15
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 104,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 18
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 7
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 5
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": false,
+          "present_in_record": false,
+          "entry_count": 0,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "title": "Magnesium",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=998",
+      "source_content_hash": "6ab2c715cf47647dc86ed7d1588dbe1f6ec4d2dc13d7a9622bac3bc31593a739",
+      "claim_count": 168,
+      "claims_by_type": {
+        "safety": 13,
+        "adverse_effect": 14,
+        "effectiveness": 94,
+        "dose": 23,
+        "interaction": 24
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 23,
+          "fields": {
+            "dose.text": {
+              "populated": 23,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 19,
+              "unknown": 4
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 23
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 23
+            },
+            "dose.unit": {
+              "populated": 19,
+              "unknown": 4
+            },
+            "dose.qualifier": {
+              "populated": 0,
+              "unknown": 23
+            },
+            "dose.regimen": {
+              "populated": 4,
+              "unknown": 19
+            },
+            "population": {
+              "populated": 17,
+              "unknown": 6
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 23
+            },
+            "dose.frequency": {
+              "populated": 1,
+              "unknown": 22
+            },
+            "dose.duration": {
+              "populated": 0,
+              "unknown": 23
+            },
+            "dose.route": {
+              "populated": 23,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 23
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 23
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 94,
+          "fields": {
+            "indication": {
+              "populated": 94,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 94,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 94
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 13,
+          "fields": {
+            "population": {
+              "populated": 11,
+              "unknown": 2
+            },
+            "safety_rating": {
+              "populated": 7,
+              "unknown": 6
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 14,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 14,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 24,
+          "fields": {
+            "interaction.partner": {
+              "populated": 24,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 17,
+              "unknown": 7
+            },
+            "interaction.severity": {
+              "populated": 17,
+              "unknown": 7
+            },
+            "interaction.occurrence": {
+              "populated": 17,
+              "unknown": 7
+            },
+            "evidence_grade": {
+              "populated": 17,
+              "unknown": 7
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 3,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 7,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 4,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 14,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 5,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 94,
+          "issue_count": 2,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 6,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 23,
+          "issue_count": 10,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 8,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 17,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 9,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 5,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 10,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 6,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:649e1db8b72c315fd46a0008",
+          "section_index": 11,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 2,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable"
+      ],
+      "extraction_issue_counts": {
+        "inline_condition_heading": 1,
+        "section_qualification": 1,
+        "unresolved_dose_population": 6,
+        "unquantified_dose_statement": 1,
+        "unresolved_dose_normalization": 3
+      },
+      "html": {
+        "sha256": "e9d948399ee3d1bd8ea76b505fc781eab5ffa410914a03c7157af38926a269ce",
+        "inline_citation_count": 533,
+        "bibliography_entry_count": 965,
+        "citations_missing_from_bibliography": [],
+        "panels": [
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 7
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 14
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 95,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 17
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 5
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 6
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "interaction": 2
+            }
+          },
+          {
+            "title": "Nutrient Depletions",
+            "category": "nutrient_depletions",
+            "entries": {
+              "depletion": 23
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": true,
+          "present_in_record": true,
+          "entry_count": 23,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "title": "Lactobacillus acidophilus",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=790",
+      "source_content_hash": "250a89df84372a663770c8ae6c305c049f50c7e568b4502d49ad6abfefb5d401",
+      "claim_count": 92,
+      "claims_by_type": {
+        "safety": 6,
+        "adverse_effect": 7,
+        "effectiveness": 75,
+        "dose": 3,
+        "interaction": 1
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 3,
+          "fields": {
+            "dose.text": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.unit": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.qualifier": {
+              "populated": 2,
+              "unknown": 1
+            },
+            "dose.regimen": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "population": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "dose.frequency": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "dose.duration": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "dose.route": {
+              "populated": 3,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 3
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 3
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 75,
+          "fields": {
+            "indication": {
+              "populated": 75,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 75,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 75
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 6,
+          "fields": {
+            "population": {
+              "populated": 5,
+              "unknown": 1
+            },
+            "safety_rating": {
+              "populated": 3,
+              "unknown": 3
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 7,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 7,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 1,
+          "fields": {
+            "interaction.partner": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "interaction.severity": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "interaction.occurrence": {
+              "populated": 1,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 1,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 4,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 7,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 75,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 3,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 2,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "no_structured_fields": 2,
+        "section_qualification": 1,
+        "unresolved_dose_normalization": 1,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "aaec5bc02576cffe80d7cfe78f6b0d598da5f4ea61f3024ad3a795bf8963922e",
+        "inline_citation_count": 234,
+        "bibliography_entry_count": 291,
+        "citations_missing_from_bibliography": [],
+        "panels": [
+          {
+            "title": "Warnings",
+            "category": "warnings",
+            "entries": {
+              "statement": 1
+            }
+          },
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 5
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 7
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 75,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 1
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 2
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": false,
+          "present_in_record": false,
+          "entry_count": 0,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "title": "Vitamin D",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=929",
+      "source_content_hash": "173a3d11b517fbfbacba3f4a337deaf928104a216d34f6ae3037eb22f9e0218c",
+      "claim_count": 193,
+      "claims_by_type": {
+        "safety": 17,
+        "adverse_effect": 11,
+        "effectiveness": 137,
+        "dose": 18,
+        "interaction": 10
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 18,
+          "fields": {
+            "dose.text": {
+              "populated": 18,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 13,
+              "unknown": 5
+            },
+            "dose.minimum": {
+              "populated": 2,
+              "unknown": 16
+            },
+            "dose.maximum": {
+              "populated": 2,
+              "unknown": 16
+            },
+            "dose.unit": {
+              "populated": 15,
+              "unknown": 3
+            },
+            "dose.qualifier": {
+              "populated": 7,
+              "unknown": 11
+            },
+            "dose.regimen": {
+              "populated": 6,
+              "unknown": 12
+            },
+            "population": {
+              "populated": 17,
+              "unknown": 1
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "dose.frequency": {
+              "populated": 15,
+              "unknown": 3
+            },
+            "dose.duration": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "dose.route": {
+              "populated": 18,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 18
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 137,
+          "fields": {
+            "indication": {
+              "populated": 137,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 137,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 137
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 17,
+          "fields": {
+            "population": {
+              "populated": 15,
+              "unknown": 2
+            },
+            "safety_rating": {
+              "populated": 8,
+              "unknown": 9
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 11,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 11,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 10,
+          "fields": {
+            "interaction.partner": {
+              "populated": 10,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 8,
+              "unknown": 2
+            },
+            "interaction.severity": {
+              "populated": 8,
+              "unknown": 2
+            },
+            "interaction.occurrence": {
+              "populated": 8,
+              "unknown": 2
+            },
+            "evidence_grade": {
+              "populated": 8,
+              "unknown": 2
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 8,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 11,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 137,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 18,
+          "issue_count": 4,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 8,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 2,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 8,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:8dd04c27d96778422b37b7f1",
+          "section_index": 12,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "section_qualification": 1,
+        "unquantified_dose_statement": 1,
+        "unresolved_dose_population": 1,
+        "unresolved_dose_normalization": 2,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "cd2114a1738e4f702d2baee259c2d6ea0c25fb9a11b99f7d4da9983de3861abf",
+        "inline_citation_count": 632,
+        "bibliography_entry_count": 628,
+        "citations_missing_from_bibliography": [
+          "1832",
+          "2675",
+          "4430",
+          "4431",
+          "4460",
+          "4461",
+          "4475",
+          "10577",
+          "10578",
+          "10593",
+          "10594",
+          "10595",
+          "10596",
+          "10597",
+          "10598",
+          "10599",
+          "11507",
+          "11508",
+          "11509",
+          "11555",
+          "11561",
+          "11562",
+          "11563",
+          "11564",
+          "11565",
+          "12993",
+          "95912",
+          "97294",
+          "109741",
+          "117939"
+        ],
+        "panels": [
+          {
+            "title": "Warnings",
+            "category": "warnings",
+            "entries": {
+              "statement": 1
+            }
+          },
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 8
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 11
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 137,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 8
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 2
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 8
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Nutrient Depletions",
+            "category": "nutrient_depletions",
+            "entries": {
+              "depletion": 15
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": true,
+          "present_in_record": true,
+          "entry_count": 15,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "title": "Fish Oil",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=993",
+      "source_content_hash": "5729a7d6e1534e65f77266b6752e2dfe2ec55992a2198cb16fb50fd0393dabbf",
+      "claim_count": 177,
+      "claims_by_type": {
+        "safety": 14,
+        "adverse_effect": 13,
+        "effectiveness": 132,
+        "dose": 5,
+        "interaction": 13
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 5,
+          "fields": {
+            "dose.text": {
+              "populated": 5,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 1,
+              "unknown": 4
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 5
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 5
+            },
+            "dose.unit": {
+              "populated": 1,
+              "unknown": 4
+            },
+            "dose.qualifier": {
+              "populated": 1,
+              "unknown": 4
+            },
+            "dose.regimen": {
+              "populated": 0,
+              "unknown": 5
+            },
+            "population": {
+              "populated": 5,
+              "unknown": 0
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 5
+            },
+            "dose.frequency": {
+              "populated": 4,
+              "unknown": 1
+            },
+            "dose.duration": {
+              "populated": 1,
+              "unknown": 4
+            },
+            "dose.route": {
+              "populated": 5,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 5
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 5
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 132,
+          "fields": {
+            "indication": {
+              "populated": 132,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 132,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 132
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 14,
+          "fields": {
+            "population": {
+              "populated": 11,
+              "unknown": 3
+            },
+            "safety_rating": {
+              "populated": 7,
+              "unknown": 7
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 13,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 13,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 13,
+          "fields": {
+            "interaction.partner": {
+              "populated": 13,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 9,
+              "unknown": 4
+            },
+            "interaction.severity": {
+              "populated": 9,
+              "unknown": 4
+            },
+            "interaction.occurrence": {
+              "populated": 9,
+              "unknown": 4
+            },
+            "evidence_grade": {
+              "populated": 9,
+              "unknown": 4
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 3,
+          "heading": "warnings",
+          "claim_type": "safety",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 4,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 7,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 5,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 13,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 6,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 132,
+          "issue_count": 2,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 7,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 5,
+          "issue_count": 4,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 9,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 9,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 10,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 4,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 11,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 7,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:9846bbe87087e6c66c605ff5",
+          "section_index": 12,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 0,
+          "issue_count": 1,
+          "status": "no_supported_claims"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable",
+        "placeholder_not_negative_evidence"
+      ],
+      "extraction_issue_counts": {
+        "no_structured_fields": 1,
+        "inline_condition_heading": 1,
+        "section_qualification": 1,
+        "unquantified_dose_statement": 1,
+        "unresolved_dose_normalization": 3,
+        "placeholder_not_negative_evidence": 1
+      },
+      "html": {
+        "sha256": "6dd341f7b01bb533c6ac709ef48619ad9363c41ad90c3fa9a6337aa07328f796",
+        "inline_citation_count": 916,
+        "bibliography_entry_count": 1062,
+        "citations_missing_from_bibliography": [
+          "65568",
+          "65958",
+          "66221",
+          "66278",
+          "66338",
+          "92076",
+          "98250",
+          "100252",
+          "103498",
+          "109222"
+        ],
+        "panels": [
+          {
+            "title": "Warnings",
+            "category": "warnings",
+            "entries": {
+              "statement": 1
+            }
+          },
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 7
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 13
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 133,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 9
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 4
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 7
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "note": 1
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": false,
+          "present_in_record": false,
+          "entry_count": 0,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    },
+    {
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "title": "Iron",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=912",
+      "source_content_hash": "fcdddd817d3a802aa7b6cfb3d9874bf5f16910d8b932133ef3c7f67bad8450c3",
+      "claim_count": 89,
+      "claims_by_type": {
+        "safety": 14,
+        "adverse_effect": 13,
+        "effectiveness": 20,
+        "dose": 18,
+        "interaction": 24
+      },
+      "field_coverage": {
+        "dose": {
+          "claim_count": 18,
+          "fields": {
+            "dose.text": {
+              "populated": 18,
+              "unknown": 0
+            },
+            "dose.value": {
+              "populated": 18,
+              "unknown": 0
+            },
+            "dose.minimum": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "dose.maximum": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "dose.unit": {
+              "populated": 18,
+              "unknown": 0
+            },
+            "dose.qualifier": {
+              "populated": 3,
+              "unknown": 15
+            },
+            "dose.regimen": {
+              "populated": 8,
+              "unknown": 10
+            },
+            "population": {
+              "populated": 17,
+              "unknown": 1
+            },
+            "indication": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "dose.frequency": {
+              "populated": 3,
+              "unknown": 15
+            },
+            "dose.duration": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "dose.route": {
+              "populated": 18,
+              "unknown": 0
+            },
+            "ingredient.formulation": {
+              "populated": 0,
+              "unknown": 18
+            },
+            "ingredient.strain": {
+              "populated": 0,
+              "unknown": 18
+            }
+          }
+        },
+        "effectiveness": {
+          "claim_count": 20,
+          "fields": {
+            "indication": {
+              "populated": 20,
+              "unknown": 0
+            },
+            "effectiveness_rating": {
+              "populated": 20,
+              "unknown": 0
+            },
+            "evidence_grade": {
+              "populated": 0,
+              "unknown": 20
+            }
+          }
+        },
+        "safety": {
+          "claim_count": 14,
+          "fields": {
+            "population": {
+              "populated": 12,
+              "unknown": 2
+            },
+            "safety_rating": {
+              "populated": 6,
+              "unknown": 8
+            }
+          }
+        },
+        "adverse_effect": {
+          "claim_count": 13,
+          "fields": {
+            "adverse_effect_category": {
+              "populated": 13,
+              "unknown": 0
+            }
+          }
+        },
+        "interaction": {
+          "claim_count": 24,
+          "fields": {
+            "interaction.partner": {
+              "populated": 24,
+              "unknown": 0
+            },
+            "interaction.rating": {
+              "populated": 13,
+              "unknown": 11
+            },
+            "interaction.severity": {
+              "populated": 13,
+              "unknown": 11
+            },
+            "interaction.occurrence": {
+              "populated": 13,
+              "unknown": 11
+            },
+            "evidence_grade": {
+              "populated": 13,
+              "unknown": 11
+            }
+          }
+        }
+      },
+      "sections": [
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 3,
+          "heading": "safety",
+          "claim_type": "safety",
+          "candidate_count": 6,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 4,
+          "heading": "adverse effects",
+          "claim_type": "adverse_effect",
+          "candidate_count": 13,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 5,
+          "heading": "effectiveness",
+          "claim_type": "effectiveness",
+          "candidate_count": 20,
+          "issue_count": 1,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 6,
+          "heading": "dosing & administration",
+          "claim_type": "dose",
+          "candidate_count": 18,
+          "issue_count": 2,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 8,
+          "heading": "interactions with drugs",
+          "claim_type": "interaction",
+          "candidate_count": 13,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 9,
+          "heading": "interactions with supplements",
+          "claim_type": "interaction",
+          "candidate_count": 10,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 10,
+          "heading": "interactions with conditions",
+          "claim_type": "safety",
+          "candidate_count": 8,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        },
+        {
+          "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+          "section_index": 11,
+          "heading": "interactions with lab tests",
+          "claim_type": "interaction",
+          "candidate_count": 1,
+          "issue_count": 0,
+          "status": "extracted_pending"
+        }
+      ],
+      "source_completeness": "unverified",
+      "medical_review": "pending",
+      "capture_issue_codes": [
+        "bibliography_snapshot_unverified",
+        "formulation_scope",
+        "medical_review_required",
+        "original_unavailable"
+      ],
+      "extraction_issue_counts": {
+        "section_qualification": 1,
+        "unresolved_dose_population": 1,
+        "unresolved_dose_duration": 1
+      },
+      "html": {
+        "sha256": "4399aeef867bc2e9682d103f7a88dbe8b4000edcfcd657580de10171fb6c8fba",
+        "inline_citation_count": 232,
+        "bibliography_entry_count": 666,
+        "citations_missing_from_bibliography": [
+          "56469",
+          "56683",
+          "91180"
+        ],
+        "panels": [
+          {
+            "title": "Safety",
+            "category": "safety",
+            "entries": {
+              "statement": 6
+            }
+          },
+          {
+            "title": "Adverse Effects",
+            "category": "adverse_effects",
+            "entries": {
+              "adverse_effect": 13
+            }
+          },
+          {
+            "title": "Effectiveness",
+            "category": "effectiveness",
+            "entries": {
+              "effectiveness": 20,
+              "note": 1
+            }
+          },
+          {
+            "title": "Dosing & Administration",
+            "category": "dosing",
+            "entries": {}
+          },
+          {
+            "title": "Interactions with Drugs",
+            "category": "drug_interactions",
+            "entries": {
+              "interaction": 13
+            }
+          },
+          {
+            "title": "Interactions with Supplements",
+            "category": "supplement_interactions",
+            "entries": {
+              "interaction": 10
+            }
+          },
+          {
+            "title": "Interactions with Conditions",
+            "category": "contraindications",
+            "entries": {
+              "condition_interaction": 8
+            }
+          },
+          {
+            "title": "Interactions with Lab Tests",
+            "category": "lab_interactions",
+            "entries": {
+              "interaction": 1
+            }
+          },
+          {
+            "title": "Nutrient Depletions",
+            "category": "nutrient_depletions",
+            "entries": {
+              "depletion": 9
+            }
+          },
+          {
+            "title": "Overdose",
+            "category": "overdose",
+            "entries": {}
+          },
+          {
+            "title": "Pharmacokinetics",
+            "category": "pharmacokinetics",
+            "entries": {}
+          },
+          {
+            "title": "Mechanism of Action",
+            "category": "mechanism",
+            "entries": {}
+          }
+        ],
+        "nutrient_depletions": {
+          "present_in_html": true,
+          "present_in_record": true,
+          "entry_count": 9,
+          "claims_extracted": 0,
+          "note": "Depletion ratings are not interaction ratings; no claim is derived."
+        }
+      }
+    }
+  ],
+  "extraction_issue_counts": {
+    "section_not_in_html": 1,
+    "section_qualification": 10,
+    "placeholder_not_negative_evidence": 7,
+    "unquantified_dose_statement": 5,
+    "no_structured_fields": 6,
+    "inline_condition_heading": 2,
+    "unresolved_dose_population": 8,
+    "unresolved_dose_normalization": 9,
+    "unresolved_dose_duration": 1
+  },
+  "missing_manifest_urls": [],
+  "issues": [
+    {
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "section_index": 3,
+      "code": "section_not_in_html",
+      "start": 0,
+      "end": 100,
+      "message": "No page panel is titled 'warnings' (the saved section may come from text embedded elsewhere on the page); no structured claims extracted."
+    },
+    {
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 29728,
+      "end": 29787,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 5,
+      "code": "section_qualification",
+      "start": 45140,
+      "end": 45199,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 8,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 88631,
+      "end": 88687,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 7,
+      "code": "unquantified_dose_statement",
+      "start": 640,
+      "end": 743,
+      "message": "A real administration statement provides no safely normalizable dose quantity."
+    },
+    {
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 12,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 3,
+      "code": "no_structured_fields",
+      "start": 0,
+      "end": 607,
+      "message": "Statement has neither a publisher safety rating nor a population/condition label."
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 4,
+      "code": "no_structured_fields",
+      "start": 762,
+      "end": 864,
+      "message": "Statement has neither a publisher safety rating nor a population/condition label."
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 49225,
+      "end": 49281,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 9,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 3,
+      "code": "no_structured_fields",
+      "start": 0,
+      "end": 660,
+      "message": "Statement has neither a publisher safety rating nor a population/condition label."
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 95715,
+      "end": 95772,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 7,
+      "code": "unquantified_dose_statement",
+      "start": 566,
+      "end": 660,
+      "message": "A real administration statement provides no safely normalizable dose quantity."
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 12,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 5,
+      "code": "inline_condition_heading",
+      "start": 79608,
+      "end": 79609,
+      "message": "Condition shares a line with its summary, so no whole-line heading can be anchored: Pseudoxanthoma elasticum (PXE)"
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 5,
+      "code": "section_qualification",
+      "start": 80071,
+      "end": 80128,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 179,
+      "end": 185,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 261,
+      "end": 267,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 348,
+      "end": 354,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 381,
+      "end": 387,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 462,
+      "end": 468,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 491,
+      "end": 497,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unquantified_dose_statement",
+      "start": 527,
+      "end": 569,
+      "message": "A real administration statement provides no safely normalizable dose quantity."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_normalization",
+      "start": 790,
+      "end": 800,
+      "message": "Amount follows a sentence naming a salt/compound of the titled ingredient; it is not interchangeable with the ingredient itself."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_normalization",
+      "start": 828,
+      "end": 839,
+      "message": "Amount follows a sentence naming a salt/compound of the titled ingredient; it is not interchangeable with the ingredient itself."
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "code": "unresolved_dose_normalization",
+      "start": 889,
+      "end": 905,
+      "message": "Amount follows a sentence naming a salt/compound of the titled ingredient; it is not interchangeable with the ingredient itself."
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 3,
+      "code": "no_structured_fields",
+      "start": 0,
+      "end": 1477,
+      "message": "Statement has neither a publisher safety rating nor a population/condition label."
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 4,
+      "code": "no_structured_fields",
+      "start": 500,
+      "end": 642,
+      "message": "Statement has neither a publisher safety rating nor a population/condition label."
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 81523,
+      "end": 81596,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 7,
+      "code": "unresolved_dose_normalization",
+      "start": 344,
+      "end": 388,
+      "message": "Mixed-scale range cannot be normalized without a unit conversion."
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 10,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 159760,
+      "end": 159817,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 7,
+      "code": "unquantified_dose_statement",
+      "start": 1176,
+      "end": 1237,
+      "message": "A real administration statement provides no safely normalizable dose quantity."
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 7,
+      "code": "unresolved_dose_population",
+      "start": 2016,
+      "end": 2022,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 7,
+      "code": "unresolved_dose_normalization",
+      "start": 2846,
+      "end": 2852,
+      "message": "Formulation or accidental-administration warning must not be normalized as a target dose."
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 7,
+      "code": "unresolved_dose_normalization",
+      "start": 2923,
+      "end": 2932,
+      "message": "Thousands-separated quantity cannot use an unchanged numeric source anchor."
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 12,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 3,
+      "code": "no_structured_fields",
+      "start": 0,
+      "end": 1087,
+      "message": "Statement has neither a publisher safety rating nor a population/condition label."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 6,
+      "code": "inline_condition_heading",
+      "start": 156553,
+      "end": 156554,
+      "message": "Condition shares a line with its summary, so no whole-line heading can be anchored: Heart transplant"
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 6,
+      "code": "section_qualification",
+      "start": 157121,
+      "end": 157177,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 7,
+      "code": "unquantified_dose_statement",
+      "start": 98,
+      "end": 145,
+      "message": "A real administration statement provides no safely normalizable dose quantity."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 7,
+      "code": "unresolved_dose_normalization",
+      "start": 337,
+      "end": 343,
+      "message": "Component/formulation quantities are not interchangeable with a dose of the titled ingredient."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 7,
+      "code": "unresolved_dose_normalization",
+      "start": 383,
+      "end": 389,
+      "message": "Component/formulation quantities are not interchangeable with a dose of the titled ingredient."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 7,
+      "code": "unresolved_dose_normalization",
+      "start": 421,
+      "end": 427,
+      "message": "Component/formulation quantities are not interchangeable with a dose of the titled ingredient."
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 12,
+      "code": "placeholder_not_negative_evidence",
+      "start": 0,
+      "end": 11,
+      "message": "Placeholder or limited research does not establish absence of risk or benefit."
+    },
+    {
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 5,
+      "code": "section_qualification",
+      "start": 24910,
+      "end": 24962,
+      "message": "Group-level uncertainty is retained in the source, not a condition-specific rating."
+    },
+    {
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 6,
+      "code": "unresolved_dose_population",
+      "start": 312,
+      "end": 320,
+      "message": "Local demographic qualifiers cannot be represented unambiguously; population remains unknown."
+    },
+    {
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 6,
+      "code": "unresolved_dose_duration",
+      "start": 2040,
+      "end": 2051,
+      "message": "Duration is not a single explicit numeric duration; the verbatim clause is retained."
+    }
+  ],
+  "readiness": {
+    "research_annotation": "pending_candidates_with_documented_gaps",
+    "clinical_recommendations": "blocked",
+    "clinical_safety_graph": "blocked",
+    "original_source_comparison": "not_performed",
+    "medical_review": "not_performed"
+  },
+  "limitations": [
+    "Structured source annotations, not treatment recommendations or medically validated facts.",
+    "Every claim is pending. Source completeness and medical validity remain unverified.",
+    "Entries the page markup describes but the saved text cannot anchor unambiguously, placeholders and group-level qualifications produce issues, not inferred facts.",
+    "Condition interactions are safety claims whose population field holds the source condition heading; they describe caution in that condition, not an indication for use.",
+    "Citation reference numbers stay verbatim in excerpts; they are not resolved to studies and some may be absent from the captured bibliography (see per-source citation reports).",
+    "Source bounds, alternatives, populations, routes and uncertainty remain in verbatim excerpts.",
+    "Unknown fields remain null; no unit/scale conversion, UMLS mapping or negative-risk inference.",
+    "Review all extracted associations against the original before clinical or safety-engine use."
+  ]
+}

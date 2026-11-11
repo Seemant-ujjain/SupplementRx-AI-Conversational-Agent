@@ -1,0 +1,3424 @@
+{
+  "report_version": "1.0",
+  "audit_kind": "saved_capture_structural_only",
+  "original_access": "unavailable",
+  "source_completeness": "unverified",
+  "medical_validity": "unverified",
+  "auto_approved_claims": 0,
+  "source_count": 10,
+  "expected_manifest_count": 10,
+  "missing_manifest_urls": [],
+  "limitations": [
+    "No original-source comparison or medical certification was performed.",
+    "Hashes identify saved UTF-8 text, not inaccessible original HTML or a publisher signature.",
+    "Citation syntax and section presence do not verify studies, medical truth or complete capture.",
+    "No claims, evidence grades, doses or clinical labels are inferred or approved."
+  ],
+  "sources": [
+    {
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "title": "Ashwagandha",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+      "source_content_sha256": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+      "stored_content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:25:05.335Z",
+      "source_updated_at": "10/28/2026",
+      "topic_mapping": {
+        "topics": [
+          "Ashwagandha"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Ashwagandha",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 7712,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 11,
+          "words": 1,
+          "content_sha256": "51f245ab6a3e829a372b44569d937cfd51e617e0faf37a566b26ce5f27c51759",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 794,
+          "words": 97,
+          "content_sha256": "258d4a1117619edbc704216f52785fda91c597cf2e67bc2b5378dbe8b5b30987",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 325,
+          "words": 51,
+          "content_sha256": "9162a3cdb7d101ea390fd0cebb84bf68b87806dd55a0e3cb0e19201aed8684c3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 100,
+          "words": 13,
+          "content_sha256": "f30f57cdd147a0b52a1579cfcb4dc6392e52396fc78e389066debca42f822bbd",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 1144,
+          "words": 166,
+          "content_sha256": "1863e57e07e391dbc98c1e4409ee6bd45c2a59f55149cebb612c834a25253559",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 4272,
+          "words": 574,
+          "content_sha256": "dfbbb21984660108db911827c0590c97dca292ccb3b35985c796d8c63f2e902e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 29787,
+          "words": 4407,
+          "content_sha256": "233d65c2ca99353c4be066d499a8c2342e87b96a1d299c727c272f03846dd7ef",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 378,
+          "words": 56,
+          "content_sha256": "766bd446dd37ca8f2bf7b3ba95b05fd3c9dd184f487f9efbb49c762a7ee97abf",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 686,
+          "words": 94,
+          "content_sha256": "45e3b5176c6082ac771f9899e4167d713da464c80ccfe897cefc516fadef3b9d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 4290,
+          "words": 561,
+          "content_sha256": "56601cb1b9a900de5aaa0831c9e78163f174180bad484ca348e64a3ffeaef2da",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 1044,
+          "words": 132,
+          "content_sha256": "9c0328ddc7ae20669fb84cdb14c3f670f2dffe9e5bcc08e32e667d1d177ad400",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 1478,
+          "words": 192,
+          "content_sha256": "6d5a34399c501668a464be321c52c8b354c716636ac0848907715a0c991b6d1d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 632,
+          "words": 87,
+          "content_sha256": "1105a78511b7ce24b35248ce29224e707f3963232e51801eda926d99c174869a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 118,
+          "words": 15,
+          "content_sha256": "aaee0c4cabfb16b9fb7a842575059ee341753ce43b200fb014474d4b80cc210b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 1014,
+          "words": 151,
+          "content_sha256": "3856395a909f2234de9a0fdd5aaa5eb10ac1388ae5ae9ed0150bd7f831feabb3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 7468,
+          "words": 978,
+          "content_sha256": "5f1d390496e50837cebb9c5969b4c2639cc9d8b6c169b248d7210a54a5fcf9f7",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 223,
+          "words": 21,
+          "content_sha256": "bc54568eec3d819b5ef5d0c2e4847f1a489da1730eb5e40c2e3610fa0786b88f",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 543,
+          "words": 82,
+          "content_sha256": "7444315f03a42a5708b8c61e3c5cd2de4648f8dfe99c1abffa3fc6c865c3514b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 286,
+        "unique_url_count": 119,
+        "duplicate_url_count": 167,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "c7318d6f752097b867a7964f63dc0e5d7cd4849f7c2078298703c3ade951a96f"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "title": "Vitamin B12",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=926",
+      "source_content_sha256": "c35529f6d159152fd2c61f0b95e33e5ea31b33231b39e76ffeb4278006ebc98b",
+      "stored_content_hash": "c35529f6d159152fd2c61f0b95e33e5ea31b33231b39e76ffeb4278006ebc98b",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:25:35.409Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Vitamin B12"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Vitamin B12",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 12407,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "f402a761bdab722088b36e1165ecd8d42873303ca00e5d3bd05a6e5896737825",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 566,
+          "words": 55,
+          "content_sha256": "b511d92603ae1a33aa28a6fbd7e1aae55a257bc3be680acaaae450ef803b1fbf",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 550,
+          "words": 87,
+          "content_sha256": "fc1236da0aba2b984c22ff1f114518a7f35ce14679e1cdda6e3102600b3072f3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 911,
+          "words": 134,
+          "content_sha256": "d6d2b11c84acb79ba3c80ba6db369d76369ef05375e610ae47134bb63ac9e63b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 5400,
+          "words": 778,
+          "content_sha256": "3c1c10cca43a67c7ed082948c3bb8d6cbff22a640ec9b14779b2db876525e49b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 45199,
+          "words": 6938,
+          "content_sha256": "34e35e412ddb8ec318cfe32e34b6ad6cf9cb083cd64d86951795e1055cb01de5",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 1284,
+          "words": 197,
+          "content_sha256": "a4e6c9b3ae2f146792a9531f4eceb4278f172b531a0ca5bca3294d7e5a973a37",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 824,
+          "words": 125,
+          "content_sha256": "03aba0875fb79a29adb11210a853abfbbb55aec74324b3ecfe613f7f49b35260",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 9,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 1350,
+          "words": 204,
+          "content_sha256": "06b0d3ed4b6e30d9d25110ae44f6ba184bbebadb6e508d5f415a342316f5490e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 672,
+          "words": 102,
+          "content_sha256": "3b68a3560d74a27d5975e589e2078ceb7f7ea29f4abc7444e824f829c6e3db08",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 1546,
+          "words": 211,
+          "content_sha256": "d5cea8425363c03b6e220753a911d1b5486c3e2b54ef96530edeea93ca0165c6",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "nutrient depletions",
+          "category": "nutrient_depletions",
+          "characters": 14340,
+          "words": 2123,
+          "content_sha256": "dd9216a7e35ca4c93649b7a65fddb93747d13ddfccac8aded5e5293ad0c1cd76",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 118,
+          "words": 16,
+          "content_sha256": "15ac871905345e0eb2094094901e1c4c93896a8244e7c462b8453300fd9a895d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 1620,
+          "words": 236,
+          "content_sha256": "5f716677d288cbf01adb854f90d9ee0d7d172d17f5751bce13ed9369ad25cbdc",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 7490,
+          "words": 1078,
+          "content_sha256": "037bc5ab27dbffdf77154becc21b881f07ecb541e1b3e0681b8c1ac4bd8b25e3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 22,
+          "words": 2,
+          "content_sha256": "a44840987902b92d4103124d5e67fb9863661f339bef4b94d8f39b7e8a8c57d1",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "c31f98b2a6338a19d9c1991b1690655ddf8f325feae6b2ef353b0b97115c1a11",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 515,
+        "unique_url_count": 299,
+        "duplicate_url_count": 216,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "aa94f0546a6af2f0c38a7cbdab59397837ac6469d827fcb43ad146a2e67a17ad"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 8,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "title": "Turmeric",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=662",
+      "source_content_sha256": "349e70b2611f29aeb14144f86d9e41a0c72989345d7fd0a50767bac8ac74afbe",
+      "stored_content_hash": "349e70b2611f29aeb14144f86d9e41a0c72989345d7fd0a50767bac8ac74afbe",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:25:55.205Z",
+      "source_updated_at": "10/28/2026",
+      "topic_mapping": {
+        "topics": [
+          "Turmeric"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Turmeric",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 21509,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 8,
+          "words": 1,
+          "content_sha256": "60f9ceba5d316592e79002b17a92fe3525139f2d2286af36c61dad7ab5bfeb27",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 624,
+          "words": 80,
+          "content_sha256": "20d85e6f35a1d4ac7c08f4e6b3f3534d9c5753bfd6eccdc314a7b0217f57dd1d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 513,
+          "words": 81,
+          "content_sha256": "c79ffdae3eeebda22f83e24488603ee63656fc5a35dd9db50f714bb12534b01f",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 209,
+          "words": 29,
+          "content_sha256": "cc9b94133da02576a1f70cb4b37b4d58dde6e19389975849cbfe9527bc09ae41",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 1329,
+          "words": 209,
+          "content_sha256": "5824a8d6dc756c7833d3b4a069bdcbf2809c35b2c366cc1fecfd5ec885b4aefb",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 5674,
+          "words": 816,
+          "content_sha256": "ff89c65b27fe92cc40e90d5ce41a62bbf320ff488fb25582f378a1cf05c43e80",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 88687,
+          "words": 13203,
+          "content_sha256": "46c3cbb240b24e0e08d53ffa9dbe44088d82bb74d1697ff019761ae01f539703",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 873,
+          "words": 132,
+          "content_sha256": "e9e8b4828762cc40b96b0f6ba4eee1a5e44c06ef8430c8fbd79549cf9c331026",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 1999,
+          "words": 276,
+          "content_sha256": "e12fa38afb5714c70d70822d2ee0d8a1eb826862c19133cfbafcb6dd3e7bd7b3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 17143,
+          "words": 2420,
+          "content_sha256": "5dc55d886b28024c84395b1a0788c6544ee1b1ac31cb646f1f625ed0641f884e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 1821,
+          "words": 254,
+          "content_sha256": "9105831276b4857da869c18c032f26d707cb56ddab0ad02d4edba7fa3e2252aa",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 2007,
+          "words": 266,
+          "content_sha256": "20c34fea0eb1608977e1d1f7e4b8f2fc826c21f833dc35cee70b2f1ca30760d4",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 115,
+          "words": 15,
+          "content_sha256": "2042a15e3ea2ae696748021d6e41ee002abef0444bc21c613a809b0677ff7b3a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 2459,
+          "words": 363,
+          "content_sha256": "b0056dcbdb4ee2d002591753a119f16f014247c796698dec877785aeba23b60b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 24110,
+          "words": 3207,
+          "content_sha256": "15d746a920d6d7b1c19ebf0c732affe9e7bcdad2d0408c14a79edd164aa7162d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 390,
+          "words": 39,
+          "content_sha256": "a9242952352e91ad59a525092ef0f7ab5ed70ea978f03454041d60e2fca7a7d9",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 543,
+          "words": 82,
+          "content_sha256": "7444315f03a42a5708b8c61e3c5cd2de4648f8dfe99c1abffa3fc6c865c3514b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 992,
+        "unique_url_count": 587,
+        "duplicate_url_count": 405,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "a260a374464f4682869025d59a18e358c67b2e671eea93ff93f5a6da5a7f9771"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 12,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "title": "Creatine",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873",
+      "source_content_sha256": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+      "stored_content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:24:35.348Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Creatine"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Creatine",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 13324,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 8,
+          "words": 1,
+          "content_sha256": "71d446e13373bac52ee439e93cfabf9a74a62a81ecc6686d7c33fa31bf3609bb",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 906,
+          "words": 94,
+          "content_sha256": "52a5552ac0694c19f44921ec8a53b9579688d0047fdf5fd220aa73493ecac331",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 372,
+          "words": 65,
+          "content_sha256": "39fec841f067d03ab5d778dbab6e2de65289ce65ab382ea9e36638b676e38cc1",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 607,
+          "words": 90,
+          "content_sha256": "cf65f3e253555874da5e5503a984496f512019f7ea4dbeef8e1ade085df94fb9",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 1542,
+          "words": 242,
+          "content_sha256": "dba464afee1d2860f5abb75d322e0bd862bddce960f0657792a4a2c85e2a58dd",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 14644,
+          "words": 2145,
+          "content_sha256": "583a13aa8353b394b06fbe10829a90726bbf909342ef59a26dd54ad1b040d941",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 49281,
+          "words": 7487,
+          "content_sha256": "cf9af940f46e06177ffa6dab6fba810e88544945ed37b54fe317907979d1201b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 369,
+          "words": 60,
+          "content_sha256": "2b4664661c7f335d33a7566be0cbcddb215da99d4488e19497d4612dd0379010",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 718,
+          "words": 99,
+          "content_sha256": "a6d1e6f45ba2076f1398f48f3a3969aa2bfc4083c87ad3e1a003fe9126524cdb",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 668,
+          "words": 96,
+          "content_sha256": "57ffff24083df64173b455cd6bbc6edc24e2880469d1f8c9d7908c528f5d2ec7",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 1285,
+          "words": 181,
+          "content_sha256": "a0705c73be115153138b35c3d120ab5877c51c75ec6c8cf5b82702b25e615e83",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 549,
+          "words": 80,
+          "content_sha256": "43355b027767849eccd26fd63008dae875b6729591a229e6960a1ad5c48c280c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 115,
+          "words": 15,
+          "content_sha256": "e560b354eff38df503feaa436f682e5a2a365898f5eb2fd74cd583711384dd9f",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 3249,
+          "words": 515,
+          "content_sha256": "e44780a41cea15c036d9a6c6b601e8b8a82c8f8c0b4160a9be8e482549f4ac69",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 14821,
+          "words": 2030,
+          "content_sha256": "638cb8f8ecf8ab7a6290c59fa50de0558d14f42b388481c119549adad721cd4d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 53,
+          "words": 6,
+          "content_sha256": "6af79eb83a1edd85584715b58ffd6c7e40e77a0309ec902609cbfec516c9b151",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "cbe6bc7a8e9b41e2bbcddfae69736604b8bb51559517ef24c8b4ebf84b3e6bf8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 711,
+        "unique_url_count": 393,
+        "duplicate_url_count": 318,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "c2665688499a7298793ca29c7de5aa6c8d0534de371a50f08d20c2334dc2c174"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 9,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "title": "Melatonin",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=940",
+      "source_content_sha256": "d4e546f1537a0bffa6d8d4d8b4d141fcd5ead3370510ff5edbdf487a4be057f5",
+      "stored_content_hash": "d4e546f1537a0bffa6d8d4d8b4d141fcd5ead3370510ff5edbdf487a4be057f5",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:25:15.199Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Melatonin"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Melatonin",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 26751,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 9,
+          "words": 1,
+          "content_sha256": "9f4c97304fe979bf748acd2eea57dc8770702e09d0d338bfb356a9733c79e41a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 267,
+          "words": 30,
+          "content_sha256": "778aa515cc322888870701705f5dcda2a7c0d5a3361e853c22fdef2ca5d50256",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 209,
+          "words": 30,
+          "content_sha256": "e363a29bad0b8dc7ab978fce4205105d4e3cfcb06e161b1407ac74bab91dc99d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 660,
+          "words": 99,
+          "content_sha256": "f9b4e5ccfdb3356883022fa4a776bef0e8eb4802ab750bfa931712ca95f9d017",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 3901,
+          "words": 599,
+          "content_sha256": "2818c58121b1277ec013b4d11c4688d8552f6171d610c41679ef97ffe02c1d7d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 8266,
+          "words": 1190,
+          "content_sha256": "5eeee0d5df31d3b30d7440e37ae389542444bff452fb4ba6a538fb7024ca4c6a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 95772,
+          "words": 14420,
+          "content_sha256": "af6e0695f6157518e607fa08512cf857bc1e5df12a0c3c7b651750271df7c663",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 884,
+          "words": 126,
+          "content_sha256": "881b761427beb6a0dca49e919ee23875e983720d4664bedc8d6307e63ce35fea",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 2116,
+          "words": 299,
+          "content_sha256": "6e4d3bdc521d5e36f1734e7ad25cf1a5257052b2f8ba93f5f07caf168ae6792e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 12034,
+          "words": 1620,
+          "content_sha256": "95b4f78b6378c0d6b323c362f8623f74f77ead7d9c9f0e8fbea1a40c16f3b4a0",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 3342,
+          "words": 437,
+          "content_sha256": "fdf1ed4a4ce6e917048a4e95ea91e970c44925ec4dacf4e6030e54cc68187bb6",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 1793,
+          "words": 245,
+          "content_sha256": "84587f605e9a4a192e4fec18584a44fd0b090be3fb1babac5f1d379438dcb3bf",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 1909,
+          "words": 282,
+          "content_sha256": "09456a93e7b1ee47653445d1955527ca2213298c4de70062aceeedf8e2ce9299",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 5476,
+          "words": 821,
+          "content_sha256": "9da42d6b4335c175537306ffed1d3f15c015b115a04c25548a23b6b4253c9768",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 47076,
+          "words": 6415,
+          "content_sha256": "ba1f7691ae1e79b6c248fb9014d48f07f9fbac784547a406f3ca689f6a80064c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 201,
+          "words": 19,
+          "content_sha256": "d9ccc6578b0c63964e81bca20a9849c2087b879f2bd1c5d323756d2064b5beed",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "4a72d6d1d2e392c57df4d1a489abc751454dee9153c63ee2a39f4dc654b2b90c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 1755,
+        "unique_url_count": 996,
+        "duplicate_url_count": 759,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "ae61e758922530796fd16ea99042d840b4805378d51d2de3861925ca0787b22d"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 12,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "title": "Magnesium",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=998",
+      "source_content_sha256": "6ab2c715cf47647dc86ed7d1588dbe1f6ec4d2dc13d7a9622bac3bc31593a739",
+      "stored_content_hash": "6ab2c715cf47647dc86ed7d1588dbe1f6ec4d2dc13d7a9622bac3bc31593a739",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:24:45.367Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Magnesium"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Magnesium",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 21004,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 9,
+          "words": 1,
+          "content_sha256": "b502eb348ec79060af2ecf9bd586a492c025478eeda20aa21b6d19aafc5019ae",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 1253,
+          "words": 145,
+          "content_sha256": "4e64a27b23a2bb894022cdfe49819ab1b77957b078a3f02c6ee4ae6d0b29cf93",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 671,
+          "words": 104,
+          "content_sha256": "c3618afe77258d7e271def1ab820d1a214e4e81cfa230a6a871ebe33392e8982",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 3231,
+          "words": 480,
+          "content_sha256": "5e0da30ddfb1dbd8528a2d75c0e6e6f0940fb51bb5bc61af1ce075add77730bb",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 6643,
+          "words": 909,
+          "content_sha256": "d2f50dff68d8364ca990d673ae0dadfe1172057792c60b307a09fd2754b685c5",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 80128,
+          "words": 11835,
+          "content_sha256": "f3e4af26be885b80d6929ca096546b65c43fec68e159310ce5e3b77cea72a5d7",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 1508,
+          "words": 253,
+          "content_sha256": "51198c752ad77be95c68a7f64204ea5a0ba1df41288f9560e34eef5015fcb9c9",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 700,
+          "words": 103,
+          "content_sha256": "03d3fed45a98f5d33ec41b93694e859d8bb6462886e020501007d07991b88ebe",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 11087,
+          "words": 1498,
+          "content_sha256": "7b7d04ab44bf1619eaa79df2eb8cfd9b35cab8dbef0f0d29899a7601c2f39bb2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 2845,
+          "words": 400,
+          "content_sha256": "d36665d107530e412738532f971199315d17de49850340e8f7bee3596d69c011",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 2159,
+          "words": 290,
+          "content_sha256": "5f695fc3fada989b640eed5d0e9efccd1f507c7f5732b0d4a504e4dbd70b46a6",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 324,
+          "words": 49,
+          "content_sha256": "8bf02f5d59d87ecf877cca386fde1ae54ec1cdb36a9a2d0b2980c359c7369f60",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "nutrient depletions",
+          "category": "nutrient_depletions",
+          "characters": 13277,
+          "words": 1898,
+          "content_sha256": "0a66101c92a0081b8cc5f47030acf26e15e035486154f9214ba46ee13a16b3d8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 1061,
+          "words": 148,
+          "content_sha256": "a02bfea3cf0e8cbe6c7b9bbdab1352386666f4957e2d25e23a45ab30f6e77b75",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 2726,
+          "words": 412,
+          "content_sha256": "7e5cd2434b56d0c97e7e2486611c043ff0c03b78fcddb047f51928f6831d5c8c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 16773,
+          "words": 2359,
+          "content_sha256": "25cb9348eae0a55af22d502c411de52340e8752fc4dbd2e722d178ea0f4c501c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 31,
+          "words": 3,
+          "content_sha256": "b6559516d83283120f934aff36059d15139f222abfba80af3f1fc5614626497f",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "cbe6bc7a8e9b41e2bbcddfae69736604b8bb51559517ef24c8b4ebf84b3e6bf8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 848,
+        "unique_url_count": 533,
+        "duplicate_url_count": 315,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "4394cd29339868a8f59c260ee05c15acfab8b56ac8f86a08ef3d0affc9c7800e"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "title": "Lactobacillus acidophilus",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=790",
+      "source_content_sha256": "250a89df84372a663770c8ae6c305c049f50c7e568b4502d49ad6abfefb5d401",
+      "stored_content_hash": "250a89df84372a663770c8ae6c305c049f50c7e568b4502d49ad6abfefb5d401",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:26:05.053Z",
+      "source_updated_at": "10/28/2026",
+      "topic_mapping": {
+        "topics": [
+          "Probiotics"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Lactobacillus acidophilus",
+        "scope_limitation": "Only Lactobacillus acidophilus is captured; do not generalize to all probiotics, other species, mixtures or unverified strains."
+      },
+      "words": 14523,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 25,
+          "words": 2,
+          "content_sha256": "66915c547063fb6bb567458ed265cd1baa33bc54bf300d5d5d8bb276cf9819e4",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 367,
+          "words": 42,
+          "content_sha256": "bd0a9e92bfb78b45d8f053446b64b987dddc1ab8e317d9871541437c5d71ffd7",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 520,
+          "words": 78,
+          "content_sha256": "61b3555b8ed6f4ca5d6b055c7a51bacfdc83cdfcbe29c2633b17f6a2f57ae839",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 1477,
+          "words": 210,
+          "content_sha256": "6cce5e9c919e60b496ada19d3856938b28a6d3bdf87c1fa8a89b84fb4591ab4d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 2563,
+          "words": 369,
+          "content_sha256": "076c765e856770c24a9eecd45d882f1098169fabec35e494894df4c8b2f074b5",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 2389,
+          "words": 317,
+          "content_sha256": "6106083c4f9dc1e9f73f090a106b9df6bc8bbbfa58f400c2ffb4e3cfbfb5eb89",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 81596,
+          "words": 11798,
+          "content_sha256": "7dda34c970ead406a8c800df51ceba457709b8ec02ae2ff2d98b40f0bf2c3fb2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 724,
+          "words": 107,
+          "content_sha256": "3f80ab724d242810d191f85165464c41ec53154437083a772d382d7ff1e69aad",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 1681,
+          "words": 214,
+          "content_sha256": "32689e3d07bd96a0eab68baea6843cf171e6c66dd2f4e96d99a51d080d75af6b",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 575,
+          "words": 74,
+          "content_sha256": "5f0982900b87fc0aaab7da80df8e74893cc9ae6cb5c6569fe7ef36da8a57d195",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 792,
+          "words": 101,
+          "content_sha256": "a9a16ed7cd16fe8a9dc4dbbefb6adb939da2348e2ffe33ca1a05af2087e7a5a7",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 132,
+          "words": 16,
+          "content_sha256": "127265a1e550b395fdf4ba5c905c43fedb10c67003ba045af12946aec45ed838",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 13,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 210,
+          "words": 29,
+          "content_sha256": "4a2f388eca9add46490ce1446ed6d6984d0aa055ff447d6dd6473746843d583a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 7498,
+          "words": 1050,
+          "content_sha256": "62f0743670b47231ab22c23ee12c3d66a6ef5ed22ad6f232ccd6ec12c5f99e44",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 29,
+          "words": 2,
+          "content_sha256": "fa793dffbf409ed9605f5819d4533b07f99a118d6514e22e27bc142acf44d90f",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "edfa0ee7e1fec6295010ac01bb36529ff213940d640f6960af3e81dcc6b542a5",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 345,
+        "unique_url_count": 234,
+        "duplicate_url_count": 111,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "1a6d2555eab1f965e77ebefb015f8e9d990a7d03f9e00a748b953fb53caf5722"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 10,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Only Lactobacillus acidophilus is captured; do not generalize to all probiotics, other species, mixtures or unverified strains."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "title": "Vitamin D",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=929",
+      "source_content_sha256": "173a3d11b517fbfbacba3f4a337deaf928104a216d34f6ae3037eb22f9e0218c",
+      "stored_content_hash": "173a3d11b517fbfbacba3f4a337deaf928104a216d34f6ae3037eb22f9e0218c",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:24:55.448Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Vitamin D"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Vitamin D",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 33876,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 9,
+          "words": 2,
+          "content_sha256": "221e4a346334822a1a1edb927a9d14737bb07b0e6dba173f77eceb55c1a8e73e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 1316,
+          "words": 102,
+          "content_sha256": "337c66e2c53fe8d09db9d49851bee730e27232a2adef7b3a3765c5239cd130a8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 879,
+          "words": 137,
+          "content_sha256": "5e40d5ce57d1d94178e80082e6c3c0371cc06427ff54761b805933e28263f3e6",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 538,
+          "words": 87,
+          "content_sha256": "9f9344b227d12d8473c94ad8528dbea013d73ccfc15b4454ee5660a0c9b0bb1a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 3170,
+          "words": 523,
+          "content_sha256": "a77a93a6b738a26d0bf3e7e1a95987be712c5f6b85f13e6e98b770e512abadb0",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 3423,
+          "words": 492,
+          "content_sha256": "3e1ebe5418334573762c981a9d36590684980bd17eaf494a3c7f9f2be1c9d5fc",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 159817,
+          "words": 24496,
+          "content_sha256": "8dd76e5feba8b2abade4b36ea8b79d5347485a01f44f323025c91572ced16ca8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 2949,
+          "words": 491,
+          "content_sha256": "d0edaa30eb6a1e0cddc40e0e7bc0753179b99bd0561cf657452c4c3d1a6136b3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 1486,
+          "words": 213,
+          "content_sha256": "440254d5bb7efef8c7f340edbdb4522e46bc6dcc73261d5d8bf388b7a108f1b3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 5611,
+          "words": 779,
+          "content_sha256": "7bf96aeb221d90e65e61ab15d62a17f8b1d70f93ee96e723f7d8591d53272ef6",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 1184,
+          "words": 176,
+          "content_sha256": "1ff37b88e55cbe51545b40ab6f0d11709a4a6c568dbfee14295311ec37c45c05",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 1986,
+          "words": 281,
+          "content_sha256": "5fc96932865185aff833d215af42d248cf859455a2ccd8060c6ca80e76fe6796",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 13,
+          "heading": "nutrient depletions",
+          "category": "nutrient_depletions",
+          "characters": 10116,
+          "words": 1526,
+          "content_sha256": "dd30b47baa2214942a206ad646337677de45d5ae9f4704f834d087e815dc4b91",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 1728,
+          "words": 236,
+          "content_sha256": "010030f2e0150db84341681545e9502c3ef8707509e8b45e38a6baf6293fa612",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 2691,
+          "words": 392,
+          "content_sha256": "37b22ede7628912bce0fc1f343c93da0068bcc7f373fe503611998612fbf0ef6",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 25254,
+          "words": 3815,
+          "content_sha256": "3e5def56629f86932635d7fdfc6810397815e1f69b7e025d0bf69cd1f5d208b7",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 79,
+          "words": 8,
+          "content_sha256": "7395740dc3002accf772f11ad0830debf0bb837fa2f48f614018cb0453b696c3",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 18,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "cbe6bc7a8e9b41e2bbcddfae69736604b8bb51559517ef24c8b4ebf84b3e6bf8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 1089,
+        "unique_url_count": 633,
+        "duplicate_url_count": 456,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "ee4103d421c0661020d83c52dfefc61c3e0620e5c0e0a65535a7f0a5de270b3e"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 12,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "title": "Fish Oil",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=993",
+      "source_content_sha256": "5729a7d6e1534e65f77266b6752e2dfe2ec55992a2198cb16fb50fd0393dabbf",
+      "stored_content_hash": "5729a7d6e1534e65f77266b6752e2dfe2ec55992a2198cb16fb50fd0393dabbf",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:25:25.399Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Omega-3"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Fish Oil",
+        "scope_limitation": "Fish Oil is the captured ingredient, not all Omega-3 sources; no transfer to algal oil or other formulations."
+      },
+      "words": 34792,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 8,
+          "words": 2,
+          "content_sha256": "64c26781e89812d0b7a19778de80bc8363d08a979bfee2a61d1effd0af6677e8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 1290,
+          "words": 196,
+          "content_sha256": "951d2a28a1614e355e569aa170f1f5a4e0521672364c422dec3ffcd61807f491",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 622,
+          "words": 99,
+          "content_sha256": "5ae3f1057a465c83655d664d0a4b39009d386e7545d6bba17ff1f9f451e1bb75",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "warnings",
+          "category": "warnings",
+          "characters": 1087,
+          "words": 159,
+          "content_sha256": "2a4640adfbb6c7994d08868bfed091eaade928ddd3d9d0e484f19953bd06c71c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 5038,
+          "words": 775,
+          "content_sha256": "3916829f6fa66040f7e2d6fdfa5c72704afab7e756787b0be9f6d9e521beed47",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 9512,
+          "words": 1446,
+          "content_sha256": "b20790bd8d334a4e118f7901ea56f19452628f1c0f25b7c68d323ff0761e873e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 157177,
+          "words": 24414,
+          "content_sha256": "4916c24d200b765b015400cb6428c6c59923481e0e9ba45ec431431fad921c5c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 685,
+          "words": 111,
+          "content_sha256": "4df59e96b450a7418845a23b9396242f32c6c910325ff4874fa57bfbfefd2a3f",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 1327,
+          "words": 228,
+          "content_sha256": "cc4c1054d1df9f01451a1f127cd260faaa950a5f1b0c335626689d0383788481",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 7109,
+          "words": 1023,
+          "content_sha256": "a79bbeac46d753b82a626f65f7e34ae314e17174a6b1db247629f73742e99978",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 2180,
+          "words": 319,
+          "content_sha256": "7c41e7800009bc12d0b754cbcb8abd6474e66bf69cc45b4c6b853a58e579bfc1",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 2844,
+          "words": 428,
+          "content_sha256": "c87d634d9ad26927b7a406ba31cf30513e0c81bfa5f38fe0c0d07c90350c716d",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 11,
+          "words": 2,
+          "content_sha256": "7e04bbf3035bb974afdb51bd1ffb407b1e3be89d549dad1672e78b06612d59d2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": true
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 2927,
+          "words": 424,
+          "content_sha256": "5cb3acaf8e299b12be79ead4c1ea9cd7304166743fd551ff3b369f25febd9296",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 2304,
+          "words": 347,
+          "content_sha256": "6e7a23c43a9e5b778d89d7a580e85fbd5712153b6cfbb1afcba5723b6fdc3d92",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 32464,
+          "words": 4687,
+          "content_sha256": "8d79ed019df34658e0df7e3126cbe3a322d29f052b48d461bf89924b3c319d42",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 174,
+          "words": 16,
+          "content_sha256": "396d17840a715df84ce3f04f7b1bcca38810e682e00a943cddff564130488b9a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "4a72d6d1d2e392c57df4d1a489abc751454dee9153c63ee2a39f4dc654b2b90c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 1632,
+        "unique_url_count": 924,
+        "duplicate_url_count": 708,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "6a017842020b6514120cead655ec8ebb5a372dd820b7fe1513eb22839e0fef75"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "placeholder_not_negative_evidence",
+          "section_index": 12,
+          "action": "Confirm this short placeholder with the original; do not turn absence of captured detail into a no-risk claim."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Fish Oil is the captured ingredient, not all Omega-3 sources; no transfer to algal oil or other formulations."
+        }
+      ]
+    },
+    {
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "title": "Iron",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=912",
+      "source_content_sha256": "fcdddd817d3a802aa7b6cfb3d9874bf5f16910d8b932133ef3c7f67bad8450c3",
+      "stored_content_hash": "fcdddd817d3a802aa7b6cfb3d9874bf5f16910d8b932133ef3c7f67bad8450c3",
+      "stored_hash_matches": true,
+      "captured_at": "2026-10-28T23:25:45.236Z",
+      "source_updated_at": "10/27/2026",
+      "topic_mapping": {
+        "topics": [
+          "Iron"
+        ],
+        "manifest_match": true,
+        "manifest_title": "Iron",
+        "scope_limitation": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+      },
+      "words": 11226,
+      "encoding": {
+        "replacement_characters": 0,
+        "mojibake_cues": 0,
+        "unexpected_controls": 0
+      },
+      "sections": [
+        {
+          "index": 0,
+          "heading": "preamble",
+          "category": null,
+          "characters": 4,
+          "words": 1,
+          "content_sha256": "bd223c81de7e86da43eee0f9abf0b2b87e7a9b0ad3b6e215ee55e68d49b31ba9",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 1,
+          "heading": "scientific name",
+          "category": "scientific_name",
+          "characters": 1110,
+          "words": 143,
+          "content_sha256": "f57e76d5ea66b51d026c3a8bc1c3db11ddffac139236f539a3cb53934f5ea70c",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 2,
+          "heading": "overview",
+          "category": "overview",
+          "characters": 584,
+          "words": 97,
+          "content_sha256": "eb25ac7a7c0d60517babd6235069693c8d2645021f9d9d4806b44dffebc32621",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 3,
+          "heading": "safety",
+          "category": "safety",
+          "characters": 3205,
+          "words": 514,
+          "content_sha256": "df491cbd8bb89e6f30f90de9e4f64665369747b6369e59fb450bc1601284e90e",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 4,
+          "heading": "adverse effects",
+          "category": "adverse_effects",
+          "characters": 11746,
+          "words": 1666,
+          "content_sha256": "19a0d3039360660541dad1702ac5b906ccea1f0cea107ff119128234b4ac458a",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 5,
+          "heading": "effectiveness",
+          "category": "effectiveness",
+          "characters": 24962,
+          "words": 3696,
+          "content_sha256": "01088cb0369083c9ff721121084fd8d88c2b5cd3204b2b2d2301104ca24808a1",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 6,
+          "heading": "dosing & administration",
+          "category": "dosing",
+          "characters": 2738,
+          "words": 437,
+          "content_sha256": "517c48cf2adf49a806099cd7d527cf86ccba3b4134ba38c02d909ecdad134dfa",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 7,
+          "heading": "standardization & formulation",
+          "category": "formulation",
+          "characters": 1392,
+          "words": 205,
+          "content_sha256": "5016ca6773fb072036fbed013a2b7ec079d28240cd39fc8e34bb3360d44c73f8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 8,
+          "heading": "interactions with drugs",
+          "category": "drug_interactions",
+          "characters": 7802,
+          "words": 1053,
+          "content_sha256": "2108455dbc6a04626700e31c16ae6406d3c62719f1b97b6f860eb277f99015c8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 9,
+          "heading": "interactions with supplements",
+          "category": "supplement_interactions",
+          "characters": 7525,
+          "words": 1151,
+          "content_sha256": "13fe85f948b19457ae6f79e96513418a0c8ca34598f881caad1246b16c72c5d8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 10,
+          "heading": "interactions with conditions",
+          "category": "contraindications",
+          "characters": 2240,
+          "words": 334,
+          "content_sha256": "94957057be7cdf9273ef270235edb7128cf1d62a7b07d5e25add9083102487a2",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 11,
+          "heading": "interactions with lab tests",
+          "category": "lab_interactions",
+          "characters": 173,
+          "words": 28,
+          "content_sha256": "5e5fa487509e7cb860df101aef8fb9872ec9dc4f69441901070104e34a481d97",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 12,
+          "heading": "nutrient depletions",
+          "category": "nutrient_depletions",
+          "characters": 5314,
+          "words": 773,
+          "content_sha256": "b875e0cdafabf16f72a90b4b7835502f5be3b06008b7cb40db88281867cea542",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 13,
+          "heading": "overdose",
+          "category": "overdose",
+          "characters": 955,
+          "words": 137,
+          "content_sha256": "6ee45b84dfc176fd165d3003ecce6af40a802e280b9048dba0641a2aa92fd671",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 14,
+          "heading": "pharmacokinetics",
+          "category": "pharmacokinetics",
+          "characters": 2897,
+          "words": 447,
+          "content_sha256": "529a6c4c4cdd0bedc6271adb14245f9f071fe20dda90ce8dcfbd1742924f6db8",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 15,
+          "heading": "mechanism of action",
+          "category": "mechanism",
+          "characters": 2714,
+          "words": 423,
+          "content_sha256": "e1c8758f3c7232be2ff4c62f720419a3d6a4bbfb04cbded27fef2a7375711909",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 16,
+          "heading": "classes",
+          "category": "classes",
+          "characters": 32,
+          "words": 4,
+          "content_sha256": "fa65cef73198ba24539c1500c84c3bd39bf57b9c9d03177377c788620ef5c546",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        },
+        {
+          "index": 17,
+          "heading": "references",
+          "category": "references",
+          "characters": 542,
+          "words": 82,
+          "content_sha256": "c31f98b2a6338a19d9c1991b1690655ddf8f325feae6b2ef353b0b97115c1a11",
+          "encoding": {
+            "replacement_characters": 0,
+            "mojibake_cues": 0,
+            "unexpected_controls": 0
+          },
+          "expansion_cue_count": 0,
+          "placeholder_only": false
+        }
+      ],
+      "clinical_headings_present": [
+        "adverse_effects",
+        "dosing",
+        "drug_interactions",
+        "effectiveness",
+        "safety"
+      ],
+      "clinical_headings_missing": [],
+      "citations": {
+        "count": 430,
+        "unique_url_count": 235,
+        "duplicate_url_count": 195,
+        "invalid_url_indices": [],
+        "url_validity": "syntax_only_not_fetched",
+        "bibliography_link_only": true,
+        "reference_document_count": 1,
+        "reference_documents_sha256": "23feb77a73e105c7cb3a5bbd2039b3a10d8a955be7aa90de8e3e4add14317aeb"
+      },
+      "original_access": "unavailable",
+      "source_completeness": "unverified",
+      "medical_validity": "unverified",
+      "review_state": "pending",
+      "eligible_for_approved_claims": false,
+      "issues": [
+        {
+          "code": "original_unavailable",
+          "action": "Compare every captured section and citation with the licensed original when authorized source access is available."
+        },
+        {
+          "code": "medical_review_required",
+          "action": "Have a qualified reviewer assess medical accuracy, applicability, formulation and source completeness; this audit supplies no medical approval."
+        },
+        {
+          "code": "bibliography_snapshot_unverified",
+          "action": "Separate publisher reference-page snapshots are captured, not verified studies or proof of complete pagination; review their content, coverage and fingerprint."
+        },
+        {
+          "code": "formulation_scope",
+          "action": "Preserve exact ingredient, preparation, salt/extract/formulation and population restrictions; the topic label alone proves no equivalence."
+        }
+      ]
+    }
+  ]
+}

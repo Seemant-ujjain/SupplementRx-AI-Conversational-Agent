@@ -1,0 +1,2240 @@
+{
+  "review_state": "pending",
+  "not_for_medical_use": true,
+  "selection": "first dose, interaction and effectiveness per source; available types supplemented",
+  "total_claims": 1269,
+  "records": [
+    {
+      "id": "claim:b183e014daceaf85b9164a59ea8b8d02c9ea167ce510fc659e263334e17e0d11",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nAshwagandha has most often been used in doses of up to 1000 mg daily for up to 12 weeks. See Effectiveness section for condition-specific information.\nAshwagandha extract is often standardized to withanolide content, with concentrations ranging from 1.5% to 35% (19271, 90650, 90652, 90653, 106786).",
+      "source": {
+        "record_id": "natmed:0d296c0daa1cccb456da568c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+        "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 311,
+        "excerpt": "Adult\nOral:\nAshwagandha has most often been used in doses of up to 1000 mg daily for up to 12 weeks. See Effectiveness section for condition-specific information.\nAshwagandha extract is often standardized to withanolide content, with concentrations ranging from 1.5% to 35% (19271, 90650, 90652, 90653, 106786)."
+      },
+      "ingredient": {
+        "name": "Ashwagandha",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "Adult",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "Ashwagandha has most often been used in doses of up to 1000 mg daily for up to 12 weeks",
+        "value": 1000.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "mg",
+        "qualifier": "up to",
+        "regimen": null,
+        "frequency": "daily",
+        "duration": {
+          "value": 12.0,
+          "unit": "weeks",
+          "qualifier": "up to"
+        },
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 0,
+          "end": 5
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.qualifier": {
+          "start": 61,
+          "end": 66
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 99
+        },
+        "dose.frequency": {
+          "start": 75,
+          "end": 80
+        },
+        "dose.duration.value": {
+          "start": 91,
+          "end": 93
+        },
+        "dose.duration.unit": {
+          "start": 94,
+          "end": 99
+        },
+        "dose.duration.qualifier": {
+          "start": 85,
+          "end": 90
+        },
+        "dose.value": {
+          "start": 67,
+          "end": 71
+        },
+        "dose.unit": {
+          "start": 72,
+          "end": 74
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:e59f14332455ecc2c7c7830584bb5a326df2e533a6b6f50839f61860fa34ed5d",
+      "claim_type": "interaction",
+      "claim_text": "ANTIDIABETES DRUGS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nB (Clinical cohort study)\nTheoretically, taking ashwagandha with antidiabetes drugs might increase the risk of hypoglycemia.\nThere is preliminary clinical evidence suggesting that ashwagandha might lower blood glucose levels. Theoretically, ashwagandha might have additive effects when used with antidiabetes drugs and increase the risk of hypoglycemia (19274, 90649, 102685).",
+      "source": {
+        "record_id": "natmed:0d296c0daa1cccb456da568c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+        "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+        "section_index": 9,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 510,
+        "excerpt": "ANTIDIABETES DRUGS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nB (Clinical cohort study)\nTheoretically, taking ashwagandha with antidiabetes drugs might increase the risk of hypoglycemia.\nThere is preliminary clinical evidence suggesting that ashwagandha might lower blood glucose levels. Theoretically, ashwagandha might have additive effects when used with antidiabetes drugs and increase the risk of hypoglycemia (19274, 90649, 102685)."
+      },
+      "ingredient": {
+        "name": "Ashwagandha",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "B (Clinical cohort study)",
+      "interaction": {
+        "partner": "ANTIDIABETES DRUGS",
+        "rating": "MODERATE",
+        "severity": "HIGH",
+        "occurrence": "POSSIBLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 18
+        },
+        "interaction.rating": {
+          "start": 38,
+          "end": 46
+        },
+        "interaction.severity": {
+          "start": 91,
+          "end": 95
+        },
+        "interaction.occurrence": {
+          "start": 107,
+          "end": 115
+        },
+        "evidence_grade": {
+          "start": 134,
+          "end": 159
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:13e33d7ecdac1d8fce01c2adaf07b4a9bd8511833e010b29f8d33feb29922fed",
+      "claim_type": "effectiveness",
+      "claim_text": "POSSIBLY EFFECTIVE\nAnxiety.\nSmall clinical studies suggest that oral ashwagandha might reduce anxiety.\nA meta-analysis of small randomized controlled trials in adults with anxiety and/or insomnia shows that taking ashwagandha 600-12,000 mg orally daily for 6-10 weeks moderately improves anxiety scores when compared with placebo. However, the validity of this study is limited by high heterogeneity (114787).\nOne small clinical study in postal workers reporting moderate or severe anxiety shows that taking ashwagandha root (Swiss Herbals) 300 mg twice daily for 12 weeks, in combination with standard psychotherapy interventions, including dietary counseling, deep breathing exercise instruction, and a multivitamin, reduces anxiety scores when compared with standard psychotherapy interventions and placebo (19271). Additionally, two small clinical studies in adults with mild to moderate anxiety, depression, or stress show that taking a specific ashwagandha root extract standardized to contain 2.5% withanolides (Shagandha, Sabinsa Corp.) 500 mg with piperine 5 mg daily for 60-90 days reduces anxiety symptoms and perceived stress and improves sleep and quality of life when compared with placebo (113608, 113609). However, another clinical study in young adults shows that taking a specific ashwagandha root and leaf extract (NooGandha, Specnova LLC) 225 mg or 400 mg daily for 30 days does not improve anxiety, stress, and depression scores when compared with placebo (107370).",
+      "source": {
+        "record_id": "natmed:0d296c0daa1cccb456da568c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+        "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 1486,
+        "excerpt": "POSSIBLY EFFECTIVE\nAnxiety.\nSmall clinical studies suggest that oral ashwagandha might reduce anxiety.\nA meta-analysis of small randomized controlled trials in adults with anxiety and/or insomnia shows that taking ashwagandha 600-12,000 mg orally daily for 6-10 weeks moderately improves anxiety scores when compared with placebo. However, the validity of this study is limited by high heterogeneity (114787).\nOne small clinical study in postal workers reporting moderate or severe anxiety shows that taking ashwagandha root (Swiss Herbals) 300 mg twice daily for 12 weeks, in combination with standard psychotherapy interventions, including dietary counseling, deep breathing exercise instruction, and a multivitamin, reduces anxiety scores when compared with standard psychotherapy interventions and placebo (19271). Additionally, two small clinical studies in adults with mild to moderate anxiety, depression, or stress show that taking a specific ashwagandha root extract standardized to contain 2.5% withanolides (Shagandha, Sabinsa Corp.) 500 mg with piperine 5 mg daily for 60-90 days reduces anxiety symptoms and perceived stress and improves sleep and quality of life when compared with placebo (113608, 113609). However, another clinical study in young adults shows that taking a specific ashwagandha root and leaf extract (NooGandha, Specnova LLC) 225 mg or 400 mg daily for 30 days does not improve anxiety, stress, and depression scores when compared with placebo (107370)."
+      },
+      "ingredient": {
+        "name": "Ashwagandha",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Anxiety.",
+      "effectiveness_rating": "POSSIBLY EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 18
+        },
+        "indication": {
+          "start": 19,
+          "end": 27
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:0e5df034ad2bde3f36e341099e4d8edd3081a094af779a717f87a6603ba92050",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nGeneral: The daily recommended dietary allowances (RDAs) of vitamin B12 are: 18 years and older, 2.4 mcg; pregnancy, 2.6 mcg; lactation, 2.8 mcg.\nSince 10% to 30% of older adults do not absorb food-bound vitamin B12 efficiently, those over 50 years of age are advised to meet the RDA by eating foods fortified with vitamin B12 or by taking a vitamin B12 supplement. 25-100 mcg daily has been taken to maintain vitamin B12 levels in older people. A healthcare professional should be consulted for use for other indications (6243). See Effectiveness section for condition-specific information.\nExcessive alcohol intake lasting longer than two weeks can decrease vitamin B12 absorption from the gastrointestinal tract (15).",
+      "source": {
+        "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=926",
+        "content_hash": "c35529f6d159152fd2c61f0b95e33e5ea31b33231b39e76ffeb4278006ebc98b",
+        "section_index": 6,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 732,
+        "excerpt": "Adult\nOral:\nGeneral: The daily recommended dietary allowances (RDAs) of vitamin B12 are: 18 years and older, 2.4 mcg; pregnancy, 2.6 mcg; lactation, 2.8 mcg.\nSince 10% to 30% of older adults do not absorb food-bound vitamin B12 efficiently, those over 50 years of age are advised to meet the RDA by eating foods fortified with vitamin B12 or by taking a vitamin B12 supplement. 25-100 mcg daily has been taken to maintain vitamin B12 levels in older people. A healthcare professional should be consulted for use for other indications (6243). See Effectiveness section for condition-specific information.\nExcessive alcohol intake lasting longer than two weeks can decrease vitamin B12 absorption from the gastrointestinal tract (15)."
+      },
+      "ingredient": {
+        "name": "Vitamin B12",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "18 years and older",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "General: The daily recommended dietary allowances (RDAs) of vitamin B12 are: 18 years and older, 2.4 mcg; pregnancy, 2.6 mcg; lactation, 2.8 mcg",
+        "value": 2.4,
+        "minimum": null,
+        "maximum": null,
+        "unit": "mcg",
+        "qualifier": null,
+        "regimen": "RDAs",
+        "frequency": null,
+        "duration": null,
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 89,
+          "end": 107
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.regimen": {
+          "start": 63,
+          "end": 67
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 156
+        },
+        "dose.value": {
+          "start": 109,
+          "end": 112
+        },
+        "dose.unit": {
+          "start": 113,
+          "end": 116
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:a0bbd3f095e1aa070bc23744f643ff227e202e24d313e40b36edb7dc5ab6d7f4",
+      "claim_type": "interaction",
+      "claim_text": "FOLIC ACID\nWhen taken in large doses, folic acid can mask vitamin B12 deficiency.\nFolic acid can produce hematologic improvement in megaloblastic anemia, which may allow potentially irreversible neurological damage to progress in patients with vitamin B12 deficiency. Vitamin B12 status should be determined before folic acid is given as monotherapy (2677, 3092, 5646, 9411, 20504, 20505).",
+      "source": {
+        "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=926",
+        "content_hash": "c35529f6d159152fd2c61f0b95e33e5ea31b33231b39e76ffeb4278006ebc98b",
+        "section_index": 9,
+        "section_heading": "interactions with supplements",
+        "start": 0,
+        "end": 389,
+        "excerpt": "FOLIC ACID\nWhen taken in large doses, folic acid can mask vitamin B12 deficiency.\nFolic acid can produce hematologic improvement in megaloblastic anemia, which may allow potentially irreversible neurological damage to progress in patients with vitamin B12 deficiency. Vitamin B12 status should be determined before folic acid is given as monotherapy (2677, 3092, 5646, 9411, 20504, 20505)."
+      },
+      "ingredient": {
+        "name": "Vitamin B12",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": "FOLIC ACID",
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:225150b4a4a8f53c26cea6d92cbba8b14deb05bd8b5cca18efc82e76b6588bb8",
+      "claim_type": "effectiveness",
+      "claim_text": "EFFECTIVE\nImerslund-Grasbeck disease.\nIntramuscular vitamin B12 is effective for patients with this condition.\nAdministering intramuscular vitamin B12 (hydroxocobalamin) 1 mg daily for 10 days, followed by monthly injections for the remainder of a patient's life, is effective for treating familial selective vitamin B12 malabsorption (Imerslund-Grasbeck disease) (15, 82862).",
+      "source": {
+        "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=926",
+        "content_hash": "c35529f6d159152fd2c61f0b95e33e5ea31b33231b39e76ffeb4278006ebc98b",
+        "section_index": 5,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 376,
+        "excerpt": "EFFECTIVE\nImerslund-Grasbeck disease.\nIntramuscular vitamin B12 is effective for patients with this condition.\nAdministering intramuscular vitamin B12 (hydroxocobalamin) 1 mg daily for 10 days, followed by monthly injections for the remainder of a patient's life, is effective for treating familial selective vitamin B12 malabsorption (Imerslund-Grasbeck disease) (15, 82862)."
+      },
+      "ingredient": {
+        "name": "Vitamin B12",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Imerslund-Grasbeck disease.",
+      "effectiveness_rating": "EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 9
+        },
+        "indication": {
+          "start": 10,
+          "end": 37
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:361b4fbee081b46dcb71f674398928dd1d19f984be93f70d2bf90c8836aeb863",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nTurmeric extract has most often been used in doses of 1.5 grams daily for up to 3 months. Turmeric extract has also been used in doses of up to 6 grams daily for a shorter duration of up to 12 days. See Effectiveness section for condition-specific information.\nTurmeric extract is typically standardized to curcuminoid content, with concentrations ranging from 75% to nearly 100% (81109, 89719, 89720, 89721, 89728, 89729, 97426, 99311). Many commercial products also contain piperine, an active constituent of pepper, to improve turmeric bioavailability. This ingredient may or may not be listed on the label (97426).",
+      "source": {
+        "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=662",
+        "content_hash": "349e70b2611f29aeb14144f86d9e41a0c72989345d7fd0a50767bac8ac74afbe",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 630,
+        "excerpt": "Adult\nOral:\nTurmeric extract has most often been used in doses of 1.5 grams daily for up to 3 months. Turmeric extract has also been used in doses of up to 6 grams daily for a shorter duration of up to 12 days. See Effectiveness section for condition-specific information.\nTurmeric extract is typically standardized to curcuminoid content, with concentrations ranging from 75% to nearly 100% (81109, 89719, 89720, 89721, 89728, 89729, 97426, 99311). Many commercial products also contain piperine, an active constituent of pepper, to improve turmeric bioavailability. This ingredient may or may not be listed on the label (97426)."
+      },
+      "ingredient": {
+        "name": "Turmeric",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "Adult",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "Turmeric extract has most often been used in doses of 1.5 grams daily for up to 3 months",
+        "value": 1.5,
+        "minimum": null,
+        "maximum": null,
+        "unit": "grams",
+        "qualifier": null,
+        "regimen": null,
+        "frequency": "daily",
+        "duration": {
+          "value": 3.0,
+          "unit": "months",
+          "qualifier": "up to"
+        },
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 0,
+          "end": 5
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 100
+        },
+        "dose.frequency": {
+          "start": 76,
+          "end": 81
+        },
+        "dose.duration.value": {
+          "start": 92,
+          "end": 93
+        },
+        "dose.duration.unit": {
+          "start": 94,
+          "end": 100
+        },
+        "dose.duration.qualifier": {
+          "start": 86,
+          "end": 91
+        },
+        "dose.value": {
+          "start": 66,
+          "end": 69
+        },
+        "dose.unit": {
+          "start": 70,
+          "end": 75
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:f54e941cdbf442e28fdb5ee4cb7e3d43a2b924cce69a1a392e8e6079f5f1039e",
+      "claim_type": "interaction",
+      "claim_text": "ALKYLATING AGENTS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nD (In vitro or animal study)\nTurmeric has antioxidant effects. Theoretically, this may reduce the activity of chemotherapy drugs that generate free radicals. However, research is conflicting.\nIn vitro research suggests that curcumin, a constituent of turmeric, inhibits mechlorethamine-induced apoptosis of breast cancer cells by up to 70%. Also, animal research shows that curcumin inhibits cyclophosphamide-induced tumor regression (96126). However, some in vitro research shows that curcumin does not affect the apoptosis capacity of etoposide. Also, other laboratory research suggests that curcumin might augment the cytotoxic effects of alkylating agents. Reasons for the discrepancies may relate to the dose of curcumin and the specific chemotherapeutic agent. Lower doses of curcumin might have antioxidant effects while higher doses might have pro-oxidant effects (96125). More evidence is needed to determine what effect, if any, turmeric might have on alkylating agents.",
+      "source": {
+        "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=662",
+        "content_hash": "349e70b2611f29aeb14144f86d9e41a0c72989345d7fd0a50767bac8ac74afbe",
+        "section_index": 9,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 1113,
+        "excerpt": "ALKYLATING AGENTS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nD (In vitro or animal study)\nTurmeric has antioxidant effects. Theoretically, this may reduce the activity of chemotherapy drugs that generate free radicals. However, research is conflicting.\nIn vitro research suggests that curcumin, a constituent of turmeric, inhibits mechlorethamine-induced apoptosis of breast cancer cells by up to 70%. Also, animal research shows that curcumin inhibits cyclophosphamide-induced tumor regression (96126). However, some in vitro research shows that curcumin does not affect the apoptosis capacity of etoposide. Also, other laboratory research suggests that curcumin might augment the cytotoxic effects of alkylating agents. Reasons for the discrepancies may relate to the dose of curcumin and the specific chemotherapeutic agent. Lower doses of curcumin might have antioxidant effects while higher doses might have pro-oxidant effects (96125). More evidence is needed to determine what effect, if any, turmeric might have on alkylating agents."
+      },
+      "ingredient": {
+        "name": "Turmeric",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "D (In vitro or animal study)",
+      "interaction": {
+        "partner": "ALKYLATING AGENTS",
+        "rating": "MODERATE",
+        "severity": "HIGH",
+        "occurrence": "POSSIBLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 17
+        },
+        "interaction.rating": {
+          "start": 37,
+          "end": 45
+        },
+        "interaction.severity": {
+          "start": 90,
+          "end": 94
+        },
+        "interaction.occurrence": {
+          "start": 106,
+          "end": 114
+        },
+        "evidence_grade": {
+          "start": 133,
+          "end": 161
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:a586f92873887b23f34c30c27c68c0de819c9e1353509bce6db7ee84e4a43a65",
+      "claim_type": "effectiveness",
+      "claim_text": "POSSIBLY EFFECTIVE\nAllergic rhinitis (hay fever).\nOral turmeric seems to improve symptoms in people with allergic rhinitis.\nA large clinical study in people with allergic rhinitis shows that taking a specific curcumin product (Organika Health Products) 500 mg daily for 2 months reduces nasal symptoms, including sneezing, itching, runny nose, and congestion, when compared with placebo (96138).",
+      "source": {
+        "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=662",
+        "content_hash": "349e70b2611f29aeb14144f86d9e41a0c72989345d7fd0a50767bac8ac74afbe",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 395,
+        "excerpt": "POSSIBLY EFFECTIVE\nAllergic rhinitis (hay fever).\nOral turmeric seems to improve symptoms in people with allergic rhinitis.\nA large clinical study in people with allergic rhinitis shows that taking a specific curcumin product (Organika Health Products) 500 mg daily for 2 months reduces nasal symptoms, including sneezing, itching, runny nose, and congestion, when compared with placebo (96138)."
+      },
+      "ingredient": {
+        "name": "Turmeric",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Allergic rhinitis (hay fever).",
+      "effectiveness_rating": "POSSIBLY EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 18
+        },
+        "indication": {
+          "start": 19,
+          "end": 49
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+      "source": {
+        "record_id": "natmed:1dcdcb859542de37540c85e3",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873",
+        "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 241,
+        "excerpt": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information."
+      },
+      "ingredient": {
+        "name": "Creatine",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "Adult",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks",
+        "value": null,
+        "minimum": 2.25,
+        "maximum": 10.0,
+        "unit": "grams",
+        "qualifier": null,
+        "regimen": "maintenance dose",
+        "frequency": "daily",
+        "duration": {
+          "value": 16.0,
+          "unit": "weeks",
+          "qualifier": "up to"
+        },
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 0,
+          "end": 5
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.regimen": {
+          "start": 120,
+          "end": 136
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 178
+        },
+        "dose.frequency": {
+          "start": 154,
+          "end": 159
+        },
+        "dose.duration.value": {
+          "start": 170,
+          "end": 172
+        },
+        "dose.duration.unit": {
+          "start": 173,
+          "end": 178
+        },
+        "dose.duration.qualifier": {
+          "start": 164,
+          "end": 169
+        },
+        "dose.minimum": {
+          "start": 140,
+          "end": 144
+        },
+        "dose.maximum": {
+          "start": 145,
+          "end": 147
+        },
+        "dose.unit": {
+          "start": 148,
+          "end": 153
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:c5bd17d80abb6062e68645232bd75db7fc7aef07a3c7ecd29589d7640ec88941",
+      "claim_type": "interaction",
+      "claim_text": "CAFFEINE\nTheoretically, concomitant use may increase the risk for serious adverse effects and reduce any beneficial effects of creatine.\nThere is some concern that combining caffeine, ephedra, and creatine might increase the risk of serious adverse effects. There is a report of ischemic stroke in an athlete who consumed creatine monohydrate 6 grams, caffeine 400-600 mg, ephedra 40-60 mg, and a variety of other supplements daily for 6 weeks (1275). Also, some preliminary clinical research shows that caffeine might decrease creatine's beneficial effects on athletic performance. Some researchers think caffeine can inhibit phosphocreatine resynthesis (2117, 4575).",
+      "source": {
+        "record_id": "natmed:1dcdcb859542de37540c85e3",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873",
+        "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+        "section_index": 10,
+        "section_heading": "interactions with supplements",
+        "start": 0,
+        "end": 668,
+        "excerpt": "CAFFEINE\nTheoretically, concomitant use may increase the risk for serious adverse effects and reduce any beneficial effects of creatine.\nThere is some concern that combining caffeine, ephedra, and creatine might increase the risk of serious adverse effects. There is a report of ischemic stroke in an athlete who consumed creatine monohydrate 6 grams, caffeine 400-600 mg, ephedra 40-60 mg, and a variety of other supplements daily for 6 weeks (1275). Also, some preliminary clinical research shows that caffeine might decrease creatine's beneficial effects on athletic performance. Some researchers think caffeine can inhibit phosphocreatine resynthesis (2117, 4575)."
+      },
+      "ingredient": {
+        "name": "Creatine",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": "CAFFEINE",
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 8
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:d657c33fdcb5dacdcdbbb71753020d04d0331bc53ff683efa3826a519df2175b",
+      "claim_type": "effectiveness",
+      "claim_text": "POSSIBLY EFFECTIVE\nAthletic performance.\nOral creatine monohydrate seems to modestly improve rowing, jumping, and soccer performance. It is unclear if it is beneficial for sprinting, cycling, swimming, or tennis performance.\nIn competitive rowers, most clinical research shows that taking creatine 20 grams or 240-250 mg/kg daily for 5 days significantly improves aerobic and anaerobic performance (4605, 4607, 46569, 46605, 46833). Specifically, creatine decreases 1000-meter rowing time by 2.4 seconds and 2500-meter rowing time by 6.5 seconds and increases time to fatigue by 9.7 seconds when compared with placebo (4607, 46605, 46833). To improve rowing performance, creatine 20 grams (or 240-250 mg/kg) daily for 5 days has been used (4605, 4607, 46605, 46833). Additionally, most clinical research shows that taking creatine 20-30 grams daily for 5-7 days improves jumping height by up to 6 cm when compared with placebo in active males (11331, 13661, 46626, 46704), although some conflicting results exist (6924, 46601). When compared with placebo, creatine also appears to improve spike jumping and block jumping in male volleyball players (46762), as well as peak and mean power of stationary roundhouse kicks in male trained taekwondo athletes (108333). In young male soccer players, preliminary clinical research shows that taking creatine 10 grams three times daily for 7 days can increase performance on a specific dribbling speed test by up to 2.8 seconds when compared with placebo (46626). In young female soccer players, preliminary clinical research shows that taking creatine 5 grams four times daily for 7 days followed by 5 grams daily for 5 weeks in conjunction with plyometric training modestly increases body mass index, jump and power performance, and repeated sprinting performance when compared with either plyometric training with placebo or standard soccer drills (95961). However, some conflicting findings exist. A small clinical study in young male soccer players shows that taking oral creatine 0.3 g/kg daily for 14 days does not improve explosive movement or power, measured after fatigue has been induced, when compared with placebo (117463).\nResearch evaluating creatine supplementation for sprinting, cycling, high-intensity-interval training (HIIT), and swimming has been inconsistent. The reason for these mixed findings is unclear. A meta-analysis of small clinical trials shows that taking creatine decreases the peak oxygen uptake (VO2 max) during running and cycling, suggesting a worsening of aerobic fitness (108330). However, another meta-analysis of randomized controlled trials shows that taking creatine up to 20 grams orally daily for 3-7 days modestly improves mean power, but not peak power or fatigue, during repeated running or cycling sprint intervals when compared with placebo (112206). In addition, a meta-analysis of randomized clinical trials in trained athletes shows that taking creatine up to 20 grams orally daily for 5-42 days does not improve endurance running or cycling performance when compared with control (112214). A potential explanation for these conflicting results is that the studies failing to show an improvement are likely underpowered, with sample sizes of only 6-32 subjects (4582, 4601). For instance, some small clinical trials show that taking creatine 20-30 grams daily for 5-7 days can improve sprint times by up to 3% and decrease time to exhaustion by up to 13% when compared with placebo in trained athletes (6924, 11331, 46558, 46567, 46626, 46819); however, others show that taking creatine 20-25 grams daily for 3-7 days does not improve sprint velocity, 60-meter or 150-meter sprint times, or fatigue in these individuals (46603, 46656, 46797, 46806, 112216, 117455). In trained athletes, untrained yet healthy adults, and sedentary adults, some clinical research shows that taking creatine 10-35 grams daily for 4-7 days significantly improves power output, peak power, and fatigue indices while cycling (4591, 4592, 4593, 4594, 4602, 4604, 6926, 10064, 46522, 46528) (46547, 46568, 46601, 46614, 46820); however, significant improvements in cycling performance with creatine are lacking in other studies (4582, 4595, 4596, 4597, 4598, 4599, 4600, 4606, 46520, 46538) (46646). Similarly, in trained swimmers, some clinical research shows that creatine improves swimming performance (4601, 4603, 46600, 46655, 46725, 46805), with a few studies reporting improvements of 1.3-2 seconds in 100-meter swim times when compared with placebo (46600, 46725, 46805). However, creatine does not improve 25-, 50-, or 100-meter swim performance in other trials (2106, 4601, 46798). To improve swimming performance, creatine 9-25 grams daily for 4-9 days has been used (4601, 4603, 46600, 46655, 46725, 46805), with lower maintenance doses of 2.25-10 grams daily for 8-9 days used in some cases (4601, 46600). Preliminary clinical research in trained tennis players shows that taking creatine 5 grams four times daily for 5 days or 0.3 grams/kg daily for 6 days followed by 0.03 grams/kg daily for 4 weeks does not appear to improve stroke power, stroke precision, serving speed, sprinting, or shuttle run time when compared with placebo (46536, 46673). Taking creatine (Creapure, AlzChem AG) 0.3 grams/kg daily for 5 days, followed by 0.1 grams/kg daily for 23 days, while undergoing HITT 3 days each week does not improve physical performance outcomes when compared with placebo in healthy young females (95965).\nA preliminary clinical trial in elite female handball players shows that the beneficial effects of creatine monohydrate 0.3 grams/kg for 5 days followed by 0.03 grams/kg are not dependent on the time of day of supplementation (108332). Although this suggests that the circadian rhythm does not influence the ergogenic effect of creatine, this study was small and may have been underpowered to detect any differences.\nOne clinical study in actively training firefighters shows that adding creatine 5 grams to daily supplemental protein and carbohydrates for 3 weeks reduces rescue and forcible entry times, but does not improve hose line advance, stair climb, or aerobic speed times, when compared with protein and carbohydrate supplementation alone (113673).\nOne clinical study compared the efficacy of creatine monohydrate with that of creatine nitrate. At equivalent doses of 12 grams daily for 7 days, followed by 3 grams daily for 21 days, creatine nitrate and creatine monohydrate produce similar increases in fat-free mass, lean mass, and intramuscular creatine concentrations, and similar improvements in bench press lifting volume and average power output. The lower dose of creatine nitrate 6 grams daily for 7 days followed by 1.5 grams daily for 21 days does not demonstrate performance improvement benefits or result in increased intramuscular creatine (95959). In 2018, the International Society of Sports Nutrition (ISSN) recommended creatine monohydrate, but not creatine nitrate, as an ergogenic nutritional supplement for increasing athletic capacity and lean body mass (101009).\nCreatine has also been evaluated in combination with caffeine. A very small clinical study in healthy adult males shows that taking creatine 20 grams daily for a 5-day loading period and then adding caffeine 5 mg/kg daily for the next 3 days improves anaerobic power, but not anaerobic capacity, when compared with placebo (115980). Another small clinical study in well trained basketball players shows that taking a supplement containing creatine 3.3 grams, L-citrulline, caffeine, beta-alanine, and branched-chain amino acids (BCAA) 30 minutes before exercise testing improves performance in countermovement jumps, agility tests, and minimum and average power output during running-based anaerobic sprint tests (RAST), but not RAST peak power, aerobic performance, or 20-meter sprints, when compared with placebo (115389). Further research is needed to determine whether creatine is beneficial when taken with other erogenic ingredients.",
+      "source": {
+        "record_id": "natmed:1dcdcb859542de37540c85e3",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873",
+        "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 8033,
+        "excerpt": "POSSIBLY EFFECTIVE\nAthletic performance.\nOral creatine monohydrate seems to modestly improve rowing, jumping, and soccer performance. It is unclear if it is beneficial for sprinting, cycling, swimming, or tennis performance.\nIn competitive rowers, most clinical research shows that taking creatine 20 grams or 240-250 mg/kg daily for 5 days significantly improves aerobic and anaerobic performance (4605, 4607, 46569, 46605, 46833). Specifically, creatine decreases 1000-meter rowing time by 2.4 seconds and 2500-meter rowing time by 6.5 seconds and increases time to fatigue by 9.7 seconds when compared with placebo (4607, 46605, 46833). To improve rowing performance, creatine 20 grams (or 240-250 mg/kg) daily for 5 days has been used (4605, 4607, 46605, 46833). Additionally, most clinical research shows that taking creatine 20-30 grams daily for 5-7 days improves jumping height by up to 6 cm when compared with placebo in active males (11331, 13661, 46626, 46704), although some conflicting results exist (6924, 46601). When compared with placebo, creatine also appears to improve spike jumping and block jumping in male volleyball players (46762), as well as peak and mean power of stationary roundhouse kicks in male trained taekwondo athletes (108333). In young male soccer players, preliminary clinical research shows that taking creatine 10 grams three times daily for 7 days can increase performance on a specific dribbling speed test by up to 2.8 seconds when compared with placebo (46626). In young female soccer players, preliminary clinical research shows that taking creatine 5 grams four times daily for 7 days followed by 5 grams daily for 5 weeks in conjunction with plyometric training modestly increases body mass index, jump and power performance, and repeated sprinting performance when compared with either plyometric training with placebo or standard soccer drills (95961). However, some conflicting findings exist. A small clinical study in young male soccer players shows that taking oral creatine 0.3 g/kg daily for 14 days does not improve explosive movement or power, measured after fatigue has been induced, when compared with placebo (117463).\nResearch evaluating creatine supplementation for sprinting, cycling, high-intensity-interval training (HIIT), and swimming has been inconsistent. The reason for these mixed findings is unclear. A meta-analysis of small clinical trials shows that taking creatine decreases the peak oxygen uptake (VO2 max) during running and cycling, suggesting a worsening of aerobic fitness (108330). However, another meta-analysis of randomized controlled trials shows that taking creatine up to 20 grams orally daily for 3-7 days modestly improves mean power, but not peak power or fatigue, during repeated running or cycling sprint intervals when compared with placebo (112206). In addition, a meta-analysis of randomized clinical trials in trained athletes shows that taking creatine up to 20 grams orally daily for 5-42 days does not improve endurance running or cycling performance when compared with control (112214). A potential explanation for these conflicting results is that the studies failing to show an improvement are likely underpowered, with sample sizes of only 6-32 subjects (4582, 4601). For instance, some small clinical trials show that taking creatine 20-30 grams daily for 5-7 days can improve sprint times by up to 3% and decrease time to exhaustion by up to 13% when compared with placebo in trained athletes (6924, 11331, 46558, 46567, 46626, 46819); however, others show that taking creatine 20-25 grams daily for 3-7 days does not improve sprint velocity, 60-meter or 150-meter sprint times, or fatigue in these individuals (46603, 46656, 46797, 46806, 112216, 117455). In trained athletes, untrained yet healthy adults, and sedentary adults, some clinical research shows that taking creatine 10-35 grams daily for 4-7 days significantly improves power output, peak power, and fatigue indices while cycling (4591, 4592, 4593, 4594, 4602, 4604, 6926, 10064, 46522, 46528) (46547, 46568, 46601, 46614, 46820); however, significant improvements in cycling performance with creatine are lacking in other studies (4582, 4595, 4596, 4597, 4598, 4599, 4600, 4606, 46520, 46538) (46646). Similarly, in trained swimmers, some clinical research shows that creatine improves swimming performance (4601, 4603, 46600, 46655, 46725, 46805), with a few studies reporting improvements of 1.3-2 seconds in 100-meter swim times when compared with placebo (46600, 46725, 46805). However, creatine does not improve 25-, 50-, or 100-meter swim performance in other trials (2106, 4601, 46798). To improve swimming performance, creatine 9-25 grams daily for 4-9 days has been used (4601, 4603, 46600, 46655, 46725, 46805), with lower maintenance doses of 2.25-10 grams daily for 8-9 days used in some cases (4601, 46600). Preliminary clinical research in trained tennis players shows that taking creatine 5 grams four times daily for 5 days or 0.3 grams/kg daily for 6 days followed by 0.03 grams/kg daily for 4 weeks does not appear to improve stroke power, stroke precision, serving speed, sprinting, or shuttle run time when compared with placebo (46536, 46673). Taking creatine (Creapure, AlzChem AG) 0.3 grams/kg daily for 5 days, followed by 0.1 grams/kg daily for 23 days, while undergoing HITT 3 days each week does not improve physical performance outcomes when compared with placebo in healthy young females (95965).\nA preliminary clinical trial in elite female handball players shows that the beneficial effects of creatine monohydrate 0.3 grams/kg for 5 days followed by 0.03 grams/kg are not dependent on the time of day of supplementation (108332). Although this suggests that the circadian rhythm does not influence the ergogenic effect of creatine, this study was small and may have been underpowered to detect any differences.\nOne clinical study in actively training firefighters shows that adding creatine 5 grams to daily supplemental protein and carbohydrates for 3 weeks reduces rescue and forcible entry times, but does not improve hose line advance, stair climb, or aerobic speed times, when compared with protein and carbohydrate supplementation alone (113673).\nOne clinical study compared the efficacy of creatine monohydrate with that of creatine nitrate. At equivalent doses of 12 grams daily for 7 days, followed by 3 grams daily for 21 days, creatine nitrate and creatine monohydrate produce similar increases in fat-free mass, lean mass, and intramuscular creatine concentrations, and similar improvements in bench press lifting volume and average power output. The lower dose of creatine nitrate 6 grams daily for 7 days followed by 1.5 grams daily for 21 days does not demonstrate performance improvement benefits or result in increased intramuscular creatine (95959). In 2018, the International Society of Sports Nutrition (ISSN) recommended creatine monohydrate, but not creatine nitrate, as an ergogenic nutritional supplement for increasing athletic capacity and lean body mass (101009).\nCreatine has also been evaluated in combination with caffeine. A very small clinical study in healthy adult males shows that taking creatine 20 grams daily for a 5-day loading period and then adding caffeine 5 mg/kg daily for the next 3 days improves anaerobic power, but not anaerobic capacity, when compared with placebo (115980). Another small clinical study in well trained basketball players shows that taking a supplement containing creatine 3.3 grams, L-citrulline, caffeine, beta-alanine, and branched-chain amino acids (BCAA) 30 minutes before exercise testing improves performance in countermovement jumps, agility tests, and minimum and average power output during running-based anaerobic sprint tests (RAST), but not RAST peak power, aerobic performance, or 20-meter sprints, when compared with placebo (115389). Further research is needed to determine whether creatine is beneficial when taken with other erogenic ingredients."
+      },
+      "ingredient": {
+        "name": "Creatine",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Athletic performance.",
+      "effectiveness_rating": "POSSIBLY EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 18
+        },
+        "indication": {
+          "start": 19,
+          "end": 40
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:18b750043c20975687c5635807e266f7735420e03c9be8e8344819c5a92e7d83",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nMelatonin has most often been used in doses of up to 8 mg daily for up to 6 months. See Effectiveness section for condition-specific information.\nClinical studies that have evaluated melatonin have used both slow-release and fast-release formulations (89502, 89503, 89508, 96318, 117797).",
+      "source": {
+        "record_id": "natmed:3684a1a282d205d7021e1e8c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=940",
+        "content_hash": "d4e546f1537a0bffa6d8d4d8b4d141fcd5ead3370510ff5edbdf487a4be057f5",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 300,
+        "excerpt": "Adult\nOral:\nMelatonin has most often been used in doses of up to 8 mg daily for up to 6 months. See Effectiveness section for condition-specific information.\nClinical studies that have evaluated melatonin have used both slow-release and fast-release formulations (89502, 89503, 89508, 96318, 117797)."
+      },
+      "ingredient": {
+        "name": "Melatonin",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "Adult",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "Melatonin has most often been used in doses of up to 8 mg daily for up to 6 months",
+        "value": 8.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "mg",
+        "qualifier": "up to",
+        "regimen": null,
+        "frequency": "daily",
+        "duration": {
+          "value": 6.0,
+          "unit": "months",
+          "qualifier": "up to"
+        },
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 0,
+          "end": 5
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.qualifier": {
+          "start": 59,
+          "end": 64
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 94
+        },
+        "dose.frequency": {
+          "start": 70,
+          "end": 75
+        },
+        "dose.duration.value": {
+          "start": 86,
+          "end": 87
+        },
+        "dose.duration.unit": {
+          "start": 88,
+          "end": 94
+        },
+        "dose.duration.qualifier": {
+          "start": 80,
+          "end": 85
+        },
+        "dose.value": {
+          "start": 65,
+          "end": 66
+        },
+        "dose.unit": {
+          "start": 67,
+          "end": 69
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:eecb35219c349c2507a4343cf714e03ead95d8919f5558edb6bad82ec2a2ff58",
+      "claim_type": "interaction",
+      "claim_text": "ANTICOAGULANT/ANTIPLATELET DRUGS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nB (Nonquantitative systematic review)\nTheoretically, melatonin may have anticoagulant effects and may increase the risk of bleeding if used with anticoagulant or antiplatelet drugs.\nThere are isolated case reports of minor bleeding and decreased prothrombin activity in people taking melatonin with warfarin (Coumadin) (63067). The mechanism, if any, of this interaction is unknown (9181). Taking melatonin orally seems to decrease coagulation activity within one hour of dosing in healthy men (62481).",
+      "source": {
+        "record_id": "natmed:3684a1a282d205d7021e1e8c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=940",
+        "content_hash": "d4e546f1537a0bffa6d8d4d8b4d141fcd5ead3370510ff5edbdf487a4be057f5",
+        "section_index": 9,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 650,
+        "excerpt": "ANTICOAGULANT/ANTIPLATELET DRUGS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nB (Nonquantitative systematic review)\nTheoretically, melatonin may have anticoagulant effects and may increase the risk of bleeding if used with anticoagulant or antiplatelet drugs.\nThere are isolated case reports of minor bleeding and decreased prothrombin activity in people taking melatonin with warfarin (Coumadin) (63067). The mechanism, if any, of this interaction is unknown (9181). Taking melatonin orally seems to decrease coagulation activity within one hour of dosing in healthy men (62481)."
+      },
+      "ingredient": {
+        "name": "Melatonin",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "B (Nonquantitative systematic review)",
+      "interaction": {
+        "partner": "ANTICOAGULANT/ANTIPLATELET DRUGS",
+        "rating": "MODERATE",
+        "severity": "HIGH",
+        "occurrence": "POSSIBLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 32
+        },
+        "interaction.rating": {
+          "start": 52,
+          "end": 60
+        },
+        "interaction.severity": {
+          "start": 105,
+          "end": 109
+        },
+        "interaction.occurrence": {
+          "start": 121,
+          "end": 129
+        },
+        "evidence_grade": {
+          "start": 148,
+          "end": 185
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:aac46aacc3f954a512db6bb037b4f8adb8d01eefd5bbf5627ee10a09361bbd2e",
+      "claim_type": "effectiveness",
+      "claim_text": "LIKELY EFFECTIVE\nDelayed sleep phase syndrome (DSPS).\nOral melatonin shortens the time needed to fall asleep in children and adults with DSPS.\nMost clinical research shows that taking melatonin orally reduces the length of time needed to fall asleep and advances sleep onset time in young adults and children with DSPS (8244, 12226, 15005, 62714, 62792, 63055, 88288, 88290, 89509). In adults, 0.3-5 mg daily for up to 9 months has been used (8244, 62714, 62792, 63055, 88290, 89509). In children, 1-6 mg before bedtime for up to one month has been used (62714, 62792, 89509). In addition to improving sleep, melatonin also improves measures of quality of life such as mental health, vitality, and bodily pain in young adults with DSPS (8244, 12226, 15005). However, relapse to pre-treatment sleeping patterns seems to occur within one year after stopping supplementation (63048).",
+      "source": {
+        "record_id": "natmed:3684a1a282d205d7021e1e8c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=940",
+        "content_hash": "d4e546f1537a0bffa6d8d4d8b4d141fcd5ead3370510ff5edbdf487a4be057f5",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 880,
+        "excerpt": "LIKELY EFFECTIVE\nDelayed sleep phase syndrome (DSPS).\nOral melatonin shortens the time needed to fall asleep in children and adults with DSPS.\nMost clinical research shows that taking melatonin orally reduces the length of time needed to fall asleep and advances sleep onset time in young adults and children with DSPS (8244, 12226, 15005, 62714, 62792, 63055, 88288, 88290, 89509). In adults, 0.3-5 mg daily for up to 9 months has been used (8244, 62714, 62792, 63055, 88290, 89509). In children, 1-6 mg before bedtime for up to one month has been used (62714, 62792, 89509). In addition to improving sleep, melatonin also improves measures of quality of life such as mental health, vitality, and bodily pain in young adults with DSPS (8244, 12226, 15005). However, relapse to pre-treatment sleeping patterns seems to occur within one year after stopping supplementation (63048)."
+      },
+      "ingredient": {
+        "name": "Melatonin",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Delayed sleep phase syndrome (DSPS).",
+      "effectiveness_rating": "LIKELY EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 16
+        },
+        "indication": {
+          "start": 17,
+          "end": 53
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:0312b4a3591fd511843ea3d2f11b34547e2df4b1c7f159e8e3200fa10b8b8755",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nGeneral: For preventing deficiency, the daily Recommended Dietary Allowances (RDA) for elemental magnesium should be followed. For males: 400 mg for ages 19-30 years, 420 mg for ages 31 years and older. For females: 310 mg for ages 19-30 years, and 320 mg for ages 31 years and older. For pregnant females: 400 mg for ages 14-18 years, 350 mg for ages 19-30 years, and 360 mg for ages 31-50 years. For lactating females: 360 mg for ages 14-18 years, 310 mg for ages 19-30 years, 320 mg for ages 31-50 years (7555).\nTherapeutic doses of magnesium vary widely. See Effectiveness section for condition-specific information.",
+      "source": {
+        "record_id": "natmed:649e1db8b72c315fd46a0008",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=998",
+        "content_hash": "6ab2c715cf47647dc86ed7d1588dbe1f6ec4d2dc13d7a9622bac3bc31593a739",
+        "section_index": 6,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 632,
+        "excerpt": "Adult\nOral:\nGeneral: For preventing deficiency, the daily Recommended Dietary Allowances (RDA) for elemental magnesium should be followed. For males: 400 mg for ages 19-30 years, 420 mg for ages 31 years and older. For females: 310 mg for ages 19-30 years, and 320 mg for ages 31 years and older. For pregnant females: 400 mg for ages 14-18 years, 350 mg for ages 19-30 years, and 360 mg for ages 31-50 years. For lactating females: 360 mg for ages 14-18 years, 310 mg for ages 19-30 years, 320 mg for ages 31-50 years (7555).\nTherapeutic doses of magnesium vary widely. See Effectiveness section for condition-specific information."
+      },
+      "ingredient": {
+        "name": "Magnesium",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "For females: 310 mg for ages 19-30 years, and 320 mg for ages 31 years and older",
+        "value": 320.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "mg",
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.text": {
+          "start": 215,
+          "end": 295
+        },
+        "dose.value": {
+          "start": 261,
+          "end": 264
+        },
+        "dose.unit": {
+          "start": 265,
+          "end": 267
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:79bb278135f2bbea096864ef53b64bf4b67bbc7db5c4f431a5c683b4d2cefcbc",
+      "claim_type": "interaction",
+      "claim_text": "AMINOGLYCOSIDE ANTIBIOTICS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nD (Anecdotal evidence)\nConcomitant use of aminoglycoside antibiotics and magnesium can increase the risk for neuromuscular weakness.\nBoth aminoglycosides and magnesium reduce presynaptic acetylcholine release, which can lead to neuromuscular blockade and possible paralysis. This is most likely to occur with high doses of magnesium given intravenously (13362).",
+      "source": {
+        "record_id": "natmed:649e1db8b72c315fd46a0008",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=998",
+        "content_hash": "6ab2c715cf47647dc86ed7d1588dbe1f6ec4d2dc13d7a9622bac3bc31593a739",
+        "section_index": 8,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 503,
+        "excerpt": "AMINOGLYCOSIDE ANTIBIOTICS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nHIGH\nOccurrence\nPOSSIBLE\nLevel of Evidence\nD (Anecdotal evidence)\nConcomitant use of aminoglycoside antibiotics and magnesium can increase the risk for neuromuscular weakness.\nBoth aminoglycosides and magnesium reduce presynaptic acetylcholine release, which can lead to neuromuscular blockade and possible paralysis. This is most likely to occur with high doses of magnesium given intravenously (13362)."
+      },
+      "ingredient": {
+        "name": "Magnesium",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "D (Anecdotal evidence)",
+      "interaction": {
+        "partner": "AMINOGLYCOSIDE ANTIBIOTICS",
+        "rating": "MODERATE",
+        "severity": "HIGH",
+        "occurrence": "POSSIBLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 26
+        },
+        "interaction.rating": {
+          "start": 46,
+          "end": 54
+        },
+        "interaction.severity": {
+          "start": 99,
+          "end": 103
+        },
+        "interaction.occurrence": {
+          "start": 115,
+          "end": 123
+        },
+        "evidence_grade": {
+          "start": 142,
+          "end": 164
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:1f5745bc6460c08be6dfff6198b78c76e8604dbcd31551568ffb7f89cae80f09",
+      "claim_type": "effectiveness",
+      "claim_text": "EFFECTIVE\nBowel preparation.\nVarious magnesium salts are used for cleansing the bowel prior to procedures such as colonoscopy.\nVarious magnesium salts, including citrate, hydroxide, oxide, and sulfate, are ingredients in bowel preparation products available over-the-counter or by prescription only.",
+      "source": {
+        "record_id": "natmed:649e1db8b72c315fd46a0008",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=998",
+        "content_hash": "6ab2c715cf47647dc86ed7d1588dbe1f6ec4d2dc13d7a9622bac3bc31593a739",
+        "section_index": 5,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 299,
+        "excerpt": "EFFECTIVE\nBowel preparation.\nVarious magnesium salts are used for cleansing the bowel prior to procedures such as colonoscopy.\nVarious magnesium salts, including citrate, hydroxide, oxide, and sulfate, are ingredients in bowel preparation products available over-the-counter or by prescription only."
+      },
+      "ingredient": {
+        "name": "Magnesium",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Bowel preparation.",
+      "effectiveness_rating": "EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 9
+        },
+        "indication": {
+          "start": 10,
+          "end": 28
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:2780440900d978292aa5ae6e62686c0776a1b429ff3cb1bfa4cc3a1939f27473",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nLactobacillus acidophilus has most often been used alone or in combination with other probiotics in doses of up to 60 billion colony-forming units daily for up to 6 months. See Effectiveness section for condition-specific information.",
+      "source": {
+        "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=790",
+        "content_hash": "250a89df84372a663770c8ae6c305c049f50c7e568b4502d49ad6abfefb5d401",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 246,
+        "excerpt": "Adult\nOral:\nLactobacillus acidophilus has most often been used alone or in combination with other probiotics in doses of up to 60 billion colony-forming units daily for up to 6 months. See Effectiveness section for condition-specific information."
+      },
+      "ingredient": {
+        "name": "Lactobacillus acidophilus",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "Adult",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "Lactobacillus acidophilus has most often been used alone or in combination with other probiotics in doses of up to 60 billion colony-forming units daily for up to 6 months",
+        "value": 60.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "billion colony-forming units",
+        "qualifier": "up to",
+        "regimen": null,
+        "frequency": "daily",
+        "duration": {
+          "value": 6.0,
+          "unit": "months",
+          "qualifier": "up to"
+        },
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 0,
+          "end": 5
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.qualifier": {
+          "start": 121,
+          "end": 126
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 183
+        },
+        "dose.frequency": {
+          "start": 159,
+          "end": 164
+        },
+        "dose.duration.value": {
+          "start": 175,
+          "end": 176
+        },
+        "dose.duration.unit": {
+          "start": 177,
+          "end": 183
+        },
+        "dose.duration.qualifier": {
+          "start": 169,
+          "end": 174
+        },
+        "dose.value": {
+          "start": 127,
+          "end": 129
+        },
+        "dose.unit": {
+          "start": 130,
+          "end": 158
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:41a35f09a49ccf29e17b9e663c69b80f92c53e6214f0b6f99dc77a15547c3e61",
+      "claim_type": "interaction",
+      "claim_text": "ANTIBIOTIC DRUGS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nMILD\nOccurrence\nPROBABLE\nLevel of Evidence\nD (Theoretical based on pharmacology)\nTheoretically, taking Lactobacillus acidophilus with antibiotic drugs might decrease the effectiveness of L. acidophilus.\nL. acidophilus preparations usually contain live and active organisms. Therefore, simultaneously taking antibiotics might kill a significant number of the organisms (1740). Tell patients to separate administration of antibiotics and L. acidophilus preparations by at least two hours.",
+      "source": {
+        "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=790",
+        "content_hash": "250a89df84372a663770c8ae6c305c049f50c7e568b4502d49ad6abfefb5d401",
+        "section_index": 9,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 575,
+        "excerpt": "ANTIBIOTIC DRUGS\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nMILD\nOccurrence\nPROBABLE\nLevel of Evidence\nD (Theoretical based on pharmacology)\nTheoretically, taking Lactobacillus acidophilus with antibiotic drugs might decrease the effectiveness of L. acidophilus.\nL. acidophilus preparations usually contain live and active organisms. Therefore, simultaneously taking antibiotics might kill a significant number of the organisms (1740). Tell patients to separate administration of antibiotics and L. acidophilus preparations by at least two hours."
+      },
+      "ingredient": {
+        "name": "Lactobacillus acidophilus",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "D (Theoretical based on pharmacology)",
+      "interaction": {
+        "partner": "ANTIBIOTIC DRUGS",
+        "rating": "MODERATE",
+        "severity": "MILD",
+        "occurrence": "PROBABLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 16
+        },
+        "interaction.rating": {
+          "start": 36,
+          "end": 44
+        },
+        "interaction.severity": {
+          "start": 89,
+          "end": 93
+        },
+        "interaction.occurrence": {
+          "start": 105,
+          "end": 113
+        },
+        "evidence_grade": {
+          "start": 132,
+          "end": 169
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:4d1b6ae60a3c30cdda47039dfc02e723f2059c8d27a17a954194f6538ba7b07e",
+      "claim_type": "effectiveness",
+      "claim_text": "POSSIBLY EFFECTIVE\nAntibiotic-associated diarrhea.\nMost research shows that oral Lactobacillus acidophilus, alone or in combination with other probiotics, seems to reduce the risk of antibiotic-associated diarrhea (AAD) in adults.\nA meta-analysis of 18 clinical trials in hospitalized or outpatient adults shows that taking L. acidophilus alone or in combination with up to 8 other probiotic strains reduces the risk of AAD by 34% when compared with taking placebo (107635). One small clinical trial in elderly adults shows that AAD occurred in 17% of those taking L. acidophilus (Florajen Acidophilus) 20 billion colony-forming units (CFUs) three times daily, compared with 37% of those taking placebo (95400). A number of combination products have also demonstrated benefit for preventing AAD, including Bio-K+ Cl1285 which provides L. acidophilus CL1285, Lacticaseibacillus casei LBC80R, and Lacticaseibacillus rhamnosus CLR2 as 100 billion CFUs daily (25494, 95402, 95403); L. acidophilus and Bifidobacterium animalis subsp. lactis (90239); Ecologic AAD which provides L. acidophilus NIZO 3678 and NIZO 3887, Lacticaseibacillus paracasei NIZO 3672, Lactiplantibacillus plantarum NIZO 3684, L. rhamnosus NIZO 3689, Ligilactobacillus salivarius NIZO 3675, Bifidobacterium bifidum NIZO 3804, Bifidobacterium animalis subsp. lactis NIZO 3680, and Enterococcus faecium NIZO 3886 (95405); and fermented milk containing live, but not heat-killed, L. acidophilus La-5, Lacticaseibacillus rhamnosus GG, and Bifidobacterium animalis subsp. lactis Bb-12 (25489). However, some combination products have not demonstrated benefit. Clinical research shows that taking a combination of L. acidophilus and bifidobacteria or a combination of L. acidophilus and Lactobacillus delbrueckii subsp. bulgaricus (Lactinex) is not beneficial (90231, 90239, 92255, 95385). An additional large clinical trial in children aged 3 months and up shows that taking L. acidophilus in combination with other probiotics does not reduce the risk of antibiotic-associated diarrhea when compared with taking placebo, when the more stringent definition is considered excluding diarrhea of other etiologies. However, the risk of diarrhea of any etiology is reduced by 35%. The probiotic supplement provided a total of 10 billion CFUs of L. acidophilus W37, Bifidobacterium bifidum W23, Bifidobacterium animalis subsp. lactis W51, Lactobacillus acidophilus W55, Lacticaseibacillus paracasei W20, Lactiplantibacillus plantarum W62, Lacticaseibacillus rhamnosus W71, and Ligilactobacillus salivarius W24 daily from the first day of antibiotic treatment until 7 days after treatment ended (110969).",
+      "source": {
+        "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=790",
+        "content_hash": "250a89df84372a663770c8ae6c305c049f50c7e568b4502d49ad6abfefb5d401",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 2658,
+        "excerpt": "POSSIBLY EFFECTIVE\nAntibiotic-associated diarrhea.\nMost research shows that oral Lactobacillus acidophilus, alone or in combination with other probiotics, seems to reduce the risk of antibiotic-associated diarrhea (AAD) in adults.\nA meta-analysis of 18 clinical trials in hospitalized or outpatient adults shows that taking L. acidophilus alone or in combination with up to 8 other probiotic strains reduces the risk of AAD by 34% when compared with taking placebo (107635). One small clinical trial in elderly adults shows that AAD occurred in 17% of those taking L. acidophilus (Florajen Acidophilus) 20 billion colony-forming units (CFUs) three times daily, compared with 37% of those taking placebo (95400). A number of combination products have also demonstrated benefit for preventing AAD, including Bio-K+ Cl1285 which provides L. acidophilus CL1285, Lacticaseibacillus casei LBC80R, and Lacticaseibacillus rhamnosus CLR2 as 100 billion CFUs daily (25494, 95402, 95403); L. acidophilus and Bifidobacterium animalis subsp. lactis (90239); Ecologic AAD which provides L. acidophilus NIZO 3678 and NIZO 3887, Lacticaseibacillus paracasei NIZO 3672, Lactiplantibacillus plantarum NIZO 3684, L. rhamnosus NIZO 3689, Ligilactobacillus salivarius NIZO 3675, Bifidobacterium bifidum NIZO 3804, Bifidobacterium animalis subsp. lactis NIZO 3680, and Enterococcus faecium NIZO 3886 (95405); and fermented milk containing live, but not heat-killed, L. acidophilus La-5, Lacticaseibacillus rhamnosus GG, and Bifidobacterium animalis subsp. lactis Bb-12 (25489). However, some combination products have not demonstrated benefit. Clinical research shows that taking a combination of L. acidophilus and bifidobacteria or a combination of L. acidophilus and Lactobacillus delbrueckii subsp. bulgaricus (Lactinex) is not beneficial (90231, 90239, 92255, 95385). An additional large clinical trial in children aged 3 months and up shows that taking L. acidophilus in combination with other probiotics does not reduce the risk of antibiotic-associated diarrhea when compared with taking placebo, when the more stringent definition is considered excluding diarrhea of other etiologies. However, the risk of diarrhea of any etiology is reduced by 35%. The probiotic supplement provided a total of 10 billion CFUs of L. acidophilus W37, Bifidobacterium bifidum W23, Bifidobacterium animalis subsp. lactis W51, Lactobacillus acidophilus W55, Lacticaseibacillus paracasei W20, Lactiplantibacillus plantarum W62, Lacticaseibacillus rhamnosus W71, and Ligilactobacillus salivarius W24 daily from the first day of antibiotic treatment until 7 days after treatment ended (110969)."
+      },
+      "ingredient": {
+        "name": "Lactobacillus acidophilus",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Antibiotic-associated diarrhea.",
+      "effectiveness_rating": "POSSIBLY EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 18
+        },
+        "indication": {
+          "start": 19,
+          "end": 50
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:11f07a50dafdf5e447fbb459fa37fadc41e0f503d2911368f435cc2eb98355c0",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nGeneral: The United States Food and Drug Administration (FDA) requires that supplement labels list vitamin D content in units of micrograms (mcg). To convert from International Units (IU) to mcg, divide the IUs by a factor of 40. To convert from mcg to IUs, multiply the mcg amount by a factor of 40 (98237).\nThe recommended dietary allowance (RDA) of vitamin D based on age is 600 IU (15 mcg) daily in those 1-70 years of age and 800 IU (20 mcg) daily in those 71 years and older. For those pregnant or lactating, the RDA is 600 IU (15 mcg) daily (17506). The National Osteoporosis Foundation recommends vitamin D 400-800 IU (10-20 mcg) daily for adults under age 50, and 800-1000 IU (20-25 mcg) daily for older adults (16120).\nThe current RDA assumes that vitamin D2 (ergocalciferol) and vitamin D3 (cholecalciferol) are equivalent; however, some evidence indicates that vitamin D2 is less than one-third as potent as vitamin D3 and that vitamin D3 is more effective in improving vitamin D status (15263, 15264, 107228). Therefore, many experts now recommend using vitamin D supplements containing vitamin D3 in order to meet these intake levels (15263, 15264).\nRecommendations for supplemental vitamin D doses vary greatly. In general, patients should not exceed the tolerable upper limit of 4000 IU daily, unless advised by a healthcare provider. See Effectiveness section for condition-specific information.\nAdvise patients that vitamin D can be taken with or without food. When consumed with a low-fat meal, absorption of vitamin D is up to 20% higher than when consumed with a high-fat meal or no meal. However, this increased absorption does not correlate with a sustained increase in serum vitamin D levels (97302).",
+      "source": {
+        "record_id": "natmed:8dd04c27d96778422b37b7f1",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=929",
+        "content_hash": "173a3d11b517fbfbacba3f4a337deaf928104a216d34f6ae3037eb22f9e0218c",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 1736,
+        "excerpt": "Adult\nOral:\nGeneral: The United States Food and Drug Administration (FDA) requires that supplement labels list vitamin D content in units of micrograms (mcg). To convert from International Units (IU) to mcg, divide the IUs by a factor of 40. To convert from mcg to IUs, multiply the mcg amount by a factor of 40 (98237).\nThe recommended dietary allowance (RDA) of vitamin D based on age is 600 IU (15 mcg) daily in those 1-70 years of age and 800 IU (20 mcg) daily in those 71 years and older. For those pregnant or lactating, the RDA is 600 IU (15 mcg) daily (17506). The National Osteoporosis Foundation recommends vitamin D 400-800 IU (10-20 mcg) daily for adults under age 50, and 800-1000 IU (20-25 mcg) daily for older adults (16120).\nThe current RDA assumes that vitamin D2 (ergocalciferol) and vitamin D3 (cholecalciferol) are equivalent; however, some evidence indicates that vitamin D2 is less than one-third as potent as vitamin D3 and that vitamin D3 is more effective in improving vitamin D status (15263, 15264, 107228). Therefore, many experts now recommend using vitamin D supplements containing vitamin D3 in order to meet these intake levels (15263, 15264).\nRecommendations for supplemental vitamin D doses vary greatly. In general, patients should not exceed the tolerable upper limit of 4000 IU daily, unless advised by a healthcare provider. See Effectiveness section for condition-specific information.\nAdvise patients that vitamin D can be taken with or without food. When consumed with a low-fat meal, absorption of vitamin D is up to 20% higher than when consumed with a high-fat meal or no meal. However, this increased absorption does not correlate with a sustained increase in serum vitamin D levels (97302)."
+      },
+      "ingredient": {
+        "name": "Vitamin D",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "those 71 years and older",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "The recommended dietary allowance (RDA) of vitamin D based on age is 600 IU (15 mcg) daily in those 1-70 years of age and 800 IU (20 mcg) daily in those 71 years and older",
+        "value": 800.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "IU",
+        "qualifier": null,
+        "regimen": null,
+        "frequency": "daily",
+        "duration": null,
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 468,
+          "end": 492
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.text": {
+          "start": 321,
+          "end": 492
+        },
+        "dose.frequency": {
+          "start": 459,
+          "end": 464
+        },
+        "dose.value": {
+          "start": 443,
+          "end": 446
+        },
+        "dose.unit": {
+          "start": 447,
+          "end": 449
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:af940b63b3ab5591b8ff4e6614a9f686a822ebf5f690dba5db2116357ec4222c",
+      "claim_type": "interaction",
+      "claim_text": "ALUMINUM\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nMILD\nOccurrence\nPROBABLE\nLevel of Evidence\nB (Nonrandomized clinical trial)\nVitamin D might increase aluminum absorption and toxicity, but this has only been reported in people with renal failure.\nThe protein that transports calcium across the intestinal wall can also bind and transport aluminum. This protein is stimulated by vitamin D, which may therefore increase aluminum absorption (11595, 11597, 22916). This mechanism may contribute to increased aluminum levels and toxicity in people with renal failure, when they take vitamin D and aluminum-containing phosphate binders chronically (11529, 11596, 11597).",
+      "source": {
+        "record_id": "natmed:8dd04c27d96778422b37b7f1",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=929",
+        "content_hash": "173a3d11b517fbfbacba3f4a337deaf928104a216d34f6ae3037eb22f9e0218c",
+        "section_index": 9,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 695,
+        "excerpt": "ALUMINUM\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nMILD\nOccurrence\nPROBABLE\nLevel of Evidence\nB (Nonrandomized clinical trial)\nVitamin D might increase aluminum absorption and toxicity, but this has only been reported in people with renal failure.\nThe protein that transports calcium across the intestinal wall can also bind and transport aluminum. This protein is stimulated by vitamin D, which may therefore increase aluminum absorption (11595, 11597, 22916). This mechanism may contribute to increased aluminum levels and toxicity in people with renal failure, when they take vitamin D and aluminum-containing phosphate binders chronically (11529, 11596, 11597)."
+      },
+      "ingredient": {
+        "name": "Vitamin D",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "B (Nonrandomized clinical trial)",
+      "interaction": {
+        "partner": "ALUMINUM",
+        "rating": "MODERATE",
+        "severity": "MILD",
+        "occurrence": "PROBABLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 8
+        },
+        "interaction.rating": {
+          "start": 28,
+          "end": 36
+        },
+        "interaction.severity": {
+          "start": 81,
+          "end": 85
+        },
+        "interaction.occurrence": {
+          "start": 97,
+          "end": 105
+        },
+        "evidence_grade": {
+          "start": 124,
+          "end": 156
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:7987139fc3e2b870cbf821f134b80157550402735db8fc8b5c67c08ca63502ea",
+      "claim_type": "effectiveness",
+      "claim_text": "EFFECTIVE\nFamilial hypophosphatemia.\nOral vitamin D in combination with phosphate is effective for bone disorders in patients with familial hypophosphatemia.\nTaking calcitriol or dihydrotachysterol orally in combination with phosphate supplements is effective for treating bone disorders in people with familial hypophosphatemia (11818).",
+      "source": {
+        "record_id": "natmed:8dd04c27d96778422b37b7f1",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=929",
+        "content_hash": "173a3d11b517fbfbacba3f4a337deaf928104a216d34f6ae3037eb22f9e0218c",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 337,
+        "excerpt": "EFFECTIVE\nFamilial hypophosphatemia.\nOral vitamin D in combination with phosphate is effective for bone disorders in patients with familial hypophosphatemia.\nTaking calcitriol or dihydrotachysterol orally in combination with phosphate supplements is effective for treating bone disorders in people with familial hypophosphatemia (11818)."
+      },
+      "ingredient": {
+        "name": "Vitamin D",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Familial hypophosphatemia.",
+      "effectiveness_rating": "EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 9
+        },
+        "indication": {
+          "start": 10,
+          "end": 36
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:30788ff4590cd577ee3010e9379333ba7cab4cdcc422ff0c7d362dd83966b506",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nFish oil has most often been used in doses of up to 6 grams daily for up to 12 weeks. Lower doses have been used for longer durations. See Effectiveness section for condition-specific information.\nFish oil is often standardized to eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) at a median combined total dose of 600 mg daily, providing an EPA median dose of 340 mg daily and a DHA median dose of 270 mg daily or 55% EPA and 37% DHA (12982, 66177, 96120, 101548, 112466).",
+      "source": {
+        "record_id": "natmed:9846bbe87087e6c66c605ff5",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=993",
+        "content_hash": "5729a7d6e1534e65f77266b6752e2dfe2ec55992a2198cb16fb50fd0393dabbf",
+        "section_index": 7,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 495,
+        "excerpt": "Adult\nOral:\nFish oil has most often been used in doses of up to 6 grams daily for up to 12 weeks. Lower doses have been used for longer durations. See Effectiveness section for condition-specific information.\nFish oil is often standardized to eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) at a median combined total dose of 600 mg daily, providing an EPA median dose of 340 mg daily and a DHA median dose of 270 mg daily or 55% EPA and 37% DHA (12982, 66177, 96120, 101548, 112466)."
+      },
+      "ingredient": {
+        "name": "Fish Oil",
+        "formulation": null,
+        "strain": null
+      },
+      "population": "Adult",
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "Fish oil has most often been used in doses of up to 6 grams daily for up to 12 weeks",
+        "value": 6.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "grams",
+        "qualifier": "up to",
+        "regimen": null,
+        "frequency": "daily",
+        "duration": {
+          "value": 12.0,
+          "unit": "weeks",
+          "qualifier": "up to"
+        },
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "population": {
+          "start": 0,
+          "end": 5
+        },
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.qualifier": {
+          "start": 58,
+          "end": 63
+        },
+        "dose.text": {
+          "start": 12,
+          "end": 96
+        },
+        "dose.frequency": {
+          "start": 72,
+          "end": 77
+        },
+        "dose.duration.value": {
+          "start": 88,
+          "end": 90
+        },
+        "dose.duration.unit": {
+          "start": 91,
+          "end": 96
+        },
+        "dose.duration.qualifier": {
+          "start": 82,
+          "end": 87
+        },
+        "dose.value": {
+          "start": 64,
+          "end": 65
+        },
+        "dose.unit": {
+          "start": 66,
+          "end": 71
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:4cd359990650639e71df828c1422ab91acb9f2e33ce6d0d97703de56abb47ac0",
+      "claim_type": "interaction",
+      "claim_text": "ANTICOAGULANT/ANTIPLATELET DRUGS\nInteraction Rating\nMINOR Be watchful with this combination.\nSeverity\nMODERATE\nOccurrence\nUNLIKELY\nLevel of Evidence\nB (Lower quality RCT)\nFish oil may have antiplatelet effects and may increase the risk of bleeding if used with anticoagulant or antiplatelet drugs. However, evidence is conflicting.\nWhile fish oil may not be a potent inhibitor of platelet function, high doses of fish oil might have antiplatelet effects. Theoretically, concomitant use of fish oil with anticoagulant or antiplatelet drugs may increase the risk of bleeding (8671, 8679, 8696, 13769, 21223, 21224, 66258). However, the most rigorous research shows that short-term doses of fish oil 10 grams daily or long-term doses of 1.5 grams daily for up to 52 weeks does not increase the risk of bleeding or affect coagulation parameters in chronically ill and vulnerable patients (97180). Other controlled research shows that fish oil does not affect platelet function or increase the risk of bleeding (17990, 17996, 66105, 66267, 89374, 107180). Some research even suggests that perioperative fish oil use decreases bleeding risk (89352). Some research suggests fish oil does not have additive antiplatelet effects when combined with aspirin (13769), but other clinical evidence suggests that adding fish oil to low-dose aspirin treatment increases antiplatelet effects in patients who are aspirin-resistant (21226). Also, some clinical research seems to show that fish oil has additive antiplatelet effects when used with aspirin and clopidogrel compared to aspirin and clopidogrel alone (21225).",
+      "source": {
+        "record_id": "natmed:9846bbe87087e6c66c605ff5",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=993",
+        "content_hash": "5729a7d6e1534e65f77266b6752e2dfe2ec55992a2198cb16fb50fd0393dabbf",
+        "section_index": 9,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 1602,
+        "excerpt": "ANTICOAGULANT/ANTIPLATELET DRUGS\nInteraction Rating\nMINOR Be watchful with this combination.\nSeverity\nMODERATE\nOccurrence\nUNLIKELY\nLevel of Evidence\nB (Lower quality RCT)\nFish oil may have antiplatelet effects and may increase the risk of bleeding if used with anticoagulant or antiplatelet drugs. However, evidence is conflicting.\nWhile fish oil may not be a potent inhibitor of platelet function, high doses of fish oil might have antiplatelet effects. Theoretically, concomitant use of fish oil with anticoagulant or antiplatelet drugs may increase the risk of bleeding (8671, 8679, 8696, 13769, 21223, 21224, 66258). However, the most rigorous research shows that short-term doses of fish oil 10 grams daily or long-term doses of 1.5 grams daily for up to 52 weeks does not increase the risk of bleeding or affect coagulation parameters in chronically ill and vulnerable patients (97180). Other controlled research shows that fish oil does not affect platelet function or increase the risk of bleeding (17990, 17996, 66105, 66267, 89374, 107180). Some research even suggests that perioperative fish oil use decreases bleeding risk (89352). Some research suggests fish oil does not have additive antiplatelet effects when combined with aspirin (13769), but other clinical evidence suggests that adding fish oil to low-dose aspirin treatment increases antiplatelet effects in patients who are aspirin-resistant (21226). Also, some clinical research seems to show that fish oil has additive antiplatelet effects when used with aspirin and clopidogrel compared to aspirin and clopidogrel alone (21225)."
+      },
+      "ingredient": {
+        "name": "Fish Oil",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "B (Lower quality RCT)",
+      "interaction": {
+        "partner": "ANTICOAGULANT/ANTIPLATELET DRUGS",
+        "rating": "MINOR",
+        "severity": "MODERATE",
+        "occurrence": "UNLIKELY"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 32
+        },
+        "interaction.rating": {
+          "start": 52,
+          "end": 57
+        },
+        "interaction.severity": {
+          "start": 102,
+          "end": 110
+        },
+        "interaction.occurrence": {
+          "start": 122,
+          "end": 130
+        },
+        "evidence_grade": {
+          "start": 149,
+          "end": 170
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:b6f25957a705a38a426042b42eaa2e9e0b9208fa716554b485aab711291a57e0",
+      "claim_type": "effectiveness",
+      "claim_text": "EFFECTIVE\nHypertriglyceridemia.\nOral prescription fish oil products reduce triglyceride levels in patients with hypertriglyceridemia, especially in severe cases. Oral fish oil supplements may reduce triglyceride levels when used in very high doses of up to 12 capsules per dose.\nFish oil can reduce triglyceride levels by 20% to 50% (1024, 2299, 2300, 2301, 2302, 2315, 2317, 5702, 5705, 5706)(6394, 6399, 7368, 7369, 7380, 12921, 12922, 13011, 13766, 65846)(66154, 65504, 66370, 66156, 66338, 65589, 66221, 66257, 66278, 98004)(100253, 118684). The effect is dose-dependent and greatest in individuals with severe hypertriglyceridemia (triglyceride levels of 500 mg/dL and above) (5706, 7380, 65846, 66278, 100253). However, fish oil might be less effective than fibrates. One clinical study shows that fish oil in doses of 4 grams daily is not as effective as gemfibrozil (Lopid) 1200 mg daily (7377). For patients with hypertriglyceridemia associated with the atherogenic lipoprotein phenotype (ALP), which is thought to be a marker for cardiovascular disease, taking fish oil 6 grams daily might reduce triglyceride levels by 35% (8683). Preliminary clinical research shows that taking the omega-3 fatty acids found in fish oil might also reduce fatty liver disease and serum transaminase levels associated with hypertriglyceridemia (13755).\nThree specific fish oil preparations (Lovaza, formerly known as Omacor, GlaxoSmithKline; Omtryg, Trygg Pharma, Inc.; Epanova, AstraZeneca Pharmaceuticals), are approved by the US Food and Drug Administration (FDA) for use as an adjunct to diet to lower triglyceride levels in adults with severe hypertriglyceridemia (12982, 96117). These prescription-only products are typically used at dosages of 4 grams providing 3.4-3.6 grams of omega-3 fatty acids daily (98004). When a 4-gram daily dose is used, triglycerides are lowered by about 20% to 30%. When a 2-gram daily dose is used, the triglyceride-lowering effect is reduced by about half (100253). In 2019, the American Heart Association (AHA) stated that prescription fish oil products, taken in doses of 4 grams daily, are clinically useful for lowering triglyceride levels in patients with hypertriglyceridemia or severe hypertriglyceridemia (100253).\nFish oil supplements have also shown benefit in clinical research when used in doses ranging from 1-15 grams daily for up to 6 months, or when providing EPA 1.45 to 2.7 grams and DHA 1.05 to 1.8 grams daily for 2 to 12 weeks (1024, 2301, 2315, 2317, 5705, 5707, 6394, 6399, 7368, 7369)(8683, 13766, 65589, 66156, 66257, 66370). However, some experts view these forms of fish oil as inadequate, as the omega-3 fatty acid content of fish oil supplements is usually lower and often variable compared to prescription fish oil. Often, up to 12 capsules of fish oil supplements daily may be needed to produce the same triglyceride-lowering effect as prescription fish oil (98004). In 2019, the AHA did not recommend for or against the use of fish oil supplements for hypertriglyceridemia (100253).\nThere is limited evidence regarding the effects of fish oil in younger patients with hypertriglyceridemia (100253). Two small clinical studies in adolescents with hypertriglyceridemia show that fish oil supplements 4 grams daily for 2-6 months do not reduce triglyceride levels when compared with placebo (89339, 100253). However, the lack of benefit in this patient population might be due to the small study sizes or due to potential underlying genetic resistance to treatment.",
+      "source": {
+        "record_id": "natmed:9846bbe87087e6c66c605ff5",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=993",
+        "content_hash": "5729a7d6e1534e65f77266b6752e2dfe2ec55992a2198cb16fb50fd0393dabbf",
+        "section_index": 6,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 3525,
+        "excerpt": "EFFECTIVE\nHypertriglyceridemia.\nOral prescription fish oil products reduce triglyceride levels in patients with hypertriglyceridemia, especially in severe cases. Oral fish oil supplements may reduce triglyceride levels when used in very high doses of up to 12 capsules per dose.\nFish oil can reduce triglyceride levels by 20% to 50% (1024, 2299, 2300, 2301, 2302, 2315, 2317, 5702, 5705, 5706)(6394, 6399, 7368, 7369, 7380, 12921, 12922, 13011, 13766, 65846)(66154, 65504, 66370, 66156, 66338, 65589, 66221, 66257, 66278, 98004)(100253, 118684). The effect is dose-dependent and greatest in individuals with severe hypertriglyceridemia (triglyceride levels of 500 mg/dL and above) (5706, 7380, 65846, 66278, 100253). However, fish oil might be less effective than fibrates. One clinical study shows that fish oil in doses of 4 grams daily is not as effective as gemfibrozil (Lopid) 1200 mg daily (7377). For patients with hypertriglyceridemia associated with the atherogenic lipoprotein phenotype (ALP), which is thought to be a marker for cardiovascular disease, taking fish oil 6 grams daily might reduce triglyceride levels by 35% (8683). Preliminary clinical research shows that taking the omega-3 fatty acids found in fish oil might also reduce fatty liver disease and serum transaminase levels associated with hypertriglyceridemia (13755).\nThree specific fish oil preparations (Lovaza, formerly known as Omacor, GlaxoSmithKline; Omtryg, Trygg Pharma, Inc.; Epanova, AstraZeneca Pharmaceuticals), are approved by the US Food and Drug Administration (FDA) for use as an adjunct to diet to lower triglyceride levels in adults with severe hypertriglyceridemia (12982, 96117). These prescription-only products are typically used at dosages of 4 grams providing 3.4-3.6 grams of omega-3 fatty acids daily (98004). When a 4-gram daily dose is used, triglycerides are lowered by about 20% to 30%. When a 2-gram daily dose is used, the triglyceride-lowering effect is reduced by about half (100253). In 2019, the American Heart Association (AHA) stated that prescription fish oil products, taken in doses of 4 grams daily, are clinically useful for lowering triglyceride levels in patients with hypertriglyceridemia or severe hypertriglyceridemia (100253).\nFish oil supplements have also shown benefit in clinical research when used in doses ranging from 1-15 grams daily for up to 6 months, or when providing EPA 1.45 to 2.7 grams and DHA 1.05 to 1.8 grams daily for 2 to 12 weeks (1024, 2301, 2315, 2317, 5705, 5707, 6394, 6399, 7368, 7369)(8683, 13766, 65589, 66156, 66257, 66370). However, some experts view these forms of fish oil as inadequate, as the omega-3 fatty acid content of fish oil supplements is usually lower and often variable compared to prescription fish oil. Often, up to 12 capsules of fish oil supplements daily may be needed to produce the same triglyceride-lowering effect as prescription fish oil (98004). In 2019, the AHA did not recommend for or against the use of fish oil supplements for hypertriglyceridemia (100253).\nThere is limited evidence regarding the effects of fish oil in younger patients with hypertriglyceridemia (100253). Two small clinical studies in adolescents with hypertriglyceridemia show that fish oil supplements 4 grams daily for 2-6 months do not reduce triglyceride levels when compared with placebo (89339, 100253). However, the lack of benefit in this patient population might be due to the small study sizes or due to potential underlying genetic resistance to treatment."
+      },
+      "ingredient": {
+        "name": "Fish Oil",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Hypertriglyceridemia.",
+      "effectiveness_rating": "EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 9
+        },
+        "indication": {
+          "start": 10,
+          "end": 31
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:08bac67e0152de73b8ae588b401a5a8ebdf2cb813708849df246029e4300eda7",
+      "claim_type": "dose",
+      "claim_text": "Adult\nOral:\nGeneral: For adults, the recommended dietary allowance (RDA) for iron is 8 mg/day for males ages 19 and older, and females ages 51 and older. For females 19 to 50 years, the RDA is 18 mg/day. During pregnancy, the RDA is 27 mg/day. During lactation, the RDA is 10 mg/day for ages 14 to 18 years, and 9 mg/day for ages 19 to 50 (7135).\nPatients should not exceed the tolerable upper intake level of 45 mg iron daily unless advised by a healthcare provider. See Effectiveness section for condition-specific information.\nDietary or supplemental calcium may decrease the absorption of dietary or supplemental iron. However, in people with adequate stores of these minerals, this does not appear to have a clinically significant effect on long-term iron status (8875).\nAdvise patients that iron should be taken on an empty stomach if possible. Taking iron supplements with food can decrease iron absorption by 40% to 75% (17500, 110193). This is likely due to binding of iron in the gut by calcium, polyphenols, tannins, and other dietary constituents (8875, 8887, 9570, 9571, 9573, 17497, 17500). If iron must be taken with food to mitigate gastrointestinal side effects, advise patients to avoid taking iron at the same time as dairy, coffee, tea, or cereals (7135, 17497, 17500).",
+      "source": {
+        "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=912",
+        "content_hash": "fcdddd817d3a802aa7b6cfb3d9874bf5f16910d8b932133ef3c7f67bad8450c3",
+        "section_index": 6,
+        "section_heading": "dosing & administration",
+        "start": 0,
+        "end": 1289,
+        "excerpt": "Adult\nOral:\nGeneral: For adults, the recommended dietary allowance (RDA) for iron is 8 mg/day for males ages 19 and older, and females ages 51 and older. For females 19 to 50 years, the RDA is 18 mg/day. During pregnancy, the RDA is 27 mg/day. During lactation, the RDA is 10 mg/day for ages 14 to 18 years, and 9 mg/day for ages 19 to 50 (7135).\nPatients should not exceed the tolerable upper intake level of 45 mg iron daily unless advised by a healthcare provider. See Effectiveness section for condition-specific information.\nDietary or supplemental calcium may decrease the absorption of dietary or supplemental iron. However, in people with adequate stores of these minerals, this does not appear to have a clinically significant effect on long-term iron status (8875).\nAdvise patients that iron should be taken on an empty stomach if possible. Taking iron supplements with food can decrease iron absorption by 40% to 75% (17500, 110193). This is likely due to binding of iron in the gut by calcium, polyphenols, tannins, and other dietary constituents (8875, 8887, 9570, 9571, 9573, 17497, 17500). If iron must be taken with food to mitigate gastrointestinal side effects, advise patients to avoid taking iron at the same time as dairy, coffee, tea, or cereals (7135, 17497, 17500)."
+      },
+      "ingredient": {
+        "name": "Iron",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": "During lactation, the RDA is 10 mg/day for ages 14 to 18 years, and 9 mg/day for ages 19 to 50 (7135)",
+        "value": 9.0,
+        "minimum": null,
+        "maximum": null,
+        "unit": "mg/day",
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": "Oral"
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "dose.route": {
+          "start": 6,
+          "end": 10
+        },
+        "dose.text": {
+          "start": 244,
+          "end": 345
+        },
+        "dose.value": {
+          "start": 312,
+          "end": 313
+        },
+        "dose.unit": {
+          "start": 314,
+          "end": 320
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:421a04213b661bbfa1c7e507faebb06cd341d09d4a5be87b376f41e08ebb4aa8",
+      "claim_type": "interaction",
+      "claim_text": "BICTEGRAVIR/EMTRICITABINE/TENOFOVIR ALAFENAMIDE (Biktarvy)\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nMODERATE\nOccurrence\nPROBABLE\nLevel of Evidence\nD (Theoretical based on pharmacology)\nIron might decrease levels of bictegravir/emtricitabine/tenofovir alafenamide by reducing its absorption when taken in a fasting state.\nAdvise patients that bictegravir/emtricitabine/tenofovir alafenamide and iron can be taken together if taken with food. However, if taken on an empty stomach, bictegravir/emtricitabine/tenofovir alafenamide should not be taken with, or 2 hours after, iron containing products (116930).",
+      "source": {
+        "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=912",
+        "content_hash": "fcdddd817d3a802aa7b6cfb3d9874bf5f16910d8b932133ef3c7f67bad8450c3",
+        "section_index": 8,
+        "section_heading": "interactions with drugs",
+        "start": 0,
+        "end": 637,
+        "excerpt": "BICTEGRAVIR/EMTRICITABINE/TENOFOVIR ALAFENAMIDE (Biktarvy)\nInteraction Rating\nMODERATE Be cautious with this combination.\nSeverity\nMODERATE\nOccurrence\nPROBABLE\nLevel of Evidence\nD (Theoretical based on pharmacology)\nIron might decrease levels of bictegravir/emtricitabine/tenofovir alafenamide by reducing its absorption when taken in a fasting state.\nAdvise patients that bictegravir/emtricitabine/tenofovir alafenamide and iron can be taken together if taken with food. However, if taken on an empty stomach, bictegravir/emtricitabine/tenofovir alafenamide should not be taken with, or 2 hours after, iron containing products (116930)."
+      },
+      "ingredient": {
+        "name": "Iron",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": "D (Theoretical based on pharmacology)",
+      "interaction": {
+        "partner": "BICTEGRAVIR/EMTRICITABINE/TENOFOVIR ALAFENAMIDE (Biktarvy)",
+        "rating": "MODERATE",
+        "severity": "MODERATE",
+        "occurrence": "PROBABLE"
+      },
+      "field_support": {
+        "interaction.partner": {
+          "start": 0,
+          "end": 58
+        },
+        "interaction.rating": {
+          "start": 78,
+          "end": 86
+        },
+        "interaction.severity": {
+          "start": 131,
+          "end": 139
+        },
+        "interaction.occurrence": {
+          "start": 151,
+          "end": 159
+        },
+        "evidence_grade": {
+          "start": 178,
+          "end": 215
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:77013955a18b4111127c078f68328f2e721cd8155ad9c3339b41054ef34409b2",
+      "claim_type": "effectiveness",
+      "claim_text": "EFFECTIVE\nAnemia of chronic disease.\nOral and intravenous (IV) iron in combination with erythropoiesis-stimulating agents (ESAs) are effective for treating anemia of chronic disease.\nIron supplementation with ESAs is effective for treating anemia associated with chronic kidney disease (CKD) or chemotherapy. During therapy with ESAs, iron levels should be monitored and supplementation provided as needed to ensure that the response is not limited by lack of iron for erythropoiesis (1087, 1091, 20110, 20111, 110192). Research shows that IV iron appears to be more effective than oral supplements for this purpose (20112, 20113). In patients with CKD, IV iron at total doses from 2232 mg over 6 months to 1020 mg over one week increases hemoglobin levels more than oral doses of 4-6 mg/kg daily or 325 mg daily for up to 6 months (20112).\nSome research has evaluated the effect of IV or oral iron in patients not treated with ESAs. In patients with cancer or CKD, oral iron supplements have been shown to improve iron status (110184, 110192). However, overall benefits of iron alone remain unclear in treated or untreated patients with cancer and more research is needed to rule out an increase in mortality and to determine any effect on blood transfusion requirements (110192).\nPreliminary clinical research shows that children aged 6 months to 10 years with HIV and anemia who take elemental iron 3 mg/kg daily along with a multivitamin for 3 months have a 41% lower chance of having persistent anemia at 3 months when compared with multivitamins alone (95432).",
+      "source": {
+        "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=912",
+        "content_hash": "fcdddd817d3a802aa7b6cfb3d9874bf5f16910d8b932133ef3c7f67bad8450c3",
+        "section_index": 5,
+        "section_heading": "effectiveness",
+        "start": 0,
+        "end": 1566,
+        "excerpt": "EFFECTIVE\nAnemia of chronic disease.\nOral and intravenous (IV) iron in combination with erythropoiesis-stimulating agents (ESAs) are effective for treating anemia of chronic disease.\nIron supplementation with ESAs is effective for treating anemia associated with chronic kidney disease (CKD) or chemotherapy. During therapy with ESAs, iron levels should be monitored and supplementation provided as needed to ensure that the response is not limited by lack of iron for erythropoiesis (1087, 1091, 20110, 20111, 110192). Research shows that IV iron appears to be more effective than oral supplements for this purpose (20112, 20113). In patients with CKD, IV iron at total doses from 2232 mg over 6 months to 1020 mg over one week increases hemoglobin levels more than oral doses of 4-6 mg/kg daily or 325 mg daily for up to 6 months (20112).\nSome research has evaluated the effect of IV or oral iron in patients not treated with ESAs. In patients with cancer or CKD, oral iron supplements have been shown to improve iron status (110184, 110192). However, overall benefits of iron alone remain unclear in treated or untreated patients with cancer and more research is needed to rule out an increase in mortality and to determine any effect on blood transfusion requirements (110192).\nPreliminary clinical research shows that children aged 6 months to 10 years with HIV and anemia who take elemental iron 3 mg/kg daily along with a multivitamin for 3 months have a 41% lower chance of having persistent anemia at 3 months when compared with multivitamins alone (95432)."
+      },
+      "ingredient": {
+        "name": "Iron",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": "Anemia of chronic disease.",
+      "effectiveness_rating": "EFFECTIVE",
+      "safety_rating": null,
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "effectiveness_rating": {
+          "start": 0,
+          "end": 9
+        },
+        "indication": {
+          "start": 10,
+          "end": 36
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:3a1e7c59e8144dd11cfe90e000be0afa605130adb7d5baf9a94e590a529ea45f",
+      "claim_type": "safety",
+      "claim_text": "POSSIBLY SAFE when used orally and appropriately, short-term. Ashwagandha has been used with apparent safety in doses of up to 1250 mg daily for up to 6 months (3710, 11301, 19271, 90649, 90652, 90653, 97292, 101816, 102682, 102683) (102684, 102685, 102687, 103476, 105824, 109586, 109588, 109589, 109590, 116648)(118927, 118930). ...when used topically. Ashwagandha lotion has been used with apparent safety in concentrations up to 8% for up to 2 months (111538).",
+      "source": {
+        "record_id": "natmed:0d296c0daa1cccb456da568c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+        "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+        "section_index": 4,
+        "section_heading": "safety",
+        "start": 0,
+        "end": 464,
+        "excerpt": "POSSIBLY SAFE when used orally and appropriately, short-term. Ashwagandha has been used with apparent safety in doses of up to 1250 mg daily for up to 6 months (3710, 11301, 19271, 90649, 90652, 90653, 97292, 101816, 102682, 102683) (102684, 102685, 102687, 103476, 105824, 109586, 109588, 109589, 109590, 116648)(118927, 118930). ...when used topically. Ashwagandha lotion has been used with apparent safety in concentrations up to 8% for up to 2 months (111538)."
+      },
+      "ingredient": {
+        "name": "Ashwagandha",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": "POSSIBLY SAFE",
+      "adverse_effect_category": null,
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "safety_rating": {
+          "start": 0,
+          "end": 13
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+      "claim_type": "adverse_effect",
+      "claim_text": "General\nOrally, ashwagandha seems to be well-tolerated. Topically, no adverse effects have been reported. However, a thorough evaluation of safety outcomes has not been conducted.",
+      "source": {
+        "record_id": "natmed:0d296c0daa1cccb456da568c",
+        "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953",
+        "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+        "section_index": 5,
+        "section_heading": "adverse effects",
+        "start": 0,
+        "end": 179,
+        "excerpt": "General\nOrally, ashwagandha seems to be well-tolerated. Topically, no adverse effects have been reported. However, a thorough evaluation of safety outcomes has not been conducted."
+      },
+      "ingredient": {
+        "name": "Ashwagandha",
+        "formulation": null,
+        "strain": null
+      },
+      "population": null,
+      "indication": null,
+      "effectiveness_rating": null,
+      "safety_rating": null,
+      "adverse_effect_category": "General",
+      "dose": {
+        "text": null,
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "unit": null,
+        "qualifier": null,
+        "regimen": null,
+        "frequency": null,
+        "duration": null,
+        "route": null
+      },
+      "evidence_grade": null,
+      "interaction": {
+        "partner": null,
+        "rating": null,
+        "severity": null,
+        "occurrence": null
+      },
+      "field_support": {
+        "adverse_effect_category": {
+          "start": 0,
+          "end": 7
+        }
+      },
+      "review": {
+        "state": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://supplementsrx.local/schemas/clinical_claim.schema.json",
+  "title": "Review-gated verbatim clinical evidence annotation v1.1",
+  "description": "One claim. Unknown fields are explicitly null. Code-point offsets are zero-based and half-open in the indexed source section. The Python validator additionally enforces source role/hash/URL/offset equality, exact source-title ingredient identity, annotation anchors, range ordering and human source-review gates. Schema validation alone never certifies medical truth or provenance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "claim_type", "claim_text", "source", "ingredient", "population", "indication", "effectiveness_rating", "safety_rating", "adverse_effect_category", "dose", "evidence_grade", "interaction", "field_support", "review"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "claim_type": {"type": "string", "enum": ["safety", "effectiveness", "dose", "adverse_effect", "interaction"]},
+    "claim_text": {"type": "string", "minLength": 1, "description": "Must exactly equal source.excerpt. No inferred paraphrase or medical answer."},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record_id", "url", "content_hash", "section_index", "section_heading", "start", "end", "excerpt"],
+      "properties": {
+        "record_id": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "format": "uri", "description": "Must exactly equal the saved NatMed professional-monograph source URL."},
+        "content_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA-256 of complete saved record.text encoded as UTF-8, not excerpt hash."},
+        "section_index": {"type": "integer", "minimum": 0},
+        "section_heading": {"type": "string", "minLength": 1},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 1},
+        "excerpt": {"type": "string", "minLength": 1}
+      }
+    },
+    "ingredient": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "formulation", "strain"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1, "description": "Exact saved source title, not a broader mapped topic; Fish Oil is not all Omega-3 and one organism is not all probiotics."},
+        "formulation": {"type": ["string", "null"], "minLength": 1, "description": "Exact source-supported preparation/salt/extract; unknown is null, not interchangeable."},
+        "strain": {"type": ["string", "null"], "minLength": 1, "description": "Exact source-supported strain identifier; species or broad topic does not imply a strain."}
+      }
+    },
+    "population": {"type": ["string", "null"], "minLength": 1, "description": "Exact source-supported population; unknown is null."},
+    "indication": {"type": ["string", "null"], "minLength": 1, "description": "Exact source condition/use heading or explicit indication phrase, not an inferred diagnosis."},
+    "effectiveness_rating": {"type": ["string", "null"], "minLength": 1, "description": "Exact active publisher effectiveness heading, including negative or insufficient-evidence categories; never an evidence grade."},
+    "safety_rating": {"type": ["string", "null"], "minLength": 1, "description": "Exact publisher safety rating with the source population and qualifications retained in the excerpt."},
+    "adverse_effect_category": {"type": ["string", "null"], "minLength": 1, "description": "Exact source category heading for described adverse effects, not a heading-only inferred event."},
+    "dose": {
+      "type": "object", "additionalProperties": false,
+      "required": ["text", "value", "minimum", "maximum", "unit", "qualifier", "regimen", "frequency", "duration", "route"],
+      "properties": {
+        "text": {"type": ["string", "null"], "minLength": 1, "description": "Verbatim dose statement retaining qualifiers, alternatives and clinical context, including when normalization is unresolved."},
+        "qualifier": {"type": ["string", "null"], "minLength": 1, "description": "Exact dose bound such as up to or upper intake limit; a bound must not silently become an exact recommended dose."},
+        "regimen": {"type": ["string", "null"], "minLength": 1, "description": "Exact source regimen/role phrase, such as loading dose, maintenance dose or recommended dietary allowance."},
+        "value": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "minimum": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "maximum": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "unit": {"type": ["string", "null"], "minLength": 1, "description": "Exact unit text without conversion; quantity and unit must be jointly known or jointly null."},
+        "frequency": {"type": ["string", "null"], "minLength": 1, "description": "Exact source frequency phrase; unknown is null."},
+        "duration": {
+          "type": ["object", "null"], "additionalProperties": false,
+          "required": ["value", "unit", "qualifier"],
+          "properties": {
+            "value": {"type": "number", "exclusiveMinimum": 0},
+            "unit": {"type": "string", "minLength": 1},
+            "qualifier": {"type": ["string", "null"], "minLength": 1, "description": "Exact duration bound such as up to, not an inferred fixed treatment duration."}
+          }
+        },
+        "route": {"type": ["string", "null"], "minLength": 1}
+      },
+      "oneOf": [
+        {"type": "object", "properties": {"value": {"type": "null"}, "minimum": {"type": "null"}, "maximum": {"type": "null"}, "unit": {"type": "null"}}},
+        {"type": "object", "properties": {"value": {"type": "number"}, "minimum": {"type": "null"}, "maximum": {"type": "null"}, "unit": {"type": "string"}}},
+        {"type": "object", "properties": {"value": {"type": "null"}, "minimum": {"type": "number"}, "maximum": {"type": "number"}, "unit": {"type": "string"}}}
+      ]
+    },
+    "evidence_grade": {"type": ["string", "null"], "minLength": 1, "description": "Exact publisher grade text anchored in the excerpt, not an invented or translated evidence rating."},
+    "interaction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["partner", "rating", "severity", "occurrence"],
+      "properties": {
+        "partner": {"type": ["string", "null"], "minLength": 1},
+        "rating": {"type": ["string", "null"], "minLength": 1, "description": "Exact value following Interaction Rating, kept separate from Severity."},
+        "occurrence": {"type": ["string", "null"], "minLength": 1, "description": "Exact publisher Occurrence value, not an inferred probability."},
+        "severity": {"type": ["string", "null"], "minLength": 1, "description": "Exact publisher severity text, not an inferred category or an interaction rating substituted for severity."}
+      }
+    },
+    "field_support": {
+      "type": "object",
+      "description": "Keys are dotted annotation paths, for example dose.value, ingredient.strain, dose.duration.unit. Exactly the non-null annotations except ingredient.name require anchors, all within source.excerpt and into the same source section, except an effectiveness_rating that may anchor on its publisher group heading earlier in the same section when the indication is inside the excerpt. Values must match the anchored text exactly; numeric text may differ only in decimal representation.",
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false, "required": ["start", "end"],
+        "properties": {"start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 1}}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["state", "reviewer", "reviewed_at"],
+      "properties": {
+        "state": {"type": "string", "enum": ["pending", "approved", "rejected"]},
+        "reviewer": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S"},
+        "reviewed_at": {"type": ["string", "null"], "format": "date-time"}
+      },
+      "oneOf": [
+        {"type": "object", "properties": {"reviewer": {"type": "null"}, "reviewed_at": {"type": "null"}}},
+        {"type": "object", "properties": {"reviewer": {"type": "string"}, "reviewed_at": {"type": "string"}}}
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "type": "object",
+      "if": {"type": "object", "properties": {"review": {"type": "object", "properties": {"state": {"type": "string", "enum": ["approved", "rejected"]}}}}},
+      "then": {"type": "object", "properties": {"review": {"type": "object", "properties": {"reviewer": {"type": "string", "minLength": 1, "pattern": "\\S"}, "reviewed_at": {"type": "string", "format": "date-time"}}}}}
+    },
+    {
+      "type": "object",
+      "if": {"type": "object", "properties": {"claim_type": {"type": "string", "enum": ["safety", "effectiveness", "dose", "adverse_effect"]}}},
+      "then": {"type": "object", "properties": {"interaction": {"type": "object", "properties": {"partner": {"type": "null"}, "rating": {"type": "null"}, "severity": {"type": "null"}, "occurrence": {"type": "null"}}}}}
+    },
+    {
+      "type": "object",
+      "if": {"type": "object", "properties": {"claim_type": {"type": "string", "const": "interaction"}, "review": {"type": "object", "properties": {"state": {"type": "string", "const": "approved"}}}}},
+      "then": {"type": "object", "properties": {"interaction": {"type": "object", "properties": {"partner": {"type": "string", "minLength": 1}}}}}
+    }
+  ]
+}

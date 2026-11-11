@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-28T23:42:55.853982+00:00",
+  "record_count": 4890,
+  "passage_count": 6250,
+  "coverage": {
+    "Magnesium": {
+      "reddit": 1703,
+      "natmed": 1
+    },
+    "Vitamin D": {
+      "reddit": 764,
+      "natmed": 1
+    },
+    "Ashwagandha": {
+      "reddit": 667,
+      "natmed": 1
+    },
+    "Melatonin": {
+      "reddit": 759,
+      "natmed": 1
+    },
+    "Omega-3": {
+      "reddit": 934,
+      "natmed": 1
+    },
+    "Vitamin B12": {
+      "reddit": 572,
+      "natmed": 1
+    },
+    "Iron": {
+      "reddit": 652,
+      "natmed": 1
+    },
+    "Turmeric": {
+      "reddit": 547,
+      "natmed": 1
+    },
+    "Probiotics": {
+      "reddit": 577,
+      "natmed": 1
+    },
+    "Creatine": {
+      "reddit": 807,
+      "natmed": 1
+    }
+  },
+  "limitations": [
+    "KG exports contain provenance and mentions only; clinical relation extraction is not implemented.",
+    "Alias matching is not UMLS normalization.",
+    "NatMed sections are source excerpts pending review; structured clinical fields are not inferred.",
+    "Reddit collection is a bounded search sample, not an exhaustive historical archive."
+  ]
+}
