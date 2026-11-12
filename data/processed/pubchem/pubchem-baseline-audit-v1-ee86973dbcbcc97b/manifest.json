@@ -1,0 +1,23 @@
+{
+  "rules_version": "pubchem-baseline-audit-v1",
+  "script_sha256": "dc158e7ab717c10e8cb3f9a4c37889243429a6df6eb24bb0ee6f219fe734835f",
+  "source_collection": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+  "source_sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+  "source_manifest_sha256": "dc13ffbeeb2db3d9decb37db4d16ff0705858d487cea06db57138690002ef20a",
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "audit.json": {
+      "sha256": "f9986e003513a948a633aa4f3d6c6bb5985d300d8aa03a851a00046833e541ce",
+      "bytes": 419989
+    },
+    "field_profiles.json": {
+      "sha256": "5b6620bef19477ea92064a7900c8dbf8e5b15d3ada55501d456304450693bad7",
+      "bytes": 6935
+    },
+    "audit.md": {
+      "sha256": "5416d7b83bafcd095627cc6f9a3f7f22fdddcd8dcdc0e6b0a677dff7dcd8360e",
+      "bytes": 3509
+    }
+  }
+}

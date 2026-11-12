@@ -1,0 +1,21 @@
+{
+  "rules_version": "dsld-name-review-v1",
+  "script_sha256": "204f7d254cff49971d72b800f7da6e116f362963208990101d80ba85465e118f",
+  "source_inventory": "data/processed/dsld/dsld-label-inventory-v1-b1689b0c095fb6ed",
+  "inputs": {
+    "label_inventory.jsonl": "b36203a3e6f6197d62a95af312df4f308a0023883c0bd0b94b4c652463818ddb",
+    "repeated_name_groups.json": "c77262f99a84216fba264cbf6d746a5b5dccc058123406660e70175ac7a3d3ec"
+  },
+  "files": {
+    "review.json": {
+      "sha256": "84f393dfd148d0f9f6fd13a8441b5f30a7a7cc98e34166178545ccea250a99fd",
+      "bytes": 2472807
+    },
+    "review.md": {
+      "sha256": "dd5c59a3008e9d45112664c45c2a2663b2894c2981e21fdc70b94b3496c72d39",
+      "bytes": 16693
+    }
+  },
+  "raw_file_count": 488,
+  "raw_files_unchanged": true
+}

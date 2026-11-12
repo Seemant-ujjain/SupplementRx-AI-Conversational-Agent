@@ -1,0 +1,22 @@
+{
+  "rules_version": "mesh-baseline-audit-v1",
+  "script_sha256": "6f8507e21b834e986aca60eaf62a812c9b0ef571015f2ff9597247eee40c0ee6",
+  "source_sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+  "source_manifest_sha256": "f90208b495e4fe848274d1f59153f65fbad9baec5d269bde97232564a18e4891",
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "audit.json": {
+      "sha256": "7d00dfe6f6400fdf9b62d986f801eda41d9304404dc8bd94b2488a31bedeb7e7",
+      "bytes": 1162002
+    },
+    "field_profiles.json": {
+      "sha256": "bdbd2aa923f0a02c0a6f82e4c0817ec2325bbe54b2ac56a3cee8de35b28b4389",
+      "bytes": 8108
+    },
+    "audit.md": {
+      "sha256": "8286819459cd2d987bfdfc2fdf5920c9c4af9a45e70dbb6b8223da1b97268a85",
+      "bytes": 2948
+    }
+  }
+}

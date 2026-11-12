@@ -1,0 +1,27 @@
+{
+  "rules_version": "reddit-baseline-audit-v1",
+  "script_sha256": "13a13ca32fa1bbcb0c28ee0e0b3b71bebc07b22feca5ff0281abe17346d7e93d",
+  "inputs": {
+    "data/raw/reddit/collection_manifest.json": "f040a897d4517ce01f5ff850220218ca63dc3f91615e9b80cc19782485474808",
+    "data/raw/reddit/records.jsonl": "aa3e205512fd17f03f06c5196bdcbb62ce41ddcdb2b74a6a9b88fb051b86b170",
+    "data/raw/reddit/upstream_derived/kg_edges.jsonl": "fe4dd23061b36de1bab3a44340dfdfb3f4c363d63e032db58df8ff5915f71b49",
+    "data/raw/reddit/upstream_derived/kg_nodes.jsonl": "ec64ff0b5040edc096f9d0e07ef93037523b7f5805677131a2dea15ba9af8d31",
+    "data/raw/reddit/upstream_derived/passages.jsonl": "7272b5f7e58c7fec659d7320b6bb6cfe3c799f6943fb0dd106e4262c9f3222c5"
+  },
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "audit.json": {
+      "sha256": "0a78871189ba936d5fd3a4bcdb3cdf9eecd7d3dc19924074684a0711b79e895f",
+      "bytes": 25819
+    },
+    "field_profiles.json": {
+      "sha256": "ec251d96c449e84b0fbcdaff2bb5af0716627d65751e068a602326b09214b01f",
+      "bytes": 13427
+    },
+    "audit.md": {
+      "sha256": "569aadc21a2d25da85b884839026947277737f6a02b2c97bd9f46725bfde2a6b",
+      "bytes": 2839
+    }
+  }
+}

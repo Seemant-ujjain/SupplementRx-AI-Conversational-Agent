@@ -1,0 +1,691 @@
+{
+  "passage": {
+    "capture_quality": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "null": 5071
+      },
+      "types": {
+        "NoneType": 5071
+      },
+      "placeholder_examples": []
+    },
+    "chunk_words": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "int": 5071
+      },
+      "placeholder_examples": []
+    },
+    "citation_links": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 5071
+      },
+      "types": {
+        "list": 5071
+      },
+      "placeholder_examples": []
+    },
+    "citation_scope": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "clinical_review": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "null": 5071
+      },
+      "types": {
+        "NoneType": 5071
+      },
+      "placeholder_examples": []
+    },
+    "collected_at": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "evidence_role": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "mention_scope": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "normalization": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "dict": 5071
+      },
+      "placeholder_examples": []
+    },
+    "parent_id": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 4589,
+        "null": 482
+      },
+      "types": {
+        "str": 4589,
+        "NoneType": 482
+      },
+      "placeholder_examples": []
+    },
+    "record_id": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "record_type": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "reference_documents_sha256": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "null": 5071
+      },
+      "types": {
+        "NoneType": 5071
+      },
+      "placeholder_examples": []
+    },
+    "reference_scope": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "references": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 5071
+      },
+      "types": {
+        "list": 5071
+      },
+      "placeholder_examples": []
+    },
+    "requires_clinical_review": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "bool": 5071
+      },
+      "placeholder_examples": []
+    },
+    "section": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "section_index": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "int": 5071
+      },
+      "placeholder_examples": []
+    },
+    "source": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "source_batch_id": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "null": 5071
+      },
+      "types": {
+        "NoneType": 5071
+      },
+      "placeholder_examples": []
+    },
+    "source_content_hash": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "source_created_at": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "source_updated_at": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "null": 5071
+      },
+      "types": {
+        "NoneType": 5071
+      },
+      "placeholder_examples": []
+    },
+    "source_url": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "supplements": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "list": 5071
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "thread_id": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "title": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 4689,
+        "populated": 382
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "word_count": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "int": 5071
+      },
+      "placeholder_examples": []
+    },
+    "word_start": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "int": 5071
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/normalization": {
+    "method": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    },
+    "umls_status": {
+      "parent_objects": 5071,
+      "missing_key": 0,
+      "states": {
+        "populated": 5071
+      },
+      "types": {
+        "str": 5071
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/supplements[]": {
+    "matched_terms": {
+      "parent_objects": 8379,
+      "missing_key": 0,
+      "states": {
+        "populated": 8379
+      },
+      "types": {
+        "list": 8379
+      },
+      "placeholder_examples": []
+    },
+    "supplement": {
+      "parent_objects": 8379,
+      "missing_key": 0,
+      "states": {
+        "populated": 8379
+      },
+      "types": {
+        "str": 8379
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record": {
+    "collected_at": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "content_hash": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "evidence_role": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "first_collected_at": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "mention_scope": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "native_id": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "normalization": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "dict": 4880
+      },
+      "placeholder_examples": []
+    },
+    "parent_id": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4494,
+        "null": 386
+      },
+      "types": {
+        "str": 4494,
+        "NoneType": 386
+      },
+      "placeholder_examples": []
+    },
+    "record_type": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "requires_clinical_review": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "bool": 4880
+      },
+      "placeholder_examples": []
+    },
+    "schema_version": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "score": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "null": 4880
+      },
+      "types": {
+        "NoneType": 4880
+      },
+      "placeholder_examples": []
+    },
+    "source": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "source_created_at": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "source_updated_at": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "null": 4880
+      },
+      "types": {
+        "NoneType": 4880
+      },
+      "placeholder_examples": []
+    },
+    "source_url": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "subreddit": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "supplements": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "list": 4880
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "thread_id": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "title": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 4593,
+        "populated": 287
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/normalization": {
+    "method": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    },
+    "umls_status": {
+      "parent_objects": 4880,
+      "missing_key": 0,
+      "states": {
+        "populated": 4880
+      },
+      "types": {
+        "str": 4880
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/supplements[]": {
+    "matched_terms": {
+      "parent_objects": 7982,
+      "missing_key": 0,
+      "states": {
+        "populated": 7982
+      },
+      "types": {
+        "list": 7982
+      },
+      "placeholder_examples": []
+    },
+    "supplement": {
+      "parent_objects": 7982,
+      "missing_key": 0,
+      "states": {
+        "populated": 7982
+      },
+      "types": {
+        "str": 7982
+      },
+      "placeholder_examples": []
+    }
+  }
+}

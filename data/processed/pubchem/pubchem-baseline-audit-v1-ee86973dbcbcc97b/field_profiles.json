@@ -1,0 +1,372 @@
+{
+  "occurrence": {
+    "dsld_id": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "ingredient_id": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "int": 3391
+      },
+      "placeholder_examples": []
+    },
+    "json_path": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "kind": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "search_categories": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "list": 3391
+      },
+      "placeholder_examples": []
+    }
+  },
+  "properties": {
+    "CID": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "int": 239
+      },
+      "placeholder_examples": []
+    },
+    "ConnectivitySMILES": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "str": 239
+      },
+      "placeholder_examples": []
+    },
+    "IUPACName": {
+      "parent_objects": 239,
+      "missing_key": 3,
+      "states": {
+        "populated": 236
+      },
+      "types": {
+        "str": 236
+      },
+      "placeholder_examples": []
+    },
+    "InChI": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "str": 239
+      },
+      "placeholder_examples": []
+    },
+    "InChIKey": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "str": 239
+      },
+      "placeholder_examples": []
+    },
+    "MolecularFormula": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 238,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 239
+      },
+      "placeholder_examples": [
+        "Na"
+      ]
+    },
+    "MolecularWeight": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "str": 239
+      },
+      "placeholder_examples": []
+    },
+    "Title": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "str": 239
+      },
+      "placeholder_examples": []
+    }
+  },
+  "query": {
+    "occurrences": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    },
+    "query": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "str": 739
+      },
+      "placeholder_examples": []
+    },
+    "variants": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record": {
+    "cid": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "int": 239
+      },
+      "placeholder_examples": []
+    },
+    "properties": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "dict": 239
+      },
+      "placeholder_examples": []
+    },
+    "synonyms": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "dict": 239
+      },
+      "placeholder_examples": []
+    }
+  },
+  "request": {
+    "attempt": {
+      "parent_objects": 759,
+      "missing_key": 0,
+      "states": {
+        "populated": 759
+      },
+      "types": {
+        "int": 759
+      },
+      "placeholder_examples": []
+    },
+    "requested_at_utc": {
+      "parent_objects": 759,
+      "missing_key": 0,
+      "states": {
+        "populated": 759
+      },
+      "types": {
+        "str": 759
+      },
+      "placeholder_examples": []
+    },
+    "response": {
+      "parent_objects": 759,
+      "missing_key": 0,
+      "states": {
+        "populated": 759
+      },
+      "types": {
+        "dict": 759
+      },
+      "placeholder_examples": []
+    },
+    "status_code": {
+      "parent_objects": 759,
+      "missing_key": 0,
+      "states": {
+        "populated": 759
+      },
+      "types": {
+        "int": 759
+      },
+      "placeholder_examples": []
+    },
+    "throttle": {
+      "parent_objects": 759,
+      "missing_key": 0,
+      "states": {
+        "populated": 759
+      },
+      "types": {
+        "str": 759
+      },
+      "placeholder_examples": []
+    },
+    "url": {
+      "parent_objects": 759,
+      "missing_key": 0,
+      "states": {
+        "populated": 759
+      },
+      "types": {
+        "str": 759
+      },
+      "placeholder_examples": []
+    }
+  },
+  "search_result": {
+    "cids": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 228,
+        "empty_container": 511
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    },
+    "requests": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    },
+    "response": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "dict": 739
+      },
+      "placeholder_examples": []
+    },
+    "status": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "str": 739
+      },
+      "placeholder_examples": []
+    }
+  },
+  "synonyms": {
+    "CID": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "int": 239
+      },
+      "placeholder_examples": []
+    },
+    "Synonym": {
+      "parent_objects": 239,
+      "missing_key": 0,
+      "states": {
+        "populated": 239
+      },
+      "types": {
+        "list": 239
+      },
+      "placeholder_examples": []
+    }
+  }
+}

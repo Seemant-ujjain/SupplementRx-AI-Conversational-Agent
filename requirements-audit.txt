@@ -1,0 +1,2 @@
+# NatMed JSON Schema Draft 2020-12 validation, including URI/date-time formats.
+jsonschema[format]==4.26.0

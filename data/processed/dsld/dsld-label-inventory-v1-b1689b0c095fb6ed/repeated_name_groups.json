@@ -1,0 +1,838 @@
+[
+  {
+    "group_id": "dsld:name-group:4cab2d10e352c622f988",
+    "brand_name": "Advanced Nutrition by Zahler",
+    "product_name": "Iron Complex",
+    "label_ids": [
+      "260089",
+      "278513"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:e3c15cdc3679a1d033ac",
+    "brand_name": "Allergy Research Group",
+    "product_name": "Magnesium Citrate",
+    "label_ids": [
+      "20453",
+      "54244",
+      "54431",
+      "78492",
+      "182963",
+      "184238",
+      "208093",
+      "233067",
+      "233300"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:f851fc7420ad44636ca8",
+    "brand_name": "Anabolic Laboratories",
+    "product_name": "Clinical Magnesium",
+    "label_ids": [
+      "53757",
+      "67421"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:68f71e85f274379a3838",
+    "brand_name": "Ancient Nutrition",
+    "product_name": "SBO Probiotics Trinity",
+    "label_ids": [
+      "305812",
+      "309193"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:d7272e0408c62a7c7bc0",
+    "brand_name": "BPI Sports",
+    "product_name": "Creatine Alkaline",
+    "label_ids": [
+      "25731",
+      "43261"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:3f2216154a5cef0d3978",
+    "brand_name": "Barlean's Seriously Delicious",
+    "product_name": "Omega-3 Pina Colada",
+    "label_ids": [
+      "218715",
+      "239256"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:6e00ca6abc6e1e1e8b69",
+    "brand_name": "Barlean's Seriously Delicious",
+    "product_name": "Omega-3 Strawberry Banana Smoothie",
+    "label_ids": [
+      "218739",
+      "239258",
+      "239259"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:9b64f05958e0a967c4ec",
+    "brand_name": "BetterYou",
+    "product_name": "Iron Daily Oral Spray",
+    "label_ids": [
+      "228638",
+      "257287"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:3f1266cab97821cd1cfa",
+    "brand_name": "BioCare",
+    "product_name": "Nutrisorb Vitamin B12",
+    "label_ids": [
+      "302255",
+      "309759"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:bd735b40e31bd969408b",
+    "brand_name": "Bluebonnet",
+    "product_name": "Magnesium Citrate",
+    "label_ids": [
+      "203860",
+      "204235"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:26c7bc2e8bc4178b0a01",
+    "brand_name": "DC",
+    "product_name": "Creatine",
+    "label_ids": [
+      "244633",
+      "265692"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:ac04745109028cc7c0a7",
+    "brand_name": "Douglas Laboratories",
+    "product_name": "Ferronyl Iron",
+    "label_ids": [
+      "70032",
+      "232593"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:684103e3dcb97149e87e",
+    "brand_name": "Douglas Laboratories",
+    "product_name": "Timed Release Iron",
+    "label_ids": [
+      "5328",
+      "9329",
+      "30584",
+      "232304"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:57b9640cb70ddddb0ce6",
+    "brand_name": "Douglas Laboratories",
+    "product_name": "Ultra Preventive III with Iron",
+    "label_ids": [
+      "5128",
+      "8729"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:8de4e339b8c6d3065cbe",
+    "brand_name": "Douglas Laboratories",
+    "product_name": "Vitamin B12",
+    "label_ids": [
+      "5083",
+      "10768",
+      "56047"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:d7775912d8c51d4b6013",
+    "brand_name": "Endo-met Laboratories",
+    "product_name": "Vitamin D",
+    "label_ids": [
+      "229019",
+      "229021"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:64edaebba7b45866f385",
+    "brand_name": "Enzymedica",
+    "product_name": "Digest Basic + Probiotics",
+    "label_ids": [
+      "260008",
+      "260011",
+      "296494",
+      "296495",
+      "328918"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:896345644d024ca7cebf",
+    "brand_name": "Enzymedica",
+    "product_name": "Digest Gold + Probiotics",
+    "label_ids": [
+      "32494",
+      "32500",
+      "32502",
+      "259959",
+      "259960",
+      "296521",
+      "296522",
+      "296523",
+      "328922",
+      "328923",
+      "328924"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:162f7b1d215d13081179",
+    "brand_name": "Floradix",
+    "product_name": "Calcium Magnesium",
+    "label_ids": [
+      "33728",
+      "33733"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:fa9547419af424ea5939",
+    "brand_name": "GNC AMP Advanced Muscle Performance",
+    "product_name": "Creatine HCl 189",
+    "label_ids": [
+      "210596",
+      "229725",
+      "229733"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:3c6f8c3815db64ad2933",
+    "brand_name": "GNC Mega Men",
+    "product_name": "High Potency Omega-3",
+    "label_ids": [
+      "69537",
+      "304637"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:b41788198c442a64f019",
+    "brand_name": "GNC Pro Performance",
+    "product_name": "Hybrid Creatine Complex Fruit Punch",
+    "label_ids": [
+      "19397",
+      "25606"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:9e3f8d2401aa4b12e742",
+    "brand_name": "Gaia Herbs Single Herbs",
+    "product_name": "Ashwagandha Root",
+    "label_ids": [
+      "44575",
+      "79402"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:77c44976b336890f467b",
+    "brand_name": "Global Healing",
+    "product_name": "Vitamin B12 5000 mcg",
+    "label_ids": [
+      "251652",
+      "296933"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:ec4854955ed5f6fa218b",
+    "brand_name": "Good 'N Natural",
+    "product_name": "Melatonin 3 mg",
+    "label_ids": [
+      "10840",
+      "10842",
+      "10843",
+      "58222",
+      "58513",
+      "58514"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:ddcd3fd50caca9191286",
+    "brand_name": "Herbal Hills",
+    "product_name": "Ashwagandha",
+    "label_ids": [
+      "74939",
+      "74940"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:c789d1ce49269d72998c",
+    "brand_name": "Himalaya",
+    "product_name": "Ashwagandha",
+    "label_ids": [
+      "25775",
+      "40304",
+      "40487",
+      "80192",
+      "80197",
+      "207207"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:93a3508f2f28a3941a99",
+    "brand_name": "InnovixLabs",
+    "product_name": "Triple Strength Omega-3",
+    "label_ids": [
+      "248198",
+      "276213"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:4990f922fc6ff7cf989f",
+    "brand_name": "InnovixLabs",
+    "product_name": "Ultra Strength Omega-3",
+    "label_ids": [
+      "276214",
+      "334990"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:d24499dfc4fbc358150a",
+    "brand_name": "Integrative Therapeutics",
+    "product_name": "Magnesium Malate",
+    "label_ids": [
+      "185029",
+      "246459"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:59ea76fe9f37107b65e5",
+    "brand_name": "Jarrow Formulas",
+    "product_name": "Magnesium Optimizer",
+    "label_ids": [
+      "7841",
+      "29547",
+      "37432",
+      "212304"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:a56ecb199bef44791e3b",
+    "brand_name": "Kyolic",
+    "product_name": "Kyolic Omega-3",
+    "label_ids": [
+      "42106",
+      "42437",
+      "205111"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:b78a6d5fbdc103148ea4",
+    "brand_name": "MegaFood",
+    "product_name": "Turmeric Strength For Joint",
+    "label_ids": [
+      "178192",
+      "178208"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:dff8094d836e3e5a50ef",
+    "brand_name": "Nature's Answer",
+    "product_name": "Turmeric-3",
+    "label_ids": [
+      "175180",
+      "185095"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:0f3dd6f1ce2e2b8fa012",
+    "brand_name": "Nature's Bounty",
+    "product_name": "Melatonin 1 mg",
+    "label_ids": [
+      "3749",
+      "17141",
+      "29168",
+      "49277"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:b7f99e92d98e64c620c2",
+    "brand_name": "Nature's Bounty",
+    "product_name": "Turmeric 450 mg",
+    "label_ids": [
+      "240133",
+      "242577"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:cbcf6816d3b9573e712e",
+    "brand_name": "Nature's Plus Herbal Actives",
+    "product_name": "Ashwagandha 450 mg",
+    "label_ids": [
+      "13653",
+      "69019"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:cf932e5921f52a4bff0f",
+    "brand_name": "Nature's Way",
+    "product_name": "Ashwagandha Standardized",
+    "label_ids": [
+      "39970",
+      "54522"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:aa644857f9d1a67150b2",
+    "brand_name": "Nature's Way",
+    "product_name": "Turmeric Standardized",
+    "label_ids": [
+      "17865",
+      "40608"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:5ee64f676986be6d9ba1",
+    "brand_name": "NutriCology",
+    "product_name": "Magnesium Citrate",
+    "label_ids": [
+      "183861",
+      "199602",
+      "234782",
+      "235550"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:7065460557d8768d555c",
+    "brand_name": "Nutrilite",
+    "product_name": "Vitamin D",
+    "label_ids": [
+      "177381",
+      "208064",
+      "239369",
+      "246400",
+      "246446"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:382162c6a5a8384f4c54",
+    "brand_name": "Pharmax",
+    "product_name": "Probiotics",
+    "label_ids": [
+      "70943",
+      "71008"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:cfedc2d1dac76fe299e2",
+    "brand_name": "ProCaps Laboratories",
+    "product_name": "Vitamin B12 100",
+    "label_ids": [
+      "69735",
+      "220773",
+      "248631"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:e9c4aacc181ed72ec5dd",
+    "brand_name": "ProCaps Laboratories",
+    "product_name": "Vitamin B12 250",
+    "label_ids": [
+      "179049",
+      "220792",
+      "248598"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:2c2e603c553c140e4df7",
+    "brand_name": "ProCaps Laboratories",
+    "product_name": "Vitamin B12 500",
+    "label_ids": [
+      "69491",
+      "179055",
+      "220795",
+      "248632",
+      "275294"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:36b527c9e8d3c4c9ff44",
+    "brand_name": "ProCaps Laboratories",
+    "product_name": "Vitamin B12-100",
+    "label_ids": [
+      "30426",
+      "30599",
+      "30603"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:6dfe7dcdd736701b20e4",
+    "brand_name": "ProCaps Laboratories",
+    "product_name": "Vitamin B12-250",
+    "label_ids": [
+      "4735",
+      "30248"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:6a77e0f6cab2e043bd94",
+    "brand_name": "ProCaps Laboratories",
+    "product_name": "Vitamin B12-500",
+    "label_ids": [
+      "4701",
+      "30249"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:d17f97ef86e2bcd84412",
+    "brand_name": "Pure Encapsulations",
+    "product_name": "Melatonin-SR",
+    "label_ids": [
+      "185040",
+      "277770",
+      "299064"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:d441cdfb2415c0991875",
+    "brand_name": "Puritan's Pride",
+    "product_name": "Melatonin 3 mg",
+    "label_ids": [
+      "62015",
+      "73873",
+      "242416"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:8a7772fb8122fdc41a00",
+    "brand_name": "Seeking Health",
+    "product_name": "Adeno B12",
+    "label_ids": [
+      "174318",
+      "210776"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:937fd8720d9f381bf1e1",
+    "brand_name": "Seeking Health",
+    "product_name": "Ashwagandha Extract",
+    "label_ids": [
+      "174353",
+      "210829",
+      "233452"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:47ea0e35f721ea6a764e",
+    "brand_name": "Spring Valley",
+    "product_name": "Omega-3 Fish Oil",
+    "label_ids": [
+      "178317",
+      "178792"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:b1de195fd2f673c906a8",
+    "brand_name": "Sundown Naturals",
+    "product_name": "Melatonin 3 mg",
+    "label_ids": [
+      "30617",
+      "30624"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:b69727a4e36240f066c0",
+    "brand_name": "Terry Naturally",
+    "product_name": "Clinical Iron",
+    "label_ids": [
+      "39804",
+      "51697"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:e2aec7f3500c28c3a534",
+    "brand_name": "The Vitamin Shoppe",
+    "product_name": "B12 With Folic Acid Raspberry",
+    "label_ids": [
+      "37231",
+      "37232",
+      "60199",
+      "60206"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:15284698c2330c7710fe",
+    "brand_name": "The Vitamin Shoppe",
+    "product_name": "Calcium Citrate + Vitamin D",
+    "label_ids": [
+      "35161",
+      "35162",
+      "55705",
+      "55706",
+      "57581",
+      "57583",
+      "180697",
+      "180868"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:0cc16d6245871f5f95a6",
+    "brand_name": "The Vitamin Shoppe",
+    "product_name": "Calcium Citrate Plus Magnesium & Vitamin D",
+    "label_ids": [
+      "32075",
+      "32079",
+      "54642",
+      "55238",
+      "73905"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:e0cbb7cb87abb9e63cb9",
+    "brand_name": "The Vitamin Shoppe",
+    "product_name": "Multi Minerals With Boron & Vitamin D",
+    "label_ids": [
+      "32728",
+      "32733"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:81b491c71b0d10412142",
+    "brand_name": "The Vitamin Shoppe",
+    "product_name": "Multi Minerals with Boron & Vitamin D",
+    "label_ids": [
+      "180292",
+      "180743",
+      "180745"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:0cb1dec677ed9ef9e91e",
+    "brand_name": "Thorne",
+    "product_name": "Iron Bisglycinate",
+    "label_ids": [
+      "181918",
+      "204236",
+      "204338"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:5c638a89d18f6b107251",
+    "brand_name": "Thorne Research",
+    "product_name": "Iron Bisglycinate",
+    "label_ids": [
+      "50539",
+      "63802"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:1b69faa41cf389cb8e5f",
+    "brand_name": "Trace Minerals Research",
+    "product_name": "Ionic Iron 22 mg",
+    "label_ids": [
+      "57059",
+      "78959"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:03a516ac7f5a0b3dddf4",
+    "brand_name": "USANA",
+    "product_name": "Vitamin D",
+    "label_ids": [
+      "16210",
+      "201183"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:84acb905d1dc6d40a8c1",
+    "brand_name": "Vimerson Health",
+    "product_name": "Turmeric Curcumin",
+    "label_ids": [
+      "285511",
+      "315533"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:fbd0ed2708723add9243",
+    "brand_name": "Vitamer Laboratories",
+    "product_name": "Mega Magnesium",
+    "label_ids": [
+      "23668",
+      "68831"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:768afa43320caf50f2a8",
+    "brand_name": "Vitamer Laboratories",
+    "product_name": "Turmeric Factors",
+    "label_ids": [
+      "23009",
+      "67217"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:547076d4b174b73f8556",
+    "brand_name": "Vitamin World",
+    "product_name": "Magnesium Citrate",
+    "label_ids": [
+      "1452",
+      "21158"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:a4b19af9c528c62a54c8",
+    "brand_name": "XYMOGEN",
+    "product_name": "Iron Glycinate",
+    "label_ids": [
+      "26594",
+      "27878",
+      "49558",
+      "240225"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  },
+  {
+    "group_id": "dsld:name-group:d6ef25103b0da7519539",
+    "brand_name": "plnt",
+    "product_name": "Ashwagandha",
+    "label_ids": [
+      "80423",
+      "208717"
+    ],
+    "review_status": "pending",
+    "match_method": "exact_brand_and_product_name"
+  }
+]

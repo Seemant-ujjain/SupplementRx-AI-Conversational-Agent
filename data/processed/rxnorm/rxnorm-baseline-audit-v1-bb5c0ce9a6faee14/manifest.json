@@ -1,0 +1,23 @@
+{
+  "rules_version": "rxnorm-baseline-audit-v1",
+  "script_sha256": "7854fede2e795bd7df5d4808c836a87284c94ff3b6930def80e0a95717a08dbb",
+  "source_collection": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+  "source_sha256": "61462e721fe7ce74fc594ba5c0750aa0700d2bad99db8658ee55b3f7932406cc",
+  "source_manifest_sha256": "b58b5487452359ca13c2c31056b391d48ded366f9ef4115dafa9aa5918cdd809",
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "audit.json": {
+      "sha256": "9cd0f40156c62f4e848ebe2f6f4e95e6637d34f9d6f290dd0e169b7eeca765d1",
+      "bytes": 362259
+    },
+    "field_profiles.json": {
+      "sha256": "48cfcddc065d20661705f7a39ab2e7fd04e3357951099b33d4a8d63ff83c4a65",
+      "bytes": 6610
+    },
+    "audit.md": {
+      "sha256": "4c420f38a3b52379e73f48c70e1cec418f31a2a5bc3e25214feac4cad44814ca",
+      "bytes": 4339
+    }
+  }
+}

@@ -1,0 +1,170 @@
+id,dsld_id,product_name,brand_name,market_status
+dsld:label:1741,1741,Melatonin 3 mg,Vitamin World,on_market_in_source
+dsld:label:3714,3714,Creatine,MusclePharm,on_market_in_source
+dsld:label:4701,4701,Vitamin B12-500,ProCaps Laboratories,on_market_in_source
+dsld:label:4735,4735,Vitamin B12-250,ProCaps Laboratories,on_market_in_source
+dsld:label:5128,5128,Ultra Preventive III with Iron,Douglas Laboratories,on_market_in_source
+dsld:label:8729,8729,Ultra Preventive III with Iron,Douglas Laboratories,on_market_in_source
+dsld:label:11613,11613,Probiotics,New Sun,on_market_in_source
+dsld:label:19279,19279,Magnesium,Nutra Sport,on_market_in_source
+dsld:label:19850,19850,Multiplex With Iron,HoltraCeuticals,on_market_in_source
+dsld:label:21158,21158,Magnesium Citrate,Vitamin World,on_market_in_source
+dsld:label:22544,22544,Vitamin D Synergy with Vitamin K1,Designs for Health,on_market_in_source
+dsld:label:24051,24051,Creatine 500 mg,Kirkman,on_market_in_source
+dsld:label:25606,25606,Hybrid Creatine Complex Fruit Punch,GNC Pro Performance,on_market_in_source
+dsld:label:27358,27358,Hybrid Creatine Complex Unflavored,GNC Pro Performance,on_market_in_source
+dsld:label:30617,30617,Melatonin 3 mg,Sundown Naturals,on_market_in_source
+dsld:label:31016,31016,Creatine Complex Chews Lemonade Burst,GNC Pro Performance,on_market_in_source
+dsld:label:31022,31022,Creatine Complex Chews Sour Cherry,GNC Pro Performance,on_market_in_source
+dsld:label:33371,33371,Omega-3,SomaLife International,on_market_in_source
+dsld:label:37562,37562,Liquid Vitamin B12 1000 mcg,The Vitamin Shoppe,on_market_in_source
+dsld:label:38826,38826,Creatine ATP SX-7,MuscleTech,on_market_in_source
+dsld:label:43261,43261,Creatine Alkaline,BPI Sports,on_market_in_source
+dsld:label:47347,47347,Omega 3 EFA Complex,Nature's Life,on_market_in_source
+dsld:label:48065,48065,Turmeric Extract 1000 mg,WiseLife,on_market_in_source
+dsld:label:51697,51697,Clinical Iron,Terry Naturally,on_market_in_source
+dsld:label:54286,54286,EcoSmart Omega-3,Carlson,on_market_in_source
+dsld:label:63045,63045,Melatonin 3 mg,ShopRite,on_market_in_source
+dsld:label:63275,63275,Probiotics + Weight Loss,Purely Inspired,on_market_in_source
+dsld:label:63389,63389,Melatonin 3 mg,Sundown Naturalist,on_market_in_source
+dsld:label:63397,63397,Melatonin 300 mcg,Sundown Naturalist,on_market_in_source
+dsld:label:63422,63422,Melatonin 3 mg,Giant Eagle,on_market_in_source
+dsld:label:64452,64452,Turmeric 500 mg,Finest Nutrition,on_market_in_source
+dsld:label:67217,67217,Turmeric Factors,Vitamer Laboratories,on_market_in_source
+dsld:label:69537,69537,High Potency Omega-3,GNC Mega Men,on_market_in_source
+dsld:label:70486,70486,Omega-3 Plus,Natura,on_market_in_source
+dsld:label:70943,70943,Probiotics,Pharmax,on_market_in_source
+dsld:label:71008,71008,Probiotics,Pharmax,on_market_in_source
+dsld:label:71738,71738,Melatonin 300 mcg,Rexall Naturalist,on_market_in_source
+dsld:label:72669,72669,Omega 3 + DHA,Hero Nutritionals Yummi Bears,on_market_in_source
+dsld:label:72731,72731,Plant Based Omega-3,Puritan's Pride,on_market_in_source
+dsld:label:73768,73768,Calcium Citrate Plus Vitamin D,The Vitamin Shoppe,on_market_in_source
+dsld:label:73873,73873,Melatonin 3 mg,Puritan's Pride,on_market_in_source
+dsld:label:74819,74819,Creatine Complex Chew Lemonade Burst,GNC Pro Performance,on_market_in_source
+dsld:label:74822,74822,Creatine Complex Chew Sour Cherry,GNC Pro Performance,on_market_in_source
+dsld:label:74939,74939,Ashwagandha,Herbal Hills,on_market_in_source
+dsld:label:74940,74940,Ashwagandha,Herbal Hills,on_market_in_source
+dsld:label:76399,76399,Creatine,Indiana Botanic Gardens,on_market_in_source
+dsld:label:77012,77012,Energizing Iron,Integrative Therapeutics,on_market_in_source
+dsld:label:80094,80094,Clinical Strength Omega-3,GNC Beyond Raw,on_market_in_source
+dsld:label:173837,173837,Reacted Iron,Ortho Molecular Products,on_market_in_source
+dsld:label:177867,177867,Creatine Energy Fruit Punch,FINAFLEX,on_market_in_source
+dsld:label:178073,178073,Creatine Energy Unflavored,FINAFLEX,on_market_in_source
+dsld:label:178317,178317,Omega-3 Fish Oil,Spring Valley,on_market_in_source
+dsld:label:178792,178792,Omega-3 Fish Oil,Spring Valley,on_market_in_source
+dsld:label:179549,179549,Vitamin B12 1000 mcg,Country Life,on_market_in_source
+dsld:label:179934,179934,Turmeric 750 mg,Top of the World,on_market_in_source
+dsld:label:180743,180743,Multi Minerals with Boron & Vitamin D,The Vitamin Shoppe,on_market_in_source
+dsld:label:206155,206155,Omega-3 Fish Oil,Smart Sense,on_market_in_source
+dsld:label:208717,208717,Ashwagandha,plnt,on_market_in_source
+dsld:label:210467,210467,Melatonin 3 mg,CVS Health,on_market_in_source
+dsld:label:210474,210474,Turmeric Curcumin Complex,Spring Valley,on_market_in_source
+dsld:label:210776,210776,Adeno B12,Seeking Health,on_market_in_source
+dsld:label:210829,210829,Ashwagandha Extract,Seeking Health,on_market_in_source
+dsld:label:210889,210889,Optimal Creatine,Seeking Health,on_market_in_source
+dsld:label:212953,212953,Turmeric Complex,Nature's Way,on_market_in_source
+dsld:label:213110,213110,Probiotics,Ormus Minerals,on_market_in_source
+dsld:label:214846,214846,Ortho Iron,AOR Advanced Orthomolecular Research Advanced,on_market_in_source
+dsld:label:215132,215132,Turmeric,Max Drive Nutrition,on_market_in_source
+dsld:label:215449,215449,Fiber+Probiotics Tropical Mango,VMI Sports Keto Series,on_market_in_source
+dsld:label:215623,215623,Easy Iron,Woodstock Vitamins,on_market_in_source
+dsld:label:216782,216782,Sleep with Valerian & Melatonin,Village Vitality,on_market_in_source
+dsld:label:217791,217791,Turmeric Curcumin 1000 mg,tnvitamins,on_market_in_source
+dsld:label:219663,219663,Vitamin C | B12 | D3,RapidCBD,on_market_in_source
+dsld:label:220373,220373,Probiotics,JayLab Pro,on_market_in_source
+dsld:label:221252,221252,Ashwagandha,Nature's Sunshine,on_market_in_source
+dsld:label:223186,223186,Omega-3 2400 mg,Gaspari Nutrition,on_market_in_source
+dsld:label:228209,228209,Premium Omega-3,Pure Prescriptions,on_market_in_source
+dsld:label:228752,228752,Turmeric 1320 mg,Sculptnation,on_market_in_source
+dsld:label:228793,228793,Turmeric Curcumin,Natures Craft,on_market_in_source
+dsld:label:229019,229019,Vitamin D,Endo-met Laboratories,on_market_in_source
+dsld:label:229021,229021,Vitamin D,Endo-met Laboratories,on_market_in_source
+dsld:label:229239,229239,Iron,Zemvelo,on_market_in_source
+dsld:label:229574,229574,Ashwagandha,Bixa Botanical,on_market_in_source
+dsld:label:229725,229725,Creatine HCl 189,GNC AMP Advanced Muscle Performance,on_market_in_source
+dsld:label:229733,229733,Creatine HCl 189,GNC AMP Advanced Muscle Performance,on_market_in_source
+dsld:label:229808,229808,Creatine HCL 189,GNC AMP Advanced Muscle Performance,on_market_in_source
+dsld:label:232593,232593,Ferronyl Iron,Douglas Laboratories,on_market_in_source
+dsld:label:233067,233067,Magnesium Citrate,Allergy Research Group,on_market_in_source
+dsld:label:233300,233300,Magnesium Citrate,Allergy Research Group,on_market_in_source
+dsld:label:234782,234782,Magnesium Citrate,NutriCology,on_market_in_source
+dsld:label:235550,235550,Magnesium Citrate,NutriCology,on_market_in_source
+dsld:label:235687,235687,Ashwagandha,Maui Medicinal,on_market_in_source
+dsld:label:239571,239571,Melatonin 3 mg,Solimo,on_market_in_source
+dsld:label:239630,239630,Children's Vitamin D Gummies,CVS Health,on_market_in_source
+dsld:label:239896,239896,Turmeric 450 mg,Finest Nutrition,on_market_in_source
+dsld:label:240405,240405,Probiotics,NewRhythm,on_market_in_source
+dsld:label:241758,241758,The Creatine Strawberry,DY Nutrition,on_market_in_source
+dsld:label:242165,242165,Quad-Magnesium,VitaMonk,on_market_in_source
+dsld:label:242416,242416,Melatonin 3 mg,Puritan's Pride,on_market_in_source
+dsld:label:242577,242577,Turmeric 450 mg,Nature's Bounty,on_market_in_source
+dsld:label:243892,243892,Turmeric Complex,Crystal Star,on_market_in_source
+dsld:label:244633,244633,Creatine,DC,on_market_in_source
+dsld:label:245197,245197,Creatine Powder,DC,on_market_in_source
+dsld:label:246459,246459,Magnesium Malate,Integrative Therapeutics,on_market_in_source
+dsld:label:246992,246992,Mega Magnesium,Natural Nutra,on_market_in_source
+dsld:label:247061,247061,Iron Chelate,Adaptogen Research,on_market_in_source
+dsld:label:249674,249674,Primal Probiotics,Primal Blueprint,on_market_in_source
+dsld:label:251652,251652,Vitamin B12 5000 mcg,Global Healing,on_market_in_source
+dsld:label:251811,251811,Melatonin 5 mg,AN Amazing Nutrition Amazing Formulas,on_market_in_source
+dsld:label:256090,256090,Melatonin 10 mg,AN Amazing Nutrition Amazing Formulas,on_market_in_source
+dsld:label:259959,259959,Digest Gold + Probiotics,Enzymedica,on_market_in_source
+dsld:label:259960,259960,Digest Gold + Probiotics,Enzymedica,on_market_in_source
+dsld:label:260010,260010,Digest +Probiotics,Enzymedica,on_market_in_source
+dsld:label:260011,260011,Digest Basic + Probiotics,Enzymedica,on_market_in_source
+dsld:label:260089,260089,Iron Complex,Advanced Nutrition by Zahler,on_market_in_source
+dsld:label:261147,261147,Iron,MN Morphogen Nutrition,on_market_in_source
+dsld:label:261407,261407,Turmeric,Millecor,on_market_in_source
+dsld:label:265692,265692,Creatine,DC,on_market_in_source
+dsld:label:268232,268232,Omega 3,Hero Nutritionals Yummi Bears,on_market_in_source
+dsld:label:269605,269605,Turmeric & Ginger,Zaffrus,on_market_in_source
+dsld:label:270770,270770,Omega-3,Solgar,on_market_in_source
+dsld:label:271117,271117,Turmeric 500 mg,Blackstone Labs,on_market_in_source
+dsld:label:272254,272254,Probiotics,Dr Tobias,on_market_in_source
+dsld:label:275176,275176,Turmeric Curcumin,Ee Essential elements,on_market_in_source
+dsld:label:276907,276907,Enhanced Ashwagandha Gummies,Vela Nutrition,on_market_in_source
+dsld:label:277284,277284,Probiotics 50 Billion CFU,NewRhythm,on_market_in_source
+dsld:label:277770,277770,Melatonin-SR,Pure Encapsulations,on_market_in_source
+dsld:label:277825,277825,Turmeric,Physician's Choice,on_market_in_source
+dsld:label:278513,278513,Iron Complex,Advanced Nutrition by Zahler,on_market_in_source
+dsld:label:286869,286869,Ashwagandha,Nature Made,on_market_in_source
+dsld:label:287072,287072,Turmeric Curcuminoids Complex C3,HerbTonics,on_market_in_source
+dsld:label:294339,294339,Vitamin B12 1% (Methylcobalamin),BulkSupplements.com,on_market_in_source
+dsld:label:295243,295243,Nexabiotic Probiotics for Women,DrFormulas,on_market_in_source
+dsld:label:295780,295780,Probiotics,Dr. Ohhira's,on_market_in_source
+dsld:label:296933,296933,Vitamin B12 5000 mcg,Global Healing,on_market_in_source
+dsld:label:298552,298552,Ultra Probiotics,NaturesPlus,on_market_in_source
+dsld:label:299064,299064,Melatonin-SR,Pure Encapsulations,on_market_in_source
+dsld:label:299143,299143,Ashwagandha,InnovaPharm Essentials,on_market_in_source
+dsld:label:300184,300184,Turmeric Formula,Organic India,on_market_in_source
+dsld:label:302461,302461,Iron Liquid,Pure Encapsulations,on_market_in_source
+dsld:label:304450,304450,Probiotics,Sunwarrior,on_market_in_source
+dsld:label:304637,304637,High Potency Omega-3,GNC Mega Men,on_market_in_source
+dsld:label:305920,305920,Vegan Omega 3,AOR Advanced Orthomolecular Research Premium,on_market_in_source
+dsld:label:307399,307399,Turmeric Curcumin,NusaPure,on_market_in_source
+dsld:label:307986,307986,Ashwagandha,Sun Potion,on_market_in_source
+dsld:label:308933,308933,Probiotics,Health Nurture,on_market_in_source
+dsld:label:309193,309193,SBO Probiotics Trinity,Ancient Nutrition,on_market_in_source
+dsld:label:309759,309759,Nutrisorb Vitamin B12,BioCare,on_market_in_source
+dsld:label:310384,310384,Omega 3-6-9,Nature's Blend,on_market_in_source
+dsld:label:313484,313484,Omega 3,MRI Performance,on_market_in_source
+dsld:label:315533,315533,Turmeric Curcumin,Vimerson Health,on_market_in_source
+dsld:label:317835,317835,Probiotics 10 Billion CFU,Sunwarrior,on_market_in_source
+dsld:label:319418,319418,Deep Immune Probiotics & Prebiotics,Dr. Tobias,on_market_in_source
+dsld:label:320628,320628,Melatonin 3 mg,Wellness Resources,on_market_in_source
+dsld:label:320976,320976,Vitamin B12,Carotec,on_market_in_source
+dsld:label:321584,321584,Omega-3 Lemon Flavored,MuscleForce,on_market_in_source
+dsld:label:321717,321717,Omega-3 Lemon,Nordic Naturals,on_market_in_source
+dsld:label:322800,322800,Omega-3,Gaspari Nutrition,on_market_in_source
+dsld:label:323200,323200,Ashwagandha,Oregon's Wild Harvest,on_market_in_source
+dsld:label:326405,326405,Omega-3 Fish Oil 1250 mg,Evlution Nutrition,on_market_in_source
+dsld:label:328593,328593,Ashwagandha Extra Strength,Built By Nature,on_market_in_source
+dsld:label:328918,328918,Digest Basic + Probiotics,Enzymedica,on_market_in_source
+dsld:label:328922,328922,Digest Gold + Probiotics,Enzymedica,on_market_in_source
+dsld:label:328923,328923,Digest Gold + Probiotics,Enzymedica,on_market_in_source
+dsld:label:328924,328924,Digest Gold + Probiotics,Enzymedica,on_market_in_source
+dsld:label:332318,332318,3-Creatine,SuperSmart,on_market_in_source
+dsld:label:332395,332395,Melatonin 2 mg,SuperSmart,on_market_in_source
+dsld:label:333451,333451,Ashwagandha,Antler Farms,on_market_in_source
+dsld:label:334990,334990,Ultra Strength Omega-3,InnovixLabs,on_market_in_source
+dsld:label:336144,336144,Ashwagandha Roots,Vedic Herbs,on_market_in_source

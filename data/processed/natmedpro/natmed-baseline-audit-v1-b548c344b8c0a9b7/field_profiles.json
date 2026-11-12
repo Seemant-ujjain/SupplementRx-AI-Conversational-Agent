@@ -1,0 +1,2753 @@
+{
+  "claim": {
+    "adverse_effect_category": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1149,
+        "populated": 120
+      },
+      "types": {
+        "NoneType": 1149,
+        "str": 120
+      },
+      "placeholder_examples": []
+    },
+    "claim_text": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "claim_type": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "dose": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "dict": 1269
+      },
+      "placeholder_examples": []
+    },
+    "effectiveness_rating": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 460,
+        "populated": 809
+      },
+      "types": {
+        "NoneType": 460,
+        "str": 809
+      },
+      "placeholder_examples": []
+    },
+    "evidence_grade": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1169,
+        "populated": 100
+      },
+      "types": {
+        "NoneType": 1169,
+        "str": 100
+      },
+      "placeholder_examples": []
+    },
+    "field_support": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "dict": 1269
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "indication": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 460,
+        "populated": 809
+      },
+      "types": {
+        "NoneType": 460,
+        "str": 809
+      },
+      "placeholder_examples": []
+    },
+    "ingredient": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "dict": 1269
+      },
+      "placeholder_examples": []
+    },
+    "interaction": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "dict": 1269
+      },
+      "placeholder_examples": []
+    },
+    "population": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1103,
+        "populated": 166
+      },
+      "types": {
+        "NoneType": 1103,
+        "str": 166
+      },
+      "placeholder_examples": []
+    },
+    "review": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "dict": 1269
+      },
+      "placeholder_examples": []
+    },
+    "safety_rating": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 47,
+        "null": 1222
+      },
+      "types": {
+        "str": 47,
+        "NoneType": 1222
+      },
+      "placeholder_examples": []
+    },
+    "source": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "dict": 1269
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/dose": {
+    "duration": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1258,
+        "populated": 11
+      },
+      "types": {
+        "NoneType": 1258,
+        "dict": 11
+      },
+      "placeholder_examples": []
+    },
+    "frequency": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1235,
+        "populated": 34
+      },
+      "types": {
+        "NoneType": 1235,
+        "str": 34
+      },
+      "placeholder_examples": []
+    },
+    "maximum": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1265,
+        "populated": 4
+      },
+      "types": {
+        "NoneType": 1265,
+        "float": 4
+      },
+      "placeholder_examples": []
+    },
+    "minimum": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1265,
+        "populated": 4
+      },
+      "types": {
+        "NoneType": 1265,
+        "float": 4
+      },
+      "placeholder_examples": []
+    },
+    "qualifier": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1251,
+        "populated": 18
+      },
+      "types": {
+        "NoneType": 1251,
+        "str": 18
+      },
+      "placeholder_examples": []
+    },
+    "regimen": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1246,
+        "populated": 23
+      },
+      "types": {
+        "NoneType": 1246,
+        "str": 23
+      },
+      "placeholder_examples": []
+    },
+    "route": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1184,
+        "populated": 85
+      },
+      "types": {
+        "NoneType": 1184,
+        "str": 85
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1184,
+        "populated": 85
+      },
+      "types": {
+        "NoneType": 1184,
+        "str": 85
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1198,
+        "populated": 71
+      },
+      "types": {
+        "NoneType": 1198,
+        "str": 71
+      },
+      "placeholder_examples": []
+    },
+    "value": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1202,
+        "populated": 67
+      },
+      "types": {
+        "NoneType": 1202,
+        "float": 67
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/dose/duration": {
+    "qualifier": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "str": 11
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "str": 11
+      },
+      "placeholder_examples": []
+    },
+    "value": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "float": 11
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support": {
+    "adverse_effect_category": {
+      "parent_objects": 1269,
+      "missing_key": 1149,
+      "states": {
+        "populated": 120
+      },
+      "types": {
+        "dict": 120
+      },
+      "placeholder_examples": []
+    },
+    "dose.duration.qualifier": {
+      "parent_objects": 1269,
+      "missing_key": 1258,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "dict": 11
+      },
+      "placeholder_examples": []
+    },
+    "dose.duration.unit": {
+      "parent_objects": 1269,
+      "missing_key": 1258,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "dict": 11
+      },
+      "placeholder_examples": []
+    },
+    "dose.duration.value": {
+      "parent_objects": 1269,
+      "missing_key": 1258,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "dict": 11
+      },
+      "placeholder_examples": []
+    },
+    "dose.frequency": {
+      "parent_objects": 1269,
+      "missing_key": 1235,
+      "states": {
+        "populated": 34
+      },
+      "types": {
+        "dict": 34
+      },
+      "placeholder_examples": []
+    },
+    "dose.maximum": {
+      "parent_objects": 1269,
+      "missing_key": 1265,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "dict": 4
+      },
+      "placeholder_examples": []
+    },
+    "dose.minimum": {
+      "parent_objects": 1269,
+      "missing_key": 1265,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "dict": 4
+      },
+      "placeholder_examples": []
+    },
+    "dose.qualifier": {
+      "parent_objects": 1269,
+      "missing_key": 1251,
+      "states": {
+        "populated": 18
+      },
+      "types": {
+        "dict": 18
+      },
+      "placeholder_examples": []
+    },
+    "dose.regimen": {
+      "parent_objects": 1269,
+      "missing_key": 1246,
+      "states": {
+        "populated": 23
+      },
+      "types": {
+        "dict": 23
+      },
+      "placeholder_examples": []
+    },
+    "dose.route": {
+      "parent_objects": 1269,
+      "missing_key": 1184,
+      "states": {
+        "populated": 85
+      },
+      "types": {
+        "dict": 85
+      },
+      "placeholder_examples": []
+    },
+    "dose.text": {
+      "parent_objects": 1269,
+      "missing_key": 1184,
+      "states": {
+        "populated": 85
+      },
+      "types": {
+        "dict": 85
+      },
+      "placeholder_examples": []
+    },
+    "dose.unit": {
+      "parent_objects": 1269,
+      "missing_key": 1198,
+      "states": {
+        "populated": 71
+      },
+      "types": {
+        "dict": 71
+      },
+      "placeholder_examples": []
+    },
+    "dose.value": {
+      "parent_objects": 1269,
+      "missing_key": 1202,
+      "states": {
+        "populated": 67
+      },
+      "types": {
+        "dict": 67
+      },
+      "placeholder_examples": []
+    },
+    "effectiveness_rating": {
+      "parent_objects": 1269,
+      "missing_key": 460,
+      "states": {
+        "populated": 809
+      },
+      "types": {
+        "dict": 809
+      },
+      "placeholder_examples": []
+    },
+    "evidence_grade": {
+      "parent_objects": 1269,
+      "missing_key": 1169,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "dict": 100
+      },
+      "placeholder_examples": []
+    },
+    "indication": {
+      "parent_objects": 1269,
+      "missing_key": 460,
+      "states": {
+        "populated": 809
+      },
+      "types": {
+        "dict": 809
+      },
+      "placeholder_examples": []
+    },
+    "interaction.occurrence": {
+      "parent_objects": 1269,
+      "missing_key": 1169,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "dict": 100
+      },
+      "placeholder_examples": []
+    },
+    "interaction.partner": {
+      "parent_objects": 1269,
+      "missing_key": 1121,
+      "states": {
+        "populated": 148
+      },
+      "types": {
+        "dict": 148
+      },
+      "placeholder_examples": []
+    },
+    "interaction.rating": {
+      "parent_objects": 1269,
+      "missing_key": 1169,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "dict": 100
+      },
+      "placeholder_examples": []
+    },
+    "interaction.severity": {
+      "parent_objects": 1269,
+      "missing_key": 1169,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "dict": 100
+      },
+      "placeholder_examples": []
+    },
+    "population": {
+      "parent_objects": 1269,
+      "missing_key": 1103,
+      "states": {
+        "populated": 166
+      },
+      "types": {
+        "dict": 166
+      },
+      "placeholder_examples": []
+    },
+    "safety_rating": {
+      "parent_objects": 1269,
+      "missing_key": 1222,
+      "states": {
+        "populated": 47
+      },
+      "types": {
+        "dict": 47
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/adverse_effect_category": {
+    "end": {
+      "parent_objects": 120,
+      "missing_key": 0,
+      "states": {
+        "populated": 120
+      },
+      "types": {
+        "int": 120
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 120,
+      "missing_key": 0,
+      "states": {
+        "populated": 120
+      },
+      "types": {
+        "int": 120
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.duration.qualifier": {
+    "end": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.duration.unit": {
+    "end": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.duration.value": {
+    "end": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.frequency": {
+    "end": {
+      "parent_objects": 34,
+      "missing_key": 0,
+      "states": {
+        "populated": 34
+      },
+      "types": {
+        "int": 34
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 34,
+      "missing_key": 0,
+      "states": {
+        "populated": 34
+      },
+      "types": {
+        "int": 34
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.maximum": {
+    "end": {
+      "parent_objects": 4,
+      "missing_key": 0,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "int": 4
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 4,
+      "missing_key": 0,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "int": 4
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.minimum": {
+    "end": {
+      "parent_objects": 4,
+      "missing_key": 0,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "int": 4
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 4,
+      "missing_key": 0,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "int": 4
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.qualifier": {
+    "end": {
+      "parent_objects": 18,
+      "missing_key": 0,
+      "states": {
+        "populated": 18
+      },
+      "types": {
+        "int": 18
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 18,
+      "missing_key": 0,
+      "states": {
+        "populated": 18
+      },
+      "types": {
+        "int": 18
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.regimen": {
+    "end": {
+      "parent_objects": 23,
+      "missing_key": 0,
+      "states": {
+        "populated": 23
+      },
+      "types": {
+        "int": 23
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 23,
+      "missing_key": 0,
+      "states": {
+        "populated": 23
+      },
+      "types": {
+        "int": 23
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.route": {
+    "end": {
+      "parent_objects": 85,
+      "missing_key": 0,
+      "states": {
+        "populated": 85
+      },
+      "types": {
+        "int": 85
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 85,
+      "missing_key": 0,
+      "states": {
+        "populated": 85
+      },
+      "types": {
+        "int": 85
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.text": {
+    "end": {
+      "parent_objects": 85,
+      "missing_key": 0,
+      "states": {
+        "populated": 85
+      },
+      "types": {
+        "int": 85
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 85,
+      "missing_key": 0,
+      "states": {
+        "populated": 85
+      },
+      "types": {
+        "int": 85
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.unit": {
+    "end": {
+      "parent_objects": 71,
+      "missing_key": 0,
+      "states": {
+        "populated": 71
+      },
+      "types": {
+        "int": 71
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 71,
+      "missing_key": 0,
+      "states": {
+        "populated": 71
+      },
+      "types": {
+        "int": 71
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/dose.value": {
+    "end": {
+      "parent_objects": 67,
+      "missing_key": 0,
+      "states": {
+        "populated": 67
+      },
+      "types": {
+        "int": 67
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 67,
+      "missing_key": 0,
+      "states": {
+        "populated": 67
+      },
+      "types": {
+        "int": 67
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/effectiveness_rating": {
+    "end": {
+      "parent_objects": 809,
+      "missing_key": 0,
+      "states": {
+        "populated": 809
+      },
+      "types": {
+        "int": 809
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 809,
+      "missing_key": 0,
+      "states": {
+        "populated": 809
+      },
+      "types": {
+        "int": 809
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/evidence_grade": {
+    "end": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/indication": {
+    "end": {
+      "parent_objects": 809,
+      "missing_key": 0,
+      "states": {
+        "populated": 809
+      },
+      "types": {
+        "int": 809
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 809,
+      "missing_key": 0,
+      "states": {
+        "populated": 809
+      },
+      "types": {
+        "int": 809
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/interaction.occurrence": {
+    "end": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/interaction.partner": {
+    "end": {
+      "parent_objects": 148,
+      "missing_key": 0,
+      "states": {
+        "populated": 148
+      },
+      "types": {
+        "int": 148
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 148,
+      "missing_key": 0,
+      "states": {
+        "populated": 148
+      },
+      "types": {
+        "int": 148
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/interaction.rating": {
+    "end": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/interaction.severity": {
+    "end": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 100,
+      "missing_key": 0,
+      "states": {
+        "populated": 100
+      },
+      "types": {
+        "int": 100
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/population": {
+    "end": {
+      "parent_objects": 166,
+      "missing_key": 0,
+      "states": {
+        "populated": 166
+      },
+      "types": {
+        "int": 166
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 166,
+      "missing_key": 0,
+      "states": {
+        "populated": 166
+      },
+      "types": {
+        "int": 166
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/field_support/safety_rating": {
+    "end": {
+      "parent_objects": 47,
+      "missing_key": 0,
+      "states": {
+        "populated": 47
+      },
+      "types": {
+        "int": 47
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 47,
+      "missing_key": 0,
+      "states": {
+        "populated": 47
+      },
+      "types": {
+        "int": 47
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/ingredient": {
+    "formulation": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1269
+      },
+      "types": {
+        "NoneType": 1269
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "strain": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1269
+      },
+      "types": {
+        "NoneType": 1269
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/interaction": {
+    "occurrence": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1169,
+        "populated": 100
+      },
+      "types": {
+        "NoneType": 1169,
+        "str": 100
+      },
+      "placeholder_examples": []
+    },
+    "partner": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1121,
+        "populated": 148
+      },
+      "types": {
+        "NoneType": 1121,
+        "str": 148
+      },
+      "placeholder_examples": []
+    },
+    "rating": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1169,
+        "populated": 100
+      },
+      "types": {
+        "NoneType": 1169,
+        "str": 100
+      },
+      "placeholder_examples": []
+    },
+    "severity": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1169,
+        "populated": 100
+      },
+      "types": {
+        "NoneType": 1169,
+        "str": 100
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/review": {
+    "reviewed_at": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1269
+      },
+      "types": {
+        "NoneType": 1269
+      },
+      "placeholder_examples": []
+    },
+    "reviewer": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "null": 1269
+      },
+      "types": {
+        "NoneType": 1269
+      },
+      "placeholder_examples": []
+    },
+    "state": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    }
+  },
+  "claim/source": {
+    "content_hash": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "end": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "int": 1269
+      },
+      "placeholder_examples": []
+    },
+    "excerpt": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "record_id": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "section_heading": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    },
+    "section_index": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "int": 1269
+      },
+      "placeholder_examples": []
+    },
+    "start": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "int": 1269
+      },
+      "placeholder_examples": []
+    },
+    "url": {
+      "parent_objects": 1269,
+      "missing_key": 0,
+      "states": {
+        "populated": 1269
+      },
+      "types": {
+        "str": 1269
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage": {
+    "capture_quality": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "dict": 1179
+      },
+      "placeholder_examples": []
+    },
+    "chunk_words": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "citation_links": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 60,
+        "populated": 1119
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    },
+    "citation_scope": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "clinical_review": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "null": 1179
+      },
+      "types": {
+        "NoneType": 1179
+      },
+      "placeholder_examples": []
+    },
+    "collected_at": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "evidence_role": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "mention_scope": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "null": 1179
+      },
+      "types": {
+        "NoneType": 1179
+      },
+      "placeholder_examples": []
+    },
+    "normalization": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "dict": 1179
+      },
+      "placeholder_examples": []
+    },
+    "parent_id": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "null": 1179
+      },
+      "types": {
+        "NoneType": 1179
+      },
+      "placeholder_examples": []
+    },
+    "record_id": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "record_type": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "reference_documents_sha256": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "reference_scope": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "references": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    },
+    "requires_clinical_review": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "bool": 1179
+      },
+      "placeholder_examples": []
+    },
+    "section": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "section_index": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "source": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "source_batch_id": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "source_content_hash": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "source_created_at": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "null": 1179
+      },
+      "types": {
+        "NoneType": 1179
+      },
+      "placeholder_examples": []
+    },
+    "source_updated_at": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "source_url": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "supplements": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "thread_id": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "null": 1179
+      },
+      "types": {
+        "NoneType": 1179
+      },
+      "placeholder_examples": []
+    },
+    "title": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "word_count": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "word_start": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/capture_quality": {
+    "bibliography_captured": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "bool": 1179
+      },
+      "placeholder_examples": []
+    },
+    "bibliography_coverage": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "dict": 1179
+      },
+      "placeholder_examples": []
+    },
+    "bibliography_method": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "clinical_sections": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    },
+    "complete": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "bool": 1179
+      },
+      "placeholder_examples": []
+    },
+    "hidden_detail_blocks": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "identity_observations_provided": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "bool": 1179
+      },
+      "placeholder_examples": []
+    },
+    "inline_details_expanded": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "bool": 1179
+      },
+      "placeholder_examples": []
+    },
+    "missing_sections": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 1179
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    },
+    "note": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "remaining_detail_controls": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "reveal_method": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/capture_quality/bibliography_coverage": {
+    "bibliography_entries": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "inline_citation_refs": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "inline_citation_refs_missing_from_bibliography": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "int": 1179
+      },
+      "placeholder_examples": []
+    },
+    "missing_sample": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 264,
+        "populated": 915
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/citation_links[]": {
+    "label": {
+      "parent_objects": 22700,
+      "missing_key": 0,
+      "states": {
+        "populated": 22700
+      },
+      "types": {
+        "str": 22700
+      },
+      "placeholder_examples": []
+    },
+    "url": {
+      "parent_objects": 22700,
+      "missing_key": 0,
+      "states": {
+        "populated": 22700
+      },
+      "types": {
+        "str": 22700
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/normalization": {
+    "method": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "umls_status": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    }
+  },
+  "passage/supplements[]": {
+    "mapping_method": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    },
+    "matched_terms": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 1179
+      },
+      "types": {
+        "list": 1179
+      },
+      "placeholder_examples": []
+    },
+    "supplement": {
+      "parent_objects": 1179,
+      "missing_key": 0,
+      "states": {
+        "populated": 1179
+      },
+      "types": {
+        "str": 1179
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record": {
+    "capture_quality": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "dict": 10
+      },
+      "placeholder_examples": []
+    },
+    "citation_links": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "clinical_section_excerpts": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "dict": 10
+      },
+      "placeholder_examples": []
+    },
+    "collected_at": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "collection_method": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "content_hash": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "evidence_role": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "first_collected_at": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "normalization": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "dict": 10
+      },
+      "placeholder_examples": []
+    },
+    "record_type": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "reference_documents": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "references": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "requires_clinical_review": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "bool": 10
+      },
+      "placeholder_examples": []
+    },
+    "schema_version": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "sections": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "source": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "source_batch_id": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "source_html_sha256": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "source_updated_at": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "source_url": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "supplements": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "title": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/capture_quality": {
+    "bibliography_captured": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "bool": 10
+      },
+      "placeholder_examples": []
+    },
+    "bibliography_coverage": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "dict": 10
+      },
+      "placeholder_examples": []
+    },
+    "bibliography_method": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "clinical_sections": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "complete": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "bool": 10
+      },
+      "placeholder_examples": []
+    },
+    "hidden_detail_blocks": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "identity_observations_provided": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "bool": 10
+      },
+      "placeholder_examples": []
+    },
+    "inline_details_expanded": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "bool": 10
+      },
+      "placeholder_examples": []
+    },
+    "missing_sections": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "note": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "remaining_detail_controls": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "reveal_method": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/capture_quality/bibliography_coverage": {
+    "bibliography_entries": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "inline_citation_refs": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "inline_citation_refs_missing_from_bibliography": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "missing_sample": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 3,
+        "populated": 7
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/citation_links[]": {
+    "label": {
+      "parent_objects": 8603,
+      "missing_key": 0,
+      "states": {
+        "populated": 8603
+      },
+      "types": {
+        "str": 8603
+      },
+      "placeholder_examples": []
+    },
+    "url": {
+      "parent_objects": 8603,
+      "missing_key": 0,
+      "states": {
+        "populated": 8603
+      },
+      "types": {
+        "str": 8603
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/clinical_section_excerpts": {
+    "adverse_effects": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "classes": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "contraindications": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "dosing": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "drug_interactions": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "effectiveness": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "formulation": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "lab_interactions": {
+      "parent_objects": 10,
+      "missing_key": 1,
+      "states": {
+        "populated": 9
+      },
+      "types": {
+        "list": 9
+      },
+      "placeholder_examples": []
+    },
+    "mechanism": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "nutrient_depletions": {
+      "parent_objects": 10,
+      "missing_key": 6,
+      "states": {
+        "populated": 4
+      },
+      "types": {
+        "list": 4
+      },
+      "placeholder_examples": []
+    },
+    "overdose": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "overview": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "pharmacokinetics": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "references": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "safety": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "scientific_name": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "supplement_interactions": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "warnings": {
+      "parent_objects": 10,
+      "missing_key": 3,
+      "states": {
+        "populated": 7
+      },
+      "types": {
+        "list": 7
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/normalization": {
+    "method": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "umls_status": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/reference_documents[]": {
+    "captured_at": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "content_hash": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "title": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "url": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/sections[]": {
+    "heading": {
+      "parent_objects": 180,
+      "missing_key": 0,
+      "states": {
+        "populated": 180
+      },
+      "types": {
+        "str": 180
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 180,
+      "missing_key": 0,
+      "states": {
+        "populated": 180
+      },
+      "types": {
+        "str": 180
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record/supplements[]": {
+    "mapping_method": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "matched_terms": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 10
+      },
+      "types": {
+        "list": 10
+      },
+      "placeholder_examples": []
+    },
+    "supplement": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    }
+  }
+}

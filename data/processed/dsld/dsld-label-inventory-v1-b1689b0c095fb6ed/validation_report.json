@@ -1,0 +1,17 @@
+{
+  "rules_version": "dsld-label-inventory-v1",
+  "source_label_count": 400,
+  "output_label_count": 400,
+  "market_status_counts": {
+    "off_market_in_source": 231,
+    "on_market_in_source": 169
+  },
+  "repeated_name_groups": 70,
+  "labels_in_repeated_name_groups": 206,
+  "records_removed": 0,
+  "records_merged": 0,
+  "raw_label_content_preserved": true,
+  "market_status_policy": "Preserve all labels. On-market index means offMarket=0 in this source snapshot, not verified current availability.",
+  "repeated_name_policy": "Exact nonempty brand/product names flag review groups, never identity or automatic deduplication.",
+  "ingredient_and_dose_processing": "Not performed; original fields remain inside raw_label."
+}

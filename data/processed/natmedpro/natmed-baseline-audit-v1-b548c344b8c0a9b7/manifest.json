@@ -1,0 +1,37 @@
+{
+  "rules_version": "natmed-baseline-audit-v1",
+  "script_sha256": "568d8b9f624247527f3a9d6905978b05cb8f0010af8a8231402e9fa95fdf002b",
+  "inputs": {
+    "data/raw/natmedpro/.DS_Store": "223cd4e53da7737820945db8975260cfb507684483439cd5deb058437526a909",
+    "data/raw/natmedpro/collection_manifest.json": "5161e1cfaedab6ec05dc02d392fb38bc47372f3f5cf9b77527b4eaa4e7d28ac1",
+    "data/raw/natmedpro/records.jsonl": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+    "data/raw/natmedpro/source_html.jsonl": "e3888381859ea3168de3d2b1297192cdf24e28e079095f811fd42a9503d4c189",
+    "data/raw/natmedpro/upstream_derived/kg_edges.jsonl": "f4dba0d809fa741d253cdbcf133e1f37aa20ea30d7c79c0f9d7625400d13fcbe",
+    "data/raw/natmedpro/upstream_derived/kg_nodes.jsonl": "615ef775d88497fad12e2d46a98d36e531213b184fa136de9221d245e92b47b0",
+    "data/raw/natmedpro/upstream_derived/passages.jsonl": "d11167ede9e41c6c9e2683d136f9838e8f553b9c4233651055732b0696158996",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claim.schema.json": "936bc717194818e29a65bbeb5eaa9c7afa147079c37b4bc0785c67e9f67e7c99",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.sample.json": "ebc56d7d5a29359ef4d48417826e9f7c3437e86ddd3a1d89f3b4898af5dbe598",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims_manifest.json": "158948402f471c20af5d4e2af722da72ab135f1fdd6469636fe844ba319d9285",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_extraction_report.json": "745ee1c48a5bfb82f28fe4e593c94a9173f506bdc231f0097e59ae739a366660",
+    "data/raw/natmedpro/upstream_derived/pubmed_metadata.jsonl": "58fa37d7f9f9370ebe8d1455b2db7cb73d851638bc7e6f4b8bc3bbd114b14536",
+    "data/raw/natmedpro/upstream_derived/pubmed_report.json": "9a9cbdd2cdd57e9774bc5fda898ec3af0e53bc86761dfc80a6441f70cc434639"
+  },
+  "jsonschema_version": "4.26.0",
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "audit.json": {
+      "sha256": "61499aeaad7b3cdd108589be42cbe2ba9b8e4925bb48f24f7b60a658c538c6c5",
+      "bytes": 274493
+    },
+    "field_profiles.json": {
+      "sha256": "6d4277ac090af4971c836e40ce9532daf47f0a1c93cc98e146c56659e8d406cc",
+      "bytes": 53135
+    },
+    "audit.md": {
+      "sha256": "62115085bc9190a09721fa3d9bcc898b54ec90423e4d1fd342a72ecd3effdcc8",
+      "bytes": 2962
+    }
+  }
+}

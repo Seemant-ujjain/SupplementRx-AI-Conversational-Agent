@@ -1,0 +1,427 @@
+{
+  "occurrence": {
+    "dsld_id": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "ingredient_id": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "int": 3391
+      },
+      "placeholder_examples": []
+    },
+    "json_path": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "kind": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "str": 3391
+      },
+      "placeholder_examples": []
+    },
+    "search_categories": {
+      "parent_objects": 3391,
+      "missing_key": 0,
+      "states": {
+        "populated": 3391
+      },
+      "types": {
+        "list": 3391
+      },
+      "placeholder_examples": []
+    }
+  },
+  "query": {
+    "occurrences": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    },
+    "query": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "str": 739
+      },
+      "placeholder_examples": []
+    },
+    "variants": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    }
+  },
+  "rdf_binding": {
+    "object": {
+      "parent_objects": 25192,
+      "missing_key": 0,
+      "states": {
+        "populated": 25192
+      },
+      "types": {
+        "dict": 25192
+      },
+      "placeholder_examples": []
+    },
+    "predicate": {
+      "parent_objects": 25192,
+      "missing_key": 0,
+      "states": {
+        "populated": 25192
+      },
+      "types": {
+        "dict": 25192
+      },
+      "placeholder_examples": []
+    },
+    "record": {
+      "parent_objects": 25192,
+      "missing_key": 0,
+      "states": {
+        "populated": 25192
+      },
+      "types": {
+        "dict": 25192
+      },
+      "placeholder_examples": []
+    },
+    "subject": {
+      "parent_objects": 25192,
+      "missing_key": 0,
+      "states": {
+        "populated": 25192
+      },
+      "types": {
+        "dict": 25192
+      },
+      "placeholder_examples": []
+    }
+  },
+  "rdf_object": {
+    "datatype": {
+      "parent_objects": 25192,
+      "missing_key": 20891,
+      "states": {
+        "populated": 4301
+      },
+      "types": {
+        "str": 4301
+      },
+      "placeholder_examples": []
+    },
+    "type": {
+      "parent_objects": 25192,
+      "missing_key": 0,
+      "states": {
+        "populated": 25192
+      },
+      "types": {
+        "str": 25192
+      },
+      "placeholder_examples": []
+    },
+    "value": {
+      "parent_objects": 25192,
+      "missing_key": 0,
+      "states": {
+        "populated": 25192
+      },
+      "types": {
+        "str": 25192
+      },
+      "placeholder_examples": []
+    },
+    "xml:lang": {
+      "parent_objects": 25192,
+      "missing_key": 18195,
+      "states": {
+        "populated": 6997
+      },
+      "types": {
+        "str": 6997
+      },
+      "placeholder_examples": []
+    }
+  },
+  "record_projection": {
+    "active": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "concepts": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 114,
+        "populated": 133
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "dates": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "dict": 247
+      },
+      "placeholder_examples": []
+    },
+    "identifiers": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "labels": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "preferred_concepts": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "tree_numbers": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 52,
+        "populated": 195
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "types": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "list": 247
+      },
+      "placeholder_examples": []
+    },
+    "uri": {
+      "parent_objects": 247,
+      "missing_key": 0,
+      "states": {
+        "populated": 247
+      },
+      "types": {
+        "str": 247
+      },
+      "placeholder_examples": []
+    }
+  },
+  "search_result": {
+    "match_method": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "str": 739
+      },
+      "placeholder_examples": []
+    },
+    "possibly_truncated": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "bool": 739
+      },
+      "placeholder_examples": []
+    },
+    "requests": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    },
+    "requires_identity_review": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "bool": 739
+      },
+      "placeholder_examples": []
+    },
+    "response": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 469,
+        "populated": 270
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    },
+    "status": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "populated": 739
+      },
+      "types": {
+        "str": 739
+      },
+      "placeholder_examples": []
+    },
+    "term_uris": {
+      "parent_objects": 739,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 469,
+        "populated": 270
+      },
+      "types": {
+        "list": 739
+      },
+      "placeholder_examples": []
+    }
+  },
+  "term_resolution_binding": {
+    "concept": {
+      "parent_objects": 276,
+      "missing_key": 0,
+      "states": {
+        "populated": 276
+      },
+      "types": {
+        "dict": 276
+      },
+      "placeholder_examples": []
+    },
+    "record": {
+      "parent_objects": 276,
+      "missing_key": 0,
+      "states": {
+        "populated": 276
+      },
+      "types": {
+        "dict": 276
+      },
+      "placeholder_examples": []
+    },
+    "term": {
+      "parent_objects": 276,
+      "missing_key": 0,
+      "states": {
+        "populated": 276
+      },
+      "types": {
+        "dict": 276
+      },
+      "placeholder_examples": []
+    },
+    "type": {
+      "parent_objects": 276,
+      "missing_key": 0,
+      "states": {
+        "populated": 276
+      },
+      "types": {
+        "dict": 276
+      },
+      "placeholder_examples": []
+    }
+  }
+}

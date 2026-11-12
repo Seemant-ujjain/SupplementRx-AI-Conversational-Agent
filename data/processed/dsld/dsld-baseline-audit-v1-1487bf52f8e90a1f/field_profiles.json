@@ -1,0 +1,2598 @@
+{
+  "label": {
+    "brandIpSymbol": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 399,
+        "empty_string": 1
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "brandName": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "bundleName": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 384,
+        "populated": 16
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "claims": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "contacts": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "entryDate": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "events": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "fullName": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "hasOuterCarton": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 315,
+        "null": 85
+      },
+      "types": {
+        "bool": 315,
+        "NoneType": 85
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "int": 400
+      },
+      "placeholder_examples": []
+    },
+    "ingredientRows": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "labelRelationships": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 299,
+        "empty_container": 101
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "netContents": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 399,
+        "empty_container": 1
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "nhanesId": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 367,
+        "populated": 33
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "offMarket": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "int": 400
+      },
+      "placeholder_examples": []
+    },
+    "otheringredients": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "dict": 400
+      },
+      "placeholder_examples": []
+    },
+    "pdf": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 326,
+        "populated": 74
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "percentDvFootnote": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "placeholder_token_candidate": 288,
+        "populated": 112
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": [
+        "Not Present"
+      ]
+    },
+    "physicalState": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "dict": 400
+      },
+      "placeholder_examples": []
+    },
+    "productType": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "dict": 400
+      },
+      "placeholder_examples": []
+    },
+    "productVersionCode": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 332,
+        "placeholder_token_candidate": 68
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": [
+        "Not Present"
+      ]
+    },
+    "servingSizes": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "servingsPerContainer": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "null": 82,
+        "populated": 318
+      },
+      "types": {
+        "NoneType": 82,
+        "str": 318
+      },
+      "placeholder_examples": []
+    },
+    "src": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "statements": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "targetGroups": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    },
+    "thumbnail": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 326,
+        "populated": 74
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "upcSku": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 348,
+        "empty_string": 52
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "userGroups": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "list": 400
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/claims[]": {
+    "langualCode": {
+      "parent_objects": 873,
+      "missing_key": 0,
+      "states": {
+        "populated": 873
+      },
+      "types": {
+        "str": 873
+      },
+      "placeholder_examples": []
+    },
+    "langualCodeDescription": {
+      "parent_objects": 873,
+      "missing_key": 0,
+      "states": {
+        "populated": 873
+      },
+      "types": {
+        "str": 873
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/contacts[]": {
+    "contactDetails": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 502
+      },
+      "types": {
+        "dict": 502
+      },
+      "placeholder_examples": []
+    },
+    "contactId": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 502
+      },
+      "types": {
+        "int": 502
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 430,
+        "null": 67,
+        "placeholder_token_candidate": 5
+      },
+      "types": {
+        "str": 435,
+        "NoneType": 67
+      },
+      "placeholder_examples": [
+        "Not Present"
+      ]
+    },
+    "types": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 502
+      },
+      "types": {
+        "list": 502
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/contacts[]/contactDetails": {
+    "city": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 111,
+        "populated": 389,
+        "null": 2
+      },
+      "types": {
+        "str": 500,
+        "NoneType": 2
+      },
+      "placeholder_examples": []
+    },
+    "country": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 360,
+        "populated": 137,
+        "null": 5
+      },
+      "types": {
+        "str": 497,
+        "NoneType": 5
+      },
+      "placeholder_examples": []
+    },
+    "email": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 471,
+        "null": 11,
+        "populated": 20
+      },
+      "types": {
+        "str": 491,
+        "NoneType": 11
+      },
+      "placeholder_examples": []
+    },
+    "id": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 502
+      },
+      "types": {
+        "int": 502
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 90,
+        "populated": 412
+      },
+      "types": {
+        "str": 502
+      },
+      "placeholder_examples": []
+    },
+    "phoneNumber": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 313,
+        "empty_string": 183,
+        "null": 6
+      },
+      "types": {
+        "str": 496,
+        "NoneType": 6
+      },
+      "placeholder_examples": []
+    },
+    "src": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 502
+      },
+      "types": {
+        "str": 502
+      },
+      "placeholder_examples": []
+    },
+    "state": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 119,
+        "populated": 381,
+        "null": 2
+      },
+      "types": {
+        "str": 500,
+        "NoneType": 2
+      },
+      "placeholder_examples": []
+    },
+    "streetAddress": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 311,
+        "populated": 187,
+        "null": 4
+      },
+      "types": {
+        "str": 498,
+        "NoneType": 4
+      },
+      "placeholder_examples": []
+    },
+    "webAddress": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "populated": 359,
+        "empty_string": 140,
+        "null": 3
+      },
+      "types": {
+        "str": 499,
+        "NoneType": 3
+      },
+      "placeholder_examples": []
+    },
+    "zipCode": {
+      "parent_objects": 502,
+      "missing_key": 0,
+      "states": {
+        "empty_string": 127,
+        "populated": 372,
+        "null": 3
+      },
+      "types": {
+        "str": 499,
+        "NoneType": 3
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/events[]": {
+    "date": {
+      "parent_objects": 631,
+      "missing_key": 0,
+      "states": {
+        "populated": 631
+      },
+      "types": {
+        "str": 631
+      },
+      "placeholder_examples": []
+    },
+    "type": {
+      "parent_objects": 631,
+      "missing_key": 0,
+      "states": {
+        "populated": 631
+      },
+      "types": {
+        "str": 631
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]": {
+    "alternateNames": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 1362,
+        "populated": 191
+      },
+      "types": {
+        "list": 1553
+      },
+      "placeholder_examples": []
+    },
+    "category": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1553
+      },
+      "types": {
+        "str": 1553
+      },
+      "placeholder_examples": []
+    },
+    "description": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "null": 822,
+        "empty_string": 731
+      },
+      "types": {
+        "NoneType": 822,
+        "str": 731
+      },
+      "placeholder_examples": []
+    },
+    "forms": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 782,
+        "empty_container": 771
+      },
+      "types": {
+        "list": 1553
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1552,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 1553
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "ingredientId": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1553
+      },
+      "types": {
+        "int": 1553
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1553
+      },
+      "types": {
+        "str": 1553
+      },
+      "placeholder_examples": []
+    },
+    "nestedRows": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 1344,
+        "populated": 209
+      },
+      "types": {
+        "list": 1553
+      },
+      "placeholder_examples": []
+    },
+    "notes": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1017,
+        "null": 254,
+        "empty_string": 282
+      },
+      "types": {
+        "str": 1299,
+        "NoneType": 254
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1553
+      },
+      "types": {
+        "int": 1553
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "populated": 1553
+      },
+      "types": {
+        "list": 1553
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 1553,
+      "missing_key": 0,
+      "states": {
+        "null": 741,
+        "populated": 812
+      },
+      "types": {
+        "NoneType": 741,
+        "str": 812
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/forms[]": {
+    "category": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "populated": 983,
+        "placeholder_token_candidate": 3
+      },
+      "types": {
+        "str": 986
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "ingredientGroup": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "populated": 971,
+        "placeholder_token_candidate": 9,
+        "null": 6
+      },
+      "types": {
+        "str": 980,
+        "NoneType": 6
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "ingredientId": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "populated": 986
+      },
+      "types": {
+        "int": 986
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "populated": 986
+      },
+      "types": {
+        "str": 986
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "populated": 986
+      },
+      "types": {
+        "int": 986
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "null": 906,
+        "populated": 80
+      },
+      "types": {
+        "NoneType": 906,
+        "int": 54,
+        "float": 26
+      },
+      "placeholder_examples": []
+    },
+    "prefix": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "populated": 358,
+        "null": 628
+      },
+      "types": {
+        "str": 358,
+        "NoneType": 628
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 986,
+      "missing_key": 0,
+      "states": {
+        "null": 484,
+        "populated": 502
+      },
+      "types": {
+        "NoneType": 484,
+        "str": 502
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]": {
+    "alternateNames": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 632,
+        "populated": 71
+      },
+      "types": {
+        "list": 703
+      },
+      "placeholder_examples": []
+    },
+    "category": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "populated": 702,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 703
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "description": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "null": 286,
+        "empty_string": 417
+      },
+      "types": {
+        "NoneType": 286,
+        "str": 417
+      },
+      "placeholder_examples": []
+    },
+    "forms": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 675,
+        "populated": 28
+      },
+      "types": {
+        "list": 703
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "populated": 702,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 703
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "ingredientId": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "populated": 703
+      },
+      "types": {
+        "int": 703
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "populated": 703
+      },
+      "types": {
+        "str": 703
+      },
+      "placeholder_examples": []
+    },
+    "nestedRows": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 677,
+        "populated": 26
+      },
+      "types": {
+        "list": 703
+      },
+      "placeholder_examples": []
+    },
+    "notes": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "null": 184,
+        "populated": 114,
+        "empty_string": 405
+      },
+      "types": {
+        "NoneType": 184,
+        "str": 519
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "populated": 703
+      },
+      "types": {
+        "int": 703
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "populated": 703
+      },
+      "types": {
+        "list": 703
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 703,
+      "missing_key": 0,
+      "states": {
+        "null": 431,
+        "populated": 272
+      },
+      "types": {
+        "NoneType": 431,
+        "str": 272
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/forms[]": {
+    "category": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "populated": 45
+      },
+      "types": {
+        "str": 45
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "populated": 45
+      },
+      "types": {
+        "str": 45
+      },
+      "placeholder_examples": []
+    },
+    "ingredientId": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "populated": 45
+      },
+      "types": {
+        "int": 45
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "populated": 45
+      },
+      "types": {
+        "str": 45
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "populated": 45
+      },
+      "types": {
+        "int": 45
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "null": 32,
+        "populated": 13
+      },
+      "types": {
+        "NoneType": 32,
+        "int": 13
+      },
+      "placeholder_examples": []
+    },
+    "prefix": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "populated": 13,
+        "null": 32
+      },
+      "types": {
+        "str": 13,
+        "NoneType": 32
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 45,
+      "missing_key": 0,
+      "states": {
+        "null": 33,
+        "populated": 12
+      },
+      "types": {
+        "NoneType": 33,
+        "str": 12
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]": {
+    "alternateNames": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 13,
+        "empty_container": 53
+      },
+      "types": {
+        "list": 66
+      },
+      "placeholder_examples": []
+    },
+    "category": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 65,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 66
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "description": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "null": 16,
+        "empty_string": 50
+      },
+      "types": {
+        "NoneType": 16,
+        "str": 50
+      },
+      "placeholder_examples": []
+    },
+    "forms": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 60,
+        "populated": 6
+      },
+      "types": {
+        "list": 66
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "str": 66
+      },
+      "placeholder_examples": []
+    },
+    "ingredientId": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "int": 66
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "str": 66
+      },
+      "placeholder_examples": []
+    },
+    "nestedRows": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 59,
+        "populated": 7
+      },
+      "types": {
+        "list": 66
+      },
+      "placeholder_examples": []
+    },
+    "notes": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "null": 9,
+        "populated": 33,
+        "empty_string": 24
+      },
+      "types": {
+        "NoneType": 9,
+        "str": 57
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "int": 66
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "list": 66
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "null": 32,
+        "populated": 34
+      },
+      "types": {
+        "NoneType": 32,
+        "str": 34
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/forms[]": {
+    "category": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "str": 11
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "str": 11
+      },
+      "placeholder_examples": []
+    },
+    "ingredientId": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "str": 11
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 11
+      },
+      "types": {
+        "int": 11
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "null": 11
+      },
+      "types": {
+        "NoneType": 11
+      },
+      "placeholder_examples": []
+    },
+    "prefix": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "null": 11
+      },
+      "types": {
+        "NoneType": 11
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 11,
+      "missing_key": 0,
+      "states": {
+        "populated": 8,
+        "null": 3
+      },
+      "types": {
+        "str": 8,
+        "NoneType": 3
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/nestedRows[]": {
+    "alternateNames": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 3,
+        "empty_container": 14
+      },
+      "types": {
+        "list": 17
+      },
+      "placeholder_examples": []
+    },
+    "category": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "str": 17
+      },
+      "placeholder_examples": []
+    },
+    "description": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "null": 3,
+        "empty_string": 14
+      },
+      "types": {
+        "NoneType": 3,
+        "str": 14
+      },
+      "placeholder_examples": []
+    },
+    "forms": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 12,
+        "populated": 5
+      },
+      "types": {
+        "list": 17
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "str": 17
+      },
+      "placeholder_examples": []
+    },
+    "ingredientId": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "int": 17
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "str": 17
+      },
+      "placeholder_examples": []
+    },
+    "nestedRows": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 17
+      },
+      "types": {
+        "list": 17
+      },
+      "placeholder_examples": []
+    },
+    "notes": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "null": 3,
+        "empty_string": 14
+      },
+      "types": {
+        "NoneType": 3,
+        "str": 14
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "int": 17
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "list": 17
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 3,
+        "null": 14
+      },
+      "types": {
+        "str": 3,
+        "NoneType": 14
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/nestedRows[]/forms[]": {
+    "category": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "ingredientId": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "populated": 10
+      },
+      "types": {
+        "int": 10
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "null": 10
+      },
+      "types": {
+        "NoneType": 10
+      },
+      "placeholder_examples": []
+    },
+    "prefix": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "null": 10
+      },
+      "types": {
+        "NoneType": 10
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 10,
+      "missing_key": 0,
+      "states": {
+        "null": 10
+      },
+      "types": {
+        "NoneType": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/nestedRows[]/quantity[]": {
+    "dailyValueTargetGroup": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 3,
+        "empty_container": 14
+      },
+      "types": {
+        "list": 17
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "str": 17
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "int": 17
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeOrder": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "int": 17
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeQuantity": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "int": 17
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeUnit": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "populated": 17
+      },
+      "types": {
+        "str": 17
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 17,
+      "missing_key": 0,
+      "states": {
+        "placeholder_token_candidate": 17
+      },
+      "types": {
+        "str": 17
+      },
+      "placeholder_examples": [
+        "NP"
+      ]
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/nestedRows[]/quantity[]/dailyValueTargetGroup[]": {
+    "footnote": {
+      "parent_objects": 3,
+      "missing_key": 0,
+      "states": {
+        "populated": 3
+      },
+      "types": {
+        "str": 3
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 3,
+      "missing_key": 0,
+      "states": {
+        "populated": 3
+      },
+      "types": {
+        "str": 3
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 3,
+      "missing_key": 0,
+      "states": {
+        "null": 3
+      },
+      "types": {
+        "NoneType": 3
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 3,
+      "missing_key": 0,
+      "states": {
+        "null": 3
+      },
+      "types": {
+        "NoneType": 3
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/quantity[]": {
+    "dailyValueTargetGroup": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 34,
+        "populated": 32
+      },
+      "types": {
+        "list": 66
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "str": 66
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "int": 66
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeOrder": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "int": 66
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeQuantity": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "int": 64,
+        "float": 2
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeUnit": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "populated": 66
+      },
+      "types": {
+        "str": 66
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 66,
+      "missing_key": 0,
+      "states": {
+        "placeholder_token_candidate": 35,
+        "populated": 31
+      },
+      "types": {
+        "str": 66
+      },
+      "placeholder_examples": [
+        "NP"
+      ]
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/nestedRows[]/quantity[]/dailyValueTargetGroup[]": {
+    "footnote": {
+      "parent_objects": 35,
+      "missing_key": 0,
+      "states": {
+        "populated": 25,
+        "null": 10
+      },
+      "types": {
+        "str": 25,
+        "NoneType": 10
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 35,
+      "missing_key": 0,
+      "states": {
+        "populated": 35
+      },
+      "types": {
+        "str": 35
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 35,
+      "missing_key": 0,
+      "states": {
+        "null": 25,
+        "populated": 10
+      },
+      "types": {
+        "NoneType": 25,
+        "str": 10
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 35,
+      "missing_key": 0,
+      "states": {
+        "null": 25,
+        "populated": 10
+      },
+      "types": {
+        "NoneType": 25,
+        "int": 10
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/quantity[]": {
+    "dailyValueTargetGroup": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 513,
+        "populated": 200
+      },
+      "types": {
+        "list": 713
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "populated": 713
+      },
+      "types": {
+        "str": 713
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "populated": 713
+      },
+      "types": {
+        "int": 675,
+        "float": 38
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeOrder": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "populated": 713
+      },
+      "types": {
+        "int": 713
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeQuantity": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "populated": 713
+      },
+      "types": {
+        "int": 658,
+        "float": 55
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeUnit": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "populated": 713
+      },
+      "types": {
+        "str": 713
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 713,
+      "missing_key": 0,
+      "states": {
+        "placeholder_token_candidate": 414,
+        "populated": 299
+      },
+      "types": {
+        "str": 713
+      },
+      "placeholder_examples": [
+        "NP"
+      ]
+    }
+  },
+  "label/ingredientRows[]/nestedRows[]/quantity[]/dailyValueTargetGroup[]": {
+    "footnote": {
+      "parent_objects": 206,
+      "missing_key": 0,
+      "states": {
+        "populated": 173,
+        "null": 33
+      },
+      "types": {
+        "str": 173,
+        "NoneType": 33
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 206,
+      "missing_key": 0,
+      "states": {
+        "populated": 206
+      },
+      "types": {
+        "str": 206
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 206,
+      "missing_key": 0,
+      "states": {
+        "null": 173,
+        "populated": 33
+      },
+      "types": {
+        "NoneType": 173,
+        "str": 33
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 206,
+      "missing_key": 0,
+      "states": {
+        "null": 173,
+        "populated": 33
+      },
+      "types": {
+        "NoneType": 173,
+        "int": 33
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/ingredientRows[]/quantity[]": {
+    "dailyValueTargetGroup": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1467,
+        "empty_container": 129
+      },
+      "types": {
+        "list": 1596
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1596
+      },
+      "types": {
+        "str": 1596
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1596
+      },
+      "types": {
+        "int": 1528,
+        "float": 68
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeOrder": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1596
+      },
+      "types": {
+        "int": 1596
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeQuantity": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1588,
+        "null": 8
+      },
+      "types": {
+        "int": 1428,
+        "float": 160,
+        "NoneType": 8
+      },
+      "placeholder_examples": []
+    },
+    "servingSizeUnit": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1596
+      },
+      "types": {
+        "str": 1596
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 1596,
+      "missing_key": 0,
+      "states": {
+        "populated": 1357,
+        "placeholder_token_candidate": 239
+      },
+      "types": {
+        "str": 1596
+      },
+      "placeholder_examples": [
+        "NP"
+      ]
+    }
+  },
+  "label/ingredientRows[]/quantity[]/dailyValueTargetGroup[]": {
+    "footnote": {
+      "parent_objects": 1475,
+      "missing_key": 0,
+      "states": {
+        "null": 795,
+        "populated": 680
+      },
+      "types": {
+        "NoneType": 795,
+        "str": 680
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 1475,
+      "missing_key": 0,
+      "states": {
+        "populated": 1475
+      },
+      "types": {
+        "str": 1475
+      },
+      "placeholder_examples": []
+    },
+    "operator": {
+      "parent_objects": 1475,
+      "missing_key": 0,
+      "states": {
+        "populated": 795,
+        "null": 680
+      },
+      "types": {
+        "str": 795,
+        "NoneType": 680
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 1475,
+      "missing_key": 0,
+      "states": {
+        "populated": 795,
+        "null": 680
+      },
+      "types": {
+        "int": 793,
+        "NoneType": 680,
+        "float": 2
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/labelRelationships[]": {
+    "labelId": {
+      "parent_objects": 1739,
+      "missing_key": 0,
+      "states": {
+        "populated": 1739
+      },
+      "types": {
+        "int": 1739
+      },
+      "placeholder_examples": []
+    },
+    "type": {
+      "parent_objects": 1739,
+      "missing_key": 0,
+      "states": {
+        "populated": 1739
+      },
+      "types": {
+        "str": 1739
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/netContents[]": {
+    "display": {
+      "parent_objects": 476,
+      "missing_key": 0,
+      "states": {
+        "populated": 476
+      },
+      "types": {
+        "str": 476
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 476,
+      "missing_key": 0,
+      "states": {
+        "populated": 476
+      },
+      "types": {
+        "int": 476
+      },
+      "placeholder_examples": []
+    },
+    "quantity": {
+      "parent_objects": 476,
+      "missing_key": 0,
+      "states": {
+        "populated": 476
+      },
+      "types": {
+        "int": 432,
+        "float": 44
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 476,
+      "missing_key": 0,
+      "states": {
+        "populated": 476
+      },
+      "types": {
+        "str": 476
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/otheringredients": {
+    "ingredients": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 387,
+        "null": 13
+      },
+      "types": {
+        "list": 387,
+        "NoneType": 13
+      },
+      "placeholder_examples": []
+    },
+    "text": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "null": 399,
+        "populated": 1
+      },
+      "types": {
+        "NoneType": 399,
+        "str": 1
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/otheringredients/ingredients[]": {
+    "alternateNames": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 1543,
+        "populated": 181
+      },
+      "types": {
+        "list": 1724
+      },
+      "placeholder_examples": []
+    },
+    "category": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "populated": 1724
+      },
+      "types": {
+        "str": 1724
+      },
+      "placeholder_examples": []
+    },
+    "forms": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "empty_container": 1589,
+        "populated": 135
+      },
+      "types": {
+        "list": 1724
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "populated": 1723,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 1724
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "ingredientId": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "populated": 1724
+      },
+      "types": {
+        "int": 1724
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "populated": 1724
+      },
+      "types": {
+        "str": 1724
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "populated": 1724
+      },
+      "types": {
+        "int": 1724
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 1724,
+      "missing_key": 0,
+      "states": {
+        "null": 1248,
+        "populated": 476
+      },
+      "types": {
+        "NoneType": 1248,
+        "str": 476
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/otheringredients/ingredients[]/forms[]": {
+    "category": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "populated": 323
+      },
+      "types": {
+        "str": 323
+      },
+      "placeholder_examples": []
+    },
+    "ingredientGroup": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "populated": 322,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 323
+      },
+      "placeholder_examples": [
+        "TBD"
+      ]
+    },
+    "ingredientId": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "populated": 323
+      },
+      "types": {
+        "int": 323
+      },
+      "placeholder_examples": []
+    },
+    "name": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "populated": 323
+      },
+      "types": {
+        "str": 323
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "populated": 323
+      },
+      "types": {
+        "int": 323
+      },
+      "placeholder_examples": []
+    },
+    "percent": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "null": 323
+      },
+      "types": {
+        "NoneType": 323
+      },
+      "placeholder_examples": []
+    },
+    "prefix": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "null": 290,
+        "populated": 33
+      },
+      "types": {
+        "NoneType": 290,
+        "str": 33
+      },
+      "placeholder_examples": []
+    },
+    "uniiCode": {
+      "parent_objects": 323,
+      "missing_key": 0,
+      "states": {
+        "populated": 87,
+        "null": 236
+      },
+      "types": {
+        "str": 87,
+        "NoneType": 236
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/physicalState": {
+    "langualCode": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "langualCodeDescription": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 399,
+        "placeholder_token_candidate": 1
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": [
+        "Unknown"
+      ]
+    }
+  },
+  "label/productType": {
+    "langualCode": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    },
+    "langualCodeDescription": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/servingSizes[]": {
+    "inSFB": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "bool": 400
+      },
+      "placeholder_examples": []
+    },
+    "maxDailyServings": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 365,
+        "null": 35
+      },
+      "types": {
+        "int": 365,
+        "NoneType": 35
+      },
+      "placeholder_examples": []
+    },
+    "maxQuantity": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "int": 372,
+        "float": 28
+      },
+      "placeholder_examples": []
+    },
+    "minDailyServings": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 398,
+        "null": 2
+      },
+      "types": {
+        "int": 398,
+        "NoneType": 2
+      },
+      "placeholder_examples": []
+    },
+    "minQuantity": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "int": 371,
+        "float": 29
+      },
+      "placeholder_examples": []
+    },
+    "notes": {
+      "parent_objects": 400,
+      "missing_key": 243,
+      "states": {
+        "populated": 53,
+        "empty_string": 104
+      },
+      "types": {
+        "str": 157
+      },
+      "placeholder_examples": []
+    },
+    "order": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "int": 400
+      },
+      "placeholder_examples": []
+    },
+    "unit": {
+      "parent_objects": 400,
+      "missing_key": 0,
+      "states": {
+        "populated": 400
+      },
+      "types": {
+        "str": 400
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/statements[]": {
+    "notes": {
+      "parent_objects": 6462,
+      "missing_key": 0,
+      "states": {
+        "populated": 6462
+      },
+      "types": {
+        "str": 6462
+      },
+      "placeholder_examples": []
+    },
+    "type": {
+      "parent_objects": 6462,
+      "missing_key": 0,
+      "states": {
+        "populated": 6462
+      },
+      "types": {
+        "str": 6462
+      },
+      "placeholder_examples": []
+    }
+  },
+  "label/userGroups[]": {
+    "dailyValueTargetGroupName": {
+      "parent_objects": 403,
+      "missing_key": 0,
+      "states": {
+        "populated": 403
+      },
+      "types": {
+        "str": 403
+      },
+      "placeholder_examples": []
+    },
+    "langualCode": {
+      "parent_objects": 403,
+      "missing_key": 0,
+      "states": {
+        "populated": 403
+      },
+      "types": {
+        "str": 403
+      },
+      "placeholder_examples": []
+    },
+    "langualCodeDescription": {
+      "parent_objects": 403,
+      "missing_key": 0,
+      "states": {
+        "populated": 403
+      },
+      "types": {
+        "str": 403
+      },
+      "placeholder_examples": []
+    }
+  }
+}

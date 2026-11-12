@@ -75,8 +75,19 @@ The query inventory includes co-ingredients in the selected products, not only t
 | [PubChem collection](notebooks/PubChem_Data_Collection.ipynb) | Search ingredient names and collect chemical properties, structures, identifiers, and synonyms. |
 | [RxNorm collection](notebooks/RxNorm_Data_Collection.ipynb) | Search exact names, then normalized names on no match; collect names, term types, attributes, and source codes. |
 | [MeSH collection](notebooks/MeSH_Data_Collection.ipynb) | Search exact entry terms and collect linked descriptors, supplementary records, concepts, terms, and RDF statements. |
+| [Data audit and preprocessing](notebooks/Data_Audit_and_Preprocessing.ipynb) | Read-only audit of all six sources, followed by the first DSLD preprocessing step: preserve labels, flag market status, and group repeated brand/product names for review. Other transformations remain pending. |
 
 Each terminology notebook builds its inventory directly from DSLD. None requires running another terminology notebook first.
+
+The notebook runs locally without network access and fingerprints the raw files before and after execution. Sections 1–6 audit without writing data files; section 8 writes versioned derived files under `data/processed/dsld/`. No raw dataset is overwritten or cleaned.
+
+### Preprocessing step 1: DSLD label inventory
+
+The [DSLD preprocessing script](scripts/preprocess_dsld.py) preserves all **400 labels**, adds stable source-label IDs and provenance, and flags **231 off-market** versus **169 on-market-in-source** records. These statuses describe the saved source, not independently verified present availability. **70 repeated brand/product-name groups**, covering **206 labels**, are flagged for review; no records are deleted or merged.
+
+The [versioned outputs](data/processed/dsld/dsld-label-inventory-v1-b1689b0c095fb6ed/) contain `label_inventory.jsonl`, `on_market_label_index.csv`, `repeated_name_groups.json`, `validation_report.json`, and `manifest.json`. Each inventory record retains the original label under `raw_label`; ingredient quantities, forms and serving context are unchanged. Source fingerprints and a rules version identify each run. An identical rerun reuses the output; differing existing output is protected from overwrite.
+
+This step does not perform ingredient normalization, cross-source entity matching, Reddit filtering, or clinical-claim approval. Those decisions remain pending review of the audit findings.
 
 ## Saved collection snapshot
 
@@ -183,3 +194,77 @@ Each source's `upstream_derived/` directory contains an unchanged subset of the 
 - [PubChem PUG REST](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest)
 - [RxNorm API](https://www.lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html)
 - [MeSH RDF](https://id.nlm.nih.gov/mesh/)
+
+## Shared audit categories and criteria
+
+Apply these categories consistently across datasets, using source-specific checks where appropriate. For terminology sources, retain links back to the originating DSLD ingredient queries.
+
+- **Structure and completeness:** what each record represents and which fields are missing.
+- **Identifiers:** uniqueness, reuse, and links back to DSLD queries.
+- **Duplicates and ambiguity:** multiple queries reaching one identifier, or one query returning several candidates.
+- **Mapping quality:** whether a result represents the intended ingredient, a specific form, or something broader.
+- **Provenance:** query method, source response, and unresolved matches.
+
+Audits document findings and unresolved decisions; they do not automatically approve mappings, merge records, or correct source values. Preserve raw data and record derived findings separately.
+
+### DSLD repeated-name review
+
+Notebook section 9 runs `scripts/review_dsld_name_groups.py`. The report is at `data/processed/dsld/dsld-name-review-v1-0baa34b90a1fe69e/review.md`, with detailed comparisons in `review.json` and input/output hashes in `manifest.json`.
+
+All 70 groups (206 labels, 304 pairs) were compared. Source annotations include image differences in 51 groups, package-size differences in 31, and flavor differences in 2 (overlapping counts); 8 groups have no within-group relationship annotation. Ingredient-row JSON differs in 54 groups, serving-size JSON in 23, and package contents in 40. These are exact stored-field comparisons, not verified formulation changes. Sixteen groups contain multiple labels marked on-market in the source snapshot. No pair is identical across all fields after excluding only `id` and `src`.
+
+Retain every label ID and source relationship. Do not infer product identity from names, UPC/SKU, or DSLD entry dates alone. All raw files remain unchanged; no records were merged or deleted.
+
+### DSLD ingredient and serving review
+
+Notebook section 10 and `scripts/review_dsld_ingredients.py` compare all 304 pairs within the 70 repeated-name groups. Detailed outputs are in `data/processed/dsld/dsld-ingredient-review-v1-0baa34b90a1fe69e/` (`review.md`, `review.json`, `manifest.json`). Source hashes and comparison rules are retained.
+
+Twenty-seven groups match across all pairs on the compared ingredient names, forms, quantities/basis and serving definitions; 43 have at least one difference. This is not an identity or formulation-equivalence decision. Other ingredients, notes, daily values and source metadata require separate consideration. No unit conversion, synonym mapping or merging is performed.
+
+A notable source inconsistency is BetterYou Iron Daily Oral Spray label 257287: numeric serving fields say 52 mL, but its serving note states 0.52 ml. Verify the original label before correcting this value or calculating normalized doses. Section 10 also discusses equivalent mass-unit representations, differing tablet counts and differing recorded EPA/DHA amounts. All raw records remain unchanged.
+
+### DSLD quantity and serving audit
+
+Notebook section 12 runs `scripts/audit_dsld_quantities.py` across all 400 labels (2,339 ingredient rows and 2,392 quantity entries). Reports are in `data/processed/dsld/dsld-quantity-audit-v1-ae1a24aa4a66389a/`: `audit.md`, detailed `audit.json`, filterable `findings.csv`, and a provenance/checksum manifest. Notebook outputs include a raw-data example for every finding category.
+
+Findings include 705 NP-unit zero entries on 74 labels, 8 missing serving-basis values on 2 labels, 35 incomplete daily-serving ranges, and 67 quantity bases outside the stated per-serving range on 9 labels. Of those 67, 52 fall within a computed daily-total range; this remains a review clue, not an automatic correction. BetterYou label 257287 has a numeric serving/notes conflict. Another 32 named-unit zeros and 24 inequality amounts are informational. Categories overlap.
+
+No ingredient row lacks quantity entries, no amount is nonnumeric/nonfinite/negative, and all serving references resolve with matching serving-unit text. These checks do not validate source accuracy. NP semantics and ambiguous quantities remain unresolved; no units, quantities, raw labels or product identities were changed. Free-text checks are limited to explicit mL values in mL serving notes.
+
+### DSLD baseline audit completion
+
+Notebook section 13 runs `scripts/audit_dsld_baseline.py` and saves executable examples. Outputs: `data/processed/dsld/dsld-baseline-audit-v1-1487bf52f8e90a1f/` (`audit.json`, `audit.md`, `field_profiles.json`, `manifest.json`). All 213 field profiles across 31 object paths distinguish missing keys, null, empty strings/containers, candidate placeholder tokens and populated values. Child-field denominators are existing child objects, not all 400 labels.
+
+Additional candidate checks found 4 normalized-name groups crossing exact-name boundaries and 10 shared whitespace-compacted UPC/SKU groups crossing exact names. These are not approved merges. Across 5,438 ingredient/form occurrences, 291 normalized names map to multiple DSLD ingredient IDs; 382 UNII fields contain 0 or 1. No external identifier registry validation was performed.
+
+Of 1,739 label relationship entries, 1,720 are distinct directed typed links; 916 entries reference 451 labels outside the sample. Entry dates span 2011-10-26 through 2025-09-25. Directions occur on 398 labels, precautions on 366, and other-ingredient lists on 387. Absence of text does not establish absence of risk or ingredients. Source claim codes are not clinical evidence.
+
+Together with earlier sections, the DSLD baseline is sufficiently documented for shared-schema design. Source vocabulary interpretation, external identifier verification, label-image accuracy, semantic merging and clinical review remain pending. No raw data, quantities or identities were changed.
+
+### PubChem baseline audit
+
+Notebook section 15 runs `scripts/audit_pubchem.py` against the saved 2026-10-28 snapshot. Outputs are in `data/processed/pubchem/pubchem-baseline-audit-v1-ee86973dbcbcc97b/` (`audit.json`, `audit.md`, `field_profiles.json`, `manifest.json`). Saved notebook outputs show source queries, DSLD occurrences, properties and ambiguity examples.
+
+All 3,391 DSLD ingredient/form occurrences and source hashes were verified. Of 739 queries, 221 returned one CID, 7 returned multiple CIDs and 511 returned no match. There are 239 compound records and 272 candidate links. Thirty CIDs are reached by multiple queries; 74 normalized synonyms span multiple CIDs; 8 groups share InChIKey. These are review findings, not approved equivalences. Three records lack IUPACName. Collection and batch-response consistency checks pass; six derived candidate lists differ only in ordering due to the collector's sorting.
+
+The audit is offline. Single results, shared synonyms and matching structures do not automatically approve ingredient mappings. Category associations include co-ingredients and are not clinical indications. No raw data was changed, no mappings were approved and no records were merged.
+
+### RxNorm baseline audit
+
+Notebook section 16 runs `scripts/audit_rxnorm.py` against the saved 2026-10-28 snapshot. Outputs: `data/processed/rxnorm/rxnorm-baseline-audit-v1-bb5c0ce9a6faee14/` (`audit.json`, `audit.md`, `field_profiles.json`, `manifest.json`). Notebook outputs include source search parameters, responses, concept properties and ambiguity examples.
+
+All 3,391 DSLD ingredient/form occurrences across 400 labels were verified. Of 739 queries, 282 matched by exact search, 31 by normalized search and 426 returned no match. There are 31 ambiguous queries (21 exact and 10 normalized), 287 concepts (256 IN, 30 PIN, 1 MIN), and 347 candidate links. Forty-six concepts are reached by multiple query names. There are 31 shared external-code groups excluding SPL_SET_ID; these are not approved equivalences.
+
+Creatine HCl returns creatine and creatine monohydrate via normalized search, illustrating why candidate mappings require identity review. Turmeric returns turmeric extract via exact search; exact does not guarantee equivalent preparation or scope. The 180,747 property entries are dominated by 175,552 SPL_SET_ID values. All 287 basic umlscui fields are blank; no UMLS CUIs are supplied here.
+
+Hashes, source paths, search-policy traces and concept responses pass integrity checks. The saved vocabulary/API versions are stable across collection. The audit is offline; no mappings were approved, records merged or raw files changed.
+
+### NatMed baseline audit and annotation validation
+
+Notebook section 17 runs `scripts/audit_natmed.py` with `supplementsrx_env/bin/python`. Install its validator with `supplementsrx_env/bin/python -m pip install -r requirements-audit.txt`. Outputs: `data/processed/natmedpro/natmed-baseline-audit-v1-b548c344b8c0a9b7/` (`audit.json`, `audit.md`, `field_profiles.json`, `manifest.json`). Saved notebook outputs show claim-type completeness, source scope, example claims and supporting source spans.
+
+All 1,269 claims pass the supplied contract 1.1 JSON Schema (Draft 2020-12 with format checking). Independent source checks pass for excerpts, hashes, source identity, dose-range ordering and 2,923 field-support anchors. Of those anchors, 769 effectiveness ratings refer to earlier section headings; the check for intervening headings is limited to known ratings. This is not the upstream custom validator or a clinical review. All 1,269 claims remain pending.
+
+Source/capture hashes and 1,179 passage bindings pass. There are 5 repeated passage-text groups, 13 repeated claim-text groups and 12 shared source-span/type groups, but no duplicate full claim payloads after excluding ID. Population/dose distinctions prevent automatic merging. The upstream 49 extraction issues and 55 missing bibliography reference numbers remain unresolved. Dose indication/formulation/strain fields remain unpopulated; 71 of 85 dose claims have structured numeric values.
+
+The audit covers the locally imported snapshot, not current upstream/publisher content. No source corrections, normalized doses, clinical approvals or record merges were made. Raw data remains unchanged.
