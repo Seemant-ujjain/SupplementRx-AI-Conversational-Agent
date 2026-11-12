@@ -1,0 +1,37 @@
+{
+  "rules_version": "terminology-review-v1",
+  "inputs": {
+    "pubchem": {
+      "file": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+      "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+      "manifest_sha256": "dc13ffbeeb2db3d9decb37db4d16ff0705858d487cea06db57138690002ef20a"
+    },
+    "rxnorm": {
+      "file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+      "sha256": "61462e721fe7ce74fc594ba5c0750aa0700d2bad99db8658ee55b3f7932406cc",
+      "manifest_sha256": "b58b5487452359ca13c2c31056b391d48ded366f9ef4115dafa9aa5918cdd809"
+    },
+    "mesh": {
+      "file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+      "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+      "manifest_sha256": "f90208b495e4fe848274d1f59153f65fbad9baec5d269bde97232564a18e4891"
+    }
+  },
+  "script_sha256": "dee38583353a34c78007d602e72df07d7fb0281c58ada8de2fc22cc3ac6652a7",
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "review.json": {
+      "sha256": "ba80ce3ef4f20f22e74f1fa0877826bee743d56fe7ac743c89af067837bcc2f2",
+      "bytes": 1471731
+    },
+    "query_comparison.csv": {
+      "sha256": "d1331772c9ebc1a04f4b92cd75f895b86fef288938ba02fb21a3e2b12e03f368",
+      "bytes": 222385
+    },
+    "dsld_occurrences.csv": {
+      "sha256": "6eda263d04fa0f30bcd86df07a5c8f2ae27fa9b6b46325556b68b72dd9f69f27",
+      "bytes": 676756
+    }
+  }
+}
