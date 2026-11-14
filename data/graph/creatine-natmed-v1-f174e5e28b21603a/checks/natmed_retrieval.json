@@ -1,0 +1,92 @@
+{
+  "citation_numbers": [
+    "3710",
+    "11301",
+    "19271",
+    "90649",
+    "90652",
+    "90653",
+    "97292",
+    "101816",
+    "102682",
+    "102683",
+    "102684",
+    "102685",
+    "102687",
+    "103476",
+    "105824",
+    "109586",
+    "109588",
+    "109589",
+    "109590",
+    "116648",
+    "118927",
+    "118930",
+    "111538"
+  ],
+  "clinical_approval": false,
+  "dose": {
+    "duration": null,
+    "frequency": null,
+    "maximum": null,
+    "minimum": null,
+    "qualifier": null,
+    "regimen": null,
+    "route": null,
+    "text": null,
+    "unit": null,
+    "value": null
+  },
+  "formulation": null,
+  "limitations": [
+    "One pending annotation, not a full monograph safety summary",
+    "Oral and topical contexts remain together; structured dose fields stay unknown",
+    "Botanical-subject links do not establish applicability to either branded blend",
+    "References are captured bibliography entries, not independently validated clinical evidence"
+  ],
+  "original_excerpt": "POSSIBLY SAFE when used orally and appropriately, short-term. Ashwagandha has been used with apparent safety in doses of up to 1250 mg daily for up to 6 months (3710, 11301, 19271, 90649, 90652, 90653, 97292, 101816, 102682, 102683) (102684, 102685, 102687, 103476, 105824, 109586, 109588, 109589, 109590, 116648)(118927, 118930). ...when used topically. Ashwagandha lotion has been used with apparent safety in concentrations up to 8% for up to 2 months (111538).",
+  "paths": [
+    {
+      "label_id": "74939",
+      "node_ids": [
+        "snapshot:d38a36d6424d25ba03ec861173a74d594397a5a189f0803e373bb5b26e3597d4",
+        "occurrence:04075023d6073d2898f31075a111483a65b9fea1fecad5c769a92525f649fe0e",
+        "occurrence:a8118723afc97b79fbe1bd939582ec9d5be1f46d2f21520f094aa8a19eadb89f",
+        "assertion:65d4f634a4f075d72a236031035e07484cb0a8790df2774b15ff93f16a8a38c9",
+        "excerpt:6391a632a44219b96ff296d94ab369e4d7de12781ee93537b306d0d572d87f97",
+        "snapshot:5758e40611b6b399d0677f8f7cf6e178a86c4640c1e351344d33d8ae075daf89"
+      ],
+      "traversal": [
+        "DECLARES_OCCURRENCE",
+        "RELATED_BOTANICAL_SUBJECT",
+        "ABOUT_SUBJECT (reverse)",
+        "SUPPORTED_BY_EXCERPT",
+        "EXCERPT_OF"
+      ]
+    },
+    {
+      "label_id": "74940",
+      "node_ids": [
+        "snapshot:a15c7b6577c6318d13d3a0cc623274ae35c70dddcfd935373b1d88764538932b",
+        "occurrence:0d260f896dd5f5ab3a93cb8541acc484795d1fb5080529013717cdb9e2ad254a",
+        "occurrence:a8118723afc97b79fbe1bd939582ec9d5be1f46d2f21520f094aa8a19eadb89f",
+        "assertion:65d4f634a4f075d72a236031035e07484cb0a8790df2774b15ff93f16a8a38c9",
+        "excerpt:6391a632a44219b96ff296d94ab369e4d7de12781ee93537b306d0d572d87f97",
+        "snapshot:5758e40611b6b399d0677f8f7cf6e178a86c4640c1e351344d33d8ae075daf89"
+      ],
+      "traversal": [
+        "DECLARES_OCCURRENCE",
+        "RELATED_BOTANICAL_SUBJECT",
+        "ABOUT_SUBJECT (reverse)",
+        "SUPPORTED_BY_EXCERPT",
+        "EXCERPT_OF"
+      ]
+    }
+  ],
+  "population": null,
+  "question": "What does the selected saved Ashwagandha safety annotation say, with its source and limitations?",
+  "review_state": "pending",
+  "section": "safety",
+  "source_record_id": "natmed:0d296c0daa1cccb456da568c",
+  "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+}

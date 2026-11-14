@@ -1,0 +1,57 @@
+{
+  "confidence_file": "data/processed/identity/mapping-confidence-v1-7c8a0e7ea6f02e69/confidence.json",
+  "confidence_sha256": "7c8a0e7ea6f02e6987a1483566bd484be411b4441b1d47b2e2259458dfee847f",
+  "counts": {
+    "edges": 340,
+    "excluded_exact_matches": 8,
+    "mapping_edges": 24,
+    "nodes": 209,
+    "pending": 8
+  },
+  "edge_types": {
+    "ABOUT_OCCURRENCE": 75,
+    "DECLARES_OCCURRENCE": 75,
+    "DECLARES_SERVING": 7,
+    "DENOTES_CONCEPT": 18,
+    "EXACT_MATERIAL_MATCH": 6,
+    "HAS_ASSERTION": 103,
+    "HAS_DECLARED_FORM": 36,
+    "HAS_SERVING_BASIS": 16,
+    "HAS_STANDARDIZATION_MARKER": 4
+  },
+  "files": {
+    "nodes/ChemicalCompound.csv": "f1827f99f18462f53783059e3e0f818656f19d454aac20cb06c7b2e7849e12cb",
+    "nodes/IngredientOccurrence.csv": "2c7dca13227c942b95b13e4e733f297aee56387cf4e83dd8d0781efd8d1343fa",
+    "nodes/LabelAssertion.csv": "5592507b771b140513534397adc15040fc90fdecb0d98165fdf7e9f01c1d140d",
+    "nodes/ProductLabel.csv": "8e72a13ad3ee85767f71d48afcd4a2e597a587704b0b9afe2f5b1716fba81a52",
+    "nodes/Serving.csv": "02f06b6cc056b222e0a8cee28ac1d1fb656b767c68c44c5fa608687c7566df8a",
+    "nodes/TerminologyConcept.csv": "481983ed3957da052f4e283c9e1a6825a65e1ce77ea2c060f2c6919c79f4b82d",
+    "provenance/artifacts.json": "0112e1f3ae6c37400666757fcf80901f3337fb811b9e5ef8d1aedc4e73390e38",
+    "provenance/evidence.jsonl": "324c4372d553520fe0b214194db481c2c6cd1abbafbd83ea87ccb699f5608d78",
+    "relationships/relationships.csv": "78a96bbf00bce8f15d3aafa9281169cd1ff9592a01d9d2ef027000d9f5c9a102",
+    "review/pending_and_excluded.json": "1324d8b8d56dbdebf2f2964adc4a5a6041bc49ab3b7e91ce4be7081748cc0c73"
+  },
+  "node_types": {
+    "ChemicalCompound": 2,
+    "IngredientOccurrence": 75,
+    "LabelAssertion": 103,
+    "ProductLabel": 7,
+    "Serving": 7,
+    "TerminologyConcept": 15
+  },
+  "pilot_build": "pilot-v1-a88f090b41e160766e4a",
+  "scope": "Seven DSLD labels, their source-scoped occurrences/assertions/servings and High-confidence terminology targets. NatMed/Reddit graph export deferred.",
+  "script_sha256": "09688390d290d5eadc83252ba985c502822074132e6079637dcc73248dd22f82",
+  "validation": {
+    "all_24_high_links_only": true,
+    "all_endpoints_resolve": true,
+    "canonical_merges": 0,
+    "derived_doses": 0,
+    "evidence_references_resolve": true,
+    "negative_checks_passed": 3,
+    "relationship_types_preserved": true,
+    "serving_conflict_retained": true,
+    "unique_ids": true
+  },
+  "version": "pilot-graph-v1"
+}

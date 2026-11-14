@@ -1,0 +1,800 @@
+{
+  "cases": [
+    {
+      "answer": "Both declare the same total creatine mass per two capsules: 1,500 mg on label 25731 and 1.5 g on label 43261. Both list creatine monohydrate and Creatine HCl, but their other-ingredient lists differ. Equal amounts do not establish identical formulations or justify merging these labels. These are saved label declarations, not recommended doses.",
+      "clinical_approval": false,
+      "dose_recommendation": null,
+      "evidence_ids": [
+        "evidence:0eef7e923231627257ff2d32f5b9dd199cc8d711774596d3d743c47512dd4241",
+        "evidence:3e0f131a8488f825c131c3a583036f00c005b73f3ded493876efeeb6ce2fe846",
+        "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+        "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+        "evidence:588236b00b938136a3acec7904ad31d6581225357cc574a3b6f5a9a65308226a",
+        "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+        "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+        "evidence:852bd0350fb5126d29dc3354f985b2ef401fbe6e0a40bede1067eb59cf291fbf",
+        "evidence:948b52433d180f004c080cbd456b29b88bae5551830de72d59ce13f849748ca8",
+        "evidence:9ff9ba2e63e09abd58aa814e554b023a588e3800473573da5ec8f9eb05b69e5e",
+        "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+        "evidence:b61a5c39501bddceda3c535c33df194364bb14ba3a03bcaef811ad17b2c68494",
+        "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+        "evidence:c6d2f137f57461161cfbb9352750ed28f0775cce07d5536fc5118a7bdc9ab3a1",
+        "evidence:cd44a9aedba291e6cd0539b2af301b36f8f06797212e7af7a2201b57c62c035f",
+        "evidence:de9df545214ab70ca78fe087b1d1aba769d142fbdda8bced7d025ed0d7c8fd57",
+        "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+        "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467",
+        "evidence:f80f49494445d92d2838502c8ed1113515b88353a489df003b8563a2e917accb",
+        "evidence:faa054383b1604f0c279f1d1fbc4bfabcbeee2507fccc6131ea1e7c3f66e4cc1"
+      ],
+      "excluded_roles": [
+        "NatMed clinical statements",
+        "Reddit discussion"
+      ],
+      "exclusion_reason": "Neither is needed to compare the saved labels.",
+      "id": "label_comparison",
+      "included_claim_ids": [],
+      "included_label_ids": [
+        "25731",
+        "43261"
+      ],
+      "product_equivalence_established": false,
+      "question": "Do the two saved BPI Creatine Alkaline labels have the same creatine amount and the same formulation?",
+      "source_records": [
+        {
+          "comparison_mg": "1500",
+          "evidence_ids": [
+            "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+            "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+            "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+            "evidence:c6d2f137f57461161cfbb9352750ed28f0775cce07d5536fc5118a7bdc9ab3a1",
+            "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56"
+          ],
+          "forms": [
+            "Creatine Monohydrate",
+            "Creatine HCl"
+          ],
+          "identity_note": "Separate source label; no product merging",
+          "label_id": "25731",
+          "original_quantity": {
+            "dailyValueTargetGroup": [
+              {
+                "footnote": "Daily Value not established",
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null
+              }
+            ],
+            "operator": "=",
+            "quantity": 1500,
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 2,
+            "servingSizeUnit": "Capsule(s)",
+            "unit": "mg"
+          },
+          "other_ingredients": [
+            "Dicalcium Phosphate",
+            "Magnesium Stearate",
+            "Silica",
+            "pH-Sorb(TM) Buffering Technology"
+          ],
+          "path": [
+            "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+            "assertion:a1a6f1854d5df7fee88d64a99b98e759225d1b482d7b5ca691dd807b29920db7",
+            "occurrence:f54002ce8d3f2435e4d636bffb3d13368871f9128dcc41e1aed7b7a38c877472"
+          ],
+          "product_name": "Creatine Alkaline",
+          "source_serving": {
+            "inSFB": true,
+            "maxDailyServings": 1,
+            "maxQuantity": 2,
+            "minDailyServings": 1,
+            "minQuantity": 2,
+            "order": 1,
+            "unit": "Capsule(s)"
+          }
+        },
+        {
+          "comparison_mg": "1500.0",
+          "evidence_ids": [
+            "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+            "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+            "evidence:9ff9ba2e63e09abd58aa814e554b023a588e3800473573da5ec8f9eb05b69e5e",
+            "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+            "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467"
+          ],
+          "forms": [
+            "Creatine Monohydrate",
+            "Creatine HCl"
+          ],
+          "identity_note": "Separate source label; no product merging",
+          "label_id": "43261",
+          "original_quantity": {
+            "dailyValueTargetGroup": [
+              {
+                "footnote": "Daily Value not established",
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null
+              }
+            ],
+            "operator": "=",
+            "quantity": 1.5,
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 2,
+            "servingSizeUnit": "Capsule(s)",
+            "unit": "Gram(s)"
+          },
+          "other_ingredients": [
+            "Dicalcium Phosphate",
+            "FD&C Blue No. 1",
+            "Magnesium Stearate",
+            "Silica",
+            "Titanium Dioxide",
+            "pH-Sorb(TM) Buffering Technology"
+          ],
+          "path": [
+            "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e",
+            "assertion:ba6dbef1a7abda5c4d687b46ad02fa47609893d7bf4e886550d200f9e3fc43ae",
+            "occurrence:016e3b539ae46c6ce060e745c3e2c081b24dc924a7d39ecd57f5c581ea2361ff"
+          ],
+          "product_name": "Creatine Alkaline",
+          "source_serving": {
+            "inSFB": true,
+            "maxDailyServings": 1,
+            "maxQuantity": 2,
+            "minDailyServings": 1,
+            "minQuantity": 2,
+            "order": 1,
+            "unit": "Capsule(s)"
+          }
+        }
+      ],
+      "status": "answered_with_limit"
+    },
+    {
+      "answer": "The selected set contains seven pending safety annotations: general short-term and long-term statements, plus statements concerning children, pregnancy/lactation, bipolar disorder, kidney dysfunction and Parkinson disease. Their original passages and source ratings are shown separately below. Unknown structured populations remain unknown. These records are not a complete safety review and do not establish that creatine or either BPI product is safe for an individual.",
+      "clinical_approval": false,
+      "clinical_conclusion": null,
+      "coverage": "selected_annotations_not_complete_safety_review",
+      "evidence_ids": [
+        "creatine-expansion-evidence:0d67cd66bc81d156fc544d2b98905344f6b9cb8f7d9da2073e1e4d5f7256b396",
+        "creatine-expansion-evidence:2697229a27180b8c023edbd4c3b98bf6d9595c6b23d5b7d8eb070a65d5219cf6",
+        "creatine-expansion-evidence:2ac605e1f57ba66e0adee083a5ca8786042e10b8150ea61eb4fe6a7eb3b96c26",
+        "creatine-expansion-evidence:2eb55a0187315709a1d0c29d7e5838c5b24bd93c379a0c343225cda6125b0668",
+        "creatine-expansion-evidence:2ffd3e41b8903867d168f5dca571ce0b6239162d4ecde738eb7550e48be249d7",
+        "creatine-expansion-evidence:351828987a2dbd1ea8d778d42d3ece5b12c2dc0e1737b9b81cefb78f1f2c52d5",
+        "creatine-expansion-evidence:37ca82b26bc0a3cdb8a29905c8a995052eb7a7fe2069d897ca3cae31b59b35b6",
+        "creatine-expansion-evidence:3e19c0e4cc75db7ca6c3ad3bb557b420636ffee3c82bdfeab3e117c07218d122",
+        "creatine-expansion-evidence:589c68ac830d2c74a68d2a45702afc3c5e89618661df6d08a9e5f1af706a3c20",
+        "creatine-expansion-evidence:887321cfa462cbe06d9db9709083c2194e5ac91877976dcd9228f948b7381375",
+        "creatine-expansion-evidence:8e02e68f8efa94c566eaa0796b3fd5b52531c8d019c5e82cdf48e27fb69bbeaf",
+        "creatine-expansion-evidence:9023b59e4f3f9ccaa44f08ff8fb1229587a8f2ab7f7536596329ad4f3d4c54fd",
+        "creatine-expansion-evidence:a79cc3b2266dbb7f40946ab9b7ec0907aec79d9c9ac0f5d6fa50500ee0ad2dfe",
+        "creatine-expansion-evidence:b31116ad4ddb1ea678c6cca77df6a7e0f9552c24a4bd670c216d972b9455372d",
+        "creatine-expansion-evidence:bae5c915ac3e20d6ef7dbeb8363cfa5b25b0cd9aec855d8e061be9af71a795d5",
+        "creatine-expansion-evidence:bb31f2d084c3a3c8acfddf2f071830681e06e633737ab5d9bd5fd7c78b53c455",
+        "creatine-expansion-evidence:ce329e1d29fcf9e246b2da92968bc5988a86bf4cc37fc91330708ce02e67b7ef",
+        "creatine-expansion-evidence:dcbe1c36e423ec050fed3349380e4db8f279a91c4e3c1b868e04e8746e8f71a6",
+        "creatine-expansion-evidence:e3ce4219823fa910a25d7a6ba468fefa0a09ece3d77e0555e7873cf666a9df4f",
+        "creatine-expansion-evidence:f36b342058c1af4d561f3ccc626cbdc90f5bd53f8fec0dc7007b0590e2b97d0f",
+        "creatine-expansion-evidence:f96f61c04a5791f028b13c31ff8cba00d473b5e3288b649b1c224e23af30e564",
+        "creatine-expansion-evidence:fa2da164f7a6c1ae9249bb8d82e3a35d1bea6bfc43a08025e2566fe58a219da3"
+      ],
+      "excluded_claim_ids": [
+        "claim:d657c33fdcb5dacdcdbbb71753020d04d0331bc53ff683efa3826a519df2175b",
+        "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+        "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131"
+      ],
+      "excluded_roles": [
+        "Product label declarations",
+        "Reddit discussion"
+      ],
+      "exclusion_reason": "Product composition and packaging discussion do not validate clinical safety. Effectiveness and dosing annotations are outside this source-safety question.",
+      "id": "source_safety",
+      "included_claim_ids": [
+        "claim:88cf9029a0198b6bea27d2d1d2da03c5442592b33d5797117481f40cd41d4b3c",
+        "claim:eebb885776a41b2ded96c9f777d2e48d3f9e332abe785834e7f20f0071e50b65",
+        "claim:6360244495b4dfad328a9ca9f51325cb6275dea749b4d3364d1b4501f30b90ec",
+        "claim:c4bcd4bcd3d166d0a751b8e72ef1a0e12a2c0a67a41f3be1c476a52c33811f3d",
+        "claim:557d2923c7ff80ad68517ad3283df012d5debb826c126b2a5715020b27a0dea3",
+        "claim:ad870033336df8652defd4150ae5734b9a582a1410c1730f20d838ff53d71f24",
+        "claim:72be5a4fad5fb7ccdf57ddd68958b4704bed1c4e9a6ebfc78d8dbb1c668eb12b"
+      ],
+      "included_label_ids": [],
+      "question": "What safety statements and population qualifications are present in the selected saved Creatine NatMed annotations?",
+      "source_records": [
+        {
+          "claim_id": "claim:88cf9029a0198b6bea27d2d1d2da03c5442592b33d5797117481f40cd41d4b3c",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:3e19c0e4cc75db7ca6c3ad3bb557b420636ffee3c82bdfeab3e117c07218d122",
+            "creatine-expansion-evidence:8e02e68f8efa94c566eaa0796b3fd5b52531c8d019c5e82cdf48e27fb69bbeaf",
+            "creatine-expansion-evidence:dcbe1c36e423ec050fed3349380e4db8f279a91c4e3c1b868e04e8746e8f71a6"
+          ],
+          "original_excerpt": "LIKELY SAFE when used orally and appropriately, short-term. Creatine supplementation appears to be safe when used at loading doses of up to 25 grams daily or 0.3 grams/kg daily for up to 14 days in healthy adults (1367, 2100, 2101, 3996, 4569, 10064, 15354, 15520, 46570, 46587)(46673, 46688, 46719, 46753, 46801, 103278, 103279, 108336). Creatine supplementation also appears to be safe when used at maintenance doses of 4-5 grams daily for up to 18 months (2101, 4578, 15353, 15354, 15520, 46587, 46673, 46690, 46753, 46838, 102164, 103278, 108336).",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:db361ed5d87409334ae73a01bfc96ebe4974b737d6165795bfbbb03dc497ea16"
+          ],
+          "population": null,
+          "review_state": "pending",
+          "source_rating": "LIKELY SAFE",
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        },
+        {
+          "claim_id": "claim:eebb885776a41b2ded96c9f777d2e48d3f9e332abe785834e7f20f0071e50b65",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:bb31f2d084c3a3c8acfddf2f071830681e06e633737ab5d9bd5fd7c78b53c455",
+            "creatine-expansion-evidence:2ffd3e41b8903867d168f5dca571ce0b6239162d4ecde738eb7550e48be249d7",
+            "creatine-expansion-evidence:887321cfa462cbe06d9db9709083c2194e5ac91877976dcd9228f948b7381375"
+          ],
+          "original_excerpt": "POSSIBLY SAFE when used orally and appropriately, long-term. Creatine supplementation has been safely used at doses of up to 10 grams daily for up to 5 years in some preliminary clinical research (1367, 3996).",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:f75fac24f7f032cc9a1bcf1d697dceefa7268355bc5803c287c6e3e9dd718652"
+          ],
+          "population": null,
+          "review_state": "pending",
+          "source_rating": "POSSIBLY SAFE",
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        },
+        {
+          "claim_id": "claim:6360244495b4dfad328a9ca9f51325cb6275dea749b4d3364d1b4501f30b90ec",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:9023b59e4f3f9ccaa44f08ff8fb1229587a8f2ab7f7536596329ad4f3d4c54fd",
+            "creatine-expansion-evidence:b31116ad4ddb1ea678c6cca77df6a7e0f9552c24a4bd670c216d972b9455372d",
+            "creatine-expansion-evidence:f96f61c04a5791f028b13c31ff8cba00d473b5e3288b649b1c224e23af30e564",
+            "creatine-expansion-evidence:bae5c915ac3e20d6ef7dbeb8363cfa5b25b0cd9aec855d8e061be9af71a795d5"
+          ],
+          "original_excerpt": "CHILDREN: POSSIBLY SAFE when used orally and appropriately. Creatine supplementation appears to be safe when used in appropriate doses in infants and children. Creatine 3-5 grams daily for 2-6 months has been safely used in children 5-18 years of age (6182, 46596, 46739, 46841). Creatine 2 grams daily for 6 months has been safely used in children 2-5 years of age (46841). Additionally, weight-based dosing of creatine 0.1-0.4 grams/kg daily in infants and children or 4.69 grams/m2 in children weighing over 40 kg has been used safely for up to 6 months (46623, 46629, 46694, 46759, 104672).",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:c254cce5ff7de4ef1229055a0200a45b207e8414cf22da6807a4ff0620e90af9"
+          ],
+          "population": "CHILDREN",
+          "review_state": "pending",
+          "source_rating": "POSSIBLY SAFE",
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        },
+        {
+          "claim_id": "claim:c4bcd4bcd3d166d0a751b8e72ef1a0e12a2c0a67a41f3be1c476a52c33811f3d",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:ce329e1d29fcf9e246b2da92968bc5988a86bf4cc37fc91330708ce02e67b7ef",
+            "creatine-expansion-evidence:37ca82b26bc0a3cdb8a29905c8a995052eb7a7fe2069d897ca3cae31b59b35b6",
+            "creatine-expansion-evidence:351828987a2dbd1ea8d778d42d3ece5b12c2dc0e1737b9b81cefb78f1f2c52d5"
+          ],
+          "original_excerpt": "PREGNANCY AND LACTATION: Insufficient reliable information available; avoid using.",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:d763d4ff48e1792b6e18d9f28da3f3590cbf7ddf85e644b8e8326d7fbaf899f9"
+          ],
+          "population": "PREGNANCY AND LACTATION",
+          "review_state": "pending",
+          "source_rating": null,
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        },
+        {
+          "claim_id": "claim:557d2923c7ff80ad68517ad3283df012d5debb826c126b2a5715020b27a0dea3",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:2697229a27180b8c023edbd4c3b98bf6d9595c6b23d5b7d8eb070a65d5219cf6",
+            "creatine-expansion-evidence:2eb55a0187315709a1d0c29d7e5838c5b24bd93c379a0c343225cda6125b0668",
+            "creatine-expansion-evidence:e3ce4219823fa910a25d7a6ba468fefa0a09ece3d77e0555e7873cf666a9df4f"
+          ],
+          "original_excerpt": "BIPOLAR DISORDER\nTheoretically, taking creatine might increase the chance of mania. Monitor for worsening symptoms of mania in patients with bipolar disorder taking creatine products. Two cases of hypomania or mania have been reported in bipolar patients who took creatine monohydrate 3-5 grams daily for 3-4 weeks for treatment-resistant depression. It is unclear whether this switch was due to creatine; however, researchers note that a similar depression-to-mania switch has been reported in patients taking S-adenosyl-L-methionine (SAMe), which is a precursor to creatine (46690).",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:5b10e95e56cf1854b86f7902cb42a0b51170be88c640bfcb7c601fa09984641b"
+          ],
+          "population": "BIPOLAR DISORDER",
+          "review_state": "pending",
+          "source_rating": null,
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        },
+        {
+          "claim_id": "claim:ad870033336df8652defd4150ae5734b9a582a1410c1730f20d838ff53d71f24",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:a79cc3b2266dbb7f40946ab9b7ec0907aec79d9c9ac0f5d6fa50500ee0ad2dfe",
+            "creatine-expansion-evidence:0d67cd66bc81d156fc544d2b98905344f6b9cb8f7d9da2073e1e4d5f7256b396",
+            "creatine-expansion-evidence:589c68ac830d2c74a68d2a45702afc3c5e89618661df6d08a9e5f1af706a3c20"
+          ],
+          "original_excerpt": "KIDNEY DYSFUNCTION\nTheoretically, taking creatine might worsen kidney dysfunction. Until more is known, use creatine with caution in patients with existing kidney dysfunction. Isolated case reports suggest that individuals with pre-existing kidney dysfunction may be at risk for worsening dysfunction with creatine supplementation (1368, 2118, 4576). However, this risk has not been evaluated in prospective clinical trials.",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:f4e4429db2c27e0607adf1aa695519d38c88c5143cb2159f637eb0371306fb14"
+          ],
+          "population": "KIDNEY DYSFUNCTION",
+          "review_state": "pending",
+          "source_rating": null,
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        },
+        {
+          "claim_id": "claim:72be5a4fad5fb7ccdf57ddd68958b4704bed1c4e9a6ebfc78d8dbb1c668eb12b",
+          "clinical_approval": false,
+          "evidence_ids": [
+            "creatine-expansion-evidence:fa2da164f7a6c1ae9249bb8d82e3a35d1bea6bfc43a08025e2566fe58a219da3",
+            "creatine-expansion-evidence:f36b342058c1af4d561f3ccc626cbdc90f5bd53f8fec0dc7007b0590e2b97d0f",
+            "creatine-expansion-evidence:2ac605e1f57ba66e0adee083a5ca8786042e10b8150ea61eb4fe6a7eb3b96c26"
+          ],
+          "original_excerpt": "PARKINSON DISEASE\nThe combination of creatine and caffeine should be used with caution in patients with Parkinson disease. Creatine 10 grams daily in conjunction with caffeine consumption of greater than 300 mg daily might worsen the progression of Parkinson disease (95951).",
+          "path": [
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3",
+            "creatine-expansion-monograph:683a74da206c7c63f8e713734f5ea6623099b2ed8b43f10a801f588cdadcbd72",
+            "creatine-expansion-claim:5fa9873ab7eb321fb0ef17c1752b046acdf7532913de081be3eea3514e883762"
+          ],
+          "population": "PARKINSON DISEASE",
+          "review_state": "pending",
+          "source_rating": null,
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        }
+      ],
+      "status": "source_retrieval_only"
+    },
+    {
+      "answer": "The current graph cannot determine which is more effective. It contains label composition and general NatMed ingredient statements, but no comparative effectiveness evidence for these two products. Equal label amounts and a High-confidence ingredient link cannot establish product-level effectiveness. Product-specific comparative evidence would be needed.",
+      "clinical_approval": false,
+      "coverage_check": {
+        "clinical_claim_nodes_inspected": 11,
+        "comparative_product_edges": 0,
+        "graph": "data/graph/creatine-natmed-v1-f174e5e28b21603a",
+        "label_ids_considered": [
+          "25731",
+          "43261"
+        ],
+        "scope": "Only the current graph; not a claim about the wider literature"
+      },
+      "evidence_ids": [],
+      "excluded_roles": [
+        "General ingredient effectiveness",
+        "Reddit packaging opinion"
+      ],
+      "exclusion_reason": "Neither answers a product-to-product effectiveness comparison.",
+      "id": "unanswerable",
+      "included_claim_ids": [],
+      "included_label_ids": [],
+      "question": "Which of these two BPI products is more effective for athletic performance?",
+      "reason": "No comparative product-effectiveness evidence is represented in this bounded graph.",
+      "recommended_product": null,
+      "status": "insufficient_evidence"
+    }
+  ],
+  "graph": "data/graph/creatine-natmed-v1-f174e5e28b21603a",
+  "graph_manifest_sha256": "f174e5e28b21603a97a08ecde0c8998758e927bab7e0657292ad04c8b0509c65",
+  "prior_answer_review": "data/graph/creatine-answer-review-v1-d8909281d959c7c8/report.json",
+  "prior_answer_sha256": "d8909281d959c7c8c1dbf43e7cee6c620dc04f90faef5e499ace1b662f9b8700",
+  "review": {
+    "clinical_approval": false,
+    "limitation": "Fixed cases with structural checks and assistant semantic review; not general QA evaluation, measured precision/recall or clinical validation. No automated medical truth check.",
+    "status": "assistant_reviewed_fixed_examples"
+  },
+  "script_sha256": "3d82016e6b583efc2d5dd2c63d81837734d6a2eaabdf8f4d4aefe839f14ad13b",
+  "source_references": {
+    "label_comparison": [
+      {
+        "evidence_id": "evidence:0eef7e923231627257ff2d32f5b9dd199cc8d711774596d3d743c47512dd4241",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/3"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:3e0f131a8488f825c131c3a583036f00c005b73f3ded493876efeeb6ce2fe846",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/4"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+        "locator": {
+          "pointer": "/ingredientRows/0/quantity/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+        "locator": {
+          "pointer": "/servingSizes/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:588236b00b938136a3acec7904ad31d6581225357cc574a3b6f5a9a65308226a",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/3"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:852bd0350fb5126d29dc3354f985b2ef401fbe6e0a40bede1067eb59cf291fbf",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/1"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:948b52433d180f004c080cbd456b29b88bae5551830de72d59ce13f849748ca8",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/2"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:9ff9ba2e63e09abd58aa814e554b023a588e3800473573da5ec8f9eb05b69e5e",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/1"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+        "locator": {
+          "pointer": "/ingredientRows/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:b61a5c39501bddceda3c535c33df194364bb14ba3a03bcaef811ad17b2c68494",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+        "locator": {
+          "pointer": "/servingSizes/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:c6d2f137f57461161cfbb9352750ed28f0775cce07d5536fc5118a7bdc9ab3a1",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/1"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:cd44a9aedba291e6cd0539b2af301b36f8f06797212e7af7a2201b57c62c035f",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/2"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:de9df545214ab70ca78fe087b1d1aba769d142fbdda8bced7d025ed0d7c8fd57",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+        "locator": {
+          "pointer": "/ingredientRows/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467",
+        "locator": {
+          "pointer": "/ingredientRows/0/quantity/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:f80f49494445d92d2838502c8ed1113515b88353a489df003b8563a2e917accb",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/1"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:faa054383b1604f0c279f1d1fbc4bfabcbeee2507fccc6131ea1e7c3f66e4cc1",
+        "locator": {
+          "pointer": "/otheringredients/ingredients/5"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      }
+    ],
+    "source_safety": [
+      {
+        "evidence_id": "creatine-expansion-evidence:0d67cd66bc81d156fc544d2b98905344f6b9cb8f7d9da2073e1e4d5f7256b396",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 1009,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/11/text",
+          "start": 585
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:2697229a27180b8c023edbd4c3b98bf6d9595c6b23d5b7d8eb070a65d5219cf6",
+        "locator": {
+          "jsonl_line": 388,
+          "pointer": "/387"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:2ac605e1f57ba66e0adee083a5ca8786042e10b8150ea61eb4fe6a7eb3b96c26",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 1027,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/11/text",
+          "start": 1010
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:2eb55a0187315709a1d0c29d7e5838c5b24bd93c379a0c343225cda6125b0668",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 584,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/11/text",
+          "start": 0
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:2ffd3e41b8903867d168f5dca571ce0b6239162d4ecde738eb7550e48be249d7",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 761,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 552
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:351828987a2dbd1ea8d778d42d3ece5b12c2dc0e1737b9b81cefb78f1f2c52d5",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 1483,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 1460
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:37ca82b26bc0a3cdb8a29905c8a995052eb7a7fe2069d897ca3cae31b59b35b6",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 1542,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 1460
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:3e19c0e4cc75db7ca6c3ad3bb557b420636ffee3c82bdfeab3e117c07218d122",
+        "locator": {
+          "jsonl_line": 316,
+          "pointer": "/315"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:589c68ac830d2c74a68d2a45702afc3c5e89618661df6d08a9e5f1af706a3c20",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 603,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/11/text",
+          "start": 585
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:887321cfa462cbe06d9db9709083c2194e5ac91877976dcd9228f948b7381375",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 565,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 552
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:8e02e68f8efa94c566eaa0796b3fd5b52531c8d019c5e82cdf48e27fb69bbeaf",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 551,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 0
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:9023b59e4f3f9ccaa44f08ff8fb1229587a8f2ab7f7536596329ad4f3d4c54fd",
+        "locator": {
+          "jsonl_line": 318,
+          "pointer": "/317"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:a79cc3b2266dbb7f40946ab9b7ec0907aec79d9c9ac0f5d6fa50500ee0ad2dfe",
+        "locator": {
+          "jsonl_line": 389,
+          "pointer": "/388"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:b31116ad4ddb1ea678c6cca77df6a7e0f9552c24a4bd670c216d972b9455372d",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 1459,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 865
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:bae5c915ac3e20d6ef7dbeb8363cfa5b25b0cd9aec855d8e061be9af71a795d5",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 888,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 875
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:bb31f2d084c3a3c8acfddf2f071830681e06e633737ab5d9bd5fd7c78b53c455",
+        "locator": {
+          "jsonl_line": 317,
+          "pointer": "/316"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:ce329e1d29fcf9e246b2da92968bc5988a86bf4cc37fc91330708ce02e67b7ef",
+        "locator": {
+          "jsonl_line": 319,
+          "pointer": "/318"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:dcbe1c36e423ec050fed3349380e4db8f279a91c4e3c1b868e04e8746e8f71a6",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 11,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 0
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:e3ce4219823fa910a25d7a6ba468fefa0a09ece3d77e0555e7873cf666a9df4f",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 16,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/11/text",
+          "start": 0
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:f36b342058c1af4d561f3ccc626cbdc90f5bd53f8fec0dc7007b0590e2b97d0f",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 1285,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/11/text",
+          "start": 1010
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:f96f61c04a5791f028b13c31ff8cba00d473b5e3288b649b1c224e23af30e564",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 873,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/4/text",
+          "start": 865
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:fa2da164f7a6c1ae9249bb8d82e3a35d1bea6bfc43a08025e2566fe58a219da3",
+        "locator": {
+          "jsonl_line": 390,
+          "pointer": "/389"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      }
+    ],
+    "unanswerable": []
+  },
+  "validation": {
+    "abstention_scope": "bounded graph only",
+    "cases_passed": 3,
+    "evidence_ids_resolve": true,
+    "graph_unchanged": true,
+    "negative_guards_passed": 4,
+    "pending_clinical_status_preserved": true,
+    "source_roles_separated": true
+  }
+}

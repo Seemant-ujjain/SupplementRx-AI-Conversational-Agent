@@ -1,0 +1,16 @@
+{
+  "mapping_count": 40,
+  "origin_occurrences": 17,
+  "ingredient_groups": 12,
+  "all_candidates_accounted_for": true,
+  "all_evidence_ids_resolve": true,
+  "pilot_table_hashes_verified": true,
+  "raw_artifact_hashes_verified": true,
+  "raw_and_pilot_files_unchanged": true,
+  "approvals_applied": 0,
+  "counts": {
+    "supported_for_review": 24,
+    "incompatible_exact_match": 8,
+    "needs_evidence": 8
+  }
+}

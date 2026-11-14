@@ -1,0 +1,415 @@
+{
+  "available_by_type": {
+    "adverse_effect": 15,
+    "dose": 2,
+    "effectiveness": 50,
+    "interaction": 2,
+    "safety": 7
+  },
+  "clinical_approval": false,
+  "confidence_rules": {
+    "High": "Compatible general subject, schema/source/excerpt/field spans verified; eligible as pending attributed content",
+    "Low": "Conflicting identity/source/schema/span; exclude from active export",
+    "Medium": "Missing positive support; hold from active export"
+  },
+  "criteria": "All seven safety and both adult-dose annotations plus athletic performance effectiveness; general subject mapping and exact source support required. Retain cautions, unknowns and complete passages.",
+  "not_selected": [
+    {
+      "claim_id": "claim:5bac19c98b4ea8f6404fa005714da01040073643ef634e877678971009775f3d",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:8d792e5cd5f62df58d640e6a86673836b603683efeee8900f19bea0813d00934",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:21c261e44f8021f36f335a0c2d79222121d0b0136a2dc424ba06edea49d991f6",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:d3ddaceaa30be44ea732c7289520d67cf9e9ff2c9233eb4137d48fa915a19be1",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:fba7bae3be476a57ef88ff2b330bd85e1690d5664f2b0586976b0870e82b389c",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:517e6437bf437d312a6678a70508e76660666d0742f1c23b6834fad47b0fbe40",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:1576888add128a5a5f373458dc5160ed193423f4d77aaf9b50034a0f561eaa80",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:fc2327348a0c43c34f1c3db04144035c01488f8c3941a3848489c0f750fe2502",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:a13b711b6a2645745df94579f49b6532669eea019a7e5a6f79fa98f7d81e173e",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:c389fb22ed10ebfe8d832c717a490dc7738bc48ea438c93536b36d8b05d906aa",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:83d2b9b4b274c4f9c4ab38ff6f5f3c70d2267eadc21917aeb7e9026c699d68f0",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:405cd266131dc90feebfc6fdf76e5ecf64179b009ca124fc6c3a049ffa7d3dd5",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:046bc8f0235f13e6877d3fd49fe64ce8e400ab997789677e90787cd87c5d6ea6",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:4886fed805ac39f10ad434764e31ebe356fb28a23740ff8a34fe3a020a6ed4bc",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:6f5732d810348e8640d017a446064e724f388514dbf93f65d02afa3df68cdfc3",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:cd5d2d591812909a92f73aea1d3b40fa584d7e1863171fe8266d1e3cbec1bb58",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:ce4d615fb72b8c71dc3148a30bc8d0d520cb6ce5c7fbaf66143df6ec2699c19d",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:f2df8d59dfac7bb7420a8bd7c109f7ea6c7c579b5b17adb60e9fa575c5a83d96",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:bacfa59b5975f1328feccb37e721741d235b955ea78bd37ebd18169002d5ab1b",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:353a243cdd3ba599ac3374715e836d71e11abbaa21eaa2c5622ac13cdac1a707",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:cd993f69dfd5be084799e7d1683f0b5c2c72c8337d77f4bc5b51d2fe9c48c4c5",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:9d8b51b587b6969ec22b5509fc496e011aecb94aa5eb62b50cd887e5d4022187",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:8be3c01b19186b98ce155730851c0d780964525f0f3458bee53cf807b5aaa0da",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:a0847952d1e6d9abba78e9255297a8ebe25d063339ce2511e545736a4de9ef60",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:f8a850b49272d9013d874ceaba483aa7a38ebe701983bde5e3902cfb7d802920",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:a1730a3e2b4b730b134f08ca41935c4ca8dcbbc66e4ae35a216d279109b3c492",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:53f70bbcd0e5ecc683a97643606ca8d14a5fcd00eb8b2cea3ce72e69d1c91230",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:e9e3713a977e162b3590cf90a38133fe420f8436d4e23821c2658533df263ccb",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:66a8b5ea047e8affe47a412d97bc1b07de04f171db5f18f9ae26e76eb000a1e3",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:53a75a5f91f7a3d5ee9b6176faa7e711535d98794a75fca7f04a0939f99deabc",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:c5a01c18858c0fc7c1f99494ca92b9104ec273f63a941cba8c7c4791ac05a3ae",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:93430162ad7553ab4f7e506505e4c1b7f5e5823f5eab7b52b67757cf3a5f671b",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:f10e4a5b75db22bbec231895f7f28007be858d4137e8152884f88539372982c8",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:ea341f52c819f357c276c743b6498989b3587f90d8c7e73148b6b50c700ccc65",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:ad6f04bb5f4b351cec32ff640f5f19d7de999e22b21aa255ddfe2c6cdfdefe39",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:f6450716506430fc5f58e13c9758d706d8903bf970e6379f247ea5adc52dba54",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:6bcabc3919c00705fc04b3c799e91055c3a5351c2c6ba78f97dcb99134642dba",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:309b606a06ff332ad5490945504b0f1f0cbce565fd087db784b30b6555ca67b5",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:0059ee0065b93d4489b3ecfc5ac3bc1b8143271c10d98d91f7432c445a027a18",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:1f18f23b3ceab67d30053a180ac63fec61884bc6c6cb92e6f184f8f9230731ad",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:6d8930d84caad6a5a6db1504925d4377d54dfcda1089b21a57e351935d54e802",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:93b14f1ef3fe9d522c3f7bea5e5c26ab273e4b067e2ae72ce672425895690047",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:bb2ab1fe02215abdf0531a2e58042db8d7d2bd4de8ad4cc118b479731bc1f1c1",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:4b30a849c96e7d105beaa5a026966b8f129b3470cf4329f3cdd40fe67e7dd6f2",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:fd41d5f4443ece71dc2da65be08d5bbc6641258b537be18ff20fed652f39db58",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:cf3ecdb7b24688694de1a752b25031220d96c0527fe368d13c446bc1082a5c72",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:b18d8d594cfe7252d274eb5e7b067ee768eeef71c0c1752bcd95eee09b40ae11",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:001afa0c991fd2871d4b2fb7d7a3b17bd07dc34dc44e57cb089cbd49cccc40db",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:cc26a3c2f892b584b4b22bde12654f003bd3689fdbc4ee011ca9c6cca9912b23",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:7f38fb82501303c02ba6575b18004f45bf605919fc10936aaf332ac20f77bffc",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:a7a86114cde2664f0423799eb9b79daf60498990776882da9ae4e885c4ce0133",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:1fde78ca8664d670419b0c3f92d2750b711902983618feb69618c758386850f2",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:38dc8d5faab945c7b0a369b0aa49a3c94ef449a05820f77ffa72126da0d9b582",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:6b1152a97b1f17cb91a453d6810c9656ff4267e138a281c73fc9cbe3e8efa4a9",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:e2ad11e7339b6b854b80d93f9cdb483207756228c6d63d66fc4dfb323459d692",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:31ddc1a49b17fce0c9eb5ba31b1a681f06bed7ed4c5c29156402d5331962a034",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:ae0a017ee36591c425fd8895f51a221770718ca1c0023cdefb0b166667c95901",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:b91d76fc14cf6b8e21c1708c579281049b5db9097c0fa2412c4d54908bfffe17",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:56f483dcceaf3e06dfc06f9ddc0dfa317e7f88e6cfe224971f5e6f06b4292eef",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:bda895104df7ecccf629b26d0a53dafb9cb0043c86051449de291caee85b69b5",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:b2ea084a6eed5f5f7b80ccb9b3c0b699d955d8cff457e702065b6f86cc1e761f",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:f30769b03fd48b582adab956dcc112aa2d50cc0bbcedcb1d14dbb4d5eaef1fe8",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:217cd8ed90d5cb4571311da8f297b61c1a456e985eb14025d33acde9a564385d",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:5a26e3addb0ee142a24e55cee4c0620c28f86ed19d747e52383c73720f011385",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:c5bd17d80abb6062e68645232bd75db7fc7aef07a3c7ecd29589d7640ec88941",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    },
+    {
+      "claim_id": "claim:94e8a699e17fa16ac59a4e40d2a2f3df3dd9caf53fdba84fcc3927b5b65aa0fe",
+      "reason": "Outside bounded scope, not a low-confidence judgment"
+    }
+  ],
+  "selected": [
+    {
+      "claim_id": "claim:88cf9029a0198b6bea27d2d1d2da03c5442592b33d5797117481f40cd41d4b3c",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": null,
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:eebb885776a41b2ded96c9f777d2e48d3f9e332abe785834e7f20f0071e50b65",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": null,
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:6360244495b4dfad328a9ca9f51325cb6275dea749b4d3364d1b4501f30b90ec",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "CHILDREN",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:c4bcd4bcd3d166d0a751b8e72ef1a0e12a2c0a67a41f3be1c476a52c33811f3d",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "PREGNANCY AND LACTATION",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:d657c33fdcb5dacdcdbbb71753020d04d0331bc53ff683efa3826a519df2175b",
+      "claim_type": "effectiveness",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": "Athletic performance.",
+      "population": null,
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+      "claim_type": "dose",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "Adult",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+      "claim_type": "dose",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "Adult",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:557d2923c7ff80ad68517ad3283df012d5debb826c126b2a5715020b27a0dea3",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "BIPOLAR DISORDER",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:ad870033336df8652defd4150ae5734b9a582a1410c1730f20d838ff53d71f24",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "KIDNEY DYSFUNCTION",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    },
+    {
+      "claim_id": "claim:72be5a4fad5fb7ccdf57ddd68958b4704bed1c4e9a6ebfc78d8dbb1c668eb12b",
+      "claim_type": "safety",
+      "clinical_approval": false,
+      "confidence": "High",
+      "indication": null,
+      "population": "PARKINSON DISEASE",
+      "reasons": [
+        "exact_subject_and_source_binding",
+        "schema_excerpt_and_populated_field_spans_verified"
+      ],
+      "review_state": "pending"
+    }
+  ],
+  "total_available": 76
+}

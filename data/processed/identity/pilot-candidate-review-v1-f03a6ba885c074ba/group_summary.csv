@@ -1,0 +1,13 @@
+ingredient,labels,candidates,supported_for_review,needs_evidence,incompatible_exact_match
+Acacia Gum,249674,2,1,0,1
+Alkaloids,"74939, 74940",2,2,0,0
+Creatine,"25731, 43261",6,4,2,0
+Creatine HCl,"25731, 43261",6,2,0,4
+Creatine Monohydrate,"25731, 43261",4,4,0,0
+Ferric Ammonium Citrate,257287,3,2,1,0
+Ferric Sodium Edetate,257287,2,0,2,0
+Fructooligosaccharides,249674,2,1,0,1
+Iron,257287,3,2,1,0
+Magnesium,1452,3,2,1,0
+Magnesium Citrate,1452,3,2,1,0
+Withanolides,"74939, 74940",4,2,0,2

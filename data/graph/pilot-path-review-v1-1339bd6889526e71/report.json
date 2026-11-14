@@ -1,0 +1,1673 @@
+{
+  "graph": "data/graph/pilot-graph-v1-d6d19a044338fcf0",
+  "manifest_sha256": "d6d19a044338fcf028a2a90aefd8ee203763b65aa9aa0a5f1ef97d1d0e4c431d",
+  "script_sha256": "90c3f6dc46cc7df346b0ea1a3f0516c5ff2baca7f31afeefe258ef54683d3f9c",
+  "cases": [
+    {
+      "id": "Q2",
+      "question": "Do the two BPI labels declare equal creatine mass per two capsules?",
+      "status": "answered",
+      "result": {
+        "answer": "Yes: 1500 mg and 1.5 g are equivalent at the same two-capsule basis. Labels remain distinct; this is not a recommended dose or proof of duplicate formulations.",
+        "records": [
+          {
+            "label": "25731",
+            "original_quantity": {
+              "dailyValueTargetGroup": [
+                {
+                  "footnote": "Daily Value not established",
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null
+                }
+              ],
+              "operator": "=",
+              "quantity": 1500,
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "servingSizeUnit": "Capsule(s)",
+              "unit": "mg"
+            },
+            "comparison_mg": "1500",
+            "path": [
+              "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+              "assertion:a1a6f1854d5df7fee88d64a99b98e759225d1b482d7b5ca691dd807b29920db7",
+              "occurrence:f54002ce8d3f2435e4d636bffb3d13368871f9128dcc41e1aed7b7a38c877472"
+            ],
+            "citations": [
+              {
+                "evidence_id": "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/ingredientRows/0/quantity/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/servingSizes/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/ingredientRows/0"
+                }
+              }
+            ]
+          },
+          {
+            "label": "43261",
+            "original_quantity": {
+              "dailyValueTargetGroup": [
+                {
+                  "footnote": "Daily Value not established",
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null
+                }
+              ],
+              "operator": "=",
+              "quantity": 1.5,
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 2,
+              "servingSizeUnit": "Capsule(s)",
+              "unit": "Gram(s)"
+            },
+            "comparison_mg": "1500.0",
+            "path": [
+              "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e",
+              "assertion:ba6dbef1a7abda5c4d687b46ad02fa47609893d7bf4e886550d200f9e3fc43ae",
+              "occurrence:016e3b539ae46c6ce060e745c3e2c081b24dc924a7d39ecd57f5c581ea2361ff"
+            ],
+            "citations": [
+              {
+                "evidence_id": "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/servingSizes/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/ingredientRows/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/ingredientRows/0/quantity/0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q3",
+      "question": "Which other ingredients and label statements appear on each BPI label?",
+      "status": "answered",
+      "result": {
+        "answer": "The label-specific other-ingredient lists differ. Statements are retrieved verbatim; missing statements are not evidence of safety.",
+        "labels": [
+          {
+            "label": "25731",
+            "other_ingredients": [
+              "pH-Sorb(TM) Buffering Technology",
+              "Dicalcium Phosphate",
+              "Silica",
+              "Magnesium Stearate"
+            ],
+            "statements": [
+              {
+                "fields": {
+                  "notes": "Suggested Use: Take 1 serving (2 capsules) with 12 ounces of water once daily on an empty stomach or with a meal, or as directed by a qualified healthcare practitioner.",
+                  "type": "Suggested/Recommended/Usage/Directions"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:7bbc91e7e50a37f06644340a21466a702b273e8dbfc3ad39a6f92ccf67efdd16",
+                    "path": "data/raw/dsld/labels/label_25731.json",
+                    "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                    "locator": {
+                      "pointer": "/statements/19"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "KEEP THIS PRODUCT AND ALL SUPPLEMENTS OUT OF THE REACH OF CHILDREN.",
+                  "type": "Precautions re: Children"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:08ffe293a18857d9cfc0bc0fa20a561c26dc5e46fa2579de1472db5d1d9a3b7e",
+                    "path": "data/raw/dsld/labels/label_25731.json",
+                    "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                    "locator": {
+                      "pointer": "/statements/23"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "Get the consent of a licensed physician before using this product, especially if you are taking\nmedication, have a medical condition, you are pregnant, nursing or thinking about becoming pregnant.",
+                  "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:035f76ffa333ef5262c2d17865996c2a209dcabb0866246a102841b395c473d8",
+                    "path": "data/raw/dsld/labels/label_25731.json",
+                    "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                    "locator": {
+                      "pointer": "/statements/22"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "Warnings: Not intended for use by persons under age 18.",
+                  "type": "Precautions re: Children"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:7f54e0d6357d8f872f4cbbe76e89a0ac69ac30eca6a3c29c326244a7eb265744",
+                    "path": "data/raw/dsld/labels/label_25731.json",
+                    "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                    "locator": {
+                      "pointer": "/statements/20"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ingredient_citations": [
+              {
+                "evidence_id": "evidence:588236b00b938136a3acec7904ad31d6581225357cc574a3b6f5a9a65308226a",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/3"
+                }
+              },
+              {
+                "evidence_id": "evidence:852bd0350fb5126d29dc3354f985b2ef401fbe6e0a40bede1067eb59cf291fbf",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/1"
+                }
+              },
+              {
+                "evidence_id": "evidence:cd44a9aedba291e6cd0539b2af301b36f8f06797212e7af7a2201b57c62c035f",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/2"
+                }
+              },
+              {
+                "evidence_id": "evidence:de9df545214ab70ca78fe087b1d1aba769d142fbdda8bced7d025ed0d7c8fd57",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/0"
+                }
+              }
+            ]
+          },
+          {
+            "label": "43261",
+            "other_ingredients": [
+              "FD&C Blue No. 1",
+              "Dicalcium Phosphate",
+              "Silica",
+              "Magnesium Stearate",
+              "pH-Sorb(TM) Buffering Technology",
+              "Titanium Dioxide"
+            ],
+            "statements": [
+              {
+                "fields": {
+                  "notes": "Warnings: Not intended for use by persons under age 18.",
+                  "type": "Precautions re: Children"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:15f2a613a6f31faff5b020a479bdf20b97416f48a209082f965c8503b793452d",
+                    "path": "data/raw/dsld/labels/label_43261.json",
+                    "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                    "locator": {
+                      "pointer": "/statements/20"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "KEEP THIS PRODUCT AND ALL SUPPLEMENTS OUT OF THE REACH OF CHILDREN.",
+                  "type": "Precautions re: Children"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:cd8577393789f807cde77bab11b6df5a6e9fe3da4f5ca08caeab599dc6db3b5b",
+                    "path": "data/raw/dsld/labels/label_43261.json",
+                    "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                    "locator": {
+                      "pointer": "/statements/22"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "Do not exceed recommended dose.",
+                  "type": "Precautions re: All Other"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:3e8da40be4a8580d27017af51b4633e35deb21110a87eac7fdc5a094e00aae66",
+                    "path": "data/raw/dsld/labels/label_43261.json",
+                    "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                    "locator": {
+                      "pointer": "/statements/19"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "Suggested Use: Take one (1) serving daily, before and or after training, or as directed by a qualified healthcare practitioner. Can be taken with or without food.",
+                  "type": "Suggested/Recommended/Usage/Directions"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:b73d2a73acd116cbd30dff8491792b8a5ee5951b69050436c4bc6068fe9c1ca5",
+                    "path": "data/raw/dsld/labels/label_43261.json",
+                    "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                    "locator": {
+                      "pointer": "/statements/18"
+                    }
+                  }
+                ]
+              },
+              {
+                "fields": {
+                  "notes": "Get the consent of a licensed physician before using this product, especially if you are taking medication, have a medical condition, you are pregnant, nursing or thinking about becoming pregnant.",
+                  "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+                },
+                "citations": [
+                  {
+                    "evidence_id": "evidence:1e48373f0587f5e0b1ff766b22fce72cc84bf1dd146d55e7cd7d19855b17f0b4",
+                    "path": "data/raw/dsld/labels/label_43261.json",
+                    "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                    "locator": {
+                      "pointer": "/statements/21"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ingredient_citations": [
+              {
+                "evidence_id": "evidence:0eef7e923231627257ff2d32f5b9dd199cc8d711774596d3d743c47512dd4241",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/3"
+                }
+              },
+              {
+                "evidence_id": "evidence:3e0f131a8488f825c131c3a583036f00c005b73f3ded493876efeeb6ce2fe846",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/4"
+                }
+              },
+              {
+                "evidence_id": "evidence:948b52433d180f004c080cbd456b29b88bae5551830de72d59ce13f849748ca8",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/2"
+                }
+              },
+              {
+                "evidence_id": "evidence:b61a5c39501bddceda3c535c33df194364bb14ba3a03bcaef811ad17b2c68494",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:f80f49494445d92d2838502c8ed1113515b88353a489df003b8563a2e917accb",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/1"
+                }
+              },
+              {
+                "evidence_id": "evidence:faa054383b1604f0c279f1d1fbc4bfabcbeee2507fccc6131ea1e7c3f66e4cc1",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/otheringredients/ingredients/5"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q8",
+      "question": "Does Creatine HCl map equivalently across PubChem, RxNorm and MeSH?",
+      "status": "answered_with_limit",
+      "result": {
+        "answer": "PubChem CID 134732 has an active exact named-form link. The two RxNorm candidates per occurrence are excluded from exact matching. No MeSH link is present in this pilot; graph absence does not prove absence from MeSH.",
+        "paths": [
+          {
+            "label": "25731",
+            "path": [
+              "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+              "occurrence:7b09b3efc009b761e1637e50caef1d4195ba49311792001bb6746b97269f982e",
+              "snapshot:b24107f25bf20fe6fd5d63b7078b551e7cb401bfad8e19f71d891264ada01236"
+            ],
+            "target": {
+              "contract_version": "0.1.0",
+              "id": "record:a41dd8905b0a7f927005663f82b91e591aa5e55f8e851cb0a4ee07423316c754",
+              "native_id": "134732",
+              "native_type": "compound",
+              "original_identity": {
+                "source_type": "str",
+                "value": "134732"
+              },
+              "source_role": "ChemicalCompound",
+              "source_system": "pubchem"
+            },
+            "excluded_candidates": [
+              {
+                "action": "exclude_exact_match",
+                "approval_applied": false,
+                "assessed_relation": "exact_material_match",
+                "confidence": "Low",
+                "dsld_label_id": "25731",
+                "evidence_ids": [
+                  "evidence:008c45c75a43269158c8ac2e05131105cc3d48f783544eb759db619cd8d642a4",
+                  "evidence:0bcc1334ee731584fcae7c0e48b3c12590dbe03c18ba7c69542f2785c399ec10",
+                  "evidence:0d4f7425b24bd8114ac37f5e38b2fca9c0f0441f84844e9a30b14b9dd24298d6",
+                  "evidence:16c449d117bbdd140b61a718547483902f156265a800e7b243e8c28b95c41822",
+                  "evidence:244645a98d8d7322d1c19b770ec55699b72350b032a81389062dc3a3fb003f8d",
+                  "evidence:3d4d17a0569027b336e8f3a37373625f571e31437db1befe4160ea995f79bf46",
+                  "evidence:41d09ec4a4c66fb83ef037b5bbad3dcf2c8b58c24d2e6ef8803470cca0987d7c",
+                  "evidence:423895c3c9f1bec07f33525fd8894383d0ddd23c638695ac76e51ce479fbb8b5",
+                  "evidence:4830e9c73d2767fb4315a14468408d015246f0db942152ff30cc8b8feb953054",
+                  "evidence:4c6987c9bc4f2c73968b2d230151f8395dda51e7222ab387a8f9a40b7e1ecd2f",
+                  "evidence:502c04891ddc626734e8023593aa3a5e60f0a81b3c41267d61d9bd55b69d435f",
+                  "evidence:57f0bb8cc47baf423ee5a05733500adda89b950d153303281a1aafa195108a8c",
+                  "evidence:68024c67418f477ab573c0466fc01662907257a927d5a6cd1ad941ae3ebbecfc",
+                  "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+                  "evidence:85e29fbe0451ea58b7cbf191b4112f1e0fdedb6384f1f8b68984b9b80c730f85",
+                  "evidence:af86330b6df793190e2cfe72cdfb8b50d1e86f92b1811f289869109a6dedbaff",
+                  "evidence:b093bb2143f80a577981f2f71ca077f0ff6944bff9b7644f25da58ef80145838",
+                  "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56"
+                ],
+                "ingredient": "Creatine HCl",
+                "mapping_id": "mapping:14c8e7260059ca07c740521befb37fa87810316ef792731727acf78d4d63b8c2",
+                "origin_occurrence_id": "occurrence:7b09b3efc009b761e1637e50caef1d4195ba49311792001bb6746b97269f982e",
+                "outcome": "incompatible_exact_match",
+                "proposed_relation": null,
+                "reason": "The explicit hydrochloride form is not the saved creatine monohydrate form.",
+                "rule_id": "C3",
+                "target_id": "1310467",
+                "target_name": "creatine monohydrate",
+                "target_source": "rxnorm"
+              },
+              {
+                "action": "exclude_exact_match",
+                "approval_applied": false,
+                "assessed_relation": "exact_material_match",
+                "confidence": "Low",
+                "dsld_label_id": "25731",
+                "evidence_ids": [
+                  "evidence:038e9d47a66a94b6cb052bae4345cb03926ca3b0eda325bd6873f46b88a75ae8",
+                  "evidence:1d6144c83739e91b371dac9f43c06520cb3cc8658a490fe1df573cc3c4f3cbf3",
+                  "evidence:3ef4afd84685b890b56b74428fdbfa867cb92f428bca183a3108bfef085a1530",
+                  "evidence:423895c3c9f1bec07f33525fd8894383d0ddd23c638695ac76e51ce479fbb8b5",
+                  "evidence:58edce09835edb954403c4431fe2f801ea5f7233387675e61936f1c3bed7cfe6",
+                  "evidence:644a7ddb90cf9596e798d9c203067d722502f3c0f1c275fa9083fdda4803bca4",
+                  "evidence:68024c67418f477ab573c0466fc01662907257a927d5a6cd1ad941ae3ebbecfc",
+                  "evidence:6c6c85c26c7438a36f55840d15a2e43c295fef4f969f2547bb053d38d51c3f8c",
+                  "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+                  "evidence:831631581e2e5326b51da26b11504ccc6d9ff70cbc5a7706a86c25817c3f1c4d",
+                  "evidence:8d7e958d98f495f123e557762c7ce592b1db009624a5f53231859b8a1f7d1616",
+                  "evidence:988c028150a3e7448f0c538a2ba198c3d4038fcc5e10da886712b19f88d1166f",
+                  "evidence:be8114034fde9e667df63428a4acb76cf8f9f0018b7b2de1a3c1730aca7fb601",
+                  "evidence:ca5a86bc56aa1b1f67c59914f97d6a79ab3c2bb6d41387836b56d0dfa932d8cb",
+                  "evidence:ce7d1626db91ba3fae34d5caaada33ba697678f82071a7bc7eae96b002de1f02",
+                  "evidence:d44d57a7d40d275b5183843e5295d2ea78d439dc103bf3d6f98355ba6eb519a4",
+                  "evidence:e9fe888ed3d4207ca57bbb2a54a9f9ab13053c637540a4547221e2baa6263940",
+                  "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+                  "evidence:eeec84c6d0f15aae0dba9d91569abe5ff2d89fba804f94d87d36deee6dbd0b89",
+                  "evidence:f2d9d8c27d2e39e5867a88a79c287847681432a06d0c61e6be796ed74bd39129",
+                  "evidence:f3f23f18716bab87ef2da41be73ed362abb930c537d11b17d63a05ce8997ea08",
+                  "evidence:ff0947b46a1299550ca5961628cfc4a3ccc2859372fa66cfe71fcdb635828ced"
+                ],
+                "ingredient": "Creatine HCl",
+                "mapping_id": "mapping:0c61255dc37f77314263d5f636fcbe947abfe9430fdc4d9a4f2860a1758df82e",
+                "origin_occurrence_id": "occurrence:7b09b3efc009b761e1637e50caef1d4195ba49311792001bb6746b97269f982e",
+                "outcome": "incompatible_exact_match",
+                "proposed_relation": null,
+                "reason": "The explicit hydrochloride form is not the saved unqualified creatine concept.",
+                "rule_id": "C3",
+                "target_id": "2907",
+                "target_name": "creatine",
+                "target_source": "rxnorm"
+              }
+            ],
+            "citations": [
+              {
+                "evidence_id": "evidence:0cb2c740fb59216676a57fa01cd0d0156c4700dbd01132ce3162c089bf2008bb",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/17"
+                }
+              },
+              {
+                "evidence_id": "evidence:13d8e5a73458f0b6d08c33de53345d28058c8f2369befad0ea953d21f5cdd9e8",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/search_results/creatine hcl"
+                }
+              },
+              {
+                "evidence_id": "evidence:17869134a3ce2d7749df3b5a1453dbf07106202361afe251d99f74e31ef3cdad",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/16"
+                }
+              },
+              {
+                "evidence_id": "evidence:18411d69be6a116f1e78fc30a831cf486e3bc044f9b32b3ab373902a91443d95",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/12"
+                }
+              },
+              {
+                "evidence_id": "evidence:203408c0f9faff6eca08736be5b036ded25fa472eef7677e2790760277f38a97",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/4"
+                }
+              },
+              {
+                "evidence_id": "evidence:25d65d195532b8c89e9141038f491b2766b5ee0c48c1a959b4c52841ac19db03",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/MolecularFormula"
+                }
+              },
+              {
+                "evidence_id": "evidence:288685db496671f2decc88a026dc5418a058af124b1e9a86fc2c8c1d2a857058",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/queries/creatine hcl"
+                }
+              },
+              {
+                "evidence_id": "evidence:28c11e1c828b119e4fd351cb9f02dd313419b331d01578b980f1ad51d173172b",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/MolecularWeight"
+                }
+              },
+              {
+                "evidence_id": "evidence:2cc9bc72b6192cdad5b8d1a8ec9063756a73241c0b069824e12adc1eb2032456",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/1"
+                }
+              },
+              {
+                "evidence_id": "evidence:2dac253e31257316327e611a3a12bfbd66bd812b16cea9dfba7c11bde420e2f2",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/IUPACName"
+                }
+              },
+              {
+                "evidence_id": "evidence:31e7f2907b6a6df448a91d0e0da83571ba1e37834ee353da98b41b41107554d8",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/Title"
+                }
+              },
+              {
+                "evidence_id": "evidence:369389a2a501b84607ccd773adff628a67abcfa7d81c7302fd309091e91102b5",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/14"
+                }
+              },
+              {
+                "evidence_id": "evidence:3aee59bbb2e4b1669a126818232f07144c39022551490420ccf0b4aec0736b37",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/19"
+                }
+              },
+              {
+                "evidence_id": "evidence:3b151cb60f8b6c235f8f872d4f333197c5db8fc2c4733b4145f9ee8b59df819a",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/7"
+                }
+              },
+              {
+                "evidence_id": "evidence:4603ee9f129ee48776567cb906150e809865150c64ca11399e29f673effefea9",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/21"
+                }
+              },
+              {
+                "evidence_id": "evidence:46a1aafc6a6042b75e3a21bc2481fd2fcd54a35e84ae1cd63ad7b70b72e6788a",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/15"
+                }
+              },
+              {
+                "evidence_id": "evidence:4956ef7e65034f48e96a076b2280fd74faea7a8906340a4a3e1c236d4de4d1e3",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/18"
+                }
+              },
+              {
+                "evidence_id": "evidence:5b217edcc439bb7529b57bc243c4a7b716b4581f50ae90e6a4e2a999d2f9d3c7",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/3"
+                }
+              },
+              {
+                "evidence_id": "evidence:5d1f6ea71d7afa375832ae8749e8b3d3ac41aa1a15d8ac867a63642e031a1d3c",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/CID"
+                }
+              },
+              {
+                "evidence_id": "evidence:6433ef19b32f7d882b37d6fe1e9183a162dc0e55b1b73d015d8a9702fd906d2b",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/5"
+                }
+              },
+              {
+                "evidence_id": "evidence:71e1f7f36f3018c837b555d0af2010a656e8864d03bc12012f2fedc61ba04d31",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/10"
+                }
+              },
+              {
+                "evidence_id": "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/ingredientRows/0/forms/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:8805522828ef845e85b58842e13d65734f1e872c7e73e5b50fd2bab97f19e125",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/13"
+                }
+              },
+              {
+                "evidence_id": "evidence:8beaf31adc70b979729b5483d1aaa4562c901fcb55cab11fa95568a0286d6c24",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/8"
+                }
+              },
+              {
+                "evidence_id": "evidence:990d07a36b2fbce42ffecad8ff4020fd8c026eb34216a9453e244c88e665fb0c",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/InChIKey"
+                }
+              },
+              {
+                "evidence_id": "evidence:9cc9a13b9bbe5079ed09e632b9c23c7d2866b2f6eb8a6ce0b85d13fe5cbdd272",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/20"
+                }
+              },
+              {
+                "evidence_id": "evidence:9dbc52a00015f5ec9180fb779d78d491e96fe7d2a82759b1c4349d3cf0266de7",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/InChI"
+                }
+              },
+              {
+                "evidence_id": "evidence:9fb4f8982d63008623361e75fc1f7138cf05d778c8d431aa8542f17d0e1a1453",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:a896d4c211c663efbec2c5f1c86c5b42576959e54484f6445e0ca38ba983773d",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/11"
+                }
+              },
+              {
+                "evidence_id": "evidence:b999ae28cc2e3a0fc394418fe71d12e3d26d29fabb2635d59620b17afaa8354e",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/6"
+                }
+              },
+              {
+                "evidence_id": "evidence:d89db9ae1c846be9ced5b9573f537f34f6253481d64dc159f55ff629480afdcb",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/ConnectivitySMILES"
+                }
+              },
+              {
+                "evidence_id": "evidence:d93105acd090784850ac155fa253734c4eaf8f206c3216b3ca555d259a4b73b9",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/9"
+                }
+              },
+              {
+                "evidence_id": "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+                "path": "data/raw/dsld/labels/label_25731.json",
+                "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+                "locator": {
+                  "pointer": "/ingredientRows/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:ea292e9bb035e1c82680e5c126135eb8f9c67da8a7956ef3114d39b45f7d721a",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/2"
+                }
+              },
+              {
+                "evidence_id": "evidence:eb4ba2228d81f8949a8bfc053e180236955d705b10854e6102e331ace1914df3",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/22"
+                }
+              }
+            ]
+          },
+          {
+            "label": "43261",
+            "path": [
+              "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e",
+              "occurrence:86547636da375e37b351206b1803c2f16d2e551e3fb4bfed05de02aae6e43887",
+              "snapshot:b24107f25bf20fe6fd5d63b7078b551e7cb401bfad8e19f71d891264ada01236"
+            ],
+            "target": {
+              "contract_version": "0.1.0",
+              "id": "record:a41dd8905b0a7f927005663f82b91e591aa5e55f8e851cb0a4ee07423316c754",
+              "native_id": "134732",
+              "native_type": "compound",
+              "original_identity": {
+                "source_type": "str",
+                "value": "134732"
+              },
+              "source_role": "ChemicalCompound",
+              "source_system": "pubchem"
+            },
+            "excluded_candidates": [
+              {
+                "action": "exclude_exact_match",
+                "approval_applied": false,
+                "assessed_relation": "exact_material_match",
+                "confidence": "Low",
+                "dsld_label_id": "43261",
+                "evidence_ids": [
+                  "evidence:008c45c75a43269158c8ac2e05131105cc3d48f783544eb759db619cd8d642a4",
+                  "evidence:0bcc1334ee731584fcae7c0e48b3c12590dbe03c18ba7c69542f2785c399ec10",
+                  "evidence:0d4f7425b24bd8114ac37f5e38b2fca9c0f0441f84844e9a30b14b9dd24298d6",
+                  "evidence:16c449d117bbdd140b61a718547483902f156265a800e7b243e8c28b95c41822",
+                  "evidence:244645a98d8d7322d1c19b770ec55699b72350b032a81389062dc3a3fb003f8d",
+                  "evidence:3d4d17a0569027b336e8f3a37373625f571e31437db1befe4160ea995f79bf46",
+                  "evidence:41d09ec4a4c66fb83ef037b5bbad3dcf2c8b58c24d2e6ef8803470cca0987d7c",
+                  "evidence:423895c3c9f1bec07f33525fd8894383d0ddd23c638695ac76e51ce479fbb8b5",
+                  "evidence:4830e9c73d2767fb4315a14468408d015246f0db942152ff30cc8b8feb953054",
+                  "evidence:4c6987c9bc4f2c73968b2d230151f8395dda51e7222ab387a8f9a40b7e1ecd2f",
+                  "evidence:502c04891ddc626734e8023593aa3a5e60f0a81b3c41267d61d9bd55b69d435f",
+                  "evidence:57f0bb8cc47baf423ee5a05733500adda89b950d153303281a1aafa195108a8c",
+                  "evidence:68024c67418f477ab573c0466fc01662907257a927d5a6cd1ad941ae3ebbecfc",
+                  "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+                  "evidence:85e29fbe0451ea58b7cbf191b4112f1e0fdedb6384f1f8b68984b9b80c730f85",
+                  "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+                  "evidence:af86330b6df793190e2cfe72cdfb8b50d1e86f92b1811f289869109a6dedbaff",
+                  "evidence:b093bb2143f80a577981f2f71ca077f0ff6944bff9b7644f25da58ef80145838"
+                ],
+                "ingredient": "Creatine HCl",
+                "mapping_id": "mapping:2018641a935eeb6e27a105c85c97f974fd93f93057c29b642937b40dc41c750c",
+                "origin_occurrence_id": "occurrence:86547636da375e37b351206b1803c2f16d2e551e3fb4bfed05de02aae6e43887",
+                "outcome": "incompatible_exact_match",
+                "proposed_relation": null,
+                "reason": "The explicit hydrochloride form is not the saved creatine monohydrate form.",
+                "rule_id": "C3",
+                "target_id": "1310467",
+                "target_name": "creatine monohydrate",
+                "target_source": "rxnorm"
+              },
+              {
+                "action": "exclude_exact_match",
+                "approval_applied": false,
+                "assessed_relation": "exact_material_match",
+                "confidence": "Low",
+                "dsld_label_id": "43261",
+                "evidence_ids": [
+                  "evidence:038e9d47a66a94b6cb052bae4345cb03926ca3b0eda325bd6873f46b88a75ae8",
+                  "evidence:1d6144c83739e91b371dac9f43c06520cb3cc8658a490fe1df573cc3c4f3cbf3",
+                  "evidence:3ef4afd84685b890b56b74428fdbfa867cb92f428bca183a3108bfef085a1530",
+                  "evidence:423895c3c9f1bec07f33525fd8894383d0ddd23c638695ac76e51ce479fbb8b5",
+                  "evidence:58edce09835edb954403c4431fe2f801ea5f7233387675e61936f1c3bed7cfe6",
+                  "evidence:644a7ddb90cf9596e798d9c203067d722502f3c0f1c275fa9083fdda4803bca4",
+                  "evidence:68024c67418f477ab573c0466fc01662907257a927d5a6cd1ad941ae3ebbecfc",
+                  "evidence:6c6c85c26c7438a36f55840d15a2e43c295fef4f969f2547bb053d38d51c3f8c",
+                  "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+                  "evidence:831631581e2e5326b51da26b11504ccc6d9ff70cbc5a7706a86c25817c3f1c4d",
+                  "evidence:8d7e958d98f495f123e557762c7ce592b1db009624a5f53231859b8a1f7d1616",
+                  "evidence:988c028150a3e7448f0c538a2ba198c3d4038fcc5e10da886712b19f88d1166f",
+                  "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+                  "evidence:be8114034fde9e667df63428a4acb76cf8f9f0018b7b2de1a3c1730aca7fb601",
+                  "evidence:ca5a86bc56aa1b1f67c59914f97d6a79ab3c2bb6d41387836b56d0dfa932d8cb",
+                  "evidence:ce7d1626db91ba3fae34d5caaada33ba697678f82071a7bc7eae96b002de1f02",
+                  "evidence:d44d57a7d40d275b5183843e5295d2ea78d439dc103bf3d6f98355ba6eb519a4",
+                  "evidence:e9fe888ed3d4207ca57bbb2a54a9f9ab13053c637540a4547221e2baa6263940",
+                  "evidence:eeec84c6d0f15aae0dba9d91569abe5ff2d89fba804f94d87d36deee6dbd0b89",
+                  "evidence:f2d9d8c27d2e39e5867a88a79c287847681432a06d0c61e6be796ed74bd39129",
+                  "evidence:f3f23f18716bab87ef2da41be73ed362abb930c537d11b17d63a05ce8997ea08",
+                  "evidence:ff0947b46a1299550ca5961628cfc4a3ccc2859372fa66cfe71fcdb635828ced"
+                ],
+                "ingredient": "Creatine HCl",
+                "mapping_id": "mapping:d7ec25d8eb9df1d0fbf494411b9083a879f8cea752aae8c1e0d334c236502065",
+                "origin_occurrence_id": "occurrence:86547636da375e37b351206b1803c2f16d2e551e3fb4bfed05de02aae6e43887",
+                "outcome": "incompatible_exact_match",
+                "proposed_relation": null,
+                "reason": "The explicit hydrochloride form is not the saved unqualified creatine concept.",
+                "rule_id": "C3",
+                "target_id": "2907",
+                "target_name": "creatine",
+                "target_source": "rxnorm"
+              }
+            ],
+            "citations": [
+              {
+                "evidence_id": "evidence:0cb2c740fb59216676a57fa01cd0d0156c4700dbd01132ce3162c089bf2008bb",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/17"
+                }
+              },
+              {
+                "evidence_id": "evidence:13d8e5a73458f0b6d08c33de53345d28058c8f2369befad0ea953d21f5cdd9e8",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/search_results/creatine hcl"
+                }
+              },
+              {
+                "evidence_id": "evidence:17869134a3ce2d7749df3b5a1453dbf07106202361afe251d99f74e31ef3cdad",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/16"
+                }
+              },
+              {
+                "evidence_id": "evidence:18411d69be6a116f1e78fc30a831cf486e3bc044f9b32b3ab373902a91443d95",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/12"
+                }
+              },
+              {
+                "evidence_id": "evidence:203408c0f9faff6eca08736be5b036ded25fa472eef7677e2790760277f38a97",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/4"
+                }
+              },
+              {
+                "evidence_id": "evidence:25d65d195532b8c89e9141038f491b2766b5ee0c48c1a959b4c52841ac19db03",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/MolecularFormula"
+                }
+              },
+              {
+                "evidence_id": "evidence:288685db496671f2decc88a026dc5418a058af124b1e9a86fc2c8c1d2a857058",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/queries/creatine hcl"
+                }
+              },
+              {
+                "evidence_id": "evidence:28c11e1c828b119e4fd351cb9f02dd313419b331d01578b980f1ad51d173172b",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/MolecularWeight"
+                }
+              },
+              {
+                "evidence_id": "evidence:2cc9bc72b6192cdad5b8d1a8ec9063756a73241c0b069824e12adc1eb2032456",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/1"
+                }
+              },
+              {
+                "evidence_id": "evidence:2dac253e31257316327e611a3a12bfbd66bd812b16cea9dfba7c11bde420e2f2",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/IUPACName"
+                }
+              },
+              {
+                "evidence_id": "evidence:31e7f2907b6a6df448a91d0e0da83571ba1e37834ee353da98b41b41107554d8",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/Title"
+                }
+              },
+              {
+                "evidence_id": "evidence:369389a2a501b84607ccd773adff628a67abcfa7d81c7302fd309091e91102b5",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/14"
+                }
+              },
+              {
+                "evidence_id": "evidence:3aee59bbb2e4b1669a126818232f07144c39022551490420ccf0b4aec0736b37",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/19"
+                }
+              },
+              {
+                "evidence_id": "evidence:3b151cb60f8b6c235f8f872d4f333197c5db8fc2c4733b4145f9ee8b59df819a",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/7"
+                }
+              },
+              {
+                "evidence_id": "evidence:4603ee9f129ee48776567cb906150e809865150c64ca11399e29f673effefea9",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/21"
+                }
+              },
+              {
+                "evidence_id": "evidence:46a1aafc6a6042b75e3a21bc2481fd2fcd54a35e84ae1cd63ad7b70b72e6788a",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/15"
+                }
+              },
+              {
+                "evidence_id": "evidence:4956ef7e65034f48e96a076b2280fd74faea7a8906340a4a3e1c236d4de4d1e3",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/18"
+                }
+              },
+              {
+                "evidence_id": "evidence:5b217edcc439bb7529b57bc243c4a7b716b4581f50ae90e6a4e2a999d2f9d3c7",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/3"
+                }
+              },
+              {
+                "evidence_id": "evidence:5d1f6ea71d7afa375832ae8749e8b3d3ac41aa1a15d8ac867a63642e031a1d3c",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/CID"
+                }
+              },
+              {
+                "evidence_id": "evidence:6433ef19b32f7d882b37d6fe1e9183a162dc0e55b1b73d015d8a9702fd906d2b",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/5"
+                }
+              },
+              {
+                "evidence_id": "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/ingredientRows/0/forms/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:71e1f7f36f3018c837b555d0af2010a656e8864d03bc12012f2fedc61ba04d31",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/10"
+                }
+              },
+              {
+                "evidence_id": "evidence:8805522828ef845e85b58842e13d65734f1e872c7e73e5b50fd2bab97f19e125",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/13"
+                }
+              },
+              {
+                "evidence_id": "evidence:8beaf31adc70b979729b5483d1aaa4562c901fcb55cab11fa95568a0286d6c24",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/8"
+                }
+              },
+              {
+                "evidence_id": "evidence:990d07a36b2fbce42ffecad8ff4020fd8c026eb34216a9453e244c88e665fb0c",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/InChIKey"
+                }
+              },
+              {
+                "evidence_id": "evidence:9cc9a13b9bbe5079ed09e632b9c23c7d2866b2f6eb8a6ce0b85d13fe5cbdd272",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/20"
+                }
+              },
+              {
+                "evidence_id": "evidence:9dbc52a00015f5ec9180fb779d78d491e96fe7d2a82759b1c4349d3cf0266de7",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/InChI"
+                }
+              },
+              {
+                "evidence_id": "evidence:9fb4f8982d63008623361e75fc1f7138cf05d778c8d431aa8542f17d0e1a1453",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+                "path": "data/raw/dsld/labels/label_43261.json",
+                "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec",
+                "locator": {
+                  "pointer": "/ingredientRows/0"
+                }
+              },
+              {
+                "evidence_id": "evidence:a896d4c211c663efbec2c5f1c86c5b42576959e54484f6445e0ca38ba983773d",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/11"
+                }
+              },
+              {
+                "evidence_id": "evidence:b999ae28cc2e3a0fc394418fe71d12e3d26d29fabb2635d59620b17afaa8354e",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/6"
+                }
+              },
+              {
+                "evidence_id": "evidence:d89db9ae1c846be9ced5b9573f537f34f6253481d64dc159f55ff629480afdcb",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/properties/ConnectivitySMILES"
+                }
+              },
+              {
+                "evidence_id": "evidence:d93105acd090784850ac155fa253734c4eaf8f206c3216b3ca555d259a4b73b9",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/9"
+                }
+              },
+              {
+                "evidence_id": "evidence:ea292e9bb035e1c82680e5c126135eb8f9c67da8a7956ef3114d39b45f7d721a",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/2"
+                }
+              },
+              {
+                "evidence_id": "evidence:eb4ba2228d81f8949a8bfc053e180236955d705b10854e6102e331ace1914df3",
+                "path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+                "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+                "locator": {
+                  "pointer": "/records/134732/synonyms/Synonym/22"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q10",
+      "question": "Which fields show the BetterYou serving conflict?",
+      "status": "answered_with_limit",
+      "result": {
+        "answer": "Label 257287 has numeric 52 mL and a note stating 0.52 ml. Cause and correct value are unresolved; do not calculate a per-mL or daily dose. Label 228638 is outside this graph.",
+        "fields": {
+          "inSFB": true,
+          "maxDailyServings": 1,
+          "maxQuantity": 52,
+          "minDailyServings": 1,
+          "minQuantity": 52,
+          "notes": "4 sprays (approx 0.02 fl. oz [0.52 ml])",
+          "order": 1,
+          "unit": "mL"
+        },
+        "issues": [
+          {
+            "contract_version": "0.1.0",
+            "evidence_ids": [
+              "evidence:752e61ce6a8cf592717455d5def0ea1607697d7d12e1b56a29df47ebc2835141"
+            ],
+            "id": "issue:7de3bc8318a644f89bf8016ef194c8cca5d02b812ecd8038ccdc112ae57d5c3e",
+            "owner_id": "serving:f48b34fe63afd0da56d9d669b9f0fac95c4df240cf1f1e801211551321737ce8",
+            "owner_table": "servings",
+            "reason_codes": [
+              "numeric_text_serving_conflict"
+            ],
+            "stage": "source_conflict",
+            "status": "needs_review"
+          }
+        ],
+        "path": [
+          "snapshot:fef3cc54317e70537524e9603a4faaef4cb58b88a741e2083ae0b7836c8af0d0",
+          "serving:f48b34fe63afd0da56d9d669b9f0fac95c4df240cf1f1e801211551321737ce8"
+        ],
+        "citations": [
+          {
+            "evidence_id": "evidence:752e61ce6a8cf592717455d5def0ea1607697d7d12e1b56a29df47ebc2835141",
+            "path": "data/raw/dsld/labels/label_257287.json",
+            "sha256": "486f9b02dd3700c959875b5eaa363aa693f0cbeee831c29172d5c0d7ae3ff46f",
+            "locator": {
+              "pointer": "/servingSizes/0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "P1",
+      "question": "Are Ashwagandha standardization markers kept as classes?",
+      "status": "answered",
+      "result": [
+        {
+          "label": "74939",
+          "name": "Withanolides",
+          "percent": 0.5,
+          "path": [
+            "snapshot:d38a36d6424d25ba03ec861173a74d594397a5a189f0803e373bb5b26e3597d4",
+            "occurrence:04075023d6073d2898f31075a111483a65b9fea1fecad5c769a92525f649fe0e",
+            "occurrence:269b0ee0aefa6a5974e3a80171ab672a14344622719a9de482e5be8b16c97e61",
+            "snapshot:a4085065f489d91348c34f5da5c53ed3add59f309f2611eb3ff3e59356561d69"
+          ],
+          "citations": [
+            {
+              "evidence_id": "evidence:0f02bdeb9353838bca01f4db93d16482b8c4f04715775e6406e62646503d36bb",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/285"
+              }
+            },
+            {
+              "evidence_id": "evidence:2634cc40e5e1b6a6b0d434711bf7007bbc7cb66fbcb67a0d382802cdbd5b1ff2",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/241"
+              }
+            },
+            {
+              "evidence_id": "evidence:29694874af1ffb1d7ef1cc4f6768d0328343926626e53b7da85b42bd5ed17918",
+              "path": "data/raw/dsld/labels/label_74939.json",
+              "sha256": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496",
+              "locator": {
+                "pointer": "/ingredientRows/0/forms/1"
+              }
+            },
+            {
+              "evidence_id": "evidence:305e532c147ebec297fb1c38b4cf05109e55589b55a7e6aacf44559e3b55c18b",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/272"
+              }
+            },
+            {
+              "evidence_id": "evidence:537f5df52991041ec5c2829582c63a4ee0bc705694382e2c42507d58c7672576",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/candidate_record_index/withanolides"
+              }
+            },
+            {
+              "evidence_id": "evidence:543b9300b40f69c7ba198da215285d1aa1a6f98389a7e3ad4d87a0ca1dcf656e",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/287"
+              }
+            },
+            {
+              "evidence_id": "evidence:55bc91a8eed6ea312788241b91a1f905fee1659d1fb44e026b0af47a37e38af7",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/search_results/withanolides"
+              }
+            },
+            {
+              "evidence_id": "evidence:8a8fb5c0e380ea20b9b62b2d0005316f771fcfb0948ee262d07fc727fe78c2d6",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/queries/withanolides"
+              }
+            },
+            {
+              "evidence_id": "evidence:c9c6313e06c2bedf57056356b5acb0bfd77a20fd0ac95aafba3f95ba14e1cb85",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/281"
+              }
+            },
+            {
+              "evidence_id": "evidence:da2ef2113e37cd8a10d7c99edfb33899a1d0c3e4a681686fa761409af2fe625b",
+              "path": "data/raw/dsld/labels/label_74939.json",
+              "sha256": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496",
+              "locator": {
+                "pointer": "/ingredientRows/0"
+              }
+            },
+            {
+              "evidence_id": "evidence:fc6d1df31ad297698a20c4eaac0ae5663c0f13eec2577a377df709987dcc9931",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/term_resolution_responses/13/pages/0/response/results/bindings/0"
+              }
+            }
+          ]
+        },
+        {
+          "label": "74939",
+          "name": "Alkaloids",
+          "percent": 0.8,
+          "path": [
+            "snapshot:d38a36d6424d25ba03ec861173a74d594397a5a189f0803e373bb5b26e3597d4",
+            "occurrence:04075023d6073d2898f31075a111483a65b9fea1fecad5c769a92525f649fe0e",
+            "occurrence:bb1333200706888e6c390b36138f0279a03c199ffa04582315e3ea03161263de",
+            "snapshot:0fab169f3394f8e9000ffa24488f782518fcf07bb2b6daeaa978bb967bb1a320"
+          ],
+          "citations": [
+            {
+              "evidence_id": "evidence:3a9b342b2a89344e06803642a7ba467342c4f0302ad972762f7a2841be12b24c",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/candidate_record_index/alkaloids"
+              }
+            },
+            {
+              "evidence_id": "evidence:574e19ddd437bfc0b0880a6421d9a0fce6dc9a2c954350e6947cf429b6a62121",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/term_resolution_responses/2/pages/0/response/results/bindings/9"
+              }
+            },
+            {
+              "evidence_id": "evidence:6e898fa9b52875aad3363fde4eeb8a3b793498a8d9b567ed0d1dfa802f48d47c",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/173"
+              }
+            },
+            {
+              "evidence_id": "evidence:7de95499327547d9e16e9b2298d757718d2ccd505062fea4400b9452b0ea462c",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/search_results/alkaloids"
+              }
+            },
+            {
+              "evidence_id": "evidence:85b9263ff8effbad96311bc12c59ab3e7892008c8cee73ed4b3f30b6db071333",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/queries/alkaloids"
+              }
+            },
+            {
+              "evidence_id": "evidence:882d2d1dadfa368b7df06c50b92a9aa4f06ed11a824dcac606f9f4eb218293ee",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/215"
+              }
+            },
+            {
+              "evidence_id": "evidence:96fdc3dc935ed59bdb474b60b557da94bb374539ec7a4149380022538ec337ef",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/202"
+              }
+            },
+            {
+              "evidence_id": "evidence:c0247b560824444434d6350ab27df7d6929629ff6cea38556b017b6593915b41",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/210"
+              }
+            },
+            {
+              "evidence_id": "evidence:da2ef2113e37cd8a10d7c99edfb33899a1d0c3e4a681686fa761409af2fe625b",
+              "path": "data/raw/dsld/labels/label_74939.json",
+              "sha256": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496",
+              "locator": {
+                "pointer": "/ingredientRows/0"
+              }
+            },
+            {
+              "evidence_id": "evidence:dfe476f05918e6acc6892b1eb84f5e0695e1409fd22cd575c8ac635dc5c7ef32",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/206"
+              }
+            },
+            {
+              "evidence_id": "evidence:eb6987f085e59bb021a271bbf1e997c077e8a66d458c19a1222e038c7f55cf1f",
+              "path": "data/raw/dsld/labels/label_74939.json",
+              "sha256": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496",
+              "locator": {
+                "pointer": "/ingredientRows/0/forms/0"
+              }
+            },
+            {
+              "evidence_id": "evidence:f5f52df1251c45b6bd9512ea1b94f200ea088cc64101598b8b0eb2cff6391cc9",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/218"
+              }
+            },
+            {
+              "evidence_id": "evidence:fc7aa7beb8ae67be166ae6b1ad309e9d5f3a19a8940248510bd9cb19e1478801",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/224"
+              }
+            }
+          ]
+        },
+        {
+          "label": "74940",
+          "name": "Withanolides",
+          "percent": 0.5,
+          "path": [
+            "snapshot:a15c7b6577c6318d13d3a0cc623274ae35c70dddcfd935373b1d88764538932b",
+            "occurrence:0d260f896dd5f5ab3a93cb8541acc484795d1fb5080529013717cdb9e2ad254a",
+            "occurrence:ba80eae88047f059470b4bc1c7a10e9dd04cef6f4013a62f01935a5d8ff934bd",
+            "snapshot:a4085065f489d91348c34f5da5c53ed3add59f309f2611eb3ff3e59356561d69"
+          ],
+          "citations": [
+            {
+              "evidence_id": "evidence:0f02bdeb9353838bca01f4db93d16482b8c4f04715775e6406e62646503d36bb",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/285"
+              }
+            },
+            {
+              "evidence_id": "evidence:2634cc40e5e1b6a6b0d434711bf7007bbc7cb66fbcb67a0d382802cdbd5b1ff2",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/241"
+              }
+            },
+            {
+              "evidence_id": "evidence:305e532c147ebec297fb1c38b4cf05109e55589b55a7e6aacf44559e3b55c18b",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/272"
+              }
+            },
+            {
+              "evidence_id": "evidence:537f5df52991041ec5c2829582c63a4ee0bc705694382e2c42507d58c7672576",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/candidate_record_index/withanolides"
+              }
+            },
+            {
+              "evidence_id": "evidence:543b9300b40f69c7ba198da215285d1aa1a6f98389a7e3ad4d87a0ca1dcf656e",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/287"
+              }
+            },
+            {
+              "evidence_id": "evidence:55bc91a8eed6ea312788241b91a1f905fee1659d1fb44e026b0af47a37e38af7",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/search_results/withanolides"
+              }
+            },
+            {
+              "evidence_id": "evidence:8a8fb5c0e380ea20b9b62b2d0005316f771fcfb0948ee262d07fc727fe78c2d6",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/queries/withanolides"
+              }
+            },
+            {
+              "evidence_id": "evidence:a109740d2f33771382b31055e62744b7b218ac16cebebec65bb0d79ff6af97e8",
+              "path": "data/raw/dsld/labels/label_74940.json",
+              "sha256": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb",
+              "locator": {
+                "pointer": "/ingredientRows/0/forms/1"
+              }
+            },
+            {
+              "evidence_id": "evidence:c9c6313e06c2bedf57056356b5acb0bfd77a20fd0ac95aafba3f95ba14e1cb85",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/12/pages/0/response/results/bindings/281"
+              }
+            },
+            {
+              "evidence_id": "evidence:fc39ddd1cb29e111ff09116b8ab67a6b7b0465f4ad792d2692b16b0a15b405c4",
+              "path": "data/raw/dsld/labels/label_74940.json",
+              "sha256": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb",
+              "locator": {
+                "pointer": "/ingredientRows/0"
+              }
+            },
+            {
+              "evidence_id": "evidence:fc6d1df31ad297698a20c4eaac0ae5663c0f13eec2577a377df709987dcc9931",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/term_resolution_responses/13/pages/0/response/results/bindings/0"
+              }
+            }
+          ]
+        },
+        {
+          "label": "74940",
+          "name": "Alkaloids",
+          "percent": 0.8,
+          "path": [
+            "snapshot:a15c7b6577c6318d13d3a0cc623274ae35c70dddcfd935373b1d88764538932b",
+            "occurrence:0d260f896dd5f5ab3a93cb8541acc484795d1fb5080529013717cdb9e2ad254a",
+            "occurrence:c94d428759dac580bff17363f5bd15b2b9138c90133e94136b60de0dafbea1bd",
+            "snapshot:0fab169f3394f8e9000ffa24488f782518fcf07bb2b6daeaa978bb967bb1a320"
+          ],
+          "citations": [
+            {
+              "evidence_id": "evidence:3a9b342b2a89344e06803642a7ba467342c4f0302ad972762f7a2841be12b24c",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/candidate_record_index/alkaloids"
+              }
+            },
+            {
+              "evidence_id": "evidence:4e21202e47c812d5ac86a9cd16236b0de6a0f0fe49ca4133141f870e8adfa2d9",
+              "path": "data/raw/dsld/labels/label_74940.json",
+              "sha256": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb",
+              "locator": {
+                "pointer": "/ingredientRows/0/forms/0"
+              }
+            },
+            {
+              "evidence_id": "evidence:574e19ddd437bfc0b0880a6421d9a0fce6dc9a2c954350e6947cf429b6a62121",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/term_resolution_responses/2/pages/0/response/results/bindings/9"
+              }
+            },
+            {
+              "evidence_id": "evidence:6e898fa9b52875aad3363fde4eeb8a3b793498a8d9b567ed0d1dfa802f48d47c",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/173"
+              }
+            },
+            {
+              "evidence_id": "evidence:7de95499327547d9e16e9b2298d757718d2ccd505062fea4400b9452b0ea462c",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/search_results/alkaloids"
+              }
+            },
+            {
+              "evidence_id": "evidence:85b9263ff8effbad96311bc12c59ab3e7892008c8cee73ed4b3f30b6db071333",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/queries/alkaloids"
+              }
+            },
+            {
+              "evidence_id": "evidence:882d2d1dadfa368b7df06c50b92a9aa4f06ed11a824dcac606f9f4eb218293ee",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/215"
+              }
+            },
+            {
+              "evidence_id": "evidence:96fdc3dc935ed59bdb474b60b557da94bb374539ec7a4149380022538ec337ef",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/202"
+              }
+            },
+            {
+              "evidence_id": "evidence:c0247b560824444434d6350ab27df7d6929629ff6cea38556b017b6593915b41",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/210"
+              }
+            },
+            {
+              "evidence_id": "evidence:dfe476f05918e6acc6892b1eb84f5e0695e1409fd22cd575c8ac635dc5c7ef32",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/206"
+              }
+            },
+            {
+              "evidence_id": "evidence:f5f52df1251c45b6bd9512ea1b94f200ea088cc64101598b8b0eb2cff6391cc9",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/218"
+              }
+            },
+            {
+              "evidence_id": "evidence:fc39ddd1cb29e111ff09116b8ab67a6b7b0465f4ad792d2692b16b0a15b405c4",
+              "path": "data/raw/dsld/labels/label_74940.json",
+              "sha256": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb",
+              "locator": {
+                "pointer": "/ingredientRows/0"
+              }
+            },
+            {
+              "evidence_id": "evidence:fc7aa7beb8ae67be166ae6b1ad309e9d5f3a19a8940248510bd9cb19e1478801",
+              "path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+              "locator": {
+                "pointer": "/record_subgraph_responses/3/pages/1/response/results/bindings/224"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "question": "Are nested blend ingredients distinguished from forms?",
+      "status": "answered",
+      "result": {
+        "answer": "Eight nested ingredient relationships now use HAS_DECLARED_COMPONENT. Earlier export incorrectly labeled them forms; that export is preserved but superseded.",
+        "component_count": 8
+      }
+    },
+    {
+      "id": "coverage",
+      "question": "Which original questions remain outside this graph?",
+      "status": "out_of_scope",
+      "result": {
+        "Q1": "Jarrow labels 7841/212304 are not selected; do not substitute another magnesium product.",
+        "Q4_Q7": "NatMed clinical questions require a separate export and evidence review.",
+        "Q9": "Reddit records are outside this graph.",
+        "Q10": "Only label 257287 is available here; cross-label comparison remains partial."
+      }
+    }
+  ],
+  "summary": {
+    "answered": 4,
+    "answered_with_limit": 2,
+    "out_of_scope": 1
+  },
+  "scope": "Saved-source path inspection, not medical answers or a full POC evaluation.",
+  "validation": "All case assertions passed; source citations resolve; no graph or raw files changed."
+}

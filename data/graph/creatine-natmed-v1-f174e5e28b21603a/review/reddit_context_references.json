@@ -1,0 +1,153 @@
+[
+  {
+    "content_status": "not_assessed",
+    "contract_version": "0.1.0",
+    "evidence_ids": [
+      "evidence:fb11eba69ecf302548bb5ed611b3a7fe50c6f2aad9d94b66f9a80caaed94636c"
+    ],
+    "id": "reference:0c8381bd0ade22ce4d516a84f0a4b9fe01c65c01b328de0ea9a3555f814b08d8",
+    "identifier_state": "usable",
+    "original_reference": "t3_1xbme8k",
+    "reason_codes": [
+      "target_outside_selected_pilot"
+    ],
+    "resolution_state": "unresolved",
+    "role": "REPLY_TO",
+    "source_snapshot_id": "snapshot:13bd91599aa7b0ae3c7ed744a9af459c6bc0692ed8fbc2d72960d223dad7e49d",
+    "target_availability": "not_collected",
+    "target_key": {
+      "availability_scope": "selected_pilot_output",
+      "native_id": "t3_1xbme8k",
+      "native_type": "post",
+      "source_system": "reddit"
+    },
+    "target_record_id": null,
+    "target_snapshot_id": null,
+    "task_requirement": null
+  },
+  {
+    "content_status": "not_assessed",
+    "contract_version": "0.1.0",
+    "evidence_ids": [
+      "evidence:5bbd81361e0273c31082e0e61ba96c68dae9cbff8bee8889b20a71f4d15a5540"
+    ],
+    "id": "reference:586fd13a5136ed2b76728661ccfc080607f01379f750131ae3789d5b918c40d3",
+    "identifier_state": "usable",
+    "original_reference": "t3_1xe6ara",
+    "reason_codes": [
+      "target_outside_selected_pilot"
+    ],
+    "resolution_state": "unresolved",
+    "role": "IN_THREAD",
+    "source_snapshot_id": "snapshot:99a52e2cf7a2de6e195514adffe64ec65d65e4bc3d7379e6092f4f1729e2735b",
+    "target_availability": "not_collected",
+    "target_key": {
+      "availability_scope": "selected_pilot_output",
+      "native_id": "t3_1xe6ara",
+      "native_type": "post",
+      "source_system": "reddit"
+    },
+    "target_record_id": null,
+    "target_snapshot_id": null,
+    "task_requirement": null
+  },
+  {
+    "content_status": "not_assessed",
+    "contract_version": "0.1.0",
+    "evidence_ids": [
+      "evidence:54a3a90457bd874e6a24eba0476760d8bc11d4034d7ee1029eefd70d9f33ec55"
+    ],
+    "id": "reference:95f258578224841f674647dda38e05fb9e21688d0d4bfc3eae7e4a01a42a011d",
+    "identifier_state": "missing",
+    "original_reference": null,
+    "reason_codes": [
+      "missing_identifier"
+    ],
+    "resolution_state": "unresolved",
+    "role": "REPLY_TO",
+    "source_snapshot_id": "snapshot:99a52e2cf7a2de6e195514adffe64ec65d65e4bc3d7379e6092f4f1729e2735b",
+    "target_availability": "not_assessable",
+    "target_key": null,
+    "target_record_id": null,
+    "target_snapshot_id": null,
+    "task_requirement": null
+  },
+  {
+    "content_status": "not_assessed",
+    "contract_version": "0.1.0",
+    "evidence_ids": [
+      "evidence:212c802f9ba3e675958353fa25a2bf97a756b064245b91ab6fce383d843997bf"
+    ],
+    "id": "reference:9b34b6b8d0ef4509cc082d9d94a91cf325b21645a28adccca8dc4fc310ef2373",
+    "identifier_state": "usable",
+    "original_reference": "t3_1xbmiz3",
+    "reason_codes": [
+      "target_outside_selected_pilot"
+    ],
+    "resolution_state": "unresolved",
+    "role": "REPLY_TO",
+    "source_snapshot_id": "snapshot:31d5d8e50e61806d5dca86a5460d650745d59aa415337c1152b1d04ed77bc82a",
+    "target_availability": "not_collected",
+    "target_key": {
+      "availability_scope": "selected_pilot_output",
+      "native_id": "t3_1xbmiz3",
+      "native_type": "post",
+      "source_system": "reddit"
+    },
+    "target_record_id": null,
+    "target_snapshot_id": null,
+    "task_requirement": null
+  },
+  {
+    "content_status": "not_assessed",
+    "contract_version": "0.1.0",
+    "evidence_ids": [
+      "evidence:641bac27da18726c58bab7f99d22b227911cb7c065c82b372c4df4ca1e3b2354"
+    ],
+    "id": "reference:af5c0291fe4782a4dfcb61bcd5a8112ec21e10f31653f1466008f9b079d7ed44",
+    "identifier_state": "usable",
+    "original_reference": "t3_1xbmiz3",
+    "reason_codes": [
+      "target_outside_selected_pilot"
+    ],
+    "resolution_state": "unresolved",
+    "role": "IN_THREAD",
+    "source_snapshot_id": "snapshot:31d5d8e50e61806d5dca86a5460d650745d59aa415337c1152b1d04ed77bc82a",
+    "target_availability": "not_collected",
+    "target_key": {
+      "availability_scope": "selected_pilot_output",
+      "native_id": "t3_1xbmiz3",
+      "native_type": "post",
+      "source_system": "reddit"
+    },
+    "target_record_id": null,
+    "target_snapshot_id": null,
+    "task_requirement": null
+  },
+  {
+    "content_status": "not_assessed",
+    "contract_version": "0.1.0",
+    "evidence_ids": [
+      "evidence:3b52796adf0a5a2b4f88c4519edd0163ad57bab3d39ffc7e89d1c0859864cfcb"
+    ],
+    "id": "reference:b5fd4d2facb16b5c24a00ac812ba1f407fb2a3e9fcc893b2474d5009e8fb1754",
+    "identifier_state": "usable",
+    "original_reference": "t3_1xbme8k",
+    "reason_codes": [
+      "target_outside_selected_pilot"
+    ],
+    "resolution_state": "unresolved",
+    "role": "IN_THREAD",
+    "source_snapshot_id": "snapshot:13bd91599aa7b0ae3c7ed744a9af459c6bc0692ed8fbc2d72960d223dad7e49d",
+    "target_availability": "not_collected",
+    "target_key": {
+      "availability_scope": "selected_pilot_output",
+      "native_id": "t3_1xbme8k",
+      "native_type": "post",
+      "source_system": "reddit"
+    },
+    "target_record_id": null,
+    "target_snapshot_id": null,
+    "task_requirement": null
+  }
+]

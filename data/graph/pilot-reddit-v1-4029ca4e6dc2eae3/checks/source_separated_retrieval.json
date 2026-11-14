@@ -1,0 +1,154 @@
+{
+  "limitation": "No single selected supplement has all three evidence roles in this bounded sample. Reddit discussion is not evidence of personal use or health effects. Context-only associations are not direct mentions.",
+  "queries": [
+    {
+      "gaps": [
+        "natmed_source_statements"
+      ],
+      "natmed_source_statements": [],
+      "product_labels": [
+        {
+          "evidence_ids": [
+            "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8"
+          ],
+          "evidence_role": "label_information",
+          "ingredient": "Creatine",
+          "label_id": "43261",
+          "path": [
+            "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e",
+            "occurrence:016e3b539ae46c6ce060e745c3e2c081b24dc924a7d39ecd57f5c581ea2361ff",
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3"
+          ],
+          "product_name": "Creatine Alkaline",
+          "source": "DSLD"
+        },
+        {
+          "evidence_ids": [
+            "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56"
+          ],
+          "evidence_role": "label_information",
+          "ingredient": "Creatine",
+          "label_id": "25731",
+          "path": [
+            "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+            "occurrence:f54002ce8d3f2435e4d636bffb3d13368871f9128dcc41e1aed7b7a38c877472",
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3"
+          ],
+          "product_name": "Creatine Alkaline",
+          "source": "DSLD"
+        }
+      ],
+      "reddit_context_only_excluded_from_direct_results": [
+        {
+          "evidence_ids": [
+            "evidence:15bad2f6e03c13c584723f01b2c52ba533c1b62f5ee51b7a177958ded9a599a5",
+            "evidence:9ea56149c8a36081fc37bcb4565433c5c2ab7cb89ceeffd602f74178b27105f1"
+          ],
+          "evidence_role": "user_report",
+          "interpretation": "discussion/opinion; no personal-use or health-outcome claim extracted",
+          "mention_scope": "thread_context",
+          "path": [
+            "snapshot:13bd91599aa7b0ae3c7ed744a9af459c6bc0692ed8fbc2d72960d223dad7e49d",
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3"
+          ],
+          "source": "Reddit",
+          "source_url": "https://old.reddit.com/r/Supplements/comments/1xbme8k/legalhigh_supplements/19rg1ztatzi8z/",
+          "text": "I vaporise CBN hash and it’s wonderful"
+        }
+      ],
+      "reddit_direct_discussion": [
+        {
+          "evidence_ids": [
+            "evidence:2426a2a4f6669209d4a920f093d237cd2de6e4d7edf15036dde94a3cacbc5364",
+            "evidence:d5a15f0119532cf65d01b1be017dc9fbbe493b9db6d1648485e81568a58b03a8"
+          ],
+          "evidence_role": "user_report",
+          "interpretation": "discussion/opinion; no personal-use or health-outcome claim extracted",
+          "mention_scope": "own_text",
+          "path": [
+            "snapshot:31d5d8e50e61806d5dca86a5460d650745d59aa415337c1152b1d04ed77bc82a",
+            "topic:676b9cdf70a30ac0ec9301fd3a38494cf1bd35e776fd461db1c9d123e57787f3"
+          ],
+          "source": "Reddit",
+          "source_url": "https://old.reddit.com/r/Supplements/comments/1xbmiz3/designed_a_reusable_aluminum_supplement_scoop_out/19rgc7uzlnucg/",
+          "text": "If the problem you’re trying to solve is the nuisance of powder covered fingers, I’d say scrap the “revamping” of a free utensil included in whey or creatine products, and focus on something like perfectly shaped tongs or a small sieve using the same material used to create ur scoop. I just don’t think it’s annoying enough for someone to purchase a completely different product when the product is included in whey or creatine, and when a simple solution is to keep the scoops out of the packaging. Even better then, maybe design something that can universally fit around or on packaging so people can fasten their plastic scoop to it. Just some thoughts but keep designing and creating!"
+        }
+      ],
+      "topic": "Creatine"
+    },
+    {
+      "gaps": [
+        "reddit_direct_discussion"
+      ],
+      "natmed_source_statements": [
+        {
+          "clinical_approval": false,
+          "dose": {
+            "duration": null,
+            "frequency": null,
+            "maximum": null,
+            "minimum": null,
+            "qualifier": null,
+            "regimen": null,
+            "route": null,
+            "text": null,
+            "unit": null,
+            "value": null
+          },
+          "evidence_ids": [
+            "evidence:5ae005fc94f57d975b614ed61ec9dac85fc6438024f38c33de2fea19b1ac0a00",
+            "evidence:a13ab9e2860b4373818390172c4a292bf63dd581ead630c7b4178f3cbdb388fe",
+            "evidence:6735c8dae05985f4c07d8edd7c27a5e418dbcc78550e86eae431b570a0a077da"
+          ],
+          "evidence_role": "clinical_reference",
+          "original_excerpt": "POSSIBLY SAFE when used orally and appropriately, short-term. Ashwagandha has been used with apparent safety in doses of up to 1250 mg daily for up to 6 months (3710, 11301, 19271, 90649, 90652, 90653, 97292, 101816, 102682, 102683) (102684, 102685, 102687, 103476, 105824, 109586, 109588, 109589, 109590, 116648)(118927, 118930). ...when used topically. Ashwagandha lotion has been used with apparent safety in concentrations up to 8% for up to 2 months (111538).",
+          "path": [
+            "topic:b9dba9de27fc2793f4d0f8b3c5d0dc89e7ea0f6f2d148fa93d52786587acdeb3",
+            "snapshot:5758e40611b6b399d0677f8f7cf6e178a86c4640c1e351344d33d8ae075daf89",
+            "assertion:65d4f634a4f075d72a236031035e07484cb0a8790df2774b15ff93f16a8a38c9"
+          ],
+          "population": null,
+          "review_state": "pending",
+          "source": "NatMed",
+          "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      ],
+      "product_labels": [
+        {
+          "evidence_ids": [
+            "evidence:da2ef2113e37cd8a10d7c99edfb33899a1d0c3e4a681686fa761409af2fe625b"
+          ],
+          "evidence_role": "label_information",
+          "ingredient": "Ashwagandha root extract & Ashwagandha root powder Blend",
+          "label_id": "74939",
+          "path": [
+            "snapshot:d38a36d6424d25ba03ec861173a74d594397a5a189f0803e373bb5b26e3597d4",
+            "occurrence:04075023d6073d2898f31075a111483a65b9fea1fecad5c769a92525f649fe0e",
+            "topic:b9dba9de27fc2793f4d0f8b3c5d0dc89e7ea0f6f2d148fa93d52786587acdeb3"
+          ],
+          "product_name": "Ashwagandha",
+          "source": "DSLD"
+        },
+        {
+          "evidence_ids": [
+            "evidence:fc39ddd1cb29e111ff09116b8ab67a6b7b0465f4ad792d2692b16b0a15b405c4"
+          ],
+          "evidence_role": "label_information",
+          "ingredient": "Ashwagandha root extract & Ashwagandha root powder Blend",
+          "label_id": "74940",
+          "path": [
+            "snapshot:a15c7b6577c6318d13d3a0cc623274ae35c70dddcfd935373b1d88764538932b",
+            "occurrence:0d260f896dd5f5ab3a93cb8541acc484795d1fb5080529013717cdb9e2ad254a",
+            "topic:b9dba9de27fc2793f4d0f8b3c5d0dc89e7ea0f6f2d148fa93d52786587acdeb3"
+          ],
+          "product_name": "Ashwagandha",
+          "source": "DSLD"
+        }
+      ],
+      "reddit_context_only_excluded_from_direct_results": [],
+      "reddit_direct_discussion": [],
+      "topic": "Ashwagandha"
+    }
+  ],
+  "question": "What saved product labels, NatMed statements and Reddit discussions are available for Creatine and Ashwagandha?"
+}

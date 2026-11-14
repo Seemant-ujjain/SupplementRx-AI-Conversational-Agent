@@ -1,0 +1,4 @@
+id,type,properties_json
+external_reddit_reference:29a1186004b4aaab586d2b8d0ed044e239df194510de7fd4978cacb0021cdb5b,ExternalRecordReference,"{""availability"": ""outside_selected_pilot"", ""content_loaded"": false, ""expected_type"": ""post"", ""native_id"": ""t3_1xbme8k"", ""source"": ""reddit"", ""text"": null}"
+external_reddit_reference:62aaf0aa884a1d3e13a93bb4a02a114cd7cf9c3fa7177d299c7d5231c9951c57,ExternalRecordReference,"{""availability"": ""outside_selected_pilot"", ""content_loaded"": false, ""expected_type"": ""post"", ""native_id"": ""t3_1xbmiz3"", ""source"": ""reddit"", ""text"": null}"
+external_reddit_reference:7757616cee22f37579d1e8c1731697d1dcae4961bf56da6de20f6471cfe1f041,ExternalRecordReference,"{""availability"": ""outside_selected_pilot"", ""content_loaded"": false, ""expected_type"": ""post"", ""native_id"": ""t3_1xe6ara"", ""source"": ""reddit"", ""text"": null}"

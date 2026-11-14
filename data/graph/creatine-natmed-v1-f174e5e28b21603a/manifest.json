@@ -1,0 +1,59 @@
+{
+  "base_graph": "data/graph/pilot-reddit-v1-4029ca4e6dc2eae3",
+  "base_manifest_sha256": "4029ca4e6dc2eae3edab99604dac7b5e6a0f5e3343548083b749f9894ba70f8c",
+  "counts": {
+    "added_claims": 10,
+    "edges": 418,
+    "nodes": 249,
+    "selected_by_type": {
+      "dose": 2,
+      "effectiveness": 1,
+      "safety": 7
+    },
+    "selected_confidence": {
+      "High": 10
+    }
+  },
+  "files": {
+    "checks/natmed_retrieval.json": "f355b4a461bd23e0af881fbae3709bcee3c990fc9c58691c23049f063e467bc3",
+    "checks/source_separated_retrieval.json": "971ed7c1a4355f1aaf0d892a359c72457cc0e0def17d6b11f0705ad6f3829dc5",
+    "nodes/ChemicalCompound.csv": "f1827f99f18462f53783059e3e0f818656f19d454aac20cb06c7b2e7849e12cb",
+    "nodes/ClinicalClaim.csv": "c804454a26458e158ecd62578c9d674bfcc364277b9f4ae76d33c5c6a5b271f0",
+    "nodes/ExternalRecordReference.csv": "1444d4ca4fcd9314955254e0b7afbe0cbd3c8836c44875e80e8b0c427bf75ccd",
+    "nodes/IngredientOccurrence.csv": "2c7dca13227c942b95b13e4e733f297aee56387cf4e83dd8d0781efd8d1343fa",
+    "nodes/LabelAssertion.csv": "5592507b771b140513534397adc15040fc90fdecb0d98165fdf7e9f01c1d140d",
+    "nodes/Monograph.csv": "00a08392c4cdbf64ca26e8b2df11b876fcb8216f3ea25bc4e7ab66e8f9b773d1",
+    "nodes/MonographSubject.csv": "62329f5ecb3eb7d13b9cb966319be2bb943c7c967d44c0d52564f26d511e8bf9",
+    "nodes/ProductLabel.csv": "8e72a13ad3ee85767f71d48afcd4a2e597a587704b0b9afe2f5b1716fba81a52",
+    "nodes/RedditComment.csv": "36d28e9762f86f5f5740efc26dee5a55f51dfe47790b07adf768014e87ccd5ca",
+    "nodes/ReferenceDocument.csv": "a65bcb17c2fb33875898a27f7d2a4c877fdf3c682ec23337bd2b328f7fda27b9",
+    "nodes/Serving.csv": "02f06b6cc056b222e0a8cee28ac1d1fb656b767c68c44c5fa608687c7566df8a",
+    "nodes/SourceExcerpt.csv": "dc92a8ee321632d8a862e9c4e7baa7ed9c83ce206a18fbd4f771d2ad8f2f4dc5",
+    "nodes/SupplementTopic.csv": "4d7caefc8e2fe19e79502e3c098f483dd6ea60d907808ed412157353392a7e62",
+    "nodes/TerminologyConcept.csv": "481983ed3957da052f4e283c9e1a6825a65e1ce77ea2c060f2c6919c79f4b82d",
+    "provenance/artifacts.json": "0112e1f3ae6c37400666757fcf80901f3337fb811b9e5ef8d1aedc4e73390e38",
+    "provenance/evidence.jsonl": "4c54fc90df042c1ebf084484a25c40b476fae3c3e7d76240e3cd15a9b22fabe3",
+    "relationships/relationships.csv": "13b5b474e16efb7a8d6a8866998715047335c67ad0b354468ac4981e06cb446a",
+    "review/creatine_selection.json": "68f5bdd65ae44e5f9c2aed5ec9759560b8946c8a72ef293d44882ef0f49c2718",
+    "review/pending_and_excluded.json": "1324d8b8d56dbdebf2f2964adc4a5a6041bc49ab3b7e91ce4be7081748cc0c73",
+    "review/reddit_context_references.json": "2ffc04450503ad41768a8241a0968dbca228da3f471fa2d0fb983d7a5baba4a9"
+  },
+  "inputs": {
+    "data/raw/natmedpro/records.jsonl": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claim.schema.json": "936bc717194818e29a65bbeb5eaa9c7afa147079c37b4bc0785c67e9f67e7c99",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+  },
+  "script_sha256": "ff503b47bcbd2629ed034677aab0bbe32e9299f11d7c053dbb9d5772a36f968b",
+  "validation": {
+    "all_selected_citations_in_bibliography": true,
+    "clinical_approvals": 0,
+    "creatine_three_source_roles": true,
+    "endpoints_resolve": true,
+    "negative_checks_passed": 3,
+    "original_graph_rows_preserved": true,
+    "pending_status_preserved": true,
+    "selected_source_and_field_spans_verified": true,
+    "unknown_fields_preserved": true
+  },
+  "version": "creatine-natmed-v1"
+}

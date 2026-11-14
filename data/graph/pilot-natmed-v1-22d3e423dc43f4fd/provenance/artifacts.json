@@ -1,0 +1,106 @@
+{
+  "artifact:1bdbe022033af895d1e6cf9a1b785bac0b6b836f10b76578d7e91412e4bcf793": {
+    "byte_length": 6070196,
+    "contract_version": "0.1.0",
+    "id": "artifact:1bdbe022033af895d1e6cf9a1b785bac0b6b836f10b76578d7e91412e4bcf793",
+    "media_type": "application/x-ndjson",
+    "relative_path": "data/raw/reddit/records.jsonl",
+    "sha256": "aa3e205512fd17f03f06c5196bdcbb62ce41ddcdb2b74a6a9b88fb051b86b170"
+  },
+  "artifact:3f51431c030595f0ac2af9d20e6ad7b361db0696c90475cee8c47c330214ad69": {
+    "byte_length": 7698,
+    "contract_version": "0.1.0",
+    "id": "artifact:3f51431c030595f0ac2af9d20e6ad7b361db0696c90475cee8c47c330214ad69",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_74940.json",
+    "sha256": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb"
+  },
+  "artifact:5d05b947a7ceb056d5a35f7142114ac76e122eb4681584b816d663de602a88ce": {
+    "byte_length": 7782,
+    "contract_version": "0.1.0",
+    "id": "artifact:5d05b947a7ceb056d5a35f7142114ac76e122eb4681584b816d663de602a88ce",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_74939.json",
+    "sha256": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496"
+  },
+  "artifact:7534eb9b982b377d415d1e96dfe2af900c455911ee6c5e1cfd1ea1c858820cad": {
+    "byte_length": 72476471,
+    "contract_version": "0.1.0",
+    "id": "artifact:7534eb9b982b377d415d1e96dfe2af900c455911ee6c5e1cfd1ea1c858820cad",
+    "media_type": "application/json",
+    "relative_path": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+    "sha256": "61462e721fe7ce74fc594ba5c0750aa0700d2bad99db8658ee55b3f7932406cc"
+  },
+  "artifact:7ae31e66ee9f6bf95530afc72a096f33880527a0d6890f14b4cccbeafd27f8c6": {
+    "byte_length": 3625532,
+    "contract_version": "0.1.0",
+    "id": "artifact:7ae31e66ee9f6bf95530afc72a096f33880527a0d6890f14b4cccbeafd27f8c6",
+    "media_type": "application/x-ndjson",
+    "relative_path": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+    "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+  },
+  "artifact:b3714e0fcd62ee42f65ae6891be03dc7cab925f898166f34d464f620020fd4d3": {
+    "byte_length": 7635,
+    "contract_version": "0.1.0",
+    "id": "artifact:b3714e0fcd62ee42f65ae6891be03dc7cab925f898166f34d464f620020fd4d3",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_1452.json",
+    "sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698"
+  },
+  "artifact:b8abb2c16c1fbe7042918fdd67cc7b4288bfd310abbe7f547d0c6bf47e9b0c6a": {
+    "byte_length": 13882,
+    "contract_version": "0.1.0",
+    "id": "artifact:b8abb2c16c1fbe7042918fdd67cc7b4288bfd310abbe7f547d0c6bf47e9b0c6a",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_25731.json",
+    "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+  },
+  "artifact:bbccde5fd696f3176e33feed196bffc0f2cf54d1626a685dbbdae1529c841db7": {
+    "byte_length": 12172,
+    "contract_version": "0.1.0",
+    "id": "artifact:bbccde5fd696f3176e33feed196bffc0f2cf54d1626a685dbbdae1529c841db7",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_249674.json",
+    "sha256": "9367dc90ef8be2b5779e097ab4828b11a0ea4689c9ac12acdd2b8e0af34f335b"
+  },
+  "artifact:c9193b8bd4be9e929cbaee92937e51b0ad7af091853ad896e2b8c90fa1b3fe61": {
+    "byte_length": 6230,
+    "contract_version": "0.1.0",
+    "id": "artifact:c9193b8bd4be9e929cbaee92937e51b0ad7af091853ad896e2b8c90fa1b3fe61",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_257287.json",
+    "sha256": "486f9b02dd3700c959875b5eaa363aa693f0cbeee831c29172d5c0d7ae3ff46f"
+  },
+  "artifact:de29d0a98b8c39a479cb53e4bd26c0d9e5e2c0eb052e2f79291934cb81a00f24": {
+    "byte_length": 14085,
+    "contract_version": "0.1.0",
+    "id": "artifact:de29d0a98b8c39a479cb53e4bd26c0d9e5e2c0eb052e2f79291934cb81a00f24",
+    "media_type": "application/json",
+    "relative_path": "data/raw/dsld/labels/label_43261.json",
+    "sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+  },
+  "artifact:e3fae25d7b42d6cced8c6621f8e3366b20784cd1ff32435c02ab65250bbdb8ea": {
+    "byte_length": 38218702,
+    "contract_version": "0.1.0",
+    "id": "artifact:e3fae25d7b42d6cced8c6621f8e3366b20784cd1ff32435c02ab65250bbdb8ea",
+    "media_type": "application/json",
+    "relative_path": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+    "sha256": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab"
+  },
+  "artifact:e7e6f19589a23f97981e8fc2b43c9ece9b661aa911c91368d68523fbc9d62a30": {
+    "byte_length": 6502063,
+    "contract_version": "0.1.0",
+    "id": "artifact:e7e6f19589a23f97981e8fc2b43c9ece9b661aa911c91368d68523fbc9d62a30",
+    "media_type": "application/x-ndjson",
+    "relative_path": "data/raw/natmedpro/records.jsonl",
+    "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+  },
+  "artifact:eb989894a2bc212c623509934bd4784ffa1723ad08cb17e7d25b0c04b94d3a33": {
+    "byte_length": 9442748,
+    "contract_version": "0.1.0",
+    "id": "artifact:eb989894a2bc212c623509934bd4784ffa1723ad08cb17e7d25b0c04b94d3a33",
+    "media_type": "application/json",
+    "relative_path": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+    "sha256": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00"
+  }
+}

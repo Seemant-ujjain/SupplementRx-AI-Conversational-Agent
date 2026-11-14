@@ -1,0 +1,346 @@
+{
+  "answer_sections": [
+    {
+      "claim_id": "claim:d657c33fdcb5dacdcdbbb71753020d04d0331bc53ff683efa3826a519df2175b",
+      "clinical_approval": false,
+      "evidence_ids": [
+        "creatine-expansion-evidence:d3665e07843e18bc7f67ab87f32f2748d374b51c4a610308907d677f424bad57",
+        "creatine-expansion-evidence:9759746f9bd0e96db81392ef6b07381ca64257bfab436d803e6f72a9cddbd7a7",
+        "creatine-expansion-evidence:aa869dfa727e50561e9db2360400a848c5ad0b638949d5eaad328c36481555d5",
+        "creatine-expansion-evidence:c2ae89a2645b358fda1cf7e94513b47f08825e8e74eecfbb295dfcf48ed49446"
+      ],
+      "evidence_role": "clinical_reference",
+      "id": "performance",
+      "review_state": "pending",
+      "source_url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873",
+      "support_excerpt": "Oral creatine monohydrate seems to modestly improve rowing, jumping, and soccer performance. It is unclear if it is beneficial for sprinting, cycling, swimming, or tennis performance.",
+      "text": "The saved NatMed monograph rates athletic performance as POSSIBLY EFFECTIVE. Its selected passage describes possible modest benefits of oral creatine monohydrate for rowing, jumping and soccer, while benefits for sprinting, cycling, swimming and tennis are uncertain. It also reports conflicting findings. This annotation is pending clinical review."
+    },
+    {
+      "evidence_ids": [
+        "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+        "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+        "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+        "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+        "evidence:9ff9ba2e63e09abd58aa814e554b023a588e3800473573da5ec8f9eb05b69e5e",
+        "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+        "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+        "evidence:c6d2f137f57461161cfbb9352750ed28f0775cce07d5536fc5118a7bdc9ab3a1",
+        "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+        "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467"
+      ],
+      "evidence_role": "label_information",
+      "id": "labels",
+      "label_records": [
+        {
+          "comparison_mg": "1500",
+          "evidence_ids": [
+            "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+            "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+            "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+            "evidence:c6d2f137f57461161cfbb9352750ed28f0775cce07d5536fc5118a7bdc9ab3a1",
+            "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56"
+          ],
+          "forms": [
+            "Creatine Monohydrate",
+            "Creatine HCl"
+          ],
+          "identity_note": "Separate source label; no product merging",
+          "label_id": "25731",
+          "original_quantity": {
+            "dailyValueTargetGroup": [
+              {
+                "footnote": "Daily Value not established",
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null
+              }
+            ],
+            "operator": "=",
+            "quantity": 1500,
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 2,
+            "servingSizeUnit": "Capsule(s)",
+            "unit": "mg"
+          },
+          "path": [
+            "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+            "assertion:a1a6f1854d5df7fee88d64a99b98e759225d1b482d7b5ca691dd807b29920db7",
+            "occurrence:f54002ce8d3f2435e4d636bffb3d13368871f9128dcc41e1aed7b7a38c877472"
+          ],
+          "product_name": "Creatine Alkaline",
+          "source_serving": {
+            "inSFB": true,
+            "maxDailyServings": 1,
+            "maxQuantity": 2,
+            "minDailyServings": 1,
+            "minQuantity": 2,
+            "order": 1,
+            "unit": "Capsule(s)"
+          }
+        },
+        {
+          "comparison_mg": "1500.0",
+          "evidence_ids": [
+            "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+            "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+            "evidence:9ff9ba2e63e09abd58aa814e554b023a588e3800473573da5ec8f9eb05b69e5e",
+            "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+            "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467"
+          ],
+          "forms": [
+            "Creatine Monohydrate",
+            "Creatine HCl"
+          ],
+          "identity_note": "Separate source label; no product merging",
+          "label_id": "43261",
+          "original_quantity": {
+            "dailyValueTargetGroup": [
+              {
+                "footnote": "Daily Value not established",
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null
+              }
+            ],
+            "operator": "=",
+            "quantity": 1.5,
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 2,
+            "servingSizeUnit": "Capsule(s)",
+            "unit": "Gram(s)"
+          },
+          "path": [
+            "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e",
+            "assertion:ba6dbef1a7abda5c4d687b46ad02fa47609893d7bf4e886550d200f9e3fc43ae",
+            "occurrence:016e3b539ae46c6ce060e745c3e2c081b24dc924a7d39ecd57f5c581ea2361ff"
+          ],
+          "product_name": "Creatine Alkaline",
+          "source_serving": {
+            "inSFB": true,
+            "maxDailyServings": 1,
+            "maxQuantity": 2,
+            "minDailyServings": 1,
+            "minQuantity": 2,
+            "order": 1,
+            "unit": "Capsule(s)"
+          }
+        }
+      ],
+      "text": "The saved BPI Creatine Alkaline labels declare 1,500 mg (label 25731) and 1.5 g (label 43261) of creatine per two capsules—equivalent mass amounts. Both list creatine monohydrate and Creatine HCl as forms. The total amount is not a separate amount for each form."
+    },
+    {
+      "evidence_ids": [],
+      "evidence_role": "answer_scope",
+      "id": "scope",
+      "text": "These are label declarations, not recommended doses. The selected NatMed passage does not establish the effectiveness of either BPI product or its HCl component. The saved Reddit packaging discussion does not answer the athletic-performance question and is omitted."
+    }
+  ],
+  "counts": {
+    "excluded_natmed_claims": 9,
+    "excluded_reddit_records": 2,
+    "included_label_records": 2,
+    "included_natmed_claims": 1,
+    "included_reddit_records": 0
+  },
+  "excluded_records": [
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:88cf9029a0198b6bea27d2d1d2da03c5442592b33d5797117481f40cd41d4b3c",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:eebb885776a41b2ded96c9f777d2e48d3f9e332abe785834e7f20f0071e50b65",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:6360244495b4dfad328a9ca9f51325cb6275dea749b4d3364d1b4501f30b90ec",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:c4bcd4bcd3d166d0a751b8e72ef1a0e12a2c0a67a41f3be1c476a52c33811f3d",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:557d2923c7ff80ad68517ad3283df012d5debb826c126b2a5715020b27a0dea3",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:ad870033336df8652defd4150ae5734b9a582a1410c1730f20d838ff53d71f24",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Safety or dosing context is outside this effectiveness-and-label-composition question; not judged unreliable",
+      "record_id": "claim:72be5a4fad5fb7ccdf57ddd68958b4704bed1c4e9a6ebfc78d8dbb1c668eb12b",
+      "source": "NatMed"
+    },
+    {
+      "reason": "Direct creatine mention, but packaging/scoop discussion is irrelevant to athletic effectiveness",
+      "source": "Reddit",
+      "source_url": "https://old.reddit.com/r/Supplements/comments/1xbmiz3/designed_a_reusable_aluminum_supplement_scoop_out/19rgc7uzlnucg/"
+    },
+    {
+      "reason": "Inherited thread topic only; not a direct creatine statement",
+      "source": "Reddit",
+      "source_url": "https://old.reddit.com/r/Supplements/comments/1xbme8k/legalhigh_supplements/19rg1ztatzi8z/"
+    }
+  ],
+  "graph": "data/graph/creatine-natmed-v1-f174e5e28b21603a",
+  "graph_manifest_sha256": "f174e5e28b21603a97a08ecde0c8998758e927bab7e0657292ad04c8b0509c65",
+  "question": "What do the saved sources say about creatine for athletic performance, and what forms and amounts do the two BPI Creatine Alkaline labels declare?",
+  "review": {
+    "automated_checks": "Source IDs/paths, quantities/basis, forms, pending status, scope markers and citation resolution passed; three negative guards passed.",
+    "clinical_approval": false,
+    "limitation": "One curated answer example, not a general retrieval/ranking system or an independent clinical validation.",
+    "semantic_review": "Paraphrase retains monohydrate scope, tentative rating, uncertainty and conflicting findings. No inference of product efficacy, dose advice or Reddit health effects.",
+    "status": "assistant_reviewed_fixed_example"
+  },
+  "script_sha256": "a4c529f24c5147f55db998ebb3d6070862b42fe12e8d5862adbb1d480c303e57",
+  "source_references": {
+    "labels": [
+      {
+        "evidence_id": "evidence:4c805ee00a4de83fe5e1f62c89f4c8d20c18d6b121235dc76fd366bae08f0f5d",
+        "locator": {
+          "pointer": "/ingredientRows/0/quantity/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:50aeaff0a0886623aa2cf54b552a9fff9f574c0cf555480931e26790c578792b",
+        "locator": {
+          "pointer": "/servingSizes/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:6f43d716dc9d21cc88e3a49f58eb0c26f265a24e23f5120513b4ead4196128c7",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:76c05b57bf81af4f1d4bbd676aab7b656870654f65f2270c65782a5b4400bded",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:9ff9ba2e63e09abd58aa814e554b023a588e3800473573da5ec8f9eb05b69e5e",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/1"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:a2b9c7cca0df5b3199ecfb802577553f9016915e51439a99dfcb77a6130663e8",
+        "locator": {
+          "pointer": "/ingredientRows/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      },
+      {
+        "evidence_id": "evidence:b9d7bb104ddd735b96294710de54e7655bf22eb1c74ec3ca0d17798a7dd524f8",
+        "locator": {
+          "pointer": "/servingSizes/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:c6d2f137f57461161cfbb9352750ed28f0775cce07d5536fc5118a7bdc9ab3a1",
+        "locator": {
+          "pointer": "/ingredientRows/0/forms/1"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:ea1837e7c7de0d21dcb062e1ab77082b1695570db304a5adf7072b9dcc87fe56",
+        "locator": {
+          "pointer": "/ingredientRows/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_25731.json",
+        "source_sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00"
+      },
+      {
+        "evidence_id": "evidence:f52af1c11a56855700b825ed29366d5ede4c3ffc210f68c5b911c5e41234e467",
+        "locator": {
+          "pointer": "/ingredientRows/0/quantity/0"
+        },
+        "source_file": "data/raw/dsld/labels/label_43261.json",
+        "source_sha256": "ef7718016ae4346f76dbf142f03734347bdb4e2d0ec4d25cf8a9bb904063d7ec"
+      }
+    ],
+    "performance": [
+      {
+        "evidence_id": "creatine-expansion-evidence:d3665e07843e18bc7f67ab87f32f2748d374b51c4a610308907d677f424bad57",
+        "locator": {
+          "jsonl_line": 335,
+          "pointer": "/334"
+        },
+        "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+        "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:9759746f9bd0e96db81392ef6b07381ca64257bfab436d803e6f72a9cddbd7a7",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 8033,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/6/text",
+          "start": 0
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:aa869dfa727e50561e9db2360400a848c5ad0b638949d5eaad328c36481555d5",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 18,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/6/text",
+          "start": 0
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      },
+      {
+        "evidence_id": "creatine-expansion-evidence:c2ae89a2645b358fda1cf7e94513b47f08825e8e74eecfbb295dfcf48ed49446",
+        "locator": {
+          "coordinate_system": "unicode_codepoints",
+          "end": 40,
+          "jsonl_line": 4,
+          "pointer": "/3/sections/6/text",
+          "start": 19
+        },
+        "source_file": "data/raw/natmedpro/records.jsonl",
+        "source_sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+      }
+    ],
+    "scope": []
+  }
+}

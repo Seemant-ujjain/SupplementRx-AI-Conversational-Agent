@@ -1,0 +1,43 @@
+{
+  "version": "ingredient-scope-review-v2",
+  "script_sha256": "4eda72e6361cf5db11f3bbfd0df56f8e36159f8926be90ecaeae8c8e09c5dbaa",
+  "inputs": {
+    "data/processed/terminology/terminology-review-v1-34294732268f2352/manifest.json": "625b4a51a37675a0dc0ae605a3099b6a9d68ed967dc0c5de020d0b9a1c8a5f3f",
+    "data/processed/terminology/terminology-review-v1-34294732268f2352/review.json": "ba80ce3ef4f20f22e74f1fa0877826bee743d56fe7ac743c89af067837bcc2f2",
+    "data/processed/terminology/terminology-review-v1-34294732268f2352/dsld_occurrences.csv": "6eda263d04fa0f30bcd86df07a5c8f2ae27fa9b6b46325556b68b72dd9f69f27",
+    "data/raw/pubchem/runs/20261028T035149634190Z/collection.json": "1955e24b577848db946da5313ae6264dd324bd53d4e33461b72cb996d7bd4e00",
+    "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json": "61462e721fe7ce74fc594ba5c0750aa0700d2bad99db8658ee55b3f7932406cc",
+    "data/raw/mesh/runs/20261028T062833838481Z/collection.json": "4ce62fffb7fbb8de74f4366be11e4cdf1a17ccbfef9525ebeb6c8da6c21d85ab",
+    "data/raw/dsld/labels/label_65671.json": "9628b6933e6b8e06f7ed7d61cf0174d975679827cd18ece9e77902d70fc12600",
+    "data/raw/dsld/labels/label_80083.json": "7753fbb0468e5b58c0660f3463777c790f263e1059691d58cc1f8b6849bb6781",
+    "data/raw/dsld/labels/label_11613.json": "50836aaef2707c56607bdc5d22583e1ab0a3f678a4546ff7503aea71e687611c",
+    "data/raw/dsld/labels/label_215449.json": "7e894d1e09f01b374870bbbca67b456443778ff52e356a9bf0cd461ebe1596e7",
+    "data/raw/dsld/labels/label_177509.json": "88cc31be29aafe1306437265a8b95e2b33e886fef5e634ac2a008c0f7d3593a9",
+    "data/raw/dsld/labels/label_54155.json": "4e6358c3525c43c5fba2c879f96845a0adbbba7a30b2d2702ed2377eb53b0890",
+    "data/raw/dsld/labels/label_259959.json": "396e1d5c37cf93c63165bc07f77e8146fd628bdbab9415aa436814a2411dbd74",
+    "data/raw/dsld/labels/label_260008.json": "8b4bbeede6ef8fb8e2fe69facd2f75d272e911efd673afbd2cfa6d6f98a9c223",
+    "data/raw/dsld/labels/label_214296.json": "3cbd6d2cba169461301ec0cbd3385618d9de57cf097fe8a4e2631e51f80abd72",
+    "data/raw/dsld/labels/label_219999.json": "03e35091baf4adaf97430bfcb6314466f480d57fc89491ba9fe35ca4f21ce572",
+    "data/raw/dsld/labels/label_13653.json": "be7325c48d39ee775a5bd1c50bdd5f06a2eb8d0b8f2da8d8a9c41735938c313f",
+    "data/raw/dsld/labels/label_69019.json": "7bb308ea21bb60ca8e51b730107e6788b8ac1cd76c94710b60346d14aa20b373",
+    "data/raw/dsld/labels/label_39970.json": "76e2cd0641d734ec0c08a9bd5aacad9daae303a75e1ac155cbd9c18d88bf4f23",
+    "data/raw/dsld/labels/label_54522.json": "0584c9889704a1cc7d196c499fcec59cac99292da7307721c27008eea9c5b745",
+    "data/raw/dsld/labels/label_25775.json": "34d1f2877a293974b72811c4547fdb5151b66f9700ed1e92c99474214aa5432c",
+    "data/raw/dsld/labels/label_3714.json": "fc0cffc4f39cd15c64dd2e33e1c3a538d6feb86ae32737f44f90a81ee766cf00",
+    "data/raw/dsld/labels/label_74939.json": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496",
+    "data/raw/dsld/labels/label_74940.json": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb",
+    "data/raw/dsld/labels/label_32494.json": "44faf8c462f284d3fd49e21ceea2bb555beed501c4b66b6e0a60f84c1e3ee0de"
+  },
+  "raw_file_count": 488,
+  "raw_files_unchanged": true,
+  "files": {
+    "review.json": {
+      "sha256": "8ef7a7083209542691ddcaf49564f3d8fb73850b26ed52470ebfcb98aa444015",
+      "bytes": 101705
+    },
+    "mapping_review.csv": {
+      "sha256": "7d0684361da068699d89195fb2a04b427a05ac8c9a46ffbad0f92e506212d889",
+      "bytes": 10823
+    }
+  }
+}
