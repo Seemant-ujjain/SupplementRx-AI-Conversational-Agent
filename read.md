@@ -32,6 +32,15 @@ The validator checks selected-file hashes, graph counts, unique IDs, endpoints, 
 
 The graph's `input_manifest.json` records historical build lineage. Some build-time inputs are intentionally excluded from this consumption package; rebuilding all stages requires the development branch. Structural/source-support validation is not clinical approval.
 
+## Team notebooks
+
+Run these in order with a Python 3 notebook kernel (Jupyter or a compatible editor):
+
+1. [KG_Handoff_Exploration.ipynb](notebooks/KG_Handoff_Exploration.ipynb): validate the package, inspect node/relationship counts, follow a product–ingredient–concept example and inspect a pending NatMed annotation.
+2. [Embedding_and_Retrieval_Starter.ipynb](notebooks/Embedding_and_Retrieval_Starter.ipynb): inspect candidate text inputs and source roles, then follow the proposed embedding/index organization and implementation checklist. It does not generate embeddings or train models.
+
+Both notebooks have executed outputs, read only the handoff files and use standard-library Python in their code cells. The notebook interface is installed separately; no development virtual environment is required. Full historical construction notebooks remain on `preprocessing-kg-schema`.
+
 ## Reading records
 
 - Node columns: `id`, `type`, `properties_json`, `evidence_ids`.
