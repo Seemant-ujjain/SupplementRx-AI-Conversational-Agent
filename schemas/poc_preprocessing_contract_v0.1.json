@@ -1,0 +1,780 @@
+{
+  "contract_id": "supplementrx-poc-preprocessing",
+  "version": "0.1.0",
+  "status": "reviewed_design_baseline_for_bounded_pilot",
+  "contract_kind": "table_and_pipeline_specification_not_JSON_Schema",
+  "authority": "Step 7 of notebooks/Schema_Design_and_Mapping.ipynb; this contract supersedes earlier draft conventions only where explicitly stated.",
+  "implementation_status": "not_started",
+  "clinical_approval": false,
+  "rule_versions": {
+    "source_mapping": "source-field-mapping-v0.1",
+    "identity": "step5a-id01-id22-draft-v1",
+    "ingredient_acceptance": "ingredient-acceptance-draft-v1",
+    "mapping_semantics": "mapping-semantics-draft-v2",
+    "products": "product-boundaries-draft-v1",
+    "references": "reference-resolution-draft-v1",
+    "version_history": "version-history-draft-v1",
+    "normalization": "normalization-draft-v1",
+    "deduplication": "deduplication-draft-v1"
+  },
+  "formats": {
+    "processed": "UTF-8 JSONL; one JSON object per row; arrays/objects preserved; explicit nulls; no NaN/Infinity; fixed field contract; stable ID sort for output",
+    "numbers": "Original values/types and raw evidence retained; derived decimal quantities serialized as decimal strings, never binary-float comparison values",
+    "paths": "Project-relative artifact paths and exact typed locators",
+    "missingness": "Explicit null plus source-field presence/missingness state; absent source fields must not be confused with null",
+    "graph_export": "Deferred; no Neo4j import or graph CSV in this pilot"
+  },
+  "build": {
+    "root": "data/processed/poc/<build_id>/",
+    "build_id_inputs": [
+      "contract file sha256",
+      "selected input manifest sha256",
+      "implementation code sha256",
+      "configuration sha256",
+      "rule versions",
+      "software dependency versions"
+    ],
+    "required_files": [
+      "manifest.json",
+      "validation_report.json",
+      "review_queue.jsonl"
+    ],
+    "immutable": true,
+    "repeat_policy": "Same build key must verify identical output bytes or raise reproducibility conflict; never overwrite a changed prior build."
+  },
+  "identity_keys": {
+    "encoding": "Typed JSON arrays of namespace/type/string identity components, UTF-8 with ensure_ascii=True and separators=(comma,colon); SHA-256 digest prefixed by entity kind. Components must not use floats or ambiguous concatenation. Implementation fixtures required.",
+    "source_record": [
+      "source system",
+      "native entity type",
+      "native ID"
+    ],
+    "pilot_snapshot": [
+      "source_record_id",
+      "raw-bytes-v1",
+      "container_bound_record",
+      "artifact sha256",
+      "exact record locator"
+    ],
+    "pilot_snapshot_scope": "Conservative container-bound source representation; a containing-file change can version every member. The digest describes the entire retained container, not the isolated record. Preserve locator and payload_scope. No false claim of per-record semantic fingerprinting.",
+    "occurrence": [
+      "snapshot_id",
+      "source locator",
+      "role"
+    ],
+    "derived_assertion": [
+      "snapshot_id",
+      "source locator or native annotation ID",
+      "assertion kind",
+      "extraction contract version"
+    ],
+    "canonical_identity": "Opaque persisted IDs only after acceptance; canonical identity table remains empty in pilot.",
+    "profile_migration": "json-lossless-tree-v1 is deferred until its fixtures pass; later adoption creates a new profile and explicit migration, not rewritten snapshot IDs."
+  },
+  "enums": {
+    "mapping_relation": [
+      "candidate_unspecified",
+      "denotes_concept",
+      "member_of_category",
+      "exact_material_match",
+      "origin_broader_than_target",
+      "origin_narrower_than_target",
+      "related_entity"
+    ],
+    "identity_review": [
+      "unreviewed",
+      "needs_review",
+      "accepted",
+      "rejected"
+    ],
+    "identifier_state": [
+      "missing",
+      "invalid",
+      "ambiguous",
+      "usable"
+    ],
+    "target_availability": [
+      "not_assessable",
+      "not_collected",
+      "collected"
+    ],
+    "resolution_state": [
+      "unresolved",
+      "candidate",
+      "resolved",
+      "conflicting"
+    ],
+    "content_status": [
+      "not_assessed",
+      "incomplete_for_task",
+      "sufficient_for_task"
+    ],
+    "normalization_outcome": [
+      "unchanged",
+      "normalized",
+      "blocked",
+      "not_applicable"
+    ],
+    "comparison_outcome": [
+      "candidate",
+      "equivalent_for_scope",
+      "distinct",
+      "unresolved",
+      "conflicting"
+    ]
+  },
+  "source_mapping": {
+    "dsld": {
+      "identity": "id -> source_records.native_id; brandName/fullName/offMarket/entryDate and product review fields -> snapshots.attributes",
+      "occurrences": "ingredientRows recursively; nestedRows; forms; otheringredients.ingredients and forms. Preserve parent locator/role, ingredientId/name/notes/description/prefix/percent.",
+      "assertions": "Every quantity entry -> one composition assertion; unusable quantities retained with original unit/operator/basis and blocked normalized amount. Rows without quantity -> presence assertion. Forms never inherit parent amount.",
+      "servings": "servingSizes[] -> servings; quantity basis stored independently; resolve servingSizeOrder within label snapshot only.",
+      "statements": "Directions, precautions, storage -> label_statement assertions, original type/text; general marketing deferred.",
+      "references": "labelRelationships[] -> source_references, no automatic product grouping.",
+      "deferred": "Images/contacts/marketing and daily-value percentages remain raw; original quantity evidence retains full source object."
+    },
+    "pubchem": {
+      "identity": "records[{cid}].cid and properties.CID must agree -> source_records/ChemicalCompound role.",
+      "attributes": "properties Title/IUPACName/MolecularFormula/MolecularWeight/ConnectivitySMILES/InChI/InChIKey and synonyms -> source snapshots/term_values with typed evidence.",
+      "lookups": "queries occurrences -> lookup_origins; search_results and request/method/status -> lookups; every returned target -> separate mapping candidate for each exact source occurrence."
+    },
+    "rxnorm": {
+      "identity": "records[{rxcui}].rxcui and properties.response.properties.rxcui -> source_records/TerminologyConcept role.",
+      "attributes": "name/tty/language/suppress; NAMES, selected UNII_CODE/DRUGBANK/SNOMEDCT CODES and SOURCES properties -> term_values/snapshot attributes.",
+      "lookups": "Preserve exact/normalized sequence and all targets; flags/validity never approve mappings.",
+      "deferred": "SPL_SET_ID bulk remains raw; blank umlscui is not a key."
+    },
+    "mesh": {
+      "identity": "Full subject URI and RDF role -> source_records when described; object-only targets -> source_references.",
+      "attributes": "Retain typed RDF values, datatype/language, labels and scope notes on actual subjects.",
+      "relationships": "Original concept/term/hierarchy/mapping predicates -> vocabulary_statements with snapshot provenance; no sameAs conversion.",
+      "lookups": "queries/search_results/resolution responses/candidate_record_index preserve term/concept/record distinction and complete candidates."
+    },
+    "natmedpro": {
+      "identity": "Monograph id and native claim id retained; source/import/annotation representations distinguished.",
+      "assertions": "claim type/text, ingredient/formulation/strain, population/indication, all ratings, dose and interaction objects -> clinical assertion attributes. Nulls preserved; all existing clinical reviews stay pending.",
+      "support": "source.record_id/section_index/start/end/excerpt -> evidence. Each field_support span keeps its coordinate system/role; no assumption all anchors lie inside main excerpt.",
+      "references": "Local citations only when explicitly located and scoped; no bibliography-wide claim-to-study links. Reference documents retained with capture provenance; claim citation extraction deferred.",
+      "passages": "Preserve upstream passage ID/section/word window/chunk version as passage provenance; not independent clinical evidence."
+    },
+    "reddit": {
+      "identity": "native_id/record_type validated against t1/t3; id wrapper preserved.",
+      "attributes": "Original text/title/date/url/subreddit/evidence_role retained; no author enrichment.",
+      "topics": "supplements/matched_terms + record-level mention_scope -> topic_associations; own_text does not prove every topic individually mentioned.",
+      "references": "parent_id and thread_id -> separate source_references; unknown parent not inferred from thread.",
+      "passages": "Word-window provenance remains distinct from character support spans.",
+      "forbidden": "No Reddit ClinicalAssertion extraction or clinical approval in POC."
+    }
+  },
+  "tables": {
+    "artifacts": {
+      "file": "artifacts.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "relative_path": "string",
+        "sha256": "string",
+        "byte_length": "integer",
+        "media_type": "string"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {},
+      "pilot": "as_applicable"
+    },
+    "source_records": {
+      "file": "source_records.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "source_system": "string",
+        "native_type": "string",
+        "native_id": "string",
+        "source_role": "string",
+        "original_identity": "object"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {},
+      "pilot": "as_applicable"
+    },
+    "snapshots": {
+      "file": "snapshots.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "record_id": "string",
+        "artifact_id": "string",
+        "locator": "object",
+        "representation_kind": "string",
+        "fingerprint_profile": "string",
+        "payload_scope": "string",
+        "payload_digest": "string",
+        "attributes": "object",
+        "field_states": "object"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "record_id": "source_records",
+        "artifact_id": "artifacts"
+      },
+      "pilot": "as_applicable"
+    },
+    "capture_events": {
+      "file": "capture_events.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "run_id": "string",
+        "artifact_id": "string",
+        "snapshot_ids": "string[]",
+        "observed_at_original": "string?",
+        "imported_at_original": "string?",
+        "source_version": "object",
+        "metadata": "object"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "artifact_id": "artifacts",
+        "snapshot_ids": "snapshots"
+      },
+      "pilot": "as_applicable"
+    },
+    "evidence": {
+      "file": "evidence.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "artifact_id": "string",
+        "locator_kind": "string",
+        "locator": "object",
+        "support_role": "string",
+        "original_value": "json",
+        "original_presence": "string"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "artifact_id": "artifacts"
+      },
+      "pilot": "as_applicable"
+    },
+    "occurrences": {
+      "file": "occurrences.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "parent_id": "string?",
+        "role": "string",
+        "native_ingredient_id": "json",
+        "original_name": "string?",
+        "attributes": "object",
+        "field_states": "object",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "parent_id": "occurrences",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "servings": {
+      "file": "servings.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "source_order": "json",
+        "attributes": "object",
+        "field_states": "object",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "assertions": {
+      "file": "assertions.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "kind": "string",
+        "native_assertion_id": "string?",
+        "subject_snapshot_id": "string",
+        "occurrence_id": "string?",
+        "serving_id": "string?",
+        "original_fields": "object",
+        "field_states": "object",
+        "source_review": "object",
+        "evidence_role": "string",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "subject_snapshot_id": "snapshots",
+        "occurrence_id": "occurrences",
+        "serving_id": "servings",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "term_values": {
+      "file": "term_values.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "property_name": "string",
+        "typed_value": "object",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "vocabulary_statements": {
+      "file": "vocabulary_statements.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "subject_uri": "string",
+        "predicate_uri": "string",
+        "typed_object": "object",
+        "graph_scope": "string?",
+        "target_record_id": "string?",
+        "reference_id": "string?",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "target_record_id": "source_records",
+        "reference_id": "source_references",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "lookups": {
+      "file": "lookups.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "source_system": "string",
+        "query_key": "string",
+        "query": "string",
+        "variants": "string[]",
+        "method": "string?",
+        "source_status": "json",
+        "outcome": "string",
+        "candidate_target_keys": "object[]",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "lookup_origins": {
+      "file": "lookup_origins.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "lookup_id": "string",
+        "occurrence_id": "string",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "lookup_id": "lookups",
+        "occurrence_id": "occurrences",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "mapping_assertions": {
+      "file": "mapping_assertions.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "origin_occurrence_id": "string",
+        "target_record_id": "string",
+        "target_snapshot_id": "string",
+        "lookup_id": "string?",
+        "relation": "string",
+        "origin_role": "string?",
+        "origin_scope": "object",
+        "target_scope": "object",
+        "review_state": "string",
+        "rule_versions": "object",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "origin_occurrence_id": "occurrences",
+        "target_record_id": "source_records",
+        "target_snapshot_id": "snapshots",
+        "lookup_id": "lookups",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "source_references": {
+      "file": "source_references.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "source_snapshot_id": "string",
+        "role": "string",
+        "original_reference": "json",
+        "target_key": "object?",
+        "identifier_state": "string",
+        "target_availability": "string",
+        "resolution_state": "string",
+        "content_status": "string",
+        "target_record_id": "string?",
+        "target_snapshot_id": "string?",
+        "task_requirement": "object?",
+        "reason_codes": "string[]",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "source_snapshot_id": "snapshots",
+        "target_record_id": "source_records",
+        "target_snapshot_id": "snapshots",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "topic_associations": {
+      "file": "topic_associations.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "topic_key": "string",
+        "original_topic": "string",
+        "matched_terms": "string[]",
+        "mention_scope": "string?",
+        "scope_level": "string",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "passages": {
+      "file": "passages.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "snapshot_id": "string",
+        "native_passage_id": "string",
+        "text": "string",
+        "window": "object",
+        "source_role": "string",
+        "metadata": "object",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "snapshot_id": "snapshots",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "deferred_until_window_validation"
+    },
+    "transformations": {
+      "file": "transformations.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "owner_table": "string",
+        "owner_id": "string",
+        "destination_field": "string",
+        "original_value": "json",
+        "original_presence": "string",
+        "normalized_value": "json",
+        "value_state": "string",
+        "outcome": "string",
+        "review_required": "boolean",
+        "reason_codes": "string[]",
+        "rule_id": "string",
+        "rule_version": "string",
+        "parameters": "object",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "review_queue": {
+      "file": "review_queue.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "owner_table": "string",
+        "owner_id": "string",
+        "stage": "string",
+        "reason_codes": "string[]",
+        "status": "string",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "evidence_ids": "evidence"
+      },
+      "pilot": "as_applicable"
+    },
+    "review_events": {
+      "file": "review_events.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "owner_table": "string",
+        "owner_id": "string",
+        "decision_kind": "string",
+        "decision": "object",
+        "method": "string",
+        "reviewer": "string?",
+        "event_time": "string",
+        "prior_event_id": "string?",
+        "evidence_ids": "string[]"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "prior_event_id": "review_events",
+        "evidence_ids": "evidence"
+      },
+      "pilot": "empty_no_approvals"
+    },
+    "canonical_identities": {
+      "file": "canonical_identities.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "identity_kind": "string",
+        "scope": "object",
+        "family_id": "string?",
+        "review_event_id": "string"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "family_id": "canonical_identities",
+        "review_event_id": "review_events"
+      },
+      "pilot": "empty_no_identity_assignment"
+    },
+    "comparison_groups": {
+      "file": "comparison_groups.jsonl",
+      "primary_key": "id",
+      "fields": {
+        "id": "string",
+        "contract_version": "string",
+        "purpose": "string",
+        "scope": "object",
+        "members": "object[]",
+        "outcome": "string",
+        "representative": "object?",
+        "review_event_id": "string?",
+        "rule_versions": "object"
+      },
+      "all_fields_required": true,
+      "nullable_convention": "? means explicit null allowed; original absence represented in field_states or source evidence; arrays preserve multiplicity",
+      "foreign_keys": {
+        "review_event_id": "review_events"
+      },
+      "pilot": "empty_no_semantic_grouping"
+    }
+  },
+  "pilot": {
+    "implementation_notebook": "notebooks/Preprocessing_Pilot.ipynb (planned, not created by Step 7)",
+    "dsld_label_ids": [
+      1452,
+      25731,
+      43261,
+      74939,
+      74940,
+      257287,
+      249674
+    ],
+    "natmed_claim_ids": [
+      "claim:3a1e7c59e8144dd11cfe90e000be0afa605130adb7d5baf9a94e590a529ea45f"
+    ],
+    "reddit_ids": [
+      "reddit:t1_19rg1ztatzi8z",
+      "reddit:t1_19rl50ku815cw",
+      "reddit:t1_19rgc7uzlnucg"
+    ],
+    "terminology_scope": "Saved candidates, definitions and lookup provenance connected to selected label occurrences; plus saved MeSH D017962/D015525 hierarchy fixture. Declare exactly selected source objects in input manifest; no network expansion.",
+    "allowed_normalization_rules": [
+      "N-T01 display-only trim",
+      "N-T02 separate name search key",
+      "N-I01 source field-specific integer/string ID representation",
+      "N-U01 explicit plain-mass aliases",
+      "N-U02 exact decimal mass comparison",
+      "N-Q02 NP/zero distinction",
+      "N-Q03 preserve operator and bounds",
+      "N-Q04 preserve explicit basis"
+    ],
+    "preconditions": "Validate rule fixtures and source hashes before generating pilot outputs. No alias decision auto-acceptance, no conflicting-dose arithmetic.",
+    "excluded": [
+      "per-unit/daily-dose derivation",
+      "mass-volume/activity conversions",
+      "clinical claim splitting",
+      "canonical product/ingredient assignment",
+      "semantic deduplication",
+      "display representative selection",
+      "external enrichment",
+      "graph export/import",
+      "embeddings",
+      "GNN/LLM training"
+    ],
+    "deduplication": "D-01 exact archived-input replay suppression only; do not merge distinct source IDs, captures, occurrences or assertions.",
+    "date_handling": "Copy source dates/roles verbatim in pilot; typed date conversion deferred unless explicitly added and tested."
+  },
+  "validation_gates": [
+    {
+      "id": "V1",
+      "gate": "Input integrity",
+      "failure_action": "stop build",
+      "checks": "All selected artifacts match pinned hashes; declared selection paths exist; source IDs/types/locators agree."
+    },
+    {
+      "id": "V2",
+      "gate": "Structure and referential integrity",
+      "failure_action": "stop build",
+      "checks": "Required columns/types/enums, unique IDs, valid FKs, nonempty evidence for source-backed assertions; unresolved target keys never emitted as fabricated record FKs."
+    },
+    {
+      "id": "V3",
+      "gate": "Multiplicity and source preservation",
+      "failure_action": "stop build",
+      "checks": "Reconcile selected row/form/quantity/topic/reference counts to source; preserve null vs absent, hierarchy, source roles, fields selected for projection and all raw values."
+    },
+    {
+      "id": "V4",
+      "gate": "Normalization invariants",
+      "failure_action": "stop build on wrong transformation; queue supported source gaps",
+      "checks": "1.5g->1500mg exact decimal; same numerical value with different basis not equivalent; zero NP vs zero mg; inequalities, ranges and conflicts; no parent amount propagation."
+    },
+    {
+      "id": "V5",
+      "gate": "Evidence support and review separation",
+      "failure_action": "stop build",
+      "checks": "Validate claim/source spans and field-support coordinates independently; preserve clinical pending, identity states, reference resolution and Reddit mention scope; no approvals produced."
+    },
+    {
+      "id": "V6",
+      "gate": "Reference and lifecycle behavior",
+      "failure_action": "stop build",
+      "checks": "Null parent vs uncollected target distinct; captured incomplete target can resolve; replay same input creates no duplicate logical rows; new capture/update fixtures retain history."
+    },
+    {
+      "id": "V7",
+      "gate": "Reproducibility and immutability",
+      "failure_action": "stop build",
+      "checks": "Deterministic output hashes on rerun; raw/read.md and prior artifact hashes unchanged; no output key reused with differing bytes."
+    },
+    {
+      "id": "V8",
+      "gate": "Human-readable pilot inspection",
+      "failure_action": "do not expand automatically",
+      "checks": "Display positive, negative and ambiguous outputs with provenance; report unresolved counts by entity/row unit; inspect results before widening scope."
+    }
+  ],
+  "open_items": [
+    "Scope/alias evidence and fully specified mixture identity not universally resolved (G1).",
+    "No final product grouping across 400 labels (G2).",
+    "Reference storage and task-completeness profiles need implementation validation (G3).",
+    "Lossless fingerprint profile and lifecycle implementation need tests (G4).",
+    "End-to-end implementation/graph/retrieval validation remains pending (G5).",
+    "Contract is not a complete JSON Schema validator; implement structural and semantic validation gates before transformations."
+  ],
+  "table_constraints": [
+    "All fields declared in a table are required in each emitted row; nullable values remain explicit null. Object fields are selected source-field projections, not opaque approval flags. field_states records absent/null/empty/placeholder as applicable; source evidence retains originals.",
+    "Polymorphic owner_table/owner_id and comparison-group members must resolve to emitted table IDs; validate explicitly in addition to listed foreign keys.",
+    "assertions.kind is composition, presence, label_statement or clinical. All source-backed assertions have nonempty evidence_ids. clinical only for imported NatMed claims; original_fields preserves complete selected source attributes and source_review independently.",
+    "Composition original_fields preserves amount, operator, unit, explicit basis, parent role and qualifiers; clinical original_fields preserves ingredient/population/indication/ratings/dose/interaction/source context. Unknown fields remain unknown.",
+    "Mapping relation uses mapping_relation enum; review_state uses identity_review enum. Pilot emits only candidate_unspecified with unreviewed/needs_review; curated recommendations are separate review evidence, never approvals.",
+    "Mapping target_snapshot_id must belong to target_record_id; clinical subject_snapshot_id must match the source monograph version; servings/occurrences must resolve within correct label snapshot.",
+    "A usable reference key without captured target has null target record/snapshot FKs; target_availability=not_collected. Missing identifiers use not_assessable. Resolved reference requires captured, compatible target; content may remain incomplete.",
+    "A snapshot can represent a collection/lookup response with a collector/run-scoped source record, explicitly typed collection_response rather than a domain entity.",
+    "MeSH object-only target URI is a reference, not an invented source record. Typed RDF objects preserve URI/literal, datatype and language.",
+    "Semantic equivalence does not follow from normalized values. transformations holds proposed derived values separately; original assertions are not overwritten.",
+    "Empty/deferred tables are listed as such in manifest with explicit reason; absent file is never silently interpreted as zero rows. No canonical product/ingredient or approval rows are emitted by pilot.",
+    "Topic keys refer to a fixed project topic registry recorded in configuration; they are not ingredient canonical IDs."
+  ],
+  "output_manifest_fields": [
+    "contract id/version/sha256",
+    "build_id",
+    "input artifacts and hashes",
+    "selection scope and record IDs",
+    "rule and code/config/dependency versions",
+    "fingerprint profile/payload scopes",
+    "source-to-output lineage",
+    "tables: status/file/row_count/sha256/bytes",
+    "validation report reference",
+    "unresolved counts by stage and unit",
+    "raw_files_unchanged",
+    "execution provenance stored separately from deterministic payloads"
+  ]
+}

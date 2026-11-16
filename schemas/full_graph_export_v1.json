@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "scope": "Step 5: full saved collection, attributed source graph; final POC validation and freeze deferred to Step 6",
+  "identity": "Source-scoped label snapshots, ingredient occurrences, claims and Reddit records; reuse terminology namespace/native IDs. No canonical merges or same-as edges.",
+  "mapping": "Export exactly High-confidence terminology, NatMed-subject and additional reviewed category proposals using their approved relation types. Medium, Low and no-target cases remain separate review rows.",
+  "dsld": "Retain all source assertions, issues, supported transformations and quantity-review gates. Source-declared relationships are attributed annotations, not equivalence. Nested components are not automatically forms.",
+  "natmed": "Export all technically validated claims as pending annotations with original fields, excerpts, field anchors and citations; never infer product applicability, clinical approval or recommendations.",
+  "reddit": "Retain posts, comments, passages and source references. Literal mentions and inherited thread topics remain distinct; no efficacy, safety or personal-use inference.",
+  "mesh": "Preserve typed literals including language/datatype on source subject nodes; preserve URI statements with their predicate and provenance. Uncollected URI targets are references, not fetched entities.",
+  "outputs": "Separate node-type CSVs, a relationships CSV, provenance JSONL, review queues, immutable input/output hash manifests and validation report.",
+  "out_of_scope": ["embeddings", "Neo4j import", "canonical brands/products inferred from names", "clinical approval", "POC freeze", "general QA"]
+}

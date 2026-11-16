@@ -1,0 +1,2878 @@
+{
+  "version": "ingredient-scope-review-v2",
+  "semantics_version": "mapping-semantics-draft-v2",
+  "selection_policy": "Purposive 12-class, 20-occurrence pilot. Generally the two lowest label IDs per selected query, or the only occurrence. Probiotic Blend 11613 intentionally repeats the earlier pilot for contrast with 32494. Not random or exhaustive.",
+  "summary": {
+    "query_classes": 12,
+    "occurrences": 20,
+    "saved_candidate_links": 17,
+    "manual_category_proposals": 2,
+    "no_target_occurrences": 9,
+    "review_rows": 28,
+    "recommendation_counts": {
+      "needs_evidence": 8,
+      "supported_for_review": 11,
+      "no_target": 9
+    },
+    "accepted_mappings": 0,
+    "merged_entities": 0
+  },
+  "cases": [
+    {
+      "case_id": "case-01",
+      "origin": {
+        "query_key": "alpha-linolenic acid",
+        "dsld_id": "65671",
+        "search_categories": "[\"Omega-3\"]",
+        "ingredient_id": "284747",
+        "name": "Alpha-Linolenic Acid",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[2].nestedRows[2].nestedRows[0].nestedRows[0]",
+        "source_file": "data/raw/dsld/labels/label_65671.json",
+        "source_sha256": "9628b6933e6b8e06f7ed7d61cf0174d975679827cd18ece9e77902d70fc12600"
+      },
+      "occurrence": {
+        "order": 9,
+        "ingredientId": 284747,
+        "description": null,
+        "notes": null,
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Softgel(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Alpha-Linolenic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Alpha-Linolenic Acid",
+        "uniiCode": "0RBV727H71",
+        "alternateNames": [
+          "ALA",
+          "C18:3n-3"
+        ],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "pubchem",
+          "collection_file": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+          "id": "pubchem:CID:5280934",
+          "source_id": 5280934,
+          "name": "Linolenic Acid",
+          "properties": {
+            "CID": 5280934,
+            "MolecularFormula": "C18H30O2",
+            "MolecularWeight": "278.4",
+            "ConnectivitySMILES": "CCC=CCC=CCC=CCCCCCCCC(=O)O",
+            "InChI": "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/b4-3-,7-6-,10-9-",
+            "InChIKey": "DTOSIQBPPRVQHS-PDBXOOCHSA-N",
+            "IUPACName": "(9Z,12Z,15Z)-octadeca-9,12,15-trienoic acid",
+            "Title": "Linolenic Acid"
+          },
+          "source_pointer": "/records/5280934/properties",
+          "matching_aliases": [
+            {
+              "value": "linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/0"
+            },
+            {
+              "value": "alpha-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/1"
+            },
+            {
+              "value": "alpha Linolenic Acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/7"
+            },
+            {
+              "value": "(9,12,15)-linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/10"
+            },
+            {
+              "value": "Linolenic acid, crude",
+              "source_pointer": "/records/5280934/synonyms/Synonym/14"
+            },
+            {
+              "value": "FEMA NO. 3380, LINOLENIC ACID-",
+              "source_pointer": "/records/5280934/synonyms/Synonym/31"
+            },
+            {
+              "value": "alpha Linolenic Acid, Zinc Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/33"
+            },
+            {
+              "value": "alpha Linolenic Acid, Sodium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/34"
+            },
+            {
+              "value": "alpha Linolenic Acid, Calcium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/35"
+            },
+            {
+              "value": "alpha Linolenic Acid, Lithium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/36"
+            },
+            {
+              "value": "alpha Linolenic Acid, Ammonium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/37"
+            },
+            {
+              "value": "alpha Linolenic Acid, Magnesium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/38"
+            },
+            {
+              "value": "alpha Linolenic Acid, Potassium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/39"
+            },
+            {
+              "value": "a-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/44"
+            },
+            {
+              "value": ".alpha.-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/45"
+            },
+            {
+              "value": "Linolenic acid?",
+              "source_pointer": "/records/5280934/synonyms/Synonym/46"
+            },
+            {
+              "value": "Linolenic Acid (~90%)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/52"
+            },
+            {
+              "value": "LINOLENIC ACID (18:3 n-3)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/56"
+            },
+            {
+              "value": "Linolenic acid (8CI)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/67"
+            },
+            {
+              "value": "alpha-Linolenic acid; ALA; cis-alpha-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/68"
+            },
+            {
+              "value": "alpha-linolenic-acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/73"
+            },
+            {
+              "value": "Linolenic acid - 70%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/76"
+            },
+            {
+              "value": "Linolenic acid - 85%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/77"
+            },
+            {
+              "value": "Linolenic acid - 98%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/78"
+            },
+            {
+              "value": "Linolenic acid(|A-Lnn)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/79"
+            },
+            {
+              "value": "Linolenic acid, >=99%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/81"
+            },
+            {
+              "value": "Linolenic acid, 98.5%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/82"
+            },
+            {
+              "value": "Linolenic acid, tech grade",
+              "source_pointer": "/records/5280934/synonyms/Synonym/83"
+            },
+            {
+              "value": "alpha-Linolenic Acid tech.",
+              "source_pointer": "/records/5280934/synonyms/Synonym/84"
+            },
+            {
+              "value": "LINOLENIC ACID [MI]",
+              "source_pointer": "/records/5280934/synonyms/Synonym/85"
+            }
+          ]
+        },
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:52071",
+          "source_id": "52071",
+          "name": "linolenic acid",
+          "term_type": "PIN",
+          "source_pointer": "/records/52071/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "linolenic acid",
+              "source_pointer": "/records/52071/all_properties/response/propConceptGroup/propConcept/60"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "linolenic acid",
+              "source_pointer": "/records/52071/all_properties/response/propConceptGroup/propConcept/61"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Synonym",
+              "propValue": "alpha-linolenic acid",
+              "source_pointer": "/records/52071/all_properties/response/propConceptGroup/propConcept/62"
+            }
+          ]
+        },
+        {
+          "source": "mesh",
+          "collection_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+          "id": "http://id.nlm.nih.gov/mesh/D017962",
+          "source_id": "D017962",
+          "name": [
+            "alpha-Linolenic Acid"
+          ],
+          "record_types": [
+            "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+          ],
+          "concept_scope_notes": [
+            {
+              "concept": "http://id.nlm.nih.gov/mesh/M0027126",
+              "scope_notes": [
+                "A fatty acid that is found in plants and involved in the formation of prostaglandins."
+              ]
+            }
+          ],
+          "resolution_links": [
+            {
+              "term": "http://id.nlm.nih.gov/mesh/T053674",
+              "concept": "http://id.nlm.nih.gov/mesh/M0027126",
+              "record": "http://id.nlm.nih.gov/mesh/D017962",
+              "type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "ok",
+        "rxnorm": "matched",
+        "mesh": "matched"
+      },
+      "additional_proposals": [
+        {
+          "method": "manual_evidence_led_category_proposal",
+          "target": {
+            "id": "http://id.nlm.nih.gov/mesh/D015525",
+            "source_id": "D015525",
+            "name": [
+              "Fatty Acids, Omega-3"
+            ],
+            "record_types": [
+              "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+            ],
+            "concept_scope_notes": [
+              {
+                "concept": "http://id.nlm.nih.gov/mesh/M0023885",
+                "scope_notes": [
+                  "A group of unsaturated fatty acids occurring mainly in fish oils, with three double bonds at particular positions in the hydrocarbon chain."
+                ]
+              }
+            ],
+            "resolution_links": [
+              {
+                "term": "http://id.nlm.nih.gov/mesh/T046023",
+                "concept": "http://id.nlm.nih.gov/mesh/M0023885",
+                "record": "http://id.nlm.nih.gov/mesh/D015525",
+                "type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "source_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "locator_kind": "rdf_statement",
+              "binding_index_in_flattened_subgraphs": 19651,
+              "statement": {
+                "record": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/D017962"
+                },
+                "subject": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/D017962"
+                },
+                "predicate": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor"
+                },
+                "object": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/D015525"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "case-02",
+      "origin": {
+        "query_key": "alpha-linolenic acid",
+        "dsld_id": "80083",
+        "search_categories": "[\"Omega-3\"]",
+        "ingredient_id": "284747",
+        "name": "Alpha-Linolenic Acid",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[4].nestedRows[0]",
+        "source_file": "data/raw/dsld/labels/label_80083.json",
+        "source_sha256": "7753fbb0468e5b58c0660f3463777c790f263e1059691d58cc1f8b6849bb6781"
+      },
+      "occurrence": {
+        "order": 7,
+        "ingredientId": 284747,
+        "description": "",
+        "notes": "Omega-3 (Form: Alpha-Linolenic Acid)",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 3,
+            "operator": "=",
+            "quantity": 1500,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Softgel(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Alpha-Linolenic Acid",
+        "category": "fatty acid",
+        "ingredientGroup": "Alpha-Linolenic Acid",
+        "uniiCode": "0RBV727H71",
+        "alternateNames": [
+          "ALA",
+          "C18:3n-3"
+        ],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "pubchem",
+          "collection_file": "data/raw/pubchem/runs/20261028T035149634190Z/collection.json",
+          "id": "pubchem:CID:5280934",
+          "source_id": 5280934,
+          "name": "Linolenic Acid",
+          "properties": {
+            "CID": 5280934,
+            "MolecularFormula": "C18H30O2",
+            "MolecularWeight": "278.4",
+            "ConnectivitySMILES": "CCC=CCC=CCC=CCCCCCCCC(=O)O",
+            "InChI": "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/b4-3-,7-6-,10-9-",
+            "InChIKey": "DTOSIQBPPRVQHS-PDBXOOCHSA-N",
+            "IUPACName": "(9Z,12Z,15Z)-octadeca-9,12,15-trienoic acid",
+            "Title": "Linolenic Acid"
+          },
+          "source_pointer": "/records/5280934/properties",
+          "matching_aliases": [
+            {
+              "value": "linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/0"
+            },
+            {
+              "value": "alpha-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/1"
+            },
+            {
+              "value": "alpha Linolenic Acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/7"
+            },
+            {
+              "value": "(9,12,15)-linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/10"
+            },
+            {
+              "value": "Linolenic acid, crude",
+              "source_pointer": "/records/5280934/synonyms/Synonym/14"
+            },
+            {
+              "value": "FEMA NO. 3380, LINOLENIC ACID-",
+              "source_pointer": "/records/5280934/synonyms/Synonym/31"
+            },
+            {
+              "value": "alpha Linolenic Acid, Zinc Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/33"
+            },
+            {
+              "value": "alpha Linolenic Acid, Sodium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/34"
+            },
+            {
+              "value": "alpha Linolenic Acid, Calcium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/35"
+            },
+            {
+              "value": "alpha Linolenic Acid, Lithium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/36"
+            },
+            {
+              "value": "alpha Linolenic Acid, Ammonium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/37"
+            },
+            {
+              "value": "alpha Linolenic Acid, Magnesium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/38"
+            },
+            {
+              "value": "alpha Linolenic Acid, Potassium Salt",
+              "source_pointer": "/records/5280934/synonyms/Synonym/39"
+            },
+            {
+              "value": "a-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/44"
+            },
+            {
+              "value": ".alpha.-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/45"
+            },
+            {
+              "value": "Linolenic acid?",
+              "source_pointer": "/records/5280934/synonyms/Synonym/46"
+            },
+            {
+              "value": "Linolenic Acid (~90%)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/52"
+            },
+            {
+              "value": "LINOLENIC ACID (18:3 n-3)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/56"
+            },
+            {
+              "value": "Linolenic acid (8CI)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/67"
+            },
+            {
+              "value": "alpha-Linolenic acid; ALA; cis-alpha-Linolenic acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/68"
+            },
+            {
+              "value": "alpha-linolenic-acid",
+              "source_pointer": "/records/5280934/synonyms/Synonym/73"
+            },
+            {
+              "value": "Linolenic acid - 70%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/76"
+            },
+            {
+              "value": "Linolenic acid - 85%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/77"
+            },
+            {
+              "value": "Linolenic acid - 98%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/78"
+            },
+            {
+              "value": "Linolenic acid(|A-Lnn)",
+              "source_pointer": "/records/5280934/synonyms/Synonym/79"
+            },
+            {
+              "value": "Linolenic acid, >=99%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/81"
+            },
+            {
+              "value": "Linolenic acid, 98.5%",
+              "source_pointer": "/records/5280934/synonyms/Synonym/82"
+            },
+            {
+              "value": "Linolenic acid, tech grade",
+              "source_pointer": "/records/5280934/synonyms/Synonym/83"
+            },
+            {
+              "value": "alpha-Linolenic Acid tech.",
+              "source_pointer": "/records/5280934/synonyms/Synonym/84"
+            },
+            {
+              "value": "LINOLENIC ACID [MI]",
+              "source_pointer": "/records/5280934/synonyms/Synonym/85"
+            }
+          ]
+        },
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:52071",
+          "source_id": "52071",
+          "name": "linolenic acid",
+          "term_type": "PIN",
+          "source_pointer": "/records/52071/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "linolenic acid",
+              "source_pointer": "/records/52071/all_properties/response/propConceptGroup/propConcept/60"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "linolenic acid",
+              "source_pointer": "/records/52071/all_properties/response/propConceptGroup/propConcept/61"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Synonym",
+              "propValue": "alpha-linolenic acid",
+              "source_pointer": "/records/52071/all_properties/response/propConceptGroup/propConcept/62"
+            }
+          ]
+        },
+        {
+          "source": "mesh",
+          "collection_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+          "id": "http://id.nlm.nih.gov/mesh/D017962",
+          "source_id": "D017962",
+          "name": [
+            "alpha-Linolenic Acid"
+          ],
+          "record_types": [
+            "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+          ],
+          "concept_scope_notes": [
+            {
+              "concept": "http://id.nlm.nih.gov/mesh/M0027126",
+              "scope_notes": [
+                "A fatty acid that is found in plants and involved in the formation of prostaglandins."
+              ]
+            }
+          ],
+          "resolution_links": [
+            {
+              "term": "http://id.nlm.nih.gov/mesh/T053674",
+              "concept": "http://id.nlm.nih.gov/mesh/M0027126",
+              "record": "http://id.nlm.nih.gov/mesh/D017962",
+              "type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "ok",
+        "rxnorm": "matched",
+        "mesh": "matched"
+      },
+      "additional_proposals": [
+        {
+          "method": "manual_evidence_led_category_proposal",
+          "target": {
+            "id": "http://id.nlm.nih.gov/mesh/D015525",
+            "source_id": "D015525",
+            "name": [
+              "Fatty Acids, Omega-3"
+            ],
+            "record_types": [
+              "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+            ],
+            "concept_scope_notes": [
+              {
+                "concept": "http://id.nlm.nih.gov/mesh/M0023885",
+                "scope_notes": [
+                  "A group of unsaturated fatty acids occurring mainly in fish oils, with three double bonds at particular positions in the hydrocarbon chain."
+                ]
+              }
+            ],
+            "resolution_links": [
+              {
+                "term": "http://id.nlm.nih.gov/mesh/T046023",
+                "concept": "http://id.nlm.nih.gov/mesh/M0023885",
+                "record": "http://id.nlm.nih.gov/mesh/D015525",
+                "type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "source_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+              "locator_kind": "rdf_statement",
+              "binding_index_in_flattened_subgraphs": 19651,
+              "statement": {
+                "record": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/D017962"
+                },
+                "subject": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/D017962"
+                },
+                "predicate": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor"
+                },
+                "object": {
+                  "type": "uri",
+                  "value": "http://id.nlm.nih.gov/mesh/D015525"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "case-03",
+      "origin": {
+        "query_key": "lactobacillus acidophilus",
+        "dsld_id": "11613",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "109702",
+        "name": "Lactobacillus acidophilus",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0].nestedRows[0]",
+        "source_file": "data/raw/dsld/labels/label_11613.json",
+        "source_sha256": "50836aaef2707c56607bdc5d22583e1ab0a3f678a4546ff7503aea71e687611c"
+      },
+      "occurrence": {
+        "order": 2,
+        "ingredientId": 109702,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "% Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Lactobacillus acidophilus",
+        "category": "bacteria",
+        "ingredientGroup": "Lactobacillus acidophilus",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:6205",
+          "source_id": "6205",
+          "name": "Lactobacillus acidophilus",
+          "term_type": "IN",
+          "source_pointer": "/records/6205/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Lactobacillus acidophilus",
+              "source_pointer": "/records/6205/all_properties/response/propConceptGroup/propConcept/138"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Lactobacillus acidophilus",
+              "source_pointer": "/records/6205/all_properties/response/propConceptGroup/propConcept/139"
+            }
+          ]
+        },
+        {
+          "source": "mesh",
+          "collection_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+          "id": "http://id.nlm.nih.gov/mesh/D007779",
+          "source_id": "D007779",
+          "name": [
+            "Lactobacillus acidophilus"
+          ],
+          "record_types": [
+            "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+          ],
+          "concept_scope_notes": [
+            {
+              "concept": "http://id.nlm.nih.gov/mesh/M0012162",
+              "scope_notes": [
+                "A species of gram-positive, rod-shaped bacteria isolated from the intestinal tract of humans and animals, the human mouth, and vagina. This organism produces the fermented product, acidophilus milk."
+              ]
+            }
+          ],
+          "resolution_links": [
+            {
+              "term": "http://id.nlm.nih.gov/mesh/T023288",
+              "concept": "http://id.nlm.nih.gov/mesh/M0012162",
+              "record": "http://id.nlm.nih.gov/mesh/D007779",
+              "type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "matched"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-04",
+      "origin": {
+        "query_key": "lactobacillus acidophilus",
+        "dsld_id": "215449",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "110239",
+        "name": "Lactobacillus acidophilus",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[5].nestedRows[0]",
+        "source_file": "data/raw/dsld/labels/label_215449.json",
+        "source_sha256": "7e894d1e09f01b374870bbbca67b456443778ff52e356a9bf0cd461ebe1596e7"
+      },
+      "occurrence": {
+        "order": 10,
+        "ingredientId": 110239,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 12.9,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [],
+            "servingSizeUnit": "Gram(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Lactobacillus acidophilus",
+        "category": "bacteria",
+        "ingredientGroup": "Lactobacillus acidophilus",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:6205",
+          "source_id": "6205",
+          "name": "Lactobacillus acidophilus",
+          "term_type": "IN",
+          "source_pointer": "/records/6205/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Lactobacillus acidophilus",
+              "source_pointer": "/records/6205/all_properties/response/propConceptGroup/propConcept/138"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Lactobacillus acidophilus",
+              "source_pointer": "/records/6205/all_properties/response/propConceptGroup/propConcept/139"
+            }
+          ]
+        },
+        {
+          "source": "mesh",
+          "collection_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+          "id": "http://id.nlm.nih.gov/mesh/D007779",
+          "source_id": "D007779",
+          "name": [
+            "Lactobacillus acidophilus"
+          ],
+          "record_types": [
+            "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+          ],
+          "concept_scope_notes": [
+            {
+              "concept": "http://id.nlm.nih.gov/mesh/M0012162",
+              "scope_notes": [
+                "A species of gram-positive, rod-shaped bacteria isolated from the intestinal tract of humans and animals, the human mouth, and vagina. This organism produces the fermented product, acidophilus milk."
+              ]
+            }
+          ],
+          "resolution_links": [
+            {
+              "term": "http://id.nlm.nih.gov/mesh/T023288",
+              "concept": "http://id.nlm.nih.gov/mesh/M0012162",
+              "record": "http://id.nlm.nih.gov/mesh/D007779",
+              "type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "matched"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-05",
+      "origin": {
+        "query_key": "la-14 lactobacillus acidophilus",
+        "dsld_id": "177509",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "129003",
+        "name": "La-14 Lactobacillus acidophilus",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0].nestedRows[1]",
+        "source_file": "data/raw/dsld/labels/label_177509.json",
+        "source_sha256": "88cc31be29aafe1306437265a8b95e2b33e886fef5e634ac2a008c0f7d3593a9"
+      },
+      "occurrence": {
+        "order": 3,
+        "ingredientId": 129003,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [],
+            "servingSizeUnit": "Vege Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "La-14 Lactobacillus acidophilus",
+        "category": "bacteria",
+        "ingredientGroup": "Lactobacillus acidophilus",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:2737252",
+          "source_id": "2737252",
+          "name": "Lactobacillus acidophilus LA-14",
+          "term_type": "PIN",
+          "source_pointer": "/records/2737252/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Lactobacillus acidophilus LA-14",
+              "source_pointer": "/records/2737252/all_properties/response/propConceptGroup/propConcept/8"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Lactobacillus acidophilus LA-14",
+              "source_pointer": "/records/2737252/all_properties/response/propConceptGroup/propConcept/9"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-06",
+      "origin": {
+        "query_key": "lactobacillus acidophilus la14",
+        "dsld_id": "54155",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "24381",
+        "name": "Lactobacillus acidophilus LA14",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[1].nestedRows[0]",
+        "source_file": "data/raw/dsld/labels/label_54155.json",
+        "source_sha256": "4e6358c3525c43c5fba2c879f96845a0adbbba7a30b2d2702ed2377eb53b0890"
+      },
+      "occurrence": {
+        "order": 4,
+        "ingredientId": 24381,
+        "description": null,
+        "notes": null,
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 2.35,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [],
+            "servingSizeUnit": "Gram(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Lactobacillus acidophilus LA14",
+        "category": "bacteria",
+        "ingredientGroup": "Lactobacillus acidophilus",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-07",
+      "origin": {
+        "query_key": "l. acidophilus dds-1",
+        "dsld_id": "259959",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "39809",
+        "name": "L. acidophilus DDS-1",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[13].nestedRows[8]",
+        "source_file": "data/raw/dsld/labels/label_259959.json",
+        "source_sha256": "396e1d5c37cf93c63165bc07f77e8146fd628bdbab9415aa436814a2411dbd74"
+      },
+      "occurrence": {
+        "order": 23,
+        "ingredientId": 39809,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "L. acidophilus DDS-1",
+        "category": "bacteria",
+        "ingredientGroup": "Lactobacillus",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-08",
+      "origin": {
+        "query_key": "l. acidophilus dds-1",
+        "dsld_id": "260008",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "39809",
+        "name": "L. acidophilus DDS-1",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[11].nestedRows[7]",
+        "source_file": "data/raw/dsld/labels/label_260008.json",
+        "source_sha256": "8b4bbeede6ef8fb8e2fe69facd2f75d272e911efd673afbd2cfa6d6f98a9c223"
+      },
+      "occurrence": {
+        "order": 20,
+        "ingredientId": 39809,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "L. acidophilus DDS-1",
+        "category": "bacteria",
+        "ingredientGroup": "Lactobacillus",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-09",
+      "origin": {
+        "query_key": "turmeric root powder",
+        "dsld_id": "214296",
+        "search_categories": "[\"Turmeric\"]",
+        "ingredient_id": "21238",
+        "name": "Turmeric root powder",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[1]",
+        "source_file": "data/raw/dsld/labels/label_214296.json",
+        "source_sha256": "3cbd6d2cba169461301ec0cbd3385618d9de57cf097fe8a4e2631e51f80abd72"
+      },
+      "occurrence": {
+        "order": 2,
+        "ingredientId": 21238,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": null,
+            "operator": "=",
+            "quantity": 400,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Turmeric root powder",
+        "category": "botanical",
+        "ingredientGroup": "Turmeric",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:2705361",
+          "source_id": "2705361",
+          "name": "Curcuma longa root powder",
+          "term_type": "IN",
+          "source_pointer": "/records/2705361/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Curcuma longa root powder",
+              "source_pointer": "/records/2705361/all_properties/response/propConceptGroup/propConcept/16"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Curcuma longa root powder",
+              "source_pointer": "/records/2705361/all_properties/response/propConceptGroup/propConcept/17"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Synonym",
+              "propValue": "turmeric root powder",
+              "source_pointer": "/records/2705361/all_properties/response/propConceptGroup/propConcept/18"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-10",
+      "origin": {
+        "query_key": "turmeric root powder",
+        "dsld_id": "219999",
+        "search_categories": "[\"Turmeric\"]",
+        "ingredient_id": "46103",
+        "name": "Turmeric root powder",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_219999.json",
+        "source_sha256": "03e35091baf4adaf97430bfcb6314466f480d57fc89491ba9fe35ca4f21ce572"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 46103,
+        "description": "",
+        "notes": "",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 3,
+            "operator": "=",
+            "quantity": 1500,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value (DV) Not Established"
+              }
+            ],
+            "servingSizeUnit": "Vegetarian Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Turmeric root powder",
+        "category": "botanical",
+        "ingredientGroup": "Turmeric",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:2705361",
+          "source_id": "2705361",
+          "name": "Curcuma longa root powder",
+          "term_type": "IN",
+          "source_pointer": "/records/2705361/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Curcuma longa root powder",
+              "source_pointer": "/records/2705361/all_properties/response/propConceptGroup/propConcept/16"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Curcuma longa root powder",
+              "source_pointer": "/records/2705361/all_properties/response/propConceptGroup/propConcept/17"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Synonym",
+              "propValue": "turmeric root powder",
+              "source_pointer": "/records/2705361/all_properties/response/propConceptGroup/propConcept/18"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-11",
+      "origin": {
+        "query_key": "ashwagandha",
+        "dsld_id": "13653",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "53101",
+        "name": "Ashwagandha",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_13653.json",
+        "source_sha256": "be7325c48d39ee775a5bd1c50bdd5f06a2eb8d0b8f2da8d8a9c41735938c313f"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 53101,
+        "description": null,
+        "notes": "Ashwagandha (Form: standardized 1.5% Withanolides Note: 6.75 mg) PlantPart: root Genus: Withania Species: somnifera ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 450,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Ashwagandha",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 133180,
+            "prefix": "standardized",
+            "percent": 1.5,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Withanolide",
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "source": "mesh",
+          "collection_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+          "id": "http://id.nlm.nih.gov/mesh/C030693",
+          "source_id": "C030693",
+          "name": [
+            "Ashwagandha"
+          ],
+          "record_types": [
+            "http://id.nlm.nih.gov/mesh/vocab#SCR_Chemical"
+          ],
+          "concept_scope_notes": [],
+          "resolution_links": [
+            {
+              "term": "http://id.nlm.nih.gov/mesh/T126903",
+              "concept": "http://id.nlm.nih.gov/mesh/M0096899",
+              "record": "http://id.nlm.nih.gov/mesh/C030693",
+              "type": "http://id.nlm.nih.gov/mesh/vocab#SCR_Chemical"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "matched"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-12",
+      "origin": {
+        "query_key": "ashwagandha",
+        "dsld_id": "69019",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "133204",
+        "name": "Ashwagandha",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_69019.json",
+        "source_sha256": "7bb308ea21bb60ca8e51b730107e6788b8ac1cd76c94710b60346d14aa20b373"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 133204,
+        "description": null,
+        "notes": "Ashwagandha (Form: standardized [6.75 mg] 1.5% Withanolides) PlantPart: root Genus: Withania Species: somnifera ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 450,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Ashwagandha",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 40102,
+            "prefix": "standardized [6.75 mg]",
+            "percent": 1.5,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": null,
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "source": "mesh",
+          "collection_file": "data/raw/mesh/runs/20261028T062833838481Z/collection.json",
+          "id": "http://id.nlm.nih.gov/mesh/C030693",
+          "source_id": "C030693",
+          "name": [
+            "Ashwagandha"
+          ],
+          "record_types": [
+            "http://id.nlm.nih.gov/mesh/vocab#SCR_Chemical"
+          ],
+          "concept_scope_notes": [],
+          "resolution_links": [
+            {
+              "term": "http://id.nlm.nih.gov/mesh/T126903",
+              "concept": "http://id.nlm.nih.gov/mesh/M0096899",
+              "record": "http://id.nlm.nih.gov/mesh/C030693",
+              "type": "http://id.nlm.nih.gov/mesh/vocab#SCR_Chemical"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "matched"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-13",
+      "origin": {
+        "query_key": "ashwagandha extract",
+        "dsld_id": "39970",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "65226",
+        "name": "Ashwagandha extract",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_39970.json",
+        "source_sha256": "76e2cd0641d734ec0c08a9bd5aacad9daae303a75e1ac155cbd9c18d88bf4f23"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 65226,
+        "description": null,
+        "notes": "Ashwagandha extract (Form: 2.5% Withanolides) PlantPart: root ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 500,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Ashwagandha extract",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 40102,
+            "prefix": null,
+            "percent": 2.5,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": null,
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:1876359",
+          "source_id": "1876359",
+          "name": "Withania somnifera whole extract",
+          "term_type": "IN",
+          "source_pointer": "/records/1876359/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Withania somnifera whole extract",
+              "source_pointer": "/records/1876359/all_properties/response/propConceptGroup/propConcept/8"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Withania somnifera whole extract",
+              "source_pointer": "/records/1876359/all_properties/response/propConceptGroup/propConcept/9"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-14",
+      "origin": {
+        "query_key": "ashwagandha extract",
+        "dsld_id": "54522",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "139722",
+        "name": "Ashwagandha extract",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_54522.json",
+        "source_sha256": "0584c9889704a1cc7d196c499fcec59cac99292da7307721c27008eea9c5b745"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 139722,
+        "description": null,
+        "notes": "Ashwagandha extract  (Form: 4% Withanolides Note: 20 mg) PlantPart: root ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 500,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value (DV) Not Established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Ashwagandha extract",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 139723,
+            "prefix": null,
+            "percent": 4,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Withanolide",
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "source": "rxnorm",
+          "collection_file": "data/raw/rxnorm/runs/20261028T060819025094Z/collection.json",
+          "id": "rxnorm:1876359",
+          "source_id": "1876359",
+          "name": "Withania somnifera whole extract",
+          "term_type": "IN",
+          "source_pointer": "/records/1876359/properties/response/properties",
+          "saved_name_properties": [
+            {
+              "propCategory": "NAMES",
+              "propName": "RXNAV_STR",
+              "propValue": "Withania somnifera whole extract",
+              "source_pointer": "/records/1876359/all_properties/response/propConceptGroup/propConcept/8"
+            },
+            {
+              "propCategory": "NAMES",
+              "propName": "RxNorm Name",
+              "propValue": "Withania somnifera whole extract",
+              "source_pointer": "/records/1876359/all_properties/response/propConceptGroup/propConcept/9"
+            }
+          ]
+        }
+      ],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "matched",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-15",
+      "origin": {
+        "query_key": "organic ashwagandha root powder",
+        "dsld_id": "25775",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "87268",
+        "name": "organic ashwagandha root powder",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[2]",
+        "source_file": "data/raw/dsld/labels/label_25775.json",
+        "source_sha256": "34d1f2877a293974b72811c4547fdb5151b66f9700ed1e92c99474214aa5432c"
+      },
+      "occurrence": {
+        "order": 3,
+        "ingredientId": 87268,
+        "description": null,
+        "notes": "organic ashwagandha root powder (Form: 0.2% Withanolides Note: 0.76 mg) PlantPart: root ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 380,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Caplet(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "organic ashwagandha root powder",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 87269,
+            "prefix": null,
+            "percent": 0.2,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Withanolide",
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-16",
+      "origin": {
+        "query_key": "creatine blend",
+        "dsld_id": "3714",
+        "search_categories": "[\"Creatine\"]",
+        "ingredient_id": "88840",
+        "name": "Creatine Blend",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_3714.json",
+        "source_sha256": "fc0cffc4f39cd15c64dd2e33e1c3a538d6feb86ae32737f44f90a81ee766cf00"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 88840,
+        "description": null,
+        "notes": null,
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 5,
+            "operator": "=",
+            "quantity": 5000,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Gram(s)"
+          }
+        ],
+        "nestedRows": [
+          {
+            "order": 2,
+            "ingredientId": 20634,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 5,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Gram(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Creapure",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Creatine",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 3,
+            "ingredientId": 20636,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 5,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Gram(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Creatine AAB",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Creatine alpha-aminobutyrate",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 4,
+            "ingredientId": 29980,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 5,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Gram(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "DiCreatine Malate",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Creatine Malate",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 5,
+            "ingredientId": 20246,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 5,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Gram(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Creatine Nitrate",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Creatine",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 6,
+            "ingredientId": 20433,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 5,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Gram(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Con-Cret",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Proprietary Blend",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 7,
+            "ingredientId": 20575,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 5,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Gram(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Cinnulin PF",
+            "category": "botanical",
+            "ingredientGroup": "Cinnamomum burmanii",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          }
+        ],
+        "name": "Creatine Blend",
+        "category": "blend",
+        "ingredientGroup": "Blend (Combination)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-17",
+      "origin": {
+        "query_key": "ashwagandha root extract & ashwagandha root powder blend",
+        "dsld_id": "74939",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "59049",
+        "name": "Ashwagandha root extract & Ashwagandha root powder Blend",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_74939.json",
+        "source_sha256": "c8b8aa443915bdffef3873315c1c2a4e42b05a062c4d1ef823d8cd4039649496"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 59049,
+        "description": null,
+        "notes": "Ashwagandha root extract & Ashwagandha root powder Blend (Form: Standardized to contain 0.5% Withanolides Note: = 1.75mg, 0.8% Alkaloids Note: = 2.8 mg) PlantPart: root Genus: Withania Species: somnifera ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 350,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Ashwagandha root extract & Ashwagandha root powder Blend",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 59051,
+            "prefix": null,
+            "percent": 0.8,
+            "name": "Alkaloids",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Alkaloid (unspecified)",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 59050,
+            "prefix": "Standardized to contain",
+            "percent": 0.5,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Withanolide",
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-18",
+      "origin": {
+        "query_key": "ashwagandha root extract & ashwagandha root powder blend",
+        "dsld_id": "74940",
+        "search_categories": "[\"Ashwagandha\"]",
+        "ingredient_id": "59049",
+        "name": "Ashwagandha root extract & Ashwagandha root powder Blend",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_74940.json",
+        "source_sha256": "8a33fc9d235192d52509f974c5c293ab769a5ec2d894914994b92d0735b6bccb"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 59049,
+        "description": null,
+        "notes": "Ashwagandha root extract & Ashwagandha root powder Blend (Form: Standardized to contain 0.5% Withanolides Note: = 1.75mg, 0.8% Alkaloids Note: = 2.8 mg) PlantPart: root Genus: Withania Species: somnifera ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 350,
+            "unit": "mg",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [],
+        "name": "Ashwagandha root extract & Ashwagandha root powder Blend",
+        "category": "botanical",
+        "ingredientGroup": "Ashwagandha",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 59051,
+            "prefix": null,
+            "percent": 0.8,
+            "name": "Alkaloids",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Alkaloid (unspecified)",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 59050,
+            "prefix": "Standardized to contain",
+            "percent": 0.5,
+            "name": "Withanolides",
+            "category": "non-nutrient/non-botanical",
+            "ingredientGroup": "Withanolide",
+            "uniiCode": null
+          }
+        ]
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-19",
+      "origin": {
+        "query_key": "probiotic blend",
+        "dsld_id": "11613",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "288938",
+        "name": "Probiotic Blend",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[0]",
+        "source_file": "data/raw/dsld/labels/label_11613.json",
+        "source_sha256": "50836aaef2707c56607bdc5d22583e1ab0a3f678a4546ff7503aea71e687611c"
+      },
+      "occurrence": {
+        "order": 1,
+        "ingredientId": 288938,
+        "description": "",
+        "notes": "Probiotic Blend: Note: 10 billion cfu/g ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [
+              {
+                "name": "Adults and children 4 or more years of age",
+                "operator": null,
+                "percent": null,
+                "footnote": "% Daily Value not established"
+              }
+            ],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [
+          {
+            "order": 2,
+            "ingredientId": 109702,
+            "description": "",
+            "notes": "",
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [
+                  {
+                    "name": "Adults and children 4 or more years of age",
+                    "operator": null,
+                    "percent": null,
+                    "footnote": "% Daily Value not established"
+                  }
+                ],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Lactobacillus acidophilus",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus acidophilus",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 3,
+            "ingredientId": 5258,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [
+                  {
+                    "name": "Adults and children 4 or more years of age",
+                    "operator": null,
+                    "percent": null,
+                    "footnote": "% Daily Value not established"
+                  }
+                ],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Bifidobacterium bifidum",
+            "category": "bacteria",
+            "ingredientGroup": "Bifidobacterium bifidum",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 4,
+            "ingredientId": 95338,
+            "description": "",
+            "notes": "",
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [
+                  {
+                    "name": "Adults and children 4 or more years of age",
+                    "operator": null,
+                    "percent": null,
+                    "footnote": "% Daily Value not established"
+                  }
+                ],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Bifidobacterium infantis",
+            "category": "bacteria",
+            "ingredientGroup": "Bifidobacterium infantis",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 5,
+            "ingredientId": 34722,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [
+                  {
+                    "name": "Adults and children 4 or more years of age",
+                    "operator": null,
+                    "percent": null,
+                    "footnote": "% Daily Value not established"
+                  }
+                ],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Bifidobacterium longum",
+            "category": "bacteria",
+            "ingredientGroup": "Bifidobacterium longum",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          }
+        ],
+        "name": "Probiotic Blend",
+        "category": "blend",
+        "ingredientGroup": "Blend",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    },
+    {
+      "case_id": "case-20",
+      "origin": {
+        "query_key": "probiotic blend",
+        "dsld_id": "32494",
+        "search_categories": "[\"Probiotics\"]",
+        "ingredient_id": "288938",
+        "name": "Probiotic Blend",
+        "kind": "ingredient",
+        "json_path": "ingredientRows[1]",
+        "source_file": "data/raw/dsld/labels/label_32494.json",
+        "source_sha256": "44faf8c462f284d3fd49e21ceea2bb555beed501c4b66b6e0a60f84c1e3ee0de"
+      },
+      "occurrence": {
+        "order": 15,
+        "ingredientId": 288938,
+        "description": "",
+        "notes": "Probiotic Blend: Note: 500 million CFU ",
+        "quantity": [
+          {
+            "servingSizeOrder": 1,
+            "servingSizeQuantity": 1,
+            "operator": "=",
+            "quantity": 0,
+            "unit": "NP",
+            "dailyValueTargetGroup": [],
+            "servingSizeUnit": "Capsule(s)"
+          }
+        ],
+        "nestedRows": [
+          {
+            "order": 16,
+            "ingredientId": 103469,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Bacillus subtilis",
+            "category": "bacteria",
+            "ingredientGroup": "Bacillus Subtilis",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 17,
+            "ingredientId": 93295,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "L. rhamnosus",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus rhamnosus",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 18,
+            "ingredientId": 93294,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "L. casei",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus casei",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 19,
+            "ingredientId": 299399,
+            "description": "",
+            "notes": "",
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "Acidophilus",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus acidophilus",
+            "uniiCode": "1PRR1V42V5",
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 20,
+            "ingredientId": 93297,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "L. plantarum",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus plantarum",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 21,
+            "ingredientId": 103470,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "L. bulgarius",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus delbrueckii bulgaricus",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 22,
+            "ingredientId": 103471,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "L. Salvarius",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus salivarius",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          },
+          {
+            "order": 23,
+            "ingredientId": 103472,
+            "description": null,
+            "notes": null,
+            "quantity": [
+              {
+                "servingSizeOrder": 1,
+                "servingSizeQuantity": 1,
+                "operator": "=",
+                "quantity": 0,
+                "unit": "NP",
+                "dailyValueTargetGroup": [],
+                "servingSizeUnit": "Capsule(s)"
+              }
+            ],
+            "nestedRows": [],
+            "name": "L. paracasei",
+            "category": "bacteria",
+            "ingredientGroup": "Lactobacillus paracasei",
+            "uniiCode": null,
+            "alternateNames": [],
+            "forms": []
+          }
+        ],
+        "name": "Probiotic Blend",
+        "category": "blend",
+        "ingredientGroup": "Blend",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": []
+      },
+      "candidates": [],
+      "lookup_outcomes": {
+        "pubchem": "not_found",
+        "rxnorm": "not_found",
+        "mesh": "not_found"
+      },
+      "additional_proposals": []
+    }
+  ],
+  "review_rows": [
+    {
+      "case_id": "case-01",
+      "label_id": "65671",
+      "origin_path": "ingredientRows[2].nestedRows[2].nestedRows[0].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "pubchem:CID:5280934",
+      "method": "saved_lookup_candidate",
+      "relation": "exact_material_match",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-02",
+      "rationale": "Source identifies alpha-linolenic acid; target specifies all-Z stereochemistry. Saved aliases support the candidate, but confirm the designation bridge covers that specification before exact material acceptance.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/0",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-01",
+      "label_id": "65671",
+      "origin_path": "ingredientRows[2].nestedRows[2].nestedRows[0].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "rxnorm:52071",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-02",
+      "rationale": "Preferred name says linolenic acid; retain alpha/isomer specificity and check target meaning rather than dropping the qualifier.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/0",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-01",
+      "label_id": "65671",
+      "origin_path": "ingredientRows[2].nestedRows[2].nestedRows[0].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "http://id.nlm.nih.gov/mesh/D017962",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-02",
+      "rationale": "Explicit alpha-linolenic source designation and category agree with the named descriptor; no quantity or material stereochemistry inference.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/0",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-01",
+      "label_id": "65671",
+      "origin_path": "ingredientRows[2].nestedRows[2].nestedRows[0].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "http://id.nlm.nih.gov/mesh/D015525",
+      "method": "manual_evidence_led_category_proposal",
+      "relation": "member_of_category",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-02 ING-09",
+      "rationale": "Explicit ALA source designation plus saved MeSH alpha-linolenic descriptor and its broaderDescriptor link to Omega-3 support a classification proposal. This is a separate occurrence-to-category assertion, not an automatic rewriting of the vocabulary edge or an original lookup hit.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/0",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-02",
+      "label_id": "80083",
+      "origin_path": "ingredientRows[4].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "pubchem:CID:5280934",
+      "method": "saved_lookup_candidate",
+      "relation": "exact_material_match",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-02",
+      "rationale": "Source identifies alpha-linolenic acid; target specifies all-Z stereochemistry. Saved aliases support the candidate, but confirm the designation bridge covers that specification before exact material acceptance.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/1",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-02",
+      "label_id": "80083",
+      "origin_path": "ingredientRows[4].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "rxnorm:52071",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-02",
+      "rationale": "Preferred name says linolenic acid; retain alpha/isomer specificity and check target meaning rather than dropping the qualifier.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/1",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-02",
+      "label_id": "80083",
+      "origin_path": "ingredientRows[4].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "http://id.nlm.nih.gov/mesh/D017962",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-02",
+      "rationale": "Explicit alpha-linolenic source designation and category agree with the named descriptor; no quantity or material stereochemistry inference.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/1",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-02",
+      "label_id": "80083",
+      "origin_path": "ingredientRows[4].nestedRows[0]",
+      "query": "alpha-linolenic acid",
+      "target": "http://id.nlm.nih.gov/mesh/D015525",
+      "method": "manual_evidence_led_category_proposal",
+      "relation": "member_of_category",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-02 ING-09",
+      "rationale": "Explicit ALA source designation plus saved MeSH alpha-linolenic descriptor and its broaderDescriptor link to Omega-3 support a classification proposal. This is a separate occurrence-to-category assertion, not an automatic rewriting of the vocabulary edge or an original lookup hit.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/1",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-03",
+      "label_id": "11613",
+      "origin_path": "ingredientRows[0].nestedRows[0]",
+      "query": "lactobacillus acidophilus",
+      "target": "rxnorm:6205",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-06",
+      "rationale": "Full species designation and bacterial context agree with the species-named target. Strain remains unknown.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/2",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-03",
+      "label_id": "11613",
+      "origin_path": "ingredientRows[0].nestedRows[0]",
+      "query": "lactobacillus acidophilus",
+      "target": "http://id.nlm.nih.gov/mesh/D007779",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-06",
+      "rationale": "Full species designation and saved species definition support generic species meaning; not a strain, batch or viability match.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/2",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-04",
+      "label_id": "215449",
+      "origin_path": "ingredientRows[5].nestedRows[0]",
+      "query": "lactobacillus acidophilus",
+      "target": "rxnorm:6205",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-06",
+      "rationale": "Full species designation and bacterial context agree with the species-named target. Strain remains unknown.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/3",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-04",
+      "label_id": "215449",
+      "origin_path": "ingredientRows[5].nestedRows[0]",
+      "query": "lactobacillus acidophilus",
+      "target": "http://id.nlm.nih.gov/mesh/D007779",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-06",
+      "rationale": "Full species designation and saved species definition support generic species meaning; not a strain, batch or viability match.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/3",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-05",
+      "label_id": "177509",
+      "origin_path": "ingredientRows[0].nestedRows[1]",
+      "query": "la-14 lactobacillus acidophilus",
+      "target": "rxnorm:2737252",
+      "method": "saved_lookup_candidate",
+      "relation": "exact_material_match",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-07",
+      "rationale": "Species and explicit LA-14 code agree despite word order/case. Match is at the named strain-designation level; no batch identity, viability or potency inference.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/4",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-06",
+      "label_id": "54155",
+      "origin_path": "ingredientRows[1].nestedRows[0]",
+      "query": "lactobacillus acidophilus la14",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-07",
+      "rationale": "No returned target. LA14 versus LA-14 is a possible alias to investigate, not an approved punctuation-normalization rule or a copied result from another query.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/5",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-07",
+      "label_id": "259959",
+      "origin_path": "ingredientRows[13].nestedRows[8]",
+      "query": "l. acidophilus dds-1",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-07",
+      "rationale": "No returned target. Preserve DDS-1 and abbreviated genus; do not substitute a generic species or another strain.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/6",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-08",
+      "label_id": "260008",
+      "origin_path": "ingredientRows[11].nestedRows[7]",
+      "query": "l. acidophilus dds-1",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-07",
+      "rationale": "No returned target. Preserve DDS-1 and abbreviated genus; do not substitute a generic species or another strain.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/7",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-09",
+      "label_id": "214296",
+      "origin_path": "ingredientRows[1]",
+      "query": "turmeric root powder",
+      "target": "rxnorm:2705361",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-04",
+      "rationale": "Saved RxNorm Synonym explicitly bridges turmeric root powder to Curcuma longa root powder. Source preserves root and powder. Do not rewrite root as rhizome or infer extract.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/8",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-10",
+      "label_id": "219999",
+      "origin_path": "ingredientRows[0]",
+      "query": "turmeric root powder",
+      "target": "rxnorm:2705361",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "supported_for_review",
+      "requirements": "ING-04",
+      "rationale": "Saved RxNorm Synonym explicitly bridges turmeric root powder to Curcuma longa root powder. Source preserves root and powder. Do not rewrite root as rhizome or infer extract.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/9",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-11",
+      "label_id": "13653",
+      "origin_path": "ingredientRows[0]",
+      "query": "ashwagandha",
+      "target": "http://id.nlm.nih.gov/mesh/C030693",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-04 ING-05",
+      "rationale": "Source notes specify root, species and standardization; candidate has a broad name and no projected scope note. Need target definition before treating a specific source preparation as equivalent.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/10",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-12",
+      "label_id": "69019",
+      "origin_path": "ingredientRows[0]",
+      "query": "ashwagandha",
+      "target": "http://id.nlm.nih.gov/mesh/C030693",
+      "method": "saved_lookup_candidate",
+      "relation": "denotes_concept",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-04 ING-05",
+      "rationale": "Source notes specify root, species and standardization; candidate has a broad name and no projected scope note. Need target definition before treating a specific source preparation as equivalent.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/11",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-13",
+      "label_id": "39970",
+      "origin_path": "ingredientRows[0]",
+      "query": "ashwagandha extract",
+      "target": "rxnorm:1876359",
+      "method": "saved_lookup_candidate",
+      "relation": "exact_material_match",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-05",
+      "rationale": "Source states root and a standardization percentage; target says whole extract. Saved names alone do not explain whole. Do not infer whole plant or assume the two scopes agree.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/12",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-14",
+      "label_id": "54522",
+      "origin_path": "ingredientRows[0]",
+      "query": "ashwagandha extract",
+      "target": "rxnorm:1876359",
+      "method": "saved_lookup_candidate",
+      "relation": "exact_material_match",
+      "recommendation": "needs_evidence",
+      "requirements": "ING-05",
+      "rationale": "Source states root and a standardization percentage; target says whole extract. Saved names alone do not explain whole. Do not infer whole plant or assume the two scopes agree.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/13",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-15",
+      "label_id": "25775",
+      "origin_path": "ingredientRows[2]",
+      "query": "organic ashwagandha root powder",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-04",
+      "rationale": "No target. Preserve root/powder and marker information; an extract candidate from another query is not a replacement.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/14",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-16",
+      "label_id": "3714",
+      "origin_path": "ingredientRows[0]",
+      "query": "creatine blend",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-08",
+      "rationale": "No target; six nested ingredient declarations have NP quantities. A blend total does not establish proportions or assign the total to each child.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/15",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-17",
+      "label_id": "74939",
+      "origin_path": "ingredientRows[0]",
+      "query": "ashwagandha root extract & ashwagandha root powder blend",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-08 ING-05",
+      "rationale": "No target; named extract/powder blend and marker percentages do not establish their mixing proportions. Preserve markers instead of inventing component rows.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/16",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-18",
+      "label_id": "74940",
+      "origin_path": "ingredientRows[0]",
+      "query": "ashwagandha root extract & ashwagandha root powder blend",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-08 ING-05",
+      "rationale": "No target; named extract/powder blend and marker percentages do not establish their mixing proportions. Preserve markers instead of inventing component rows.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/17",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-19",
+      "label_id": "11613",
+      "origin_path": "ingredientRows[0]",
+      "query": "probiotic blend",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-08",
+      "rationale": "No target; shared ingredient registry ID does not establish the same component list or formulation. Preserve occurrence-specific nested ingredients.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/18",
+      "approval_applied": false
+    },
+    {
+      "case_id": "case-20",
+      "label_id": "32494",
+      "origin_path": "ingredientRows[1]",
+      "query": "probiotic blend",
+      "target": null,
+      "method": "saved_no_candidate",
+      "relation": null,
+      "recommendation": "no_target",
+      "requirements": "ING-08",
+      "rationale": "No target; shared ingredient registry ID does not establish the same component list or formulation. Preserve occurrence-specific nested ingredients.",
+      "mapping_semantics_version": "mapping-semantics-draft-v2",
+      "review_state": "needs_review",
+      "A6": "pending",
+      "assessment_author_role": "assistant",
+      "evidence_case_pointer": "/cases/19",
+      "approval_applied": false
+    }
+  ]
+}

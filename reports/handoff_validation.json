@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "graph": "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9",
+  "package_files": 484,
+  "nodes": 35998,
+  "relationships": 74122,
+  "evidence_pointers": 64312,
+  "pending_claims": 1269,
+  "field_support_anchors": 2923,
+  "scope": "Consumption package integrity and source support; not clinical approval or full rebuild validation"
+}

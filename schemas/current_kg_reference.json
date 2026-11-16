@@ -1,0 +1,585 @@
+{
+  "graph": "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9",
+  "scope": "Observed current export schema; endpoint pairs describe this snapshot, not all future permitted combinations.",
+  "node_types": [
+    {
+      "type": "ChemicalCompound",
+      "count": 239,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "ClinicalClaim",
+      "count": 1269,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "ExternalRecordReference",
+      "count": 1277,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "IngredientOccurrence",
+      "count": 5438,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "LabelAssertion",
+      "count": 11954,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "Monograph",
+      "count": 10,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "MonographSubject",
+      "count": 10,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "ProductLabel",
+      "count": 400,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "RedditComment",
+      "count": 4593,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "RedditPost",
+      "count": 287,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "ReferenceDocument",
+      "count": 10,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "Serving",
+      "count": 400,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "SourceExcerpt",
+      "count": 1204,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "SourcePassage",
+      "count": 6250,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "SupplementTopic",
+      "count": 10,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    },
+    {
+      "type": "TerminologyConcept",
+      "count": 2647,
+      "csv_columns": [
+        "id",
+        "type",
+        "properties_json",
+        "evidence_ids"
+      ]
+    }
+  ],
+  "relationship_columns": [
+    "id",
+    "start_id",
+    "end_id",
+    "type",
+    "mapping_id",
+    "confidence",
+    "evidence_ids",
+    "properties_json"
+  ],
+  "relationships": [
+    {
+      "type": "ABOUT_OCCURRENCE",
+      "count": 5491,
+      "observed_endpoints": [
+        {
+          "source_type": "LabelAssertion",
+          "target_type": "IngredientOccurrence",
+          "count": 5491
+        }
+      ]
+    },
+    {
+      "type": "ABOUT_SUBJECT",
+      "count": 1269,
+      "observed_endpoints": [
+        {
+          "source_type": "ClinicalClaim",
+          "target_type": "MonographSubject",
+          "count": 1269
+        }
+      ]
+    },
+    {
+      "type": "DECLARES_OCCURRENCE",
+      "count": 5438,
+      "observed_endpoints": [
+        {
+          "source_type": "ProductLabel",
+          "target_type": "IngredientOccurrence",
+          "count": 5438
+        }
+      ]
+    },
+    {
+      "type": "DECLARES_SERVING",
+      "count": 400,
+      "observed_endpoints": [
+        {
+          "source_type": "ProductLabel",
+          "target_type": "Serving",
+          "count": 400
+        }
+      ]
+    },
+    {
+      "type": "DENOTES_CONCEPT",
+      "count": 2711,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "TerminologyConcept",
+          "count": 2711
+        }
+      ]
+    },
+    {
+      "type": "EXACT_MATERIAL_MATCH",
+      "count": 7,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "ChemicalCompound",
+          "count": 4
+        },
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "TerminologyConcept",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "EXCERPT_OF",
+      "count": 1269,
+      "observed_endpoints": [
+        {
+          "source_type": "SourceExcerpt",
+          "target_type": "Monograph",
+          "count": 1269
+        }
+      ]
+    },
+    {
+      "type": "HAS_ASSERTION",
+      "count": 11954,
+      "observed_endpoints": [
+        {
+          "source_type": "ProductLabel",
+          "target_type": "LabelAssertion",
+          "count": 11954
+        }
+      ]
+    },
+    {
+      "type": "HAS_DECLARED_COMPONENT",
+      "count": 786,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "IngredientOccurrence",
+          "count": 786
+        }
+      ]
+    },
+    {
+      "type": "HAS_DECLARED_FORM",
+      "count": 1371,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "IngredientOccurrence",
+          "count": 1371
+        }
+      ]
+    },
+    {
+      "type": "HAS_DECLARED_TOPIC",
+      "count": 514,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "SupplementTopic",
+          "count": 514
+        }
+      ]
+    },
+    {
+      "type": "HAS_PENDING_CLAIM",
+      "count": 1269,
+      "observed_endpoints": [
+        {
+          "source_type": "Monograph",
+          "target_type": "ClinicalClaim",
+          "count": 1269
+        }
+      ]
+    },
+    {
+      "type": "HAS_REFERENCE_DOCUMENT",
+      "count": 10,
+      "observed_endpoints": [
+        {
+          "source_type": "Monograph",
+          "target_type": "ReferenceDocument",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "HAS_SERVING_BASIS",
+      "count": 2392,
+      "observed_endpoints": [
+        {
+          "source_type": "LabelAssertion",
+          "target_type": "Serving",
+          "count": 2392
+        }
+      ]
+    },
+    {
+      "type": "HAS_SOURCE_TOPIC",
+      "count": 10,
+      "observed_endpoints": [
+        {
+          "source_type": "Monograph",
+          "target_type": "SupplementTopic",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "HAS_STANDARDIZATION_MARKER",
+      "count": 4,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "IngredientOccurrence",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "HAS_SUBJECT",
+      "count": 10,
+      "observed_endpoints": [
+        {
+          "source_type": "Monograph",
+          "target_type": "MonographSubject",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "INGREDIENT_NAME_MENTIONS_TOPIC",
+      "count": 960,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "SupplementTopic",
+          "count": 960
+        }
+      ]
+    },
+    {
+      "type": "INHERITED_THREAD_TOPIC",
+      "count": 6310,
+      "observed_endpoints": [
+        {
+          "source_type": "RedditComment",
+          "target_type": "SupplementTopic",
+          "count": 6310
+        }
+      ]
+    },
+    {
+      "type": "IN_THREAD",
+      "count": 4820,
+      "observed_endpoints": [
+        {
+          "source_type": "RedditComment",
+          "target_type": "RedditPost",
+          "count": 4533
+        },
+        {
+          "source_type": "RedditPost",
+          "target_type": "RedditPost",
+          "count": 287
+        }
+      ]
+    },
+    {
+      "type": "IN_THREAD_REFERENCE",
+      "count": 60,
+      "observed_endpoints": [
+        {
+          "source_type": "RedditComment",
+          "target_type": "ExternalRecordReference",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "type": "LABEL_TITLE_MENTIONS_TOPIC",
+      "count": 396,
+      "observed_endpoints": [
+        {
+          "source_type": "ProductLabel",
+          "target_type": "SupplementTopic",
+          "count": 396
+        }
+      ]
+    },
+    {
+      "type": "MEMBER_OF_CATEGORY",
+      "count": 2,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "TerminologyConcept",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "MENTIONS_TOPIC",
+      "count": 1672,
+      "observed_endpoints": [
+        {
+          "source_type": "RedditComment",
+          "target_type": "SupplementTopic",
+          "count": 1203
+        },
+        {
+          "source_type": "RedditPost",
+          "target_type": "SupplementTopic",
+          "count": 469
+        }
+      ]
+    },
+    {
+      "type": "MESH_RELATION",
+      "count": 10892,
+      "observed_endpoints": [
+        {
+          "source_type": "TerminologyConcept",
+          "target_type": "ExternalRecordReference",
+          "count": 7879
+        },
+        {
+          "source_type": "TerminologyConcept",
+          "target_type": "TerminologyConcept",
+          "count": 3013
+        }
+      ]
+    },
+    {
+      "type": "PASSAGE_OF",
+      "count": 6250,
+      "observed_endpoints": [
+        {
+          "source_type": "SourcePassage",
+          "target_type": "Monograph",
+          "count": 1179
+        },
+        {
+          "source_type": "SourcePassage",
+          "target_type": "RedditComment",
+          "count": 4689
+        },
+        {
+          "source_type": "SourcePassage",
+          "target_type": "RedditPost",
+          "count": 382
+        }
+      ]
+    },
+    {
+      "type": "RELATED_BOTANICAL_SUBJECT",
+      "count": 2,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "MonographSubject",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "RELATED_INGREDIENT_SUBJECT",
+      "count": 351,
+      "observed_endpoints": [
+        {
+          "source_type": "IngredientOccurrence",
+          "target_type": "MonographSubject",
+          "count": 351
+        }
+      ]
+    },
+    {
+      "type": "REPLY_TO",
+      "count": 4441,
+      "observed_endpoints": [
+        {
+          "source_type": "RedditComment",
+          "target_type": "RedditComment",
+          "count": 2359
+        },
+        {
+          "source_type": "RedditComment",
+          "target_type": "RedditPost",
+          "count": 2082
+        }
+      ]
+    },
+    {
+      "type": "REPLY_TO_REFERENCE",
+      "count": 53,
+      "observed_endpoints": [
+        {
+          "source_type": "RedditComment",
+          "target_type": "ExternalRecordReference",
+          "count": 53
+        }
+      ]
+    },
+    {
+      "type": "SOURCE_LABEL_REFERENCE",
+      "count": 916,
+      "observed_endpoints": [
+        {
+          "source_type": "ProductLabel",
+          "target_type": "ExternalRecordReference",
+          "count": 916
+        }
+      ]
+    },
+    {
+      "type": "SOURCE_LABEL_RELATION",
+      "count": 823,
+      "observed_endpoints": [
+        {
+          "source_type": "ProductLabel",
+          "target_type": "ProductLabel",
+          "count": 823
+        }
+      ]
+    },
+    {
+      "type": "SUPPORTED_BY_EXCERPT",
+      "count": 1269,
+      "observed_endpoints": [
+        {
+          "source_type": "ClinicalClaim",
+          "target_type": "SourceExcerpt",
+          "count": 1269
+        }
+      ]
+    }
+  ],
+  "semantics": {
+    "properties_json": "Parse nested JSON; source values and qualifiers remain attached to their records.",
+    "evidence_ids": "JSON array of IDs resolved in provenance/evidence.jsonl.",
+    "confidence": "High/Medium/Low applies to the stated mapping relation; not a statistical probability or medical confidence.",
+    "clinical_review": "All ClinicalClaim nodes remain pending with clinical_approval=false.",
+    "denotes_concept": "General concept link, not exact material, branded formulation or clinical equivalence.",
+    "navigation": "Topic mentions do not establish ingredient identity or product applicability.",
+    "reddit": "Direct mentions and inherited thread context remain distinct."
+  }
+}
