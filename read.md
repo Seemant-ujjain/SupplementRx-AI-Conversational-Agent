@@ -57,13 +57,21 @@ The graph's `input_manifest.json` records historical build lineage. Some build-t
 
 - The `preprocessing-kg-schema` branch retains construction notebooks, scripts, historical snapshots, audits and retrieval experiments. This handoff does not merge that branch wholesale.
 - Earlier Python retrieval evaluations used a previous graph and supplied categories/IDs, not general LLM answering; they do not establish this graph's clinical accuracy or end-to-end performance.
-- Next: prepare source-linked passages and reviewed question splits; generate the text embeddings described below; compare BM25, MedCPT + FAISS and fusion/reranking; import Neo4j and add bounded graph retrieval; integrate the open-source LLM with citations, evidence checks and abstention.
+- Next: reuse the current KG to build keyword and semantic indexes after the small indexing-preparation step below; compare BM25, MedCPT + FAISS and fusion/reranking; import Neo4j and add bounded graph retrieval; integrate the open-source LLM with citations, evidence checks and abstention.
 - Louvain is a separate broad-query experiment. Question-aware R-GCN ranking is an optional extension requiring checked training preferences and comparison against text/evidence baselines.
 - Further mappings can be addressed when evaluation identifies consequential gaps; no complete manual resolution of the pending pool is required before the POC.
 
 ## Planned embedding stage — not yet implemented
 
 **First build text embeddings for evidence retrieval.** These are different from learned GNN/RGCN representations. Use the pretrained [MedCPT query encoder, article encoder and cross-encoder](https://github.com/ncbi/MedCPT) according to their intended roles; pin model revisions and evaluate on our supplement corpus before choosing final settings. No model fine-tuning is required for the initial retrieval experiment.
+
+### Already completed versus remaining work
+
+- **Already completed:** dataset audits, POC field selection, structured normalization, KG construction, source links and review metadata. NatMed and Reddit passages already exist in the KG; DSLD has structured label statements. Reuse these rather than restarting preprocessing.
+- **Remaining indexing preparation:** choose the exact fields/text template for each source (for example, ingredient + section + passage); check token limits after adding context; split oversized text without silent truncation. Decide which supporting context is included in the text and which is fetched through graph links after retrieval.
+- **Scope:** index useful passages, statements, names and synonyms, not every node or raw node JSON. PubChem, RxNorm and MeSH generally need searchable concept records rather than passage chunking; check long descriptions separately.
+- **Traceability:** map every search/vector entry to stable KG node IDs and source metadata. Preserve distinct forms, ambiguous mappings, citations and pending review status.
+- **Separate retrieval dataset is optional:** read and prepare text directly from the KG when building indexes. Saving that prepared text as JSONL is an optional reproducibility aid, not a new KG or a prerequisite. Keep the current graph export unchanged.
 
 ### What to encode
 
@@ -82,10 +90,10 @@ The graph's `input_manifest.json` records historical build lineage. Some build-t
 
 ### Proposed storage layout
 
-Create these artifacts only when the embedding stage is implemented. Keep them outside the frozen graph export:
+Create only the artifacts needed when implementing retrieval. The saved text corpus under `data/retrieval/` is optional; indexes still require entry-to-KG mappings and manifests recording source hashes and text preparation. Keep all generated artifacts outside the frozen graph export:
 
 ```text
-data/retrieval/
+data/retrieval/                    # OPTIONAL saved prepared text
   <corpus-version>/
     corpus_manifest.json           # Graph version, source hashes, chunking policy
     natmed/chunks.jsonl
@@ -94,7 +102,8 @@ data/retrieval/
 
 data/embeddings/
   <embedding-run-id>/
-    manifest.json                  # Encoder/revision, dimensions, dtype, corpus hashes
+    manifest.json                  # KG/text hashes, templates, encoder/revision, dimensions
+    bm25/                          # Keyword index and entry-to-KG mapping; no embeddings
     natmed/
       vectors.npy                  # One vector per indexed chunk
       row_mapping.jsonl            # vector_row -> chunk_id -> graph/evidence IDs
@@ -116,11 +125,13 @@ data/evaluation/
 
 ### Implementation and evaluation order
 
-1. Create a separate embedding/retrieval notebook and reusable scripts; keep the construction notebooks and frozen KG unchanged.
-2. Prepare the three source-separated corpora and independently reviewed tuning/test questions. Keep duplicate/thread families together and do not tune on held-out questions.
-3. Establish BM25 retrieval, generate MedCPT vectors and FAISS indexes, then compare lexical-only, dense-only and Reciprocal Rank Fusion retrieval. Add cross-encoder reranking as a separate comparison.
-4. Link retrieved chunks to Neo4j evidence paths and measure the benefit of graph expansion on the same questions. Preserve source citations and uncertainty when generating LLM answers.
-5. Evaluate evidence recall/ranking, citation support, qualification preservation, safety detection and abstention. The earlier Python rule-baseline scores are not results for this new pipeline.
+1. Read selected content from the current KG and apply the indexing preparation above. Use reusable scripts and a separate retrieval notebook; preserve the construction notebooks and frozen graph.
+2. Build entity lookup from identifiers, preferred names, synonyms and accepted mappings; retain ambiguous/unresolved matches.
+3. Build the **BM25 keyword index (no embeddings)**, then generate **MedCPT text embeddings and FAISS vector indexes**. Both return entries linked to KG nodes; a saved intermediate corpus is optional.
+4. Combine lexical and dense rankings with Reciprocal Rank Fusion; evaluate cross-encoder reranking separately. Fetch linked supporting context as needed.
+5. Connect Neo4j graph queries and the open-source LLM for cited answers, preserving source distinctions, qualifications and uncertainty.
+6. Evaluate lexical-only, dense-only and hybrid retrieval using independently reviewed tuning/test questions. Keep duplicate/thread families together and do not tune on held-out questions. Measure precision, recall/ranking, citation support, identity errors, qualification preservation, abstention and latency. Earlier Python rule-baseline scores are not results for this pipeline.
+7. Explore Louvain communities and supervised RGCN ranking later. Neither is required to build the initial indexes; test their benefit against the baseline before adopting them.
 
 ### Optional RGCN extension
 
