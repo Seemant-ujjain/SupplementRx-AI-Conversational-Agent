@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "graph": "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9",
-  "package_files": 484,
+  "package_files": 479,
   "nodes": 35998,
   "relationships": 74122,
   "evidence_pointers": 64312,

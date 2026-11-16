@@ -2871,49 +2871,20 @@
       "sha256": "61462e721fe7ce74fc594ba5c0750aa0700d2bad99db8658ee55b3f7932406cc"
     },
     {
-      "path": "schemas/dsld_statement_preservation_v1.json",
-      "role": "schema",
-      "bytes": 865,
-      "sha256": "9e75ad3e7d7d08c7ff4b02f7861b0eb5120277c0c0dbb77e950edae51d3a38d9"
-    },
-    {
-      "path": "schemas/full_graph_export_v1.json",
-      "role": "schema",
-      "bytes": 1672,
-      "sha256": "76b4e8d12ff235a7659e793a3b65cbdacfc6403f3c4f408d5b0afe6e3f7b508a"
-    },
-    {
-      "path": "schemas/general_concept_mapping_v1.json",
-      "role": "schema",
-      "bytes": 1316,
-      "sha256": "2a2de849199dddca639eefdb5ce13fd35288a02b38ff3cbf3c7f48e584a7c7ae"
-    },
-    {
-      "path": "schemas/ingredient_mapping_decisions_v1.json",
-      "role": "schema",
-      "bytes": 1911,
-      "sha256": "27ee4effa1303074fc88121b61723168a499b43b28cc5e92082c4696748d1434"
-    },
-    {
-      "path": "schemas/poc_preprocessing_contract_v0.1.json",
-      "role": "schema",
-      "bytes": 33317,
-      "sha256": "46b3798bca370e601b55cee9a1db389fc6799006d150e7f8647337c16dd5c3e5"
-    },
-    {
-      "path": "schemas/topic_navigation_v1.json",
-      "role": "schema",
-      "bytes": 1696,
-      "sha256": "0e605a918471c59aee0903ba49c52c4ce48fe55c7e6808a6a576ed4a64fda46b"
+      "path": "schemas/current_kg_reference.json",
+      "role": "current_schema_reference",
+      "bytes": 12737,
+      "sha256": "da78beef588707441de0dcf29a6c2ec64fdf9018ae666c523d3409e9e9ef39fd"
     }
   ],
-  "file_count": 484,
-  "total_bytes": 500538718,
+  "file_count": 479,
+  "total_bytes": 500510678,
   "missing_referenced_files": [],
   "boundaries": [
     "Preserve repository-relative paths for referenced evidence.",
     "Historical build-input manifests describe lineage; this is a consumption package, not a full rebuild environment.",
     "Development notebooks, old graph exports and retrieval response dumps were not added. Existing main-branch collection files were retained.",
-    "Copied-package validation passed; see reports/handoff_validation.json."
+    "Copied-package validation passed; see reports/handoff_validation.json.",
+    "Only the current schema reference is included; historical specifications remain on preprocessing-kg-schema. Frozen build-lineage references are intentionally unchanged."
   ]
 }

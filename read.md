@@ -15,10 +15,10 @@ The POC graph is constructed for the ten supplement categories: Magnesium, Vitam
 | Latest graph manifests and validation report | Version, file integrity, lineage and validation |
 | [Release records](data/graph/poc-concepts-release-v1-9250419f3c2fc93805f9/) | Freeze reference for this graph |
 | [Current schema reference](schemas/current_kg_reference.json) | All node/relationship types, CSV columns, observed endpoint types and semantics |
-| [Package inventory](reports/kg_handoff_file_list.json) / [path list](reports/kg_handoff_file_list.txt) | 484 data/schema files, about 500.5 MB, needed for the evidence-preserving handoff |
+| [Package inventory](reports/kg_handoff_file_list.json) / [path list](reports/kg_handoff_file_list.txt) | 479 data/schema files, about 500.5 MB, needed for the evidence-preserving handoff |
 | Referenced `data/raw/` and `data/processed/` files | Resolve citations, original values, text spans and mapping decisions |
 
-Keep relative paths intact. The 484-file inventory covers selected data and versioned schemas; this README, current schema reference, validator and inventory files are additional support files. Existing collection files on `main` are retained; not every existing repository file is part of the handoff inventory.
+Keep relative paths intact. The 479-file inventory covers selected data and the current schema reference; this README, validator and inventory files are additional support files. Existing collection files on `main` are retained; not every existing repository file is part of the handoff inventory.
 
 ## Validate locally
 
@@ -29,6 +29,8 @@ python3 scripts/validate_kg_handoff.py
 ```
 
 The validator checks selected-file hashes, graph counts, unique IDs, endpoints, evidence references, **64,312 source pointers**, **1,269 claim excerpts**, and **2,923 field-support anchors**. It does not need the development virtual environment, earlier graph builds or exploratory notebooks.
+
+Only `schemas/current_kg_reference.json` is included on `main`. The six historical processing/mapping specifications remain on `preprocessing-kg-schema`; their frozen lineage references are intentionally preserved.
 
 The graph's `input_manifest.json` records historical build lineage. Some build-time inputs are intentionally excluded from this consumption package; rebuilding all stages requires the development branch. Structural/source-support validation is not clinical approval.
 

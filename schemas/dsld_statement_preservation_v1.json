@@ -1,8 +1,0 @@
-{
-  "version": "1.0",
-  "scope": "Preserve every entry of statements[] in each of the 400 captured DSLD labels, regardless of source type.",
-  "identity": "Reuse existing snapshot/path/source-mapping assertion IDs and exact source evidence IDs. Never merge distinct source locations.",
-  "interpretation": "A preserved label statement is an attributed manufacturer/source statement, not a verified medical fact or automatic warning. Keep type and text unchanged. Relevance is separately reviewed.",
-  "updates": "Add only missing statement assertions, evidence and HAS_ASSERTION edges to the pinned navigation graph. Keep previous graphs and source files unchanged.",
-  "limits": "Completeness refers to captured statements arrays, not label images, uncaptured products or clinical truth. Other original label fields follow the existing selected-field contract."
-}

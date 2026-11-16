@@ -476,9 +476,4 @@ data/raw/pubchem/runs/20261028T035149634190Z/collection.json
 data/raw/reddit/records.jsonl
 data/raw/reddit/upstream_derived/passages.jsonl
 data/raw/rxnorm/runs/20261028T060819025094Z/collection.json
-schemas/dsld_statement_preservation_v1.json
-schemas/full_graph_export_v1.json
-schemas/general_concept_mapping_v1.json
-schemas/ingredient_mapping_decisions_v1.json
-schemas/poc_preprocessing_contract_v0.1.json
-schemas/topic_navigation_v1.json
+schemas/current_kg_reference.json
