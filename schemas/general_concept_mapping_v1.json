@@ -1,0 +1,16 @@
+{
+  "version": "general-concept-mapping-v1",
+  "relation": "DENOTES_CONCEPT",
+  "scope": "A qualified occurrence denotes a general ingredient concept; no exact material, brand, concentration or clinical equivalence.",
+  "eligibility": [
+    "All original pending/excluded mapping rows and all added contextual candidates are assessed.",
+    "Never override Low/excluded candidates or existing approved decisions.",
+    "Require explicit plant part and preparation, without conflicting or negated context.",
+    "Require an active RxNorm IN concept, equal explicit scope, and a saved exact RxNorm query-to-target result supporting the identity bridge.",
+    "Related query wording must have the same bounded ingredient family and supported qualifiers; its qualifiers must also equal target scope.",
+    "Only one eligible target per occurrence/source; competing accepted targets block automatic application.",
+    "Standardization percentages and named preparations stay on source occurrences and do not block a general concept link; never propagate them to the target.",
+    "PubChem structure identity, MeSH broader/narrower relations and NatMed subject mappings require separate rules and remain unchanged."
+  ],
+  "approval": "User-authorized rule assessment, not individual human review or clinical approval."
+}

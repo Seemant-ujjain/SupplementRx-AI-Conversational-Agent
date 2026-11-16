@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "kind": "decision_policy",
+  "rules": [
+    {"id": "I1", "rule": "Retain native source IDs and source snapshots. Identical IDs with different payloads require version/conflict review; never silently overwrite."},
+    {"id": "I2", "rule": "Repeated brand/product names and matching compared ingredient/serving cores are review groups, not canonical products."},
+    {"id": "I3", "rule": "Retain direct labelRelationships with their source type and pointer. Do not infer transitive product equivalence."},
+    {"id": "I4", "rule": "Retain distinct NatMed claim IDs, field support, dose/population context and pending clinical review even when excerpts or spans repeat."},
+    {"id": "I5", "rule": "Retain distinct Reddit record and passage IDs, thread/parent/time/URL context. Repeated text does not establish one author or experience."},
+    {"id": "I6", "rule": "Exact UTF-8 text may share a text blob with per-source bindings. Text reuse is not entity merging or independent corroboration."},
+    {"id": "I7", "rule": "Reuse terminology namespace/native IDs only. High concept mapping confidence does not imply equivalence of products or ingredient occurrences."}
+  ],
+  "merge_policy": "No new canonical entity merges in this batch; product equivalence remains unresolved where not established.",
+  "raw_mutation": false,
+  "graph_mutation": false,
+  "clinical_approval": false
+}

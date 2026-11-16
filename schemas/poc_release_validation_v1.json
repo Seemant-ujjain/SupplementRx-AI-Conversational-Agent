@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "freeze_scope": "Immutable saved data/graph baseline; no clinical approval or production-readiness claim",
+  "checks": ["Input and output hashes", "Graph endpoints and evidence references", "Exact High mapping eligibility and relation types", "Raw excerpt offsets and field-support spans", "Prepared and raw evidence pointers", "All ten topic coverage paths", "Equivalent quantity with retained formulation differences", "Pending safety source retrieval", "Abstention on unsupported product effectiveness comparison"],
+  "required_limits": ["No merging", "No clinical approvals", "Unknowns remain unknown", "Reddit context is not direct mention", "Coverage counts are not completeness or precision/recall estimates"],
+  "future_updates": "Build a new graph and release manifest; preserve this version"
+}

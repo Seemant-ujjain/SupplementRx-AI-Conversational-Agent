@@ -1,0 +1,11 @@
+{
+  "id": "terminology-preparation-batch-v1",
+  "scope": "All saved PubChem, RxNorm and MeSH query/record collections; separate outputs with links to prepared DSLD occurrences",
+  "normalization": "Preserve source values and types; add separate trimmed display/search fields and explicit missing-field states. Do not infer synonyms as equivalence.",
+  "pubchem": "All collected compound properties and source synonyms; query/request/batch provenance",
+  "rxnorm": "Basic concept properties, NAMES/SOURCES properties and UNII_CODE/DRUGBANK/SNOMEDCT cross-reference candidates; other properties retained in raw only",
+  "mesh": "Matched records, described subjects, complete typed saved RDF statements and term-concept-record bindings; preserved context is not an activated clinical or identity relation",
+  "review": "All returned candidates remain needs_review with null confidence. No-match and ambiguous queries retained. Do not overwrite earlier bounded-pilot decisions.",
+  "references": "External RDF targets remain explicit and unresolved outside described subjects; no network expansion",
+  "validation": ["Input hashes", "All 739 queries per source", "All 3391 query occurrences per source link to prepared DSLD", "Record/property/candidate coverage", "Typed RDF and source pointer preservation", "No identity approvals or graph mutations", "Identical replay"]
+}

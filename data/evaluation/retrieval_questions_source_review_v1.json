@@ -1,0 +1,2102 @@
+{
+  "version": "source-review-v1",
+  "graph": "data/graph/full-graph-navigation-v1-073a086cbc98af6632ae",
+  "graph_manifest_sha256": "073a086cbc98af6632ae9afa419304f6073156214c0099f4a6c01bacb79651d4",
+  "release": "data/graph/poc-navigation-release-v1-29919793c9d8bc4951d0",
+  "status": "Ten DSLD warning questions source-reviewed by assistant, pending user adjudication; remaining twenty questions unannotated; no retrieval scores.",
+  "seed_policy": "Graph-selected records are inspection aids, not ground truth; review raw source records and complete sections independently before scoring.",
+  "annotation_protocol": [
+    "Review raw DSLD label statements and NatMed source sections, including relevant context and qualifications.",
+    "Record relevant source spans and source IDs first; then record whether each is preserved/exported/linked in the graph.",
+    "Label gaps as source_missing, collected_not_exported, exported_not_linked, or retrieval_miss; keep these separate.",
+    "Determine expected answerability and exclusions. Record reviewer/date and adjudicate unclear cases.",
+    "Do not restrict the relevant set to the example seed IDs or the baseline retriever output.",
+    "Only score frozen reviewed annotations. Future train/test splits must keep related labels, shared excerpts and threads together to avoid leakage."
+  ],
+  "metrics": {
+    "retrieval_precision": "Relevant retrieved evidence units / all retrieved evidence units",
+    "retrieval_recall": "Relevant retrieved evidence units / all adjudicated relevant evidence units in the specified saved-source scope",
+    "unit": "Annotate source-specific evidence units: label assertion/span, NatMed claim/span, or Reddit record. Deduplicate repeated returns by the agreed unit; keep distinct source contexts.",
+    "empty_sets": "No returned evidence: precision undefined (report N/A). No relevant evidence: recall undefined (report N/A); score answerability/abstention separately.",
+    "additional": [
+      "Supported-answer and appropriate-abstention checks",
+      "Correct source attribution and preserved qualifications",
+      "No identity/concept/category promotion",
+      "Direct mention versus context separation",
+      "Null and pending-review preservation"
+    ],
+    "aggregation": "Report per-question and per-source scores, then macro averages over defined denominators; keep answerability separate. No measured scores yet."
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "topic": "Magnesium",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Quad-Magnesium (DSLD label 242165)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:4a1b00d83635591e4d514b2e80eb6c860c3d5e81a76a78d2889e91231efda776",
+        "assertion:e56da1920c5578fdd117119b1cfd793bb6c9045d726b16c846731f41fc0b0475",
+        "assertion:6df3778755d4c0c78fc0995e9a508296274f6ae03625d730dfd568198c70512b"
+      ],
+      "evidence_seed_ids": [
+        "evidence:1ecbf1f4c6c93951dc37914cf379fd7c26f767b2b629ac14ddacd78196ebc18d",
+        "evidence:5baff249212248cba675d85d1a0ad8ad72836973ca9d0d72f83f2d3e960cb977",
+        "graph_evidence:1a49fc96dc1ba419c06ef42d4814c6d4a3d8d0d7bdf55259e7da850f5cbdf1c0"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:0501a7b3332fb5b5dead86afbd22168eeb3aacb5bb3fd7ae4009d75e2b672216",
+        "evidence:1ecbf1f4c6c93951dc37914cf379fd7c26f767b2b629ac14ddacd78196ebc18d",
+        "evidence:3aaeb0925f7b1f2f4e504f826bb4e6847243fece4d941b3a4ae025d494525608",
+        "evidence:c52d988969f6c391778d8d7b75e93d15abd6209780b09abd25dc227c545189d3",
+        "evidence:e32b71bbb77d7142c901f3121e74e676c1cd291b1deeee3748a21e3f6d4cb485",
+        "evidence:f6a881ee1aa36272e39e26d408af4e96b559dd606fb87ebda547318f38df968d"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_242165.json",
+          "sha256": "b0231c35077df496be21e56bfacf525626c3fe9ffe0bf0028907b15d15b29f08",
+          "pointer": "/statements/1/notes",
+          "start": 0,
+          "end": 108,
+          "text": "Warning:\nProduct may cause gastrointestinal discomfort, including diarrhea. Do not exceed recommended dose.\n",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_242165.json",
+          "sha256": "b0231c35077df496be21e56bfacf525626c3fe9ffe0bf0028907b15d15b29f08",
+          "pointer": "/statements/2/notes",
+          "start": 0,
+          "end": 157,
+          "text": "Pregnant or nursing mothers, children under 18 and individuals with known medical conditions should consult a physician before using this dietary supplement.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_242165.json",
+          "sha256": "b0231c35077df496be21e56bfacf525626c3fe9ffe0bf0028907b15d15b29f08",
+          "pointer": "/statements/3/notes",
+          "start": 0,
+          "end": 157,
+          "text": "Pregnant or nursing mothers, children under 18 and individuals with known medical conditions should consult a physician before using this dietary supplement.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_242165.json",
+          "sha256": "b0231c35077df496be21e56bfacf525626c3fe9ffe0bf0028907b15d15b29f08",
+          "pointer": "/statements/4/notes",
+          "start": 0,
+          "end": 74,
+          "text": "Discontinue use and consult your physician if any adverse reactions occur.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_242165.json",
+          "sha256": "b0231c35077df496be21e56bfacf525626c3fe9ffe0bf0028907b15d15b29f08",
+          "pointer": "/statements/5/notes",
+          "start": 0,
+          "end": 30,
+          "text": "Keep out of reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_242165.json",
+          "sha256": "b0231c35077df496be21e56bfacf525626c3fe9ffe0bf0028907b15d15b29f08",
+          "pointer": "/statements/6/notes",
+          "start": 0,
+          "end": 48,
+          "text": "Do not use if safety seal is damaged or missing.",
+          "source_type": "Precautions re: All Other"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:80044e8539e14652bb10136f6f4295f2ad7282c015fe9bfe3c7c5657fbb7f221",
+        "warning_unit:57d56ed55d28052aed91ec0176835d3151357b6ad9a716f34696418a017388db",
+        "warning_unit:ed470203b99a4d2ae6573c039c43071e8a1f31b235db462252c0836db3572e7a",
+        "warning_unit:cfcf1d8bf225090aad92379f73ff78604374b122694a47594088d8ac2d9f0127",
+        "warning_unit:c91aa604106e00b18fd2b15eaa2985768911e9c2708797bece93f110f76e036f"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/7",
+        "/statements/8",
+        "/statements/9",
+        "/statements/10",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13"
+      ]
+    },
+    {
+      "id": "Q02",
+      "topic": "Vitamin D",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Vitamin D (DSLD label 239369)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:992255f1a4d3c8dd5deea34d6a479204826e4708c9b406684bce29958b582033",
+        "assertion:b72ed58d51290782b9d0b09e5fedfbbb1d974da75227d142109afeeb1c7c87e8",
+        "assertion:c72f7d3a5fa3835649db95486fe5cca7e4f01691d57e7409779bf799d134d2fb"
+      ],
+      "evidence_seed_ids": [
+        "evidence:51cb233d1db16a398fe79c31fa9711a8a943f46578b81cd6987e4ebe4a2b476e",
+        "evidence:f9852ae881c40b4f643a1474a07f59b8f996fcecbabcbb9fd9da31003e2db7f9",
+        "graph_evidence:b0e7a4eb0a9865c0300652f845bb71ebf752d52fb1039ebdb6cd3ddb50467888"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:39ea1bb44a2d0b4ba6239f06a802e26021ebb83024bf5c42a1923ac0aff5b269",
+        "evidence:6bef32cb2de1d23d7d961b8071c9da2b16c142b8d397e01fec817c06eabd83a0",
+        "evidence:99696109accc1a6a1d940a4444bd3eb02798fa3a54e1e8e40621a8bf504f38ff",
+        "evidence:d65fe59e1fe60ff595290719a5c247e85369ae969562569bb4ba96cca6e69eb7",
+        "evidence:ec3ae0ee69f3afe91d59b2974bb0485377ac4d119c5687c80b638573556c3e0f",
+        "evidence:f89c1527c7ab04fc172a18d65d2a0c434e08ac9290644392b120f2324e15ad03"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_239369.json",
+          "sha256": "880b7252607a4c878e287c5efce3288fe3ce6b3c4f8440b3806dd0b21f9b3b7b",
+          "pointer": "/statements/3/notes",
+          "start": 0,
+          "end": 192,
+          "text": "Children under 12 years of age, pregnant women or nursing mothers, or anyone with a medical condition should consult with a physician before taking this product. Keep out of reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_239369.json",
+          "sha256": "880b7252607a4c878e287c5efce3288fe3ce6b3c4f8440b3806dd0b21f9b3b7b",
+          "pointer": "/statements/4/notes",
+          "start": 0,
+          "end": 161,
+          "text": "Children under 12 years of age, pregnant women or nursing mothers, or anyone with a medical condition should consult with a physician before taking this product.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_239369.json",
+          "sha256": "880b7252607a4c878e287c5efce3288fe3ce6b3c4f8440b3806dd0b21f9b3b7b",
+          "pointer": "/statements/7/notes",
+          "start": 0,
+          "end": 161,
+          "text": "Children under 12 years of age, pregnant women or nursing mothers, or anyone with a medical condition should consult with a physician before taking this product.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_239369.json",
+          "sha256": "880b7252607a4c878e287c5efce3288fe3ce6b3c4f8440b3806dd0b21f9b3b7b",
+          "pointer": "/statements/8/notes",
+          "start": 0,
+          "end": 161,
+          "text": "Children under 12 years of age, pregnant women or nursing mothers, or anyone with a medical condition should consult with a physician before taking this product.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_239369.json",
+          "sha256": "880b7252607a4c878e287c5efce3288fe3ce6b3c4f8440b3806dd0b21f9b3b7b",
+          "pointer": "/statements/9/notes",
+          "start": 0,
+          "end": 30,
+          "text": "Keep out of reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_239369.json",
+          "sha256": "880b7252607a4c878e287c5efce3288fe3ce6b3c4f8440b3806dd0b21f9b3b7b",
+          "pointer": "/statements/10/notes",
+          "start": 0,
+          "end": 102,
+          "text": "Patients on anticoagulant therapy should consult their physician before taking vitamin K2 supplements.",
+          "source_type": "Precautions re: All Other"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:945c24d638c41e5f78c7d3fe91fa09a34d152f23dd65316dba0f0286d077b3b5",
+        "warning_unit:51ff8ddbc68982efc363c7c553fa7cb491315d8a40d7c55077269c870c95511e",
+        "warning_unit:fd14cdcf917dba45f0c9b2a6588005973f82087d1128820d77bb7ec145505b8f",
+        "warning_unit:d14f566c9099e5f6f4927d7608c527e7d3b3f269374de774efc084d512578ebf"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/1",
+        "/statements/2",
+        "/statements/5",
+        "/statements/6",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/17",
+        "/statements/18",
+        "/statements/19"
+      ]
+    },
+    {
+      "id": "Q03",
+      "topic": "Ashwagandha",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Ashwagandha Extra Strength (DSLD label 206077)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e9cb76845624d5a6d5e0372b8468d031ee64a5137516a4c810fafa6f0b800f18",
+        "assertion:53441d3459b51de773d29a9579f3a2ad3ae52e4ec5a6e8404b48e24a68dcf001",
+        "assertion:28c3038b9ced2aa68c868b85cf7c532ae8af10884ec4392f9e6717b839e12ddf"
+      ],
+      "evidence_seed_ids": [
+        "evidence:928e7460a33a317ee9291d5ac3bcc5a9daebe9e6a878ff05c1a580ac279c1901",
+        "evidence:a8e0b5a6464e01a790ecde294dd739c295176ea996fef605248701edc83181be",
+        "graph_evidence:bd4763841933ff71c940d312905eb7f5794c57574500caeb9af9268d0495b7ac"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:03b8e9cd00e76a53b48d468770dbba8798aaf4cb4245e6ec047a6f5c2137e329",
+        "evidence:847e6660720dcc8a942f9b858975982e76228adf6705a8783255f9736a0bb313",
+        "evidence:8d52e62ffbc9ec75615eee6082f7f7657994b51b020d7a0bf719284059d86a40",
+        "evidence:a8e0b5a6464e01a790ecde294dd739c295176ea996fef605248701edc83181be",
+        "evidence:c997ae56a68127b20a8f2bf31c7dc3f906f8299be3a9ce2c4491d03433be9c58",
+        "evidence:cfead96b21074dbf6bb09689e67df32ff31f11fd983ef72159fd5ef099e4cca5"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_206077.json",
+          "sha256": "3cabffe611a6bfd8eea5e98c00a563b793cbbbfbba51d8461de2786a0f72a201",
+          "pointer": "/statements/2/notes",
+          "start": 0,
+          "end": 44,
+          "text": "Caution: Do not exceed the recommended dose.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_206077.json",
+          "sha256": "3cabffe611a6bfd8eea5e98c00a563b793cbbbfbba51d8461de2786a0f72a201",
+          "pointer": "/statements/3/notes",
+          "start": 0,
+          "end": 166,
+          "text": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_206077.json",
+          "sha256": "3cabffe611a6bfd8eea5e98c00a563b793cbbbfbba51d8461de2786a0f72a201",
+          "pointer": "/statements/4/notes",
+          "start": 0,
+          "end": 166,
+          "text": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_206077.json",
+          "sha256": "3cabffe611a6bfd8eea5e98c00a563b793cbbbfbba51d8461de2786a0f72a201",
+          "pointer": "/statements/5/notes",
+          "start": 0,
+          "end": 151,
+          "text": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish",
+          "source_type": "Precautions re: Allergies"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_206077.json",
+          "sha256": "3cabffe611a6bfd8eea5e98c00a563b793cbbbfbba51d8461de2786a0f72a201",
+          "pointer": "/statements/6/notes",
+          "start": 0,
+          "end": 34,
+          "text": "Keep out of the reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_206077.json",
+          "sha256": "3cabffe611a6bfd8eea5e98c00a563b793cbbbfbba51d8461de2786a0f72a201",
+          "pointer": "/statements/7/notes",
+          "start": 0,
+          "end": 48,
+          "text": "Do not use if safety seal is damaged or missing.",
+          "source_type": "Precautions re: All Other"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:c8a0a0e8868d72ab3c74ac34dd7a93070158c83d4b496666c6b2e3d03c77e361",
+        "warning_unit:6e6339a0264e2b5298c522c8633bc7dcb31de6eb752e0553889603c5a6497edd",
+        "warning_unit:25b8ad72503948e4830b2bf304458a3c8516489d27459439eb927c91177cadae",
+        "warning_unit:45f3a9dbce085f9a9c8d458d31448fe01a19680da3477f7f5e40d4b14597ac73",
+        "warning_unit:1fe350b04f4df3836d47701cbf7bf4de2b8a4b6a48d265d6c5c4a1fbf4ce7d42"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/1",
+        "/statements/8",
+        "/statements/9",
+        "/statements/10",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/17"
+      ]
+    },
+    {
+      "id": "Q04",
+      "topic": "Melatonin",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Melatonin 1 mg (DSLD label 3749)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:d525494ae07eb8bf869afc2154ca64d3cb259280f7d6b0078991d19b14aafa68",
+        "assertion:053fd4a1cd6e0d23e00ef0fde942a3c71b0a44f2210397738c46127a24d57633",
+        "assertion:063984a4ef72f4389846a91d1329829771171659cb26f9a101b7e21338334a85"
+      ],
+      "evidence_seed_ids": [
+        "evidence:2d3aaf0a23f3e4c7041c0689c9248fec2e32541774fba7b49a41291e6a0cc6c8",
+        "evidence:e9929ff032d3258e9b784502b17426992029b0fd2f49fbefb1a08ada04343aaf",
+        "graph_evidence:f73d9d06261a212fc0fc05b11ff8f86de57b1989f52afa5c3c04ebe57d935764"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:01323b452adbae51fc7b8653353b4e2e79d2be8002943da08cf19710d79ee266",
+        "evidence:2d3aaf0a23f3e4c7041c0689c9248fec2e32541774fba7b49a41291e6a0cc6c8",
+        "evidence:488aa98a7ad672a6812e9487203fe872dcf141f83a5c07852ba609f4a80288e8",
+        "evidence:5cd374a296e03ca6b03c3b08f65ed77ecee07ab90cbbb76f3b8696d21d018cf0",
+        "evidence:791daf777c1be7b711a9a42c428b836807cf916c237580aacb877f78b6d31fd8",
+        "evidence:831c8fc46b87d0cdd6b66a63c87ed4296e1100685a07d394b5bef9f6ecb09bc4",
+        "evidence:d224ef5ba7ac71c5456da18752039795a8201a3eedfe40127a4345ecff25469c",
+        "evidence:d7ce1a741ddeef04eea038e72a37cc4abf88e9b6ca4d83c86022e17e48ae9c16",
+        "evidence:e9929ff032d3258e9b784502b17426992029b0fd2f49fbefb1a08ada04343aaf"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/1/notes",
+          "start": 0,
+          "end": 98,
+          "text": "DIRECTIONS: For adults, take one (1) tablet daily, at bedtime as Melatonin may produce drowsiness.",
+          "source_type": "Suggested/Recommended/Usage/Directions"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/2/notes",
+          "start": 0,
+          "end": 30,
+          "text": "Keep out of reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/11/notes",
+          "start": 0,
+          "end": 59,
+          "text": "WARNING: Not intended for use by pregnant or nursing women.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/18/notes",
+          "start": 0,
+          "end": 71,
+          "text": "Discontinue use and consult your doctor if any adverse reactions occur.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/19/notes",
+          "start": 0,
+          "end": 76,
+          "text": "Do not drive, operate machinery or consume alcohol when taking this product.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/20/notes",
+          "start": 0,
+          "end": 50,
+          "text": "Do not use if seal under cap is broken or missing.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/21/notes",
+          "start": 0,
+          "end": 66,
+          "text": "If you are taking any medications, consult your doctor before use.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/22/notes",
+          "start": 0,
+          "end": 49,
+          "text": "Limit use to two months with a break of one week.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_3749.json",
+          "sha256": "d585afd220333c0eef30fa9196ce141251497056dedc193034ab9c7ad7e19dec",
+          "pointer": "/statements/23/notes",
+          "start": 0,
+          "end": 52,
+          "text": "Not intended for use by persons under the age of 18.",
+          "source_type": "Precautions re: All Other"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:eb030328d958de5dadaeb277dc6238431a218950fa4b4f900b9eada7d342aa50",
+        "warning_unit:37bb7895d0b6a41cc1a274cca338ee41dc27f2a84e13b7e9d7286ba1f8ff695c",
+        "warning_unit:96d1697d2fe67976263ecd205b2124e003d6a8151d0687e2c5b6e7d1e8dc8bf4",
+        "warning_unit:59b3670b0f356bc280b5d6aba014dee489422016c105c75639d97f76cd81442e",
+        "warning_unit:4c7c0d2a46b80742afbf4f6004313f83a5907ce5e642e1f4c8f343fed50a5165",
+        "warning_unit:951298cbf29f27c5b50b21c5d8d58efc4af19e22a6b700fcb94e3a63f9135940",
+        "warning_unit:0abdbc9d1254071e5198e4176b512d2ab099e0d9babced7a359a44eca8a89ab9",
+        "warning_unit:09d7830113f148c81d568638e7984858c7d756b406797a5e2c5f75de4d794ae4",
+        "warning_unit:019957928d85cff30aa5524e9fc229e37f912df37df18a20f4ca279c320c8aa0"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/3",
+        "/statements/4",
+        "/statements/5",
+        "/statements/6",
+        "/statements/7",
+        "/statements/8",
+        "/statements/9",
+        "/statements/10",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/17"
+      ]
+    },
+    {
+      "id": "Q05",
+      "topic": "Omega-3",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Omega-3 2400 mg (DSLD label 223186)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:044853a32b72d57f01e5cecb1e50a254701e1aec3402103a648846322c9ad081",
+        "assertion:ec949cdc74ce5cf9a5f43bffc98d47e973906062b2c8cc653ee976dd80f3546d",
+        "assertion:9ac4cfea1ea415740214f0bd4c341e1d72d77d0365c4c7c29a20762e733f9e5e"
+      ],
+      "evidence_seed_ids": [
+        "evidence:102e14319ad09538d47782ef9f89c714726468e2edd877a995a2674a77e3dcc0",
+        "evidence:9069e411f20544e326012d7870df608c6bdd79e5e59d6915ae625714fc702bc9",
+        "graph_evidence:9707bbec247b168c85c5cbe7e523838053ad1a5473bd26d13007517ea997f5d3"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:0368e919a76fb4f88b11b817e6fad6e1e85cf17b179d01f67657f6b8c93e386e",
+        "evidence:1b84f7be9ed22b9363952cbff949d2d64840ebb25e15916e4464e41c32447a51",
+        "evidence:425a016582d46c1eebedb838db3fde322f3ff0ba633a3e5040b867a9d0ba584d",
+        "evidence:9069e411f20544e326012d7870df608c6bdd79e5e59d6915ae625714fc702bc9",
+        "evidence:b548bf51a281cc092928e72abbe59eec39b3eb076ac531ee5e5c9ca829f56e68",
+        "evidence:db84830505718107048a5a9e9a768bd44e391f77b958fb08e909bfd2c4b7c526",
+        "evidence:ee97d1a2e52a940db9f6c97759d5e37b82e2d4d965fffd832222136acfe30304"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/2/notes",
+          "start": 0,
+          "end": 60,
+          "text": "Warning: Cancer and reproductive harm\nwww.P65Warnings.ca.gov",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/10/notes",
+          "start": 0,
+          "end": 45,
+          "text": "Contains: Fish (anchovy, sardine & marckerel)",
+          "source_type": "Precautions re: Allergies"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/12/notes",
+          "start": 0,
+          "end": 102,
+          "text": "Warning: This product is only intended to be consumed by healthy individuals over the age of 18 years.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/13/notes",
+          "start": 0,
+          "end": 116,
+          "text": "If you are pregnant or nursing, taking any medication or have any medical condition, consult your doctor before use.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/14/notes",
+          "start": 0,
+          "end": 71,
+          "text": "Discontinue use and consult your doctor if any adverse reactions occur.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/15/notes",
+          "start": 0,
+          "end": 34,
+          "text": "Keep out of the reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_223186.json",
+          "sha256": "ba45acc25c4ccbe24b9c087aa2a2a60fc101f0a87f9033330054068a5f1ce68c",
+          "pointer": "/statements/17/notes",
+          "start": 0,
+          "end": 66,
+          "text": "Tamper Evident: Do not use if seal under cap is broken or missing.",
+          "source_type": "Precautions re: All Other"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:df5e5d2b6d12ebeffe879618358d19f69b1c6b3b858ce7c83ecb10c871461243",
+        "warning_unit:7bf391a094da9c0cdf383442b4b20094001b7e01e7387f928ac61c975523043c",
+        "warning_unit:7c7ce1b249a9d9f82e712a4de8b21af25d9644dd459a983b258ecd3c58e68bc0",
+        "warning_unit:0ec43e3dcbc3b9e74cdb4edc89ae7c7249b02d7821dce831a1a6bc27a6ec2b5e",
+        "warning_unit:09b56d0a0e0b6ab7eebb120ac826d821f7ec049d3bac44b4b9a0a6c7e550db4a",
+        "warning_unit:2d88d41f8e4d54616407e357b80d0534a02bb4139ce0f294445ab647ff11a323",
+        "warning_unit:155e64bbdd990b01990716b0631fc51f03d37f33e3d97a79940950e632821744"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/1",
+        "/statements/3",
+        "/statements/4",
+        "/statements/5",
+        "/statements/6",
+        "/statements/7",
+        "/statements/8",
+        "/statements/9",
+        "/statements/11",
+        "/statements/16",
+        "/statements/18"
+      ]
+    },
+    {
+      "id": "Q06",
+      "topic": "Vitamin B12",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Vitamin B12 1000 mcg (DSLD label 179549)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:234e1a041b49ea434370ca911593158080101eaed2037182f696f5c456fa9fc3",
+        "assertion:5641167de983bf24b7bfa2ad1456e1f2ec2fb493c4c9995f78d4221e56dc4f26",
+        "assertion:635a439bf27896ce3692da9bef964aa1addb968d00d0c22a6de88dc613e49204"
+      ],
+      "evidence_seed_ids": [
+        "evidence:285ff922bea65e63826dcaf1ecaf3e7b95a8315073cff1b1fcb9e273471fc510",
+        "evidence:7a491007e172061f135239c31e0b0259ac5610ffed23fd0a0155f53219456baa",
+        "graph_evidence:7f5768aa478b0cb81a45399a2e2354c40930284673530a5f4aea34ed0c7459e4"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:285ff922bea65e63826dcaf1ecaf3e7b95a8315073cff1b1fcb9e273471fc510",
+        "evidence:2d0cf40cf8618ab7edbf6c46640b1bd4b1a0aec915228662d642ea99a9ee50d3",
+        "evidence:2efbf429b0a878c40984cea7f4b1d7ed7104a6f045c008df7d088a84d88d013f",
+        "evidence:6f971118735c54e394d8698c24584dc37ddff7144a2cd52c1212c6715579c485",
+        "evidence:7454e7b3159e408e3cc60b9e4e6f57d379b9b2d47a8587fd2e1790b921ee3bbb"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_179549.json",
+          "sha256": "2e315ac0f8cb7d8d7e2fdb2b6501a563900de87bde93ba2f6c50d3f88d567829",
+          "pointer": "/statements/15/notes",
+          "start": 0,
+          "end": 157,
+          "text": "Directions: Adults take one (1) tablet daily with food. As a reminder, discuss the supplements and medications that you take with your health care providers.",
+          "source_type": "Suggested/Recommended/Usage/Directions"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179549.json",
+          "sha256": "2e315ac0f8cb7d8d7e2fdb2b6501a563900de87bde93ba2f6c50d3f88d567829",
+          "pointer": "/statements/16/notes",
+          "start": 0,
+          "end": 101,
+          "text": "As a reminder, discuss the supplements and medications that you take with your health care providers.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179549.json",
+          "sha256": "2e315ac0f8cb7d8d7e2fdb2b6501a563900de87bde93ba2f6c50d3f88d567829",
+          "pointer": "/statements/17/notes",
+          "start": 0,
+          "end": 152,
+          "text": "Caution: If you are pregnant, nursing, or taking medication, have a medical condition or planning a surgery, consult a doctor before using this product.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179549.json",
+          "sha256": "2e315ac0f8cb7d8d7e2fdb2b6501a563900de87bde93ba2f6c50d3f88d567829",
+          "pointer": "/statements/18/notes",
+          "start": 0,
+          "end": 96,
+          "text": "Stop using and consult a doctor if any adverse reactions occur.\nDo not accept if seal is broken.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179549.json",
+          "sha256": "2e315ac0f8cb7d8d7e2fdb2b6501a563900de87bde93ba2f6c50d3f88d567829",
+          "pointer": "/statements/20/notes",
+          "start": 0,
+          "end": 34,
+          "text": "Keep out of the reach of children.",
+          "source_type": "Precautions re: Children"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:eaf1593f0d9657cd49e844eafe236ecd69ccc2a4bfabb8c426db8f96ddc2c72a",
+        "warning_unit:b76807115520ab537b98bc9a0423cce16c3bf1d9404ec2ea66211a5353af26a6",
+        "warning_unit:070574423a2386fcb363fa357f3c4cc52717ca97db0d4d838da988aa6fc76f79",
+        "warning_unit:e663911c9b5507ce339f542245666543875a66ec70fd939a4422cbe9a41ba0d9",
+        "warning_unit:0edf0edb45a16b1d6798e15a659c2f08876a8c0b03ec56287bfd04c082e9d5b8"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/1",
+        "/statements/2",
+        "/statements/3",
+        "/statements/4",
+        "/statements/5",
+        "/statements/6",
+        "/statements/7",
+        "/statements/8",
+        "/statements/9",
+        "/statements/10",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/19",
+        "/statements/21"
+      ]
+    },
+    {
+      "id": "Q07",
+      "topic": "Iron",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Ortho Iron (DSLD label 214846)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:76e1142c2355a58d40ad52699633e96c6008e3edb478086f33f5c5032b8873e9",
+        "assertion:7ca5cb6521479eee46c638455dc8e6dc2bcefa84eddb43c1cdc49391e200ac1a",
+        "assertion:4f52d4288a8a664ceadf4ae8fdf33715b4f48dcc5428bfbb606b21ada7c78953"
+      ],
+      "evidence_seed_ids": [
+        "evidence:101d9ebc511401aa288d8033b82ca3f374fee24398a0e94e61011971cf60d4a7",
+        "evidence:b154ef842d46882321fef857e58a5f1c64a0c93982f49a297c4f7f095ff0ca24",
+        "graph_evidence:7f83549a2b4c8d5e3376bd1187fbf7307da6b12bc84b563acf592cfd741584ce"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:101d9ebc511401aa288d8033b82ca3f374fee24398a0e94e61011971cf60d4a7",
+        "evidence:11c3336894be5c1c55548c6487f871487b39074b277a5c94cbc664dbddb73445",
+        "evidence:3b6f475c28da75f6da40560ca5376b0afedfbe2c28ba0247c1c1d4cffb8a45d4",
+        "evidence:44eb609ad2bb89dc0097948a2c2be947bab98d3de07aee9d06585a1bf76a466c",
+        "evidence:5541ce324ab21ba7d38956b86cc365e37935e8d7fdb5e3e22b639bc73041dd10",
+        "evidence:7a29e7fbf8f6b15cb33933a9c5314daf6b81b35dba4e5603be6e72a0617cfa32",
+        "evidence:cc960637e8519c60267e35f445cd858e9aa4264084007c3b220a5f2d9a9fd4e4"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/1/notes",
+          "start": 0,
+          "end": 35,
+          "text": "Do not use if safety seal is broken",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/5/notes",
+          "start": 0,
+          "end": 158,
+          "text": "Directions: Take 1 capsule daily with food, or as directed by a qualified health care practitioner. Take a few hours before or after taking other medications.",
+          "source_type": "Suggested/Recommended/Usage/Directions"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/6/notes",
+          "start": 0,
+          "end": 130,
+          "text": "Warning: Consult your physician before use if you are pregnant, lactating, have a medical condition, or are taking any medication.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/7/notes",
+          "start": 0,
+          "end": 234,
+          "text": "Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/8/notes",
+          "start": 0,
+          "end": 236,
+          "text": "Caution: Take a few hours before or after taking other medications. Taking a daily prenatal multivitamin or mineral supplement along with this product may result in constipation, diarrhea, and/or vomiting due to the high intake of iron.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/9/notes",
+          "start": 0,
+          "end": 97,
+          "text": "Consult a health care practitioner prior to use if you are allergic to cow’s milk/dairy products.",
+          "source_type": "Precautions re: Allergies"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_214846.json",
+          "sha256": "2e49ef68bd57e5e9222f52f7790ac6442d19fe746ed4aa1b6096429e07e2a2f9",
+          "pointer": "/statements/17/notes",
+          "start": 0,
+          "end": 23,
+          "text": "Contains: milk and soy.",
+          "source_type": "Precautions re: Allergies"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:cce4c9c9995a68df7b606ac3a89d13d0073b6d0c0cd53c43494ac19192ccbe2b",
+        "warning_unit:681a6b066d2530d4c07ccf5b6fa99445adc3f9e7d50af793ad8de021d270c58f",
+        "warning_unit:4f19190d9357da563490f73f1f639ef50d90b6e0c4c939de3029ed36da559cb6",
+        "warning_unit:dc0ffb9e660007d7d3de028c114648eac0aba73ffe4ab1d933d8abbdc7666675",
+        "warning_unit:e0f49c1a74b620cd63107692ecbd1e4ee91ba52ea4ac6ec8de8322e1e7d24823",
+        "warning_unit:030c159fbb3f0a2c864c93965b86a7327fd66d625b926e2f2bec9a158b2fab75",
+        "warning_unit:b698ea8544f3cecd7d8db43adf405301c095c22202bc1cb4b46907dbf18b6a1c"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/2",
+        "/statements/3",
+        "/statements/4",
+        "/statements/10",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/18",
+        "/statements/19",
+        "/statements/20",
+        "/statements/21",
+        "/statements/22"
+      ]
+    },
+    {
+      "id": "Q08",
+      "topic": "Turmeric",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Turmeric 750 mg (DSLD label 179934)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:8af8281adb935cf4d80ba79cafc3b80c045cde9ba2e896a1c9d9186c75bd5ce4",
+        "assertion:cc1a1d94c22b9b8289fede308fbebe01e782c92834e5035972873292c953b7e7",
+        "assertion:0434f6ae324e8eed3c78651cc4949fae9d1192d8c2c96bfda66fd6f60860821a"
+      ],
+      "evidence_seed_ids": [
+        "evidence:0fcf0f3a8821e66e3956f93a0eea72dcf0464fc29f989f6ac1ff9ab3eb96d0b2",
+        "evidence:9eae22fd982edb28b738d096380fdd3271206a20bafd12a45e39d1fe21220804",
+        "graph_evidence:e745e65b0489b28b711f988f9998d17817e4c95c608382479dbf47b543e2b019"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:0fcf0f3a8821e66e3956f93a0eea72dcf0464fc29f989f6ac1ff9ab3eb96d0b2",
+        "evidence:4ca81e3af2d19d93af723337bbabac8bd85c74938c5502edbf03627a853fa101",
+        "evidence:89286ae751b6fb4f83c890be89e783fa4dff110d9e6b821ac31a33eb07a856f7",
+        "evidence:9eae22fd982edb28b738d096380fdd3271206a20bafd12a45e39d1fe21220804",
+        "evidence:e1ff95e593a0bc555677c3c73c9e6c6e358ccd1f2702e1fa493763bec85b670f",
+        "evidence:fbc6d6082b25bd1ab8b63970a2ee86e0d5f6af265d234eddb39a2c43fd25ccff"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_179934.json",
+          "sha256": "5d28699f24e6c2130dbf826d781843f147bbc8a20c0a6968e1746c656a8c6434",
+          "pointer": "/statements/1/notes",
+          "start": 0,
+          "end": 40,
+          "text": "Caution: Do not exceed recommended dose.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179934.json",
+          "sha256": "5d28699f24e6c2130dbf826d781843f147bbc8a20c0a6968e1746c656a8c6434",
+          "pointer": "/statements/2/notes",
+          "start": 0,
+          "end": 193,
+          "text": "Pregnant or nursing mothers, children under 18 years of age and individuals with a known medical condition should consult a health care professional before using this or any dietary supplement.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179934.json",
+          "sha256": "5d28699f24e6c2130dbf826d781843f147bbc8a20c0a6968e1746c656a8c6434",
+          "pointer": "/statements/3/notes",
+          "start": 0,
+          "end": 193,
+          "text": "Pregnant or nursing mothers, children under 18 years of age and individuals with a known medical condition should consult a health care professional before using this or any dietary supplement.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179934.json",
+          "sha256": "5d28699f24e6c2130dbf826d781843f147bbc8a20c0a6968e1746c656a8c6434",
+          "pointer": "/statements/4/notes",
+          "start": 0,
+          "end": 152,
+          "text": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish.",
+          "source_type": "Precautions re: Allergies"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179934.json",
+          "sha256": "5d28699f24e6c2130dbf826d781843f147bbc8a20c0a6968e1746c656a8c6434",
+          "pointer": "/statements/12/notes",
+          "start": 0,
+          "end": 34,
+          "text": "Keep out of the reach of children.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_179934.json",
+          "sha256": "5d28699f24e6c2130dbf826d781843f147bbc8a20c0a6968e1746c656a8c6434",
+          "pointer": "/statements/13/notes",
+          "start": 0,
+          "end": 48,
+          "text": "Do not use if safety seal is damaged or missing.",
+          "source_type": "Precautions re: All Other"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:bf2923d8d64ee0121959b3ae8bc5a5bfc5527e8a17dab1bbd8ea73b2f8a50265",
+        "warning_unit:54c29db103d82c544531ece72092abf7c897fede5100d0bc4b7c029017850655",
+        "warning_unit:8a418dc840034e553e5f8502946db570d5ddc5b80df7ba9d910dc21343d84d90",
+        "warning_unit:7066c0c171c0171b1aefe22970416c92a86665e952af9e07f86dd65663583f08",
+        "warning_unit:e8606fdb63a3ab1d8d05fa0e9479fff0ad1693931c6b0d4578de95642fc49fee"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/5",
+        "/statements/6",
+        "/statements/7",
+        "/statements/8",
+        "/statements/9",
+        "/statements/10",
+        "/statements/11",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/17",
+        "/statements/18"
+      ]
+    },
+    {
+      "id": "Q09",
+      "topic": "Probiotics",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Probiotics + Weight Loss (DSLD label 63275)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e2954837086a1d87ec46eb87b7ede00a7be8293ccddfa7c90c04e397425aa26f",
+        "assertion:6237e70f29458ac0f5786b9570fe218757fc7c1c563b779d229fab7bfc5f373f",
+        "assertion:56f01fd115a552bfbab86cbd9127fd888ede1f508a5909513ae7fb8dc2b04029"
+      ],
+      "evidence_seed_ids": [
+        "evidence:024f81aa3069ccd249a5d6ab123d2e3e33367f9f53fc7d1bb3c72957a678120b",
+        "evidence:5a8cd39dfebf2172c211b9b50e37a5226262b57f639a563a753e497f4a689fcf",
+        "graph_evidence:3a118f1c35e3cea4606dcbc036299687b88a9833d0c745742d1ceeb7664f8a47"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:024f81aa3069ccd249a5d6ab123d2e3e33367f9f53fc7d1bb3c72957a678120b",
+        "evidence:136795032d9c5ca7d24cd2ca732a8e8a044048d8ce61e0c8e9af75864c33d0b6",
+        "evidence:267716b3769702dadaf410a5ae87a47f845aa126bd9c8c60f96eb56696085e49",
+        "evidence:2fa8541d6fa14a9dfce96ea47dcc77a50c7a60360e44543702ba34abd76b7056",
+        "evidence:502f129452de1f9485a2bafa94cbdd40f7bfdd35ab5222e30e5d6dce6c4d8633",
+        "evidence:5a8cd39dfebf2172c211b9b50e37a5226262b57f639a563a753e497f4a689fcf",
+        "evidence:5bb560453cc89d56f15f279c5dc00dd5465be5b14663b939d5e91c092e29ec40",
+        "evidence:72328df1e520a1950cd6571241557d1008826542695306a52a90eff9d3604500",
+        "evidence:f988b7cc2e8c0f3df6fd68c0554f998eb373a73ac64ab2b2e819d54a86bde6e0"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/0/notes",
+          "start": 0,
+          "end": 356,
+          "text": "Directions: Take 1 serving (3 easy-to-swallow veggie capsules) 2 times daily, 30 to 60 minutes before your 2 largest meals. Do not snack between meals or before bed. Do not exceed 2 servings (6 capsules) in a 24-hour period. Combine with diet and exercise. For best results, use for 60 days. Read the entire label before use and follow directions provided.",
+          "source_type": "Suggested/Recommended/Usage/Directions"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/1/notes",
+          "start": 0,
+          "end": 28,
+          "text": "Warning: For adult use only.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/2/notes",
+          "start": 0,
+          "end": 58,
+          "text": "Take a few hours before or after taking other medications.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/3/notes",
+          "start": 0,
+          "end": 58,
+          "text": "Take a few hours before or after taking other medications.",
+          "source_type": "Suggested/Recommended/Usage/Directions"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/4/notes",
+          "start": 0,
+          "end": 205,
+          "text": "Childbearing age women should limit daily vitamin A intake to 10,000 IU (excludes beta-carotene). Consult a doctor before use if you have a medical condition and before starting a diet or exercise program.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/5/notes",
+          "start": 0,
+          "end": 30,
+          "text": "KEEP OUT OF REACH OF CHILDREN.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/7/notes",
+          "start": 0,
+          "end": 47,
+          "text": "Do not use if packaging has been tampered with.",
+          "source_type": "Precautions re: All Other"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/8/notes",
+          "start": 0,
+          "end": 34,
+          "text": "Do not use if pregnant or nursing.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_63275.json",
+          "sha256": "bca37ec8f14bf1607b32f189dad1d470009c284b2dfef47cc5c6af69b28372e1",
+          "pointer": "/statements/9/notes",
+          "start": 0,
+          "end": 198,
+          "text": "Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. In case of accidental overdose, call a medical doctor or poison control center immediately.",
+          "source_type": "Precautions re: Children"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:8c632226aaa98e19ab9e240d3b2ffaaf4bdaafca303a57b41d98716731f47d0f",
+        "warning_unit:38c3c95347a9e0ee849692cc49ed4ecc98de191d9c0e1d24c628ee01da1765e3",
+        "warning_unit:3d3165fffca8f463b62de91c70eb4ccca46c4cf11af2f7664e6bdf4ee82b6ef0",
+        "warning_unit:c03017b86bcbe557560a38f7aed3fbdb8ff0739d492d67c70fdcf5fd134bd3a7",
+        "warning_unit:31fd5691c25ecfd011ca01977ff03811bbcb40445ae902798819e6ecf174b30b",
+        "warning_unit:3ba5241597154b24b8f50d40e92a74fbed6a1c7cd481ff3215a4690fbb6e4f95",
+        "warning_unit:162749c439dfd8f9e8fd65ee8b614a24faa6008a44f906685a7c9a910a838fc6",
+        "warning_unit:91596157ea685e5bbe12aa73e3f7b01cdf0bbb7d99a3ea71bd5fda50f073b3ab"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "expected_warning_units_reachable",
+      "expected_excluded_statement_pointers": [
+        "/statements/6",
+        "/statements/10",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/17",
+        "/statements/18",
+        "/statements/19",
+        "/statements/20",
+        "/statements/21",
+        "/statements/22",
+        "/statements/23",
+        "/statements/24",
+        "/statements/25",
+        "/statements/26",
+        "/statements/27",
+        "/statements/28",
+        "/statements/29",
+        "/statements/30",
+        "/statements/31",
+        "/statements/32"
+      ]
+    },
+    {
+      "id": "Q10",
+      "topic": "Creatine",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Creatine Alkaline (DSLD label 25731)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+        "assertion:2194d413e397cac775ae619e8cf926275445a9b6db60485ed224e7f4949c8052",
+        "assertion:5516fba3a3932eaaa9fd96c08f69efa6e00a3a18a459a84b3c6d8c46b5c5ffda"
+      ],
+      "evidence_seed_ids": [
+        "evidence:08ffe293a18857d9cfc0bc0fa20a561c26dc5e46fa2579de1472db5d1d9a3b7e",
+        "evidence:7f54e0d6357d8f872f4cbbe76e89a0ac69ac30eca6a3c29c326244a7eb265744",
+        "graph_evidence:43a6fa62f21c5a138140f8eaadbc41feee2fd60fb57ea97740f6bb5d632c15ae"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": [
+        "evidence:035f76ffa333ef5262c2d17865996c2a209dcabb0866246a102841b395c473d8",
+        "evidence:08ffe293a18857d9cfc0bc0fa20a561c26dc5e46fa2579de1472db5d1d9a3b7e",
+        "evidence:7f54e0d6357d8f872f4cbbe76e89a0ac69ac30eca6a3c29c326244a7eb265744"
+      ],
+      "expected_relevant_source_spans": [
+        {
+          "file": "data/raw/dsld/labels/label_25731.json",
+          "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+          "pointer": "/statements/18/notes",
+          "start": 0,
+          "end": 36,
+          "text": "Please read entire label before use.",
+          "source_type": "General Statements: All Other Content"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_25731.json",
+          "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+          "pointer": "/statements/20/notes",
+          "start": 0,
+          "end": 55,
+          "text": "Warnings: Not intended for use by persons under age 18.",
+          "source_type": "Precautions re: Children"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_25731.json",
+          "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+          "pointer": "/statements/21/notes",
+          "start": 0,
+          "end": 31,
+          "text": "Do not exceed recommended dose.",
+          "source_type": "General Statements: All Other Content"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_25731.json",
+          "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+          "pointer": "/statements/22/notes",
+          "start": 0,
+          "end": 196,
+          "text": "Get the consent of a licensed physician before using this product, especially if you are taking\nmedication, have a medical condition, you are pregnant, nursing or thinking about becoming pregnant.",
+          "source_type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+        },
+        {
+          "file": "data/raw/dsld/labels/label_25731.json",
+          "sha256": "1383effee1ff97ce9d704f32727a8679bdceade2976f8e2e894eb641e6bc4b00",
+          "pointer": "/statements/23/notes",
+          "start": 0,
+          "end": 67,
+          "text": "KEEP THIS PRODUCT AND ALL SUPPLEMENTS OUT OF THE REACH OF CHILDREN.",
+          "source_type": "Precautions re: Children"
+        }
+      ],
+      "expected_answerability": "answerable_as_attributed_saved_label_warnings",
+      "annotation_status": "source_reviewed_pending_user_adjudication",
+      "reviewer": "assistant_source_review",
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation",
+      "expected_evidence_unit_ids": [
+        "warning_unit:a11739275c96370ed13ae98490398db6a860bb9c2beaa64a730f8dcbc8377c01",
+        "warning_unit:4ba5cf70b35965536cef12c88c876772a9270f470056a7fe8df25cfe54245195",
+        "warning_unit:e7da55244e7d5b9e46eb0abc75209a98c66a65bdaa9044a198cbb4c95491ce49",
+        "warning_unit:3311478b8cc73316da79516e3a91fe7402eda96b982913d5b374d358f853006d",
+        "warning_unit:fc2139630b476aac922412ff1dfe7286b4d348de377c68a3fbbe0913f68bbd9e"
+      ],
+      "relevance_unit_policy": "Exact original statement text within the same label/question. Merge identical text only for scoring; preserve every original type, pointer, assertion ID and source context. Partial overlaps remain separate units.",
+      "graph_answerability": "partial_missing_exported_warning_evidence",
+      "expected_excluded_statement_pointers": [
+        "/statements/0",
+        "/statements/1",
+        "/statements/2",
+        "/statements/3",
+        "/statements/4",
+        "/statements/5",
+        "/statements/6",
+        "/statements/7",
+        "/statements/8",
+        "/statements/9",
+        "/statements/10",
+        "/statements/11",
+        "/statements/12",
+        "/statements/13",
+        "/statements/14",
+        "/statements/15",
+        "/statements/16",
+        "/statements/17",
+        "/statements/19"
+      ]
+    },
+    {
+      "id": "Q11",
+      "topic": "Magnesium",
+      "category": "natmed_interaction",
+      "question": "What interaction statements and partner names are present in the saved NatMed annotations for Magnesium?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:649e1db8b72c315fd46a0008",
+        "claim:ece8f46a2cef08073b4997a75eae2b2f135b57810407dc775a47853095079d5d",
+        "claim:834cd59d2e5d058dd2b1dc0fd81e76eab672e287646d6f099236b89cdadcf0be"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:36c38724bd668faaa71167ca301dd39d90ea7486715c9ea27e913ba263ea7680",
+        "graph_evidence:766479cec9d3bbf5566a9c0a4549bc726b254c013a1570518b53c83ae8ba3982",
+        "graph_evidence:87991231edd9f72fe9ea18b9095ff8ec901e7904dae7fc25b610ef83c277e808"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q12",
+      "topic": "Vitamin D",
+      "category": "natmed_dose",
+      "question": "What dose contexts, units, routes, durations and populations are recorded in the saved NatMed annotations for Vitamin D?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:8dd04c27d96778422b37b7f1",
+        "claim:5ecb30c1fe83caf6c941f64e573e5355f52227328cd7fee46aaadf85c62dd9b3",
+        "claim:1d38c6cb6cc8727b68bc2de334605bebbf839def6b393688bbdfb12bef8c1436"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:599bc155fb34a0fd4a87f49d5ad8da4ee83d87e3312cbcc7cfb2232955a4682c",
+        "graph_evidence:68172a14a55ceb076fb512c356e50946ea14358150bd80e9d1e55b8a9469d83b",
+        "graph_evidence:f22d6f1671dec93dd6069c22bec2e7db35007fdb656831913b706e713843f8bc"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q13",
+      "topic": "Ashwagandha",
+      "category": "natmed_safety",
+      "question": "What safety statements and population qualifications are recorded in the saved NatMed annotations for Ashwagandha?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:0d296c0daa1cccb456da568c",
+        "claim:29b849693c136dc2e033084f98a8c3ccfc7152be7b4f76d6d2b3f497df47dffc",
+        "claim:3a1e7c59e8144dd11cfe90e000be0afa605130adb7d5baf9a94e590a529ea45f"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:274e20f5ef75c32b5b1697431faf171a45ed1ae27a551c74bcd05b0e8ca34623",
+        "graph_evidence:867e036ffbd642ccc9ce53726689f5e2d77b9a9dec7836014eee09d491886ce7",
+        "graph_evidence:95656ed493eb3e4b8f041e2178a660227ea69c1ada0277c69b8d70ec57d9a881"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q14",
+      "topic": "Melatonin",
+      "category": "natmed_safety",
+      "question": "What safety statements and population qualifications are recorded in the saved NatMed annotations for Melatonin?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:3684a1a282d205d7021e1e8c",
+        "claim:832894835fd7198894307d08587649b92576539825973fc895391d8c7f3ca321",
+        "claim:d0b518e28c77d05184258dd40de8e7c241fa1e0c84ae3ccd8bf80438b39c49e7"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:149b512601814cca7c4b528f72df33b9345a5c540f410443f4c1e27d7bf9292a",
+        "graph_evidence:bd4a342c97800a6f4ba714bdbb0a143642242cc259bfdde4d0bcd328b2343d32",
+        "graph_evidence:c3b0039483a191f34e2e7ff34052f0f0020f16451a5b4bbced15d9b242d535c9"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q15",
+      "topic": "Omega-3",
+      "category": "natmed_interaction",
+      "question": "What interaction statements and partner names are present in the saved NatMed annotations for Omega-3?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:9846bbe87087e6c66c605ff5",
+        "claim:91efaeb6f0011ad8d841139aac057009045e546529abddf840fe59af6c989ae4",
+        "claim:f123d40775eeeb2723e3631ab83082d8c3908702ce8e56020025400e0b928fad"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:22c04738e35ee86c4ddd318a2d36bcfaa19308fc376d9202a6fe8947d7f7256b",
+        "graph_evidence:6cadc2d9c20bea5ce0a0c2abdeefc11c24c441759947ef491134046db8d1dbe7",
+        "graph_evidence:c46ff096f6f7efa8bd2a20fe5cc8aad68b6b994da5fc7c94fd940e6e9bef4679"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q16",
+      "topic": "Vitamin B12",
+      "category": "natmed_effectiveness",
+      "question": "What indications and effectiveness ratings appear in the saved NatMed annotations for Vitamin B12?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:0e9f2262886c394a16e6a7b6",
+        "claim:f3e96df984f0299ae23f7f1bd207b3e120d045cdcc6cc91b3b32798b3a596cf0",
+        "claim:02fceddada0f404d628d5eabd30471dcc2eb1ebfc403b4aa79c116538636ce50"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:2d51dcdfc3adb01ffc2a4b1c260bb31b2a9abaf380f24785044676167fc04e3f",
+        "graph_evidence:cb614d68de69e40eb238f3bb74787c0359449a3d90406243d144b6207acfd931",
+        "graph_evidence:e688a6a513e56bdf7b30ee062c93170e54e9a898525cd8b9b50b34d981576882"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q17",
+      "topic": "Iron",
+      "category": "natmed_adverse_effect",
+      "question": "What adverse-effect statements are recorded in the saved NatMed annotations for Iron?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:fce9d033ff2ec6933e4775ba",
+        "claim:d6a8f9981a48b2466da3bb2dcbe3a25545a55650580b9194fc3050bfcebd6135",
+        "claim:ee329aaa3124b3dfbd93775e479f00db1e9e6027a6b5da7cc0c7968601dba33c"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:200a2e022a6d5a44ce9615b6f989e5dbdacd380083eab535ecd8f37df5ff982d",
+        "graph_evidence:4cd0defc21172091f9bf0ee0257cde20ea607985c57ac1b65652821c97cda1e9",
+        "graph_evidence:be1f9ea1c2abffceba5f67caaa5478e2bb963ae3e8c5e002c6972bd27695cc47"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q18",
+      "topic": "Turmeric",
+      "category": "natmed_interaction",
+      "question": "What interaction statements and partner names are present in the saved NatMed annotations for Turmeric?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:15e8a621cab69a1f3066f3e8",
+        "claim:7e557030659df62b595f5bb62c44626b1774685353e20389b5fcfc9de67b5ddf",
+        "claim:e81153f40c0d14088428797b432477d8ebda21b46a099a4543dc818bc9a78740"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:768642c7099d058fd9484858f29ce8c2bab63a09526889c246e1b913bf0754ab",
+        "graph_evidence:978c0216f2dba8a5c1092c4d7cf62a405f816e2637f569b42eb3d030ff2c87d0",
+        "graph_evidence:b4defd7e0930c424c45fb8eea7a9e222d8848fd5e463158087b35520827aaebe"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q19",
+      "topic": "Probiotics",
+      "category": "natmed_effectiveness",
+      "question": "What indications and effectiveness ratings appear in the saved NatMed annotations for Probiotics?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:6d4216fa13c50b0c8a12b73b",
+        "claim:59dd0c7fb16adeaa27049f451d6e16a1f9baa5b1dd84bb39e3c14dc19169a79a",
+        "claim:be4b81af8986ad80df8bc2fafcf80bc6eac7ba9f5091b5c2c8e491d39df6dfd5"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:3589d9ebfa869816d09a1d231ea62d3b28fbd49730cc13cde11db8dd0a50cbc6",
+        "graph_evidence:b9297e4939b865abe153c237cdaea44248a596212948863e28cc5835ca298c27",
+        "graph_evidence:f5b3629e102888e3708219dc8faa8ddd4706796cd07fa4f5e580fb48b53e45b8"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q20",
+      "topic": "Creatine",
+      "category": "natmed_safety",
+      "question": "What safety statements and population qualifications are recorded in the saved NatMed annotations for Creatine?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:1dcdcb859542de37540c85e3",
+        "claim:557d2923c7ff80ad68517ad3283df012d5debb826c126b2a5715020b27a0dea3",
+        "claim:c4bcd4bcd3d166d0a751b8e72ef1a0e12a2c0a67a41f3be1c476a52c33811f3d"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:3d36d46574f7333bc8ba8d594e46439fde287852834cf285daf380758532c69d",
+        "graph_evidence:93db6efa91f269a320b19ed33cc6e3431c95b89bcc0ca5239263dafd26842275",
+        "graph_evidence:cb688f21d9612c7395b9f5ad3886b2e498a9c1aab1dcbe25e2981cf0a3464db4"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q21",
+      "topic": "Magnesium",
+      "category": "quantity_basis",
+      "question": "What magnesium amounts and serving bases are declared on the selected label, and which amounts are eligible for comparison? (Selected label: 242165.)",
+      "expected_result_criteria": [
+        "Return original quantity, unit, operator, serving basis and comparison status.",
+        "Blocked/pending quantities cannot be silently converted into comparable doses."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:4a1b00d83635591e4d514b2e80eb6c860c3d5e81a76a78d2889e91231efda776",
+        "natmed:649e1db8b72c315fd46a0008"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:1a49fc96dc1ba419c06ef42d4814c6d4a3d8d0d7bdf55259e7da850f5cbdf1c0",
+        "graph_evidence:766479cec9d3bbf5566a9c0a4549bc726b254c013a1570518b53c83ae8ba3982"
+      ],
+      "candidate_graph_paths": [
+        "DECLARES_OCCURRENCE",
+        "HAS_ASSERTION",
+        "HAS_SERVING_BASIS"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q22",
+      "topic": "Vitamin D",
+      "category": "identity_scope",
+      "question": "Which High-confidence concept or exact-material mappings exist for the selected label’s Vitamin D ingredient occurrences? (Selected label: 239369.)",
+      "expected_result_criteria": [
+        "Return relation type, target namespace/native ID, confidence and evidence.",
+        "A title mention is not a composition assertion; concept mappings are not exact-material equivalence."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:992255f1a4d3c8dd5deea34d6a479204826e4708c9b406684bce29958b582033",
+        "natmed:8dd04c27d96778422b37b7f1"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:b0e7a4eb0a9865c0300652f845bb71ebf752d52fb1039ebdb6cd3ddb50467888",
+        "graph_evidence:f22d6f1671dec93dd6069c22bec2e7db35007fdb656831913b706e713843f8bc"
+      ],
+      "candidate_graph_paths": [
+        "DECLARES_OCCURRENCE",
+        "DENOTES_CONCEPT / EXACT_MATERIAL_MATCH"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q23",
+      "topic": "Ashwagandha",
+      "category": "product_clinical_applicability",
+      "question": "Can the saved NatMed safety statements be connected to this selected Ashwagandha product, and what applicability remains unestablished? (Selected label: 206077.)",
+      "expected_result_criteria": [
+        "Show the actual occurrence-to-monograph-subject path if it exists.",
+        "Separate manufacturer warnings from NatMed statements; identify formulation, dose and population gaps."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e9cb76845624d5a6d5e0372b8468d031ee64a5137516a4c810fafa6f0b800f18",
+        "natmed:0d296c0daa1cccb456da568c"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:867e036ffbd642ccc9ce53726689f5e2d77b9a9dec7836014eee09d491886ce7",
+        "graph_evidence:bd4763841933ff71c940d312905eb7f5794c57574500caeb9af9268d0495b7ac"
+      ],
+      "candidate_graph_paths": [
+        "DECLARES_OCCURRENCE",
+        "RELATED_INGREDIENT_SUBJECT / RELATED_BOTANICAL_SUBJECT",
+        "ABOUT_SUBJECT (reverse)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q24",
+      "topic": "Melatonin",
+      "category": "reddit_direct_context",
+      "question": "Which saved Reddit records directly mention Melatonin, and which are only inherited thread context? (Selected label: 3749.)",
+      "expected_result_criteria": [
+        "Use direct MENTIONS_TOPIC records for direct results; report inherited context separately.",
+        "Retain original text, URL and thread/parent context; do not infer personal use or causality."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:d525494ae07eb8bf869afc2154ca64d3cb259280f7d6b0078991d19b14aafa68",
+        "natmed:3684a1a282d205d7021e1e8c"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:bd4a342c97800a6f4ba714bdbb0a143642242cc259bfdde4d0bcd328b2343d32",
+        "graph_evidence:f73d9d06261a212fc0fc05b11ff8f86de57b1989f52afa5c3c04ebe57d935764"
+      ],
+      "candidate_graph_paths": [
+        "MENTIONS_TOPIC",
+        "INHERITED_THREAD_TOPIC"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q25",
+      "topic": "Omega-3",
+      "category": "category_not_equivalence",
+      "question": "Do the reviewed Omega-3 category links establish exact ingredient or formulation equivalence? (Selected label: 223186.)",
+      "expected_result_criteria": [
+        "Inspect MEMBER_OF_CATEGORY links and their rationale.",
+        "Keep category membership distinct from DENOTES_CONCEPT and EXACT_MATERIAL_MATCH; do not merge ingredients."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:044853a32b72d57f01e5cecb1e50a254701e1aec3402103a648846322c9ad081",
+        "natmed:9846bbe87087e6c66c605ff5",
+        "occurrence:1a6fa0d833b9de12c9bf689eef00786f86dab1cde5fac45b4d3638d6a1afb7d2",
+        "occurrence:60ed03698f3d51fa95e586166b4f04d86aedacdaed764829219b62d3ea82e274"
+      ],
+      "evidence_seed_ids": [
+        "evidence:081073ecfa8bff43ee4dd6699dc3c03a890567feaa46e50ec90959f8b56b907c",
+        "evidence:2c7331fef3dc2ed0f4a0daddba7ad30d1099ca2d5180bd336ff5c395b43102be",
+        "graph_evidence:9707bbec247b168c85c5cbe7e523838053ad1a5473bd26d13007517ea997f5d3",
+        "graph_evidence:c46ff096f6f7efa8bd2a20fe5cc8aad68b6b994da5fc7c94fd940e6e9bef4679"
+      ],
+      "candidate_graph_paths": [
+        "MEMBER_OF_CATEGORY"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q26",
+      "topic": "Vitamin B12",
+      "category": "null_preservation",
+      "question": "Where the selected Vitamin B12 NatMed annotation leaves dose or population unknown, what should the response show? (Selected label: 179549.)",
+      "expected_result_criteria": [
+        "Return unknown/null fields unchanged and show the source excerpt.",
+        "Do not fill missing fields from adjacent annotations without separate evidence and context."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:234e1a041b49ea434370ca911593158080101eaed2037182f696f5c456fa9fc3",
+        "natmed:0e9f2262886c394a16e6a7b6",
+        "claim:f3e96df984f0299ae23f7f1bd207b3e120d045cdcc6cc91b3b32798b3a596cf0"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:2d51dcdfc3adb01ffc2a4b1c260bb31b2a9abaf380f24785044676167fc04e3f",
+        "graph_evidence:7f5768aa478b0cb81a45399a2e2354c40930284673530a5f4aea34ed0c7459e4",
+        "graph_evidence:cb614d68de69e40eb238f3bb74787c0359449a3d90406243d144b6207acfd931"
+      ],
+      "candidate_graph_paths": [
+        "HAS_PENDING_CLAIM",
+        "SUPPORTED_BY_EXCERPT"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q27",
+      "topic": "Iron",
+      "category": "label_vs_clinical",
+      "question": "How do the selected Iron product’s label warnings differ from the relevant saved NatMed precautions? (Selected label: 214846.)",
+      "expected_result_criteria": [
+        "Present two source-separated evidence lists.",
+        "Only claim product applicability when a supported path and relevant context establish it; otherwise label NatMed content as general ingredient information."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:76e1142c2355a58d40ad52699633e96c6008e3edb478086f33f5c5032b8873e9",
+        "natmed:fce9d033ff2ec6933e4775ba"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:4cd0defc21172091f9bf0ee0257cde20ea607985c57ac1b65652821c97cda1e9",
+        "graph_evidence:7f83549a2b4c8d5e3376bd1187fbf7307da6b12bc84b563acf592cfd741584ce"
+      ],
+      "candidate_graph_paths": [
+        "HAS_ASSERTION",
+        "HAS_PENDING_CLAIM"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q28",
+      "topic": "Turmeric",
+      "category": "unsupported_recommendation",
+      "question": "Can this graph determine whether the selected Turmeric product is safe for a person taking an unspecified prescription medicine? (Selected label: 179934.)",
+      "expected_result_criteria": [
+        "State that the medicine and relevant personal context are unspecified.",
+        "Do not infer personal safety from label warnings, topic mentions, or general NatMed statements."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:8af8281adb935cf4d80ba79cafc3b80c045cde9ba2e896a1c9d9186c75bd5ce4",
+        "natmed:15e8a621cab69a1f3066f3e8"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:978c0216f2dba8a5c1092c4d7cf62a405f816e2637f569b42eb3d030ff2c87d0",
+        "graph_evidence:e745e65b0489b28b711f988f9998d17817e4c95c608382479dbf47b543e2b019"
+      ],
+      "candidate_graph_paths": [
+        "HAS_ASSERTION",
+        "HAS_PENDING_CLAIM"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q29",
+      "topic": "Probiotics",
+      "category": "navigation_vs_strain",
+      "question": "Which saved labels explicitly mention probiotics, and does that establish that their strains or formulations are equivalent? (Selected label: 63275.)",
+      "expected_result_criteria": [
+        "Retrieve title/name navigation channels and deduplicate labels by source label ID.",
+        "Return original organism/strain names separately; explicit topic mentions do not establish equivalence or viability."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e2954837086a1d87ec46eb87b7ede00a7be8293ccddfa7c90c04e397425aa26f",
+        "natmed:6d4216fa13c50b0c8a12b73b"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:3589d9ebfa869816d09a1d231ea62d3b28fbd49730cc13cde11db8dd0a50cbc6",
+        "graph_evidence:3a118f1c35e3cea4606dcbc036299687b88a9833d0c745742d1ceeb7664f8a47"
+      ],
+      "candidate_graph_paths": [
+        "LABEL_TITLE_MENTIONS_TOPIC",
+        "INGREDIENT_NAME_MENTIONS_TOPIC"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q30",
+      "topic": "Creatine",
+      "category": "comparison_and_abstention",
+      "question": "Do BPI Creatine Alkaline labels 25731 and 43261 declare equivalent creatine amounts, and can we conclude one is more effective? (Selected label: 25731.)",
+      "expected_result_criteria": [
+        "Check original 1500 mg versus 1.5 g and the same two-capsule basis against source records.",
+        "Preserve other-ingredient differences; equivalent declared mass does not establish formulation identity or comparative effectiveness.",
+        "Abstain on product superiority without represented product-comparative evidence."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+        "natmed:1dcdcb859542de37540c85e3",
+        "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:43a6fa62f21c5a138140f8eaadbc41feee2fd60fb57ea97740f6bb5d632c15ae",
+        "graph_evidence:8903f26f1c4c9837940ce6ef2d1da123d8dc5e8d62e8803937e789f572ed8bfa",
+        "graph_evidence:93db6efa91f269a320b19ed33cc6e3431c95b89bcc0ca5239263dafd26842275"
+      ],
+      "candidate_graph_paths": [
+        "HAS_ASSERTION",
+        "HAS_SERVING_BASIS",
+        "DECLARES_OCCURRENCE"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    }
+  ],
+  "warning_annotation_file": "data/evaluation/dsld_warning_evidence_review_v1.json"
+}

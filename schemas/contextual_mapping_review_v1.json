@@ -1,0 +1,17 @@
+{
+  "version": "contextual-mapping-review-v1",
+  "purpose": "Expand saved candidate review across related queries using explicit occurrence context, without promoting identity mappings.",
+  "rules": {
+    "C1": "Use the occurrence name and explicit PlantPart, Genus and Species notes. Preserve all attributes and original evidence; never borrow sibling or product-title context.",
+    "C2": "Match saved query families by case/whitespace normalization and removal of a bounded set of plant-part/preparation/form words. Normalize leaves to leaf, roots to root and HCl to hydrochloride. Preserve all other tokens, punctuation, brands, quantities and salts.",
+    "C3": "A related query may add candidates only if every query scope qualifier is explicitly supported by the occurrence. Do not broaden blends, negated descriptions or qualifiers from ambiguous notes.",
+    "C4": "Assess target scope separately from query scope. Conflicting explicit plant parts, preparation types or chemical forms block preference; unsupported allergenic preparations are excluded from exact matching. Missing scope, whole-extract ambiguity, inactive status and PubChem specificity remain pending.",
+    "C5": "Rank fully aligned active saved targets first for review; tied candidates remain tied. Ranking is not identity confidence or approval.",
+    "C6": "Retain all prior decisions unchanged, including exclusions. Added candidates remain Medium/pending or Low/conflicting, with no proposed identity relationship and graph_applied=false. Do not resolve historical no-candidate queries retroactively."
+  },
+  "limitations": [
+    "Bounded lexical discovery, not exhaustive synonym, taxonomy or chemical resolution.",
+    "No new High-confidence identity links, canonical merges, clinical approvals or graph writes.",
+    "Preparation/standardization/strain information remains in source attributes and must be reviewed even for highest-priority candidates."
+  ]
+}

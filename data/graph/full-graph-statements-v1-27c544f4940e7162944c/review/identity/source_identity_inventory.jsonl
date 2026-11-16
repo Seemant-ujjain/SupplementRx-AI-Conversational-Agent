@@ -1,0 +1,6 @@
+{"identity_policy":"retain_source_scoped_id","merged":0,"records":10,"source":"natmedpro","table":"records","unique_ids":10}
+{"identity_policy":"retain_source_scoped_id","merged":0,"records":1179,"source":"natmedpro","table":"passages","unique_ids":1179}
+{"identity_policy":"retain_source_scoped_id","merged":0,"records":1269,"source":"natmedpro","table":"claims","unique_ids":1269}
+{"identity_policy":"retain_source_scoped_id","merged":0,"records":4880,"source":"reddit","table":"records","unique_ids":4880}
+{"identity_policy":"retain_source_scoped_id","merged":0,"records":5071,"source":"reddit","table":"passages","unique_ids":5071}
+{"identity_policy":"retain_source_scoped_id","merged":0,"records":0,"source":"reddit","table":"claims","unique_ids":0}

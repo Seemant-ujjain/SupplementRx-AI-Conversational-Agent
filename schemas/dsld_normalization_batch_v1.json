@@ -1,0 +1,13 @@
+{
+  "contract_id": "dsld-normalization-batch-v1",
+  "status": "Step 2 DSLD batch specification; not the final full-graph schema",
+  "base_contract": "schemas/poc_preprocessing_contract_v0.1.json",
+  "scope": "All 400 labels pinned by the saved DSLD baseline audit; selected fields only",
+  "tables": "Reuse base-contract table shapes and source-scoped identity rules; terminology/clinical/graph stages are not run",
+  "normalization": ["Separate trimmed display name and NFC/casefolded whitespace-normalized search key", "Exact decimal conversion of supported plain mass units to mg", "Preserve original amount, operator, serving basis and all source fields", "Preserve missing, null, empty, NP and conflicting states", "No activity-to-mass, mass-to-volume, per-unit or daily-dose derivation"],
+  "comparison_policy": {"eligible": "Successful plain-mass representation with known basis, resolved serving, and no blocking quantity/source conflict", "pending": "Representation may exist but missing basis, zero, source range or serving-resolution issues prevent unqualified comparison", "blocked": "No supported mass representation; NP, conflict, invalid amount or unsupported unit/operator", "inequalities": "Keep original operator; eligibility never means equivalence to an exact amount", "identity": "Comparison does not establish ingredient or product equivalence"},
+  "review_policy": "Preserve all saved quantity-audit findings with source pointers, including serving-level issues; no source corrections",
+  "reference_scope": "selected_dsld_collection; out-of-sample targets are not declared nonexistent",
+  "excluded": ["accepted terminology mappings", "canonical identity assignment", "semantic deduplication", "clinical approval", "graph updates", "embeddings"],
+  "validation": ["400 labels and independent recursive path reconciliation", "source quantities and operators retained", "every evidence pointer resolves", "table types and foreign keys", "serving conflicts retained", "raw and prior artifacts unchanged", "identical replay"]
+}

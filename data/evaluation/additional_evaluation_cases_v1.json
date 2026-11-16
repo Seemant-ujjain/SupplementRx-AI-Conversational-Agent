@@ -1,0 +1,2996 @@
+{
+  "version": "additional-diagnostic-v1",
+  "graph": "data/graph/full-graph-statements-v1-27c544f4940e7162944c",
+  "graph_manifest_sha256": "27c544f4940e7162944c9e957236f3eab12f7cc0dbdd2d5317da8e336f78d4ed",
+  "rule_lock": {
+    "script": "scripts/kg_retrieval_v2.py",
+    "sha256": "b680ea7e49a437526b099eeb88da1b97e83178b2adc14a78a740c5407c51a387",
+    "sequence": "Rules fixed from original development errors before selecting/reviewing additional examples. Do not tune against the new set within this revision.",
+    "limits": "Same author and saved collection; newly reviewed examples are a leakage-aware diagnostic set, not an independent benchmark."
+  },
+  "inputs": {
+    "data/raw/dsld/labels/label_15097.json": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+    "data/raw/dsld/labels/label_73905.json": "4bdf91acfd5aad1037dbcae849967efec23db2c01b2ccd0d4abaffb82d1302de",
+    "data/raw/dsld/labels/label_307986.json": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+    "data/raw/dsld/labels/label_277770.json": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+    "data/raw/dsld/labels/label_313484.json": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+    "data/raw/dsld/labels/label_220773.json": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+    "data/raw/dsld/labels/label_77012.json": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+    "data/raw/dsld/labels/label_215132.json": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+    "data/raw/dsld/labels/label_328922.json": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+    "data/raw/dsld/labels/label_51023.json": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+    "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+    "data/raw/natmedpro/records.jsonl": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c"
+  },
+  "cases": [
+    {
+      "question_id": "H01",
+      "question": "What warnings and usage restrictions are captured for Magnesium Citrate (DSLD 15097)?",
+      "request": {
+        "question_id": "H01",
+        "category": "product_label_warnings",
+        "topic": "Magnesium",
+        "label_ids": [
+          "15097"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:15097:0e8d4ddd72157a43d99428fa0ef50217f0f53423ad347f261dcc76d742668cef"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H02",
+      "question": "What warnings and usage restrictions are captured for Calcium Citrate Plus Magnesium & Vitamin D (DSLD 73905)?",
+      "request": {
+        "question_id": "H02",
+        "category": "product_label_warnings",
+        "topic": "Vitamin D",
+        "label_ids": [
+          "73905"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H03",
+      "question": "What warnings and usage restrictions are captured for Ashwagandha (DSLD 307986)?",
+      "request": {
+        "question_id": "H03",
+        "category": "product_label_warnings",
+        "topic": "Ashwagandha",
+        "label_ids": [
+          "307986"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:307986:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "warning:307986:f397416bf0b8a200467a2a0280775c70ee4ef9b2cb11b1387010850c0e0f7ea0"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H04",
+      "question": "What warnings and usage restrictions are captured for Melatonin-SR (DSLD 277770)?",
+      "request": {
+        "question_id": "H04",
+        "category": "product_label_warnings",
+        "topic": "Melatonin",
+        "label_ids": [
+          "277770"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:277770:0c3b18ecf45edeaaf6706de61a031cead9bfcce60a109abd3445cc2d752f9b66",
+        "warning:277770:10d270ef2c9b90911dbe0bd2cf1f45861d57322a7c74a7dc14e3cbd30d200549",
+        "warning:277770:6930980370d1b4082d779f3a46e33150735cdf13894de83fb325e37303dfb608",
+        "warning:277770:ebc323d1b693cd7834d6421868a1f5111c113dc6d660e2b7a4126ff346f47fd6",
+        "warning:277770:f4febe70fb73f30a35ed065e20e6e2c91d4d10ef732b18b4654efd0fef6c265c"
+      ],
+      "optional_context_units": [
+        "warning:277770:ea20d9187dd4eb507c19f0e36e108aa2b8111c16a151023667977cc10186829a"
+      ],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H05",
+      "question": "What warnings and usage restrictions are captured for Omega 3 (DSLD 313484)?",
+      "request": {
+        "question_id": "H05",
+        "category": "product_label_warnings",
+        "topic": "Omega-3",
+        "label_ids": [
+          "313484"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:313484:316a233ba3ac5d92f44641a7f7ee3041d1af195584e2214d460214ccdf7cf09b",
+        "warning:313484:87984340fba0c24eb21377a24fe56f7dc8e9fb0ea8e5e1d1fd18c29f2d0facd8",
+        "warning:313484:bf6eabc5f217cbcb2ca4a3c25b36292253cfd29d92288ddc5093c2e402c58d8e",
+        "warning:313484:df560a1d83e2771d356376c3984c29c34be3479487676c5e161a4193f45fc991"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H06",
+      "question": "What warnings and usage restrictions are captured for Vitamin B12 100 (DSLD 220773)?",
+      "request": {
+        "question_id": "H06",
+        "category": "product_label_warnings",
+        "topic": "Vitamin B12",
+        "label_ids": [
+          "220773"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H07",
+      "question": "What warnings and usage restrictions are captured for Energizing Iron (DSLD 77012)?",
+      "request": {
+        "question_id": "H07",
+        "category": "product_label_warnings",
+        "topic": "Iron",
+        "label_ids": [
+          "77012"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:77012:42fc2f79d915f940007d700e85ce3c83045ba6932c4206a3cd8e1ca3213b2713",
+        "warning:77012:e3df957070c6e8f1bfa94725b0f458beb92c707b1e96eab817582e913e74e619"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H08",
+      "question": "What warnings and usage restrictions are captured for Turmeric (DSLD 215132)?",
+      "request": {
+        "question_id": "H08",
+        "category": "product_label_warnings",
+        "topic": "Turmeric",
+        "label_ids": [
+          "215132"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:215132:696e487877bc8784a39c3414333e479712f767299ac32ca50169307e4338cdf5",
+        "warning:215132:78676ea083b02d6d87259581230b7ea3d30078c3d81d52183bf42c35ed6afd10",
+        "warning:215132:d62073bc58b1f3b7b66898aa598b8c39c1211098d6a81522ce8daaadb5835e74",
+        "warning:215132:dd9b6241fd205af86f91fad960ef6c520afb055d4ed50c8bd36e05dab74207ee"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H09",
+      "question": "What warnings and usage restrictions are captured for Digest Gold + Probiotics (DSLD 328922)?",
+      "request": {
+        "question_id": "H09",
+        "category": "product_label_warnings",
+        "topic": "Probiotics",
+        "label_ids": [
+          "328922"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:328922:2f76f19052f888d11d7b5417b9c612ac83e1a98b7fbe55da9a83311b9818e1ff",
+        "warning:328922:e80db8abcda1e9d334888e600e85f90240d3abde22aee6ea26c6a9d54914c1c7"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H10",
+      "question": "What warnings and usage restrictions are captured for Creafusion Creatine Blend Tropical Citrus (DSLD 51023)?",
+      "request": {
+        "question_id": "H10",
+        "category": "product_label_warnings",
+        "topic": "Creatine",
+        "label_ids": [
+          "51023"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:51023:90485ba7d417fd24074d1beba0abb7f2ee545b57cbb303fb4ccbe636038b9944",
+        "warning:51023:c5ecdfb7f84910968cc8d0bba30cd4c0f7a4c6da65a70f717bb35662abbde95e",
+        "warning:51023:c94bddf15451ed74288f79969ba7139e4cc89e9305e8732b7ee6749a81d9401a",
+        "warning:51023:dd1668cf7cde7efc3249c3aa69e55f60c8a51921c08518d000c370252b1fec37"
+      ],
+      "optional_context_units": [
+        "warning:51023:4549fec43855d5d9c4f4ec92d1a3cbf54ae5754ed133fc2dc10b6cf6e67bf49a"
+      ],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H11",
+      "question": "What adverse_effect contexts occur in the saved Ashwagandha NatMed annotations?",
+      "request": {
+        "question_id": "H11",
+        "category": "natmed_adverse_effect",
+        "topic": "Ashwagandha",
+        "label_ids": [],
+        "monograph_id": "natmed:0d296c0daa1cccb456da568c"
+      },
+      "expected_primary_units": [
+        "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+        "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+        "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+        "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+        "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+        "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+        "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+        "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3"
+      ],
+      "optional_context_units": [
+        "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e"
+      ],
+      "expected_separate_context_units": [],
+      "checks": [
+        "clinical_pending",
+        "source_monograph_title"
+      ],
+      "facts": {
+        "source_title": "Ashwagandha"
+      },
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "H12",
+      "question": "What dose contexts occur in the saved Creatine NatMed annotations?",
+      "request": {
+        "question_id": "H12",
+        "category": "natmed_dose",
+        "topic": "Creatine",
+        "label_ids": [],
+        "monograph_id": "natmed:1dcdcb859542de37540c85e3"
+      },
+      "expected_primary_units": [
+        "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+        "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "clinical_pending",
+        "source_monograph_title"
+      ],
+      "facts": {
+        "source_title": "Creatine"
+      },
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    }
+  ],
+  "decisions": [
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "SUGGESTED USAGE: As a dietary supplement, take 3 softgels daily, preferably with food, or as directed by your healthcare practitioner."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:4657961f41862951fa8cd1a44c81316e2c635912331bc66397e2872114f05b22",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "HOW IT WORKS: Magnesium acts as a mineral cofactor in an estimated 300 enzymatic reactions and is necessary for the healthy function of every organ in the body. Magnesium is a mineral that is critical for energy production and metabolism, muscle contraction, nerve impulse transmission, and bone mineralization. Magnesium status is important for regulation of calcium balance through its effects on the parathyroid gland. In addition, Magnesium is essential for the maintenance of normal vascular tone and healthy cardiac function. Easily absorbed Magnesium Citrate, Magnesium Glycinate and Magnesium Malate are combined in softgels capsule for superior bioavailability."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:5d9f1bdde785f8eca4b88f118fe2ce262e1649470e9b5174c3a2b3fd56535f90",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "CAUTIONS/INTERACTIONS: Magnesium can interact with some antibiotics, diuretics, bisphosphonates, and muscle relaxants. In addition, many medications can affect magnesium absorption and excretion."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:15097:0e8d4ddd72157a43d99428fa0ef50217f0f53423ad347f261dcc76d742668cef",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "For more information on this product go to www.protocolforlife.com/P1298."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:994cf86183cef8a1f945b71c4e5b9ae34244368a3845c9dafa90913ee7dc1494",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "General: Product/Version Code",
+        "notes": "CODE P1298 V1"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:2f1f05f1c76fc5e69c510aba7dd4e886d628d4ebac740787bb73e7dff240d727",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Formulated by doctors and clinical scientists exclusively for licensed healthcare practitioners."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:b977126afc6b6d437438a37119cb76822b0fecdc7c93f321ec3bc58a830a25c7",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "• Nervous System Support\n• Superior Bioavailability"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:324cbad7074d5f0c3b83e4ae70e74ce65f5862abd123ba5d77f1e22e25893fa8",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "A Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:d2b4345bcf31fabbecc3c52b4c89b93c20a74aaaa98eb24111c56676b7643f1f",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "GMP"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:1b2f856aa5c8ec20d1d4048c9d6e5a4947385857e60ecf6a7d6023ccd25a1682",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Contains no sugar, salt, starch, yeast, wheat, gluten, corn, soy, milk, egg, shellfish or preservatives."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:e0e187ed4dfb9adc26b188f96fc752a537325cb3d2d85a6b285eed09d77b0a9e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Store in a cool, dry place."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:5c0f47ba1603472ebc5b1a4dcaca1934953cbf38878003d315b614058835384d",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Please Recycle."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:d45b9ae982724066c1617590a4bee2435279ea53bd6c757e97dc82e805578cdd",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:e4150823f7fccc38226f359a924b5eb9e82da8eb065522106d7774af85b64284",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H01",
+      "source_file": "data/raw/dsld/labels/label_15097.json",
+      "source_sha256": "0f46f0cbc2a5f3117bc2b6204ad81603d42946a0cdb8e9b6f9ed78c3d898758a",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Magnesium Citrate Plus Glycinate & Malate Forms"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:15097:87f3d38d911135d5c36f7617f3921c2fb7af1a22aba36fd4b11759888147a496",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H02",
+      "source_file": "data/raw/dsld/labels/label_73905.json",
+      "source_sha256": "4bdf91acfd5aad1037dbcae849967efec23db2c01b2ccd0d4abaffb82d1302de",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Bones\nTeeth\n"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:73905:c196e9841b056f28491e019a5708c84e957315f23ce8223b77acf3d22ee54ca4",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H02",
+      "source_file": "data/raw/dsld/labels/label_73905.json",
+      "source_sha256": "4bdf91acfd5aad1037dbcae849967efec23db2c01b2ccd0d4abaffb82d1302de",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Well absorbed form of calcium"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:73905:bca17a48e4a91a1b12a653a589335baa3700ef16ed9aa327eb390c03b97883df",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H02",
+      "source_file": "data/raw/dsld/labels/label_73905.json",
+      "source_sha256": "4bdf91acfd5aad1037dbcae849967efec23db2c01b2ccd0d4abaffb82d1302de",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:73905:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H02",
+      "source_file": "data/raw/dsld/labels/label_73905.json",
+      "source_sha256": "4bdf91acfd5aad1037dbcae849967efec23db2c01b2ccd0d4abaffb82d1302de",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Calcium Citrate Plus Magnesium & Vitamin D"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:73905:4a94e70cd0828332839619041caf4b2aa6c214cb5946fd28be557f0f506b65ba",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Thank you for being here\r\nThis is an amazing time on the planet. Participate in the shift. Experience transformational foods with Sun Potion!\r\nWe want you to feel amazing.\r\nFor daily alchemy + recipes\r\nFind us @sunpotion #sunpotion\r\nWe invite your to reuse this glass jar. Thank you.\t"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:c617c830230c67e0a7653322c6665cc1d2bfe8ebdcd690ceef0856f3f2742b36",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Wildcrafted\r\nAyurvedic adaptogen\r\nCold water extract"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:57263b855bb8ca757a70a558062ab096284d9f93452ca2eb613d8af15e445ac1",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Ashwagandha Root"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:527d8574c793abb02a07def4a31f4f5e08d071889921b4b3186a9c6c08eb8224",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Keep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:307986:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+      "exact_text_seen_in_original_warning_set": true
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Consult your healthcare practitioner before use if pregnant."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:307986:f397416bf0b8a200467a2a0280775c70ee4ef9b2cb11b1387010850c0e0f7ea0",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "These are powerful foods. Consume in small, regular doses over a lifetime."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:7da5edd901df8591dcbfcb75f9d8d9dff0a0ba48ae20202372d26618bbaba37b",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Indian Ginseng"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:0a77d714374e6924694462ee9f88e77d5b0f606b48b6ef6bb598b6326f2b6630",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "This anti-oxidant rich, powdered root extract may support:\r\nStrong immune system\r\nSense of vigor + resilience\r\nStress relief\r\nHormonal balance\r\nHarmonize mind, body, & spirit"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:aef36413974afa5644feb9c81c33df8ff161c5110b88a5994ee66f5f8cc2bcd7",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Invitations for use\r\nAdd 1/2 teaspoon (2 grams) to warm water or tea! Excellent addition to milk potions, elixirs, smoothies, raw treats, busy schedules."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:3b56b11925a4328d0c051482b2429ffd2f6764fe1af61f41b4f7e099ac52691e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "In joy!"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:6cf00d5add69c3141032dd20d2aed53560cc6ab99d3a96f2f042a8bb5bf3dda1",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H03",
+      "source_file": "data/raw/dsld/labels/label_307986.json",
+      "source_sha256": "8552845558697d068173ed4029d7a142dc3ca751e450710ca8639b2e36cf1452",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been approved by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:307986:4e5482e3d1c10afeb72a3dc98272a71922472a75075dec27cef1c48c768c7734",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Store in a cool, dry place."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:5c0f47ba1603472ebc5b1a4dcaca1934953cbf38878003d315b614058835384d",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Recommendations: As a dietary supplement, take 1 capsule 30-60 minutes before bedtime."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:aee09f06ac84eafd451ad50dfe26a80ace26ca57046b17c02f35c63ed65d1610",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Warning: See side panel."
+      },
+      "decision": "context",
+      "rationale": "Warning locator only; retain optionally while the specific side-panel precautions are separate primary units.",
+      "unit_id": "warning:277770:ea20d9187dd4eb507c19f0e36e108aa2b8111c16a151023667977cc10186829a",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Keep out of the reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:277770:10d270ef2c9b90911dbe0bd2cf1f45861d57322a7c74a7dc14e3cbd30d200549",
+      "exact_text_seen_in_original_warning_set": true
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "MicroActive is a registered trademark of BioActives, LLC."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:9c952abb7286f101c7a9b0cab20ad30c9b1748e7587e8653d681c2346ba40378",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Scan to learn about our hypoallergenic supplements"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:b8b7ea3de76e41292615e2a75e398748ad9f9ffe05dd792ec11808ae924da377",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Use only if safety seal is intact."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:277770:ebc323d1b693cd7834d6421868a1f5111c113dc6d660e2b7a4126ff346f47fd6",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Contents may not fill package in order to accommodate required labeling. Please rely on stated quantity."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:5d41b4d13d50589e18d1ab858c1cf06a1c66710aca1899dffae81965e631271c",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "GFCO.org\r\nCertified Gluten-Free by the Gluten-Free Certification Organization,www.gluten.org"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:6bc2797be07e969277dc8768245cd7ec0a389743983cd8f54b510c0099d36c55",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Supports the body's natural sleep cycle"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:12f03b12044ffa8a355e532db66cb785886c9c726c6b6f6b5fe0591b33ae771b",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Gluten-free, Non-GMO & Hypoallergenic"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:975235f6aafbd7c35d23ba9228d7c62d795996f509488dcef31e6c6f863e5c17",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Gluten-free, Non-GMO & Hypoallergenic"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:975235f6aafbd7c35d23ba9228d7c62d795996f509488dcef31e6c6f863e5c17",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Warning: Consult a healthcare professional if you are experiencing long-term sleep difficulties, before use in children, before use in pregnant or lactating women, those with a medical condition, and those taking medication. Do not drive or operate machinery when taking melatonin."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:277770:0c3b18ecf45edeaaf6706de61a031cead9bfcce60a109abd3445cc2d752f9b66",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Warning: Consult a healthcare professional if you are experiencing long-term sleep difficulties, before use in children, before use in pregnant or lactating women, those with a medical condition, and those taking medication."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:277770:f4febe70fb73f30a35ed065e20e6e2c91d4d10ef732b18b4654efd0fef6c265c",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/15",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Warning: Consult a healthcare professional if you are experiencing long-term sleep difficulties, before use in children, before use in pregnant or lactating women, those with a medical condition, and those taking medication.\nThis product may be contraindicated for individuals taking corticosteroids."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:277770:6930980370d1b4082d779f3a46e33150735cdf13894de83fb325e37303dfb608",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H04",
+      "source_file": "data/raw/dsld/labels/label_277770.json",
+      "source_sha256": "736cf11b70bd716996b1353c6576b6efdbd83b8e1269afaec40383d2c79621d3",
+      "pointer": "/statements/16",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:277770:4503a0eb1c15769a8f7265db849e94ec36e84fa6a4ede6a5aab88dafc56c23b1",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "900mg omega-3 per softgel"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:e41bfcb142118a5168fc7c22662796e7e43733a738c5bab8d0a490cefc1b8618",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Omega 3 fatty acids are important fats that can help support heart, brain, eye, and joint health.\r\nMRI Omega 3 softgels feature an enteric coating that helps maximize absorption. You can reap the benefits of EPA and DHA Omega-3s as intended, with no disruption from stomach acid."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:5fe41cc93c717a84aa1370de97f6dbcb256fb4d0f8733219ef35ce269763dc46",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Warning: Do not exceed recommended dose.\r\nDiscontinue two weeks prior to surgery."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:313484:87984340fba0c24eb21377a24fe56f7dc8e9fb0ea8e5e1d1fd18c29f2d0facd8",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:313484:316a233ba3ac5d92f44641a7f7ee3041d1af195584e2214d460214ccdf7cf09b",
+      "exact_text_seen_in_original_warning_set": true
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\r\nKeep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:313484:bf6eabc5f217cbcb2ca4a3c25b36292253cfd29d92288ddc5093c2e402c58d8e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "At Medical Research Institute, our team strives to provide the highest quality of products to our customers. We extend our customer service and commitment to your health & wellness."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:6af06b288d0e1437dcd0d08e92738d938f8e373bcad472b566b5bebec65a98af",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Avoid storing in excessive heat."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:7f3b01787c40923bd9028c16a5bd2b0e3ef08fe01636e81fa4fecf6578f034f6",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:02ca3f1b0ad2245ce4fb5a0d500bc2b06041d8c059368f3b321026536eabbdff",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Heart health\r\nBrain health\r\nEye health\r\nJoint health"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:a174de6bd5a056ace1621cfb0e6cf30893873b72e0f045c476feec2b38b961b6",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Suggested use: As a dietary supplement, take one softgel daily with food."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:8e5eca4df52f2b5cdd42bac3dc97d8bce14c8d5704a3664a240483b6b886c370",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "Made in USA with domestic & international ingredients"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:09ecba68a497461f9865ac1eac405961b81d15e02686d551c6be63aab68da7b3",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "Copyright 2022, MRI Performance LLC"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:4dbda07644c8de529844f11d5838f80fe036e6efe50d1163c9192f97a5e11153",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Jer 29:11"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:313484:4f7e3868e2b3b9b449e1c6943ee0971293baa80ab65a303b285e8c5ec28db5eb",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H05",
+      "source_file": "data/raw/dsld/labels/label_313484.json",
+      "source_sha256": "752d4e8506a55c3cc5be3069a511152c0df3f636705dc3129ee1722011f5478e",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "Precautions re: Allergies",
+        "notes": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish, and crustacean shellfish."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:313484:df560a1d83e2771d356376c3984c29c34be3479487676c5e161a4193f45fc991",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Suggested Use Consume one or more capsules daily or as recommended by a health care professional. As with any dietary supplement, this product is most effective as part of a healthy diet and active lifestyle, along with a daily multi-vitamin-mineral formula. For answers to questions about the use of this product, call 800.808.7311."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:538cde6a19945cd3b5c75ac7d6f04520c49316b19ded9d3fd36b65921596cd33",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Unsurpassed. \nPurity. Quality. Integrity. Effectiveness. \nAndrew Lessman \nFounder of ProCaps Labs\nThis product is only available from\nHSN\nwww.HSN.com \n800.944.9999 \nwww.QVC.com\n800.345.1515"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:b1edc4ea8f54174d8569456bac3ed829d1d44fcc1ae747267e3c06ac03b067bc",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "2019 ProCaps Labs"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:b8c6d3fc598fe7f745b488654fd5de8c82cdb82da657f3df4eb867b499f40eed",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Protected for optimum absorption"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:98ea2d9aa1ae19117014700a9c0dfbab5e2a72a17e7cb44f57cabca2579d134a",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "100 mcg vitamin B12\nHigh potency B-complex"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:8ae1846b659bcf8f905f8e09639f8cd0e721791b8c331033afd36050b35ec8d0",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "All-solar manufacturing"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:a46d78033742a56a3d87638d5be702dff3a0d07b35e490d184580a09e4d5078c",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Andrew Lessman's Vitamin B12 100 delivers 100 mcg of our unique absorption-protected methylcobalamin (natural coenzyme vitamin B12) – the most important of all B vitamins to supplement. This importance stems from B12's long list of critical functions and the fact that its large molecular size makes it the most difficult of all vitamins to absorb. Vitamin B12 is essential for all energy production and the creation of hemoglobin, without which oxygen cannot be transported. We also cannot metabolize carbohydrates or burn fat without B12. Even more important is B12's vital role in the synthesis of our genetic material and its requirement for normal cell growth and development. B12 also supports heart health due to its ability to help metabolize homocysteine, and B12 is also essential to support healthy immune and nervous system function. B12's enormous molecular size makes it all but impossible to absorb from typical supplements, which are easily destroyed by stomach acid. It is also well-established that stress, aging and digestive issues only further reduce Vitamin B12's already poor absorption. Our unique Vitamin B12 is protected from stomach acid and releases its contents in the small intestine where it is absorbed making it the only intelligent and effective way to orally deliver B12's benefits. Given all the critical functions of Vitamin B12, along with its extremely poor absorption from food and ordinary supplements, we should all carefully consider a plan to intelligently supplement. Best of all, our Vitamin B12 100 is a pleasure to use, since it comes in a small, soft, easy-to-swallow capsule that is gentle even to the most sensitive stomachs."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:91372e6376da9922e09aadd61422bcab34e13615913402cdb91c0bb94087b737",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:870e1867058a6bb5922c5288aaf70004fab4631ba63363084445419980840ac3",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H06",
+      "source_file": "data/raw/dsld/labels/label_220773.json",
+      "source_sha256": "db4a46aeb555261425a8e6bd7a943bedabb3b8f7736fc47f030e0d81626f58b3",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Contains no milk, soy, yeast, corn, wheat, gluten, sodium, salt, sugar, fat, cholesterol, color, preservative, common allergens or manufacturing additives. \nContains no additives of any kind."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:220773:bfbf9ccd72df220bf047d0d77298d7b82d834b7fb4c130818ec784283c5d4d7b",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "Ferrochel is a registered trademark of Albion Laboratories, Inc. The chelate in the product is covered by U.S. Patent Numbers: 7,838,042 and 6,716,814."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:77012:226b8e159328ee267c957ac2885db7c00977523f7a82f6c2167eacba4a7e5d63",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Contains no yeast, wheat, gluten, corn, dairy products, artificial flavoring, or preservatives."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:77012:a8bb9266e15f1b56be2b179c39b131ffcd4a6dd1990349285ecedbbaf6e68db9",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "2014 Distributed by Integrative Therapeutics, LLC"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:77012:d8c81de06f33989c5b13683ed2d2f09c54d33101757df67f972b0fa80555fcc9",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "General: Product/Version Code",
+        "notes": "LZ75219.D01 (BLK521D)"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:77012:d271329876e0b7f8f45827f8a7a3e507a0c9183c065fc0e299375a025a5c6f9c",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:77012:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Recommendations: Take 2 softgels twice daily, or as recommended by your healthcare professional."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:77012:6e62f6fde4308f7ecc9e0a58d63f5a788861cddb80de19ae9c4660e58e7e51c7",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or Poison Control Center immediately."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:77012:e3df957070c6e8f1bfa94725b0f458beb92c707b1e96eab817582e913e74e619",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H07",
+      "source_file": "data/raw/dsld/labels/label_77012.json",
+      "source_sha256": "e60a01871033fdcea29a365930b5aead2905dfb58032983c07b5fbd77efc1dbe",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "If pregnant, nursing, or taking prescription drugs, consult your healthcare professional prior to use."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:77012:42fc2f79d915f940007d700e85ce3c83045ba6932c4206a3cd8e1ca3213b2713",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Weight loss"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:5ff09c8c397595f2c79780b94a659f0326b34d8cfa178c672b859d4f72f37a88",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "For men and women"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:81da2ff14e68589839ba0ec5ad5fc2abfd457c654553e9d156bddcedca50654b",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Appetite control\nAll natural"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:d7cf87433c02e7ce654abca3221aa9c136fc814c71a53e6b34f3fb48dbeb3005",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Suggested use: As a dietary supplement take one (1) capsule twice a day. For best results take 20-30 min before a meal or as directed by your healthcare professional."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:0da0ade4a82d5a77ede15d84b3a40ac8b6c30cb44dd14bfdb47f3562f2e2c21e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Caution: Do not exceed recommended dose."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:215132:696e487877bc8784a39c3414333e479712f767299ac32ca50169307e4338cdf5",
+      "exact_text_seen_in_original_warning_set": true
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:215132:d62073bc58b1f3b7b66898aa598b8c39c1211098d6a81522ce8daaadb5835e74",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nKeep out the reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:215132:dd9b6241fd205af86f91fad960ef6c520afb055d4ed50c8bd36e05dab74207ee",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Do not use if safety seal is damaged or missing."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:215132:78676ea083b02d6d87259581230b7ea3d30078c3d81d52183bf42c35ed6afd10",
+      "exact_text_seen_in_original_warning_set": true
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Store in a cool, dry place."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:5c0f47ba1603472ebc5b1a4dcaca1934953cbf38878003d315b614058835384d",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food an Drug Administration. This product is not intended diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:37765bdf070d129967127ce6a0e954d5e9231f6669cf9de706d8bba3167eded4",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "Made in USA\nGMP Good Manufacturing Practice Consistent Quality"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:1f2d6b0e2db8b9f33205f6f7cac410b62734b5abf57f0d1db4cbdaebd1ac9dd1",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Made in the USA in a cGMP-compliant facility"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:1cef7d512c8bf03d9dd8f10e5d37f2569ac5cab4ece1c3764203214dc491c0f2",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Professional sports nutrition"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:e264619fc691445aab092c7123819ee68689bd543afefb0400f66df13117c59f",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Benefits of turmeric:\nImmunity booster\nAnti-inflammatory\nPromotes digestive health\nRegulates metabolism and weight management \nHelps regulate high blood pressure\nMemory function"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:c57ae60a115854ab2ba2a01557044d62bb8edc35dfbebf8eb7113abf7a69f2c3",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H08",
+      "source_file": "data/raw/dsld/labels/label_215132.json",
+      "source_sha256": "0bc41aece575947d36d157bded814204357aa89774db3a264f518765d140309c",
+      "pointer": "/statements/15",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "BioPerine"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:215132:fa57a3749bc76a8e8fc295d82458e8e285bb390928ba6e70ce7b0f0b923461b5",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:870e1867058a6bb5922c5288aaf70004fab4631ba63363084445419980840ac3",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Enzyme deficiencies may result from a combination of age, diet and lifestyle. These deficiencies can lead to a variety of digestive discomforts, including occasional gas, bloating, irregularity and indigestion.\r\nFortifying the digestive system with enzymes and probiotics may promote optimal digestion while maintaining the digestive system's natural balance to support overall digestive health. Digest Gold +Probiotics contains an advanced enzyme formula that breaks down carbohydrates, fats, fiber and protein. Probiotics provide additional digestive support by boosting enzyme production and promoting regularity. "
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:69592a972291e0c6a5376e9f796ced96cc1c39b2335790ca6431c88b804f5828",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Recommended Use: Take 1 capsule with each meal. More may be taken as needed."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:4f9a8459e800f99c8b8d20a4a1575fec3a0ae6f803e15ad246adf43a444bce9e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Thera-blend enzymes are comprised of multiple variants which are blended to work synergistically throughout the broad pH range of the human body."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:f6156c53dbecb135487278ce41e9ab1815ef2ef164b613a16bdde4271312a2ed",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "No fillers added\r\nNon GMO Certified by NSF"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:7d4f043faa38391b41c06ced10eb794c042de3352e4d39228c595975bcee1955",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Made in USA with global ingredients"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:eeb64e78d1d436dba248460bc86c1f935b18850fb4ade7f713ec176b6f805714",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "Non GMO Certified by NSF"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:276acfd754a3a53cfea5c729f6ebed566dab548e6cd2c581887832483260d08d",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "Enzymedica\r\nNatural Digestive Health & Wellness"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:db1c37174e05211260546cc4adc959911efc5e2c8619c1bb79a8bc4699bc4e4e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Optimal digestive support"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:ed6ec995cfa3790c88215ce6a0b19c399d96a9aa37a9f56a4f92d79b5b24405d",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Most advanced enzymes with probiotics\r\n1.5 billion active cultures per daily dose\r\nWhen taken three times daily."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:f97126edb00859e7a43d52bf888ed36f437051deda0db1c74a6e0d77c6c0e3bb",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "Formulation re: Vegetarian/Vegan",
+        "notes": "Vegetarian"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:9d3f65348b248007d713ff511d18835866d387b3d5868a0905351b3791dffda6",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Contains no: Gluten, milk, casein, soy, egg, artificial colors or flavors"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:012c6c8cd8dc8e3ea1cd75c60b913a42040e2eed33fbf1a2e120e10cd819762b",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Do not use if safety seal is broken or missing."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:328922:e80db8abcda1e9d334888e600e85f90240d3abde22aee6ea26c6a9d54914c1c7",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Keep closed in dry place; avoid excessive heat"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:328922:d9ee85e14f1511a56a0c9a737b14241038b2ed1da59d23c30578ca6d26a53b85",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H09",
+      "source_file": "data/raw/dsld/labels/label_328922.json",
+      "source_sha256": "deb2c2805bb8f99ea9ad603f3368045d7f0107d20d266df92c81163c19e3d4ec",
+      "pointer": "/statements/15",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Please keep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:328922:2f76f19052f888d11d7b5417b9c612ac83e1a98b7fbe55da9a83311b9818e1ff",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Made in USA"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:f6d52d01ff522d2e915ad26522583cc05b2f65166eaab2bce279f93c6dcae8a7",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "For use as a dietary supplement only"
+      },
+      "decision": "context",
+      "rationale": "Optional locating/intended-use context; does not itself state a specific precaution.",
+      "unit_id": "warning:51023:4549fec43855d5d9c4f4ec92d1a3cbf54ae5754ed133fc2dc10b6cf6e67bf49a",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "Creatine MagnaPower is a registered trademark of Albion Laboratories, Inc. This product is covered by US Patent number 5,516,925 and patents pending."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:291bf77aeed405c656462e17c836e43227be7e9989168cd66c59d377c7f6412f",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Moisture allowed into the container may case clumping and hardening and/or slightly different smell. Clumping or hardening does not change the effectiveness of this product."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:08db7e728709767545ce36a7e9a883315b885b54ed2db144eedd684ed3ff124f",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "why creafusion?\nCreatine is one of the most popular supplements today and that's not going to change any time soon. There is a great amount of research to support its performance-enhancing effects for a wide range of sports; from sports that demand intensive strength and endurance training like bodybuilding, weight lifting, Crossfit, cycling, and MMA to sports that require speed, such as sprinting, soccer, rowing, and swimming."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:007b5bce7c477f6a2d3e5fa325a0b86ded8515e563f04ba99b1ea1dbadba3eee",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Hit Creafusion is a cutting-edge, superior blend of 4 top-tier and highly-researched creatine powders: CreaPure (Creatine Monohydrate), COPMAX (Creatinol-O-Phosphate), Creatine Monohydrate Di-Creatine Malate, and Creatine MagnaPower (Magnesium Creatine Chelate)."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:71fdb1ddfea7b33ce4746b38f90ac05bc31d5c74696774f75a04b9cdb76e58c0",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "By combining these varieties you get the benefits of all of them in one product to help you take it to the next level, no matter what you train for.\n~ Increase in muscle mass and enhanced strength\n~ Greater training capacity\n~ Reduced lactic acid\n~ Quicker muscle weight gain\n~ Antioxidant benefits\n~ More energy during workouts due to ATP regeneration"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:3a1e4cde44d2eaadd905771388b8648fc7c8911572b31ee7456ccc098c0f6da1",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "Good Manufacturing Practices cGMP"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:7eef9306a28063661ac2484548794c75d17ea1292b63f899a41db0ff0c244897",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Manufactured in a cGMP Compliant Facility"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:7290c5236f3235036351b095b819717f662b02029428b64a878b3ac286b828f4",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:870e1867058a6bb5922c5288aaf70004fab4631ba63363084445419980840ac3",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "HIT"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:52d5e72d08fd23a7f77d846c2139b9ecec31eae32c59171d8391ed5d14edba56",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Pro Series"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:81668f10d3e0f90dd6b63fe6b1b5e35f02840e7aeaed7b548c5178a8a0495aec",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "60 Servings"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:c1b0cc4431a5cfe48fe4d73aeb085612d254cac708d0e49b909c6761ade92783",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "COPMax Creatine-O-Phosphate"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:e7a65ac4e905b4d95c31dfe6d594a228d924152ad7fceb3dd3d154b7f8010297",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/15",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Direction for use\nMix 1 scoop (5g) in 8 oz. of water, juice, or your protein drink of choice before and after training. Drink immediately. A loading phase is not required or recommended with this product. Drink at least 8 to 10 glasses (8 oz) of water daily in order to maximize results."
+      },
+      "decision": "primary",
+      "rationale": "Directions contain the loading-phase restriction and hydration/administration instructions; preserve whole original text as context, not a recommendation.",
+      "unit_id": "warning:51023:c5ecdfb7f84910968cc8d0bba30cd4c0f7a4c6da65a70f717bb35662abbde95e",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/16",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Warnings\nKeep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:51023:dd1668cf7cde7efc3249c3aa69e55f60c8a51921c08518d000c370252b1fec37",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/17",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Check with a qualified health care professional before taking this product."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:51023:90485ba7d417fd24074d1beba0abb7f2ee545b57cbb303fb4ccbe636038b9944",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/18",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Do not take if you are pregnant or nursing."
+      },
+      "decision": "primary",
+      "rationale": "Explicit captured precaution, warning, consultation requirement or usage restriction.",
+      "unit_id": "warning:51023:c94bddf15451ed74288f79969ba7139e4cc89e9305e8732b7ee6749a81d9401a",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/19",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Allergen Information\nManufactured in an allergen free facility."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:23a326379c997081bb4d4709765d18d7cd2663c989f45d18a993255a55148065",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H10",
+      "source_file": "data/raw/dsld/labels/label_51023.json",
+      "source_sha256": "19a34028c13d4871733ddede13dee863b6a1bbfa8f1b9b525bb00425b7acc366",
+      "pointer": "/statements/20",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Store in a cool, dry place with lid tightly closed to protect freshness."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, storage, identity, composition, marketing or disclaimer outside primary warning scope.",
+      "unit_id": "warning:51023:0d34ae9301636c75107730f770acc3f8b79d36093015ec84a852dadc7d4c02f9",
+      "exact_text_seen_in_original_warning_set": false
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/3",
+      "original_statement": {
+        "adverse_effect_category": "General",
+        "claim_text": "General\nOrally, ashwagandha seems to be well-tolerated. Topically, no adverse effects have been reported. However, a thorough evaluation of safety outcomes has not been conducted.",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 7,
+            "start": 0
+          }
+        },
+        "id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 179,
+          "excerpt": "General\nOrally, ashwagandha seems to be well-tolerated. Topically, no adverse effects have been reported. However, a thorough evaluation of safety outcomes has not been conducted.",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 0,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "context",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/4",
+      "original_statement": {
+        "adverse_effect_category": "Most Common Adverse Effects",
+        "claim_text": "Most Common Adverse Effects\nOrally: Diarrhea, gastrointestinal upset, nausea, and vomiting. However, these adverse effects do not commonly occur with typical doses.",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 207,
+            "start": 180
+          }
+        },
+        "id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 344,
+          "excerpt": "Most Common Adverse Effects\nOrally: Diarrhea, gastrointestinal upset, nausea, and vomiting. However, these adverse effects do not commonly occur with typical doses.",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 180,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/5",
+      "original_statement": {
+        "adverse_effect_category": "Serious Adverse Effects (Rare)",
+        "claim_text": "Serious Adverse Effects (Rare)\nOrally: Some case reports raise concerns about acute hepatitis, acute liver failure, hepatic encephalopathy, the need for liver transplantation, and death due to liver failure with ashwagandha treatment.",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 375,
+            "start": 345
+          }
+        },
+        "id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 579,
+          "excerpt": "Serious Adverse Effects (Rare)\nOrally: Some case reports raise concerns about acute hepatitis, acute liver failure, hepatic encephalopathy, the need for liver transplantation, and death due to liver failure with ashwagandha treatment.",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 345,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/6",
+      "original_statement": {
+        "adverse_effect_category": "Dermatologic",
+        "claim_text": "Dermatologic\nOrally, dermatitis has been reported in three of 42 patients in a clinical trial (19276).",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 592,
+            "start": 580
+          }
+        },
+        "id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 682,
+          "excerpt": "Dermatologic\nOrally, dermatitis has been reported in three of 42 patients in a clinical trial (19276).",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 580,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/7",
+      "original_statement": {
+        "adverse_effect_category": "Endocrine",
+        "claim_text": "Endocrine\nA case report describes a 73-year-old female who had taken an ashwagandha root extract (unspecified dose) for 2 years to treat hypothyroidism which had been previously managed with levothyroxine. The patient was diagnosed with hyperthyroidism after presenting with supraventricular tachycardia, chest pain, tremor, dizziness, fatigue, irritability, hair thinning, and low thyroid stimulating hormone (TSH) levels. Hyperthyroidism resolved after discontinuing ashwagandha (108745). Additionally, an otherwise healthy adult who was taking ashwagandha extract orally for 2 months experienced clinical and laboratory-confirmed thyrotoxicosis. Thyrotoxicosis resolved 50 days after discontinuing ashwagandha, without other treatment (114111). Another case report describes a 37-year-old female who presented with moderate symptomatic hyponatremia secondary to adrenal insufficiency after chronic consumption of ashwagandha for 2 years. This subject was effectively managed with oral hydrocortisone (114790).",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 692,
+            "start": 683
+          }
+        },
+        "id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 1695,
+          "excerpt": "Endocrine\nA case report describes a 73-year-old female who had taken an ashwagandha root extract (unspecified dose) for 2 years to treat hypothyroidism which had been previously managed with levothyroxine. The patient was diagnosed with hyperthyroidism after presenting with supraventricular tachycardia, chest pain, tremor, dizziness, fatigue, irritability, hair thinning, and low thyroid stimulating hormone (TSH) levels. Hyperthyroidism resolved after discontinuing ashwagandha (108745). Additionally, an otherwise healthy adult who was taking ashwagandha extract orally for 2 months experienced clinical and laboratory-confirmed thyrotoxicosis. Thyrotoxicosis resolved 50 days after discontinuing ashwagandha, without other treatment (114111). Another case report describes a 37-year-old female who presented with moderate symptomatic hyponatremia secondary to adrenal insufficiency after chronic consumption of ashwagandha for 2 years. This subject was effectively managed with oral hydrocortisone (114790).",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 683,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/8",
+      "original_statement": {
+        "adverse_effect_category": "Gastrointestinal",
+        "claim_text": "Gastrointestinal\nOrally, large doses may cause gastrointestinal upset, diarrhea, and vomiting secondary to irritation of the mucous and serous membranes (3710). When taken orally, nausea and abdominal pain (19276, 110490, 113609) and gastritis and flatulence (90651) have been reported.",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 1712,
+            "start": 1696
+          }
+        },
+        "id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 1982,
+          "excerpt": "Gastrointestinal\nOrally, large doses may cause gastrointestinal upset, diarrhea, and vomiting secondary to irritation of the mucous and serous membranes (3710). When taken orally, nausea and abdominal pain (19276, 110490, 113609) and gastritis and flatulence (90651) have been reported.",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 1696,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/9",
+      "original_statement": {
+        "adverse_effect_category": "Genitourinary",
+        "claim_text": "Genitourinary\nIn one case report, a 28-year-old male with a decrease in libido who was taking ashwagandha 5 grams daily over 10 days subsequently experienced burning, itching, and skin and mucous membrane discoloration of the penis, as well as an oval, dusky, eroded plaque (3 cm) with erythema on the glans penis and prepuce (32537).",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 1996,
+            "start": 1983
+          }
+        },
+        "id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 2317,
+          "excerpt": "Genitourinary\nIn one case report, a 28-year-old male with a decrease in libido who was taking ashwagandha 5 grams daily over 10 days subsequently experienced burning, itching, and skin and mucous membrane discoloration of the penis, as well as an oval, dusky, eroded plaque (3 cm) with erythema on the glans penis and prepuce (32537).",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 1983,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/10",
+      "original_statement": {
+        "adverse_effect_category": "Hepatic",
+        "claim_text": "Hepatic\nOrally, ashwagandha in doses of 154 mg to 20 grams daily has played a role in several case reports of cholestatic, hepatocellular, and mixed liver injuries. In most of these cases, other causes of liver injury were excluded, and liver failure did not occur. Symptoms included jaundice, pruritus, malaise, fatigue, lethargy, weight loss, nausea, diarrhea, abdominal pain and distension, stool discoloration, and dark urine. Symptom onset was typically 5-180 days from first intake, although in some cases onset occurred after more than 12 months of use (102686, 107372, 110490, 110491, 111533, 111535, 112111, 113610, 114113). Laboratory findings include elevated aspartate transaminase (AST), alanine transaminase (ALT), alkaline phosphatase, serum bilirubin, and international normalized ratio (INR) (112111, 113610, 114113). In most cases, liver enzymes normalized within 1-5 months after discontinuation of ashwagandha (102686, 107372, 110491, 111535, 112111, 114113). However, treatment with corticosteroids, lactulose, ornithine, ursodeoxycholic acid, and plasmapheresis, among other interventions, was required in one case (111533). Rarely, use of oral ashwagandha has been reported to cause hepatic encephalopathy, liver failure requiring liver transplantation, and acute-on-chronic liver failure resulting in death (110490, 113610).",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 2325,
+            "start": 2318
+          }
+        },
+        "id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 3666,
+          "excerpt": "Hepatic\nOrally, ashwagandha in doses of 154 mg to 20 grams daily has played a role in several case reports of cholestatic, hepatocellular, and mixed liver injuries. In most of these cases, other causes of liver injury were excluded, and liver failure did not occur. Symptoms included jaundice, pruritus, malaise, fatigue, lethargy, weight loss, nausea, diarrhea, abdominal pain and distension, stool discoloration, and dark urine. Symptom onset was typically 5-180 days from first intake, although in some cases onset occurred after more than 12 months of use (102686, 107372, 110490, 110491, 111533, 111535, 112111, 113610, 114113). Laboratory findings include elevated aspartate transaminase (AST), alanine transaminase (ALT), alkaline phosphatase, serum bilirubin, and international normalized ratio (INR) (112111, 113610, 114113). In most cases, liver enzymes normalized within 1-5 months after discontinuation of ashwagandha (102686, 107372, 110491, 111535, 112111, 114113). However, treatment with corticosteroids, lactulose, ornithine, ursodeoxycholic acid, and plasmapheresis, among other interventions, was required in one case (111533). Rarely, use of oral ashwagandha has been reported to cause hepatic encephalopathy, liver failure requiring liver transplantation, and acute-on-chronic liver failure resulting in death (110490, 113610).",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 2318,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H11",
+      "unit_id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/11",
+      "original_statement": {
+        "adverse_effect_category": "Neurologic/CNS",
+        "claim_text": "Neurologic/CNS\nOrally, ashwagandha has been reported to cause drowsiness (110492, 113609). Headache, neck pain, and blurry vision have been reported in a 47-year-old female taking ashwagandha, cannabis, and venlafaxine. Imaging over the course of multiple years and hospital admissions indicated numerous instances of intracranial hemorrhage and multifocal stenosis of intracranial arteries, likely secondary to reversible cerebral vasoconstriction syndrome (RCVS) (112113). It is unclear whether the RCVS and subsequent intracranial hemorrhages were precipitated by ashwagandha, cannabis, or venlafaxine.",
+        "claim_type": "adverse_effect",
+        "dose": {
+          "duration": null,
+          "frequency": null,
+          "maximum": null,
+          "minimum": null,
+          "qualifier": null,
+          "regimen": null,
+          "route": null,
+          "text": null,
+          "unit": null,
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "adverse_effect_category": {
+            "end": 3681,
+            "start": 3667
+          }
+        },
+        "id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Ashwagandha",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": null,
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+          "end": 4272,
+          "excerpt": "Neurologic/CNS\nOrally, ashwagandha has been reported to cause drowsiness (110492, 113609). Headache, neck pain, and blurry vision have been reported in a 47-year-old female taking ashwagandha, cannabis, and venlafaxine. Imaging over the course of multiple years and hospital admissions indicated numerous instances of intracranial hemorrhage and multifocal stenosis of intracranial arteries, likely secondary to reversible cerebral vasoconstriction syndrome (RCVS) (112113). It is unclear whether the RCVS and subsequent intracranial hemorrhages were precipitated by ashwagandha, cannabis, or venlafaxine.",
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "section_heading": "adverse effects",
+          "section_index": 5,
+          "start": 3667,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+        }
+      },
+      "decision": "primary",
+      "rationale": "General tolerability is optional context; specific adverse-effect contexts are primary."
+    },
+    {
+      "question_id": "H12",
+      "unit_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/384",
+      "original_statement": {
+        "adverse_effect_category": null,
+        "claim_text": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+        "claim_type": "dose",
+        "dose": {
+          "duration": {
+            "qualifier": "up to",
+            "unit": "weeks",
+            "value": 16.0
+          },
+          "frequency": "daily",
+          "maximum": 10.0,
+          "minimum": 2.25,
+          "qualifier": null,
+          "regimen": "maintenance dose",
+          "route": "Oral",
+          "text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks",
+          "unit": "grams",
+          "value": null
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "dose.duration.qualifier": {
+            "end": 169,
+            "start": 164
+          },
+          "dose.duration.unit": {
+            "end": 178,
+            "start": 173
+          },
+          "dose.duration.value": {
+            "end": 172,
+            "start": 170
+          },
+          "dose.frequency": {
+            "end": 159,
+            "start": 154
+          },
+          "dose.maximum": {
+            "end": 147,
+            "start": 145
+          },
+          "dose.minimum": {
+            "end": 144,
+            "start": 140
+          },
+          "dose.regimen": {
+            "end": 136,
+            "start": 120
+          },
+          "dose.route": {
+            "end": 10,
+            "start": 6
+          },
+          "dose.text": {
+            "end": 178,
+            "start": 12
+          },
+          "dose.unit": {
+            "end": 153,
+            "start": 148
+          },
+          "population": {
+            "end": 5,
+            "start": 0
+          }
+        },
+        "id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Creatine",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": "Adult",
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+          "end": 241,
+          "excerpt": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_heading": "dosing & administration",
+          "section_index": 7,
+          "start": 0,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        }
+      },
+      "decision": "primary",
+      "rationale": "Keep loading and maintenance dose/population contexts separate despite their shared source excerpt."
+    },
+    {
+      "question_id": "H12",
+      "unit_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+      "source_file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+      "source_sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30",
+      "pointer": "/385",
+      "original_statement": {
+        "adverse_effect_category": null,
+        "claim_text": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+        "claim_type": "dose",
+        "dose": {
+          "duration": {
+            "qualifier": "up to",
+            "unit": "days",
+            "value": 7.0
+          },
+          "frequency": "daily",
+          "maximum": null,
+          "minimum": null,
+          "qualifier": "up to",
+          "regimen": "loading dose",
+          "route": "Oral",
+          "text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks",
+          "unit": "grams",
+          "value": 20.0
+        },
+        "effectiveness_rating": null,
+        "evidence_grade": null,
+        "field_support": {
+          "dose.duration.qualifier": {
+            "end": 97,
+            "start": 92
+          },
+          "dose.duration.unit": {
+            "end": 104,
+            "start": 100
+          },
+          "dose.duration.value": {
+            "end": 99,
+            "start": 98
+          },
+          "dose.frequency": {
+            "end": 87,
+            "start": 82
+          },
+          "dose.qualifier": {
+            "end": 72,
+            "start": 67
+          },
+          "dose.regimen": {
+            "end": 63,
+            "start": 51
+          },
+          "dose.route": {
+            "end": 10,
+            "start": 6
+          },
+          "dose.text": {
+            "end": 178,
+            "start": 12
+          },
+          "dose.unit": {
+            "end": 81,
+            "start": 76
+          },
+          "dose.value": {
+            "end": 75,
+            "start": 73
+          },
+          "population": {
+            "end": 5,
+            "start": 0
+          }
+        },
+        "id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+        "indication": null,
+        "ingredient": {
+          "formulation": null,
+          "name": "Creatine",
+          "strain": null
+        },
+        "interaction": {
+          "occurrence": null,
+          "partner": null,
+          "rating": null,
+          "severity": null
+        },
+        "population": "Adult",
+        "review": {
+          "reviewed_at": null,
+          "reviewer": null,
+          "state": "pending"
+        },
+        "safety_rating": null,
+        "source": {
+          "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+          "end": 241,
+          "excerpt": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "section_heading": "dosing & administration",
+          "section_index": 7,
+          "start": 0,
+          "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+        }
+      },
+      "decision": "primary",
+      "rationale": "Keep loading and maintenance dose/population contexts separate despite their shared source excerpt."
+    }
+  ],
+  "overlap": {
+    "warning_occurrences_exact_text_overlap": 5,
+    "warning_occurrences_novel_text": 19,
+    "clinical_claim_id_overlap": 0
+  },
+  "limitations": [
+    "Twelve newly annotated cases outside the original 30; same saved collection and same assistant reviewer. Not an independent held-out benchmark.",
+    "Original products and connected source relationships/exact brand-product families were excluded. Some warning boilerplate overlaps; see overlap counts.",
+    "Rules were locked before case selection and source annotation. No tuning on these cases within v2.",
+    "Two labels have no captured warning statements; absence in the saved record is not safety assurance."
+  ]
+}

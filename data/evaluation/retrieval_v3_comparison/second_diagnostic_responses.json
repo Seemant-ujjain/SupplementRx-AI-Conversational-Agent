@@ -1,0 +1,1263 @@
+[
+  {
+    "question_id": "J01",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:1452:fae838c481b921f05ceadedd9a29d12012acf924b0967ccf2c1f29f564a97c7b",
+        "source": "DSLD",
+        "node_id": "assertion:1268b97f1012be56b33c9d9a15bc142a083b020a6b4add34788cec14486bda2f",
+        "evidence_ids": [
+          "evidence:c9750cd792453ba6cf30f1c2407fa051a858016b2f020952bdaa6e24d939c899"
+        ],
+        "path_edge_ids": [
+          "full_edge:22c3ce340e2c8468fdcdcb94f65cc78fe9b11e24dbbc3d498c5256cae77d7c0c"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:c9750cd792453ba6cf30f1c2407fa051a858016b2f020952bdaa6e24d939c899"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:1268b97f1012be56b33c9d9a15bc142a083b020a6b4add34788cec14486bda2f",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not use if seal under cap is broken or missing.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "1452",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:1452:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "source": "DSLD",
+        "node_id": "assertion:bcce25a9b377f4f796c2132141ad9309b5d525c4fdde1fc0cd74b5ba80a7fc0f",
+        "evidence_ids": [
+          "evidence:cafa804af86dbd202b2f6c9af86486be8a67911fe421e5ce3c9bf211e7d7d889"
+        ],
+        "path_edge_ids": [
+          "full_edge:6d15ed46dd7647fc48634e959fa802bf968a3f917790b3e4c17bb8905be90279"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:cafa804af86dbd202b2f6c9af86486be8a67911fe421e5ce3c9bf211e7d7d889"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:bcce25a9b377f4f796c2132141ad9309b5d525c4fdde1fc0cd74b5ba80a7fc0f",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Keep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "1452",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:1452:3b3e58a96b2fa3dad26f5a46aee0630d8e5b2c7f691c26baafa283543cb864b5",
+        "source": "DSLD",
+        "node_id": "assertion:d7bff3517262ea4d68c16792746fbee5cdfea384605cffbbba636a54036f7c2e",
+        "evidence_ids": [
+          "evidence:89506e8a7aca61f5da9007f30d8cb5f082014ff0c409eead0a02202f79a33160"
+        ],
+        "path_edge_ids": [
+          "full_edge:8fd26aa594922cd149b148f5556f75fdfe45a6f60cff7035f1a25183b67b9004"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:89506e8a7aca61f5da9007f30d8cb5f082014ff0c409eead0a02202f79a33160"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:d7bff3517262ea4d68c16792746fbee5cdfea384605cffbbba636a54036f7c2e",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Discontinue use and consult your doctor if any adverse reactions occur.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "1452",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:1452:cb5c627538c0e37ed450eb052ae356c638c31316a250f920bf24d2441b74928a",
+        "source": "DSLD",
+        "node_id": "assertion:5e5668346bb5ae073e39cf375648158ce0697dcf1d2d6e6fa13eeb5f133b8263",
+        "evidence_ids": [
+          "evidence:ab49b42410f00bbdbecd80c1961f873e6df3fecc1d92a724f36397cb66ed2fb3"
+        ],
+        "path_edge_ids": [
+          "full_edge:ba8669f8bcd6e5016788338a466afc4f12c126a332d4d005e31a2c1863e716a7"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:ab49b42410f00bbdbecd80c1961f873e6df3fecc1d92a724f36397cb66ed2fb3"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:5e5668346bb5ae073e39cf375648158ce0697dcf1d2d6e6fa13eeb5f133b8263",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "WARNING: If you are pregnant, nursing or taking any medications, consult your doctor\nbefore use.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "1452",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:1452:399781f425bfd91ca6a2e49298f1dbde6d4c08fe579817dd680194ee5a613969",
+        "source": "DSLD",
+        "node_id": "assertion:2f97ce0f0fcb7e2dff739a98dfce180f956ea3be4fd0ad2c9248b1f257db6a0b",
+        "evidence_ids": [
+          "evidence:1c9e54323c17aad2e47a61be6b6f8e534a0fd0e4f1a033ef98bfc402c0f47108"
+        ],
+        "path_edge_ids": [
+          "full_edge:4cd5673fe70043492f7074b620e29e66e5fdc2c031f7a33c9638c7a59486c42d"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:1c9e54323c17aad2e47a61be6b6f8e534a0fd0e4f1a033ef98bfc402c0f47108"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:2f97ce0f0fcb7e2dff739a98dfce180f956ea3be4fd0ad2c9248b1f257db6a0b",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "DIRECTIONS: For adults, take one (1) to five (5) capsules daily, preferably with a meal.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:11764f037a74236f369a5ff39dd94c93537a39c824713542ad4dfbf6c21c1467",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "1452",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "J02",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:13302:dc540b635dab1e9cf194367cbc7ab1e47871bb5b613cd3c433e60b44f0a870ba",
+        "source": "DSLD",
+        "node_id": "assertion:87640c696910248f4ff851a14704f9fb3834730fef9c2b878152347430a52fca",
+        "evidence_ids": [
+          "evidence:cbb8f4be1671e9900df2a69cab5752553a36974b510f2424ad10592db3f831b6"
+        ],
+        "path_edge_ids": [
+          "full_edge:0814b78e1e72f287ca566b78b54e9f87904420738d713923fe0e3efe118a7002"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:cbb8f4be1671e9900df2a69cab5752553a36974b510f2424ad10592db3f831b6"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:87640c696910248f4ff851a14704f9fb3834730fef9c2b878152347430a52fca",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Not intended for use by persons under the age of 18. Keep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "13302",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:13302:b98f068f0fa46f917148ed2f2bc7447ce53c4d03711d43a349937894be08aa52",
+        "source": "DSLD",
+        "node_id": "assertion:42649fdca2b1b500aae39217581d820fdd59810592ae40743e8372044bed64d3",
+        "evidence_ids": [
+          "evidence:66a5dcac47677f3504e6178ee5533978830176642f6a90de07e0a97a8fb71546"
+        ],
+        "path_edge_ids": [
+          "full_edge:5b7182c802f23010070f0b07f26307f5617dc350d0223571560421d68e458301"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:66a5dcac47677f3504e6178ee5533978830176642f6a90de07e0a97a8fb71546"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:42649fdca2b1b500aae39217581d820fdd59810592ae40743e8372044bed64d3",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product. Limit use to two months with a break of one week.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "13302",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:13302:ac37297c8d55897b9c35522e2efeee9453ca07136165d69b3ca1cd9cbba4d088",
+        "source": "DSLD",
+        "node_id": "assertion:76633e848ee24922923c5a3d713e6e3df128a8dce788686d40bf1d01dbbb2cc5",
+        "evidence_ids": [
+          "evidence:5c7324d32e561e224a32565ba545e94b78489522e1999134ecfff5e75606831b"
+        ],
+        "path_edge_ids": [
+          "full_edge:7798a3298e4a1df33294318ab3e89542f40412398ceacc2687a886d85e6cea1d"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:5c7324d32e561e224a32565ba545e94b78489522e1999134ecfff5e75606831b"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:76633e848ee24922923c5a3d713e6e3df128a8dce788686d40bf1d01dbbb2cc5",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "WARNING: Not intended for use by pregnant or nursing women. If you are taking any medications, consult your doctor before use.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "13302",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:13302:c9c59a91cf651d98803c888ec8c0fb38bea31a73f2c7705a1c98a64634aad8d8",
+        "source": "DSLD",
+        "node_id": "assertion:2cdc398ddd6716b833ba6776e3280e9cbef05ebbb180c24479e2cd83bee59e9e",
+        "evidence_ids": [
+          "evidence:556b31b8aa91e06be41836b2c3a2fc40d64c5a1f1c3eb4f7fb2217f0b5ff4f92"
+        ],
+        "path_edge_ids": [
+          "full_edge:788caae2c65c31fad7127b4e3c6b47b72875a41bf2e33ce0f47381d4ff35cf95"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:556b31b8aa91e06be41836b2c3a2fc40d64c5a1f1c3eb4f7fb2217f0b5ff4f92"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:2cdc398ddd6716b833ba6776e3280e9cbef05ebbb180c24479e2cd83bee59e9e",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "SUGGESTED USE: As a dietary supplement for adults, take one (1) tablet at bedtime as Melatonin may produce drowsiness, or as directed by a healthcare practitioner.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:291cc270c89cdb8276e48de81ad8f5aa386492696649eb3b916226a616feff6b",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "13302",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "J03",
+    "status": "source_evidence_only",
+    "primary": [],
+    "context": [
+      {
+        "unit_id": "warning:296933:85dd83f230f0633da97a51c23184fad3ca70ba0367d5ff8d0ee15760751dee9c",
+        "source": "DSLD",
+        "node_id": "assertion:046d8731e6d1c6737d38d67e4cfbe0c93e5400aef5a15416dc1d4d70cbbaa81e",
+        "evidence_ids": [
+          "evidence:f272536084a59ecbf8670619a503e5a8bf336d05307cbf79b9def87f11b7a5bf"
+        ],
+        "path_edge_ids": [
+          "full_edge:caf4fc55b4d728d88bf3311da0aabf7930277347352891f26e514f98ab60021b"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:f272536084a59ecbf8670619a503e5a8bf336d05307cbf79b9def87f11b7a5bf"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:046d8731e6d1c6737d38d67e4cfbe0c93e5400aef5a15416dc1d4d70cbbaa81e",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Suggested use\r\nTake 1 ml, hold in mouth for 15 seconds, and then swallow. Best taken on an empty stomach.\r\nUse once daily in the morning or early afternoon, or as recommended by your healthcare provider.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:3d22950d45c720d9678b85e99019fff91a7dffe528a2bc243e57fe36cc318b9c",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:3d22950d45c720d9678b85e99019fff91a7dffe528a2bc243e57fe36cc318b9c",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "296933",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "J04",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:229239:a82d44c7353eecc3eeaf9de89dc21487f36325ffcc7d07578fed1782c69019b3",
+        "source": "DSLD",
+        "node_id": "assertion:a5c14b85c3b443a20db1d543c2482e19c6557a8c0177f31552b3271ad8d4e173",
+        "evidence_ids": [
+          "evidence:d0ab3e208aa17c36809cbd11878c3418f8f7d9542fb14a491ed31222c4fa8c3e"
+        ],
+        "path_edge_ids": [
+          "full_edge:2a8458c982e1fd66076adbc59811973cf3dad1d3d3ea4653b47958b34ef4a5f6"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:d0ab3e208aa17c36809cbd11878c3418f8f7d9542fb14a491ed31222c4fa8c3e"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:a5c14b85c3b443a20db1d543c2482e19c6557a8c0177f31552b3271ad8d4e173",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not use if tamper evident seal is broken or missing.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "229239",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:229239:2cd0ebfa33f633635e5fb27cbb876c95f456facccccf3128516bf7ddd41cc120",
+        "source": "DSLD",
+        "node_id": "assertion:7e9e1f81f6113b64805ce21df723aa680c8c55fc7f2169ac497228ac58bec907",
+        "evidence_ids": [
+          "evidence:100daa658c341d6a255ce73679ab0cef7a92630a1363c7d8c965aeb2850175f2"
+        ],
+        "path_edge_ids": [
+          "full_edge:e061244cccd0502988925637b439081c0edfde1163c4337f0aa412236bfc754c"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:100daa658c341d6a255ce73679ab0cef7a92630a1363c7d8c965aeb2850175f2"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:7e9e1f81f6113b64805ce21df723aa680c8c55fc7f2169ac497228ac58bec907",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Children under 4: Consult your physician.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "229239",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:229239:e6d77f716e5911d4148db3ac452648e4e550d701a63385e6c0560ed7b6490b00",
+        "source": "DSLD",
+        "node_id": "assertion:c95dbe1293d07de24cc9a659cfcb7306dbd28b4ab7f63489f98df6f83d1694a0",
+        "evidence_ids": [
+          "evidence:6705a77cd48b347b4d4dddf1f135c58b6873825f0d3a1bbf13d3d884a9ffbfab"
+        ],
+        "path_edge_ids": [
+          "full_edge:1ca6eb98c9859b77f272ecd428d21423f6df26523c4e4e858f68a4c5be784cbf"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:6705a77cd48b347b4d4dddf1f135c58b6873825f0d3a1bbf13d3d884a9ffbfab"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:c95dbe1293d07de24cc9a659cfcb7306dbd28b4ab7f63489f98df6f83d1694a0",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Shake well before use.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "229239",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      },
+      {
+        "unit_id": "warning:229239:b9fe4a47ad8ed93d1c6a8bdae3de10598d2a3b59aa9b0aa74343b9b87ca5d053",
+        "source": "DSLD",
+        "node_id": "assertion:085b1427c7ee44651e13c361f385a7f7d38a5a440a77fdfca0180e7516c6effb",
+        "evidence_ids": [
+          "evidence:7e9bcf7b1d3b5831a7ba7f104b12d96f981e2a42eb4272977b6cd9f58ed91f2b"
+        ],
+        "path_edge_ids": [
+          "full_edge:f9e76e16050cfd238496abeab7436ce2780a23386f5f1915555d93774180d1d8"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:7e9bcf7b1d3b5831a7ba7f104b12d96f981e2a42eb4272977b6cd9f58ed91f2b"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:085b1427c7ee44651e13c361f385a7f7d38a5a440a77fdfca0180e7516c6effb",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Directions: Adults: place 1 teaspoon (5 mL) into 6-8 oz of water or juice as maintenance. Use more if needed or as recommended by your healthcare professional.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:d33b8d6b8f96db651c4b7577494a6c16b8f1bed7dc1db7ae138d0761ae17cd96",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "229239",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "J05",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:319418:78676ea083b02d6d87259581230b7ea3d30078c3d81d52183bf42c35ed6afd10",
+        "source": "DSLD",
+        "node_id": "assertion:23ba478a2bbb3b240b36f78014b8d2e0d6fbfa8eefc6b881555304b94c882d77",
+        "evidence_ids": [
+          "evidence:902f613032b93c1bf4da0631968affa79b76ccf3e8bf33bf791ffbcd7aaf7f28"
+        ],
+        "path_edge_ids": [
+          "full_edge:0fafa6a092a713b9596df065d241af5db5419588ae19faf9337cde2ce221b9dc"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:902f613032b93c1bf4da0631968affa79b76ccf3e8bf33bf791ffbcd7aaf7f28"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:23ba478a2bbb3b240b36f78014b8d2e0d6fbfa8eefc6b881555304b94c882d77",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not use if safety seal is damaged or missing.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:319418:a38b66d4f6d6684929638fb2fb20c19ccf27b77757aaa233c53edff045a9d803",
+        "source": "DSLD",
+        "node_id": "assertion:9e0ffbaeebc4ebb87f738722ec32e7e419084619f64f41671520fb55bf58b179",
+        "evidence_ids": [
+          "evidence:dfe7031c9a20fdaae384fb01199e1764f7f7312c6d3d3edff1f21cd629ec573f"
+        ],
+        "path_edge_ids": [
+          "full_edge:3658d47f472551435e83fb2bf8906e8c3476582fe3d7746b66bb000c2498fea2"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:dfe7031c9a20fdaae384fb01199e1764f7f7312c6d3d3edff1f21cd629ec573f"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:9e0ffbaeebc4ebb87f738722ec32e7e419084619f64f41671520fb55bf58b179",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pregnant or nursing mothers, children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:319418:a069d7f13ec8e31aa1e417f8083a722f8bd77ddabf9e03efe5f6a106406ffb43",
+        "source": "DSLD",
+        "node_id": "assertion:7f79cfdde62c6133d316ec6ebd90d20a915648aec1396b51eb952e1f262c3533",
+        "evidence_ids": [
+          "evidence:207fe67015f73bde5b35a447883da8eb33c19b37e6d457a0bdac7a6299f705f3"
+        ],
+        "path_edge_ids": [
+          "full_edge:46d66f0f8d7f3105b2b96b65d25add87ce43902067cf75df42e2e7f9cd183aca"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:207fe67015f73bde5b35a447883da8eb33c19b37e6d457a0bdac7a6299f705f3"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:7f79cfdde62c6133d316ec6ebd90d20a915648aec1396b51eb952e1f262c3533",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish.",
+            "type": "Precautions re: Allergies"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "primary",
+          "relevance_reason": "source_allergen_notice"
+        }
+      },
+      {
+        "unit_id": "warning:319418:679cbfb2b6e82f6442391277fc208d19afaecd70fb24887f7ec57596483afc91",
+        "source": "DSLD",
+        "node_id": "assertion:434d2f7d02febbdd7c92415dd0347ee93e6306b2a4a19a55bc7296efa67e6f75",
+        "evidence_ids": [
+          "evidence:aa1e5e2c8eebd5a6d10d3e5ea3cb497b7b10d0a8a235cab006bf714652c33ae7"
+        ],
+        "path_edge_ids": [
+          "full_edge:765bb7bd86da3031561ab93a428bd1d17001a12512d0076ce0b990c27dd66765"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:aa1e5e2c8eebd5a6d10d3e5ea3cb497b7b10d0a8a235cab006bf714652c33ae7"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:434d2f7d02febbdd7c92415dd0347ee93e6306b2a4a19a55bc7296efa67e6f75",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Caution:\r\nDo not exceed recommended dose.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:319418:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "source": "DSLD",
+        "node_id": "assertion:c8f472324b39c86525aa3bf100d6138b4b8bd5a67c4a739215d1fed85ec7e096",
+        "evidence_ids": [
+          "evidence:dbf9fa4ea8d9521aca9107258d1c910c13231c0a6a4266c4be4cc256db859c5d"
+        ],
+        "path_edge_ids": [
+          "full_edge:a907806d0286f57be04da1cc46bb93d1f2bba66e85883a25b3d2fb8a9b41afe3"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:dbf9fa4ea8d9521aca9107258d1c910c13231c0a6a4266c4be4cc256db859c5d"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:c8f472324b39c86525aa3bf100d6138b4b8bd5a67c4a739215d1fed85ec7e096",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Keep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:319418:aac80febc8e7c1cb714fa6af6bd32c098b64200a6b4bae9f1ade57342e50cba2",
+        "source": "DSLD",
+        "node_id": "assertion:9aefe0b9ff7e30d7725e35a078daea5eaa0357c39827e828808df0789b505317",
+        "evidence_ids": [
+          "evidence:a7f61de42356222965bd3995e460b1c0c418af482da8c258d33683c62be22724"
+        ],
+        "path_edge_ids": [
+          "full_edge:2e9ad67fa0ca3c6c03568064ae3e7f875ef452f784dd328693ff66ae79a9cf30"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:a7f61de42356222965bd3995e460b1c0c418af482da8c258d33683c62be22724"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:9aefe0b9ff7e30d7725e35a078daea5eaa0357c39827e828808df0789b505317",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pairs well with our omega 3 fish oil",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      },
+      {
+        "unit_id": "warning:319418:35d4ef6b253fa4031c737080d6105e26bc6cfc006509cd42cfd9b564ea0d40ef",
+        "source": "DSLD",
+        "node_id": "assertion:dd8effb3dab123a46b2904836ec0cfbe01b31fa5be5d11573b0865aefd9460c3",
+        "evidence_ids": [
+          "evidence:270388c6d24e6c862864a109d535225d96318b8f712c06c5cb6add93612831d3"
+        ],
+        "path_edge_ids": [
+          "full_edge:7de19ca8f36eae81037d5f5b12d8892d611cdd5386de668871ae57575fd8128f"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:270388c6d24e6c862864a109d535225d96318b8f712c06c5cb6add93612831d3"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:dd8effb3dab123a46b2904836ec0cfbe01b31fa5be5d11573b0865aefd9460c3",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Suggested use:\r\nTake 2 capsules daily, preferably with a meal, or as directed by a healthcare professional.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:91ce975d63d6d4c83aebf50b13be33c2912521aebdb6330cff556679cb8da303",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "319418",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "J06",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:53576:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "source": "DSLD",
+        "node_id": "assertion:225f5b083ffd9702f1e82d127bcc12e72cacb0333669bae6a005f31d18ea42d7",
+        "evidence_ids": [
+          "evidence:f3671279c0571fe78c49b7c219228144b02c3d37f149bf20dc4b77f5f918dff1"
+        ],
+        "path_edge_ids": [
+          "full_edge:630a8bf42b6e97308860296b02fcdca9aa2416870ad044a885c21a929c09898e"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:f3671279c0571fe78c49b7c219228144b02c3d37f149bf20dc4b77f5f918dff1"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:225f5b083ffd9702f1e82d127bcc12e72cacb0333669bae6a005f31d18ea42d7",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Keep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "53576",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:53576:98bb0e286ff5319b082a7ec04d6f10587919636b4f1d23bc1cccecc06b8bc93b",
+        "source": "DSLD",
+        "node_id": "assertion:73fc5fa67ce242348db7f72f816eb340c120b823e26a95a1d07f9b9ed714af05",
+        "evidence_ids": [
+          "evidence:1d7da37cce0b250b41bcbe94ea7a6af69f40b0616ff749485ece62ab55c52d7f"
+        ],
+        "path_edge_ids": [
+          "full_edge:6f4030e36abb05d24ac9026810a65ed3b4d5fbc0804470589f57c4c568b17b1e"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:1d7da37cce0b250b41bcbe94ea7a6af69f40b0616ff749485ece62ab55c52d7f"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:73fc5fa67ce242348db7f72f816eb340c120b823e26a95a1d07f9b9ed714af05",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Discontinue use 2 weeks prior to surgery. Discontinue use and immediately consult your health care professional if you experience any adverse reaction to this product.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "53576",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:53576:93d56d2f348ba12ca536f5d0b15fc80d644717311651fdd2a5b6c9a75a81214d",
+        "source": "DSLD",
+        "node_id": "assertion:549183d3c6fd95ec90881cb18e70a8211a8c13ab81a68d209b1c276616fac5ed",
+        "evidence_ids": [
+          "evidence:48a2c3ff7daeed1e0a36ab3c9a5fb293f255e3ed007cebfc59f9355e095dccf4"
+        ],
+        "path_edge_ids": [
+          "full_edge:76732dfa5ec87d0790b2678c1348a555d1cf206111a23b20daaedfab4f0cd0ad"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:48a2c3ff7daeed1e0a36ab3c9a5fb293f255e3ed007cebfc59f9355e095dccf4"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:549183d3c6fd95ec90881cb18e70a8211a8c13ab81a68d209b1c276616fac5ed",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not exceed recommended serving. Do not use is safety seal is broken or missing.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "53576",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:53576:590b5e4f4ff5573c82aa5ec683dd4abefe2f496fddf9f54edf30c599a599d7a7",
+        "source": "DSLD",
+        "node_id": "assertion:f42a5295517443f9910867913457bfa5144124b259048c019579b6488bf9db94",
+        "evidence_ids": [
+          "evidence:955fb8445a2b189fe98e42216c2e0aefdc5c31edbe13382ef9aa18c3e36588a4"
+        ],
+        "path_edge_ids": [
+          "full_edge:ea948c21ceaed709599ff24c6f89b9eb4d2724e89c6c75cab9309a2157498051"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:955fb8445a2b189fe98e42216c2e0aefdc5c31edbe13382ef9aa18c3e36588a4"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:f42a5295517443f9910867913457bfa5144124b259048c019579b6488bf9db94",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pregnant or nursing women should not use this product.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "53576",
+          "relevance_role": "primary",
+          "relevance_reason": "conservative_source_precaution_fallback"
+        }
+      },
+      {
+        "unit_id": "warning:53576:3b7c4fa827dd751ed71403c68619878099dcb9693b71c6b611de6dcd183cebe3",
+        "source": "DSLD",
+        "node_id": "assertion:d44f03044a36ae5fc189fe5d6cab75fbad41f2b9c84701ef962c5d122dd5c67d",
+        "evidence_ids": [
+          "evidence:fa1af9ca34f75bb4a558041ebed445e2bc05e152c75772f7343c9b6d782dfa07"
+        ],
+        "path_edge_ids": [
+          "full_edge:edd9cae37c8fda3e887efa5c506cdeaed46091caf35d5596a21f025c1509f4c0"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:fa1af9ca34f75bb4a558041ebed445e2bc05e152c75772f7343c9b6d782dfa07"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:d44f03044a36ae5fc189fe5d6cab75fbad41f2b9c84701ef962c5d122dd5c67d",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: This product is only intended to be consumed by healthy adults 18 years of age or older.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "53576",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:53576:2d1b067ee8d3249c2be31d2d464a447ef2df82d522bb8828bc813718302bf5c6",
+        "source": "DSLD",
+        "node_id": "assertion:858539870b8f19358bcb277d984bc2fc7e91673be9c7fc4ce23f8145151781f4",
+        "evidence_ids": [
+          "evidence:972d7490774fcb536f556fa11656035418b0220070e78efab0de1489fb16906c"
+        ],
+        "path_edge_ids": [
+          "full_edge:62e0c0e9989b07835ac377882d1b1f3c5d99a7f21846b92bb910327a0b950571"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:972d7490774fcb536f556fa11656035418b0220070e78efab0de1489fb16906c"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:858539870b8f19358bcb277d984bc2fc7e91673be9c7fc4ce23f8145151781f4",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Directions for use: Mix 1 scoop (6.2 g) with you pre-workout, post-workout drink, water, or favorite beverage once daily. Contents may settle after shipping. Shake container prior to use.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:7c8242b45e7ad239cc9a7e37cc11a9b7a4622bbe67696c33c4840f7952035808",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "53576",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  }
+]

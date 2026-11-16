@@ -1,0 +1,1452 @@
+{
+  "version": "second-additional-diagnostic-v1",
+  "graph": "data/graph/full-graph-statements-v1-27c544f4940e7162944c",
+  "graph_manifest_sha256": "27c544f4940e7162944c9e957236f3eab12f7cc0dbdd2d5317da8e336f78d4ed",
+  "rule_lock": {
+    "script": "scripts/kg_retrieval_v3.py",
+    "sha256": "647035855878b4f944d7d7c86143deed94e98f14f88830b3979a7954928db768",
+    "sequence": "Locked after inspecting original and first diagnostic set, before selecting second diagnostic set.",
+    "limits": "First diagnostic set is now development data; use only the second additional set to assess newly encountered examples for v3."
+  },
+  "inputs": {
+    "data/raw/dsld/labels/label_1452.json": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+    "data/raw/dsld/labels/label_13302.json": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+    "data/raw/dsld/labels/label_296933.json": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+    "data/raw/dsld/labels/label_229239.json": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+    "data/raw/dsld/labels/label_319418.json": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+    "data/raw/dsld/labels/label_53576.json": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86"
+  },
+  "cases": [
+    {
+      "question_id": "J01",
+      "question": "What warnings and usage restrictions are captured for Magnesium Citrate (DSLD 1452)?",
+      "request": {
+        "question_id": "J01",
+        "category": "product_label_warnings",
+        "topic": "Magnesium",
+        "label_ids": [
+          "1452"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:1452:399781f425bfd91ca6a2e49298f1dbde6d4c08fe579817dd680194ee5a613969",
+        "warning:1452:3b3e58a96b2fa3dad26f5a46aee0630d8e5b2c7f691c26baafa283543cb864b5",
+        "warning:1452:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "warning:1452:cb5c627538c0e37ed450eb052ae356c638c31316a250f920bf24d2441b74928a",
+        "warning:1452:fae838c481b921f05ceadedd9a29d12012acf924b0967ccf2c1f29f564a97c7b"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "J02",
+      "question": "What warnings and usage restrictions are captured for Melatonin 10 mg (DSLD 13302)?",
+      "request": {
+        "question_id": "J02",
+        "category": "product_label_warnings",
+        "topic": "Melatonin",
+        "label_ids": [
+          "13302"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:13302:ac37297c8d55897b9c35522e2efeee9453ca07136165d69b3ca1cd9cbba4d088",
+        "warning:13302:b98f068f0fa46f917148ed2f2bc7447ce53c4d03711d43a349937894be08aa52",
+        "warning:13302:c9c59a91cf651d98803c888ec8c0fb38bea31a73f2c7705a1c98a64634aad8d8",
+        "warning:13302:dc540b635dab1e9cf194367cbc7ab1e47871bb5b613cd3c433e60b44f0a870ba"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "J03",
+      "question": "What warnings and usage restrictions are captured for Vitamin B12 5000 mcg (DSLD 296933)?",
+      "request": {
+        "question_id": "J03",
+        "category": "product_label_warnings",
+        "topic": "Vitamin B12",
+        "label_ids": [
+          "296933"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "J04",
+      "question": "What warnings and usage restrictions are captured for Iron (DSLD 229239)?",
+      "request": {
+        "question_id": "J04",
+        "category": "product_label_warnings",
+        "topic": "Iron",
+        "label_ids": [
+          "229239"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:229239:2cd0ebfa33f633635e5fb27cbb876c95f456facccccf3128516bf7ddd41cc120",
+        "warning:229239:a82d44c7353eecc3eeaf9de89dc21487f36325ffcc7d07578fed1782c69019b3",
+        "warning:229239:b9fe4a47ad8ed93d1c6a8bdae3de10598d2a3b59aa9b0aa74343b9b87ca5d053"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "J05",
+      "question": "What warnings and usage restrictions are captured for Deep Immune Probiotics & Prebiotics (DSLD 319418)?",
+      "request": {
+        "question_id": "J05",
+        "category": "product_label_warnings",
+        "topic": "Probiotics",
+        "label_ids": [
+          "319418"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:319418:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "warning:319418:679cbfb2b6e82f6442391277fc208d19afaecd70fb24887f7ec57596483afc91",
+        "warning:319418:78676ea083b02d6d87259581230b7ea3d30078c3d81d52183bf42c35ed6afd10",
+        "warning:319418:a069d7f13ec8e31aa1e417f8083a722f8bd77ddabf9e03efe5f6a106406ffb43",
+        "warning:319418:a38b66d4f6d6684929638fb2fb20c19ccf27b77757aaa233c53edff045a9d803"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    },
+    {
+      "question_id": "J06",
+      "question": "What warnings and usage restrictions are captured for Modern Creatine Unflavored (DSLD 53576)?",
+      "request": {
+        "question_id": "J06",
+        "category": "product_label_warnings",
+        "topic": "Creatine",
+        "label_ids": [
+          "53576"
+        ],
+        "monograph_id": null
+      },
+      "expected_primary_units": [
+        "warning:53576:3b7c4fa827dd751ed71403c68619878099dcb9693b71c6b611de6dcd183cebe3",
+        "warning:53576:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "warning:53576:590b5e4f4ff5573c82aa5ec683dd4abefe2f496fddf9f54edf30c599a599d7a7",
+        "warning:53576:93d56d2f348ba12ca536f5d0b15fc80d644717311651fdd2a5b6c9a75a81214d",
+        "warning:53576:98bb0e286ff5319b082a7ec04d6f10587919636b4f1d23bc1cccecc06b8bc93b"
+      ],
+      "optional_context_units": [],
+      "expected_separate_context_units": [],
+      "checks": [
+        "label_attribution"
+      ],
+      "facts": {},
+      "review_status": "assistant_source_reviewed_pending_user_adjudication",
+      "clinical_approval": false
+    }
+  ],
+  "decisions": [
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:f0b839058393f616c56a116b428a9751257ae366c3df385915a559322c839f0c",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "This product has been developed, manufactured and packaged by Vitamin World. Our world-class facilites allow us to control exactly what goes into each product. It is your assurance that you are getting the highest quality and freshest products. You have our guarantee!"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:548407d3ae9612945054e0fca9127a9e9207daa5cf757dbc5a5695fe8a42c065",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "QA QUALITY ASSURED"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:5aabaa9e2ea8efa02046de36ff8b496cef295cbcf0179f1cd861069bb9f9bf9d",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "No Artificial Color, Flavor or Sweetener, No Preservatives, No Sugar, No Starch, No Milk, No Lactose, No Soy, No Gluten, No Wheat, No Yeast, No Fish. Sodium Free."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:cb5c627538c0e37ed450eb052ae356c638c31316a250f920bf24d2441b74928a",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "WARNING: If you are pregnant, nursing or taking any medications, consult your doctor\nbefore use."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:3b3e58a96b2fa3dad26f5a46aee0630d8e5b2c7f691c26baafa283543cb864b5",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Discontinue use and consult your doctor if any adverse reactions occur."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Keep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:fae838c481b921f05ceadedd9a29d12012acf924b0967ccf2c1f29f564a97c7b",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Do not use if seal under cap is broken or missing."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:fb30fb9d14c04a54741cd16e429f365ac43dcc1a7ed671a7db2d81800cb07787",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "(c)2008 Vitamin World, Inc."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:b70f451f9995a5dad9303a63b02c623aeee63238bcfcfdbdbaba79cd1290acd3",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "General: Product/Version Code",
+        "notes": "PROD. #15215 B15215 03D"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:417dceabb1b1676462c9cf34aaa40798eada7be0612e6b5ca8efb2c4b2601832",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Get healthy."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:10c3cc52ff898be64c9433a94a7a5180b0c8f78303a0e2f1e85abf87e92bd4c7",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Preferred Form for Absorption"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:5c0f47ba1603472ebc5b1a4dcaca1934953cbf38878003d315b614058835384d",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Store in a cool, dry place."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:399781f425bfd91ca6a2e49298f1dbde6d4c08fe579817dd680194ee5a613969",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "DIRECTIONS: For adults, take one (1) to five (5) capsules daily, preferably with a meal."
+      },
+      "decision": "primary",
+      "rationale": "Adult-specific use context embedded in directions; consistent with the original adult-use relevance criterion. Preserve full wording, not a dosage recommendation.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:4612066c9fc59d4a5cf583f99e25f062e86c9ca8bd5112b9dfa6f3a454dc430d",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Promotes Bone and Muscle Health*\nSupports Sugar Metabolism*"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:79ce1c6f49d22c945c1fb8b2e76c3489d79e44518f8a159fb8c51dfb30038600",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/15",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Magnesium plays an essential role in maintaining bone mineralization and sugar metabolism.*\nMagnesium is also involved in muscle contractions and nerve impulses.* Magnesium Citrate is a superior supplement for absorption and bioavailability, making it the preferred Magnesium dosage form."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J01",
+      "unit_id": "warning:1452:c29b29bd52c4c9b3477c08eec237d7086999e09c019e1126713c6c9ea4aa02c5",
+      "source_file": "data/raw/dsld/labels/label_1452.json",
+      "source_sha256": "9aabf26e6bba083deb50f0655d7fb9c92cbf4c2e944359251c5d5a0aee9bf698",
+      "pointer": "/statements/16",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "*These statements have not been evaluated by the Food and Drug Administration. This\nproduct is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:57fde4e0d02717e2e31df9b4158d62b616ca698005d28eab18b5436c483710d5",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Formulation re: Vegetarian/Vegan",
+        "notes": "SUITABLE FOR VEGETARIANS"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:a1640396f1cd44514ae685c64ee414a7392a2d2821e5ecc2ccffeffc976e5aea",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "GLUTEN, WHEAT AND DAIRY FREE"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:3566004164be803a33cf94dfa43443789a50bca1b334897114d2cca02436a405",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Melatonin 10 mg Tablets"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:6501130d3aabb3be88f282364aab5044605507e296fb4b1e7e3abab9a23f72bd",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Formulation re: Vegetarian/Vegan",
+        "notes": "Vegetarian \nYes"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:fc69c1824955807da890d5ed5af7142ebec85be71fdd31826aea53417c2c71b7",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Formula re: Kosher",
+        "notes": "Kosher\nYes"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:8cff14e1e771e7de60f2109115718c32467aef73060275ae10c8f7e50859d5d1",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "DIETARY SUPPLEMENT TABLETS"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:c9c59a91cf651d98803c888ec8c0fb38bea31a73f2c7705a1c98a64634aad8d8",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "SUGGESTED USE: As a dietary supplement for adults, take one (1) tablet at bedtime as Melatonin may produce drowsiness, or as directed by a healthcare practitioner."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:ac37297c8d55897b9c35522e2efeee9453ca07136165d69b3ca1cd9cbba4d088",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "WARNING: Not intended for use by pregnant or nursing women. If you are taking any medications, consult your doctor before use."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:8a3925036b89b3bf93c13a4242cb41a5f4df86f3b75a94542bbf496f04d7c2f1",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:b98f068f0fa46f917148ed2f2bc7447ce53c4d03711d43a349937894be08aa52",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Discontinue use and consult your doctor if any adverse reactions occur. Do not drive, operate machinery or consume alcohol when taking this product. Limit use to two months with a break of one week."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:3cf606e468bcac1d580f3e4165bd4b0432e5983724466ce2c940d5e8f36ea1ed",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Solgar's Melatonin 10 mg Tablets are a terrific choice for people experiencing occasional sleeplessness, those with jet lag or anyone wanting to promote sound, quality sleep.* This product is also ideal for those individuals who may need a higher level of sleep support.*"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:591f06ecb463ba40ccfaa9a3b647f54d82f8a201ffd579c2af13cfb6947ad096",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Since 1947"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:9b472e5c3941a0261a03db18fdcfe3fff1b971d0815e133cc8cb849194a1e368",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Solgar's Melatoning 10 mg Tablets are free of sugar, salt, yeast, wheat, soy, gluten and dairy products and are formulated without the use of artificial preservatives, flavors or colors."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J02",
+      "unit_id": "warning:13302:dc540b635dab1e9cf194367cbc7ab1e47871bb5b613cd3c433e60b44f0a870ba",
+      "source_file": "data/raw/dsld/labels/label_13302.json",
+      "source_sha256": "32a3c38e3af25bf84d898f8a2afe7d4602102adc78b947672bbc86c8f2e0f76c",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Not intended for use by persons under the age of 18. Keep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:85dd83f230f0633da97a51c23184fad3ca70ba0367d5ff8d0ee15760751dee9c",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Suggested use\r\nTake 1 ml, hold in mouth for 15 seconds, and then swallow. Best taken on an empty stomach.\r\nUse once daily in the morning or early afternoon, or as recommended by your healthcare provider."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:595910050d708474ad9fb6a1410f4c2fbbb9c4bb48fb334a25baa02dcf79b3a8",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Vitamin B12 features three bioactive forms for maximum absorption. B12 supports normal energy levels, metabolism, and cardio health."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:870e1867058a6bb5922c5288aaf70004fab4631ba63363084445419980840ac3",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:a16387c9ebced587b1121ae9cfba64905f9099acd05da6553e640ac9963b6eac",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "Global Healing\r\nSince 1998"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:cff1a49ca997094052fbe1d1dc609ca21db4c0b5ec7ef17322bdc417ebfb9a1a",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Triple activated Vitamin B12"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:fc9e0d9b6e2bba75a6f0d5ce85aa5b2e02a7698a0701d9cab0b5d1e20c834588",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Formulation re: Organic",
+        "notes": "USDA Organic"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:fd85dc13ecc9f83b8b979724e08b1205b7d8b20b5dd5103626ac0efc6d858ea6",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Non GMO Project Verified nongmoproject.org"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:c7ff85ce9ed5a1275818b417ae75e7f1e38c1aa9d350115b0960236295db03d5",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "USDA Organic\r\nNon GMO Project Verified nongmoproject.org"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:5da545e27be1286f0ab298903324be6af1b0d17c0e3bd5889ed4fd2e348f027d",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Energy \r\nMetabolism\r\nCardio health"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J03",
+      "unit_id": "warning:296933:315e06aab003becb3b9c01b586f8ecc4bec4127860e2ad389895d6dfdaa52147",
+      "source_file": "data/raw/dsld/labels/label_296933.json",
+      "source_sha256": "6fff4d7dcf62deb022927c02c27b6617218e84120a7684f2dcbe8598eaedd915",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Formulation re: Organic",
+        "notes": "Certified Organic by Natural Food Certifiers"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:5f7a79dbac51398f6b15d0e49b25a3d08dbd1c47d1a4dbd1e44cb56e3aaf9dd2",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Improves energy & reduces fatigue\nImproves focus & mental performance\nSupports healthy muscle function\nAids production of red blood cells & oxygen transfer\nSupports healthy cholesterol levels"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:904f974e0ffb2f001d841f1ced64f2fcef16b036e11d4cfa152cdf1bd6c162c4",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Iron + CHD-Fulvic Acid for enhanced absorption"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:019fe57b1bedaecc368ad249381721736eb245a83e930f85f5310e8e5ae09244",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Formulation re: Vegetarian/Vegan",
+        "notes": "Vegan"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:f7529d2a283d59f81026089398c3e96665b51fb6c479aed3e3b88e0cf70aaee7",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Formulation re: Does NOT Contain",
+        "notes": "Gluten-free\nNon GMO"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:b9fe4a47ad8ed93d1c6a8bdae3de10598d2a3b59aa9b0aa74343b9b87ca5d053",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Directions: Adults: place 1 teaspoon (5 mL) into 6-8 oz of water or juice as maintenance. Use more if needed or as recommended by your healthcare professional."
+      },
+      "decision": "primary",
+      "rationale": "Adult-specific use context embedded in directions; consistent with the original adult-use relevance criterion. Preserve full wording, not a dosage recommendation.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:2cd0ebfa33f633635e5fb27cbb876c95f456facccccf3128516bf7ddd41cc120",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Children under 4: Consult your physician."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:e6d77f716e5911d4148db3ac452648e4e550d701a63385e6c0560ed7b6490b00",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Shake well before use."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:a82d44c7353eecc3eeaf9de89dc21487f36325ffcc7d07578fed1782c69019b3",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Do not use if tamper evident seal is broken or missing."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:e4150823f7fccc38226f359a924b5eb9e82da8eb065522106d7774af85b64284",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:db8779cd9e986b04b29d1a06683d10455eac5b707f4ae5812ce5f090448884e9",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Third party tested"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:fc4523620ddd8a9a23a8381b0f8ecf627f91ff463b96194ddec3a3221854fb71",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Zemvelo \"Love & Gratitude\""
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:fe57ec0db2e2885a7a12739dcd0775b9efbecbaa512b53886b22016b74b1bd51",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "Manufactured in the U.S.A.\ncGMP"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J04",
+      "unit_id": "warning:229239:08ca11ce509825657ca3c65fac0fb33fd31fb4bea4b887d0df0a92dce2d5e588",
+      "source_file": "data/raw/dsld/labels/label_229239.json",
+      "source_sha256": "a01943ed2b5588086630fb64478f305f4f34bb48ee2eaf61000539da3357e29d",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "For freshness, keep refrigerated after opening."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:35d4ef6b253fa4031c737080d6105e26bc6cfc006509cd42cfd9b564ea0d40ef",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Suggested use:\r\nTake 2 capsules daily, preferably with a meal, or as directed by a healthcare professional."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:679cbfb2b6e82f6442391277fc208d19afaecd70fb24887f7ec57596483afc91",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Caution:\r\nDo not exceed recommended dose."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:a38b66d4f6d6684929638fb2fb20c19ccf27b77757aaa233c53edff045a9d803",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Pregnant or nursing mothers, children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:a38b66d4f6d6684929638fb2fb20c19ccf27b77757aaa233c53edff045a9d803",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Pregnant or nursing mothers, children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:a069d7f13ec8e31aa1e417f8083a722f8bd77ddabf9e03efe5f6a106406ffb43",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Precautions re: Allergies",
+        "notes": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:870e1867058a6bb5922c5288aaf70004fab4631ba63363084445419980840ac3",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "FDA Disclaimer Statement",
+        "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:96f66859672739e5ceab3908b409b33c8ccfa1b9464bdb03afe20b8310e14065",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Sourced from an FDA Registered & inspected and GMP-certified facility."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:eac59213b2918eb45002413c064cd0cf93b10824dc9e007800f206b0de3e674f",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "Tested Product Certified Facility\r\nSourced from a GMP Certified Facility"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:377e6a769612b081140b67e9d027e5911a5697cd78733d247b999cc00231c9d6",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "4.4 Billion Probiotic with prebiotics plus probiotic booster PreforPor Patented Prebiotic support technology"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:64f3e225a983274d9cd636adc917667d727c23ab95f25e03a9133a367fc20581",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "(30 day supply)"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:f66b08fe93352d730658d3646a9ca192720c627ce284741e3c746e3f8898336f",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "Formulation re: Other",
+        "notes": "Effective in small doses\r\nSupports a healthy gut"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Keep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:78676ea083b02d6d87259581230b7ea3d30078c3d81d52183bf42c35ed6afd10",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Do not use if safety seal is damaged or missing."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:5c0f47ba1603472ebc5b1a4dcaca1934953cbf38878003d315b614058835384d",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "Storage",
+        "notes": "Store in a cool, dry place."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:47167ea9f2d1c4caccebf5e695085bb9f3a14eee60ecebdfd9652b1bedc2e47d",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/15",
+      "original_statement": {
+        "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+        "notes": "PreforPro and DE111 are registered trademarks of Deerland Enzymes, Inc.\r\nWith Patented technology, Deep Immune Probiotics & Prebiotics are more effective that probiotics alone (US Patent 9839657)."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:b9392365d69dea6745eb49201225fc89ae9e759569a371d50b90d0350e87518c",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/16",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Find us on: Instagram @drtobiashealth\r\nA Mimi's Rock Company\r\nNew"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:a4934c58f69495b590a02b015f47084287a50db364985d3062f00c125ce29650",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/17",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Every capsule contains prebiotics"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J05",
+      "unit_id": "warning:319418:aac80febc8e7c1cb714fa6af6bd32c098b64200a6b4bae9f1ade57342e50cba2",
+      "source_file": "data/raw/dsld/labels/label_319418.json",
+      "source_sha256": "0afeff891d34f33e00596de6d230c03d4fb32a96ef7ad336ed1cbea471734f84",
+      "pointer": "/statements/18",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Pairs well with our omega 3 fish oil"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:2d1b067ee8d3249c2be31d2d464a447ef2df82d522bb8828bc813718302bf5c6",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/0",
+      "original_statement": {
+        "type": "Suggested/Recommended/Usage/Directions",
+        "notes": "Directions for use: Mix 1 scoop (6.2 g) with you pre-workout, post-workout drink, water, or favorite beverage once daily. Contents may settle after shipping. Shake container prior to use."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:d62e0f8621706eb7a3afe6db17c1fa999c9f74ae9a0bb1526f2c408fb5fe77c2",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/1",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Percentage of Pure Creatine per Gram\nCreatine Anhydrous 99-100%\nCreatine Monohydrate 88%\nCreatine HCl 78%\nMagnesium Creatine Chelate 45%"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:3b7c4fa827dd751ed71403c68619878099dcb9693b71c6b611de6dcd183cebe3",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/2",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Warning: This product is only intended to be consumed by healthy adults 18 years of age or older."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:590b5e4f4ff5573c82aa5ec683dd4abefe2f496fddf9f54edf30c599a599d7a7",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/3",
+      "original_statement": {
+        "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+        "notes": "Pregnant or nursing women should not use this product."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:98bb0e286ff5319b082a7ec04d6f10587919636b4f1d23bc1cccecc06b8bc93b",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/4",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Discontinue use 2 weeks prior to surgery. Discontinue use and immediately consult your health care professional if you experience any adverse reaction to this product."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:93d56d2f348ba12ca536f5d0b15fc80d644717311651fdd2a5b6c9a75a81214d",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/5",
+      "original_statement": {
+        "type": "Precautions re: All Other",
+        "notes": "Do not exceed recommended serving. Do not use is safety seal is broken or missing."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/6",
+      "original_statement": {
+        "type": "Precautions re: Children",
+        "notes": "Keep out of reach of children."
+      },
+      "decision": "primary",
+      "rationale": "Captured warning, consultation requirement, tamper restriction, or explicit adult-use population context.",
+      "exact_text_seen_in_prior_sets": true
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:79b9de5d0d3046d78a7309c5bd3d457dc96f57b526ae6c2d053db05c84795f0d",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/7",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Non-Instantized. BioCRE instantized creatine anhydrous (unflavored) contains greater than or equal to 96% creatine per gram."
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:5839ff622bc0eacc7fa0f52474c228e82f82349363fd4def595794f334574c5a",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/8",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "30 day supply"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:ee01a8d2b6d62c37cad3e8dd5674708fde5ef15bc005df355aa824e17179e847",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/9",
+      "original_statement": {
+        "type": "Formula re: Contains",
+        "notes": "Powered by BioCRE plus Betaine Anhydrous"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:be064b93eae88b3cd6825106ce3cd2945974d98d68edd2644b3b217352c901de",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/10",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "Highly Concentrated\nUltra Instantized Creatine"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:314da58629f77b71b539e53bc4ab3f3c504d125c818bf6444ca5f9273bfe0a03",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/11",
+      "original_statement": {
+        "type": "FDA Statement of Identity",
+        "notes": "Dietary Supplement"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:f1b522d157de406d2c5460f90223369cfb15572c882f604bc6e8825dc68f074a",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/12",
+      "original_statement": {
+        "type": "General Statements: All Other Content",
+        "notes": "1-800-890-3067 (9-5 EST M-F)"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:6bc2acf6f28cb4a37b7f1254b18d4f2252a70c03736ff97dcf0c9c512074b325",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/13",
+      "original_statement": {
+        "type": "Seals/Symbols",
+        "notes": "BioCRE\ninstantized creatine anhydrous"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    },
+    {
+      "question_id": "J06",
+      "unit_id": "warning:53576:ff66114d7bf0f96db6fb12988cef37cef5d46fb421cf63cd0ce3ed7896b21d95",
+      "source_file": "data/raw/dsld/labels/label_53576.json",
+      "source_sha256": "f91bb2c21d873809db9a070549208304d4099f2ffc63ce825c75140cccf1cd86",
+      "pointer": "/statements/14",
+      "original_statement": {
+        "type": "General: Product/Version Code",
+        "notes": "L-298-02"
+      },
+      "decision": "exclude",
+      "rationale": "Routine directions, marketing, composition, identity, storage or disclaimer; outside primary warnings/use restrictions.",
+      "exact_text_seen_in_prior_sets": false
+    }
+  ],
+  "overlap": {
+    "warning_occurrences_exact_text_overlap": 7,
+    "warning_occurrences_novel_text": 16
+  },
+  "limitations": [
+    "Six new warning-label examples after locking v3; original and first-diagnostic product families excluded.",
+    "Same saved collection/assistant, with overlapping boilerplate disclosed. Not an independent benchmark or clinical validation.",
+    "Original and first diagnostic cases informed v3 and are now development sets.",
+    "One selected label has no captured warning statements; no safety conclusion follows."
+  ]
+}

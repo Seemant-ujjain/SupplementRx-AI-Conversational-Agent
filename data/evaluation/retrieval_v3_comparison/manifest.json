@@ -1,0 +1,27 @@
+{
+  "code": {
+    "scripts/annotate_second_evaluation_cases.py": "a65156945dcc384bd4b4052df8c17dd0c05f4441d3af25aeaaa935b8d5d6bf6e",
+    "scripts/compare_retrieval_revisions.py": "ea6a74e6c2a5844f768181dda50529990780353d5291a01ea2a6022345eb992a",
+    "scripts/evaluate_kg_retrieval.py": "7fba93fa3f59fdd6b4714458365433c1e674fdf1209d1a807a66ad6e478fdd52",
+    "scripts/evaluate_retrieval_v3.py": "c9005bcb84abff41205898052f3755830a6d65e66327fbdc7167a58ebde90ad4",
+    "scripts/kg_evaluation_common.py": "cc9cfa92fbc6c22295d7f30ca85a4159c686521fef3a43022a1f12e1419cb6ce",
+    "scripts/kg_retrieval_baseline.py": "ecce7343a4514ccc844c92f16444858360d27382672b746d939b5549e6185c06",
+    "scripts/kg_retrieval_v2.py": "b680ea7e49a437526b099eeb88da1b97e83178b2adc14a78a740c5407c51a387",
+    "scripts/kg_retrieval_v3.py": "647035855878b4f944d7d7c86143deed94e98f14f88830b3979a7954928db768",
+    "scripts/select_second_warning_cases.py": "181b80ad760916969c7ab157d5074b4c6246495f10eca165bef995a264e7319a"
+  },
+  "files": {
+    "comparison.json": "5da0f323b143b0a50ebfc86f178476781833c2eff08ab5f17ca4c98849901a78",
+    "first_diagnostic_now_development_responses.json": "507c75ac899d0f37d53050aff757949b8b0506ac9e17fc75c82cfbe096e3e690",
+    "original_development_responses.json": "8bd4d9edd62c2ce63550681682457ea1260baaf2603c1d12d649bb1f67b6bea9",
+    "second_diagnostic_responses.json": "2f5cc6a009f872540a4a0ef76c6c10fb4ffbc7ccbfa543b232cbbdd2e05d98f1"
+  },
+  "graph_manifest_sha256": "27c544f4940e7162944c9e957236f3eab12f7cc0dbdd2d5317da8e336f78d4ed",
+  "inputs": {
+    "data/evaluation/additional_case_selection_v2.json": "eb79bdcbf13bcf1f49771dfe34b97748d30f7ae3a66c735f854c141ae294d167",
+    "data/evaluation/additional_evaluation_cases_v1.json": "b0d06af7dc55597152c3c51e4e5d93be9584a0515db08da9f5b5faf2cc6c92d6",
+    "data/evaluation/additional_evaluation_cases_v2.json": "07fb16c38dc9165eea1169b602eb79004fdb479485a5777e669a5f61d3c9e2d1",
+    "data/evaluation/evaluation_cases_v1.json": "eeb2b8ac5227f4a170c2504f18bc637d0501493047aee67d53efa34c1db69570",
+    "data/evaluation/retrieval_v3_rule_lock.json": "78716172f78bd34558838e4906e383c2b1b97cd2033bca5db8798589d2e377c6"
+  }
+}

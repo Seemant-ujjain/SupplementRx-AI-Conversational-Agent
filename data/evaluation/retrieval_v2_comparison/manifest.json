@@ -1,0 +1,25 @@
+{
+  "code": {
+    "scripts/annotate_additional_evaluation_cases.py": "88a4ff72cd85600df69b4a0b4b168863bedea20e4357eedc2695c0e9d9c0305e",
+    "scripts/compare_retrieval_revisions.py": "ea6a74e6c2a5844f768181dda50529990780353d5291a01ea2a6022345eb992a",
+    "scripts/evaluate_kg_retrieval.py": "7fba93fa3f59fdd6b4714458365433c1e674fdf1209d1a807a66ad6e478fdd52",
+    "scripts/kg_evaluation_common.py": "cc9cfa92fbc6c22295d7f30ca85a4159c686521fef3a43022a1f12e1419cb6ce",
+    "scripts/kg_retrieval_baseline.py": "ecce7343a4514ccc844c92f16444858360d27382672b746d939b5549e6185c06",
+    "scripts/kg_retrieval_v2.py": "b680ea7e49a437526b099eeb88da1b97e83178b2adc14a78a740c5407c51a387",
+    "scripts/select_additional_warning_cases.py": "a24b01bc2c86a81b4d248acd9593b4d03ee17ce57c74d4759ffd54c6ec7a143b"
+  },
+  "files": {
+    "additional_diagnostic_v1_responses.json": "44e9531d76dd3255064b74f1c2da5bd79dad2b200f8f5f23a18ed1d1800cb5a2",
+    "additional_diagnostic_v2_responses.json": "33c5914444090f0b3586645d45feb22e23c56c2e179633254f07dc84105e17c2",
+    "comparison.json": "6851a046d6c20954999db54586309a746e3ab446b347bce2ee6acb4a097d437e",
+    "original_development_v1_responses.json": "5530b03ec0eabe4df09ed883d294d84807fbe455fdb054c97eaf96da291b828a",
+    "original_development_v2_responses.json": "451ccf6f3deb036825db620a39ccb7363cc044e4020574a5832487aacc2dd34d"
+  },
+  "graph_manifest_sha256": "27c544f4940e7162944c9e957236f3eab12f7cc0dbdd2d5317da8e336f78d4ed",
+  "inputs": {
+    "data/evaluation/additional_case_selection_v1.json": "09a94c4ca8e0f544affec41b0267e1fdca17b6f7966936178b8c52a2ae6ebcc3",
+    "data/evaluation/additional_evaluation_cases_v1.json": "b0d06af7dc55597152c3c51e4e5d93be9584a0515db08da9f5b5faf2cc6c92d6",
+    "data/evaluation/evaluation_cases_v1.json": "eeb2b8ac5227f4a170c2504f18bc637d0501493047aee67d53efa34c1db69570",
+    "data/evaluation/retrieval_v2_rule_lock.json": "e06a96c5295d600f2ee7181450ae45a7a104870cf75c03474622f640cb58c902"
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "scope": "Development-set fixed-request evidence retrieval, not natural-language QA, independent benchmark or clinical correctness",
+  "graph": "data/graph/full-graph-statements-v1-27c544f4940e7162944c",
+  "questions": 30,
+  "macro_precision": 0.9836762854004233,
+  "macro_recall": 0.9646004378762999,
+  "precision_denominator_questions": 29,
+  "recall_denominator_questions": 29,
+  "questions_with_retrieval_errors": [
+    "Q04",
+    "Q06",
+    "Q07",
+    "Q09",
+    "Q10",
+    "Q12",
+    "Q17",
+    "Q27"
+  ],
+  "contract_violation_count": 0,
+  "by_source": {
+    "DSLD": {
+      "question_source_pairs": 15,
+      "macro_precision": 0.9666666666666667,
+      "macro_recall": 0.9252116402116403
+    },
+    "NatMed": {
+      "question_source_pairs": 13,
+      "macro_precision": 0.9898093359631821,
+      "macro_recall": 1.0
+    },
+    "reviewed_mapping": {
+      "question_source_pairs": 3,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "Reddit": {
+      "question_source_pairs": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    }
+  },
+  "by_category": {
+    "product_label_warnings": {
+      "questions": 10,
+      "macro_precision": 0.975,
+      "macro_recall": 0.9021031746031746
+    },
+    "natmed_interaction": {
+      "questions": 3,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "natmed_dose": {
+      "questions": 1,
+      "macro_precision": 0.9444444444444444,
+      "macro_recall": 1.0
+    },
+    "natmed_safety": {
+      "questions": 3,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "natmed_effectiveness": {
+      "questions": 2,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "natmed_adverse_effect": {
+      "questions": 1,
+      "macro_precision": 0.9230769230769231,
+      "macro_recall": 1.0
+    },
+    "quantity_basis": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "identity_scope": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "product_clinical_applicability": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "reddit_direct_context": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "category_not_equivalence": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "null_preservation": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "label_vs_clinical": {
+      "questions": 1,
+      "macro_precision": 0.9090909090909091,
+      "macro_recall": 0.9523809523809523
+    },
+    "unsupported_recommendation": {
+      "questions": 1,
+      "macro_precision": null,
+      "macro_recall": null
+    },
+    "navigation_vs_strain": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    },
+    "comparison_and_abstention": {
+      "questions": 1,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0
+    }
+  },
+  "results": [
+    {
+      "question_id": "Q01",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 5,
+        "retrieved": 5,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q02",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 4,
+        "retrieved": 4,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q03",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 5,
+        "retrieved": 5,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q04",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 9,
+        "retrieved": 8,
+        "true_positive": 8,
+        "false_positive": 0,
+        "false_negative": 1,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "false_positive_ids": [],
+        "false_negative_ids": [
+          "warning:3749:5b722632b6e87afbdb98420457bb7096f64d7ef889331b3335af44aaecc93551"
+        ]
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q05",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 7,
+        "retrieved": 7,
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q06",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 5,
+        "retrieved": 4,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "false_positive_ids": [],
+        "false_negative_ids": [
+          "warning:179549:ba8ebf2749e2e8030927a8dba1d37e341c10d0e80faeb996ed6606922e8fc2c5"
+        ]
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q07",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 7,
+        "retrieved": 8,
+        "true_positive": 6,
+        "false_positive": 2,
+        "false_negative": 1,
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "false_positive_ids": [
+          "warning:214846:9bc616d195693700ef2548fb30080489a6a425c98f6bce1bc8e5b8333942d9a4",
+          "warning:214846:d4cdcb2ad33d043fb62991d559d15b0a8f14b20ba08eabb9274157017a40e1ef"
+        ],
+        "false_negative_ids": [
+          "warning:214846:0eae95c31a77e0bcc7bf743d97bffda70c77dfc6995bcda8a4bb7d7e59aae0e3"
+        ]
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q08",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 5,
+        "retrieved": 5,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q09",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 8,
+        "retrieved": 7,
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 1,
+        "precision": 1.0,
+        "recall": 0.875,
+        "false_positive_ids": [],
+        "false_negative_ids": [
+          "warning:63275:c531bcbb7a8771d52f9131af383480f3e6b4bf4f67ba734ab59d306a7420ee7b"
+        ]
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q10",
+      "category": "product_label_warnings",
+      "scores": {
+        "expected": 5,
+        "retrieved": 3,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 2,
+        "precision": 1.0,
+        "recall": 0.6,
+        "false_positive_ids": [],
+        "false_negative_ids": [
+          "warning:25731:29139f7e0fae84dcfd22354532b6042031e82d94645bd3a224668c2928bf2937",
+          "warning:25731:d5dad743d634d553ff3738886e10d3a3d104ee3ae761315b10a2d0431c8b95d4"
+        ]
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q11",
+      "category": "natmed_interaction",
+      "scores": {
+        "expected": 24,
+        "retrieved": 24,
+        "true_positive": 24,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q12",
+      "category": "natmed_dose",
+      "scores": {
+        "expected": 17,
+        "retrieved": 18,
+        "true_positive": 17,
+        "false_positive": 1,
+        "false_negative": 0,
+        "precision": 0.9444444444444444,
+        "recall": 1.0,
+        "false_positive_ids": [
+          "claim:c7ccabc1357b3318ca0a11b6b070a1976a1b2a47a34f267a57c4c7174b0f3780"
+        ],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q13",
+      "category": "natmed_safety",
+      "scores": {
+        "expected": 7,
+        "retrieved": 7,
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q14",
+      "category": "natmed_safety",
+      "scores": {
+        "expected": 12,
+        "retrieved": 12,
+        "true_positive": 12,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q15",
+      "category": "natmed_interaction",
+      "scores": {
+        "expected": 13,
+        "retrieved": 13,
+        "true_positive": 13,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q16",
+      "category": "natmed_effectiveness",
+      "scores": {
+        "expected": 62,
+        "retrieved": 62,
+        "true_positive": 62,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q17",
+      "category": "natmed_adverse_effect",
+      "scores": {
+        "expected": 12,
+        "retrieved": 13,
+        "true_positive": 12,
+        "false_positive": 1,
+        "false_negative": 0,
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "false_positive_ids": [
+          "claim:f5740b2ef8067db33b7f71af1d67c7a7588879ca939bc2e1392189b7ee29d14b"
+        ],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q18",
+      "category": "natmed_interaction",
+      "scores": {
+        "expected": 29,
+        "retrieved": 29,
+        "true_positive": 29,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q19",
+      "category": "natmed_effectiveness",
+      "scores": {
+        "expected": 75,
+        "retrieved": 75,
+        "true_positive": 75,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q20",
+      "category": "natmed_safety",
+      "scores": {
+        "expected": 7,
+        "retrieved": 7,
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q21",
+      "category": "quantity_basis",
+      "scores": {
+        "expected": 1,
+        "retrieved": 1,
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q22",
+      "category": "identity_scope",
+      "scores": {
+        "expected": 4,
+        "retrieved": 4,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q23",
+      "category": "product_clinical_applicability",
+      "scores": {
+        "expected": 13,
+        "retrieved": 13,
+        "true_positive": 13,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "related_source_evidence_only"
+    },
+    {
+      "question_id": "Q24",
+      "category": "reddit_direct_context",
+      "scores": {
+        "expected": 135,
+        "retrieved": 135,
+        "true_positive": 135,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": {
+        "expected": 624,
+        "retrieved": 624,
+        "true_positive": 624,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q25",
+      "category": "category_not_equivalence",
+      "scores": {
+        "expected": 2,
+        "retrieved": 2,
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q26",
+      "category": "null_preservation",
+      "scores": {
+        "expected": 1,
+        "retrieved": 1,
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q27",
+      "category": "label_vs_clinical",
+      "scores": {
+        "expected": 21,
+        "retrieved": 22,
+        "true_positive": 20,
+        "false_positive": 2,
+        "false_negative": 1,
+        "precision": 0.9090909090909091,
+        "recall": 0.9523809523809523,
+        "false_positive_ids": [
+          "warning:214846:9bc616d195693700ef2548fb30080489a6a425c98f6bce1bc8e5b8333942d9a4",
+          "warning:214846:d4cdcb2ad33d043fb62991d559d15b0a8f14b20ba08eabb9274157017a40e1ef"
+        ],
+        "false_negative_ids": [
+          "warning:214846:0eae95c31a77e0bcc7bf743d97bffda70c77dfc6995bcda8a4bb7d7e59aae0e3"
+        ]
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_separated_comparison"
+    },
+    {
+      "question_id": "Q28",
+      "category": "unsupported_recommendation",
+      "scores": {
+        "expected": 0,
+        "retrieved": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": null,
+        "recall": null,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "insufficient_information"
+    },
+    {
+      "question_id": "Q29",
+      "category": "navigation_vs_strain",
+      "scores": {
+        "expected": 40,
+        "retrieved": 40,
+        "true_positive": 40,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "source_evidence_only"
+    },
+    {
+      "question_id": "Q30",
+      "category": "comparison_and_abstention",
+      "scores": {
+        "expected": 2,
+        "retrieved": 2,
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "separate_context_scores": null,
+      "contract_violations": [],
+      "status": "partial_answer_comparative_abstention"
+    }
+  ],
+  "limitations": [
+    "Fixed requests and known entity IDs; no natural-language understanding evaluation.",
+    "Expected evidence derives from raw sources, reviewed annotations and frozen preparation decisions, not retriever outputs. Some preparation rules are shared with graph construction, so this is development/conformance evaluation, not independent clinical precision/recall.",
+    "All source-relevance judgments await user adjudication.",
+    "Do not train on this set and report it as held-out performance.",
+    "Baseline warning selection uses only source Precautions types, deliberately without question-specific gold exceptions.",
+    "Optional context returned as primary evidence is scored as a primary-role false positive.",
+    "Contract checks inspect structured packets and fixed abstention behavior, not open-ended generated answers.",
+    "No ranking/top-k or learned model; scores use all returned unique source units."
+  ]
+}

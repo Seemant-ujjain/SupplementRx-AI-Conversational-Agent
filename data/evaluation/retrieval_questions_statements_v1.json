@@ -1,0 +1,1154 @@
+{
+  "version": "statements-graph-draft-v1",
+  "graph": "data/graph/full-graph-statements-v1-27c544f4940e7162944c",
+  "graph_manifest_sha256": "27c544f4940e7162944c9e957236f3eab12f7cc0dbdd2d5317da8e336f78d4ed",
+  "release": "data/graph/poc-statements-release-v1-684ce1012b4f76e0af1a",
+  "status": "Question and criteria draft; gold evidence annotations and retrieval baseline not implemented",
+  "seed_policy": "Graph-selected records are inspection aids, not ground truth; review raw source records and complete sections independently before scoring.",
+  "annotation_protocol": [
+    "Review raw DSLD label statements and NatMed source sections, including relevant context and qualifications.",
+    "Record relevant source spans and source IDs first; then record whether each is preserved/exported/linked in the graph.",
+    "Label gaps as source_missing, collected_not_exported, exported_not_linked, or retrieval_miss; keep these separate.",
+    "Determine expected answerability and exclusions. Record reviewer/date and adjudicate unclear cases.",
+    "Do not restrict the relevant set to the example seed IDs or the baseline retriever output.",
+    "Only score frozen reviewed annotations. Future train/test splits must keep related labels, shared excerpts and threads together to avoid leakage."
+  ],
+  "metrics": {
+    "retrieval_precision": "Relevant retrieved evidence units / all retrieved evidence units",
+    "retrieval_recall": "Relevant retrieved evidence units / all adjudicated relevant evidence units in the specified saved-source scope",
+    "unit": "Annotate source-specific evidence units: label assertion/span, NatMed claim/span, or Reddit record. Deduplicate repeated returns by the agreed unit; keep distinct source contexts.",
+    "empty_sets": "No returned evidence: precision undefined (report N/A). No relevant evidence: recall undefined (report N/A); score answerability/abstention separately.",
+    "additional": [
+      "Supported-answer and appropriate-abstention checks",
+      "Correct source attribution and preserved qualifications",
+      "No identity/concept/category promotion",
+      "Direct mention versus context separation",
+      "Null and pending-review preservation"
+    ],
+    "aggregation": "Report per-question and per-source scores, then macro averages over defined denominators; keep answerability separate. No measured scores yet."
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "topic": "Magnesium",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Quad-Magnesium (DSLD label 242165)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:4a1b00d83635591e4d514b2e80eb6c860c3d5e81a76a78d2889e91231efda776",
+        "assertion:e56da1920c5578fdd117119b1cfd793bb6c9045d726b16c846731f41fc0b0475",
+        "assertion:6df3778755d4c0c78fc0995e9a508296274f6ae03625d730dfd568198c70512b"
+      ],
+      "evidence_seed_ids": [
+        "evidence:1ecbf1f4c6c93951dc37914cf379fd7c26f767b2b629ac14ddacd78196ebc18d",
+        "evidence:5baff249212248cba675d85d1a0ad8ad72836973ca9d0d72f83f2d3e960cb977",
+        "graph_evidence:1a49fc96dc1ba419c06ef42d4814c6d4a3d8d0d7bdf55259e7da850f5cbdf1c0"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q02",
+      "topic": "Vitamin D",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Vitamin D (DSLD label 239369)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:992255f1a4d3c8dd5deea34d6a479204826e4708c9b406684bce29958b582033",
+        "assertion:b72ed58d51290782b9d0b09e5fedfbbb1d974da75227d142109afeeb1c7c87e8",
+        "assertion:c72f7d3a5fa3835649db95486fe5cca7e4f01691d57e7409779bf799d134d2fb"
+      ],
+      "evidence_seed_ids": [
+        "evidence:51cb233d1db16a398fe79c31fa9711a8a943f46578b81cd6987e4ebe4a2b476e",
+        "evidence:f9852ae881c40b4f643a1474a07f59b8f996fcecbabcbb9fd9da31003e2db7f9",
+        "graph_evidence:b0e7a4eb0a9865c0300652f845bb71ebf752d52fb1039ebdb6cd3ddb50467888"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q03",
+      "topic": "Ashwagandha",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Ashwagandha Extra Strength (DSLD label 206077)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e9cb76845624d5a6d5e0372b8468d031ee64a5137516a4c810fafa6f0b800f18",
+        "assertion:53441d3459b51de773d29a9579f3a2ad3ae52e4ec5a6e8404b48e24a68dcf001",
+        "assertion:28c3038b9ced2aa68c868b85cf7c532ae8af10884ec4392f9e6717b839e12ddf"
+      ],
+      "evidence_seed_ids": [
+        "evidence:928e7460a33a317ee9291d5ac3bcc5a9daebe9e6a878ff05c1a580ac279c1901",
+        "evidence:a8e0b5a6464e01a790ecde294dd739c295176ea996fef605248701edc83181be",
+        "graph_evidence:bd4763841933ff71c940d312905eb7f5794c57574500caeb9af9268d0495b7ac"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q04",
+      "topic": "Melatonin",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Melatonin 1 mg (DSLD label 3749)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:d525494ae07eb8bf869afc2154ca64d3cb259280f7d6b0078991d19b14aafa68",
+        "assertion:053fd4a1cd6e0d23e00ef0fde942a3c71b0a44f2210397738c46127a24d57633",
+        "assertion:063984a4ef72f4389846a91d1329829771171659cb26f9a101b7e21338334a85"
+      ],
+      "evidence_seed_ids": [
+        "evidence:2d3aaf0a23f3e4c7041c0689c9248fec2e32541774fba7b49a41291e6a0cc6c8",
+        "evidence:e9929ff032d3258e9b784502b17426992029b0fd2f49fbefb1a08ada04343aaf",
+        "graph_evidence:f73d9d06261a212fc0fc05b11ff8f86de57b1989f52afa5c3c04ebe57d935764"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q05",
+      "topic": "Omega-3",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Omega-3 2400 mg (DSLD label 223186)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:044853a32b72d57f01e5cecb1e50a254701e1aec3402103a648846322c9ad081",
+        "assertion:ec949cdc74ce5cf9a5f43bffc98d47e973906062b2c8cc653ee976dd80f3546d",
+        "assertion:9ac4cfea1ea415740214f0bd4c341e1d72d77d0365c4c7c29a20762e733f9e5e"
+      ],
+      "evidence_seed_ids": [
+        "evidence:102e14319ad09538d47782ef9f89c714726468e2edd877a995a2674a77e3dcc0",
+        "evidence:9069e411f20544e326012d7870df608c6bdd79e5e59d6915ae625714fc702bc9",
+        "graph_evidence:9707bbec247b168c85c5cbe7e523838053ad1a5473bd26d13007517ea997f5d3"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q06",
+      "topic": "Vitamin B12",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Vitamin B12 1000 mcg (DSLD label 179549)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:234e1a041b49ea434370ca911593158080101eaed2037182f696f5c456fa9fc3",
+        "assertion:5641167de983bf24b7bfa2ad1456e1f2ec2fb493c4c9995f78d4221e56dc4f26",
+        "assertion:635a439bf27896ce3692da9bef964aa1addb968d00d0c22a6de88dc613e49204"
+      ],
+      "evidence_seed_ids": [
+        "evidence:285ff922bea65e63826dcaf1ecaf3e7b95a8315073cff1b1fcb9e273471fc510",
+        "evidence:7a491007e172061f135239c31e0b0259ac5610ffed23fd0a0155f53219456baa",
+        "graph_evidence:7f5768aa478b0cb81a45399a2e2354c40930284673530a5f4aea34ed0c7459e4"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q07",
+      "topic": "Iron",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Ortho Iron (DSLD label 214846)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:76e1142c2355a58d40ad52699633e96c6008e3edb478086f33f5c5032b8873e9",
+        "assertion:7ca5cb6521479eee46c638455dc8e6dc2bcefa84eddb43c1cdc49391e200ac1a",
+        "assertion:4f52d4288a8a664ceadf4ae8fdf33715b4f48dcc5428bfbb606b21ada7c78953"
+      ],
+      "evidence_seed_ids": [
+        "evidence:101d9ebc511401aa288d8033b82ca3f374fee24398a0e94e61011971cf60d4a7",
+        "evidence:b154ef842d46882321fef857e58a5f1c64a0c93982f49a297c4f7f095ff0ca24",
+        "graph_evidence:7f83549a2b4c8d5e3376bd1187fbf7307da6b12bc84b563acf592cfd741584ce"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q08",
+      "topic": "Turmeric",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Turmeric 750 mg (DSLD label 179934)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:8af8281adb935cf4d80ba79cafc3b80c045cde9ba2e896a1c9d9186c75bd5ce4",
+        "assertion:cc1a1d94c22b9b8289fede308fbebe01e782c92834e5035972873292c953b7e7",
+        "assertion:0434f6ae324e8eed3c78651cc4949fae9d1192d8c2c96bfda66fd6f60860821a"
+      ],
+      "evidence_seed_ids": [
+        "evidence:0fcf0f3a8821e66e3956f93a0eea72dcf0464fc29f989f6ac1ff9ab3eb96d0b2",
+        "evidence:9eae22fd982edb28b738d096380fdd3271206a20bafd12a45e39d1fe21220804",
+        "graph_evidence:e745e65b0489b28b711f988f9998d17817e4c95c608382479dbf47b543e2b019"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q09",
+      "topic": "Probiotics",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Probiotics + Weight Loss (DSLD label 63275)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e2954837086a1d87ec46eb87b7ede00a7be8293ccddfa7c90c04e397425aa26f",
+        "assertion:6237e70f29458ac0f5786b9570fe218757fc7c1c563b779d229fab7bfc5f373f",
+        "assertion:56f01fd115a552bfbab86cbd9127fd888ede1f508a5909513ae7fb8dc2b04029"
+      ],
+      "evidence_seed_ids": [
+        "evidence:024f81aa3069ccd249a5d6ab123d2e3e33367f9f53fc7d1bb3c72957a678120b",
+        "evidence:5a8cd39dfebf2172c211b9b50e37a5226262b57f639a563a753e497f4a689fcf",
+        "graph_evidence:3a118f1c35e3cea4606dcbc036299687b88a9833d0c745742d1ceeb7664f8a47"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q10",
+      "topic": "Creatine",
+      "category": "product_label_warnings",
+      "question": "What warnings and usage restrictions are stated on Creatine Alkaline (DSLD label 25731)?",
+      "expected_result_criteria": [
+        "Inspect every source label statement; select actual warnings/restrictions without treating every statement as a warning.",
+        "Return original wording, product/label ID, source and relevant conditions.",
+        "Separate label directions from restrictions and distinguish no saved warning from evidence of no risk."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+        "assertion:2194d413e397cac775ae619e8cf926275445a9b6db60485ed224e7f4949c8052",
+        "assertion:5516fba3a3932eaaa9fd96c08f69efa6e00a3a18a459a84b3c6d8c46b5c5ffda"
+      ],
+      "evidence_seed_ids": [
+        "evidence:08ffe293a18857d9cfc0bc0fa20a561c26dc5e46fa2579de1472db5d1d9a3b7e",
+        "evidence:7f54e0d6357d8f872f4cbbe76e89a0ac69ac30eca6a3c29c326244a7eb265744",
+        "graph_evidence:43a6fa62f21c5a138140f8eaadbc41feee2fd60fb57ea97740f6bb5d632c15ae"
+      ],
+      "candidate_graph_paths": [
+        "ProductLabel → HAS_ASSERTION → LabelAssertion(kind=label_statement)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If no warning is captured, report that coverage gap; do not invent warnings."
+      ],
+      "exclude_from_answer": [
+        "Unrelated product labels",
+        "General NatMed statements presented as manufacturer warnings",
+        "Reddit advice"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q11",
+      "topic": "Magnesium",
+      "category": "natmed_interaction",
+      "question": "What interaction statements and partner names are present in the saved NatMed annotations for Magnesium?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:649e1db8b72c315fd46a0008",
+        "claim:ece8f46a2cef08073b4997a75eae2b2f135b57810407dc775a47853095079d5d",
+        "claim:834cd59d2e5d058dd2b1dc0fd81e76eab672e287646d6f099236b89cdadcf0be"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:36c38724bd668faaa71167ca301dd39d90ea7486715c9ea27e913ba263ea7680",
+        "graph_evidence:766479cec9d3bbf5566a9c0a4549bc726b254c013a1570518b53c83ae8ba3982",
+        "graph_evidence:87991231edd9f72fe9ea18b9095ff8ec901e7904dae7fc25b610ef83c277e808"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q12",
+      "topic": "Vitamin D",
+      "category": "natmed_dose",
+      "question": "What dose contexts, units, routes, durations and populations are recorded in the saved NatMed annotations for Vitamin D?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:8dd04c27d96778422b37b7f1",
+        "claim:5ecb30c1fe83caf6c941f64e573e5355f52227328cd7fee46aaadf85c62dd9b3",
+        "claim:1d38c6cb6cc8727b68bc2de334605bebbf839def6b393688bbdfb12bef8c1436"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:599bc155fb34a0fd4a87f49d5ad8da4ee83d87e3312cbcc7cfb2232955a4682c",
+        "graph_evidence:68172a14a55ceb076fb512c356e50946ea14358150bd80e9d1e55b8a9469d83b",
+        "graph_evidence:f22d6f1671dec93dd6069c22bec2e7db35007fdb656831913b706e713843f8bc"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q13",
+      "topic": "Ashwagandha",
+      "category": "natmed_safety",
+      "question": "What safety statements and population qualifications are recorded in the saved NatMed annotations for Ashwagandha?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:0d296c0daa1cccb456da568c",
+        "claim:29b849693c136dc2e033084f98a8c3ccfc7152be7b4f76d6d2b3f497df47dffc",
+        "claim:3a1e7c59e8144dd11cfe90e000be0afa605130adb7d5baf9a94e590a529ea45f"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:274e20f5ef75c32b5b1697431faf171a45ed1ae27a551c74bcd05b0e8ca34623",
+        "graph_evidence:867e036ffbd642ccc9ce53726689f5e2d77b9a9dec7836014eee09d491886ce7",
+        "graph_evidence:95656ed493eb3e4b8f041e2178a660227ea69c1ada0277c69b8d70ec57d9a881"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q14",
+      "topic": "Melatonin",
+      "category": "natmed_safety",
+      "question": "What safety statements and population qualifications are recorded in the saved NatMed annotations for Melatonin?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:3684a1a282d205d7021e1e8c",
+        "claim:832894835fd7198894307d08587649b92576539825973fc895391d8c7f3ca321",
+        "claim:d0b518e28c77d05184258dd40de8e7c241fa1e0c84ae3ccd8bf80438b39c49e7"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:149b512601814cca7c4b528f72df33b9345a5c540f410443f4c1e27d7bf9292a",
+        "graph_evidence:bd4a342c97800a6f4ba714bdbb0a143642242cc259bfdde4d0bcd328b2343d32",
+        "graph_evidence:c3b0039483a191f34e2e7ff34052f0f0020f16451a5b4bbced15d9b242d535c9"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q15",
+      "topic": "Omega-3",
+      "category": "natmed_interaction",
+      "question": "What interaction statements and partner names are present in the saved NatMed annotations for Omega-3?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:9846bbe87087e6c66c605ff5",
+        "claim:91efaeb6f0011ad8d841139aac057009045e546529abddf840fe59af6c989ae4",
+        "claim:f123d40775eeeb2723e3631ab83082d8c3908702ce8e56020025400e0b928fad"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:22c04738e35ee86c4ddd318a2d36bcfaa19308fc376d9202a6fe8947d7f7256b",
+        "graph_evidence:6cadc2d9c20bea5ce0a0c2abdeefc11c24c441759947ef491134046db8d1dbe7",
+        "graph_evidence:c46ff096f6f7efa8bd2a20fe5cc8aad68b6b994da5fc7c94fd940e6e9bef4679"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q16",
+      "topic": "Vitamin B12",
+      "category": "natmed_effectiveness",
+      "question": "What indications and effectiveness ratings appear in the saved NatMed annotations for Vitamin B12?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:0e9f2262886c394a16e6a7b6",
+        "claim:f3e96df984f0299ae23f7f1bd207b3e120d045cdcc6cc91b3b32798b3a596cf0",
+        "claim:02fceddada0f404d628d5eabd30471dcc2eb1ebfc403b4aa79c116538636ce50"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:2d51dcdfc3adb01ffc2a4b1c260bb31b2a9abaf380f24785044676167fc04e3f",
+        "graph_evidence:cb614d68de69e40eb238f3bb74787c0359449a3d90406243d144b6207acfd931",
+        "graph_evidence:e688a6a513e56bdf7b30ee062c93170e54e9a898525cd8b9b50b34d981576882"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q17",
+      "topic": "Iron",
+      "category": "natmed_adverse_effect",
+      "question": "What adverse-effect statements are recorded in the saved NatMed annotations for Iron?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:fce9d033ff2ec6933e4775ba",
+        "claim:d6a8f9981a48b2466da3bb2dcbe3a25545a55650580b9194fc3050bfcebd6135",
+        "claim:ee329aaa3124b3dfbd93775e479f00db1e9e6027a6b5da7cc0c7968601dba33c"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:200a2e022a6d5a44ce9615b6f989e5dbdacd380083eab535ecd8f37df5ff982d",
+        "graph_evidence:4cd0defc21172091f9bf0ee0257cde20ea607985c57ac1b65652821c97cda1e9",
+        "graph_evidence:be1f9ea1c2abffceba5f67caaa5478e2bb963ae3e8c5e002c6972bd27695cc47"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q18",
+      "topic": "Turmeric",
+      "category": "natmed_interaction",
+      "question": "What interaction statements and partner names are present in the saved NatMed annotations for Turmeric?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:15e8a621cab69a1f3066f3e8",
+        "claim:7e557030659df62b595f5bb62c44626b1774685353e20389b5fcfc9de67b5ddf",
+        "claim:e81153f40c0d14088428797b432477d8ebda21b46a099a4543dc818bc9a78740"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:768642c7099d058fd9484858f29ce8c2bab63a09526889c246e1b913bf0754ab",
+        "graph_evidence:978c0216f2dba8a5c1092c4d7cf62a405f816e2637f569b42eb3d030ff2c87d0",
+        "graph_evidence:b4defd7e0930c424c45fb8eea7a9e222d8848fd5e463158087b35520827aaebe"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q19",
+      "topic": "Probiotics",
+      "category": "natmed_effectiveness",
+      "question": "What indications and effectiveness ratings appear in the saved NatMed annotations for Probiotics?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:6d4216fa13c50b0c8a12b73b",
+        "claim:59dd0c7fb16adeaa27049f451d6e16a1f9baa5b1dd84bb39e3c14dc19169a79a",
+        "claim:be4b81af8986ad80df8bc2fafcf80bc6eac7ba9f5091b5c2c8e491d39df6dfd5"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:3589d9ebfa869816d09a1d231ea62d3b28fbd49730cc13cde11db8dd0a50cbc6",
+        "graph_evidence:b9297e4939b865abe153c237cdaea44248a596212948863e28cc5835ca298c27",
+        "graph_evidence:f5b3629e102888e3708219dc8faa8ddd4706796cd07fa4f5e580fb48b53e45b8"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q20",
+      "topic": "Creatine",
+      "category": "natmed_safety",
+      "question": "What safety statements and population qualifications are recorded in the saved NatMed annotations for Creatine?",
+      "expected_result_criteria": [
+        "Retrieve the selected claim type from the correct monograph; inspect raw source context for omissions and qualifying headings.",
+        "Preserve original excerpt, ratings, dose/population/formulation context, citations and pending review status; unknowns stay unknown.",
+        "Do not translate a source statement into a product-specific recommendation or independently approved conclusion."
+      ],
+      "evidence_seed_node_ids": [
+        "natmed:1dcdcb859542de37540c85e3",
+        "claim:557d2923c7ff80ad68517ad3283df012d5debb826c126b2a5715020b27a0dea3",
+        "claim:c4bcd4bcd3d166d0a751b8e72ef1a0e12a2c0a67a41f3be1c476a52c33811f3d"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:3d36d46574f7333bc8ba8d594e46439fde287852834cf285daf380758532c69d",
+        "graph_evidence:93db6efa91f269a320b19ed33cc6e3431c95b89bcc0ca5239263dafd26842275",
+        "graph_evidence:cb688f21d9612c7395b9f5ad3886b2e498a9c1aab1dcbe25e2981cf0a3464db4"
+      ],
+      "candidate_graph_paths": [
+        "SupplementTopic ← HAS_SOURCE_TOPIC ← Monograph → HAS_PENDING_CLAIM → ClinicalClaim → SUPPORTED_BY_EXCERPT → SourceExcerpt"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "If the requested claim type is not captured, report insufficient saved coverage."
+      ],
+      "exclude_from_answer": [
+        "Other claim types unless needed as explicitly labeled context",
+        "Product safety/effectiveness inferred from general ingredient evidence",
+        "Reddit as clinical support"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q21",
+      "topic": "Magnesium",
+      "category": "quantity_basis",
+      "question": "What magnesium amounts and serving bases are declared on the selected label, and which amounts are eligible for comparison? (Selected label: 242165.)",
+      "expected_result_criteria": [
+        "Return original quantity, unit, operator, serving basis and comparison status.",
+        "Blocked/pending quantities cannot be silently converted into comparable doses."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:4a1b00d83635591e4d514b2e80eb6c860c3d5e81a76a78d2889e91231efda776",
+        "natmed:649e1db8b72c315fd46a0008"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:1a49fc96dc1ba419c06ef42d4814c6d4a3d8d0d7bdf55259e7da850f5cbdf1c0",
+        "graph_evidence:766479cec9d3bbf5566a9c0a4549bc726b254c013a1570518b53c83ae8ba3982"
+      ],
+      "candidate_graph_paths": [
+        "DECLARES_OCCURRENCE",
+        "HAS_ASSERTION",
+        "HAS_SERVING_BASIS"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q22",
+      "topic": "Vitamin D",
+      "category": "identity_scope",
+      "question": "Which High-confidence concept or exact-material mappings exist for the selected label’s Vitamin D ingredient occurrences? (Selected label: 239369.)",
+      "expected_result_criteria": [
+        "Return relation type, target namespace/native ID, confidence and evidence.",
+        "A title mention is not a composition assertion; concept mappings are not exact-material equivalence."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:992255f1a4d3c8dd5deea34d6a479204826e4708c9b406684bce29958b582033",
+        "natmed:8dd04c27d96778422b37b7f1"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:b0e7a4eb0a9865c0300652f845bb71ebf752d52fb1039ebdb6cd3ddb50467888",
+        "graph_evidence:f22d6f1671dec93dd6069c22bec2e7db35007fdb656831913b706e713843f8bc"
+      ],
+      "candidate_graph_paths": [
+        "DECLARES_OCCURRENCE",
+        "DENOTES_CONCEPT / EXACT_MATERIAL_MATCH"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q23",
+      "topic": "Ashwagandha",
+      "category": "product_clinical_applicability",
+      "question": "Can the saved NatMed safety statements be connected to this selected Ashwagandha product, and what applicability remains unestablished? (Selected label: 206077.)",
+      "expected_result_criteria": [
+        "Show the actual occurrence-to-monograph-subject path if it exists.",
+        "Separate manufacturer warnings from NatMed statements; identify formulation, dose and population gaps."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e9cb76845624d5a6d5e0372b8468d031ee64a5137516a4c810fafa6f0b800f18",
+        "natmed:0d296c0daa1cccb456da568c"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:867e036ffbd642ccc9ce53726689f5e2d77b9a9dec7836014eee09d491886ce7",
+        "graph_evidence:bd4763841933ff71c940d312905eb7f5794c57574500caeb9af9268d0495b7ac"
+      ],
+      "candidate_graph_paths": [
+        "DECLARES_OCCURRENCE",
+        "RELATED_INGREDIENT_SUBJECT / RELATED_BOTANICAL_SUBJECT",
+        "ABOUT_SUBJECT (reverse)"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q24",
+      "topic": "Melatonin",
+      "category": "reddit_direct_context",
+      "question": "Which saved Reddit records directly mention Melatonin, and which are only inherited thread context? (Selected label: 3749.)",
+      "expected_result_criteria": [
+        "Use direct MENTIONS_TOPIC records for direct results; report inherited context separately.",
+        "Retain original text, URL and thread/parent context; do not infer personal use or causality."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:d525494ae07eb8bf869afc2154ca64d3cb259280f7d6b0078991d19b14aafa68",
+        "natmed:3684a1a282d205d7021e1e8c"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:bd4a342c97800a6f4ba714bdbb0a143642242cc259bfdde4d0bcd328b2343d32",
+        "graph_evidence:f73d9d06261a212fc0fc05b11ff8f86de57b1989f52afa5c3c04ebe57d935764"
+      ],
+      "candidate_graph_paths": [
+        "MENTIONS_TOPIC",
+        "INHERITED_THREAD_TOPIC"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q25",
+      "topic": "Omega-3",
+      "category": "category_not_equivalence",
+      "question": "Do the reviewed Omega-3 category links establish exact ingredient or formulation equivalence? (Selected label: 223186.)",
+      "expected_result_criteria": [
+        "Inspect MEMBER_OF_CATEGORY links and their rationale.",
+        "Keep category membership distinct from DENOTES_CONCEPT and EXACT_MATERIAL_MATCH; do not merge ingredients."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:044853a32b72d57f01e5cecb1e50a254701e1aec3402103a648846322c9ad081",
+        "natmed:9846bbe87087e6c66c605ff5",
+        "occurrence:1a6fa0d833b9de12c9bf689eef00786f86dab1cde5fac45b4d3638d6a1afb7d2",
+        "occurrence:60ed03698f3d51fa95e586166b4f04d86aedacdaed764829219b62d3ea82e274"
+      ],
+      "evidence_seed_ids": [
+        "evidence:081073ecfa8bff43ee4dd6699dc3c03a890567feaa46e50ec90959f8b56b907c",
+        "evidence:2c7331fef3dc2ed0f4a0daddba7ad30d1099ca2d5180bd336ff5c395b43102be",
+        "graph_evidence:9707bbec247b168c85c5cbe7e523838053ad1a5473bd26d13007517ea997f5d3",
+        "graph_evidence:c46ff096f6f7efa8bd2a20fe5cc8aad68b6b994da5fc7c94fd940e6e9bef4679"
+      ],
+      "candidate_graph_paths": [
+        "MEMBER_OF_CATEGORY"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q26",
+      "topic": "Vitamin B12",
+      "category": "null_preservation",
+      "question": "Where the selected Vitamin B12 NatMed annotation leaves dose or population unknown, what should the response show? (Selected label: 179549.)",
+      "expected_result_criteria": [
+        "Return unknown/null fields unchanged and show the source excerpt.",
+        "Do not fill missing fields from adjacent annotations without separate evidence and context."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:234e1a041b49ea434370ca911593158080101eaed2037182f696f5c456fa9fc3",
+        "natmed:0e9f2262886c394a16e6a7b6",
+        "claim:f3e96df984f0299ae23f7f1bd207b3e120d045cdcc6cc91b3b32798b3a596cf0"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:2d51dcdfc3adb01ffc2a4b1c260bb31b2a9abaf380f24785044676167fc04e3f",
+        "graph_evidence:7f5768aa478b0cb81a45399a2e2354c40930284673530a5f4aea34ed0c7459e4",
+        "graph_evidence:cb614d68de69e40eb238f3bb74787c0359449a3d90406243d144b6207acfd931"
+      ],
+      "candidate_graph_paths": [
+        "HAS_PENDING_CLAIM",
+        "SUPPORTED_BY_EXCERPT"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q27",
+      "topic": "Iron",
+      "category": "label_vs_clinical",
+      "question": "How do the selected Iron product’s label warnings differ from the relevant saved NatMed precautions? (Selected label: 214846.)",
+      "expected_result_criteria": [
+        "Present two source-separated evidence lists.",
+        "Only claim product applicability when a supported path and relevant context establish it; otherwise label NatMed content as general ingredient information."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:76e1142c2355a58d40ad52699633e96c6008e3edb478086f33f5c5032b8873e9",
+        "natmed:fce9d033ff2ec6933e4775ba"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:4cd0defc21172091f9bf0ee0257cde20ea607985c57ac1b65652821c97cda1e9",
+        "graph_evidence:7f83549a2b4c8d5e3376bd1187fbf7307da6b12bc84b563acf592cfd741584ce"
+      ],
+      "candidate_graph_paths": [
+        "HAS_ASSERTION",
+        "HAS_PENDING_CLAIM"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q28",
+      "topic": "Turmeric",
+      "category": "unsupported_recommendation",
+      "question": "Can this graph determine whether the selected Turmeric product is safe for a person taking an unspecified prescription medicine? (Selected label: 179934.)",
+      "expected_result_criteria": [
+        "State that the medicine and relevant personal context are unspecified.",
+        "Do not infer personal safety from label warnings, topic mentions, or general NatMed statements."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:8af8281adb935cf4d80ba79cafc3b80c045cde9ba2e896a1c9d9186c75bd5ce4",
+        "natmed:15e8a621cab69a1f3066f3e8"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:978c0216f2dba8a5c1092c4d7cf62a405f816e2637f569b42eb3d030ff2c87d0",
+        "graph_evidence:e745e65b0489b28b711f988f9998d17817e4c95c608382479dbf47b543e2b019"
+      ],
+      "candidate_graph_paths": [
+        "HAS_ASSERTION",
+        "HAS_PENDING_CLAIM"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q29",
+      "topic": "Probiotics",
+      "category": "navigation_vs_strain",
+      "question": "Which saved labels explicitly mention probiotics, and does that establish that their strains or formulations are equivalent? (Selected label: 63275.)",
+      "expected_result_criteria": [
+        "Retrieve title/name navigation channels and deduplicate labels by source label ID.",
+        "Return original organism/strain names separately; explicit topic mentions do not establish equivalence or viability."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:e2954837086a1d87ec46eb87b7ede00a7be8293ccddfa7c90c04e397425aa26f",
+        "natmed:6d4216fa13c50b0c8a12b73b"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:3589d9ebfa869816d09a1d231ea62d3b28fbd49730cc13cde11db8dd0a50cbc6",
+        "graph_evidence:3a118f1c35e3cea4606dcbc036299687b88a9833d0c745742d1ceeb7664f8a47"
+      ],
+      "candidate_graph_paths": [
+        "LABEL_TITLE_MENTIONS_TOPIC",
+        "INGREDIENT_NAME_MENTIONS_TOPIC"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    },
+    {
+      "id": "Q30",
+      "topic": "Creatine",
+      "category": "comparison_and_abstention",
+      "question": "Do BPI Creatine Alkaline labels 25731 and 43261 declare equivalent creatine amounts, and can we conclude one is more effective? (Selected label: 25731.)",
+      "expected_result_criteria": [
+        "Check original 1500 mg versus 1.5 g and the same two-capsule basis against source records.",
+        "Preserve other-ingredient differences; equivalent declared mass does not establish formulation identity or comparative effectiveness.",
+        "Abstain on product superiority without represented product-comparative evidence."
+      ],
+      "evidence_seed_node_ids": [
+        "snapshot:b1339a35b17c5f966fd2f131586d7d44e305fdc43ed33b19937562fd4603da26",
+        "natmed:1dcdcb859542de37540c85e3",
+        "snapshot:fc5ab272cc2b728e39f87525ac8b984841b6b2abb8d8913564315769e7b1106e"
+      ],
+      "evidence_seed_ids": [
+        "graph_evidence:43a6fa62f21c5a138140f8eaadbc41feee2fd60fb57ea97740f6bb5d632c15ae",
+        "graph_evidence:8903f26f1c4c9837940ce6ef2d1da123d8dc5e8d62e8803937e789f572ed8bfa",
+        "graph_evidence:93db6efa91f269a320b19ed33cc6e3431c95b89bcc0ca5239263dafd26842275"
+      ],
+      "candidate_graph_paths": [
+        "HAS_ASSERTION",
+        "HAS_SERVING_BASIS",
+        "DECLARES_OCCURRENCE"
+      ],
+      "expected_relevant_evidence_ids": null,
+      "expected_relevant_source_spans": null,
+      "expected_answerability": null,
+      "annotation_status": "draft_pending_source_review",
+      "reviewer": null,
+      "abstention_conditions": [
+        "Report absent paths or insufficient evidence explicitly; do not promote Medium/Low mappings or infer personal recommendations."
+      ],
+      "exclude_from_answer": [
+        "Unsupported clinical conclusions",
+        "Treating topic navigation as verified composition or identity"
+      ],
+      "scope": "Pinned saved collection only; no live medical recommendation"
+    }
+  ],
+  "supersedes_graph_binding": "data/evaluation/retrieval_questions_v1.json"
+}

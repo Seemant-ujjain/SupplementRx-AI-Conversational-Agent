@@ -1,0 +1,4065 @@
+[
+  {
+    "question_id": "H01",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:15097:0e8d4ddd72157a43d99428fa0ef50217f0f53423ad347f261dcc76d742668cef",
+        "source": "DSLD",
+        "node_id": "assertion:cbd768e27c368f32ad2b3e502f46f3834da826d4a5425dbdc0695f4ec89cf070",
+        "evidence_ids": [
+          "evidence:92422fcfa6ec980be95fb6d37b3a95828ae5e7439750313504f04cd167c6aaba"
+        ],
+        "path_edge_ids": [
+          "full_edge:4c973600b1af92f4e129fd74205e8cce1f98e6e023dbd4269f60f77137a73cb6"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:92422fcfa6ec980be95fb6d37b3a95828ae5e7439750313504f04cd167c6aaba"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:cbd768e27c368f32ad2b3e502f46f3834da826d4a5425dbdc0695f4ec89cf070",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "CAUTIONS/INTERACTIONS: Magnesium can interact with some antibiotics, diuretics, bisphosphonates, and muscle relaxants. In addition, many medications can affect magnesium absorption and excretion.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:1243dfa0d12c6df87def2f97d3fe110bf9a9223449481fcee9bd70780b365f4f",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:1243dfa0d12c6df87def2f97d3fe110bf9a9223449481fcee9bd70780b365f4f",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "15097",
+          "relevance_role": "primary",
+          "relevance_reason": "conservative_source_precaution_fallback"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:15097:4657961f41862951fa8cd1a44c81316e2c635912331bc66397e2872114f05b22",
+        "source": "DSLD",
+        "node_id": "assertion:7c198481c967789e76cf3097dab615083a43005e8ea079c38c9d66549fb7ca93",
+        "evidence_ids": [
+          "evidence:8ce0915554f253bd9154c545d81c144a9f9310586c73e9e275074504b9d848fd"
+        ],
+        "path_edge_ids": [
+          "full_edge:2b0f08ae804084ecfe71555170b637562c36c282599f34b28ccaaf2b7b66500a"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:8ce0915554f253bd9154c545d81c144a9f9310586c73e9e275074504b9d848fd"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:7c198481c967789e76cf3097dab615083a43005e8ea079c38c9d66549fb7ca93",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "SUGGESTED USAGE: As a dietary supplement, take 3 softgels daily, preferably with food, or as directed by your healthcare practitioner.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:1243dfa0d12c6df87def2f97d3fe110bf9a9223449481fcee9bd70780b365f4f",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:1243dfa0d12c6df87def2f97d3fe110bf9a9223449481fcee9bd70780b365f4f",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "15097",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H02",
+    "status": "source_evidence_only",
+    "primary": [],
+    "context": [],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H03",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:307986:f397416bf0b8a200467a2a0280775c70ee4ef9b2cb11b1387010850c0e0f7ea0",
+        "source": "DSLD",
+        "node_id": "assertion:922017e2d1e443a87925dfd358f1db8d6309b378a11e94a52fc4d87f52740071",
+        "evidence_ids": [
+          "evidence:06ad79cc47e9927bc027807516750cbcb70e0c9e9f06f831166a15128a0abd0b"
+        ],
+        "path_edge_ids": [
+          "full_edge:2ad9e950c91625671879d54d54a0be1f951321aeebbbd79c3e14d151ad2a6838"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:06ad79cc47e9927bc027807516750cbcb70e0c9e9f06f831166a15128a0abd0b"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:922017e2d1e443a87925dfd358f1db8d6309b378a11e94a52fc4d87f52740071",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Consult your healthcare practitioner before use if pregnant.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "307986",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:307986:46806c32bbcddf551d6a18815e1729cb304e1ab6f1590431c282b516804a1f4f",
+        "source": "DSLD",
+        "node_id": "assertion:cc35da6016b440e7ccad5daf5b96e0f11c65fef047834e74bc489928cf08ed82",
+        "evidence_ids": [
+          "evidence:63d56da3b71e8d54c72e0738e458c996ec27b8dea5a7f3e6d0e4c4ee34b8c527"
+        ],
+        "path_edge_ids": [
+          "full_edge:651768b63972609f269c35858220319fbf2709b4c03d0c93d9b1008ea4bc0043"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:63d56da3b71e8d54c72e0738e458c996ec27b8dea5a7f3e6d0e4c4ee34b8c527"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:cc35da6016b440e7ccad5daf5b96e0f11c65fef047834e74bc489928cf08ed82",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Keep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "307986",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:307986:7da5edd901df8591dcbfcb75f9d8d9dff0a0ba48ae20202372d26618bbaba37b",
+        "source": "DSLD",
+        "node_id": "assertion:9e565b2f3b0561b7976fbf11b56422d8df14dee7bb32743f28d2bf7b51721f22",
+        "evidence_ids": [
+          "evidence:1f4190855dbd01c39e209371c002fdd69c8664a175900b062f14c03f819a85a3"
+        ],
+        "path_edge_ids": [
+          "full_edge:0f9d483f3483097b6e5f08ae861278ce458cbecde231633c30fda1b95c2dc7b1"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:1f4190855dbd01c39e209371c002fdd69c8664a175900b062f14c03f819a85a3"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:9e565b2f3b0561b7976fbf11b56422d8df14dee7bb32743f28d2bf7b51721f22",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "These are powerful foods. Consume in small, regular doses over a lifetime.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "307986",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      },
+      {
+        "unit_id": "warning:307986:3b56b11925a4328d0c051482b2429ffd2f6764fe1af61f41b4f7e099ac52691e",
+        "source": "DSLD",
+        "node_id": "assertion:e0fd1f409c2e0d94a0b7f8d45de9b5292a2ed46a500404e32aaa49e9f42c859a",
+        "evidence_ids": [
+          "evidence:ca5b7f29df47f3d41dc954fae28ef7a6f15537f9d0255bd6c09a511bdb6ac3ae"
+        ],
+        "path_edge_ids": [
+          "full_edge:ee0598f242295174e925386d9325d9991c7ff7072f05e577490d17cf0b7089d9"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:ca5b7f29df47f3d41dc954fae28ef7a6f15537f9d0255bd6c09a511bdb6ac3ae"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:e0fd1f409c2e0d94a0b7f8d45de9b5292a2ed46a500404e32aaa49e9f42c859a",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Invitations for use\r\nAdd 1/2 teaspoon (2 grams) to warm water or tea! Excellent addition to milk potions, elixirs, smoothies, raw treats, busy schedules.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:fb2d64b330b959e6939dbcab92d3c0fd2535309418080bc3fcc1a2a2b44da4f0",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "307986",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H04",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:277770:10d270ef2c9b90911dbe0bd2cf1f45861d57322a7c74a7dc14e3cbd30d200549",
+        "source": "DSLD",
+        "node_id": "assertion:69c8b78d0d623dc4f8ece65cea20ed63f3bfa0d3f02495f60783a6b8b3be7de1",
+        "evidence_ids": [
+          "evidence:01686a57b0cca8b43fcd7cd4cacdce0a4bd1c6dedb1776e0090da8edfdb870ac"
+        ],
+        "path_edge_ids": [
+          "full_edge:0f0fe6054320479b2700113342c3930ed5283a349f799a825e40a391098d4abf"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:01686a57b0cca8b43fcd7cd4cacdce0a4bd1c6dedb1776e0090da8edfdb870ac"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:69c8b78d0d623dc4f8ece65cea20ed63f3bfa0d3f02495f60783a6b8b3be7de1",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Keep out of the reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:277770:f4febe70fb73f30a35ed065e20e6e2c91d4d10ef732b18b4654efd0fef6c265c",
+        "source": "DSLD",
+        "node_id": "assertion:3744ef3daaeb1391a809df15af1a8b2cd03e3badba602eaf64ad366c2625db42",
+        "evidence_ids": [
+          "evidence:81df4738f56616f68351b263562147b745193e17c488bb790319fafd87ce903f"
+        ],
+        "path_edge_ids": [
+          "full_edge:17bd916d42e90173b635ef82842883b1a2229fa513dd849248b29e2d59a00432"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:81df4738f56616f68351b263562147b745193e17c488bb790319fafd87ce903f"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:3744ef3daaeb1391a809df15af1a8b2cd03e3badba602eaf64ad366c2625db42",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: Consult a healthcare professional if you are experiencing long-term sleep difficulties, before use in children, before use in pregnant or lactating women, those with a medical condition, and those taking medication.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:277770:6930980370d1b4082d779f3a46e33150735cdf13894de83fb325e37303dfb608",
+        "source": "DSLD",
+        "node_id": "assertion:fb94b785e1d7c5823b9c78674e6cf85eed60215383f6403e98973503d7ab9573",
+        "evidence_ids": [
+          "evidence:74353a17d5331254788a756f1be6ad4819c781763db89eb91517d75995d1f40c"
+        ],
+        "path_edge_ids": [
+          "full_edge:2a9cebb029c7e0dca20f20cbcdf110c9078e3b450c73493fcaa25ac5ab9a8938"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:74353a17d5331254788a756f1be6ad4819c781763db89eb91517d75995d1f40c"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:fb94b785e1d7c5823b9c78674e6cf85eed60215383f6403e98973503d7ab9573",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: Consult a healthcare professional if you are experiencing long-term sleep difficulties, before use in children, before use in pregnant or lactating women, those with a medical condition, and those taking medication.\nThis product may be contraindicated for individuals taking corticosteroids.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:277770:0c3b18ecf45edeaaf6706de61a031cead9bfcce60a109abd3445cc2d752f9b66",
+        "source": "DSLD",
+        "node_id": "assertion:a424aacc5ffed23667c21a19951a8e0d00305a470e097d8e5ae955126b6eb1d3",
+        "evidence_ids": [
+          "evidence:3fa3f5a4d93572a82794474c98de8a27639d559ca6ee99b1f77959e2eec1f721"
+        ],
+        "path_edge_ids": [
+          "full_edge:462ecaec523b44c1aec6a1715ebbce556e7c1f35eab4fe696924e21745b00d22"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:3fa3f5a4d93572a82794474c98de8a27639d559ca6ee99b1f77959e2eec1f721"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:a424aacc5ffed23667c21a19951a8e0d00305a470e097d8e5ae955126b6eb1d3",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: Consult a healthcare professional if you are experiencing long-term sleep difficulties, before use in children, before use in pregnant or lactating women, those with a medical condition, and those taking medication. Do not drive or operate machinery when taking melatonin.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:277770:ebc323d1b693cd7834d6421868a1f5111c113dc6d660e2b7a4126ff346f47fd6",
+        "source": "DSLD",
+        "node_id": "assertion:2fb3d043563eb4dd2da43c2b0d93fcf4571063d6bd8d15cffd75fc4d034cd417",
+        "evidence_ids": [
+          "evidence:26bb5b5e88fe86e33ac0286bb29bf4c693d57de4f7a2969e25b890db9a4bb92d"
+        ],
+        "path_edge_ids": [
+          "full_edge:6b7b5c1d7f0ae708bc917cd9191cc42892f1a185a7b6c8739f5799872ffd4877"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:26bb5b5e88fe86e33ac0286bb29bf4c693d57de4f7a2969e25b890db9a4bb92d"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:2fb3d043563eb4dd2da43c2b0d93fcf4571063d6bd8d15cffd75fc4d034cd417",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Use only if safety seal is intact.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "primary",
+          "relevance_reason": "conservative_source_precaution_fallback"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:277770:aee09f06ac84eafd451ad50dfe26a80ace26ca57046b17c02f35c63ed65d1610",
+        "source": "DSLD",
+        "node_id": "assertion:917f8240aa923386483553e2c9dedb1d0484bd37661d6a7dcf6eb53c655f159e",
+        "evidence_ids": [
+          "evidence:9371765bbc74160acc98acc9eb0c4d18ce280c0b7078a873a61052298a00e47a"
+        ],
+        "path_edge_ids": [
+          "full_edge:4feb0c9f784da5b762b979c1fa5d8c921bb16165b164110a19a4bc0be7be1cb6"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:9371765bbc74160acc98acc9eb0c4d18ce280c0b7078a873a61052298a00e47a"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:917f8240aa923386483553e2c9dedb1d0484bd37661d6a7dcf6eb53c655f159e",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Recommendations: As a dietary supplement, take 1 capsule 30-60 minutes before bedtime.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      },
+      {
+        "unit_id": "warning:277770:ea20d9187dd4eb507c19f0e36e108aa2b8111c16a151023667977cc10186829a",
+        "source": "DSLD",
+        "node_id": "assertion:268f221ae52797b3f5ab6fad5e1d2a41cd655c2c239a48ec44664aa48415fed8",
+        "evidence_ids": [
+          "evidence:728a9d4e69f19e51859ff7af5730acfdb0d8eac33c32e20ac7b6c2a6b4589b5a"
+        ],
+        "path_edge_ids": [
+          "full_edge:d7516b64e92ee65160e083fc9106cf4bc106e9f569d1be2378d3c296b590b10f"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:728a9d4e69f19e51859ff7af5730acfdb0d8eac33c32e20ac7b6c2a6b4589b5a"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:268f221ae52797b3f5ab6fad5e1d2a41cd655c2c239a48ec44664aa48415fed8",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: See side panel.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:2ce78bdac83216999fb1cbf3ee3214fe086262eae97d41d625a6125379c440a5",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "277770",
+          "relevance_role": "context",
+          "relevance_reason": "warning_locator_only"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H05",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:313484:bf6eabc5f217cbcb2ca4a3c25b36292253cfd29d92288ddc5093c2e402c58d8e",
+        "source": "DSLD",
+        "node_id": "assertion:cca1fbc90fbcbba8511a8190afcbac5997c611f976a65d8941da1e09b6783617",
+        "evidence_ids": [
+          "evidence:f5bf6037bb1789958f9d82abea31acfa81bd5c24c870b8cd64346597f0a2cde9"
+        ],
+        "path_edge_ids": [
+          "full_edge:43af7b59121df436aa80c7657cf7c06a44802c482ea4aa63bfe6e761a1409f03"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:f5bf6037bb1789958f9d82abea31acfa81bd5c24c870b8cd64346597f0a2cde9"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:cca1fbc90fbcbba8511a8190afcbac5997c611f976a65d8941da1e09b6783617",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\r\nKeep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "313484",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:313484:316a233ba3ac5d92f44641a7f7ee3041d1af195584e2214d460214ccdf7cf09b",
+        "source": "DSLD",
+        "node_id": "assertion:64746b5767cad7db0e9010584d53e2112118c2a3fe003fde51c6146c1a10192d",
+        "evidence_ids": [
+          "evidence:a6b68b06ed1ada587021e13135455c55e338761d21619b7dcfc5d1c0d818dd48"
+        ],
+        "path_edge_ids": [
+          "full_edge:9bd9414655ecb300dfd63a1df11c1d98cd980fc78ff78ac6178806ca78e88730"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:a6b68b06ed1ada587021e13135455c55e338761d21619b7dcfc5d1c0d818dd48"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:64746b5767cad7db0e9010584d53e2112118c2a3fe003fde51c6146c1a10192d",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "313484",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:313484:df560a1d83e2771d356376c3984c29c34be3479487676c5e161a4193f45fc991",
+        "source": "DSLD",
+        "node_id": "assertion:a00e0216d5b1a47ba1764af30752f1f9693a8628f5b04c1a4698aed784c3f8eb",
+        "evidence_ids": [
+          "evidence:12cb3b185df85a180d52472bd837cacea366cf3a7ebff71f97f207c2020f2113"
+        ],
+        "path_edge_ids": [
+          "full_edge:abcc682e78f46731dead9f7e55ffa7bb288857effaad6902b3f2d5d9269fa260"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:12cb3b185df85a180d52472bd837cacea366cf3a7ebff71f97f207c2020f2113"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:a00e0216d5b1a47ba1764af30752f1f9693a8628f5b04c1a4698aed784c3f8eb",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish, and crustacean shellfish.",
+            "type": "Precautions re: Allergies"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "313484",
+          "relevance_role": "primary",
+          "relevance_reason": "source_allergen_notice"
+        }
+      },
+      {
+        "unit_id": "warning:313484:87984340fba0c24eb21377a24fe56f7dc8e9fb0ea8e5e1d1fd18c29f2d0facd8",
+        "source": "DSLD",
+        "node_id": "assertion:a34a815e387811d2c7670e7337c8d7021d6797661252304ad62d0ab2408659f6",
+        "evidence_ids": [
+          "evidence:e0817fdbc8c629626db2e4ebb0a0fa9578b733c89fb19cdb38e4152fc4a77875"
+        ],
+        "path_edge_ids": [
+          "full_edge:d3bdc4f960fbfb8a334650b696810e141a49466532a60b722d19413bac3750a7"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:e0817fdbc8c629626db2e4ebb0a0fa9578b733c89fb19cdb38e4152fc4a77875"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:a34a815e387811d2c7670e7337c8d7021d6797661252304ad62d0ab2408659f6",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: Do not exceed recommended dose.\r\nDiscontinue two weeks prior to surgery.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "313484",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:313484:8e5eca4df52f2b5cdd42bac3dc97d8bce14c8d5704a3664a240483b6b886c370",
+        "source": "DSLD",
+        "node_id": "assertion:4745d621c7d0a41e0f9b3ca5af7318827d728af6b463a16d3a79f4ee7936af89",
+        "evidence_ids": [
+          "evidence:12bd092a8cac8ec2067cb8e168bbd9a24db1bd26011e6c79fad60d23cce141ac"
+        ],
+        "path_edge_ids": [
+          "full_edge:c0f50f27111e900a295ce663e875433c145d4b1cbe54176be8c502e8a4b45271"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:12bd092a8cac8ec2067cb8e168bbd9a24db1bd26011e6c79fad60d23cce141ac"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:4745d621c7d0a41e0f9b3ca5af7318827d728af6b463a16d3a79f4ee7936af89",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Suggested use: As a dietary supplement, take one softgel daily with food.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:8ac3ce297ed2932922c724f802d75e22706ae7b509fe6e1214e7f086e45da998",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "313484",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H06",
+    "status": "source_evidence_only",
+    "primary": [],
+    "context": [
+      {
+        "unit_id": "warning:220773:538cde6a19945cd3b5c75ac7d6f04520c49316b19ded9d3fd36b65921596cd33",
+        "source": "DSLD",
+        "node_id": "assertion:363ad468cd12d55fd3f0b2ca097ac0b3c76356d3887b6f6f7bb679f30c999914",
+        "evidence_ids": [
+          "evidence:61bc78d1f3af99504277ad90fcb3c659be450d6abebd0dbb34d71ca61bcad2cf"
+        ],
+        "path_edge_ids": [
+          "full_edge:dad0bc444b7d5c9098f9911680b8fad4da3f3bff028e8c830d516cbdbbe92c52"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:61bc78d1f3af99504277ad90fcb3c659be450d6abebd0dbb34d71ca61bcad2cf"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:363ad468cd12d55fd3f0b2ca097ac0b3c76356d3887b6f6f7bb679f30c999914",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Suggested Use Consume one or more capsules daily or as recommended by a health care professional. As with any dietary supplement, this product is most effective as part of a healthy diet and active lifestyle, along with a daily multi-vitamin-mineral formula. For answers to questions about the use of this product, call 800.808.7311.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:1c66a6c29682333d947694c59f06011b30ce0ad33b02deb5b9b2cc5c97464e10",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:1c66a6c29682333d947694c59f06011b30ce0ad33b02deb5b9b2cc5c97464e10",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "220773",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H07",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:77012:e3df957070c6e8f1bfa94725b0f458beb92c707b1e96eab817582e913e74e619",
+        "source": "DSLD",
+        "node_id": "assertion:b2c74b91ba9fa8e7d1ee9b86684bca273f52e65e08548b62eb62465f64cef4f7",
+        "evidence_ids": [
+          "evidence:adb81e7c968b0c3f28ef6e5853ae0316a7cc9042d4f4e1774368e6b8f352d055"
+        ],
+        "path_edge_ids": [
+          "full_edge:106391073f884614b5793a294851e37343bf0cb20beffec17a4ee20908898c7c"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:adb81e7c968b0c3f28ef6e5853ae0316a7cc9042d4f4e1774368e6b8f352d055"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:b2c74b91ba9fa8e7d1ee9b86684bca273f52e65e08548b62eb62465f64cef4f7",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or Poison Control Center immediately.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:5b644ecd4fbe8755899535f4c1e436d3577004df0351e324140f243f0541c33e",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:5b644ecd4fbe8755899535f4c1e436d3577004df0351e324140f243f0541c33e",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "77012",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:77012:42fc2f79d915f940007d700e85ce3c83045ba6932c4206a3cd8e1ca3213b2713",
+        "source": "DSLD",
+        "node_id": "assertion:d6e2066cc50f981cef9eb5d9bdf34badbb9eb158ec935ec7a226ee48f3683158",
+        "evidence_ids": [
+          "evidence:3cd07216c09a92c4c4b9aa3207d3eebc9cd2ec5583c375337dadf2842df5bc28"
+        ],
+        "path_edge_ids": [
+          "full_edge:d5fbd34c9d086bff53cc1994fcb35076ee7b8f29ae6fea42c35dc381d15a0841"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:3cd07216c09a92c4c4b9aa3207d3eebc9cd2ec5583c375337dadf2842df5bc28"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:d6e2066cc50f981cef9eb5d9bdf34badbb9eb158ec935ec7a226ee48f3683158",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "If pregnant, nursing, or taking prescription drugs, consult your healthcare professional prior to use.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:5b644ecd4fbe8755899535f4c1e436d3577004df0351e324140f243f0541c33e",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:5b644ecd4fbe8755899535f4c1e436d3577004df0351e324140f243f0541c33e",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "77012",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:77012:6e62f6fde4308f7ecc9e0a58d63f5a788861cddb80de19ae9c4660e58e7e51c7",
+        "source": "DSLD",
+        "node_id": "assertion:fe0ea632e7443a1129584ca7bf7f80b9e6b4bd71a3443af542bc32f0a2e05ea2",
+        "evidence_ids": [
+          "evidence:35fdfadea4705bd7fdfa961daaf4d36ea49089da8793502cf8a722965c1d809b"
+        ],
+        "path_edge_ids": [
+          "full_edge:fdee0e26e2b28a48c166ebfe6d30972c28a093da5559a7cfead0f9deca680ca4"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:35fdfadea4705bd7fdfa961daaf4d36ea49089da8793502cf8a722965c1d809b"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:fe0ea632e7443a1129584ca7bf7f80b9e6b4bd71a3443af542bc32f0a2e05ea2",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Recommendations: Take 2 softgels twice daily, or as recommended by your healthcare professional.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:5b644ecd4fbe8755899535f4c1e436d3577004df0351e324140f243f0541c33e",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:5b644ecd4fbe8755899535f4c1e436d3577004df0351e324140f243f0541c33e",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "77012",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H08",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:215132:696e487877bc8784a39c3414333e479712f767299ac32ca50169307e4338cdf5",
+        "source": "DSLD",
+        "node_id": "assertion:e26e3453d43f33ba7006289c108a9581d9e3d0842d08933f8ae0520bac5353c2",
+        "evidence_ids": [
+          "evidence:5907338d5b65fab131723bba81521f78e1897d5b82a64278f421e3a3d6713f00"
+        ],
+        "path_edge_ids": [
+          "full_edge:41396f2fb0b5fabe598a86a34c6c6a0bef430b5e5b2eedcce43a91acb811e7aa"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:5907338d5b65fab131723bba81521f78e1897d5b82a64278f421e3a3d6713f00"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:e26e3453d43f33ba7006289c108a9581d9e3d0842d08933f8ae0520bac5353c2",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Caution: Do not exceed recommended dose.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "215132",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:215132:78676ea083b02d6d87259581230b7ea3d30078c3d81d52183bf42c35ed6afd10",
+        "source": "DSLD",
+        "node_id": "assertion:3224af7185f1047dd2fe00bb7dcc69fdc03fc8f88025e3e5310b5789a7beac6f",
+        "evidence_ids": [
+          "evidence:8d3a6bcdf4d0f191744feb905ffd2db165d96d83ad118839d2e5f65a7c9fb275"
+        ],
+        "path_edge_ids": [
+          "full_edge:74d23da40b4d50f0f00a616e4b00ce349d1a79c73937d82b685240e548b39308"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:8d3a6bcdf4d0f191744feb905ffd2db165d96d83ad118839d2e5f65a7c9fb275"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:3224af7185f1047dd2fe00bb7dcc69fdc03fc8f88025e3e5310b5789a7beac6f",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not use if safety seal is damaged or missing.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "215132",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:215132:dd9b6241fd205af86f91fad960ef6c520afb055d4ed50c8bd36e05dab74207ee",
+        "source": "DSLD",
+        "node_id": "assertion:966736156ee6bee89783a542307d593ea070245db545d6b1e2f46e9d5609ce07",
+        "evidence_ids": [
+          "evidence:87b4d7e9fba6bb3df5996bcb276bd2340674687b74a4c68eb91df4788cf2e385"
+        ],
+        "path_edge_ids": [
+          "full_edge:c5b60fbe6216a18dd0992e450dcdde255eeba209197567d73d923543f42f9f6a"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:87b4d7e9fba6bb3df5996bcb276bd2340674687b74a4c68eb91df4788cf2e385"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:966736156ee6bee89783a542307d593ea070245db545d6b1e2f46e9d5609ce07",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nKeep out the reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "215132",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:215132:d62073bc58b1f3b7b66898aa598b8c39c1211098d6a81522ce8daaadb5835e74",
+        "source": "DSLD",
+        "node_id": "assertion:813289b196ddbb827b8dcf6067a17b03bcbd0d1067fd30eefcecdf3b0b16554f",
+        "evidence_ids": [
+          "evidence:eea092df42b11b936f4376071b7e756b008fb7c1250175baccc8e14e7409a31a"
+        ],
+        "path_edge_ids": [
+          "full_edge:cd20e001df98cfba0fc6eae7015f57918b7963f345c04a998f5030b0e291a0f9"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:eea092df42b11b936f4376071b7e756b008fb7c1250175baccc8e14e7409a31a"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:813289b196ddbb827b8dcf6067a17b03bcbd0d1067fd30eefcecdf3b0b16554f",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "215132",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:215132:0da0ade4a82d5a77ede15d84b3a40ac8b6c30cb44dd14bfdb47f3562f2e2c21e",
+        "source": "DSLD",
+        "node_id": "assertion:afeba0155afa7a95288a4cd3d8d089f89f129c329762ea338c011fd6cd81180e",
+        "evidence_ids": [
+          "evidence:32942220dbf92d8894a3eba1100d47bebd79df0056ae575e985c5842c9398350"
+        ],
+        "path_edge_ids": [
+          "full_edge:cacad6b498b89837f9945a5152684594720a1aeaf67871892c46cca42ce4263e"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:32942220dbf92d8894a3eba1100d47bebd79df0056ae575e985c5842c9398350"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:afeba0155afa7a95288a4cd3d8d089f89f129c329762ea338c011fd6cd81180e",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Suggested use: As a dietary supplement take one (1) capsule twice a day. For best results take 20-30 min before a meal or as directed by your healthcare professional.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:0e469092969a69994f08591e9143b42027730064d0cffa6b0e3d8cf7c1c4ecdc",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "215132",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H09",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:328922:2f76f19052f888d11d7b5417b9c612ac83e1a98b7fbe55da9a83311b9818e1ff",
+        "source": "DSLD",
+        "node_id": "assertion:fcbe18a048a7e30d5c480e7f9413771bcc6dcec834c9471c4e7c9214303a7637",
+        "evidence_ids": [
+          "evidence:b9b1e247582442547cd75c89e776df8d8f574740d5aebadf93dbed9aaf82d4be"
+        ],
+        "path_edge_ids": [
+          "full_edge:01f906be3deca5e868422165c74ec3269bf6e6a7b93ef448338211f839d40341"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:b9b1e247582442547cd75c89e776df8d8f574740d5aebadf93dbed9aaf82d4be"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:fcbe18a048a7e30d5c480e7f9413771bcc6dcec834c9471c4e7c9214303a7637",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Please keep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:17634d88513ec231a7ecd3941bc7dc2cdc468500b8d997f592c281ef5a2f587e",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:17634d88513ec231a7ecd3941bc7dc2cdc468500b8d997f592c281ef5a2f587e",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "328922",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:328922:e80db8abcda1e9d334888e600e85f90240d3abde22aee6ea26c6a9d54914c1c7",
+        "source": "DSLD",
+        "node_id": "assertion:b98d3020f6592fb6fd9452e1509547858517d523532a11e4e26ae7ae961b2edf",
+        "evidence_ids": [
+          "evidence:faa71962f2fadcada2cf19194873c6b73492426fc83b706c626f2f3d513389a3"
+        ],
+        "path_edge_ids": [
+          "full_edge:390da0ef300d8f851963e9ba8db126bf0b0d151ad31c9804b32957f800eacf72"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:faa71962f2fadcada2cf19194873c6b73492426fc83b706c626f2f3d513389a3"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:b98d3020f6592fb6fd9452e1509547858517d523532a11e4e26ae7ae961b2edf",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not use if safety seal is broken or missing.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:17634d88513ec231a7ecd3941bc7dc2cdc468500b8d997f592c281ef5a2f587e",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:17634d88513ec231a7ecd3941bc7dc2cdc468500b8d997f592c281ef5a2f587e",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "328922",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "warning:328922:4f9a8459e800f99c8b8d20a4a1575fec3a0ae6f803e15ad246adf43a444bce9e",
+        "source": "DSLD",
+        "node_id": "assertion:9f2ca2689d9dee789fc3f5200f2f51420caacf01454ecb6acbabafd17176d605",
+        "evidence_ids": [
+          "evidence:9e2fef91f8570b8eaec49c49ff597d6a5934ffee45712dca5c9e29a4471932fe"
+        ],
+        "path_edge_ids": [
+          "full_edge:77555aae6da341a05bd60029bdb9618bfe69285835b686d4f3e0f3d46720e8f6"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:9e2fef91f8570b8eaec49c49ff597d6a5934ffee45712dca5c9e29a4471932fe"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:9f2ca2689d9dee789fc3f5200f2f51420caacf01454ecb6acbabafd17176d605",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Recommended Use: Take 1 capsule with each meal. More may be taken as needed.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:17634d88513ec231a7ecd3941bc7dc2cdc468500b8d997f592c281ef5a2f587e",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:17634d88513ec231a7ecd3941bc7dc2cdc468500b8d997f592c281ef5a2f587e",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "328922",
+          "relevance_role": "context",
+          "relevance_reason": "routine_directions"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H10",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "warning:51023:c5ecdfb7f84910968cc8d0bba30cd4c0f7a4c6da65a70f717bb35662abbde95e",
+        "source": "DSLD",
+        "node_id": "assertion:07ebab65f50b46d00fcdd10f15065da36da0e9f656226e23f1ad2800938d5447",
+        "evidence_ids": [
+          "evidence:a0fe140543fd14c6977a2938822e90c978e4cb90dedccbb23badde88c4a5fa5c"
+        ],
+        "path_edge_ids": [
+          "full_edge:3f0012c98bca74883a322a22136a63d3fc200d17a5a1d6551e20c0bb3ea4b5e5"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:a0fe140543fd14c6977a2938822e90c978e4cb90dedccbb23badde88c4a5fa5c"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:07ebab65f50b46d00fcdd10f15065da36da0e9f656226e23f1ad2800938d5447",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Direction for use\nMix 1 scoop (5g) in 8 oz. of water, juice, or your protein drink of choice before and after training. Drink immediately. A loading phase is not required or recommended with this product. Drink at least 8 to 10 glasses (8 oz) of water daily in order to maximize results.",
+            "type": "Suggested/Recommended/Usage/Directions"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "51023",
+          "relevance_role": "primary",
+          "relevance_reason": "negative_recommendation_or_consultation"
+        }
+      },
+      {
+        "unit_id": "warning:51023:c94bddf15451ed74288f79969ba7139e4cc89e9305e8732b7ee6749a81d9401a",
+        "source": "DSLD",
+        "node_id": "assertion:dc0f56576425ccfde0fc7cf89683d4d3c39528c1bc0ae1bd8dc3daa380dbcc19",
+        "evidence_ids": [
+          "evidence:b9e9a9f1ab8d38ee1113809414e6920bf91c2389e0fec1f7a96de6d78021d2cb"
+        ],
+        "path_edge_ids": [
+          "full_edge:b0cba14b8b553752ab254de11e04d16ad8ee5f4fae1bee2dabe75ec697ea7113"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:b9e9a9f1ab8d38ee1113809414e6920bf91c2389e0fec1f7a96de6d78021d2cb"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:dc0f56576425ccfde0fc7cf89683d4d3c39528c1bc0ae1bd8dc3daa380dbcc19",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Do not take if you are pregnant or nursing.",
+            "type": "Precautions re: Pregnant or Nursing or Prescription Medications"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "51023",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:51023:dd1668cf7cde7efc3249c3aa69e55f60c8a51921c08518d000c370252b1fec37",
+        "source": "DSLD",
+        "node_id": "assertion:b40d3e50e1cfd2da6b77db3d2033581a1b485676fe01ee13e7084b232e59c5f9",
+        "evidence_ids": [
+          "evidence:b5315ac50d8e493eac6e73144288be326e60d9f9d0755b70ecafc5255d432378"
+        ],
+        "path_edge_ids": [
+          "full_edge:be8b68207627f2dbe6a03abea729c47aa9834824bd1e8b725601427c18c98d21"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:b5315ac50d8e493eac6e73144288be326e60d9f9d0755b70ecafc5255d432378"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:b40d3e50e1cfd2da6b77db3d2033581a1b485676fe01ee13e7084b232e59c5f9",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Warnings\nKeep out of reach of children.",
+            "type": "Precautions re: Children"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "51023",
+          "relevance_role": "primary",
+          "relevance_reason": "explicit_warning_or_use_restriction"
+        }
+      },
+      {
+        "unit_id": "warning:51023:90485ba7d417fd24074d1beba0abb7f2ee545b57cbb303fb4ccbe636038b9944",
+        "source": "DSLD",
+        "node_id": "assertion:fff68adc9282754df6b300a98d0f2d045d2fe4dad1f29af123f76de4fc17f239",
+        "evidence_ids": [
+          "evidence:f72874c4ae57447f025847565c6ee0db46b9dd99d3fa0f3e1f39de8b9eeb6a0a"
+        ],
+        "path_edge_ids": [
+          "full_edge:d6618c1bc59fb114aa5507fcd86bc5938e0e19c2414d22bc62b7749b576da05f"
+        ],
+        "data": {
+          "contract_version": "0.1.0",
+          "evidence_ids": [
+            "evidence:f72874c4ae57447f025847565c6ee0db46b9dd99d3fa0f3e1f39de8b9eeb6a0a"
+          ],
+          "evidence_role": "label_information",
+          "field_states": {
+            "notes": "present",
+            "type": "present"
+          },
+          "id": "assertion:fff68adc9282754df6b300a98d0f2d045d2fe4dad1f29af123f76de4fc17f239",
+          "kind": "label_statement",
+          "native_assertion_id": null,
+          "occurrence_id": null,
+          "original_fields": {
+            "notes": "Check with a qualified health care professional before taking this product.",
+            "type": "Precautions re: All Other"
+          },
+          "quantity_comparison": null,
+          "quantity_policy": "Normalized values are comparisons only; preserve source basis, operators and blocked status; no recommended dose",
+          "review_issues": [],
+          "serving_id": null,
+          "snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "source_review": {},
+          "subject_snapshot_id": "snapshot:6f147e5a53939a41aad01fb56bfe23aa9e0d29e221cb865a364fd79532697df7",
+          "transformations": []
+        },
+        "extra": {
+          "label_id": "51023",
+          "relevance_role": "primary",
+          "relevance_reason": "conservative_source_precaution_fallback"
+        }
+      }
+    ],
+    "context": [],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H11",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+        "source": "NatMed",
+        "node_id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+        "evidence_ids": [
+          "graph_evidence:aef885a80968fedf2b20001c1cd8e589f071cd9f7ab299b53b3bd78584a15d0c"
+        ],
+        "path_edge_ids": [
+          "full_edge:0af4eb04991afdcc4a7a6a6f15dbb6300c9fd64955af8ae93cda610c3724ad1c",
+          "full_edge:72e354e08002541a46382f638ecab31317312018d85783d4d19473a0c5970133"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:ecec4732f22d2335a59893acd0c45e10b836da97d54f9d5cfa2e791f432d2823",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/10/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 2325,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 2318
+              },
+              "source_text": "Hepatic"
+            }
+          ],
+          "id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Hepatic",
+            "claim_text": "Hepatic\nOrally, ashwagandha in doses of 154 mg to 20 grams daily has played a role in several case reports of cholestatic, hepatocellular, and mixed liver injuries. In most of these cases, other causes of liver injury were excluded, and liver failure did not occur. Symptoms included jaundice, pruritus, malaise, fatigue, lethargy, weight loss, nausea, diarrhea, abdominal pain and distension, stool discoloration, and dark urine. Symptom onset was typically 5-180 days from first intake, although in some cases onset occurred after more than 12 months of use (102686, 107372, 110490, 110491, 111533, 111535, 112111, 113610, 114113). Laboratory findings include elevated aspartate transaminase (AST), alanine transaminase (ALT), alkaline phosphatase, serum bilirubin, and international normalized ratio (INR) (112111, 113610, 114113). In most cases, liver enzymes normalized within 1-5 months after discontinuation of ashwagandha (102686, 107372, 110491, 111535, 112111, 114113). However, treatment with corticosteroids, lactulose, ornithine, ursodeoxycholic acid, and plasmapheresis, among other interventions, was required in one case (111533). Rarely, use of oral ashwagandha has been reported to cause hepatic encephalopathy, liver failure requiring liver transplantation, and acute-on-chronic liver failure resulting in death (110490, 113610).",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 2325,
+                "start": 2318
+              }
+            },
+            "id": "claim:68ce8c6eeb32bbc22164eecf187e0b50b59675b55a80dfeb107b469c85d65dd4",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 3666,
+              "excerpt": "Hepatic\nOrally, ashwagandha in doses of 154 mg to 20 grams daily has played a role in several case reports of cholestatic, hepatocellular, and mixed liver injuries. In most of these cases, other causes of liver injury were excluded, and liver failure did not occur. Symptoms included jaundice, pruritus, malaise, fatigue, lethargy, weight loss, nausea, diarrhea, abdominal pain and distension, stool discoloration, and dark urine. Symptom onset was typically 5-180 days from first intake, although in some cases onset occurred after more than 12 months of use (102686, 107372, 110490, 110491, 111533, 111535, 112111, 113610, 114113). Laboratory findings include elevated aspartate transaminase (AST), alanine transaminase (ALT), alkaline phosphatase, serum bilirubin, and international normalized ratio (INR) (112111, 113610, 114113). In most cases, liver enzymes normalized within 1-5 months after discontinuation of ashwagandha (102686, 107372, 110491, 111535, 112111, 114113). However, treatment with corticosteroids, lactulose, ornithine, ursodeoxycholic acid, and plasmapheresis, among other interventions, was required in one case (111533). Rarely, use of oral ashwagandha has been reported to cause hepatic encephalopathy, liver failure requiring liver transplantation, and acute-on-chronic liver failure resulting in death (110490, 113610).",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 2318,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/10",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 3666,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 2318
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+        "source": "NatMed",
+        "node_id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+        "evidence_ids": [
+          "graph_evidence:425ac6b50b95bad8dcbc33bd9b1e4a72f1fc235cb1dce440a21a90970d293db5"
+        ],
+        "path_edge_ids": [
+          "full_edge:1e6ffbbc75a140e8d936ddf60272281cb76d54d5d6c45ac95663dfc0abd947c0",
+          "full_edge:bf2c2f696e4c9c849a06b57ccf14473d57266e1d758741099eba1abe6bc49a79"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:04e393ae17f8faf034d30b9f6d48ed6d7df7d46a41bdac149a37ca45af738e32",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/4/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 207,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 180
+              },
+              "source_text": "Most Common Adverse Effects"
+            }
+          ],
+          "id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Most Common Adverse Effects",
+            "claim_text": "Most Common Adverse Effects\nOrally: Diarrhea, gastrointestinal upset, nausea, and vomiting. However, these adverse effects do not commonly occur with typical doses.",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 207,
+                "start": 180
+              }
+            },
+            "id": "claim:e523827a3b8840bdecdd8b0a1a67957212a86436ba8445f881cec644dfd0b447",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 344,
+              "excerpt": "Most Common Adverse Effects\nOrally: Diarrhea, gastrointestinal upset, nausea, and vomiting. However, these adverse effects do not commonly occur with typical doses.",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 180,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/4",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 344,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 180
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+        "source": "NatMed",
+        "node_id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+        "evidence_ids": [
+          "graph_evidence:f1a79c26235a54303eaae43bbe2ad0d125dad2dcf51a74110d8036965d363a49"
+        ],
+        "path_edge_ids": [
+          "full_edge:31ad664f05a0041f83c5c8b2685d7b5caa2ce40a21332e4f0b8cf840ecc151cd",
+          "full_edge:fef56518f5a7fda5dc50cf7c79fa60df03a60fa9ccc4f3c56c65e89febde4edf"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:b670e78f3e5089cd8f6c6ac8d694dd21c3ebec25f3e680a987cc28ddc7fc27cc",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/11/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 3681,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 3667
+              },
+              "source_text": "Neurologic/CNS"
+            }
+          ],
+          "id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Neurologic/CNS",
+            "claim_text": "Neurologic/CNS\nOrally, ashwagandha has been reported to cause drowsiness (110492, 113609). Headache, neck pain, and blurry vision have been reported in a 47-year-old female taking ashwagandha, cannabis, and venlafaxine. Imaging over the course of multiple years and hospital admissions indicated numerous instances of intracranial hemorrhage and multifocal stenosis of intracranial arteries, likely secondary to reversible cerebral vasoconstriction syndrome (RCVS) (112113). It is unclear whether the RCVS and subsequent intracranial hemorrhages were precipitated by ashwagandha, cannabis, or venlafaxine.",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 3681,
+                "start": 3667
+              }
+            },
+            "id": "claim:cf6e64059559c7927e730d3dfa7cdeac60066d5662ae6c1825e9c99e2687afc3",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 4272,
+              "excerpt": "Neurologic/CNS\nOrally, ashwagandha has been reported to cause drowsiness (110492, 113609). Headache, neck pain, and blurry vision have been reported in a 47-year-old female taking ashwagandha, cannabis, and venlafaxine. Imaging over the course of multiple years and hospital admissions indicated numerous instances of intracranial hemorrhage and multifocal stenosis of intracranial arteries, likely secondary to reversible cerebral vasoconstriction syndrome (RCVS) (112113). It is unclear whether the RCVS and subsequent intracranial hemorrhages were precipitated by ashwagandha, cannabis, or venlafaxine.",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 3667,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/11",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 4272,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 3667
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+        "source": "NatMed",
+        "node_id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+        "evidence_ids": [
+          "graph_evidence:2fbebdbc3fec33e809862348dedd5a8d3e39b5f5db5013b3b488658a176c989e"
+        ],
+        "path_edge_ids": [
+          "full_edge:57ad9758a1622a47c6a386373a00d6c8f1dbaf896fe843170fb9855843b8ec4c",
+          "full_edge:bffc10b942ec9cb706f28eb1482e2f15087d4b64ee54f13b51b91985a74baaea"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:c182d31153652845336fe6a18946d2704fb1938a9e1b355b7fe5cc50f86949db",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/9/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 1996,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 1983
+              },
+              "source_text": "Genitourinary"
+            }
+          ],
+          "id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Genitourinary",
+            "claim_text": "Genitourinary\nIn one case report, a 28-year-old male with a decrease in libido who was taking ashwagandha 5 grams daily over 10 days subsequently experienced burning, itching, and skin and mucous membrane discoloration of the penis, as well as an oval, dusky, eroded plaque (3 cm) with erythema on the glans penis and prepuce (32537).",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 1996,
+                "start": 1983
+              }
+            },
+            "id": "claim:623e13c9d20b8894d4ba478e53982abfee04c9a570c214c0d6c5757dcab55fdd",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 2317,
+              "excerpt": "Genitourinary\nIn one case report, a 28-year-old male with a decrease in libido who was taking ashwagandha 5 grams daily over 10 days subsequently experienced burning, itching, and skin and mucous membrane discoloration of the penis, as well as an oval, dusky, eroded plaque (3 cm) with erythema on the glans penis and prepuce (32537).",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 1983,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/9",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 2317,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 1983
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+        "source": "NatMed",
+        "node_id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+        "evidence_ids": [
+          "graph_evidence:0d39c1379648f5664db66e6e890a8bfb4c08756fad3e44faec714387e686d17b"
+        ],
+        "path_edge_ids": [
+          "full_edge:583fab3357d3a55893782e66d2ad20cb280ee488230bd0f2da169c07c3ebc5e9",
+          "full_edge:c36eee72d5780812198e2da1f615043c43e09b583b5b9495d6215374d90b3b2c"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:dd0df630f2e11b4848ec9962d7769f0e49272cec1d7861919ed9ea524d883244",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/8/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 1712,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 1696
+              },
+              "source_text": "Gastrointestinal"
+            }
+          ],
+          "id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Gastrointestinal",
+            "claim_text": "Gastrointestinal\nOrally, large doses may cause gastrointestinal upset, diarrhea, and vomiting secondary to irritation of the mucous and serous membranes (3710). When taken orally, nausea and abdominal pain (19276, 110490, 113609) and gastritis and flatulence (90651) have been reported.",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 1712,
+                "start": 1696
+              }
+            },
+            "id": "claim:c9f045de4de4c33b10e20ae691f2631dd51c787f58067e90a0fcc917472719cf",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 1982,
+              "excerpt": "Gastrointestinal\nOrally, large doses may cause gastrointestinal upset, diarrhea, and vomiting secondary to irritation of the mucous and serous membranes (3710). When taken orally, nausea and abdominal pain (19276, 110490, 113609) and gastritis and flatulence (90651) have been reported.",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 1696,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/8",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 1982,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 1696
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+        "source": "NatMed",
+        "node_id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+        "evidence_ids": [
+          "graph_evidence:fa8b2811749e7bdabcb983e6cf90b424fad1e80eb1e396b65bd72008a14570fb"
+        ],
+        "path_edge_ids": [
+          "full_edge:5cb3757247c602cc0408b251a2c3aec2a404e384aec0c7f07a0b02ba7ef3ca55",
+          "full_edge:c2e27114eed134453977e8ff91fa4d10ad24602ad3b2a20f4d91a6b8b51aab28"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:4da15f968087df11e32639af18ccc125314039d456a1612e839828d9f6744dc2",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/5/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 375,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 345
+              },
+              "source_text": "Serious Adverse Effects (Rare)"
+            }
+          ],
+          "id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Serious Adverse Effects (Rare)",
+            "claim_text": "Serious Adverse Effects (Rare)\nOrally: Some case reports raise concerns about acute hepatitis, acute liver failure, hepatic encephalopathy, the need for liver transplantation, and death due to liver failure with ashwagandha treatment.",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 375,
+                "start": 345
+              }
+            },
+            "id": "claim:5195d54f36f3021292f344a62f266cc2040c71e6cb9e5e272f6d41e3818c9549",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 579,
+              "excerpt": "Serious Adverse Effects (Rare)\nOrally: Some case reports raise concerns about acute hepatitis, acute liver failure, hepatic encephalopathy, the need for liver transplantation, and death due to liver failure with ashwagandha treatment.",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 345,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/5",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 579,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 345
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+        "source": "NatMed",
+        "node_id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+        "evidence_ids": [
+          "graph_evidence:4054d1c15aa3b6435bd43fb72e3dc3148ef23edc9a848b31662a39ea4d4b3653"
+        ],
+        "path_edge_ids": [
+          "full_edge:8ae7f9bf6367ba8e7e7ed620661dd277c2772b07916400922d51a6700bcd55d1",
+          "full_edge:4983a445645bb29af63d18b01c1cea75abe0278691fc4e5b4dc137b83d372744"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:e7006fac16429af10d03da66974ac6346d7bb36fccd1d74c1c973b063e476035",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/7/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 692,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 683
+              },
+              "source_text": "Endocrine"
+            }
+          ],
+          "id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Endocrine",
+            "claim_text": "Endocrine\nA case report describes a 73-year-old female who had taken an ashwagandha root extract (unspecified dose) for 2 years to treat hypothyroidism which had been previously managed with levothyroxine. The patient was diagnosed with hyperthyroidism after presenting with supraventricular tachycardia, chest pain, tremor, dizziness, fatigue, irritability, hair thinning, and low thyroid stimulating hormone (TSH) levels. Hyperthyroidism resolved after discontinuing ashwagandha (108745). Additionally, an otherwise healthy adult who was taking ashwagandha extract orally for 2 months experienced clinical and laboratory-confirmed thyrotoxicosis. Thyrotoxicosis resolved 50 days after discontinuing ashwagandha, without other treatment (114111). Another case report describes a 37-year-old female who presented with moderate symptomatic hyponatremia secondary to adrenal insufficiency after chronic consumption of ashwagandha for 2 years. This subject was effectively managed with oral hydrocortisone (114790).",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 692,
+                "start": 683
+              }
+            },
+            "id": "claim:b7d771caa03255a15e481cf4d80b0f73c4e9bd7bb3d99d445ee0600ab1683ec9",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 1695,
+              "excerpt": "Endocrine\nA case report describes a 73-year-old female who had taken an ashwagandha root extract (unspecified dose) for 2 years to treat hypothyroidism which had been previously managed with levothyroxine. The patient was diagnosed with hyperthyroidism after presenting with supraventricular tachycardia, chest pain, tremor, dizziness, fatigue, irritability, hair thinning, and low thyroid stimulating hormone (TSH) levels. Hyperthyroidism resolved after discontinuing ashwagandha (108745). Additionally, an otherwise healthy adult who was taking ashwagandha extract orally for 2 months experienced clinical and laboratory-confirmed thyrotoxicosis. Thyrotoxicosis resolved 50 days after discontinuing ashwagandha, without other treatment (114111). Another case report describes a 37-year-old female who presented with moderate symptomatic hyponatremia secondary to adrenal insufficiency after chronic consumption of ashwagandha for 2 years. This subject was effectively managed with oral hydrocortisone (114790).",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 683,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/7",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 1695,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 683
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+        "source": "NatMed",
+        "node_id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+        "evidence_ids": [
+          "graph_evidence:93457283960a5eb3f0ba3d0b9e28794213422565b78818fac4bee96bea5010b6"
+        ],
+        "path_edge_ids": [
+          "full_edge:b1a809ce4e522a6f2c75445c8d286f5aab42a3f36e4ddf86afc478268ed86324",
+          "full_edge:bcf0b5e2c914e484f8646e810e2851f72f8c61c83683c4009dcbdd6f4b6ed2b7"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:2df2c15dc5f64eeef3a7c5fecc0c663a4de7a05ff1f12c3cf0e6dac1a18e8c5c",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/6/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 592,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 580
+              },
+              "source_text": "Dermatologic"
+            }
+          ],
+          "id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "Dermatologic",
+            "claim_text": "Dermatologic\nOrally, dermatitis has been reported in three of 42 patients in a clinical trial (19276).",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 592,
+                "start": 580
+              }
+            },
+            "id": "claim:ca49c816c53b00009c57cee1a408588443eba8bd49c5267d5387137a07b7c493",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 682,
+              "excerpt": "Dermatologic\nOrally, dermatitis has been reported in three of 42 patients in a clinical trial (19276).",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 580,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/6",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 682,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 580
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      }
+    ],
+    "context": [
+      {
+        "unit_id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+        "source": "NatMed",
+        "node_id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+        "evidence_ids": [
+          "graph_evidence:c34447f4ca495362528e8ac86484967101696d938cb04cf81284cee2d3a4083b"
+        ],
+        "path_edge_ids": [
+          "full_edge:a02c94ea6f811602b05c7d23e21fd6394f6e8874757de6ee5fe4594efb957a4f",
+          "full_edge:e8b5deca3251e7b397bed61c7a54d8733678b62bfff6e49a617b89f6bf069d06"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "present",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "null",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+              "field": "adverse_effect_category",
+              "id": "prepared_claim_field:2804d831d4dce8588dc1275752f1f46895798b0004e5926430ac97246e444f36",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/3/field_support/adverse_effect_category",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 7,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/0/sections/5/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 0
+              },
+              "source_text": "General"
+            }
+          ],
+          "id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+          "nested_field_states": {
+            "dose": {
+              "duration": "null",
+              "frequency": "null",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "null",
+              "regimen": "null",
+              "route": "null",
+              "text": "null",
+              "unit": "null",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": "General",
+            "claim_text": "General\nOrally, ashwagandha seems to be well-tolerated. Topically, no adverse effects have been reported. However, a thorough evaluation of safety outcomes has not been conducted.",
+            "claim_type": "adverse_effect",
+            "dose": {
+              "duration": null,
+              "frequency": null,
+              "maximum": null,
+              "minimum": null,
+              "qualifier": null,
+              "regimen": null,
+              "route": null,
+              "text": null,
+              "unit": null,
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "adverse_effect_category": {
+                "end": 7,
+                "start": 0
+              }
+            },
+            "id": "claim:668ecf67998900ff6a42485b8af37e70e3888cfd3262c229f251b8e7fe58789e",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Ashwagandha",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": null,
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "043cece87ff1de9ab37fe7eed7aff965bde15ea28c600e72ff56833a3aa11624",
+              "end": 179,
+              "excerpt": "General\nOrally, ashwagandha seems to be well-tolerated. Topically, no adverse effects have been reported. However, a thorough evaluation of safety outcomes has not been conducted.",
+              "record_id": "natmed:0d296c0daa1cccb456da568c",
+              "section_heading": "adverse effects",
+              "section_index": 5,
+              "start": 0,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=953"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/3",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:0d296c0daa1cccb456da568c",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 179,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/0/sections/5/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 0
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:0d296c0daa1cccb456da568c",
+          "source_title": "Ashwagandha",
+          "relevance_role": "context",
+          "relevance_reason": "general_tolerability_context"
+        }
+      }
+    ],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  },
+  {
+    "question_id": "H12",
+    "status": "source_evidence_only",
+    "primary": [
+      {
+        "unit_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+        "source": "NatMed",
+        "node_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+        "evidence_ids": [
+          "graph_evidence:68d7410b1a0d6a475e03c94f78e332da1d210cbb974c6d494e320130d935d7ee"
+        ],
+        "path_edge_ids": [
+          "full_edge:29bc4adb5c866b3c1fa2b54a525ba7e6a748861fe29f52e719f643c30912e29f",
+          "full_edge:c91fa506a8eb3d14290e6c4354197b3c22fa9f68aa8a916d57951d5098688606"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "null",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "present",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.duration.unit",
+              "id": "prepared_claim_field:0384995bc1786ed6b6a349f8649801f182b2c6e20514899eeae74a8a4cff265c",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.duration.unit",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 104,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 100
+              },
+              "source_text": "days"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.regimen",
+              "id": "prepared_claim_field:2571a7962e285c6024c40d749780a6bd62d46fe34bdf365a84cf3bb330f05ba8",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.regimen",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 63,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 51
+              },
+              "source_text": "loading dose"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.text",
+              "id": "prepared_claim_field:69602bff297c720a81ca83bc1e217f4ce9627c0e6d855eb3b6a34fcc054221a3",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.text",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 178,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 12
+              },
+              "source_text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.duration.qualifier",
+              "id": "prepared_claim_field:6a59210296ab5b62e6c55aae734aef9d44c6fb5dbeb5e1b0f13020a3aeafd71b",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.duration.qualifier",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 97,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 92
+              },
+              "source_text": "up to"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.qualifier",
+              "id": "prepared_claim_field:8936a2afbd48dca5ea897805b2ae66fbb68a0bd05936a34234a25c44aaae8fa6",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.qualifier",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 72,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 67
+              },
+              "source_text": "up to"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.route",
+              "id": "prepared_claim_field:8b2a06a634b269591249fac900ec0aad98dd2e064bb594cdf543029bcbd8212e",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.route",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 10,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 6
+              },
+              "source_text": "Oral"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "population",
+              "id": "prepared_claim_field:90e0b1a97b642e699c636c914df65a36b664f2d8fb500b5ecf2dd005bca2cebd",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/population",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 5,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 0
+              },
+              "source_text": "Adult"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.unit",
+              "id": "prepared_claim_field:ac8be587364f558d8efedc60e5761acdd809c2739e6d838106468cc084072fd1",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.unit",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 81,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 76
+              },
+              "source_text": "grams"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.frequency",
+              "id": "prepared_claim_field:c3811b7fbeb8c0ef4e2d4c3b21b06f34d9b64a283c2b309b58c6f96bf921319e",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.frequency",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 87,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 82
+              },
+              "source_text": "daily"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.value",
+              "id": "prepared_claim_field:d80c245f6d07df43cdc77a79d1ac23e792d3462d47e1088f6d3ef3622f300429",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.value",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 75,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 73
+              },
+              "source_text": "20"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+              "field": "dose.duration.value",
+              "id": "prepared_claim_field:fb298eb53913da91b2aba3513a62d25649e1d477bc387268624c8ccabd73df4e",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/385/field_support/dose.duration.value",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 99,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 98
+              },
+              "source_text": "7"
+            }
+          ],
+          "id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+          "nested_field_states": {
+            "dose": {
+              "duration": "present",
+              "frequency": "present",
+              "maximum": "null",
+              "minimum": "null",
+              "qualifier": "present",
+              "regimen": "present",
+              "route": "present",
+              "text": "present",
+              "unit": "present",
+              "value": "present"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": null,
+            "claim_text": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+            "claim_type": "dose",
+            "dose": {
+              "duration": {
+                "qualifier": "up to",
+                "unit": "days",
+                "value": 7.0
+              },
+              "frequency": "daily",
+              "maximum": null,
+              "minimum": null,
+              "qualifier": "up to",
+              "regimen": "loading dose",
+              "route": "Oral",
+              "text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks",
+              "unit": "grams",
+              "value": 20.0
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "dose.duration.qualifier": {
+                "end": 97,
+                "start": 92
+              },
+              "dose.duration.unit": {
+                "end": 104,
+                "start": 100
+              },
+              "dose.duration.value": {
+                "end": 99,
+                "start": 98
+              },
+              "dose.frequency": {
+                "end": 87,
+                "start": 82
+              },
+              "dose.qualifier": {
+                "end": 72,
+                "start": 67
+              },
+              "dose.regimen": {
+                "end": 63,
+                "start": 51
+              },
+              "dose.route": {
+                "end": 10,
+                "start": 6
+              },
+              "dose.text": {
+                "end": 178,
+                "start": 12
+              },
+              "dose.unit": {
+                "end": 81,
+                "start": 76
+              },
+              "dose.value": {
+                "end": 75,
+                "start": 73
+              },
+              "population": {
+                "end": 5,
+                "start": 0
+              }
+            },
+            "id": "claim:f28f2295243cc38ec79b0969b2c8aa62c6d0f7f05c75084c2baa9f7a2eb2a131",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Creatine",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": "Adult",
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+              "end": 241,
+              "excerpt": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+              "record_id": "natmed:1dcdcb859542de37540c85e3",
+              "section_heading": "dosing & administration",
+              "section_index": 7,
+              "start": 0,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/385",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 241,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/3/sections/7/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 0
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:1dcdcb859542de37540c85e3",
+          "source_title": "Creatine",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      },
+      {
+        "unit_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+        "source": "NatMed",
+        "node_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+        "evidence_ids": [
+          "graph_evidence:15870bcd244c73cb8c25c2e1ace3080d42eb749677a50bd296d8979fdb7f3f38"
+        ],
+        "path_edge_ids": [
+          "full_edge:fa29c46fb0b25f2bddda6a3beda7ab7c8949cb4f1f3f767a580cb5982d2ee7ae",
+          "full_edge:866ada6ca64c1aaeff27ab5fdef0b8a2b6f825c157728956a39f34aac77b97de"
+        ],
+        "data": {
+          "clinical_approval": false,
+          "confidence": null,
+          "field_states": {
+            "adverse_effect_category": "null",
+            "claim_text": "present",
+            "claim_type": "present",
+            "dose": "present",
+            "effectiveness_rating": "null",
+            "evidence_grade": "null",
+            "field_support": "present",
+            "id": "present",
+            "indication": "null",
+            "ingredient": "present",
+            "interaction": "present",
+            "population": "present",
+            "review": "present",
+            "safety_rating": "null",
+            "source": "present"
+          },
+          "field_support_anchors": [
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.duration.unit",
+              "id": "prepared_claim_field:1dca890efb0f73e5428ef8f55dc9a67be28cb75184e6b5e16d1e54da4929b6dd",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.duration.unit",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 178,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 173
+              },
+              "source_text": "weeks"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.regimen",
+              "id": "prepared_claim_field:2a5d4a7a372cdecb15d0078ff75f6bdb58f4bdb49cdada207cd5b24ec449a629",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.regimen",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 136,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 120
+              },
+              "source_text": "maintenance dose"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.unit",
+              "id": "prepared_claim_field:7186ed148f9517f007c10ee11edabf3f58c4a990c330cd8dfa98a7c9cb99b5dc",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.unit",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 153,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 148
+              },
+              "source_text": "grams"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.duration.qualifier",
+              "id": "prepared_claim_field:722f24f5239f392fe980eb570a2683844e031298c1a808062cbd116003832bc5",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.duration.qualifier",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 169,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 164
+              },
+              "source_text": "up to"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.route",
+              "id": "prepared_claim_field:7abff0adaf42abcfdc004cd2098ab2913c21a6c358d56e03d282e6ebdf3ff5ad",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.route",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 10,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 6
+              },
+              "source_text": "Oral"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.duration.value",
+              "id": "prepared_claim_field:86438ab3c1553ff4fdedec545aa92da10897e70b6835132efab3c99babd6d8d4",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.duration.value",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 172,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 170
+              },
+              "source_text": "16"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.minimum",
+              "id": "prepared_claim_field:8bbe77bd178b60af9e636582913378803dd53e3cb7d2d9dbe1d2fb50f0cec78e",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.minimum",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 144,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 140
+              },
+              "source_text": "2.25"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.text",
+              "id": "prepared_claim_field:98b4ab943f00c0aee9aa00ab656ad74f2b42776e916d73f626592c1ed10f46f3",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.text",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 178,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 12
+              },
+              "source_text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "population",
+              "id": "prepared_claim_field:a6882f65e9065923f1abe517104b63ea0a39472592935eece3f890d034a9ca7d",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/population",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 5,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 0
+              },
+              "source_text": "Adult"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.frequency",
+              "id": "prepared_claim_field:a7d8afbf944e819d1c9ab6a7e22fa91e639a1ea44d4265103d621e1947cae590",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.frequency",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 159,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 154
+              },
+              "source_text": "daily"
+            },
+            {
+              "anchor_scope": "within_excerpt",
+              "claim_id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+              "field": "dose.maximum",
+              "id": "prepared_claim_field:e30dd7cf8c28ac4eec272f1bdf3f8783435ba07dfe515daf54d8bac6772262d2",
+              "original_anchor_provenance": {
+                "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+                "pointer": "/384/field_support/dose.maximum",
+                "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+              },
+              "source_span": {
+                "coordinate_system": "unicode_codepoints",
+                "end": 147,
+                "file": "data/raw/natmedpro/records.jsonl",
+                "pointer": "/3/sections/7/text",
+                "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+                "start": 145
+              },
+              "source_text": "10"
+            }
+          ],
+          "id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+          "nested_field_states": {
+            "dose": {
+              "duration": "present",
+              "frequency": "present",
+              "maximum": "present",
+              "minimum": "present",
+              "qualifier": "null",
+              "regimen": "present",
+              "route": "present",
+              "text": "present",
+              "unit": "present",
+              "value": "null"
+            },
+            "ingredient": {
+              "formulation": "null",
+              "name": "present",
+              "strain": "null"
+            },
+            "interaction": {
+              "occurrence": "null",
+              "partner": "null",
+              "rating": "null",
+              "severity": "null"
+            },
+            "review": {
+              "reviewed_at": "null",
+              "reviewer": "null",
+              "state": "present"
+            },
+            "source": {
+              "content_hash": "present",
+              "end": "present",
+              "excerpt": "present",
+              "record_id": "present",
+              "section_heading": "present",
+              "section_index": "present",
+              "start": "present",
+              "url": "present"
+            }
+          },
+          "original_fields": {
+            "adverse_effect_category": null,
+            "claim_text": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+            "claim_type": "dose",
+            "dose": {
+              "duration": {
+                "qualifier": "up to",
+                "unit": "weeks",
+                "value": 16.0
+              },
+              "frequency": "daily",
+              "maximum": 10.0,
+              "minimum": 2.25,
+              "qualifier": null,
+              "regimen": "maintenance dose",
+              "route": "Oral",
+              "text": "Creatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks",
+              "unit": "grams",
+              "value": null
+            },
+            "effectiveness_rating": null,
+            "evidence_grade": null,
+            "field_support": {
+              "dose.duration.qualifier": {
+                "end": 169,
+                "start": 164
+              },
+              "dose.duration.unit": {
+                "end": 178,
+                "start": 173
+              },
+              "dose.duration.value": {
+                "end": 172,
+                "start": 170
+              },
+              "dose.frequency": {
+                "end": 159,
+                "start": 154
+              },
+              "dose.maximum": {
+                "end": 147,
+                "start": 145
+              },
+              "dose.minimum": {
+                "end": 144,
+                "start": 140
+              },
+              "dose.regimen": {
+                "end": 136,
+                "start": 120
+              },
+              "dose.route": {
+                "end": 10,
+                "start": 6
+              },
+              "dose.text": {
+                "end": 178,
+                "start": 12
+              },
+              "dose.unit": {
+                "end": 153,
+                "start": 148
+              },
+              "population": {
+                "end": 5,
+                "start": 0
+              }
+            },
+            "id": "claim:40b8f09332319c60632e15306d57445bf74cc96d370abb16834b417ca67cf4e7",
+            "indication": null,
+            "ingredient": {
+              "formulation": null,
+              "name": "Creatine",
+              "strain": null
+            },
+            "interaction": {
+              "occurrence": null,
+              "partner": null,
+              "rating": null,
+              "severity": null
+            },
+            "population": "Adult",
+            "review": {
+              "reviewed_at": null,
+              "reviewer": null,
+              "state": "pending"
+            },
+            "safety_rating": null,
+            "source": {
+              "content_hash": "eb94509da22cb2f1871f17bc29b52b6c31addb3d327adbf02ad06fc806bc4ad2",
+              "end": 241,
+              "excerpt": "Adult\nOral:\nCreatine has most often been used in a loading dose of up to 20 grams daily for up to 7 days, followed by a maintenance dose of 2.25-10 grams daily for up to 16 weeks. See Effectiveness section for condition-specific information.",
+              "record_id": "natmed:1dcdcb859542de37540c85e3",
+              "section_heading": "dosing & administration",
+              "section_index": 7,
+              "start": 0,
+              "url": "https://naturalmedicines.therapeuticresearch.com/IngredientsTherapiesMonographs/Pro?id=873"
+            }
+          },
+          "provenance": {
+            "file": "data/raw/natmedpro/upstream_derived/pending_clinical/clinical_claims.jsonl",
+            "pointer": "/384",
+            "sha256": "11e5659e05aa42340ddb4b8ddaafd67a35f93ab2d1ae942665c063dd07f4bb30"
+          },
+          "record_id": "natmed:1dcdcb859542de37540c85e3",
+          "retrieval_policy": "attributed_pending_source_excerpt_only",
+          "review_state": "pending",
+          "source_span": {
+            "coordinate_system": "unicode_codepoints",
+            "end": 241,
+            "file": "data/raw/natmedpro/records.jsonl",
+            "pointer": "/3/sections/7/text",
+            "sha256": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+            "start": 0
+          },
+          "technical_validation": "schema_and_source_support_passed"
+        },
+        "extra": {
+          "monograph_id": "natmed:1dcdcb859542de37540c85e3",
+          "source_title": "Creatine",
+          "relevance_role": "primary",
+          "relevance_reason": "requested_clinical_annotation"
+        }
+      }
+    ],
+    "context": [],
+    "clinical_approval": false,
+    "product_applicability_established": false,
+    "equivalence_established": false,
+    "recommended_product": null,
+    "recommended_dose": null,
+    "limitations": [
+      "Captured source evidence only; no independent clinical approval or personal recommendation."
+    ],
+    "relevance_revision": "conservative-rules-v3"
+  }
+]

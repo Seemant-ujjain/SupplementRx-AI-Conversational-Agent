@@ -1,0 +1,6 @@
+{
+  "script": "scripts/kg_retrieval_v3.py",
+  "sha256": "647035855878b4f944d7d7c86143deed94e98f14f88830b3979a7954928db768",
+  "sequence": "Locked after inspecting original and first diagnostic set, before selecting second diagnostic set.",
+  "limits": "First diagnostic set is now development data; use only the second additional set to assess newly encountered examples for v3."
+}

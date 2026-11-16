@@ -1,0 +1,6 @@
+{
+  "script": "scripts/kg_retrieval_v2.py",
+  "sha256": "b680ea7e49a437526b099eeb88da1b97e83178b2adc14a78a740c5407c51a387",
+  "sequence": "Rules fixed from original development errors before selecting/reviewing additional examples. Do not tune against the new set within this revision.",
+  "limits": "Same author and saved collection; newly reviewed examples are a leakage-aware diagnostic set, not an independent benchmark."
+}

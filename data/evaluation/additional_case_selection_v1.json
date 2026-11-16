@@ -1,0 +1,96 @@
+{
+  "rule_lock": {
+    "script": "scripts/kg_retrieval_v2.py",
+    "sha256": "b680ea7e49a437526b099eeb88da1b97e83178b2adc14a78a740c5407c51a387",
+    "sequence": "Rules fixed from original development errors before selecting/reviewing additional examples. Do not tune against the new set within this revision.",
+    "limits": "Same author and saved collection; newly reviewed examples are a leakage-aware diagnostic set, not an independent benchmark."
+  },
+  "selection": [
+    {
+      "id": "H01",
+      "topic": "Magnesium",
+      "label_id": "15097",
+      "brand": "Protocol for Life Balance",
+      "product": "Magnesium Citrate"
+    },
+    {
+      "id": "H02",
+      "topic": "Vitamin D",
+      "label_id": "73905",
+      "brand": "The Vitamin Shoppe",
+      "product": "Calcium Citrate Plus Magnesium & Vitamin D"
+    },
+    {
+      "id": "H03",
+      "topic": "Ashwagandha",
+      "label_id": "307986",
+      "brand": "Sun Potion",
+      "product": "Ashwagandha"
+    },
+    {
+      "id": "H04",
+      "topic": "Melatonin",
+      "label_id": "277770",
+      "brand": "Pure Encapsulations",
+      "product": "Melatonin-SR"
+    },
+    {
+      "id": "H05",
+      "topic": "Omega-3",
+      "label_id": "313484",
+      "brand": "MRI Performance",
+      "product": "Omega 3"
+    },
+    {
+      "id": "H06",
+      "topic": "Vitamin B12",
+      "label_id": "220773",
+      "brand": "ProCaps Laboratories",
+      "product": "Vitamin B12 100"
+    },
+    {
+      "id": "H07",
+      "topic": "Iron",
+      "label_id": "77012",
+      "brand": "Integrative Therapeutics",
+      "product": "Energizing Iron"
+    },
+    {
+      "id": "H08",
+      "topic": "Turmeric",
+      "label_id": "215132",
+      "brand": "Max Drive Nutrition",
+      "product": "Turmeric"
+    },
+    {
+      "id": "H09",
+      "topic": "Probiotics",
+      "label_id": "328922",
+      "brand": "Enzymedica",
+      "product": "Digest Gold + Probiotics"
+    },
+    {
+      "id": "H10",
+      "topic": "Creatine",
+      "label_id": "51023",
+      "brand": "HIT Supplements",
+      "product": "Creafusion Creatine Blend Tropical Citrus"
+    }
+  ],
+  "original_labels": [
+    "179549",
+    "179934",
+    "206077",
+    "214846",
+    "223186",
+    "239369",
+    "242165",
+    "25731",
+    "3749",
+    "43261",
+    "63275"
+  ],
+  "excluded_by_family_or_source_relation_count": 50,
+  "method": "One per topic using deterministic hash order; exclude original labels and connected source relationships/exact brand-product families. No warning-text or classifier-output selection.",
+  "limits": "Same captured collection and same assistant reviewer; existing shared boilerplate will be measured, not hidden."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "natmed-reddit-preparation-batch-v1",
+  "scope": "All saved NatMed monographs/pending annotations/passages and Reddit records/passages; separate source outputs",
+  "normalization": "Source-scoped IDs, separate title display/search values, explicit field-presence states and consistent reference/validation metadata. Original text, offsets, numbers, dates and source qualifiers remain unchanged.",
+  "natmed": "Verify source/schema/excerpt/field-span/HTML/reference-document bindings. Preserve null dose/population/formulation fields, section-heading anchors and pending clinical review. Keep upstream extraction/reference gaps visible.",
+  "reddit": "Verify native IDs, original text and word-window passages. Preserve original record-level mention scope. Record literal alias hits with field/offset provenance; inherited context never becomes a direct mention automatically.",
+  "references": "Resolve saved Reddit parent/thread IDs within the full collection; distinguish missing, outside-sample and not-applicable references. Never fabricate posts.",
+  "duplicates": "Retain source IDs and expose saved duplicate-review groups; do not merge records or claims.",
+  "excluded": ["clinical approval", "dose conversion or recommendation", "new ingredient mapping confidence", "inferred user health effects", "semantic merges", "graph updates", "embeddings"],
+  "validation": ["Source/audit hashes", "Complete record/claim/passage counts", "Source support and field anchors", "Original text and numeric values", "Foreign keys and references", "No automatic approvals", "Replay consistency"]
+}

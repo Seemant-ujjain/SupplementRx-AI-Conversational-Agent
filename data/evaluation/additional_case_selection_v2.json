@@ -1,0 +1,78 @@
+{
+  "rule_lock": {
+    "script": "scripts/kg_retrieval_v3.py",
+    "sha256": "647035855878b4f944d7d7c86143deed94e98f14f88830b3979a7954928db768",
+    "sequence": "Locked after inspecting original and first diagnostic set, before selecting second diagnostic set.",
+    "limits": "First diagnostic set is now development data; use only the second additional set to assess newly encountered examples for v3."
+  },
+  "selection": [
+    {
+      "id": "J01",
+      "topic": "Magnesium",
+      "label_id": "1452",
+      "brand": "Vitamin World",
+      "product": "Magnesium Citrate"
+    },
+    {
+      "id": "J02",
+      "topic": "Melatonin",
+      "label_id": "13302",
+      "brand": "Solgar",
+      "product": "Melatonin 10 mg"
+    },
+    {
+      "id": "J03",
+      "topic": "Vitamin B12",
+      "label_id": "296933",
+      "brand": "Global Healing",
+      "product": "Vitamin B12 5000 mcg"
+    },
+    {
+      "id": "J04",
+      "topic": "Iron",
+      "label_id": "229239",
+      "brand": "Zemvelo",
+      "product": "Iron"
+    },
+    {
+      "id": "J05",
+      "topic": "Probiotics",
+      "label_id": "319418",
+      "brand": "Dr. Tobias",
+      "product": "Deep Immune Probiotics & Prebiotics"
+    },
+    {
+      "id": "J06",
+      "topic": "Creatine",
+      "label_id": "53576",
+      "brand": "USPlabs",
+      "product": "Modern Creatine Unflavored"
+    }
+  ],
+  "original_labels": [
+    "15097",
+    "179549",
+    "179934",
+    "206077",
+    "214846",
+    "215132",
+    "220773",
+    "223186",
+    "239369",
+    "242165",
+    "25731",
+    "277770",
+    "307986",
+    "313484",
+    "328922",
+    "3749",
+    "43261",
+    "51023",
+    "63275",
+    "73905",
+    "77012"
+  ],
+  "excluded_by_family_or_source_relation_count": 60,
+  "method": "One per topic using deterministic hash order; exclude original labels and connected source relationships/exact brand-product families. No warning-text or classifier-output selection.",
+  "limits": "Same captured collection and same assistant reviewer; existing shared boilerplate will be measured, not hidden."
+}
