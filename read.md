@@ -1,4 +1,4 @@
-# SupplementRx AI — KG handoff
+# SupplementRx AI
 
 The POC graph is constructed for the ten supplement categories: Magnesium, Vitamin D, Ashwagandha, Melatonin, Omega-3, Vitamin B12, Iron, Turmeric, Probiotics and Creatine. It combines DSLD, PubChem, RxNorm, MeSH, NatMed and Reddit.
 
