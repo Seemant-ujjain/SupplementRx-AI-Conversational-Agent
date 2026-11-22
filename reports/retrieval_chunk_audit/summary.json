@@ -1,0 +1,1465 @@
+{
+  "graph": "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9",
+  "tokenizer": {
+    "model": "ncbi/MedCPT-Article-Encoder",
+    "revision": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+    "files": {
+      "tokenizer.json": "6e046044df8a2fcedb10607075dca187cae61d806c0d80a96c5b81017edc90c9",
+      "tokenizer_config.json": "cabeefb4bbba68c42d40a56bfc1e73dd2e5dfb6e0ca90a66349519c375452d1e",
+      "config.json": "3fea00b31d018d676d6b7e2f6cddcfe1abc69bcb88f5f09f51b848212e1671d1"
+    },
+    "tokenizers_version": "0.22.2",
+    "limit_from_model_config": 512
+  },
+  "input_templates": {
+    "text_only": "encode(text), with special tokens",
+    "context_pair": "encode(title + section, text), with special tokens; DSLD uses product fullName as first sequence. Illustrative retrieval template, not finalized."
+  },
+  "sources": {
+    "natmedpro": {
+      "records": 1179,
+      "words": {
+        "min": 1,
+        "median": 220,
+        "p95": 220,
+        "max": 220
+      },
+      "text_tokens": {
+        "min": 3,
+        "median": 292,
+        "p95": 359,
+        "max": 584
+      },
+      "title_section_pair_tokens": {
+        "min": 9,
+        "median": 297,
+        "p95": 364,
+        "max": 590
+      },
+      "text_over_limit": 2,
+      "pair_over_limit": 2,
+      "empty": 0,
+      "short_under_20_words": 31,
+      "duplicate_text_groups": 5,
+      "duplicate_occurrences_beyond_first": 11,
+      "sections": {
+        "preamble": 10,
+        "interactions with supplements": 21,
+        "interactions with conditions": 17,
+        "interactions with lab tests": 9,
+        "overdose": 14,
+        "pharmacokinetics": 24,
+        "mechanism of action": 147,
+        "classes": 10,
+        "references": 10,
+        "scientific name": 10,
+        "overview": 10,
+        "warnings": 7,
+        "safety": 25,
+        "adverse effects": 60,
+        "effectiveness": 685,
+        "dosing & administration": 15,
+        "standardization & formulation": 13,
+        "interactions with drugs": 55,
+        "nutrient depletions": 37
+      },
+      "source_slice_failures": 0,
+      "declared_word_count_mismatches": 0,
+      "boundary_flags": 955,
+      "missing_urls": 0,
+      "mention_scopes": {
+        "None": 1179
+      }
+    },
+    "reddit": {
+      "records": 5071,
+      "words": {
+        "min": 1,
+        "median": 30,
+        "p95": 187,
+        "max": 220
+      },
+      "text_tokens": {
+        "min": 3,
+        "median": 43,
+        "p95": 258,
+        "max": 513
+      },
+      "title_section_pair_tokens": {
+        "min": 5,
+        "median": 45,
+        "p95": 266,
+        "max": 537
+      },
+      "text_over_limit": 1,
+      "pair_over_limit": 1,
+      "empty": 0,
+      "short_under_20_words": 1878,
+      "duplicate_text_groups": 25,
+      "duplicate_occurrences_beyond_first": 207,
+      "sections": {
+        "discussion": 5071
+      },
+      "source_slice_failures": 0,
+      "declared_word_count_mismatches": 0,
+      "boundary_flags": 176,
+      "missing_urls": 0,
+      "mention_scopes": {
+        "thread_context": 3644,
+        "own_text": 1427
+      }
+    },
+    "dsld": {
+      "records": 6463,
+      "words": {
+        "min": 1,
+        "median": 8,
+        "p95": 37,
+        "max": 300
+      },
+      "text_tokens": {
+        "min": 3,
+        "median": 13,
+        "p95": 50,
+        "max": 358
+      },
+      "title_section_pair_tokens": {
+        "min": 5,
+        "median": 18,
+        "p95": 55,
+        "max": 363
+      },
+      "text_over_limit": 0,
+      "pair_over_limit": 0,
+      "empty": 0,
+      "short_under_20_words": 4994,
+      "duplicate_text_groups": 952,
+      "duplicate_occurrences_beyond_first": 2909,
+      "sections": {
+        "Precautions re: All Other": 447,
+        "Precautions re: Children": 421,
+        "General Statements: All Other Content": 1257,
+        "Formulation re: Does NOT Contain": 454,
+        "Storage": 323,
+        "Precautions re: Pregnant or Nursing or Prescription Medications": 308,
+        "Suggested/Recommended/Usage/Directions": 455,
+        "General: Product/Version Code": 185,
+        "Formulation re: Other": 344,
+        "Formula re: Contains": 550,
+        "FDA Statement of Identity": 391,
+        "Brand IP Statement(s) re: (c), (TM), (SM)": 351,
+        "Seals/Symbols": 395,
+        "FDA Disclaimer Statement": 319,
+        "Formulation re: Vegetarian/Vegan": 119,
+        "Formula re: Kosher": 17,
+        "Precautions re: Allergies": 68,
+        "Formula re: Type": 26,
+        "Formulation re: Organic": 32,
+        "other_ingredient_text": 1
+      }
+    }
+  },
+  "word_coverage_gaps": [],
+  "word_overlaps": [
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "section_index": 15,
+      "overlap_words": 200
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "section_index": 5,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "section_index": 6,
+      "overlap_words": 960
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0d296c0daa1cccb456da568c",
+      "section_index": 9,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 12,
+      "overlap_words": 440
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 14,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 15,
+      "overlap_words": 200
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 4,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:0e9f2262886c394a16e6a7b6",
+      "section_index": 5,
+      "overlap_words": 1520
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 10,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 11,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 14,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 15,
+      "overlap_words": 680
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 5,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 6,
+      "overlap_words": 2920
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 8,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:15e8a621cab69a1f3066f3e8",
+      "section_index": 9,
+      "overlap_words": 520
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 14,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 15,
+      "overlap_words": 440
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 4,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 5,
+      "overlap_words": 440
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:1dcdcb859542de37540c85e3",
+      "section_index": 6,
+      "overlap_words": 1640
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 10,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 11,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 13,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 14,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 15,
+      "overlap_words": 1400
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 4,
+      "overlap_words": 120
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 5,
+      "overlap_words": 240
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 6,
+      "overlap_words": 3160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 8,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:3684a1a282d205d7021e1e8c",
+      "section_index": 9,
+      "overlap_words": 320
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 10,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 12,
+      "overlap_words": 400
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 14,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 15,
+      "overlap_words": 480
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 3,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 4,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 5,
+      "overlap_words": 2600
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 6,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 8,
+      "overlap_words": 320
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:649e1db8b72c315fd46a0008",
+      "section_index": 9,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 14,
+      "overlap_words": 200
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 4,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 5,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:6d4216fa13c50b0c8a12b73b",
+      "section_index": 6,
+      "overlap_words": 2600
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 11,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 13,
+      "overlap_words": 320
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 14,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 15,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 16,
+      "overlap_words": 800
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 4,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 5,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 6,
+      "overlap_words": 5400
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 7,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:8dd04c27d96778422b37b7f1",
+      "section_index": 9,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 10,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 11,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 13,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 14,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 15,
+      "overlap_words": 1000
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 4,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 5,
+      "overlap_words": 280
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 6,
+      "overlap_words": 5400
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 8,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:9846bbe87087e6c66c605ff5",
+      "section_index": 9,
+      "overlap_words": 200
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 10,
+      "overlap_words": 40
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 12,
+      "overlap_words": 160
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 14,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 15,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 3,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 4,
+      "overlap_words": 360
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 5,
+      "overlap_words": 800
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 6,
+      "overlap_words": 80
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 8,
+      "overlap_words": 200
+    },
+    {
+      "source": "natmedpro",
+      "record_id": "natmed:fce9d033ff2ec6933e4775ba",
+      "section_index": 9,
+      "overlap_words": 240
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rjbkq5qxq04",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rk9e4hoek05",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rmrg568s8w5",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rnxoxgzs1a8",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rox9en6n5t1",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rozniswfpk2",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rp35o7vvg9x",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rp3en522f4w",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_19rp4p4bjkjl0",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_hz7rbww",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ktsxry6",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_l0bdomd",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_l7rodfi",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_l9gttp1",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ljw5a5m",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_llm8yz8",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_llm9e2z",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_lln2ifd",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_llrxysa",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_lxy10t0",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_m1w7qtk",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_m22j6qe",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_md0l58n",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_mei9q60",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_mh4cetd",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_n4h7uyq",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ncafz8z",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ncl7rhf",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ncxt8ks",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_o4dcoto",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_o5aquy8",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_o5g240n",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_od3syl4",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_odyt83d",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_odz6huo",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_oeb2081",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_omy15kb",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_onkt8qu",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_onlqynq",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_onnosxz",
+      "section_index": 0,
+      "overlap_words": 200
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ono9dsp",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_onofm7s",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_oozlk67",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_org3crb",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_oxifcsd",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ozihigf",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_ozs9fuh",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p1p5bgj",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p2feb33",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p61v316",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6mneib",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6rtzuy",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6rx0hi",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6s4ne1",
+      "section_index": 0,
+      "overlap_words": 160
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6t3oef",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6uupkb",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p6yfesg",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p71t5yn",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_p7fqll4",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pbxcno8",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pc2pei9",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pchzzzb",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pdnpuvz",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pehk4m5",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pevc9z0",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pevwawg",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pf8eec8",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_phbaffr",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_phbffu6",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_phd2g2s",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_phgogla",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_phh21nn",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t1_pi0k49f",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1b8fgs2",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1c0a2zy",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1dbe3p7",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1eptvyn",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1g5hdjf",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1hosaj1",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1iwxvc5",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1jszyjk",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1jufbfv",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1kz25fj",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1m7hey4",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1mnmsa1",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1n7uv37",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1na0taj",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1nphdy7",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1q2dzs6",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1qzbkco",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1r2l54r",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1ry3ce3",
+      "section_index": 0,
+      "overlap_words": 160
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1t65f1u",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1tiuozw",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1tnngmk",
+      "section_index": 0,
+      "overlap_words": 240
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1u8m73f",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1ujcbzf",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1uncuyf",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1us01at",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1uv2as7",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1uw20hp",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1v2nacy",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1w1maef",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1w2e8ng",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1wcsavx",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1wdj3so",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1weaqhs",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1weieen",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1wel8m5",
+      "section_index": 0,
+      "overlap_words": 200
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1wxdgiv",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x0u9lk",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x51zad",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x79djx",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x8aej0",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x8h7kf",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x8z8f4",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1x9v0ts",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xae5ey",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xanw6g",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xaz0cm",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xb1sm8",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xb1t7j",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xbk4mh",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xbq8gs",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xch57o",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xcriy0",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xdxxgu",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xetdzc",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xf0ze9",
+      "section_index": 0,
+      "overlap_words": 120
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xf7ls7",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xflr75",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xfomym",
+      "section_index": 0,
+      "overlap_words": 80
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xg061l",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xgctzm",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xgg7z3",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_1xglvik",
+      "section_index": 0,
+      "overlap_words": 40
+    },
+    {
+      "source": "reddit",
+      "record_id": "reddit:t3_t3zunm",
+      "section_index": 0,
+      "overlap_words": 40
+    }
+  ],
+  "unrepresented_nonempty_source_sections": [],
+  "claims": {
+    "total": 1269,
+    "not_contained_in_single_passage": 473,
+    "not_contained_with_all_field_anchors": 898
+  },
+  "limitations": [
+    "Boundary flags are punctuation-based heuristics, not verified sentence or clinical errors.",
+    "Word-slice checks preserve whitespace-normalized text; char bounds refer to original source and are derived for this audit.",
+    "Token counts apply to the pinned tokenizer with truncation disabled; no vectors generated.",
+    "A claim split across passages may be recoverable via graph/context retrieval; this is not lost source evidence.",
+    "Exact duplicate text is not necessarily a duplicate record; preserve all source links.",
+    "No chunks, source files or graph were modified."
+  ],
+  "inputs": {
+    "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9/nodes/SourcePassage.csv": "a199d7c1f7a826fabff077cd27532f1bec7e68f974ae00cfde9308c268fd1feb",
+    "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9/nodes/LabelAssertion.csv": "86f4c571fa3897299578a85035e67a33f78684d0483490947b882cc940d67d6d",
+    "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9/nodes/ProductLabel.csv": "1a4127e53affc2d9ac70124e8133303d4ef4cde140d1768e34a69aef4d88bcb2",
+    "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9/nodes/ClinicalClaim.csv": "906761863674d324d41b571e7dafa8cb0dccc374ba3b2ca2afbc0a2cf1966cf9",
+    "data/raw/natmedpro/records.jsonl": "b413d5ff9051e5ffdbd5c44b804aaf6b9a17f4cdf449e7f60937a7e901b4560c",
+    "data/raw/reddit/records.jsonl": "aa3e205512fd17f03f06c5196bdcbb62ce41ddcdb2b74a6a9b88fb051b86b170"
+  }
+}

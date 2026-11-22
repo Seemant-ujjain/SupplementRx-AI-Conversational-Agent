@@ -1,0 +1,49 @@
+{
+  "schema": "schemas/kg_schema_bounds_v1.json",
+  "schema_sha256": "42d054c7e67a56141a378081d6e75a09f1a63d20a12458133298ce258afa3faa",
+  "graph": "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9",
+  "nodes": 35998,
+  "edges": 74122,
+  "node_types": 16,
+  "relationship_types": 33,
+  "lower_node_types": 14,
+  "lower_relationship_types": 20,
+  "upper_only_node_types": [
+    "ReferenceDocument",
+    "SupplementTopic"
+  ],
+  "upper_only_relationship_types": [
+    "HAS_DECLARED_TOPIC",
+    "HAS_REFERENCE_DOCUMENT",
+    "HAS_SOURCE_TOPIC",
+    "INGREDIENT_NAME_MENTIONS_TOPIC",
+    "INHERITED_THREAD_TOPIC",
+    "LABEL_TITLE_MENTIONS_TOPIC",
+    "MEMBER_OF_CATEGORY",
+    "MENTIONS_TOPIC",
+    "MESH_RELATION",
+    "RELATED_BOTANICAL_SUBJECT",
+    "RELATED_INGREDIENT_SUBJECT",
+    "SOURCE_LABEL_REFERENCE",
+    "SOURCE_LABEL_RELATION"
+  ],
+  "claim_review_states": {
+    "pending": 1269
+  },
+  "explicitly_null_clinical_fields": {
+    "population": 1103,
+    "safety_rating": 1222,
+    "indication": 460,
+    "effectiveness_rating": 460
+  },
+  "mapping_edges_checked": 3073,
+  "evidence_ids": 64312,
+  "graph_files_hash_checked": 48,
+  "failures": [],
+  "passed": true,
+  "limits": [
+    "Checks evidence ID resolution, not revalidation of every source pointer/span.",
+    "Nested source objects remain under existing contracts; not fully revalidated here.",
+    "Type/path availability does not prove full answer coverage or clinical correctness."
+  ]
+}

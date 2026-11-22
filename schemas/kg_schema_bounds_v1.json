@@ -1,0 +1,1833 @@
+{
+  "schema_id": "supplementrx-schema-bounds",
+  "version": "1.0.0",
+  "status": "retrospective POC design specification; not clinical approval",
+  "graph": "data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9",
+  "graph_manifest_sha256": "08c99550a0fa0f86aca938bb952d6c682a2aa7affae3926a2115cc2f236d869b",
+  "definitions": {
+    "lower_bound": "Minimum representational capabilities for the declared POC question families; presence of types is not proof of answerability for every record.",
+    "upper_bound": "Closed permitted type, endpoint and top-level property vocabulary for this version, adopted from the current export; extensions require a new schema version.",
+    "relationship": "Lower-bound types/relations must be subsets of upper-bound types/relations. The instance graph must conform to the upper bound and the scoped lower-bound constraints.",
+    "unknowns": "Required property presence does not require a known clinical value; null and source field-state distinctions remain valid. No minimum mapping per ingredient or claim per product.",
+    "nested_properties": "Nested original_fields, attributes, provenance and other objects retain their existing source-specific contracts; this bounds layer checks top-level types and explicitly named claim fields, not every nested source key."
+  },
+  "design_basis": [
+    "notebooks/Schema_Design_and_Mapping.ipynb",
+    "data/evaluation/retrieval_questions_v1.json",
+    "schemas/poc_preprocessing_contract_v0.1.json"
+  ],
+  "lower_bound": {
+    "question_modules": [
+      {
+        "id": "product_composition",
+        "question": "What ingredients and forms does this label declare?",
+        "nodes": [
+          "ProductLabel",
+          "IngredientOccurrence"
+        ],
+        "relationships": [
+          "DECLARES_OCCURRENCE",
+          "HAS_DECLARED_FORM",
+          "HAS_DECLARED_COMPONENT",
+          "HAS_STANDARDIZATION_MARKER"
+        ]
+      },
+      {
+        "id": "amount_and_label_safety",
+        "question": "What amount, serving basis, usage statement or warning does the label report?",
+        "nodes": [
+          "ProductLabel",
+          "LabelAssertion",
+          "Serving",
+          "IngredientOccurrence"
+        ],
+        "relationships": [
+          "HAS_ASSERTION",
+          "ABOUT_OCCURRENCE",
+          "DECLARES_SERVING",
+          "HAS_SERVING_BASIS"
+        ]
+      },
+      {
+        "id": "clinical_evidence",
+        "question": "What does NatMed report about effectiveness, safety, interactions and dose context, and what is its source?",
+        "nodes": [
+          "Monograph",
+          "MonographSubject",
+          "ClinicalClaim",
+          "SourceExcerpt",
+          "SourcePassage"
+        ],
+        "relationships": [
+          "HAS_SUBJECT",
+          "HAS_PENDING_CLAIM",
+          "ABOUT_SUBJECT",
+          "SUPPORTED_BY_EXCERPT",
+          "EXCERPT_OF",
+          "PASSAGE_OF"
+        ]
+      },
+      {
+        "id": "terminology",
+        "question": "Which terminology or chemical record is linked, and is the relationship a concept link or an exact match?",
+        "nodes": [
+          "IngredientOccurrence",
+          "TerminologyConcept",
+          "ChemicalCompound"
+        ],
+        "relationships": [
+          "DENOTES_CONCEPT",
+          "EXACT_MATERIAL_MATCH"
+        ]
+      },
+      {
+        "id": "user_experiences",
+        "question": "What do Reddit users report, and what parent/thread context is available?",
+        "nodes": [
+          "RedditPost",
+          "RedditComment",
+          "SourcePassage",
+          "ExternalRecordReference"
+        ],
+        "relationships": [
+          "PASSAGE_OF",
+          "IN_THREAD",
+          "IN_THREAD_REFERENCE",
+          "REPLY_TO",
+          "REPLY_TO_REFERENCE"
+        ]
+      }
+    ],
+    "node_types": [
+      "ChemicalCompound",
+      "ClinicalClaim",
+      "ExternalRecordReference",
+      "IngredientOccurrence",
+      "LabelAssertion",
+      "Monograph",
+      "MonographSubject",
+      "ProductLabel",
+      "RedditComment",
+      "RedditPost",
+      "Serving",
+      "SourceExcerpt",
+      "SourcePassage",
+      "TerminologyConcept"
+    ],
+    "relationship_types": [
+      "ABOUT_OCCURRENCE",
+      "ABOUT_SUBJECT",
+      "DECLARES_OCCURRENCE",
+      "DECLARES_SERVING",
+      "DENOTES_CONCEPT",
+      "EXACT_MATERIAL_MATCH",
+      "EXCERPT_OF",
+      "HAS_ASSERTION",
+      "HAS_DECLARED_COMPONENT",
+      "HAS_DECLARED_FORM",
+      "HAS_PENDING_CLAIM",
+      "HAS_SERVING_BASIS",
+      "HAS_STANDARDIZATION_MARKER",
+      "HAS_SUBJECT",
+      "IN_THREAD",
+      "IN_THREAD_REFERENCE",
+      "PASSAGE_OF",
+      "REPLY_TO",
+      "REPLY_TO_REFERENCE",
+      "SUPPORTED_BY_EXCERPT"
+    ],
+    "required_properties": {
+      "ProductLabel": [
+        "source_record",
+        "attributes",
+        "field_states"
+      ],
+      "IngredientOccurrence": [
+        "original_name",
+        "snapshot_id",
+        "role",
+        "field_states"
+      ],
+      "Serving": [
+        "snapshot_id",
+        "attributes",
+        "field_states"
+      ],
+      "LabelAssertion": [
+        "kind",
+        "original_fields",
+        "field_states",
+        "evidence_role",
+        "quantity_comparison"
+      ],
+      "ClinicalClaim": [
+        "original_fields",
+        "source_span",
+        "field_support_anchors",
+        "review_state",
+        "clinical_approval",
+        "field_states"
+      ],
+      "Monograph": [
+        "original_fields",
+        "provenance",
+        "source",
+        "evidence_role"
+      ],
+      "MonographSubject": [
+        "name",
+        "scope",
+        "monograph_id"
+      ],
+      "SourceExcerpt": [
+        "text",
+        "source_span",
+        "review_state",
+        "clinical_approval"
+      ],
+      "SourcePassage": [
+        "original_fields",
+        "record_id",
+        "source",
+        "evidence_role",
+        "source_binding_valid"
+      ],
+      "RedditPost": [
+        "original_fields",
+        "provenance",
+        "source",
+        "evidence_role",
+        "clinical_approval"
+      ],
+      "RedditComment": [
+        "original_fields",
+        "provenance",
+        "source",
+        "evidence_role",
+        "clinical_approval"
+      ],
+      "ExternalRecordReference": [
+        "source",
+        "native_id",
+        "content_loaded"
+      ],
+      "ChemicalCompound": [
+        "native_id",
+        "source",
+        "original_fields"
+      ],
+      "TerminologyConcept": [
+        "native_id",
+        "source",
+        "original_fields"
+      ]
+    },
+    "clinical_original_fields": [
+      "ingredient",
+      "claim_type",
+      "claim_text",
+      "indication",
+      "population",
+      "effectiveness_rating",
+      "safety_rating",
+      "dose",
+      "interaction",
+      "source",
+      "review"
+    ],
+    "cardinalities": [
+      {
+        "node_type": "ProductLabel",
+        "direction": "out",
+        "relationships": [
+          "DECLARES_SERVING"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "ProductLabel",
+        "direction": "out",
+        "relationships": [
+          "DECLARES_OCCURRENCE"
+        ],
+        "minimum": 1,
+        "maximum": null
+      },
+      {
+        "node_type": "ProductLabel",
+        "direction": "out",
+        "relationships": [
+          "HAS_ASSERTION"
+        ],
+        "minimum": 1,
+        "maximum": null
+      },
+      {
+        "node_type": "IngredientOccurrence",
+        "direction": "in",
+        "relationships": [
+          "DECLARES_OCCURRENCE"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "LabelAssertion",
+        "direction": "in",
+        "relationships": [
+          "HAS_ASSERTION"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "Monograph",
+        "direction": "out",
+        "relationships": [
+          "HAS_SUBJECT"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "ClinicalClaim",
+        "direction": "in",
+        "relationships": [
+          "HAS_PENDING_CLAIM"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "ClinicalClaim",
+        "direction": "out",
+        "relationships": [
+          "ABOUT_SUBJECT"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "ClinicalClaim",
+        "direction": "out",
+        "relationships": [
+          "SUPPORTED_BY_EXCERPT"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "SourceExcerpt",
+        "direction": "out",
+        "relationships": [
+          "EXCERPT_OF"
+        ],
+        "minimum": 1,
+        "maximum": null
+      },
+      {
+        "node_type": "SourcePassage",
+        "direction": "out",
+        "relationships": [
+          "PASSAGE_OF"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "RedditComment",
+        "direction": "out",
+        "relationships": [
+          "IN_THREAD",
+          "IN_THREAD_REFERENCE"
+        ],
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "node_type": "RedditComment",
+        "direction": "out",
+        "relationships": [
+          "REPLY_TO",
+          "REPLY_TO_REFERENCE"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      }
+    ]
+  },
+  "upper_bound": {
+    "nodes": [
+      {
+        "type": "ChemicalCompound",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "display_name": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "identity_scope": [
+            "string"
+          ],
+          "mapping_approval": [
+            "boolean"
+          ],
+          "native_id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "rdf_literals": [
+            "array"
+          ],
+          "search_name": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ],
+          "source_properties": [
+            "array"
+          ]
+        }
+      },
+      {
+        "type": "ClinicalClaim",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "confidence": [
+            "null"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "field_support_anchors": [
+            "array"
+          ],
+          "id": [
+            "string"
+          ],
+          "nested_field_states": [
+            "object"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "retrieval_policy": [
+            "string"
+          ],
+          "review_state": [
+            "string"
+          ],
+          "source_span": [
+            "object"
+          ],
+          "technical_validation": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "ExternalRecordReference",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "content_loaded": [
+            "boolean"
+          ],
+          "native_id": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "IngredientOccurrence",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "attributes": [
+            "object"
+          ],
+          "contract_version": [
+            "string"
+          ],
+          "evidence_ids": [
+            "array"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "interpreted_role": [
+            "string"
+          ],
+          "native_ingredient_id": [
+            "number"
+          ],
+          "original_name": [
+            "string"
+          ],
+          "parent_id": [
+            "null",
+            "string"
+          ],
+          "review_issues": [
+            "array"
+          ],
+          "role": [
+            "string"
+          ],
+          "snapshot_id": [
+            "string"
+          ],
+          "transformations": [
+            "array"
+          ]
+        }
+      },
+      {
+        "type": "LabelAssertion",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "contract_version": [
+            "string"
+          ],
+          "evidence_ids": [
+            "array"
+          ],
+          "evidence_role": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "kind": [
+            "string"
+          ],
+          "native_assertion_id": [
+            "null"
+          ],
+          "occurrence_id": [
+            "null",
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "quantity_comparison": [
+            "null",
+            "object"
+          ],
+          "quantity_policy": [
+            "string"
+          ],
+          "review_issues": [
+            "array"
+          ],
+          "serving_id": [
+            "null",
+            "string"
+          ],
+          "snapshot_id": [
+            "string"
+          ],
+          "source_review": [
+            "object"
+          ],
+          "statement_interpretation": [
+            "string"
+          ],
+          "subject_snapshot_id": [
+            "string"
+          ],
+          "transformations": [
+            "array"
+          ]
+        }
+      },
+      {
+        "type": "Monograph",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "display_title": [
+            "string"
+          ],
+          "evidence_role": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "retrieval_policy": [
+            "string"
+          ],
+          "search_title": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "MonographSubject",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "monograph_id": [
+            "string"
+          ],
+          "name": [
+            "string"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "ProductLabel",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "artifact_id": [
+            "string"
+          ],
+          "attributes": [
+            "object"
+          ],
+          "contract_version": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "fingerprint_profile": [
+            "string"
+          ],
+          "id": [
+            "string"
+          ],
+          "identity_scope": [
+            "string"
+          ],
+          "locator": [
+            "object"
+          ],
+          "payload_digest": [
+            "string"
+          ],
+          "payload_scope": [
+            "string"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "representation_kind": [
+            "string"
+          ],
+          "review_issues": [
+            "array"
+          ],
+          "source_record": [
+            "object"
+          ],
+          "transformations": [
+            "array"
+          ]
+        }
+      },
+      {
+        "type": "RedditComment",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "display_title": [
+            "string"
+          ],
+          "evidence_role": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "retrieval_policy": [
+            "string"
+          ],
+          "search_title": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "RedditPost",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "display_title": [
+            "string"
+          ],
+          "evidence_role": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "retrieval_policy": [
+            "string"
+          ],
+          "search_title": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "ReferenceDocument",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "content_status": [
+            "string"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "Serving",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "attributes": [
+            "object"
+          ],
+          "contract_version": [
+            "string"
+          ],
+          "evidence_ids": [
+            "array"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "review_issues": [
+            "array"
+          ],
+          "snapshot_id": [
+            "string"
+          ],
+          "source_order": [
+            "number"
+          ],
+          "transformations": [
+            "array"
+          ]
+        }
+      },
+      {
+        "type": "SourceExcerpt",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "review_state": [
+            "string"
+          ],
+          "source_span": [
+            "object"
+          ],
+          "text": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "SourcePassage",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "evidence_role": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ],
+          "source_binding_valid": [
+            "boolean"
+          ]
+        }
+      },
+      {
+        "type": "SupplementTopic",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "name": [
+            "string"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "TerminologyConcept",
+        "csv_columns": [
+          "id",
+          "type",
+          "properties_json",
+          "evidence_ids"
+        ],
+        "allowed_properties": {
+          "display_name": [
+            "string"
+          ],
+          "field_states": [
+            "object"
+          ],
+          "id": [
+            "string"
+          ],
+          "identity_scope": [
+            "string"
+          ],
+          "is_candidate_record": [
+            "boolean"
+          ],
+          "mapping_approval": [
+            "boolean"
+          ],
+          "native_id": [
+            "string"
+          ],
+          "original_fields": [
+            "object"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "rdf_literals": [
+            "array"
+          ],
+          "rdf_statement_ids": [
+            "array"
+          ],
+          "search_name": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ],
+          "source_properties": [
+            "array"
+          ]
+        }
+      }
+    ],
+    "relationship_columns": [
+      "id",
+      "start_id",
+      "end_id",
+      "type",
+      "mapping_id",
+      "confidence",
+      "evidence_ids",
+      "properties_json"
+    ],
+    "relationships": [
+      {
+        "type": "ABOUT_OCCURRENCE",
+        "allowed_endpoints": [
+          [
+            "LabelAssertion",
+            "IngredientOccurrence"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "ABOUT_SUBJECT",
+        "allowed_endpoints": [
+          [
+            "ClinicalClaim",
+            "MonographSubject"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "DECLARES_OCCURRENCE",
+        "allowed_endpoints": [
+          [
+            "ProductLabel",
+            "IngredientOccurrence"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "DECLARES_SERVING",
+        "allowed_endpoints": [
+          [
+            "ProductLabel",
+            "Serving"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "DENOTES_CONCEPT",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "TerminologyConcept"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "decision": [
+            "object"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "EXACT_MATERIAL_MATCH",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "ChemicalCompound"
+          ],
+          [
+            "IngredientOccurrence",
+            "TerminologyConcept"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "decision": [
+            "object"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "EXCERPT_OF",
+        "allowed_endpoints": [
+          [
+            "SourceExcerpt",
+            "Monograph"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_ASSERTION",
+        "allowed_endpoints": [
+          [
+            "ProductLabel",
+            "LabelAssertion"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_DECLARED_COMPONENT",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "IngredientOccurrence"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_DECLARED_FORM",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "IngredientOccurrence"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_DECLARED_TOPIC",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "SupplementTopic"
+          ]
+        ],
+        "allowed_properties": {
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "HAS_PENDING_CLAIM",
+        "allowed_endpoints": [
+          [
+            "Monograph",
+            "ClinicalClaim"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_REFERENCE_DOCUMENT",
+        "allowed_endpoints": [
+          [
+            "Monograph",
+            "ReferenceDocument"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_SERVING_BASIS",
+        "allowed_endpoints": [
+          [
+            "LabelAssertion",
+            "Serving"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_SOURCE_TOPIC",
+        "allowed_endpoints": [
+          [
+            "Monograph",
+            "SupplementTopic"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_inference": [
+            "boolean"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "id": [
+            "string"
+          ],
+          "identity_mapping": [
+            "boolean"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ],
+          "source_association": [
+            "object"
+          ],
+          "source_status": [
+            "string"
+          ],
+          "topic": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "HAS_STANDARDIZATION_MARKER",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "IngredientOccurrence"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "HAS_SUBJECT",
+        "allowed_endpoints": [
+          [
+            "Monograph",
+            "MonographSubject"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "INGREDIENT_NAME_MENTIONS_TOPIC",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "SupplementTopic"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "identity_mapping": [
+            "boolean"
+          ],
+          "matches": [
+            "array"
+          ],
+          "rule": [
+            "string"
+          ],
+          "scope": [
+            "string"
+          ],
+          "source_field": [
+            "string"
+          ],
+          "source_role": [
+            "string"
+          ],
+          "source_text": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "INHERITED_THREAD_TOPIC",
+        "allowed_endpoints": [
+          [
+            "RedditComment",
+            "SupplementTopic"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_inference": [
+            "boolean"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "id": [
+            "string"
+          ],
+          "identity_mapping": [
+            "boolean"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ],
+          "source_association": [
+            "object"
+          ],
+          "source_status": [
+            "string"
+          ],
+          "topic": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "IN_THREAD",
+        "allowed_endpoints": [
+          [
+            "RedditComment",
+            "RedditPost"
+          ],
+          [
+            "RedditPost",
+            "RedditPost"
+          ]
+        ],
+        "allowed_properties": {
+          "availability_scope": [
+            "string"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_identifier": [
+            "string"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "status": [
+            "string"
+          ],
+          "target_record_id": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "IN_THREAD_REFERENCE",
+        "allowed_endpoints": [
+          [
+            "RedditComment",
+            "ExternalRecordReference"
+          ]
+        ],
+        "allowed_properties": {
+          "availability_scope": [
+            "string"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_identifier": [
+            "string"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "status": [
+            "string"
+          ],
+          "target_record_id": [
+            "null"
+          ]
+        }
+      },
+      {
+        "type": "LABEL_TITLE_MENTIONS_TOPIC",
+        "allowed_endpoints": [
+          [
+            "ProductLabel",
+            "SupplementTopic"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "identity_mapping": [
+            "boolean"
+          ],
+          "matches": [
+            "array"
+          ],
+          "rule": [
+            "string"
+          ],
+          "scope": [
+            "string"
+          ],
+          "source_field": [
+            "string"
+          ],
+          "source_role": [
+            "string"
+          ],
+          "source_text": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "MEMBER_OF_CATEGORY",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "TerminologyConcept"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "decision": [
+            "object"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "MENTIONS_TOPIC",
+        "allowed_endpoints": [
+          [
+            "RedditComment",
+            "SupplementTopic"
+          ],
+          [
+            "RedditPost",
+            "SupplementTopic"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_inference": [
+            "boolean"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "id": [
+            "string"
+          ],
+          "identity_mapping": [
+            "boolean"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "source": [
+            "string"
+          ],
+          "source_association": [
+            "object"
+          ],
+          "source_status": [
+            "string"
+          ],
+          "topic": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "MESH_RELATION",
+        "allowed_endpoints": [
+          [
+            "TerminologyConcept",
+            "ExternalRecordReference"
+          ],
+          [
+            "TerminologyConcept",
+            "TerminologyConcept"
+          ]
+        ],
+        "allowed_properties": {
+          "id": [
+            "string"
+          ],
+          "predicate_uri": [
+            "string"
+          ],
+          "provenance": [
+            "array"
+          ],
+          "subject_id": [
+            "string"
+          ],
+          "subject_uri": [
+            "string"
+          ],
+          "target_subject_id": [
+            "null",
+            "string"
+          ],
+          "typed_object": [
+            "object"
+          ]
+        }
+      },
+      {
+        "type": "PASSAGE_OF",
+        "allowed_endpoints": [
+          [
+            "SourcePassage",
+            "Monograph"
+          ],
+          [
+            "SourcePassage",
+            "RedditComment"
+          ],
+          [
+            "SourcePassage",
+            "RedditPost"
+          ]
+        ],
+        "allowed_properties": {}
+      },
+      {
+        "type": "RELATED_BOTANICAL_SUBJECT",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "MonographSubject"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "decision": [
+            "object"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "RELATED_INGREDIENT_SUBJECT",
+        "allowed_endpoints": [
+          [
+            "IngredientOccurrence",
+            "MonographSubject"
+          ]
+        ],
+        "allowed_properties": {
+          "clinical_approval": [
+            "boolean"
+          ],
+          "decision": [
+            "object"
+          ],
+          "graph_applied": [
+            "boolean"
+          ],
+          "scope": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "REPLY_TO",
+        "allowed_endpoints": [
+          [
+            "RedditComment",
+            "RedditComment"
+          ],
+          [
+            "RedditComment",
+            "RedditPost"
+          ]
+        ],
+        "allowed_properties": {
+          "availability_scope": [
+            "string"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_identifier": [
+            "string"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "status": [
+            "string"
+          ],
+          "target_record_id": [
+            "string"
+          ]
+        }
+      },
+      {
+        "type": "REPLY_TO_REFERENCE",
+        "allowed_endpoints": [
+          [
+            "RedditComment",
+            "ExternalRecordReference"
+          ]
+        ],
+        "allowed_properties": {
+          "availability_scope": [
+            "string"
+          ],
+          "id": [
+            "string"
+          ],
+          "original_identifier": [
+            "string"
+          ],
+          "provenance": [
+            "object"
+          ],
+          "record_id": [
+            "string"
+          ],
+          "relation": [
+            "string"
+          ],
+          "status": [
+            "string"
+          ],
+          "target_record_id": [
+            "null"
+          ]
+        }
+      },
+      {
+        "type": "SOURCE_LABEL_REFERENCE",
+        "allowed_endpoints": [
+          [
+            "ProductLabel",
+            "ExternalRecordReference"
+          ]
+        ],
+        "allowed_properties": {
+          "content_status": [
+            "string"
+          ],
+          "contract_version": [
+            "string"
+          ],
+          "evidence_ids": [
+            "array"
+          ],
+          "id": [
+            "string"
+          ],
+          "identifier_state": [
+            "string"
+          ],
+          "identity_equivalence": [
+            "boolean"
+          ],
+          "original_reference": [
+            "number"
+          ],
+          "reason_codes": [
+            "array"
+          ],
+          "resolution_state": [
+            "string"
+          ],
+          "role": [
+            "string"
+          ],
+          "source_snapshot_id": [
+            "string"
+          ],
+          "target_availability": [
+            "string"
+          ],
+          "target_key": [
+            "object"
+          ],
+          "target_record_id": [
+            "null"
+          ],
+          "target_snapshot_id": [
+            "null"
+          ],
+          "task_requirement": [
+            "null"
+          ]
+        }
+      },
+      {
+        "type": "SOURCE_LABEL_RELATION",
+        "allowed_endpoints": [
+          [
+            "ProductLabel",
+            "ProductLabel"
+          ]
+        ],
+        "allowed_properties": {
+          "content_status": [
+            "string"
+          ],
+          "contract_version": [
+            "string"
+          ],
+          "evidence_ids": [
+            "array"
+          ],
+          "id": [
+            "string"
+          ],
+          "identifier_state": [
+            "string"
+          ],
+          "identity_equivalence": [
+            "boolean"
+          ],
+          "original_reference": [
+            "number"
+          ],
+          "reason_codes": [
+            "array"
+          ],
+          "resolution_state": [
+            "string"
+          ],
+          "role": [
+            "string"
+          ],
+          "source_snapshot_id": [
+            "string"
+          ],
+          "target_availability": [
+            "string"
+          ],
+          "target_key": [
+            "object"
+          ],
+          "target_record_id": [
+            "string"
+          ],
+          "target_snapshot_id": [
+            "string"
+          ],
+          "task_requirement": [
+            "null"
+          ]
+        }
+      },
+      {
+        "type": "SUPPORTED_BY_EXCERPT",
+        "allowed_endpoints": [
+          [
+            "ClinicalClaim",
+            "SourceExcerpt"
+          ]
+        ],
+        "allowed_properties": {
+          "support": [
+            "string"
+          ]
+        }
+      }
+    ],
+    "semantics": {
+      "properties_json": "Parse nested JSON; source values and qualifiers remain attached to their records.",
+      "evidence_ids": "JSON array of IDs resolved in provenance/evidence.jsonl.",
+      "confidence": "High/Medium/Low applies to the stated mapping relation; not a statistical probability or medical confidence.",
+      "clinical_review": "All ClinicalClaim nodes remain pending with clinical_approval=false.",
+      "denotes_concept": "General concept link, not exact material, branded formulation or clinical equivalence.",
+      "navigation": "Topic mentions do not establish ingredient identity or product applicability.",
+      "reddit": "Direct mentions and inherited thread context remain distinct."
+    }
+  },
+  "semantic_constraints": [
+    "Evidence IDs must resolve; IDs unique and edge endpoints present.",
+    "Concept denotation, exact material matching, category relations and topic navigation are not interchangeable.",
+    "Mapping edges require High confidence and a mapping ID; confidence is not clinical approval.",
+    "Source-specific identities and quantities are retained; no automatic canonical product merge.",
+    "Reddit is user_report evidence; unknown source context is not inferred.",
+    "ClinicalClaim nodes in this frozen snapshot retain pending review and clinical_approval=false.",
+    "ExternalRecordReference is not a loaded domain record."
+  ],
+  "limitations": [
+    "Retrospective adoption of observed upper vocabulary does not independently prove its scientific adequacy.",
+    "This profile does not establish clinical correctness, complete source coverage, general-question answerability or end-to-end retrieval quality.",
+    "This specification does not mutate the frozen KG, raw data, mapping decisions or review states."
+  ]
+}
