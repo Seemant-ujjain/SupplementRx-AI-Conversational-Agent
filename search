@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Search the supplement evidence. No arguments opens a prompt; see ./search --help
+here="$(cd "$(dirname "$0")" && pwd)"
+python="$here/supplementsrx_env/bin/python"
+if [ ! -x "$python" ] || ! ls "$here"/data/embeddings/*/manifest.json >/dev/null 2>&1; then
+  echo "Search is not set up on this computer yet. Run: $here/setup.sh" >&2
+  exit 1
+fi
+exec "$python" "$here/scripts/search.py" "$@"
