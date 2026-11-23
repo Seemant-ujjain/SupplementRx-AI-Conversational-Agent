@@ -2,7 +2,69 @@
 
 The POC graph is constructed for the ten supplement categories: Magnesium, Vitamin D, Ashwagandha, Melatonin, Omega-3, Vitamin B12, Iron, Turmeric, Probiotics and Creatine. It combines DSLD, PubChem, RxNorm, MeSH, NatMed and Reddit.
 
-**Latest graph: [full-graph-concepts-v1-08c99550a0fa0f86aca9](data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9/).** It contains **35,998 nodes, 74,122 relationships, 16 node types and 33 relationship types**. It has not yet been imported into Neo4j; embeddings and the conversational answering system remain future work.
+**Latest graph: [full-graph-concepts-v1-08c99550a0fa0f86aca9](data/graph/full-graph-concepts-v1-08c99550a0fa0f86aca9/).** It contains **35,998 nodes, 74,122 relationships, 16 node types and 33 relationship types**. It has not yet been imported into Neo4j; [keyword and semantic search](#search-the-evidence) is available locally; the conversational answering system remains future work.
+
+## Search the evidence
+
+**Steps for a new computer (macOS/Linux)**
+
+1. Install Python 3.12 (macOS: `brew install python@3.12`). Have about 4 GB free.
+2. Get the code:
+
+   ```sh
+   git clone https://github.com/Seemant-ujjain/SupplementRx-AI-Conversational-Agent.git
+   cd SupplementRx-AI-Conversational-Agent
+   ```
+
+   Already cloned? Run `git pull` inside the folder instead.
+3. Set up once. This installs the libraries, prepares the text, downloads the MedCPT models (about 1.6 GB on disk) and builds the indexes. It took 12 minutes on an M4 Mac; expect longer without a GPU. It is safe to rerun if interrupted.
+
+   ```sh
+   ./setup.sh
+   ```
+
+4. Search:
+
+   ```sh
+   ./search
+   ```
+
+5. Check that it works: type `melatonin for jet lag`. The first NatMed result should be `Melatonin | effectiveness | Jet lag…` with a strong match. Type `:quit` to leave.
+
+Other ways to search:
+
+```sh
+./search "can I take turmeric with warfarin"          # one question
+./search "melatonin for jet lag" --source natmed -k 5 # one source, five results
+./search --help                                       # every option
+```
+
+At the prompt: `:source natmed`, `:k 10`, `:full on`, `:compare`, `:scores on`, `:quit`.
+
+- **What it does:** finds source text with BM25 and MedCPT + FAISS, merges them with Reciprocal Rank Fusion, then reorders with the MedCPT cross-encoder. NatMed, DSLD and Reddit are searched separately. It does not generate answers or check safety.
+- **Match label:** strong (10 or more), moderate (0 to 10), weak (below 0). Rough guide to relevance only; it says nothing about medical truth and must not be used as a safety or abstention rule.
+- **Important results can rank below the top 3.** Use `-k 10`. Safety checks should read every interaction in the graph instead of relying on top results.
+- **After the graph or preparation code changes:** `rm -rf data/retrieval data/embeddings && ./setup.sh`. Both folders are generated, contain licensed NatMed text, and are git-ignored; do not commit them.
+- **"Search is not set up on this computer yet":** run `./setup.sh`. **"Permission denied":** run `chmod +x search setup.sh`.
+- **Windows (not tested):** use WSL and the steps above, or run these natively after step 2:
+
+```bat
+py -3.12 -m venv supplementsrx_env
+supplementsrx_env\Scripts\python -m pip install -r requirements-search.txt
+supplementsrx_env\Scripts\python scripts\prepare_indexing_inputs.py
+supplementsrx_env\Scripts\python scripts\build_search_index.py
+supplementsrx_env\Scripts\python scripts\search.py
+```
+
+Code: `scripts/prepare_indexing_inputs.py` and `scripts/prepare_terminology_lookup.py` (prepare text), `scripts/build_search_index.py` (indexes), `scripts/retrieval.py` (search methods), `scripts/search.py` (command line).
+
+**Known limitations**
+
+- The KG has no drug vocabulary (warfarin, metformin and the other drug names tried have no lookup entry), so drug matching for safety checks needs another source. Warnings are still findable as text.
+- Headings come from claims still pending review, and many passages start or end mid-sentence. Read `prev_chunk_id` / `next_chunk_id` before quoting a rating.
+- Reddit: usernames are redacted, but other personal details are possible. `topics_inherited` comes from the thread, so do not use it as a filter. Do not show Reddit permalinks to users.
+- Many DSLD entries are off-market products (flagged, still searchable). Cite the label ID.
+- AI agents reviewed examples from each source; no person has yet, and none of this is clinical review.
 
 ## Files to use
 
@@ -84,7 +146,9 @@ The graph's `input_manifest.json` records historical build lineage. Some build-t
 - Louvain is a separate broad-query experiment. Question-aware R-GCN ranking is an optional extension requiring checked training preferences and comparison against text/evidence baselines.
 - Further mappings can be addressed when evaluation identifies consequential gaps; no complete manual resolution of the pending pool is required before the POC.
 
-## Planned embedding stage — not yet implemented
+## Embedding stage — design notes
+
+Implemented for NatMed, DSLD and Reddit text (see [Search the evidence](#search-the-evidence)). The formal retrieval evaluation, entity linking and Neo4j retrieval described below are not.
 
 **First build text embeddings for evidence retrieval.** These are different from learned GNN/RGCN representations. Use the pretrained [MedCPT query encoder, article encoder and cross-encoder](https://github.com/ncbi/MedCPT) according to their intended roles; pin model revisions and evaluate on our supplement corpus before choosing final settings. No model fine-tuning is required for the initial retrieval experiment.
 

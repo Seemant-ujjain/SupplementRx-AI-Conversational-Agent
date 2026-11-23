@@ -1,0 +1,6 @@
+# Python 3.12; used by prepare_indexing_inputs.py, build_search_index.py and search.py
+tokenizers==0.22.2
+transformers==4.57.6
+torch==2.15.0
+faiss-cpu==1.16.0
+numpy==2.5.5

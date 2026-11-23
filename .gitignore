@@ -3,3 +3,6 @@ supplementsrx_env/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+.cache/
+data/retrieval/
+data/embeddings/
